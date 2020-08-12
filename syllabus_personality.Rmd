@@ -36,7 +36,7 @@ header-includes:
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(cache=FALSE, dev='pdf')
-mon <- as.Date("2020-01-13")
+mon <- as.Date("2020-08-24")
 cache=F
 number_of_classes=29
 number_of_weeks=16
@@ -103,16 +103,6 @@ topic=c(
 ```
 
 
-# COVID-19 Revision
-The dates in this document reflect the intended timing of this class. However, courses during the 2020 Spring Semester at Wake Forest were disrupted and moved online. The same material was covered as any other iteration of this class, however, it became self-paced. The following assessments are self-paced, and the final test can be dropped just the same as any other test.
-
-- Test 2: Friday, Original `r advdate(mon, 10, assignment="f")` -- revised to April 29th (4/29).
-
-- Test 3: During Finals Week, 9 am on May 2nd -- Still Due May 2nd
-
-- Assignment 2: Friday, `r advdate(mon, 12, assignment="f")`: Critique of a personality-related media article -- revised 4/29.
-
-- Assignment 3: Wednesday, `r advdate(mon, 16, assignment="w")`: Critique of a personality-related video -- revised 4/29.
 
 # Course Description
 
