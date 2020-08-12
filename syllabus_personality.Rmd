@@ -1,7 +1,7 @@
 ---
 output: 
   pdf_document:
-    keep_tex: yes
+    keep_tex: no
     fig_caption: yes
     latex_engine: pdflatex
     template: ./common/style/svm-latex-syllabus.tex
@@ -18,10 +18,10 @@ author: S. Mason Garrison
 email: "GarrisSM@wfu.edu"
 
 
-officehours: "M 10a-11a & R 11a-12p & by appointment"
-office: "GREENE 438"
+officehours: "By appointment via https://calendly.com/smasongarrison/"
+office: "GREENE 438/ Zoom"
 
-classroom: "GREENE 308"
+classroom: "GREENE XXX"
 classhours: "MWF 9:00a-9:50a"
 
 
@@ -106,7 +106,7 @@ topic=c(
 
 # Course Description
 
-This class provides a survey of theory and research on the structure and function of human personality, with attention to the relationship to cognition, emotion, motivation, and behavior. P-PSY 151. (D) In addition, we will discuss other individual differences, such as intelligence.
+This class provides a survey of theory and research on the structure and function of human personality, with attention to the relationship to cognition, emotion, motivation, and behavior. It requires P-PSY 151. In addition, we will discuss other individual differences, such as intelligence.
 
 To do well in the course, you should read the assigned material before class and re-read previously assigned material as the course progresses. By reading the text before class you will be better prepared to ask questions and integrate the content of lectures with what was presented in the text. Also be sure to attend all lectures and arrive on time. Each topic builds directly on the previous one. Thus, if you miss one lecture, you run the risk of being completely lost in the next lecture.
 
@@ -129,8 +129,7 @@ bib[sort(c("funder_personality_2016"))]
 The text [@funder_personality_2016] is intended to supplement the lectures. The lectures don't follow the order of chapters in the text and the text covers some material that won't be covered in the lectures, i.e., not all the information in each chapter is perfectly pertinent to the course requirements.
 
 
-
-# Course Policies
+# Course Assignments
 
 ## Exams 
 There will be 3 exams in this course.  The best 2 out of 3 exam grades will be used to determine your total exam grade.  You can drop any of the exams for any reason BUT YOU MUST PASS THE LAST EXAM (held at 9 am on May 2nd).  If you do not pass the final exam, your score on that exam will count as one of your 2 grades. If you do pass the final exam, then the best 2 grades will be used (irrespective of your score on the final exam).
@@ -168,55 +167,17 @@ Typically an A- is defined as 90% of the highest point total in the class, B- as
 
 - 200 points of your grade will be determined by your best two exams.
     - The final is not optional.
-- 30 points of your grade will be determined by your attendance and participation in class. Generally, ask questions and answer them.
-- 70 points of your grade will be determined by your best two short assignments.
+- 50 points of your grade will be determined by your attendance and participation in engagement activities. Generally, ask questions and answer them.
+- 100 points of your grade will be determined by your best two short assignments.
 
 
-## Class Presence and Participation.
+# Course Policies
 
-Class presence and participation points are given to encourage your active class participation and discussion. You will be rewarded with a perfect score as long as you frequently come to class and actively contribute to the class discussion. 
-
-Although not required, most students send their professor a brief e-mail to explain their absence in advance. Students who repeatedly arrive late to the lecture or recitation will have their Class Participation grade lowered. I reserve the right to fail any student who misses more than five class periods. The student who misses a class meeting is responsible for any assignments and/or announcements made.
-
-
-### Excused absences
-
-I recognize that occasions arise during the academic year that merit the excused absence of a student from a scheduled class during which a graded exercise is given. Examples include participation in sponsored university activities (e.g., debate team, varsity sports), observance of officially designated religious holidays, serious personal problems (e.g., serious illness, death of a member of the student's family), and matters relating to the student's academic training (e.g., graduate or professional school interviews). Conflicts arising from personal travel plans or social obligations do not qualify as excused absences, unless those commitments were set before this course began. If that is the case, please let me know within the first **two weeks** of class.
-
-Except in the case of true emergencies, a possible excused absence should be discussed with me as far in advance as possible - you should not assume that an excused absence will automatically be granted. This discussion should occur via email. If you also discuss your situation verbally, please send a summary of the discussion via email to me.  An unexcused absence will result in a zero for any graded work that should have been performed for or during the missed class.  
-
-
-## Academic Dishonesty Policy
-
-All work submitted for credit must be the student’s own and is subject to the provisions of the Wake Forest Honor Code. Details can be found at the Student Conduct web site:
-[studentconduct. wfu.edu/honor-system-wfu](https://studentconduct.wfu.edu/honor-system-wfu/).
-
-
-## Accommodations Policy
-
-If you are (or become) learning, sensory, or physically disabled, and need special course accommodations in class, reading, or any other work in this course, please contact me to discuss your specific needs as soon as possible. Students who need reasonable accommodations for disabilities also should contact the Learning Assistance Center \& Disability Services [lac.wfu.edu](https://lac.wfu.edu/).
-
-
-# Classroom Climate
-
-I aim to create a learning environment for my students that supports a diversity of thoughts, perspectives, and experiences, and honors your identities (including race, gender, class, sexuality, religion, ability, political affiliation, etc.) To help accomplish this:
-
-- If you have a name and/or set of pronouns that differ from those that appear in your official records, please let me know!
-
-- If you feel like your performance in the class is being impacted by your experiences outside of class, please don't hesitate to come and talk with me. I want to be a resource for you. Remember that you can also submit anonymous feedback (which will lead to me making a general announcement to the class, if necessary to address your concerns).
-
-- I (like many people) am still in the process of learning about diverse perspectives and identities. If something was said in class (by anyone) that made you feel uncomfortable, please talk to me about it. (Again, anonymous feedback is always an option).
-
-
-## Department Statement
-The Psychology Department values, respects, and celebrates the experiences, beliefs, and practices stemming from varied cultures and circumstances (emphasizing, but not limited to, those from historically underrepresented groups), and our deep commitment to diversity, equity, and inclusion plays out through coursework, programming by majors, and research. 
-
-
-# Tentative Class Schedule
-
-This syllabus is intended to give the student guidance in what may be covered during the semester and will be followed as closely as possible. Dates for tests and assignments won't change, barring extraordinary events. However, I reserve the right to modify, supplement and make changes as the course needs arise. I try to avoid changes to the syllabus. Nevertheless, if changes occur, they will always be advantageous to the students.
-
-
+```{r child = './common/content/policies.Rmd'}
+```
+<!---
+Schedule
+-->
 
 ## `r advdate(mon, 1, topic)`
 - Monday: First Day of Class / Introduction
