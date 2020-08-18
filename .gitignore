@@ -37,3 +37,4 @@ vignettes/*.pdf
 .Rproj.user
 *.aux
 syllabus_personality.tex
+syllabus_personality.out

@@ -1,15 +1,24 @@
 ## Class Presence and Participation.
 
-Class presence and participation points are given to encourage your active class participation and discussion. You will be rewarded with a perfect score as long as you frequently come to class and actively contribute to the class discussion. 
+In previous semesters, I have had a deliberately hardline attendance policy. In the light of the public health crisis, I have done away with the this policy as it doesn't align with my general philosophy of treating students as junior colleagues.
+
+Class presence and participation points are given to encourage your active engagement with the material. You will be rewarded with a perfect score as long as you engage meaningfully with the material and your peers.
+
+
+<!---
 
 Although not required, most students send their professor a brief e-mail to explain their absence in advance. Students who repeatedly arrive late to the lecture or recitation will have their Class Participation grade lowered. I reserve the right to fail any student who misses more than five class periods. The student who misses a class meeting is responsible for any assignments and/or announcements made.
 
+-->
 ### Excused absences
 
-I recognize that occasions arise during the academic year that merit the excused absence of a student from a scheduled class during which a graded exercise is given. Examples include participation in sponsored university activities (e.g., debate team, varsity sports), observance of officially designated religious holidays, serious personal problems (e.g., serious illness, death of a member of the student's family), and matters relating to the student's academic training (e.g., graduate or professional school interviews). Conflicts arising from personal travel plans or social obligations do not qualify as excused absences, unless those commitments were set before this course began. If that is the case, please let me know within the first **two weeks** of class.
 
-Except in the case of true emergencies, a possible excused absence should be discussed with me as far in advance as possible - you should not assume that an excused absence will automatically be granted. This discussion should occur via email. If you also discuss your situation verbally, please send a summary of the discussion via email to me.  An unexcused absence will result in a zero for any graded work that should have been performed for or during the missed class.  
+As a reasonable and empathetic human, I recognize that life happens. There will be times when your outside life conflicts with scheduled class events. These life events can be any of the obvious things (sports, religious holidays, illness, interviews, etc), but they can also be the less obvious, like spending the entire night looking for your lost pet. My general approach is to work with you. You just need to let me know -- ideally ahead of time. 
+<!---
+that occasions arise during the academic year that merit the excused absence of a student from a scheduled class during which a graded exercise is given. Examples include participation in sponsored university activities (e.g., debate team, varsity sports), observance of officially designated religious holidays, serious personal problems (e.g., serious illness, death of a member of the student's family), and matters relating to the student's academic training (e.g., graduate or professional school interviews). Conflicts arising from personal travel plans or social obligations do not qualify as excused absences, unless those commitments were set before this course began. If that is the case, please let me know within the first **two weeks** of class.
+-->
 
+Except in the case of true emergencies, a possible excused absence should be discussed with me as far in advance as possible and must occur beforehand. You should not assume that an excused absence will automatically be granted -- but you may assume that I am a reasonable, empathetic person. This discussion should occur via email. If you also discuss your situation verbally, please send a summary of the discussion via email to me.  An unexcused absence will result in a zero for any graded work that should have been performed for or during the missed class. 
 
 ## Academic Dishonesty Policy
 
@@ -20,8 +29,12 @@ All work submitted for credit must be the student’s own and is subject to the 
 ## Accommodations Policy
 
 
-If you are (or become) learning, sensory, or physically disabled, and need accommodations in class, reading, or any other work in this course, please contact me to discuss your specific needs as soon as possible. Students who need reasonable accommodations for disabilities also should contact the Learning Assistance Center \& Disability Services [lac.wfu.edu](https://lac.wfu.edu/).
+If you are (or become) disabled (in any capacity, permanently, or temporarily), and need accommodations in class, reading, or any other work in this course, please contact me to discuss your specific needs as soon as possible. Students who need reasonable accommodations for disabilities also should contact the Learning Assistance Center \& Disability Services [lac.wfu.edu](https://lac.wfu.edu/). 
 
+# Public Health in the age of COVID-19
+
+```{r child = './covid.Rmd'}
+```
 
 # Classroom Climate
 
@@ -36,6 +49,7 @@ I aim to create a learning environment for my students that supports a diversity
 
 ## Department Statement
 The Psychology Department values, respects, and celebrates the experiences, beliefs, and practices stemming from varied cultures and circumstances (emphasizing, but not limited to, those from historically underrepresented groups), and our deep commitment to diversity, equity, and inclusion plays out through coursework, programming by majors, and research. 
+
 
 
 # Tentative Class Schedule

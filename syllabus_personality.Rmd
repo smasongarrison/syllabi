@@ -108,7 +108,8 @@ topic=c(
 
 This class provides a survey of theory and research on the structure and function of human personality, with attention to the relationship to cognition, emotion, motivation, and behavior. It requires P-PSY 151. In addition, we will discuss other individual differences, such as intelligence.
 
-To do well in the course, you should read the assigned material before class and re-read previously assigned material as the course progresses. By reading the text before class you will be better prepared to ask questions and integrate the content of lectures with what was presented in the text. Also be sure to attend all lectures and arrive on time. Each topic builds directly on the previous one. Thus, if you miss one lecture, you run the risk of being completely lost in the next lecture.
+```{r child = './common/content/doingwell_irl.Rmd'}
+```
 
 
 ## Broad goals for the course:
@@ -176,11 +177,13 @@ The best two (2) out of three (3) short assignments will be used to determine yo
 
 ```{r child = './common/content/policies.Rmd'}
 ```
+
 <!---
 Schedule
 -->
 
 ## `r advdate(mon, 1, topic)`
+
 - Monday: First Day of Class / Introduction
 - Wednesday: What is personality? (Chapter 1)
 - Friday: Research in Personality: Sources of Data (Chapter 2)
