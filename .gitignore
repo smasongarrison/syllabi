@@ -38,3 +38,4 @@ vignettes/*.pdf
 *.aux
 syllabus_personality.tex
 syllabus_personality.out
+*.log

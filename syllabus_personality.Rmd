@@ -18,22 +18,30 @@ author: S. Mason Garrison
 email: "GarrisSM@wfu.edu"
 
 
-officehours: "By appointment via https://calendly.com/smasongarrison/"
-office: "GREENE 438/ Zoom"
+officehours: By Appointment via \href{https://calendly.com/smasongarrison/}{\tt calendly.com/smasongarrison/}
+office: "GREENE 438"
 
-classroom: "GREENE XXX"
-classhours: "MWF 9:00a-9:50a"
+officev: Zoom \href{https://wakeforest-university.zoom.us/my/smasongarrison}{\tt wakeforest-university.zoom.us/my/smasongarrison}
 
+sectionA: A
+sectionB: B
+classroomA: GREENE 160
+classhoursA: "M or W or F @ 9:00a-9:50a"
+classdeliveryA: "Blended"
+classroomB: Canvas
+classdeliveryB: "Asynchronous"
 
-
+weburl: https://wakeforest.instructure.com/courses/17546
+webname: "wakeforest.instructure.com/courses/17546"
 fontfamily: mathpazo
 fontsize: 11pt
 header-includes:
    - \linespread{1.05}
 ---
-
-
-
+<!-- 
+classroom: "GREENE 160"
+classhours: "MWF 9:00a-9:50a"
+--> 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(cache=FALSE, dev='pdf')
 mon <- as.Date("2020-08-24")
