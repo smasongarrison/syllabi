@@ -17,11 +17,13 @@ date: '`r format(Sys.time(), "%B %d, %Y")`'
 author: S. Mason Garrison
 email: "GarrisSM@wfu.edu"
 
+TA: Lindley Slipetz
+taemail: "sliplr19@wfu.edu "
 
-officehours: By Appointment via \href{https://calendly.com/smasongarrison/}{\tt calendly.com/smasongarrison/}
+
+officehours: By Appointment \href{https://calendly.com/smasongarrison/}{\small\tt calendly.com/smasongarrison}
 office: "GREENE 438"
-
-officev: Zoom \href{https://wakeforest-university.zoom.us/my/smasongarrison}{\tt wakeforest-university.zoom.us/my/smasongarrison}
+officev: Zoom \href{https://wakeforest-university.zoom.us/my/smasongarrison}{\tiny\tt wakeforest-university.zoom.us/my/smasongarrison}
 
 sectionA: A
 sectionB: B
@@ -30,9 +32,7 @@ classhoursA: "M or W or F @ 9:00a-9:50a"
 classdeliveryA: "Blended"
 classroomB: Canvas
 classdeliveryB: "Asynchronous"
-
-weburl: https://wakeforest.instructure.com/courses/17546
-webname: "wakeforest.instructure.com/courses/17546"
+web: \href{https://wakeforest.instructure.com/courses/17546}{\tt wakeforest.instructure.com/courses/17546} 
 fontfamily: mathpazo
 fontsize: 11pt
 header-includes:
@@ -41,13 +41,15 @@ header-includes:
 <!-- 
 classroom: "GREENE 160"
 classhours: "MWF 9:00a-9:50a"
+
+
 --> 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(cache=FALSE, dev='pdf')
 mon <- as.Date("2020-08-24")
 cache=F
 number_of_classes=29
-number_of_weeks=16
+number_of_weeks=15
 advdate <- function(obj, adv, topic = NULL,assignment=NULL) {
  tmon <- obj + 7*(adv-1)
  ttue <- obj + 1 + 7*(adv-1)
@@ -89,24 +91,28 @@ bib <- c(bib, as.BibEntry(citation()))
 bib[length(bib)]$key = "Rcite"
 
 
+
+
+
+
+
+
 topic=c(
   "Introduction and What is Personality", 
   "Research Design in Personality",
   "Personality Assessment and Testing Controversies",
-  "How do people differ? Trait Approach",
-  "Big Five & Test 1",
+  "How do people differ? Trait Approach (Assignment 1)",
+  "Big Five (Test 1)",
   "Biological and Genetic Approaches to Psychology", 
   "Evolutionary Psychology", 
-  "Personality over the Lifespan",
-  "Spring Break",
-#  "",
+  "Personality over the Lifespan",#  "Spring Break",#  "",
   "Personality Processes",
-  "The Self", 
+  "The Self  (Test 2)", 
   "Freud", 
-  "Positive Psychology", 
+  "Positive Psychology  (Assignment 2)", 
   "Cross-Cultural Psychology",
   "Personality and Health",
-  "Special Topics and Review"
+  "Special Topics (Assignment 3)" 
   )
 ```
 
@@ -141,7 +147,7 @@ The text [@funder_personality_2016] is intended to supplement the lectures. The 
 # Course Assignments
 
 ## Exams 
-There will be 3 exams in this course.  The best 2 out of 3 exam grades will be used to determine your total exam grade.  You can drop any of the exams for any reason BUT YOU MUST PASS THE LAST EXAM (held at 9 am on May 2nd).  If you do not pass the final exam, your score on that exam will count as one of your 2 grades. If you do pass the final exam, then the best 2 grades will be used (irrespective of your score on the final exam).
+There will be 3 exams in this course.  The best 2 out of 3 exam grades will be used to determine your total exam grade.  You can drop any of the exams for any reason BUT YOU MUST PASS THE LAST EXAM (held at TBD on Dec TBD).  If you do not pass the final exam, your score on that exam will count as one of your 2 grades. If you do pass the final exam, then the best 2 grades will be used (irrespective of your score on the final exam).
 
 
 ### Test Dates
@@ -150,7 +156,7 @@ There will be 3 exams in this course.  The best 2 out of 3 exam grades will be u
 
 - Test 2: Friday, `r advdate(mon, 10, assignment="f")`
 
-- Test 3: During Finals Week, 9 am on May 2nd
+- Test 3: During Finals Week
 
 
 ## Short Assignments 
@@ -166,7 +172,7 @@ The best two (2) out of three (3) short assignments will be used to determine yo
 
 - Assignment 2: Friday, `r advdate(mon, 12, assignment="f")`: Critique of a personality-related media article.
 
-- Assignment 3: Wednesday, `r advdate(mon, 16, assignment="w")`: Critique of a personality-related youtube video.
+- Assignment 3: Friday, `r advdate(mon, 15, assignment="f")`: Critique of a personality-related youtube video.
 
 
 
@@ -191,93 +197,94 @@ Schedule
 -->
 
 ## `r advdate(mon, 1, topic)`
-
+<!---
 - Monday: First Day of Class / Introduction
 - Wednesday: What is personality? (Chapter 1)
 - Friday: Research in Personality: Sources of Data (Chapter 2)
-
+-->
 ## `r advdate(mon, 2, topic)`
-
+<!---
 - Monday: NO CLASS MLK Day
 - Wednesday: Research Design: Validity (Chapter 2)
 - Friday: Research Design: Generalizability (Chapter 2; Short Assignment 1 Handed Out)
-
+-->
 ##  `r advdate(mon, 3, topic)` 
+<!---
 - Monday: Personality Assessment (Chapter 3)
 - Tuesday: "Last day to add full-term class"
 - Wednesday: Evaluation and Ethics (Chapter 3)
 - Friday: Person versus Situation (Chapter 4)
-
+-->
 
 ##  `r advdate(mon, 4, topic)`
-
+<!---
 - Monday: What are traits? What are the basic traits? (Chapter 4)
 - Wednesday: Personality Judgement (Chapter 5)
 - Friday: Using Personality Traits to Understand Behavior (Chapter 6; Assignment 1 Due)
-
+-->
 ##  `r advdate(mon, 5, topic)`
-
+<!---
 - Monday: Big Five (Chapter 6)
 - Wednesday: Review
 - Friday: Test 1
-
+-->
 ##  `r advdate(mon, 6, topic)`
-
+<!---
 - Monday: Brains (Chapter 8)
 - Wednesday: More Brains (Chapter 8)
 - Friday: Behavior Genetics (Chapter 9)
-
+-->
 ##  `r advdate(mon, 7, topic)` 
-
+<!---
 - Monday: Behavior Genetics (Chapter 9)
 - Wednesday: Evolutionary Psychology (Chapter 9)
 - Friday: Evolutionary Psychology (Chapter 9)
 
 ##  `r advdate(mon, 8, topic)`
-
+<!---
 - Monday: Personality over the Lifespan (Chapter 7)
 - Wednesday: Personality over the Lifespan (Chapter 7)
 - Friday: Personality Processes (Chapter 15)
-
+-->
 ##  `r advdate(mon, 9, topic)`
-
+<!---
 - Monday: No Class
 - Wednesday: No Class
 - Friday: No Class
-
+-->
 ##  `r advdate(mon, 10, topic)`
-
+<!---
 - Monday: Personality Processes (Chapter 15)
 - Wednesday: Review
 - Friday: Test 2
-
+-->
 ##  `r advdate(mon, 11, topic)`
-
+<!---
 - Monday: The Self (Chapter 16) Last day to drop with a grade of "W"
 - Wednesday: The Self (Chapter 16)
 - Friday:  Freud (Chapter 10) 
-
+-->
 ##  `r advdate(mon, 12, topic)`
-
+<!---
 - Monday: Freud (Chapter 10)
 - Wednesday: Freud (Chapter 10)
 - Friday: Neo-Freud (Chapter 11; Assignment 2 Due)
-
+-->
 ## `r advdate(mon, 13, topic)`
-
+<!---
 - Monday:  Neo-Freud (Chapter 11) 
 - Wednesday: Positive Psychology
 - Friday: Positive Psychology
-
+-->
 ##  `r advdate(mon, 14, topic)`
-
+<!---
 - Monday: Cross-Cultural Psychology
 - Wednesday: Cross-Cultural Psychology
 - Friday: Cross-Cultural Psychology
-
+-->
 
 ##  `r advdate(mon, 15, topic)`
-
+<!---
 - Monday: Personality and Physical Health
 - Wednesday: Personality and Mental Health
 - Friday: Personality Disorders
@@ -286,9 +293,9 @@ Schedule
 
 - Monday: Special Topics
 - Wednesday: Review; Assignment 3 Due; Last Day of Class
-
+-->
 ## Final Exam 
 
-- 9 am on May 2nd
+- TBD on DEC TBD
 
 # References
