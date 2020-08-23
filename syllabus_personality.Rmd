@@ -78,7 +78,7 @@ advdate <- function(obj, adv, topic = NULL,assignment=NULL) {
  return(tmp)
 }
 
-
+####
 #devtools::install_github("crsh/citr")
 library(tidyverse)
 library(citr)
