@@ -172,8 +172,11 @@ The best two (2) out of three (3) short assignments will be used to determine yo
 
 - Assignment 2: Friday, `r advdate(mon, 12, assignment="f")`: Critique of a personality-related media article.
 
-- Assignment 3: Friday, `r advdate(mon, 15, assignment="f")`: Critique of a personality-related youtube video.
+- Assignment 3: Friday, `r advdate(mon, 15, assignment="f")`: Critique of a personality-related YouTube video.
 
+## Engagement Activities
+
+There will be multiple engagement activities in this course. These activities will allow you engage with the material for each module. Details about the specific activities will be provided on canvas. Students must complete two activities per module. For students in the blended section, they can attend their weekly in-person session and count it as an engagement activity.
 
 
 ## Grading Policy
@@ -183,7 +186,10 @@ The best two (2) out of three (3) short assignments will be used to determine yo
 
 - 200 points of your grade will be determined by your best two exams.
     - The final is not optional.
-- 50 points of your grade will be determined by your attendance and participation in engagement activities. Generally, ask questions and answer them.
+- 50 points of your grade will be determined by completing engagement activities.
+<!---
+your attendance and participation in engagement activities. Generally, ask questions and answer them.
+-->
 - 100 points of your grade will be determined by your best two short assignments.
 
 
