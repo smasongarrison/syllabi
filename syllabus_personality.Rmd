@@ -103,9 +103,9 @@ topic=c(
   "Personality Assessment and Testing Controversies",
   "How do people differ? Trait Approach (Assignment 1)",
   "Big Five (Test 1)",
+  "Personality over the Lifespan",#  "Spring Break",#  "",
   "Biological and Genetic Approaches to Psychology", 
   "Evolutionary Psychology", 
-  "Personality over the Lifespan",#  "Spring Break",#  "",
   "Personality Processes",
   "The Self  (Test 2)", 
   "Freud", 
@@ -245,7 +245,7 @@ Schedule
 - Monday: Behavior Genetics (Chapter 9)
 - Wednesday: Evolutionary Psychology (Chapter 9)
 - Friday: Evolutionary Psychology (Chapter 9)
-
+-->
 ##  `r advdate(mon, 8, topic)`
 <!---
 - Monday: Personality over the Lifespan (Chapter 7)
