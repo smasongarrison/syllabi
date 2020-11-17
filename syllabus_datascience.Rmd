@@ -122,16 +122,20 @@ Data Science for Psychologists (DSP) introduces on the principles of data scienc
 
 
 ## Broad goals for the course:
-- 1. TBD
-- 2. TBD
-- 3. TBD
-
+- 1. Reproducibility;
+- 2. Replication;
+- 3. Robust Methods;
+- 4. Really Nice Visualization; and
+- 5. R.
 
 # Required Materials
 
-```{r, echo = FALSE, results="asis"} 
+```{r, echo = FALSE, results="asis", include=FALSE} 
 bib[sort(c("funder_personality_2016"))]
 ``` 
+
+Wickham and Grolemund's R for Data Science text (http://r4ds.had.co.nz/)
+
 
 
 ### How to use the required text:
@@ -154,9 +158,12 @@ You will give two presentations.  Your group will give a 15-20 minute presentati
 
 ## Book Review
 Graduate students will read two of the following, undergraduate students one of the following, and will write a one-page book review on each book read.  The first	(grad student) book report is due Monday, October 7.  The second (both grad and	UG is due December 2.  The books to choose from are:
-* Lee Wilkinson, The Grammar of Graphics
-* Edward Tufte, The Visual Display of Quantitative Information
-* Howard Wainer, Visual Revelations
+
+- Lee Wilkinson, The Grammar of Graphics
+
+- Edward Tufte, The Visual Display of Quantitative Information
+
+- Howard Wainer, Visual Revelations
 
 Book reports count for a total of 10\% of your grade (5\% each for grads, 10\% for	the one UG report).
 
@@ -175,22 +182,22 @@ The major semester projects (described on the separate hand-out) is a set of EDA
 
 ## Engagement Activities
 
-There will be multiple engagement activities in this course. These activities will allow you engage with the material for each module. Details about the specific activities will be provided on canvas. Students must complete two activities per module. For students in the blended section, they can attend their weekly in-person session and count it as an engagement activity.
+There will be multiple engagement activities in this course. These activities will allow you engage with the material for each module. Details about the specific activities will be provided on canvas. Students must complete one activity per module.
 
 
 ## Grading Policy
 
 ```{r child = './common/content/grading.Rmd'}
 ```
-
+<!---
 - 200 points of your grade will be determined by your best two exams.
     - The final is not optional.
 - 50 points of your grade will be determined by completing engagement activities.
-<!---
-your attendance and participation in engagement activities. Generally, ask questions and answer them.
--->
-- 100 points of your grade will be determined by your best two short assignments.
 
+your attendance and participation in engagement activities. Generally, ask questions and answer them.
+
+- 100 points of your grade will be determined by your best two short assignments.
+-->
 
 # Course Policies
 
