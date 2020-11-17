@@ -1,0 +1,306 @@
+---
+output: 
+  pdf_document:
+    keep_tex: no
+    fig_caption: yes
+    latex_engine: pdflatex
+    template: ./common/style/svm-latex-syllabus.tex
+    
+bibliography: library.bib
+
+geometry: margin=1in
+
+title: "PSY-703: Data Science for Psychologists"
+
+date: '`r format(Sys.time(), "%B %d, %Y")`'
+
+author: S. Mason Garrison
+email: "GarrisSM@wfu.edu"
+
+
+
+officehours: By Appointment \href{https://calendly.com/smasongarrison/}{\small\tt calendly.com/smasongarrison}
+office: "GREENE 438"
+officev: Zoom \href{https://wakeforest-university.zoom.us/my/smasongarrison}{\tiny\tt wakeforest-university.zoom.us/my/smasongarrison}
+
+sectionA: Monday
+sectionB: Friday
+classroomA: GREENE ###
+classhoursA: "M @ 9:30a-10:XXa"
+classdeliveryA: "Blended"
+classroomB: GREENE ###
+classdeliveryB: "Blended"
+classhoursB: "F @ 9:30a-10:XXa"
+canvas: \href{https://wakeforest.instructure.com/courses/XXX}{\tt wakeforest.instructure.com/courses/XXX}
+git: \href{https://github.com/R-Computing-Lab/DataScience4Psych}{\tt https://github.com/R-Computing-Lab/DataScience4Psych}
+fontfamily: mathpazo
+fontsize: 11pt
+header-includes:
+   - \linespread{1.05}
+---
+<!-- 
+classroom: "GREENE 160"
+classhours: "MWF 9:00a-9:50a"
+
+
+--> 
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(cache=FALSE, dev='pdf')
+mon <- as.Date("2020-08-24")
+cache=F
+number_of_classes=29
+number_of_weeks=15
+advdate <- function(obj, adv, topic = NULL,assignment=NULL) {
+ tmon <- obj + 7*(adv-1)
+ ttue <- obj + 1 + 7*(adv-1)
+ twed <- obj + 2 + 7*(adv-1)
+ tthu <- obj + 3 + 7*(adv-1)
+ tfri <- obj + 4 + 7*(adv-1)
+ tmon <- format(tmon, format="%m/%d")
+ ttue <- format(ttue, format="%m/%d")
+ twed <- format(twed, format="%m/%d")
+ tthu <- format(tthu, format="%m/%d")
+ tfri <- format(tfri, format="%m/%d")
+ zadv <- sprintf("%02d", adv)
+
+ if (is.null(topic)&is.null(assignment)){
+ tmp <- paste("Week ",zadv,sep='',", ", tmon," - ",tfri)
+ } else if(!is.null(assignment)){if(assignment %in% c("Friday","friday","f","fri")){
+  tmp <- paste0(tfri)
+ }else if(assignment %in% c("wednesday","Wednesday","w","wed","W")){
+  tmp <- paste0(twed)
+ } else if(assignment %in% c("monday","Monday","m")){
+  tmp <- paste0(tmon)
+ }
+ }
+ else{ 
+   tmp <- paste("Week ",zadv,sep='',", ", tmon," - ",tfri, " : ", topic[adv])}
+ return(tmp)
+}
+
+####
+#devtools::install_github("crsh/citr")
+library(tidyverse)
+#library(citr)
+library(RefManageR)
+
+
+
+bib <- ReadBib("library.bib")
+bib <- c(bib, as.BibEntry(citation()))
+bib[length(bib)]$key = "Rcite"
+
+
+
+topic=c(
+  "Introduction and What is Data Science", 
+  "Graphical Data Analysis",
+  "Graphical Masterpieces",
+  "Scatterplots and Correlations",
+  "Quiz 1",
+  "Exploratory Data Analysis",#  "Spring Break",#  "",
+  "Data Transformations", 
+  "Robustness and Resistence", 
+  "Replication",
+  "Quiz 2",
+  "Modern Data Science", 
+  "Archival Data", 
+  "Data mining and CART",
+  "Special Topics",
+  "Special Topics" 
+  )
+```
+
+
+
+# Course Description
+
+Data Science for Psychologists (DSP) introduces on the principles of data science, including data wrangling, modeling, visualization, and communication. In this class, we link those principles to psychological methods and open science practices by emphasizing exploratory analyses and description, rather than confirmatory analyses and prediction. We'll work our way thru Wickham and Grolemund's R for Data Science text (http://r4ds.had.co.nz/) and develop expertise in tidyverse (https://www.tidyverse.org/). This class emphasizes replication and reproducibility. DSP is a practical skilled-based class and should be useful to students aiming for academia as well as those interested in industry. Applications of these methods can be applied to a full range of psychological areas, including perception (e.g, eye-tracking data), neuroscience (e.g., visualizing neural networks), and individual differences (e.g., valence analysis).
+
+```{r child = './common/content/doingwell_irl.Rmd'}
+```
+
+
+## Broad goals for the course:
+- 1. TBD
+- 2. TBD
+- 3. TBD
+
+
+# Required Materials
+
+```{r, echo = FALSE, results="asis"} 
+bib[sort(c("funder_personality_2016"))]
+``` 
+
+
+### How to use the required text:
+
+The text is intended to supplement the lectures. The lectures don't follow the order of chapters in the text and the text covers some material that won't be covered in the lectures, i.e., not all the information in each chapter is perfectly pertinent to the course requirements.
+
+
+# Course Assignments
+You will be formally evaluated in five different ways.
+
+## Individual data Project
+
+You will turn in your individual data collection/data analysis projects on Wednesday, September 18.  These projects are described in a separate handout. This project will be worth 10% of your grade.
+
+## Quiz
+There will be two 30-minute quizzes over lecture material and readings (on September 25 and October 30).  These will be objective style quizzes.  Make-ups will only be given under extraordinary circumstances and by prior arrangement. Each quiz = 10% of your grade.
+
+## Presentations
+You will give two presentations.  Your group will give a 15-20 minute presentation of  its data analysis problem on November 11 or 13.  In addition, you will give a 15- minute individual presentation on November 13-20.  These presentations together count for 10\% of your grade (5\% each).  Each student will get an automatic 92 (i.e., a neutral A) if you give your presentations in a timely and well-prepared Fashion (i.e., no counting off for nervousness, for presentation quality, etc. -- this  is a chance to practice a formal presentation in a relatively pressure-free setting).
+
+## Book Review
+Graduate students will read two of the following, undergraduate students one of the following, and will write a one-page book review on each book read.  The first	(grad student) book report is due Monday, October 7.  The second (both grad and	UG is due December 2.  The books to choose from are:
+* Lee Wilkinson, The Grammar of Graphics
+* Edward Tufte, The Visual Display of Quantitative Information
+* Howard Wainer, Visual Revelations
+
+Book reports count for a total of 10\% of your grade (5\% each for grads, 10\% for	the one UG report).
+
+## Portfolio
+The major semester projects (described on the separate hand-out) is a set of EDA Projects, which you will summarize in an EDA Portfolio to be handed in on Wednesday, December 4, the last day of class.  Project = 50\% of your grade.
+
+
+
+### Quiz Dates
+
+- Quiz 1: Friday, `r advdate(mon, 5, assignment="f")`
+
+- Quiz 2: Friday, `r advdate(mon, 10, assignment="f")`
+
+
+
+## Engagement Activities
+
+There will be multiple engagement activities in this course. These activities will allow you engage with the material for each module. Details about the specific activities will be provided on canvas. Students must complete two activities per module. For students in the blended section, they can attend their weekly in-person session and count it as an engagement activity.
+
+
+## Grading Policy
+
+```{r child = './common/content/grading.Rmd'}
+```
+
+- 200 points of your grade will be determined by your best two exams.
+    - The final is not optional.
+- 50 points of your grade will be determined by completing engagement activities.
+<!---
+your attendance and participation in engagement activities. Generally, ask questions and answer them.
+-->
+- 100 points of your grade will be determined by your best two short assignments.
+
+
+# Course Policies
+
+```{r child = './common/content/policies.Rmd'}
+```
+
+<!---
+Schedule
+-->
+
+## `r advdate(mon, 1, topic)`
+<!---
+- Monday: First Day of Class / Introduction
+- Wednesday: What is personality? (Chapter 1)
+- Friday: Research in Personality: Sources of Data (Chapter 2)
+-->
+## `r advdate(mon, 2, topic)`
+<!---
+- Monday: NO CLASS MLK Day
+- Wednesday: Research Design: Validity (Chapter 2)
+- Friday: Research Design: Generalizability (Chapter 2; Short Assignment 1 Handed Out)
+-->
+##  `r advdate(mon, 3, topic)` 
+<!---
+- Monday: Personality Assessment (Chapter 3)
+- Tuesday: "Last day to add full-term class"
+- Wednesday: Evaluation and Ethics (Chapter 3)
+- Friday: Person versus Situation (Chapter 4)
+-->
+
+##  `r advdate(mon, 4, topic)`
+<!---
+- Monday: What are traits? What are the basic traits? (Chapter 4)
+- Wednesday: Personality Judgement (Chapter 5)
+- Friday: Using Personality Traits to Understand Behavior (Chapter 6; Assignment 1 Due)
+-->
+##  `r advdate(mon, 5, topic)`
+<!---
+- Monday: Big Five (Chapter 6)
+- Wednesday: Review
+- Friday: Test 1
+-->
+##  `r advdate(mon, 6, topic)`
+<!---
+- Monday: Brains (Chapter 8)
+- Wednesday: More Brains (Chapter 8)
+- Friday: Behavior Genetics (Chapter 9)
+-->
+##  `r advdate(mon, 7, topic)` 
+<!---
+- Monday: Behavior Genetics (Chapter 9)
+- Wednesday: Evolutionary Psychology (Chapter 9)
+- Friday: Evolutionary Psychology (Chapter 9)
+-->
+##  `r advdate(mon, 8, topic)`
+<!---
+- Monday: Personality over the Lifespan (Chapter 7)
+- Wednesday: Personality over the Lifespan (Chapter 7)
+- Friday: Personality Processes (Chapter 15)
+-->
+##  `r advdate(mon, 9, topic)`
+<!---
+- Monday: No Class
+- Wednesday: No Class
+- Friday: No Class
+-->
+##  `r advdate(mon, 10, topic)`
+<!---
+- Monday: Personality Processes (Chapter 15)
+- Wednesday: Review
+- Friday: Test 2
+-->
+##  `r advdate(mon, 11, topic)`
+<!---
+- Monday: The Self (Chapter 16) Last day to drop with a grade of "W"
+- Wednesday: The Self (Chapter 16)
+- Friday:  Freud (Chapter 10) 
+-->
+##  `r advdate(mon, 12, topic)`
+<!---
+- Monday: Freud (Chapter 10)
+- Wednesday: Freud (Chapter 10)
+- Friday: Neo-Freud (Chapter 11; Assignment 2 Due)
+-->
+## `r advdate(mon, 13, topic)`
+<!---
+- Monday:  Neo-Freud (Chapter 11) 
+- Wednesday: Positive Psychology
+- Friday: Positive Psychology
+-->
+##  `r advdate(mon, 14, topic)`
+<!---
+- Monday: Cross-Cultural Psychology
+- Wednesday: Cross-Cultural Psychology
+- Friday: Cross-Cultural Psychology
+-->
+
+##  `r advdate(mon, 15, topic)`
+<!---
+- Monday: Personality and Physical Health
+- Wednesday: Personality and Mental Health
+- Friday: Personality Disorders
+
+##  `r advdate(mon, 16, topic)` 
+
+- Monday: Special Topics
+- Wednesday: Review; Assignment 3 Due; Last Day of Class
+
+## Final Exam 
+
+- TBD on DEC TBD
+-->
+# References
