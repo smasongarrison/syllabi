@@ -1,0 +1,728 @@
+\documentclass[11pt,]{article}
+\usepackage[margin=1in]{geometry}
+\newcommand*{\authorfont}{\fontfamily{phv}\selectfont}
+\usepackage[]{mathpazo}
+\usepackage{abstract}
+\renewcommand{\abstractname}{}    % clear the title
+\renewcommand{\absnamepos}{empty} % originally center
+\newcommand{\blankline}{\quad\pagebreak[2]}
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\usepackage{longtable,booktabs}
+
+\usepackage{parskip}
+\usepackage{titlesec}
+\titlespacing\section{0pt}{12pt plus 4pt minus 2pt}{6pt plus 2pt minus 2pt}
+\titlespacing\subsection{0pt}{12pt plus 4pt minus 2pt}{6pt plus 2pt minus 2pt}
+
+\titleformat*{\subsubsection}{\normalsize\itshape}
+
+\usepackage{titling}
+\setlength{\droptitle}{-.25cm}
+
+%\setlength{\parindent}{0pt}
+%\setlength{\parskip}{6pt plus 2pt minus 1pt}
+%\setlength{\emergencystretch}{3em}  % prevent overfull lines
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\usepackage{lastpage}
+\renewcommand{\headrulewidth}{0.3pt}
+\renewcommand{\footrulewidth}{0.0pt}
+\lhead{}
+\chead{}
+\rhead{\footnotesize PSY 362. Psychological Testing -- November 22, 2020}
+\lfoot{}
+\cfoot{\small \thepage/\pageref*{LastPage}}
+\rfoot{}
+
+\fancypagestyle{firststyle}
+{
+\renewcommand{\headrulewidth}{0pt}%
+   \fancyhf{}
+   \fancyfoot[C]{\small \thepage/\pageref*{LastPage}}
+}
+
+%\def\labelitemi{--}
+%\usepackage{enumitem}
+%\setitemize[0]{leftmargin=25pt}
+%\setenumerate[0]{leftmargin=25pt}
+
+
+
+
+\makeatletter
+\@ifpackageloaded{hyperref}{}{%
+\ifxetex
+  \usepackage[setpagesize=false, % page size defined by xetex
+              unicode=false, % unicode breaks when used with xetex
+              xetex]{hyperref}
+\else
+  \usepackage[unicode=true]{hyperref}
+\fi
+}
+\@ifpackageloaded{color}{
+    \PassOptionsToPackage{usenames,dvipsnames}{color}
+}{%
+    \usepackage[usenames,dvipsnames]{color}
+}
+\makeatother
+\hypersetup{breaklinks=true,
+            bookmarks=true,
+            pdfauthor={ ()},
+             pdfkeywords = {},
+            pdftitle={PSY 362. Psychological Testing},
+            colorlinks=true,
+            citecolor=blue,
+            urlcolor=blue,
+            linkcolor=magenta,
+            pdfborder={0 0 0}}
+\urlstyle{same}  % don't use monospace font for urls
+
+
+\setcounter{secnumdepth}{0}
+
+\usepackage{color}
+\usepackage{fancyvrb}
+\newcommand{\VerbBar}{|}
+\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+% Add ',fontsize=\small' for more characters per line
+\usepackage{framed}
+\definecolor{shadecolor}{RGB}{248,248,248}
+\newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
+\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{#1}}
+\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\CharTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\StringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\ImportTok}[1]{#1}
+\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
+\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.81,0.36,0.00}{\textbf{#1}}}
+\newcommand{\BuiltInTok}[1]{#1}
+\newcommand{\ExtensionTok}[1]{#1}
+\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.77,0.63,0.00}{#1}}
+\newcommand{\RegionMarkerTok}[1]{#1}
+\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\AlertTok}[1]{\textcolor[rgb]{0.94,0.16,0.16}{#1}}
+\newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.64,0.00,0.00}{\textbf{#1}}}
+\newcommand{\NormalTok}[1]{#1}
+\usepackage{longtable}
+
+
+
+
+\usepackage{setspace}
+
+\title{PSY 362. Psychological Testing}
+\author{S. Mason Garrison}
+
+\date{November 22, 2020}
+
+
+\begin{document}
+
+		\maketitle
+	
+
+		\thispagestyle{firststyle}
+
+%	\thispagestyle{empty}
+
+
+\noindent \begin{tabular*}{\textwidth}{ @{\extracolsep{\fill}} lr @{\extracolsep{\fill}}}
+\hline\\
+    &  Class Room: Canvas
+%
+\\\hline\\
+%
+ Web: \href{https://wakeforest.instructure.com/courses/17546}{\tt wakeforest.instructure.com/courses/17546}&  \\ %wraps \url{} around any url
+ %wraps \url{} around any url
+ %wraps \url{} around any url
+&  \\
+Professor: S. Mason Garrison \\
+
+E-mail: \texttt{\href{mailto:GarrisSM@wfu.edu}{\nolinkurl{GarrisSM@wfu.edu}}}  \\
+
+WFU Office: GREENE 438   \\
+Virtual Office: Zoom
+\href{https://wakeforest-university.zoom.us/my/smasongarrison}{\tiny\tt wakeforest-university.zoom.us/my/smasongarrison}   \\
+Hours: By Appointment
+\href{https://calendly.com/smasongarrison/}{\small\tt calendly.com/smasongarrison}  \\
+
+
+	&  \\
+	\hline
+\end{tabular*}
+
+\vspace{2mm}
+
+\section{Course Description}\label{course-description}
+
+This course provides an overview of the development and nature of
+psychological tests with applications to school counseling, business,
+and clinical practice. The purpose of the course is to provide students
+with an understanding of the principles of measurement as applied to
+group standardized measures of achievement, special aptitude,
+intelligence, personality, interests and distress for use in counseling.
+Format will consist primarily of lectures along with group participation
+activities.
+
+To do well in the course, you should read the assigned material before
+class and re-read previously assigned material as the course progresses.
+By reading the text before class you will be better prepared to ask
+questions and integrate the content of lectures with what was presented
+in the text. For synchronous classes, be sure to attend all lectures and
+arrive on time. For asynchronous classes be sure to watch all the video
+lectures and don't leave them until the last minute. Each topic builds
+directly on the previous one. Thus, if you miss one lecture, you run the
+risk of being completely lost in the next lecture.
+
+In addition, many professors have implicit (\emph{i.e.}, unspoken)
+expectations for college classes. I'm going to explicitly state some of
+those unspoken expectations. I suspect that your other professors have
+similar expectations -- so this information will help you in your other
+classes.
+
+\begin{itemize}
+\tightlist
+\item
+  Read the syllabus.
+\item
+  Read all the class announcements.
+\item
+  Read the FAQ and post your questions about the class there.
+\item
+  Read and follow the instructions for each assignment.
+\item
+  Read your professor's comments on your submissions -- especially if
+  you did not get full credit on that submission.
+\item
+  Treat canvas messages like email.
+\item
+  Read and respond to canvas messages from your professor.
+\item
+  Before you send email your professor, try to answer the question
+  yourself by looking at the syllabus, reading the course FAQ, and
+  reading the assignment instructions.
+\item
+  Know when assignment deadlines are.
+\item
+  If you need additional time or flexibility on an assignment, you
+  communicate with your professor before the deadline passes. \#\#
+  Course Objectives:
+\item
+  To acquaint you with the fundamental vocabulary and logic of
+  psychological measurement and behavioral assessment.
+\item
+  To develop your capacity for critical judgment of the adequacy of
+  measures purported to assess behavior in the role of theory
+  development.
+\item
+  To acquaint you with some of the relevant literature in personality
+  assessment, psychometric theory and practice, and methods of observing
+  and measuring behavior.
+\item
+  To instill in you an appreciation of and an interest in the principles
+  and methods of psychometric theory in general and behavior assessment
+  in particular.
+\item
+  This course is not designed to make you into an accomplished
+  psychometist (one who gives tests) nor is it designed to make you a
+  skilled psychometrician (one who constructs tests), nor will it give
+  you ``hands on'' experience with psychometric computer programs.
+  Rather it is aimed to allow you to understand the fundamental
+  theoretical issues concerning both the psychometrist and the
+  psychometrician.
+\item
+  Because modern psychometrics and statistics may be done using open
+  source software such as R, examples will be presented in R.
+  Instructions for installing and using R for psychometrics are
+  available here.
+\end{itemize}
+
+\section{Materials}\label{materials}
+
+\subsection{Texts}\label{texts}
+
+\subsubsection{Required}\label{required}
+
+{[}1{]} A. Anastasi and A. Urbina. \emph{Psychological testing}. Upper
+Saddle River, New Jersey: Prentice-Hall, 1997. ISBN: 0-02-303020-8.
+
+\paragraph{How to use the required
+text:}\label{how-to-use-the-required-text}
+
+The text (Anastasi and Urbina 1997) is intended to supplement the
+lectures. The lectures don't follow the order of chapters in the text
+and the text covers some material that won't be covered in the lectures,
+i.e., not all the information in each chapter is perfectly pertinent to
+the course requirements.
+
+\section{Course Assignments}\label{course-assignments}
+
+\subsection{Tests}\label{tests}
+
+There will be X tests in this course. The best 2 out of 3 exam grades
+will be used to determine your total exam grade. You can drop any of the
+exams for any reason BUT YOU MUST PASS THE LAST EXAM (held at TBD on Dec
+TBD). If you do not pass the final exam, your score on that exam will
+count as one of your 2 grades. If you do pass the final exam, then the
+best 2 grades will be used (irrespective of your score on the final
+exam).
+
+\subsubsection{Test Dates}\label{test-dates}
+
+\begin{itemize}
+\item
+  Test 1: Friday, 09/25
+\item
+  Test 2: Friday, 10/30
+\item
+  Test 3: During Finals Week
+\end{itemize}
+
+\subsection{Short Assignments}\label{short-assignments}
+
+There will be three (3) short assignments in this course. These
+assignments will allow you to incorporate some of your own interests
+into the course. Such interests could be related to your career, another
+class you're taking, a hobby you're exploring, or some other random
+fancy. They will typically be approximately two (2) pages. I will
+provide more specific written guidelines at least two weeks before each
+assignment is due.
+
+The best two (2) out of three (3) short assignments will be used to
+determine your total short assignments. You can skip one of the
+assignments for any reason. \#\#\# Short Assignment Dates
+
+\begin{itemize}
+\item
+  Assignment 1: Friday, 09/18: Critique of an online personality test.
+\item
+  Assignment 2: Friday, 10/16: Critique of a personality-related media
+  article.
+\item
+  Assignment 3: Friday, 11/13: Critique of a personality-related YouTube
+  video.
+\end{itemize}
+
+\subsection{Engagement Activities}\label{engagement-activities}
+
+There will be multiple engagement activities in this course. These
+activities will allow you engage with the material for each module.
+Details about the specific activities will be provided on canvas.
+Students must complete two activities per module. For students in the
+blended section, they can attend their weekly in-person session and
+count it as an engagement activity.
+
+\subsection{Grading Policy}\label{grading-policy}
+
+Typically, an A- is defined as 90\% of the highest point total in the
+class, B- as 80\% of that total, C- as 70 and D- as 60\%. I may shift
+these values down to provide a better fit to the actual point
+distribution. By scaling to a percentage of the highest point total in
+the class, each student has a much better chance of receiving higher
+grades than if no re-scaling were done. This curve can only help your
+grade.
+
+The full table is provided below:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\NormalTok{curve_df=}\KeywordTok{data.frame}\NormalTok{(}\DataTypeTok{Letter=}\KeywordTok{c}\NormalTok{(}\StringTok{"A"}\NormalTok{,}\StringTok{"A-"}\NormalTok{,}\StringTok{"B+"}\NormalTok{,}\StringTok{"B"}\NormalTok{,}\StringTok{"B-"}\NormalTok{,}\StringTok{"C+"}\NormalTok{,}\StringTok{"C"}\NormalTok{,}\StringTok{"C-"}\NormalTok{,}\StringTok{"D+"}\NormalTok{,}\StringTok{"D"}\NormalTok{,}\StringTok{"D-"}\NormalTok{),}\DataTypeTok{Cutoff=}\KeywordTok{c}\NormalTok{(}\FloatTok{0.95}\NormalTok{,}\FloatTok{0.90}\NormalTok{,}\FloatTok{0.87}\NormalTok{,}\FloatTok{0.82}\NormalTok{,}\FloatTok{0.80}\NormalTok{,}\FloatTok{0.77}\NormalTok{,}\FloatTok{0.72}\NormalTok{,}\FloatTok{0.70}\NormalTok{,}\FloatTok{0.67}\NormalTok{,}\FloatTok{0.62}\NormalTok{,}\FloatTok{0.60}\NormalTok{))}
+
+\NormalTok{knitr}\OperatorTok{::}\KeywordTok{kable}\NormalTok{(}
+\NormalTok{  curve_df, }\DataTypeTok{caption =} \StringTok{'Full Table'}
+\NormalTok{)}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{longtable}[]{@{}lr@{}}
+\caption{Full Table}\tabularnewline
+\toprule
+Letter & Cutoff\tabularnewline
+\midrule
+\endfirsthead
+\toprule
+Letter & Cutoff\tabularnewline
+\midrule
+\endhead
+A & 0.95\tabularnewline
+A- & 0.90\tabularnewline
+B+ & 0.87\tabularnewline
+B & 0.82\tabularnewline
+B- & 0.80\tabularnewline
+C+ & 0.77\tabularnewline
+C & 0.72\tabularnewline
+C- & 0.70\tabularnewline
+D+ & 0.67\tabularnewline
+D & 0.62\tabularnewline
+D- & 0.60\tabularnewline
+\bottomrule
+\end{longtable}
+
+\section{Course Policies}\label{course-policies}
+
+\subsection{Grading Policy}\label{grading-policy-1}
+
+Typically an A- is defined as 90\% of the highest point total in the
+class, B- as 80\% of that total, C- as 70 and D- as 60\%. I may shift
+these values down to provide a better fit to the actual point
+distribution. By scaling to a \% of the highest point total in the
+class, each student has a much better chance of receiving higher grades
+than if no re-scaling were done.
+
+\begin{itemize}
+\tightlist
+\item
+  200 points of your grade will be determined by two (2) tests.
+\item
+  100 points of your grade will be determined by two (2) short
+  assignments.
+\item
+  50 points of your grade will be determined by your attendance and
+  participation in class. Generally, ask questions and answer them.
+\end{itemize}
+
+\subsubsection{Test Dates}\label{test-dates-1}
+
+\begin{itemize}
+\item
+  Test 1: Thursday, 10/13
+\item
+  Test 2: During Finals Week, TBD
+\end{itemize}
+
+\subsection{Short assignments}\label{short-assignments-1}
+
+There will be two (2) assignments in this course. I will provide more
+specific written guidelines at least two weeks before each assignment is
+due.
+
+\subsubsection{Short Assignment Dates}\label{short-assignment-dates}
+
+\begin{itemize}
+\item
+  Assignment 1: Tuesday, 10/06.
+\item
+  Assignment 2: Thursday, 11/17.
+\end{itemize}
+
+\subsection{Class Presence and
+Participation.}\label{class-presence-and-participation.}
+
+Class presence and participation points are given to encourage your
+active class participation and discussion. You will be rewarded with a
+perfect score as long as you frequently come to class and actively
+contribute to the class discussion during recitations and lectures.
+
+\subsubsection{Excused absences}\label{excused-absences}
+
+I recognize that occasions arise during the academic year that merit the
+excused absence of a student from a scheduled class or laboratory during
+which an examination, quiz, or other graded exercise is given. Examples
+include participation in sponsored university activities (e.g., debate
+team, varsity sports), observance of officially designated religious
+holidays, serious personal problems (e.g., serious illness, death of a
+member of the student's family), and matters relating to the student's
+academic training (e.g., graduate or professional school interviews).
+Conflicts arising from personal travel plans or social obligations do
+not qualify as excused absences.
+
+Except in the case of true emergencies, a possible excused absence
+should be discussed with me as far in advance as possible - you should
+not assume that an excused absence will automatically be granted. This
+discussion should occur via email. If you also discuss your situation
+verbally, please send a summary of the discussion via email to me. An
+unexcused absence will result in a zero for any graded work that should
+have been performed for or during the missed class.
+
+\subsection{Academic Dishonesty
+Policy}\label{academic-dishonesty-policy}
+
+All work submitted for credit must be the student's own and is subject
+to the provisions of the Wake Forest Honor Code. Details can be found at
+the Student Conduct web site:
+\href{https://studentconduct.wfu.edu/honor-system-wfu/}{studentconduct.
+wfu.edu/honor-system-wfu}.
+
+\subsection{Accommodations Policy}\label{accommodations-policy}
+
+If you are (or become) learning, sensory, or physically disabled, and
+need special course accommodations in class, reading, or any other work
+in this course, please contact me to discuss your specific needs as soon
+as possible. Students who need reasonable accommodations for
+disabilities also should contact the Learning Assistance Center \&
+Disability Services \href{https://lac.wfu.edu/}{lac.wfu.edu}.
+
+\section{Classroom Climate}\label{classroom-climate}
+
+I aim to create a learning environment for my students that supports a
+diversity of thoughts, perspectives, and experiences, and honors your
+identities (including race, gender, class, sexuality, religion, ability,
+political affiliation, etc.) To help accomplish this:
+
+\begin{itemize}
+\item
+  If you have a name and/or set of pronouns that differ from those that
+  appear in your official records, please let me know!
+\item
+  If you feel like your performance in the class is being impacted by
+  your experiences outside of class, please don't hesitate to come and
+  talk with me. I want to be a resource for you. Remember that you can
+  also submit anonymous feedback (which will lead to me making a general
+  announcement to the class, if necessary to address your concerns).
+\item
+  I (like many people) am still in the process of learning about diverse
+  perspectives and identities. If something was said in class (by
+  anyone) that made you feel uncomfortable, please talk to me about it.
+  (Again, anonymous feedback is always an option).
+\end{itemize}
+
+\subsection{Department Statement}\label{department-statement}
+
+The Psychology Department values, respects, and celebrates the
+experiences, beliefs, and practices stemming from varied cultures and
+circumstances (emphasizing, but not limited to, those from historically
+underrepresented groups), and our deep commitment to diversity, equity,
+and inclusion plays out through coursework, programming by majors, and
+research.
+
+\section{Tentative Class Schedule}\label{tentative-class-schedule}
+
+This syllabus is intended to give the student guidance in what may be
+covered during the semester and will be followed as closely as possible.
+However, I reserve the right to modify, supplement and make changes as
+the course needs arise.
+
+\subsection{Week 01, 08/24 - 08/28 :
+Introduction}\label{week-01-0824---0828-introduction}
+
+\begin{itemize}
+\tightlist
+\item
+  Tuesday: Chapter 1
+\item
+  Thursday: Chapter 2
+\end{itemize}
+
+\subsection{Week 02, 08/31 - 09/04 : Historical, Ethical, and Social
+Considerations in
+Testing}\label{week-02-0831---0904-historical-ethical-and-social-considerations-in-testing}
+
+\begin{itemize}
+\tightlist
+\item
+  Tuesday: Chapter 18
+\item
+  Thursday: Chapter 18
+\end{itemize}
+
+\subsection{Week 03, 09/07 - 09/11 : Norms and the Meaning of Test
+Scores}\label{week-03-0907---0911-norms-and-the-meaning-of-test-scores}
+
+\begin{itemize}
+\tightlist
+\item
+  Tuesday: Chapter 3 ``Last day to add full-term class''
+\item
+  Thursday: Chapter 3
+\end{itemize}
+
+\subsection{Week 04, 09/14 - 09/18 :
+Reliability}\label{week-04-0914---0918-reliability}
+
+\begin{itemize}
+\tightlist
+\item
+  Tuesday: Chapter 4
+\item
+  Thursday: Chapter 4
+\end{itemize}
+
+\subsection{Week 05, 09/21 - 09/25 :
+Validity}\label{week-05-0921---0925-validity}
+
+\begin{itemize}
+\tightlist
+\item
+  Tuesday: Chapter 5 + 6
+\item
+  Thursday: Chapter 5 + 6
+\end{itemize}
+
+\subsection{Week 06, 09/28 - 10/02 : More
+Validity}\label{week-06-0928---1002-more-validity}
+
+\begin{itemize}
+\tightlist
+\item
+  Tuesday: Chapter 6 ``Last day to drop full-term class''
+\item
+  Thursday: Chapter 9
+\end{itemize}
+
+\subsection{Week 07, 10/05 - 10/09 : Item
+Analysis}\label{week-07-1005---1009-item-analysis}
+
+\begin{itemize}
+\tightlist
+\item
+  Tuesday: Chapter 7 (Assignment 1 Due)
+\item
+  Thursday: Chapter 7
+\end{itemize}
+
+\subsection{Week 08, 10/12 - 10/16 : Test
+1}\label{week-08-1012---1016-test-1}
+
+\begin{itemize}
+\tightlist
+\item
+  Tuesday: Review
+\item
+  Thursday: Exam 1
+\end{itemize}
+
+\subsection{Week 09, 10/19 - 10/23 : Spring
+Break}\label{week-09-1019---1023-spring-break}
+
+\begin{itemize}
+\tightlist
+\item
+  Tuesday: No class
+\item
+  Thursday: No class
+\end{itemize}
+
+\subsection{Week 10, 10/26 - 10/30 : Individual
+Differences}\label{week-10-1026---1030-individual-differences}
+
+\begin{itemize}
+\tightlist
+\item
+  Tuesday: Selected readings
+\item
+  Thursday: Chapter 10
+\end{itemize}
+
+\subsection{Week 11, 11/02 - 11/06 : Ability
+Testing}\label{week-11-1102---1106-ability-testing}
+
+\begin{itemize}
+\tightlist
+\item
+  Monday: Last day to drop with a grade of ``W''
+\item
+  Tuesday: Chapter 11
+\item
+  Thursday: Chapter 12
+\end{itemize}
+
+\subsection{Week 12, 11/09 - 11/13 : Personality
+Testing}\label{week-12-1109---1113-personality-testing}
+
+\begin{itemize}
+\tightlist
+\item
+  Tuesday: Chapter 13
+\item
+  Thursday: Chapter 13
+\end{itemize}
+
+\subsection{Week 13, 11/16 - 11/20 : Measuring Interests and
+Attitudes}\label{week-13-1116---1120-measuring-interests-and-attitudes}
+
+\begin{itemize}
+\tightlist
+\item
+  Tuesday: Chapter 14
+\item
+  Thursday: Chapter 14 (Assignment 2 Due)
+\end{itemize}
+
+\subsection{Week 14, 11/23 - 11/27 : Other Assessment
+Techniques}\label{week-14-1123---1127-other-assessment-techniques}
+
+\begin{itemize}
+\tightlist
+\item
+  Tuesday: Chapter 15
+\item
+  Thursday: Chapter 16
+\end{itemize}
+
+\subsection{Week 15, 11/30 - 12/04 : Modern Development and Applications
+of
+Testing}\label{week-15-1130---1204-modern-development-and-applications-of-testing}
+
+\begin{itemize}
+\tightlist
+\item
+  Tuesday: Supplemental reading
+\item
+  Thursday: Supplemental reading
+\end{itemize}
+
+\subsection{Week 16, 12/07 - 12/11 :
+Review}\label{week-16-1207---1211-review}
+
+\begin{itemize}
+\tightlist
+\item
+  Tuesday: Review
+\end{itemize}
+
+\subsection{Final Exam}\label{final-exam}
+
+\begin{itemize}
+\tightlist
+\item
+  TBD
+\end{itemize}
+
+\section*{References}\label{references}
+\addcontentsline{toc}{section}{References}
+
+\hypertarget{refs}{}
+\hypertarget{ref-anastasi1997}{}
+Anastasi, Anne, and A. Urbina. 1997. \emph{Psychological Testing}. Upper
+Saddle River, New Jersey: Prentice-Hall.
+
+
+
+
+
+\end{document}
+
+\makeatletter
+\def\@maketitle{%
+  \newpage
+%  \null
+%  \vskip 2em%
+%  \begin{center}%
+  \let \footnote \thanks
+    {\fontsize{18}{20}\selectfont\raggedright  \setlength{\parindent}{0pt} \@title \par}%
+}
+%\fi
+\makeatother

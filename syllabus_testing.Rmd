@@ -59,8 +59,12 @@ advdate <- function(obj, adv, topic = NULL,assignment=NULL) {
  tmp <- paste("Week ",zadv,sep='',", ", tmon," - ",tfri)
  } else if(!is.null(assignment)){if(assignment %in% c("Friday","friday","f","fri")){
   tmp <- paste0(tfri)
+ } else if(assignment %in% c("Tuesday","tues","t","Tue")){
+  tmp <- paste0(ttue)
  }else if(assignment %in% c("wednesday","Wednesday","w","wed","W")){
   tmp <- paste0(twed)
+ } else if(assignment %in% c("thursday","Thursday","thurs","r","R")){
+  tmp <- paste0(tthu)
  } else if(assignment %in% c("monday","Monday","m")){
   tmp <- paste0(tmon)
  }
@@ -187,7 +191,7 @@ Typically an A- is defined as 90% of the highest point total in the class, B- as
 
 ### Test Dates
 
-- Test 1: Thursday, `r advdate(mon, 8, assignment="R")`
+- Test 1: Thursday, `r advdate(mon, 8, assignment="t")`
 
 - Test 2: During Finals Week, TBD
 
@@ -200,7 +204,7 @@ There will be two (2) assignments in this course. I will provide more specific w
 
 - Assignment 1: Tuesday, `r advdate(mon, 7, assignment="t")`.
 
-- Assignment 2: Thursday, `r advdate(mon, 13, assignment="r")`.
+- Assignment 2: Thursday, `r advdate(mon, 13, assignment="t")`.
 
 
 

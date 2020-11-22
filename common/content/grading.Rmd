@@ -4,7 +4,7 @@ Typically, an A- is defined as 90% of the highest point total in the class, B- a
 The full table is provided below:
 ```{r}
 
-curve_df=data.frame(Letter=c("A","A-","B+","B","B-","C+","C","C-","D+","D","D-"),Cutoff=c(0.95,0.90,0.87,0.82,0.80,0.77,0.72,0.70,0.67,0.62,0.60)
+curve_df=data.frame(Letter=c("A","A-","B+","B","B-","C+","C","C-","D+","D","D-"),Cutoff=c(0.95,0.90,0.87,0.82,0.80,0.77,0.72,0.70,0.67,0.62,0.60))
 
 knitr::kable(
   curve_df, caption = 'Full Table'
