@@ -22,14 +22,24 @@ Except in the case of true emergencies, a possible excused absence should be dis
 
 ## Academic Dishonesty Policy
 
-All work submitted for credit must be the student’s own and is subject to the provisions of the Wake Forest Honor Code. Details can be found at the Student Conduct web site:
-[studentconduct. wfu.edu/honor-system-wfu](https://studentconduct.wfu.edu/honor-system-wfu/).
+All work submitted for credit must be the student's own and is subject to the provisions of the Wake Forest Honor Code. Details can be found at the Student Conduct web site:
+[studentconduct. wfu.edu/honor-system-wfu](https://studentconduct.wfu.edu/honor-system-wfu/). 
+
+Unless I have explicitly stated otherwise, every assessment is closed to outside resources (including, but not limited to books, notes, phones). Ignorance of the honor code and assignment instructions is not an acceptable explanation and/or defense.
+
+It is *ALWAYS* academic dishonesty to share test questions or to work together on tests. And frankly, it is really obvious in canvas when you work together. I literally wrote a \R program that checks for working together, using  non-parametric statistics.
+
+
+Violations of this policy result in a zero for the assignment. Additional penalties include a referral to honor council, a ban from all extra-credit assignments, and may no longer drop any assignments.
+
+For all written assignments in my class, students have access to their Turnitin report via canvas.  If you are uncertain if something violates the honor code or is plagarism, ask *in advance*.
+
 
 
 ## Accommodations Policy
 
 
-If you are (or become) disabled (in any capacity, permanently, or temporarily), and need accommodations in class, reading, or any other work in this course, please contact me to discuss your specific needs as soon as possible. Students who need reasonable accommodations for disabilities also should contact the Learning Assistance Center \& Disability Services [lac.wfu.edu](https://lac.wfu.edu/). 
+If you are (or become) disabled (in any capacity, permanently, or temporarily), and need accommodations in class, reading, or any other work in this course, please contact me to discuss your specific needs as soon as possible. Students who need reasonable accommodations for disabilities also should contact the Learning Assistance Center \& Disability Services [lac.wfu.edu](https://lac.wfu.edu/). These accommodations are not retroactive.
 
 # Public Health in the age of COVID-19
 
@@ -42,10 +52,9 @@ I aim to create a learning environment for my students that supports a diversity
 
 - If you have a name and/or set of pronouns that differ from those that appear in your official records, please let me know!
 
-- If you feel like your performance in the class is being impacted by your experiences outside of class, please don't hesitate to come and talk with me. I want to be a resource for you. Remember that you can also submit anonymous feedback (which will lead to me making a general announcement to the class, if necessary to address your concerns).
+- If you feel like your performance in the class is being impacted by your experiences outside of class, please don't hesitate to come and talk with me. I want to be a resource for you. 
 
-- I (like many people) am still in the process of learning about diverse perspectives and identities. If something was said in class (by anyone) that made you feel uncomfortable, please talk to me about it. (Again, anonymous feedback is always an option).
-
+- I (like many people) am still in the process of learning about diverse perspectives and identities. If something was said in class (by anyone) that made you feel uncomfortable, please talk to me about it. 
 
 ## Department Statement
 The Psychology Department values, respects, and celebrates the experiences, beliefs, and practices stemming from varied cultures and circumstances (emphasizing, but not limited to, those from historically underrepresented groups), and our deep commitment to diversity, equity, and inclusion plays out through coursework, programming by majors, and research. 
