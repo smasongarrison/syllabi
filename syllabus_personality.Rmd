@@ -9,6 +9,8 @@ output:
 bibliography: library.bib
 
 geometry: margin=1in
+fontfamily: mathpazo
+fontsize: 11pt
 
 title: "PSY-255: Personality"
 
@@ -33,8 +35,7 @@ classdeliveryA: "Blended"
 classroomB: Canvas
 classdeliveryB: "Asynchronous"
 web: \href{https://wakeforest.instructure.com/courses/17546}{\tt wakeforest.instructure.com/courses/17546} 
-fontfamily: mathpazo
-fontsize: 11pt
+
 header-includes:
    - \linespread{1.05}
 ---
