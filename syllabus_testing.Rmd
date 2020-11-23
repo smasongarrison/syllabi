@@ -26,7 +26,7 @@ officev: Zoom \href{https://wakeforest-university.zoom.us/my/smasongarrison}{\ti
 
 classroom: Canvas
 classdelivery: "Asynchronous"
-web: \href{https://wakeforest.instructure.com/courses/17546}{\tt wakeforest.instructure.com/courses/17546} 
+web: \href{https://wakeforest.instructure.com/courses/28913}{\tt wakeforest.instructure.com/courses/28913} 
 
 
 
