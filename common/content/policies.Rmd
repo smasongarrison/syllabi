@@ -10,15 +10,18 @@ Class presence and participation points are given to encourage your active engag
 Although not required, most students send their professor a brief e-mail to explain their absence in advance. Students who repeatedly arrive late to the lecture or recitation will have their Class Participation grade lowered. I reserve the right to fail any student who misses more than five class periods. The student who misses a class meeting is responsible for any assignments and/or announcements made.
 
 -->
-### Excused absences
+## Excused absences and extension policy
 
 
-As a reasonable and empathetic human, I recognize that life happens. There will be times when your outside life conflicts with scheduled class events. These life events can be any of the obvious things (sports, religious holidays, illness, interviews, etc), but they can also be the less obvious, like spending the entire night looking for your lost pet. My general approach is to work with you. You just need to let me know -- ideally ahead of time. 
+As a reasonable and empathetic human, I recognize that life happens. There will be times when your outside life conflicts with scheduled class events. These life events can be any of the obvious things (sports, religious holidays, illness, interviews, etc), but they can also be the less obvious, like spending the entire night looking for your lost pet. My general approach is to work with you. You just need to let me know ahead of time. 
 <!---
 that occasions arise during the academic year that merit the excused absence of a student from a scheduled class during which a graded exercise is given. Examples include participation in sponsored university activities (e.g., debate team, varsity sports), observance of officially designated religious holidays, serious personal problems (e.g., serious illness, death of a member of the student's family), and matters relating to the student's academic training (e.g., graduate or professional school interviews). Conflicts arising from personal travel plans or social obligations do not qualify as excused absences, unless those commitments were set before this course began. If that is the case, please let me know within the first **two weeks** of class.
 -->
 
 Except in the case of true emergencies, a possible excused absence should be discussed with me as far in advance as possible and must occur beforehand. You should not assume that an excused absence will automatically be granted -- but you may assume that I am a reasonable, empathetic person. This discussion should occur via email. If you also discuss your situation verbally, please send a summary of the discussion via email to me.  An unexcused absence will result in a zero for any graded work that should have been performed for or during the missed class. 
+
+
+
 
 ## Academic Dishonesty Policy
 
@@ -30,25 +33,31 @@ Unless I have explicitly stated otherwise, every assessment is closed to outside
 It is *ALWAYS* academic dishonesty to share test questions or to work together on tests. And frankly, it is really obvious in Canvas when you work together. I literally wrote a \R program that checks for working together, using a non-parametric statistical method.
 
 
-Violations of this policy result in a zero for the assignment. Additional penalties include a referral to honor council, a ban from all extra-credit assignments, and may no longer drop any assignments.
-
-For all written assignments in my class, students have access to their Turnitin report via canvas.  If you are uncertain if something violates the honor code or is plagiarism, ask *in advance*.
+Violations of this policy result in a zero for the assignment and possible additional penalties, including a referral to honor council, a ban from all extra-credit assignments, and no longer being able to drop assignments.
 
 
 
 ## Accommodations Policy
 
-
 If you are (or become) disabled (in any capacity, permanently, or temporarily), and need accommodations in class, reading, or any other work in this course, please contact me to discuss your specific needs as soon as possible. Under the Americans with Disabilities Act, you are legally entitled to reasonable accommodations for disabilities. I will do everything in my capacity as your Professor to ensure that you receive those accommodations. 
 
-Students who need reasonable accommodations for disabilities also should contact the Learning Assistance Center \& Disability Services [lac.wfu.edu](https://lac.wfu.edu/). These accommodations are not retroactive. Therefore, I strongly encourage you to use those accommodations. They are yours by legal and moral right. 
+Students who need reasonable accommodations for disabilities also should contact the Learning Assistance Center \& Disability Services [lac.wfu.edu](https://lac.wfu.edu/). These accommodations are not retroactive. Therefore, I strongly encourage you to use those accommodations. You rightfully deserve them, both in the legal, moral, and ethical sense. 
 
 
 ## Communication
 
+You are expected to read every LMS announcement, message, and email; as well as view the media embedded within those communications. Students are expected to check e-mail on a frequent and regular basis in order to stay current with University-related communications, recognizing that certain communications may be time-critical. At minimum, you should be checking your communications within 48 hours. Ignorance of a class communication is not grounds for an excused absence or extension.
+
+## Instructor Availability
+
+Please note that I do not typically check email or answer calls during the hours of 7pm and 7am on weekdays, and I do not check these at all on the weekends in order to devote time to family, rest, and living my life. Messages received during these times will receive attention once I am back online. Otherwise you can expect to receive a response to your message within 24 hours, often much sooner. 
+
+I have given out my cell-phone number, in the case of true emergencies. Please be mindful that I am often asleep at 11:59 PM. 
+
+
 ### Self Advocacy
 
-### 
+If you are struggling in this class, please talk to me. Do not assume that I know what is going on in your life. Talk to me and tell me what you need. 
 
 ### Grading Questions
 
