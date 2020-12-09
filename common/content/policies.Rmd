@@ -25,21 +25,34 @@ Except in the case of true emergencies, a possible excused absence should be dis
 All work submitted for credit must be the student's own and is subject to the provisions of the Wake Forest Honor Code. Details can be found at the Student Conduct web site:
 [studentconduct. wfu.edu/honor-system-wfu](https://studentconduct.wfu.edu/honor-system-wfu/). 
 
-Unless I have explicitly stated otherwise, every assessment is closed to outside resources (including, but not limited to books, notes, phones). Ignorance of the honor code and assignment instructions is not an acceptable explanation and/or defense.
+Unless I have explicitly stated otherwise, every assessment is closed to outside resources (including, but not limited to books, notes, phones, people). Ignorance of the honor code and assignment instructions is not an acceptable explanation and/or defense.
 
-It is *ALWAYS* academic dishonesty to share test questions or to work together on tests. And frankly, it is really obvious in canvas when you work together. I literally wrote a \R program that checks for working together, using  non-parametric statistics.
+It is *ALWAYS* academic dishonesty to share test questions or to work together on tests. And frankly, it is really obvious in Canvas when you work together. I literally wrote a \R program that checks for working together, using a non-parametric statistical method.
 
 
 Violations of this policy result in a zero for the assignment. Additional penalties include a referral to honor council, a ban from all extra-credit assignments, and may no longer drop any assignments.
 
-For all written assignments in my class, students have access to their Turnitin report via canvas.  If you are uncertain if something violates the honor code or is plagarism, ask *in advance*.
+For all written assignments in my class, students have access to their Turnitin report via canvas.  If you are uncertain if something violates the honor code or is plagiarism, ask *in advance*.
 
 
 
 ## Accommodations Policy
 
 
-If you are (or become) disabled (in any capacity, permanently, or temporarily), and need accommodations in class, reading, or any other work in this course, please contact me to discuss your specific needs as soon as possible. Students who need reasonable accommodations for disabilities also should contact the Learning Assistance Center \& Disability Services [lac.wfu.edu](https://lac.wfu.edu/). These accommodations are not retroactive.
+If you are (or become) disabled (in any capacity, permanently, or temporarily), and need accommodations in class, reading, or any other work in this course, please contact me to discuss your specific needs as soon as possible. Under the Americans with Disabilities Act, you are legally entitled to reasonable accommodations for disabilities. I will do everything in my capacity as your Professor to ensure that you receive those accommodations. 
+
+Students who need reasonable accommodations for disabilities also should contact the Learning Assistance Center \& Disability Services [lac.wfu.edu](https://lac.wfu.edu/). These accommodations are not retroactive. Therefore, I strongly encourage you to use those accommodations. They are yours by legal and moral right. 
+
+
+## Communication
+
+### Self Advocacy
+
+### 
+
+### Grading Questions
+
+Please send any questions about grades in writing via email within two weeks after the assignment is returned. If I erred in scoring or in calculating the grade, I will happily update the record. Otherwise, I will be most receptive toward questions framed in terms of your learning (rather than simply your performance), as research has shown that focusing overly on extrinsic rewards (like grades) is likely to lead to all sorts of outcomes that I don’t wish for you (lower interest in the course material, lower learning, lower enjoyment).
 
 # Public Health in the age of COVID-19
 

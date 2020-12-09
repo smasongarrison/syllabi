@@ -12,3 +12,10 @@ knitr::kable(
   curve_df, caption = 'Full Table'
 )
 ```
+
+### Curve Projections
+
+Unsurprisingly, students have many questions about the curve in this class. For tests and other assignments, I try to provide a projected letter grade. This projected letter grade is there to give you a sense of what your score *would* be if I implemented the class curve on this particular assignment. It is a projection. It is not a guarantee. These projected letter grades are not incorporated into your final grade.
+
+### Grading Turnaround
+
