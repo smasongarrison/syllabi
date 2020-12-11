@@ -49,12 +49,11 @@ All work submitted for credit must be the student's own and is subject to the pr
 Unless I have explicitly stated otherwise, every assessment is closed to outside resources (including, but not limited to books, notes, phones, people). 
 Ignorance of the honor code and assignment instructions is not an acceptable explanation and/or defense.
 
-It is *ALWAYS* academic dishonesty to share test questions or to work together on tests. And frankly, it is really obvious in Canvas when you work together. 
-I literally wrote a \R program that checks for working together, using a non-parametric statistics.
+It is *ALWAYS* academic dishonesty to share test questions, post course materials on any third-party websites, or to work together on tests. And frankly, it is really obvious in Canvas when you work together. I literally wrote a \R program that checks for working together, using a non-parametric statistic method. 
 
 
 Violations of this policy result in a zero for the assignment and possible additional penalties, 
-including a referral to honor council, a ban from all extra-credit assignments, and no longer being able to drop assignments.
+including, but not limited to a referral to honor council, failing the class, a ban from all extra-credit assignments, and no longer being able to drop assignments.
 
 
 
