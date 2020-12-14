@@ -5,7 +5,7 @@ By scaling to a percentage of the highest point total in the class, each student
 This curve can only help your grade. 
 
 The full table is provided below:
-```{r}
+```{r echo=FALSE}
 
 curve_df=data.frame(
 	Letter=c("A","A-","B+","B","B-","C+","C","C-","D+","D","D-"),

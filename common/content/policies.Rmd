@@ -6,7 +6,7 @@ I have done away with the this policy, as it doesn't align with my general philo
 The student who misses a class meeting is responsible for any assignments and/or announcements made.
 
 Class presence and participation points are given to encourage your active engagement with the material.
-Specific insturctions for engagement, can be found on Canvas. In general, you will be rewarded with a perfect score as long as you engage meaningfully and intentionally with the material and your peers.
+Specific instructions for engagement, can be found on Canvas. In general, you will be rewarded with a perfect score as long as you engage meaningfully and intentionally with the material and your peers.
 
 
 <!---
@@ -38,7 +38,6 @@ This discussion should occur via email. If you also discuss your situation verba
 An unexcused absence will result in a zero for any graded work that should have been performed for or during the missed class. 
 
 
-
 ## Academic Dishonesty Policy
 
 All work submitted for credit must be the student's own and is subject to the provisions of the Wake Forest Honor Code. Details can be found at the Student Conduct web site:
@@ -47,11 +46,12 @@ All work submitted for credit must be the student's own and is subject to the pr
 Unless I have explicitly stated otherwise, every assessment is closed to outside resources (including, but not limited to books, notes, phones, people). 
 Ignorance of the honor code and assignment instructions is not an acceptable explanation and/or defense.
 
-It is *ALWAYS* academic dishonesty to share test questions, post course materials on any third-party websites, or to work together on tests. And frankly, it is really obvious in Canvas when you work together. I literally wrote a \R program that checks for working together, using a non-parametric statistic method. 
+It is *ALWAYS* academic dishonesty to share test questions, post course materials on any third-party websites, or to work together on tests. And frankly, it is really obvious in Canvas when you work together. I literally wrote a R program that checks for working together, using a non-parametric statistic method. 
 
 
 Violations of this policy result in a zero for the assignment and possible additional penalties, 
-including, but not limited to a referral to honor council, failing the class, a ban from all extra-credit assignments, and no longer being able to drop assignments.
+including, but not limited to a referral to honor council, failing the class, a ban from all extra-credit assignments, 
+and no longer being able to drop assignments.
 
 
 
@@ -85,13 +85,13 @@ Do not assume that I know what is going on in your life. Talk to me and tell me 
 Please send any questions about grades in writing via email within two weeks after the assignment is returned.
 If I erred in scoring or in calculating the grade, I will happily update the record. 
 Otherwise, I will be most receptive toward questions framed in terms of your learning (rather than simply your performance), 
-as research has shown that focusing overly on extrinsic rewards (like grades) is likely to lead to all sorts of outcomes that I don’t wish for you 
+as research has shown that focusing overly on extrinsic rewards (like grades) is likely to lead to all sorts of outcomes that I don't wish for you 
 (lower interest in the course material, lower learning, lower enjoyment).
 
 
 ## Instructor Availability
 
-I am readily accessible during business hours (9:00AM-5:30PM; Monday-Friday) via email/LMS/zoom/carrier pigeon. 
+I am readily accessible during business hours (9:00AM-5:30PM; Monday-Friday) via email/ LMS/ zoom/ carrier pigeon. 
 Outside those hours, I do not typically respond to messages, in order to devote time to my family, rest, and living my life. 
 Messages received during these times will receive attention once I am back online. 
 Otherwise you can expect to receive a response to your message within 12 to 24 hours, often much sooner. If you do not hear back after 24 hours, please follow-up with me. 
@@ -131,7 +131,15 @@ The Psychology Department values, respects, and celebrates the experiences, beli
 
 
 
+
+# To do well in the course
+
+```{r child = 'doingwell_irl.Rmd'}
+```
+
+
+
 # Tentative Class Schedule
 
-This syllabus is intended to give the student guidance in what may be covered during the semester and will be followed as closely as possible. Dates for tests and assignments won't change, barring extraordinary events. However, I reserve the right to modify, supplement and make changes as the course needs arise. I try to avoid changes to the syllabus. Nevertheless, if changes occur, they will always be advantageous to the students.
+This syllabus is intended to give the student guidance in what may be covered during the semester and will be followed as closely as possible. Dates for tests and assignments won't change, barring extraordinary events. However, I reserve the right to modify, supplement and make changes as the course needs arise. I try to avoid changes to the syllabus. Nevertheless, if changes occur, I will only make changes that are less burdensome and more advantageous to the students.
 
