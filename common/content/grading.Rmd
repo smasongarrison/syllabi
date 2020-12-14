@@ -1,5 +1,8 @@
 
-Typically, an A- is defined as 90% of the highest point total in the class, B- as 80% of that total, C- as 70 and D- as 60%. I may shift these values down to provide a better fit to the actual point distribution. By scaling to a percentage of the highest point total in the class, each student has a much better chance of receiving higher grades than if no re-scaling were done. This curve can only help your grade. 
+Typically, an A- is defined as 90% of the highest point total in the class, B- as 80% of that total, C- as 70 and D- as 60%. 
+I may shift these values down to provide a better fit to the actual point distribution. 
+By scaling to a percentage of the highest point total in the class, each student has a much better chance of receiving higher grades than if no re-scaling were done. 
+This curve can only help your grade. 
 
 The full table is provided below:
 ```{r}
