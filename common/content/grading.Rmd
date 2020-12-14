@@ -1,5 +1,5 @@
 
-Typically, an A- is defined as 90% of the highest point total in the class, B- as 80% of that total, C- as 70 and D- as 60%. I may shift these values down to provide a better fit to the actual point distribution. By scaling to a percentage of the highest point total in the class, each student has a much better chance of receiving higher grades than if no re-scaling were done. This curve can only help your grade.
+Typically, an A- is defined as 90% of the highest point total in the class, B- as 80% of that total, C- as 70 and D- as 60%. I may shift these values down to provide a better fit to the actual point distribution. By scaling to a percentage of the highest point total in the class, each student has a much better chance of receiving higher grades than if no re-scaling were done. This curve can only help your grade. 
 
 The full table is provided below:
 ```{r}
@@ -15,10 +15,8 @@ knitr::kable(
 
 ### Curve Projections
 
-Unsurprisingly, students have many questions about the curve in this class. For tests and other assignments, I try to provide a projected letter grade. This projected letter grade is there to give you a sense of what your score *would* be if I implemented the class curve on this particular assignment. It is a projection. It is not a guarantee. These projected letter grades are not incorporated into your final grade.
-
-### Grading Turnaround
+Unsurprisingly, students have many questions about the curve in this class. For tests and other assignments, I try to provide a projected letter grade. This projected letter grade is there to give you a sense of what your score *would* be if I implemented the class curve on this particular assignment. It is a projection. It is not a guarantee. These projected letter grades are not incorporated into your final grade. Trust me, you do not want me to curve by assignment.
 
 
 ### Late Work
-Be sure to pay close attention to deadlines. Unless you have a serious and compelling reason and instructor pre-approval, there will be no make up assignments or quizzes, or late work accepted. See the policy on excused absences for specifics.
+Be sure to pay close attention to deadlines. Unless you have a compelling reason and instructor pre-approval, there will be no make-up assignments, quizzes, tests, or late work accepted. See the policy on excused absences for specifics.
