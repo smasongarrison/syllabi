@@ -5,7 +5,6 @@ For asynchronous classes be sure to watch all the video lectures and don't leave
 Thus, if you miss one lecture or zip through a video, you run the risk of being completely lost in the next lecture.
 
 
-
 ## Important Information for College and This Course:
 In addition, many professors have implicit (*i.e.*, unspoken) expectations for college classes. 
 I'm going to explicitly state some of those unspoken expectations. I suspect that your other professors have similar expectations -- so this information will help you in your other classes.
@@ -19,7 +18,7 @@ There is also a prevalent attitude of, "it doesn’t hurt to ask." Yes, it does.
 Finally, you should understand that college is not a fee-for-service arrangement. You are not paying me. You are paying tuition to a University for all kinds of things, very little of which actually "pays my salary." Salaries are more commonly paid out of government funds, including grants. You start with a zero in college courses and earn your points from there. I am not "giving" you grades or "taking away" points. You have nothing to begin with and earn your own score based on what you do and how well you do it (not simply on effort). What I offer you is an opportunity for education, not a grade.
 
 
-Addition pieces of advice:
+## Addition pieces of advice:
 
 - Read the syllabus.
 - Read all the class announcements.
