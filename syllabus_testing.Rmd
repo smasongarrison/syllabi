@@ -122,7 +122,7 @@ This course provides an overview of the development and nature of psychological 
 - To acquaint you with some of the relevant literature in personality assessment, psychometric theory and practice, and methods of observing and measuring behavior.
 - To instill in you an appreciation of and an interest in the principles and methods of psychometric theory in general and behavior assessment in particular.
 - This course is not designed to make you into an accomplished psychometist (one who gives tests) nor is it designed to make you a skilled psychometrician (one who constructs tests), nor will it give you "hands on" experience with psychometric computer programs. Rather it is aimed to allow you to understand the fundamental theoretical issues concerning both the psychometrist and the psychometrician.
-- Because modern psychometrics and statistics may be done using open source software such as R, examples will be presented in R. Instructions for installing and using R for psychometrics are available here.
+- Because modern psychometrics and statistics may be done using open source software such as R, examples will be presented in R.
 
 # Materials
 ## Texts
