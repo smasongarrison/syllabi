@@ -38,7 +38,7 @@ header-includes:
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(cache=FALSE, dev='pdf')
-mon <- as.Date("2020-08-24")
+mon <- as.Date("2021-01-25")
 cache=F
 number_of_classes=29
 number_of_weeks=15
@@ -168,7 +168,7 @@ The best two (2) out of three (3) short assignments will be used to determine yo
 
 ## Engagement Activities
 
-There will be multiple engagement activities in this course. These activities will allow you engage with the material for each module. Details about the specific activities will be provided on canvas. Students must complete two activities per module. For students in the blended section, they can attend their weekly in-person session and count it as an engagement activity.
+There will be multiple engagement activities in this course. These activities will allow you engage with the material for each module. Details about the specific activities will be provided on canvas. Students must complete two activities per module.
 
 
 
@@ -208,7 +208,6 @@ There will be two (2) assignments in this course. I will provide more specific w
 
 ```{r child = './common/content/policies.Rmd'}
 ```
-
 
 
 
