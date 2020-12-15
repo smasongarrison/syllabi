@@ -97,7 +97,7 @@ Messages received during these times will receive attention once I am back onlin
 Otherwise you can expect to receive a response to your message within 12 to 24 hours, often much sooner. If you do not hear back after 24 hours, please follow-up with me. 
 
 I have given out my cell-phone number, in the case of *true* emergencies. 
-Please be mindful that poor planning on your part does not constitute an emergency for me.
+Please be mindful that poor planning on your part does not constitute an emergency for me. 
 
 ### Is it an true emergency?
 
@@ -126,6 +126,8 @@ I aim to create a learning environment for my students that supports a diversity
 I want to be a resource for you. 
 
 - I (like many people) am still in the process of learning about diverse perspectives and identities. If something was said in class (by anyone) that made you feel uncomfortable, please talk to me about it. 
+
+- If you reached here in the syllabus, e-mail me a picture of a cat. If you do it before the end of the first week, you get a small bonus.
 
 ## Department Statement
 The Psychology Department values, respects, and celebrates the experiences, beliefs, and practices stemming from varied cultures and circumstances 
