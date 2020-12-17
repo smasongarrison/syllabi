@@ -140,8 +140,8 @@ The text [@anastasi1997] is intended to supplement the lectures. The lectures do
 
 # Course Assignments
 
-## Tests 
-There will be X tests in this course.  The best 2 out of 3 exam grades will be used to determine your total exam grade.  You can drop any of the exams for any reason BUT YOU MUST PASS THE LAST EXAM (held at TBD on Dec TBD).  If you do not pass the final exam, your score on that exam will count as one of your 2 grades. If you do pass the final exam, then the best 2 grades will be used (irrespective of your score on the final exam).
+## Quizzes
+There will be 3 tests in this course.  The best 2 out of 3 exam grades will be used to determine your total exam grade.  You can drop any of the exams for any reason BUT YOU MUST PASS THE LAST EXAM (held at TBD on Dec TBD).  If you do not pass the final exam, your score on that exam will count as one of your 2 grades. If you do pass the final exam, then the best 2 grades will be used (irrespective of your score on the final exam).
 
 
 ### Test Dates
@@ -158,6 +158,7 @@ There will be three (3) short assignments in this course. These assignments will
 
 
 The best two (2) out of three (3) short assignments will be used to determine your total short assignments.  You can skip one of the assignments for any reason.
+
 ### Short Assignment Dates
 
 - Assignment 1: Friday, `r advdate(mon, 4, assignment="f")`: Critique of an online personality test.
