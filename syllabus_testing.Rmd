@@ -121,7 +121,7 @@ This course provides an overview of the development and nature of psychological 
 - To develop your capacity for critical judgment of the adequacy of measures purported to assess behavior in the role of theory development.
 - To acquaint you with some of the relevant literature in personality assessment, psychometric theory and practice, and methods of observing and measuring behavior.
 - To instill in you an appreciation of and an interest in the principles and methods of psychometric theory in general and behavior assessment in particular.
-- This course is not designed to make you into an accomplished psychometist (one who gives tests) nor is it designed to make you a skilled psychometrician (one who constructs tests), nor will it give you "hands on" experience with psychometric computer programs. Rather it is aimed to allow you to understand the fundamental theoretical issues concerning both the psychometrist and the psychometrician.
+- This course is not designed to make you into an accomplished psychometrist (one who gives tests) nor is it designed to make you a skilled psychometrician (one who constructs tests), nor will it give you "hands on" experience with psychometric computer programs. Rather it is aimed to allow you to understand the fundamental theoretical issues concerning both the psychometrist and the psychometrician.
 - Because modern psychometrics and statistics may be done using open source software such as R, examples will be presented in R.
 
 # Materials
@@ -138,34 +138,46 @@ bib[sort(c("anastasi1997"))]
 The text [@anastasi1997] is intended to supplement the lectures. The lectures don't follow the order of chapters in the text and the text covers some material that won't be covered in the lectures, i.e., not all the information in each chapter is perfectly pertinent to the course requirements.
 
 
-# Course Assignments
+# Course Assignments 
+## Grading Policy
+
+```{r child = './common/content/grading.Rmd'}
+```
 
 ## Quizzes
-There will be 3 tests in this course.  The best 2 out of 3 exam grades will be used to determine your total exam grade.  You can drop any of the exams for any reason BUT YOU MUST PASS THE LAST EXAM (held at TBD on Dec TBD).  If you do not pass the final exam, your score on that exam will count as one of your 2 grades. If you do pass the final exam, then the best 2 grades will be used (irrespective of your score on the final exam).
+There will be 6 quizzes in this course.  The best 5 out of 6 quiz grades will be used to determine your total quiz grade.  You can drop 1 of the quizzes for any reason.
 
 
-### Test Dates
+### Quiz Dates
 
-- Test 1: Friday, `r advdate(mon, 5, assignment="f")`
+- Quiz 1: Friday, `r advdate(mon, 3, assignment="f")`
 
-- Test 2: Friday, `r advdate(mon, 10, assignment="f")`
+- Quiz 2: Friday, `r advdate(mon, 5, assignment="f")`
 
-- Test 3: During Finals Week
+- Quiz 3: Friday, `r advdate(mon, 8, assignment="f")`
+
+- Quiz 4: Friday, `r advdate(mon, 10, assignment="f")`
+
+- Quiz 5: Friday, `r advdate(mon, 12, assignment="f")`
+
+- Quiz 6: Friday, `r advdate(mon, 15, assignment="f")`
 
 
-## Short Assignments 
-There will be three (3) short assignments in this course. These assignments will allow you to incorporate some of your own interests into the course. Such interests could be related to your career, another class you're taking, a hobby you're exploring, or some other random fancy. They will typically be approximately two (2) pages. I will provide more specific written guidelines at least two weeks before each assignment is due.
 
+## Research Project
+There will be one (1) research project in this course, in five stages. I will provide more specific written guidelines at least two weeks before each stage is due.
 
-The best two (2) out of three (3) short assignments will be used to determine your total short assignments.  You can skip one of the assignments for any reason.
+### Research Project Milestones
 
-### Short Assignment Dates
+- Stage 1: Friday, `r advdate(mon, 4, assignment="f")`: XXXXXXXXXXXXX
 
-- Assignment 1: Friday, `r advdate(mon, 4, assignment="f")`: Critique of an online personality test.
+- Stage 2: Friday, `r advdate(mon, 8, assignment="f")`: XXXXXXXXXXXXX
 
-- Assignment 2: Friday, `r advdate(mon, 8, assignment="f")`: Critique of a personality-related media article.
+- Stage 3: Friday, `r advdate(mon, 12, assignment="f")`: XXXXXXXXXXXXX
 
-- Assignment 3: Friday, `r advdate(mon, 12, assignment="f")`: Critique of a personality-related YouTube video.
+- Stage 4: Friday, `r advdate(mon, 14, assignment="f")`: XXXXXXXXXXXXX
+
+- Stage 5: Friday, `r advdate(mon, 15, assignment="f")`: Final Product
 
 ## Engagement Activities
 
@@ -173,35 +185,12 @@ There will be multiple engagement activities in this course. These activities wi
 
 
 
-# Course Assignments 
-## Grading Policy
+## Grading Weighting
 
-```{r child = './common/content/grading.Rmd'}
-```
+- 150 points of your grade will be determined by your best five (5) quizzes.
+- 150 points of your grade will be determined by your research project.
+- 50 points of your grade will be determined by your engagement.
 
-### Grading Weighting
-
-- 200 points of your grade will be determined by two (2) tests.
-- 100 points of your grade will be determined by two (2) short assignments.
-- 50 points of your grade will be determined by your engagement. Generally, ask questions and answer them.
-
-
-### Test Dates
-
-- Test 1: Thursday, `r advdate(mon, 8, assignment="t")`
-
-- Test 2: During Finals Week, TBD
-
-
-## Short assignments 
-There will be two (2) assignments in this course. I will provide more specific written guidelines at least two weeks before each assignment is due.
-
-
-### Short Assignment Dates
-
-- Assignment 1: Tuesday, `r advdate(mon, 7, assignment="t")`.
-
-- Assignment 2: Thursday, `r advdate(mon, 13, assignment="t")`.
 
 
 
