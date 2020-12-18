@@ -1,11 +1,11 @@
 
-## Class Presence and Participation.
+## Class Engagement, Presence, and Participation.
 
 In previous semesters, I have had a deliberately hardline attendance policy. In the light of the public health crisis, 
 I have done away with the this policy, as it doesn't align with my general philosophy of treating students as junior colleagues. 
 The student who misses a class meeting is responsible for any assignments and/or announcements made.
 
-Class presence and participation points are given to encourage your active engagement with the material.
+Class engagement points are given to encourage your active engagement with the material.
 Specific instructions for engagement, can be found on Canvas. In general, you will be rewarded with a perfect score as long as you engage meaningfully and intentionally with the material and your peers.
 
 
@@ -23,8 +23,9 @@ I reserve the right to fail any student who misses more than five class periods.
 
 As a reasonable and empathetic human, I recognize that life happens. There will be times when your outside life conflicts with scheduled class events. 
 These life events can be any of the obvious things (sports, religious holidays, illness, interviews, etc), but they can also be the less obvious, 
-like spending the entire night looking for your lost pet. My general approach is to work with you. You just need to let me know *ahead* of time. These late policies value discussion and communication over deductions and punishment. It is difficult for me as an instructor to know your situation and reason for lateness (e.g. are you sick? did you lose wifi? struggling with mental health? or just forgot?). Without communication, I will assume that students are choosing not to submit work and do not plan on submitting work. An email will help me better understand your needs and focus on coursework. I'm more than happy to give extensions and accommodations, so don't be afraid to email me. You don't need to disclose personal details (your privacy is important to me), so a heads up or request for assistance is enough.
-
+like spending the entire night looking for your lost pet. My general approach is to work with you. You just need to let me know *ahead* of time. 
+These late policies value discussion and communication over deductions and punishment. 
+It is difficult for me as an instructor to know your situation and reason for lateness (e.g. are you sick? did you lose wifi? struggling with mental health? or just forgot?). Without communication, I will assume that students are choosing not to submit work and do not plan on submitting work. An email will help me better understand your needs and focus on coursework. I'm more than happy to give extensions and accommodations, so don't be afraid to email me. You don't need to disclose personal details (your privacy is important to me), so a heads up or request for assistance is enough.
 
 
 
@@ -42,27 +43,32 @@ This discussion should occur via email. If you also discuss your situation verba
 An unexcused absence will result in a zero for any graded work that should have been performed for or during the missed class. 
 
 ### Late Work
-Be sure to pay close attention to deadlines. If an assignment is not submitted by the deadline (i.e., is late), the student must email the instructor and provide a new deadline, ask for an alternative, or explain concerns. A new deadline or modification will be agreed upon so the student can receive full credit. If contact is not made by the student *within 36 hours* of the missed deadline, the missing assignment will receive a 0. Alternative deadlines will be within one week of the original deadline. Exceptions to the 1 week policy are at the instructors discretion.
 
-Unless you have communicated with me, there will be no make-up assignments, quizzes, tests, or late-work accepted. 
-It is the responsibility of the student to ensure that the instructor has received the assignment by the established due date and to ensure that the assignment submitted is the complete and correct version. 
-Unless otherwise specified, all work must be submitted through Canvas.
+Be sure to pay close attention to deadlines. If an assignment is not submitted by the deadline (i.e., is late), the student must email the instructor and provide a new deadline, ask for an alternative, or explain concerns *within 36 hours* of the missed deadline. Ideally, you will have communicated with me in advance of the deadline, but on occasion life happens. As long as you've communicated *within 36 hours*, I will do my best to work with you to come up with a new deadline or modificaiton, so that you can receive full credit. This late policy does not apply to exams, tests, or quizzes.
+
+If contact is not made *within 36 hours* of the missed deadline, the missing assignment will receive a 0. Alternative deadlines will be within one week of the original deadline. Exceptions to the 1 week policy are at the instructor's discretion. In general, I will be much more symapthetic and accommodating if you communicate in advance. 
+
+It is the responsibility of the student to ensure that the instructor has received the assignment by the established due date and to ensure that the assignment submitted is the complete and correct version. Unless otherwise specified, all work must be submitted through Canvas.
+
+
+Unless you have communicated with me in advance, there will be no make-up quizzes or tests.
+
 
 
 ## Academic Dishonesty Policy
 
-All work submitted for credit must be the student's own and is subject to the provisions of the Wake Forest Honor Code. Details can be found at the Student Conduct web site:
+All work submitted for credit must be the student's own and is subject to the provisions of the Wake Forest Honor Code. 
+Details can be found at the Student Conduct web site:
 [studentconduct. wfu.edu/honor-system-wfu](https://studentconduct.wfu.edu/honor-system-wfu/). 
 
 Unless I have explicitly stated otherwise, every assessment is closed to outside resources (including, but not limited to books, notes, phones, people). 
 Ignorance of the honor code and assignment instructions is not an acceptable explanation and/or defense.
 
-It is *ALWAYS* academic dishonesty to share test questions, post course materials on any third-party websites, or to work together on tests. And frankly, it is really obvious in Canvas when you work together. I literally wrote a R program that checks for working together, using a non-parametric statistic method. 
-
+It is *ALWAYS* academic dishonesty to share test questions, post course materials on any third-party websites, or to work together on tests. 
+And frankly, it is really obvious in Canvas when you work together. I literally wrote a R program that checks for working together, using a non-parametric method. 
 
 Violations of this policy result in a zero for the assignment and possible additional penalties, 
-including, but not limited to a referral to honor council, failing the class, a ban from all extra-credit assignments, 
-and no longer being able to drop assignments.
+including, but not limited to a referral to honor council, failing the class, a ban from all extra-credit assignments, and no longer being able to drop assignments.
 
 
 
