@@ -145,39 +145,55 @@ The text [@anastasi1997] is intended to supplement the lectures. The lectures do
 ```
 
 ## Quizzes
-There will be 6 quizzes in this course.  The best 5 out of 6 quiz grades will be used to determine your total quiz grade.  You can drop 1 of the quizzes for any reason.
+There will be 6 quizzes in this course. These will be approximately every three weeks. The best 5 out of 6 quiz grades will be used to determine your total quiz grade.  You can drop 1 of the quizzes for any reason.
 
 
 ### Quiz Dates
 
 - Quiz 1: Friday, `r advdate(mon, 3, assignment="f")`
 
-- Quiz 2: Friday, `r advdate(mon, 5, assignment="f")`
+- Quiz 2: Friday, `r advdate(mon, 6, assignment="f")`
 
-- Quiz 3: Friday, `r advdate(mon, 8, assignment="f")`
+- Quiz 3: Friday, `r advdate(mon, 9, assignment="f")`
 
-- Quiz 4: Friday, `r advdate(mon, 10, assignment="f")`
+- Quiz 4: Friday, `r advdate(mon, 12, assignment="f")`
 
-- Quiz 5: Friday, `r advdate(mon, 12, assignment="f")`
+- Quiz 5: Friday, `r advdate(mon, 15, assignment="f")`
 
-- Quiz 6: Friday, `r advdate(mon, 15, assignment="f")`
+- Quiz 6: During Finals, `r advdate(mon, 16, assignment="f")`
+
+
+## Take Home Assignments
+There are three large take-home assignments. Each assignment has a qualitative aspect and a quantitative aspect, and are counted separately in your grade. 
+
+
+The best two (2) out of three (3) qualitative aspects will be used to determine your qualitative score. I will provide more specific written guidelines at least two weeks before each assignment is due. You have to submit assignment 1 because I give extensive feedback that will help you on later assignments. However, you may skip assignment 2 or 3.
+
+
+### Assignment Dates
+
+- Assignment 1: Friday, `r advdate(mon, 6, assignment="f")`: Set 1 and Critique of an online test.
+
+- Assignment 2: Friday, `r advdate(mon, 12, assignment="f")`: Set 2 and Critique of a testing-related popular media article.
+
+- Assignment 3: Friday, `r advdate(mon, 15, assignment="f")`: Set 3 and Critique of a testing-related YouTube video.
+
+
+### Quantitative Aspects
+
+The best two (2) out of three (3) sets will be used to determine your total problem set score.  You have to submit assignment 1 because I give extensive feedback that will help you on later assignments. However, you may skip assignment 2 or 3.You can skip one of the assignments for any reason. However, I strongly encourage you to attempt each problem set.
 
 
 
-## Research Project
-There will be one (1) research project in this course, in five stages. I will provide more specific written guidelines at least two weeks before each stage is due.
 
-### Research Project Milestones
 
-- Stage 1: Friday, `r advdate(mon, 4, assignment="f")`: XXXXXXXXXXXXX
+## Qualitative Aspects 
+These qualitative assignments will allow you to incorporate some of your own interests into the course. Such interests could be related to your career, another class you're taking, a hobby you're exploring, or some other random fancy. They will typically be approximately two (2) pages.
 
-- Stage 2: Friday, `r advdate(mon, 8, assignment="f")`: XXXXXXXXXXXXX
 
-- Stage 3: Friday, `r advdate(mon, 12, assignment="f")`: XXXXXXXXXXXXX
+The best two (2) out of three (3) qualitative assignments will be used to determine your total qualitative assignment score. You have to submit assignment 1 because I give extensive feedback that will help you on later assignments. However, you may skip assignment 2 or 3.
 
-- Stage 4: Friday, `r advdate(mon, 14, assignment="f")`: XXXXXXXXXXXXX
 
-- Stage 5: Friday, `r advdate(mon, 15, assignment="f")`: Final Product
 
 ## Engagement Activities
 
@@ -188,9 +204,9 @@ There will be multiple engagement activities in this course. These activities wi
 ## Grading Weighting
 
 - 150 points of your grade will be determined by your best five (5) quizzes.
-- 150 points of your grade will be determined by your research project.
+- 100 points of your grade will be determined by your best two (2) problem sets.
+- 100 points of your grade will be determined by your best two (2) writing assignments.
 - 50 points of your grade will be determined by your engagement.
-
 
 
 
