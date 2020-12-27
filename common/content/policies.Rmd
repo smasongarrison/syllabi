@@ -22,9 +22,9 @@ Except in the case of *true* emergencies, a possible excused absence should be d
 
 ### Late Work
 
-Be sure to pay close attention to deadlines. If an assignment is not submitted by the deadline (i.e., is late), the student must email the instructor and provide a new deadline, ask for an alternative, or explain concerns *within 36 hours* of the missed deadline. Ideally, you will have communicated with me in advance of the deadline, but on occasion life happens. As long as you've communicated *within 36 hours*, I will do my best to work with you to come up with a new deadline or modificaiton, so that you can receive full credit. This late policy does not apply to exams, tests, or quizzes.
+Be sure to pay close attention to deadlines. If an assignment is not submitted by the deadline (i.e., is late), the student must email the instructor and provide a new deadline, ask for an alternative, or explain concerns *within 36 hours* of the missed deadline. Ideally, you will have communicated with me in advance of the deadline, but on occasion life happens. As long as you've communicated *within 36 hours*, I will do my best to work with you to come up with a new deadline or modification, so that you can receive full credit. This late policy does not apply to exams, tests, or quizzes.
 
-If contact is not made *within 36 hours* of the missed deadline, the missing assignment will receive a 0. Alternative deadlines will be within one week of the original deadline. Exceptions to the 1 week policy are at the instructor's discretion. In general, I will be much more symapthetic and accommodating if you communicate in advance. 
+If contact is not made *within 36 hours* of the missed deadline, the missing assignment will receive a 0. Alternative deadlines will be within one week of the original deadline. Exceptions to the 1 week policy are at the instructor's discretion. In general, I will be much more sympathetic and accommodating if you communicate in advance. 
 
 It is your responsibility to ensure that the instructor has received the assignment by the established due date and to ensure that the assignment submitted is the complete and correct version. Unless otherwise specified, all work must be submitted through Canvas.
 
@@ -37,14 +37,18 @@ All work submitted for credit must be the student's own and is subject to the pr
 
 Unless I have explicitly stated otherwise, every assessment is closed to outside resources (including, but not limited to books, notes, phones, people). Ignorance of the honor code and assignment instructions is not an acceptable explanation and/or defense.
 
-It is *ALWAYS* academic dishonesty to share test questions, post course materials on any third-party websites, or to work together on tests. And frankly, it is really obvious in Canvas when you work together. I literally wrote a R program that checks for working together. 
+It is *ALWAYS* academic dishonesty to share test questions, post course materials on any third-party websites, or to work together on tests. And frankly, it is really obvious in Canvas when you work together. I literally wrote a R program that checks for working together on tests. 
 
-Violations of this policy result in a zero for the assignment and possible additional penalties, including, but not limited to a referral to honor council, failing the class, a ban from all extra-credit assignments, and no longer being able to drop assignments.
+Violations of this policy result in a zero for the assignment and possible additional penalties, including, but not limited to:
+- a referral to honor council, 
+- failing the class, 
+- forfeiting all extra credit, and
+- being excluding from the course curve, drop policy, and late policy.
 
 
 ## Accommodations Policy
 
-If you are (or become) disabled (in any capacity, permanently, or temporarily), and need accommodations in class, reading, or any other work in this course, please contact me to discuss your specific needs as soon as possible. Under the Americans with Disabilities Act, you are legally entitled to reasonable accommodations for disabilities. I will do everything in my capacity as your Professor to ensure that you receive those accommodations. 
+If you are (or become) disabled (in any capacity, permanently, or temporarily), and need accommodations in class, reading, or any other work in this course, please contact me to discuss your specific needs as soon as possible. Under the Americans with Disabilities Act, you are legally entitled to reasonable accommodations for disabilities. I will do everything in my capacity as your professor to ensure that you receive those accommodations. 
 
 Students who need reasonable accommodations for disabilities also should contact the Learning Assistance Center \& Disability Services [lac.wfu.edu](https://lac.wfu.edu/). These accommodations are not retroactive. Therefore, I strongly encourage you to use those accommodations. You rightfully deserve them, both in the legal, moral, and ethical sense. 
 
@@ -88,7 +92,7 @@ How do you know if it is a true emergency?
 
 # Classroom Climate
 
-I aim to create a learning environment for my students that supports a diversity of thoughts, perspectives, and experiences, and honors your identities (including race, ethnicaity, sex, gender, gender-identify, class, sexual orientation, religion, ability, political affiliation, etc.) To help accomplish this:
+I aim to create a learning environment for my students that supports a diversity of thoughts, perspectives, and experiences, and honors your identities (including race, ethnicity, sex, gender, gender-identify, class, sexual orientation, religion, ability, political affiliation, etc.) To help accomplish this:
 
 - If you have a name and/or set of pronouns that differ from those that appear in your official records, please let me know!
 
