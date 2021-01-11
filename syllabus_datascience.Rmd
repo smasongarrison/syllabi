@@ -200,7 +200,8 @@ The major semester projects (described on the separate hand-out) is a set of EDA
 This experiential course requires active engagement. There will be few lectures and we will not be building toward an exam.  Instead, we will work together to build our facilities for thinking critically about data. You should come to every class having read all of the required reading, watched the required videos, browsed the suggested resources, and so forth. You should enter the classroom prepared to discuss these materials with colleagues and complete both individual and group in-class assignments.
 
 ### Activities
-Because this class is blended, there will be multiple online engagement activities. These activities will allow you engage with the material for each module. Details about the specific activities will be provided on canvas. Students must complete at least one activity per module.
+
+Because this class is blended, there will be multiple online engagement activities. These activities will allow you engage with the material for each module. Details about the specific activities will be provided on canvas.
 
 
 
@@ -217,6 +218,9 @@ your attendance and participation in engagement activities. Generally, ask quest
 
 - 100 points of your grade will be determined by your best two short assignments.
 -->
+
+
+
 
 # Course Policies
 
