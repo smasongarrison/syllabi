@@ -50,8 +50,10 @@ Violations of this policy result in a zero for the assignment, my perpetual disa
 ## Communication
 
 I ask that you provide me with the respect that I should spend my time engaging with students in meaningful ways, not pointing you to material you can find on your own. Be sure to check the syllabus, course website, course content, and classmates before emailing me. This is important training for life after college – when you have a question, the first thing you do should not be to email your boss. I do not want to discourage you from engaging with me. I love teaching because I love interacting with students.  However, I do not want to engage with you in ways that nurture your inability to critically think and prevents me from engaging with other students.
-
+<!---
 If you are ever uncertain about the purpose of an assignment, the learning objectives of an activity, or how an assessment will be graded, please reach out. My goal is to be  organized, thoughtful, and transparent. All my assignments were thoughtfully chosen. There is no busy work or unnecessary required course material. If I have done a poor job explaining the motivation for any aspect of my course, please let me know so I can be more clear. 
+
+-->
 
 ### Minimums
 
@@ -105,12 +107,14 @@ I aim to create a learning environment for my students that supports a diversity
 ## Department Statement
 The Psychology Department values, respects, and celebrates the experiences, beliefs, and practices stemming from varied cultures and circumstances (emphasizing, but not limited to, those from historically underrepresented groups),and our deep commitment to diversity, equity, and inclusion plays out through coursework, programming by majors, and research. 
 
+<!---
 
 # To do well in the course
 
-```{r child = 'doingwell_irl.Rmd'}
-```
+#```{r child = 'doingwell_irl.Rmd'}
+#```
 
+-->
 
 # Tentative Class Schedule
 

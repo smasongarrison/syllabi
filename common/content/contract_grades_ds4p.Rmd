@@ -1,4 +1,4 @@
-## "A" Contract
+### "A" Contract
 
 To contract for an "A" in this course, you agree to:
 
@@ -15,7 +15,7 @@ To contract for an "A" in this course, you agree to:
 - Complete two "Satisfactory" Unessays on a schedule you will specify in your contract and present the strongest as an asynchronous presentation.
 
 
-# "B" Contract
+### "B" Contract
 To contract for an "B" in this course, you agree to:
 
 - Earn "Satisfactory" on all in-class assignments save three
@@ -31,7 +31,7 @@ To contract for an "B" in this course, you agree to:
 - Complete one "Satisfactory" Unessay on a schedule you will specify in your contract and present it during the last week of class
 
 
-# "C" Contract
+### "C" Contract
 
 To contract for an "C" in this course, you agree to:
 

@@ -39,3 +39,4 @@ vignettes/*.pdf
 syllabus_personality.tex
 syllabus_personality.out
 *.log
+common/content/policies.html

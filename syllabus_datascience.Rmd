@@ -32,7 +32,7 @@ classroomB: GREENE ###
 classdeliveryB: "Blended"
 classhoursB: "F @ 9:30a-10:50a"
 canvas: \href{https://wakeforest.instructure.com/courses/29807}{\tt wakeforest.instructure.com/courses/29807}
-git: \href{https://github.com/R-Computing-Lab/DataScience4Psych}{\tt https://github.com/R-Computing-Lab/DataScience4Psych}
+git: \href{https://github.com/DataScience4Psych/DataScience4Psych}{\tt https://github.com/DataScience4Psych/DataScience4Psych}
 fontfamily: mathpazo
 fontsize: 11pt
 header-includes:
@@ -165,10 +165,12 @@ The text is intended to supplement the lectures. The lectures don't follow the o
 
 
 # Course Assignments
+
+<!---
 You will be formally evaluated in five different ways.
 
 
-<!---
+
 ## Individual data Project
 
 You will turn in your individual data collection/data analysis projects on Wednesday, September 18.  These projects are described in a separate handout. This project will be worth 10% of your grade.
@@ -180,7 +182,9 @@ There will be two 30-minute quizzes over lecture material and readings (on Septe
 ## Presentations
 You will give two asynchronous presentations.  Your team will give a 15-20 minute presentation of its data analysis problem.  In addition, you will give a 15- minute individual presentation.  These presentations are chance to practice a formal presentation in a relatively pressure-free setting).
 
+## Assignments
 
+<stuff about these should be in here>
 
 ## Portfolio
 The major semester projects (described on the separate hand-out) is a set of EDA Projects, which you will summarize in an EDA Portfolio to be handed in on the last day of class.
@@ -199,16 +203,27 @@ The major semester projects (described on the separate hand-out) is a set of EDA
 
 This experiential course requires active engagement. There will be few lectures and we will not be building toward an exam.  Instead, we will work together to build our facilities for thinking critically about data. You should come to every class having read all of the required reading, watched the required videos, browsed the suggested resources, and so forth. You should enter the classroom prepared to discuss these materials with colleagues and complete both individual and group in-class assignments.
 
+<!---
+
 ### Activities
 
 Because this class is blended, there will be multiple online engagement activities. These activities will allow you engage with the material for each module. Details about the specific activities will be provided on canvas.
 
+-->
 
-
-## Grading Policy
+# Grading Policy
 
 ```{r child = './common/content/contract.Rmd'}
 ```
+
+
+## Contract Grades
+
+
+```{r child = './common/content/contract_grades_ds4p.Rmd'}
+```
+
+
 <!---
 - 200 points of your grade will be determined by your best two exams.
     - The final is not optional.
