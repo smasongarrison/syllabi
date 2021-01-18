@@ -87,19 +87,21 @@ bib <- c(bib, as.BibEntry(citation()))
 bib[length(bib)]$key = "Rcite"
 
 topic=c(
-  "Introduction", 
-  "Historical, Ethical, and Social Considerations in Testing",
+  "Foundations and Nature of Testing", 
+  "History of Testing"
+  "Ethical and Social Considerations in Testing",
   "Norms and the Meaning of Test Scores",
+  "Classical Test Theory",
   "Reliability",
   "Validity",
   "More Validity", 
   "Item Analysis", 
-  "Test 1",
-  "Spring Break",
-  "Individual Differences",
+  "Factor Analysis",
+  "Catch Up Week",
+  "Practical Testing Things",
   "Ability Testing",
   "Personality Testing", 
-  "Measuring Interests and Attitudes",
+  "Special Topics",
   "Other Assessment Techniques", 
   "Modern Development and Applications of Testing", 
   "Review"
