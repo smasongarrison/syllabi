@@ -110,6 +110,13 @@ topic_vjoe=c(
   "Special Topics" 
   )
 
+
+
+
+
+
+
+
 topic=c(
   "What is Data Science and Meet the Toolkit", 
   "Data and Visualization",
