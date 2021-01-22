@@ -88,7 +88,7 @@ bib[length(bib)]$key = "Rcite"
 
 topic=c(
   "Foundations and Nature of Testing", 
-  "History of Testing"
+  "History of Testing",
   "Ethical and Social Considerations in Testing",
   "Norms and the Meaning of Test Scores",
   "Classical Test Theory",
