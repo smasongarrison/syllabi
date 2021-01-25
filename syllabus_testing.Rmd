@@ -169,7 +169,7 @@ There will be 6 quizzes in this course. These will be approximately every three 
 There are three large take-home assignments. Each assignment has a qualitative aspect and a quantitative aspect, and are counted separately in your grade. 
 
 
-The best two (2) out of three (3) qualitative aspects will be used to determine your qualitative score. I will provide more specific written guidelines at least two weeks before each assignment is due. You have to submit assignment 1 because I give extensive feedback that will help you on later assignments. However, you may skip assignment 2 or 3.
+The best two (2) out of three (3) qualitative aspects will be used to determine your qualitative score; similarly, the best two (2) out of three (3) quantitative aspects will be used to determine your quantitative score. I will provide more specific written guidelines at least two weeks before each assignment is due. You have to submit assignment 1 because I give extensive feedback that will help you on later assignments. However, you may skip assignment 2 or 3.
 
 
 ### Assignment Dates
@@ -180,20 +180,6 @@ The best two (2) out of three (3) qualitative aspects will be used to determine 
 
 - Assignment 3: Friday, `r advdate(mon, 15, assignment="f")`: Set 3 and Critique of a testing-related YouTube video.
 
-
-### Quantitative Aspects
-
-The best two (2) out of three (3) sets will be used to determine your total problem set score.  You have to submit assignment 1 because I give extensive feedback that will help you on later assignments. However, you may skip assignment 2 or 3.You can skip one of the assignments for any reason. However, I strongly encourage you to attempt each problem set.
-
-
-
-
-
-## Qualitative Aspects 
-These qualitative assignments will allow you to incorporate some of your own interests into the course. Such interests could be related to your career, another class you're taking, a hobby you're exploring, or some other random fancy. They will typically be approximately two (2) pages.
-
-
-The best two (2) out of three (3) qualitative assignments will be used to determine your total qualitative assignment score. You have to submit assignment 1 because I give extensive feedback that will help you on later assignments. However, you may skip assignment 2 or 3.
 
 
 
@@ -206,10 +192,9 @@ There will be multiple engagement activities in this course. These activities wi
 ## Grading Weighting
 
 - 150 points of your grade will be determined by your best five (5) quizzes.
-- 100 points of your grade will be determined by your best two (2) problem sets.
-- 100 points of your grade will be determined by your best two (2) writing assignments.
+- 100 points of your grade will be determined by your best two (2) quantitative aspects of your take-home assignments.
+- 100 points of your grade will be determined by your best two (2) qualitative aspects of your take-home assignments.
 - 50 points of your grade will be determined by your engagement.
-
 
 
 # Course Policies
@@ -221,78 +206,78 @@ There will be multiple engagement activities in this course. These activities wi
 
 
 ## `r advdate(mon, 1, topic)`
-
+<!---
 - Tuesday: Chapter 1
 - Thursday: Chapter 2
-
+-->
 ## `r advdate(mon, 2, topic)`
-
+<!---
 - Tuesday: Chapter 18
 - Thursday: Chapter 18
-
+-->
 ##  `r advdate(mon, 3, topic)` 
-
+<!---
 - Tuesday: Chapter 3 "Last day to add full-term class"
 - Thursday: Chapter 3
-
+-->
 ##  `r advdate(mon, 4, topic)`
-
+<!---
 - Tuesday: Chapter 4
 - Thursday: Chapter 4
-
+-->
 ##  `r advdate(mon, 5, topic)`
-
+<!---
 - Tuesday: Chapter 5 + 6
 - Thursday: Chapter 5 + 6 
-
+-->
 ##  `r advdate(mon, 6, topic)`
-
+<!---
 - Tuesday: Chapter 6  "Last day to drop full-term class"
 - Thursday: Chapter 9 
-
+-->
 ##  `r advdate(mon, 7, topic)` 
-
+<!---
 - Tuesday: Chapter 7 (Assignment 1 Due)
 - Thursday: Chapter 7
-
+-->
 ##  `r advdate(mon, 8, topic)`
-
+<!---
 - Tuesday: Review 
 - Thursday: Exam 1
-
+-->
 ##  `r advdate(mon, 9, topic)`
-
+<!---
 - Tuesday: No class
 - Thursday: No class 
-
+-->
 ##  `r advdate(mon, 10, topic)`
-
+<!---
 - Tuesday: Selected readings
 - Thursday: Chapter 10
 
 ##  `r advdate(mon, 11, topic)`
-
+<!---
 - Monday: Last day to drop with a grade of "W"
 - Tuesday: Chapter 11
 - Thursday: Chapter 12
-
+-->
 ##  `r advdate(mon, 12, topic)`
-
+<!---
 - Tuesday: Chapter 13
 - Thursday: Chapter 13 
-
+-->
 ## `r advdate(mon, 13, topic)`
-
+<!---
 - Tuesday: Chapter 14
 - Thursday: Chapter 14 (Assignment 2 Due)
-
+-->
 ##  `r advdate(mon, 14, topic)`
-
+<!---
 - Tuesday: Chapter 15
 - Thursday: Chapter 16
-
+-->
 ##  `r advdate(mon, 15, topic)`
-
+<!---
 - Tuesday: Supplemental reading
 - Thursday: Supplemental reading
 
@@ -303,5 +288,5 @@ There will be multiple engagement activities in this course. These activities wi
 ## Final Exam 
 
 - TBD
-
+-->
 # References
