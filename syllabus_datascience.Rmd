@@ -74,7 +74,7 @@ advdate <- function(obj, adv, topic = NULL,assignment=NULL) {
  }
  }
  else{ 
-   tmp <- paste("Week ",zadv,sep='',", ", tmon," - ",tfri, " : ", topic[adv])}
+   tmp <- paste("Module ",zadv,sep='',", ", tmon," - ",tfri, " : ", topic[adv])}
  return(tmp)
 }
 

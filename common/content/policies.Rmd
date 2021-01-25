@@ -41,6 +41,7 @@ Unless I have explicitly stated otherwise, every assessment is closed to outside
 It is *ALWAYS* academic dishonesty to share test questions, post course materials on any third-party websites, or to work together on tests. And frankly, it is really obvious in Canvas when you work together. I literally wrote a R program that checks for working together on tests. 
 
 Violations of this policy result in a zero for the assignment, my perpetual disappointment, and possible additional penalties, including, but not limited to:
+
 - a referral to honor council, 
 - failing the class, 
 - forfeiting all extra credit, and
