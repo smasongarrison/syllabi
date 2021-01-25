@@ -1,4 +1,4 @@
-In this course, you will determine the grade you receive by fulfilling a contract you will submit for my approval on <Friday, September 13th>.
+In this course, you will determine the grade you receive by fulfilling a contract you will submit for my approval on `r advdate(mon, 2, assignment="f")`.
 
 Your written contract will detail:
 

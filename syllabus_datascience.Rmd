@@ -42,8 +42,9 @@ header-includes:
 classroom: "GREENE 160"
 classhours: "MWF 9:00a-9:50a"
 canvas: \href{https://wakeforest.instructure.com/courses/29807}{\tt wakeforest.instructure.com/courses/29807}
+--> 
 
----> 
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(cache=FALSE, dev='pdf')
 mon <- as.Date("2021-01-25")
@@ -64,7 +65,7 @@ advdate <- function(obj, adv, topic = NULL,assignment=NULL) {
  zadv <- sprintf("%02d", adv)
 
  if (is.null(topic)&is.null(assignment)){
- tmp <- paste("Week ",zadv,sep='',", ", tmon," - ",tfri)
+ tmp <- paste("Module ",zadv,sep='',", ", tmon," - ",tfri)
  } else if(!is.null(assignment)){if(assignment %in% c("Friday","friday","f","fri")){
   tmp <- paste0(tfri)
  }else if(assignment %in% c("wednesday","Wednesday","w","wed","W")){
@@ -131,8 +132,8 @@ topic=c(
   "Prediction and overfitting", 
   "Cross validation", 
   "Quantifying uncertainty",
-  "Special Topics (like: Text analysis; Interactive web apps; Machine learning; Bayesian inference",
-  "Special Topics" 
+  "Interactive web apps",
+  "Special Topics (like: Text analysis; Machine learning; Bayesian inference)" 
   )
 
 
@@ -145,10 +146,6 @@ topic=c(
 
 Data Science for Psychologists (DSP) introduces on the principles of data science, including data wrangling, modeling, visualization, and communication. In this class, we link those principles to psychological methods and open science practices by emphasizing exploratory analyses and description, rather than confirmatory analyses and prediction. We'll work our way thru Wickham and Grolemund's R for Data Science text (http://r4ds.had.co.nz/) and develop expertise in tidyverse (https://www.tidyverse.org/). This class emphasizes replication and reproducibility. DSP is a practical skilled-based class and should be useful to students aiming for academia as well as those interested in industry. Applications of these methods can be applied to a full range of psychological areas, including perception (e.g, eye-tracking data), neuroscience (e.g., visualizing neural networks), and individual differences (e.g., valence analysis).
 
-<!---
-```{r child = './common/content/doingwell_irl.Rmd'}
-```
---->
 
 ## Broad goals for the course:
 - 1. Reproducibility;
@@ -235,17 +232,6 @@ Because this class is blended, there will be multiple online engagement activiti
 
 ```{r child = './common/content/contract_grades_ds4p.Rmd'}
 ```
-
-
-<!---
-- 200 points of your grade will be determined by your best two exams.
-    - The final is not optional.
-- 50 points of your grade will be determined by completing engagement activities.
-
-your attendance and participation in engagement activities. Generally, ask questions and answer them.
-
-- 100 points of your grade will be determined by your best two short assignments.
--->
 
 
 
@@ -360,5 +346,7 @@ Schedule
 ## Final Exam 
 
 - TBD on DEC TBD
--->
+
 # References
+
+-->
