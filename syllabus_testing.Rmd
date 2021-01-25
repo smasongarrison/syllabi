@@ -254,7 +254,7 @@ There will be multiple engagement activities in this course. These activities wi
 <!---
 - Tuesday: Selected readings
 - Thursday: Chapter 10
-
+-->
 ##  `r advdate(mon, 11, topic)`
 <!---
 - Monday: Last day to drop with a grade of "W"

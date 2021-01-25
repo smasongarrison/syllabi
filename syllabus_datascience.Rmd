@@ -18,7 +18,6 @@ author: S. Mason Garrison
 email: "GarrisSM@wfu.edu"
 
 
-
 officehours: By Appointment \href{https://calendly.com/smasongarrison/}{\small\tt calendly.com/smasongarrison}
 office: "GREENE 438"
 officev: Zoom \href{https://wakeforest-university.zoom.us/my/smasongarrison}{\tiny\tt wakeforest-university.zoom.us/my/smasongarrison}
@@ -192,7 +191,7 @@ You will give two asynchronous presentations.  Your team will give a 15-20 minut
 You will give one asynchronous presentation. approximately 10- minutes.  This presentation is chance to practice a formal presentation in a relatively pressure-free setting).
 
 
-## Assignments
+## Lab
 
 <stuff about these should be in here>
 
@@ -232,7 +231,6 @@ Because this class is blended, there will be multiple online engagement activiti
 
 ```{r child = './common/content/contract_grades_ds4p.Rmd'}
 ```
-
 
 
 
