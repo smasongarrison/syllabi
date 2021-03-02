@@ -36,10 +36,8 @@ vignettes/*.pdf
 *.knit.md
 .Rproj.user
 *.aux
-syllabus_personality.tex
 syllabus_personality.out
 *.log
 common/content/policies.html
 *.out
 syllabus_testing.out
-syllabus_testing.tex
