@@ -86,6 +86,7 @@ bib <- ReadBib("library.bib")
 bib <- c(bib, as.BibEntry(citation()))
 bib[length(bib)]$key = "Rcite"
 
+
 topic=c(
   "Foundations and Nature of Testing", 
   "History of Testing",
@@ -94,14 +95,14 @@ topic=c(
   "Classical Test Theory",
   "Reliability",
   "Validity",
-  "More Validity", 
   "Item Analysis", 
   "Factor Analysis",
+  "Item Response Theory",
   "Catch Up Week",
   "Practical Testing Things",
   "Ability Testing",
   "Personality Testing", 
-  "Special Topics",
+  "Review", #Special Topics",
   "Other Assessment Techniques", 
   "Modern Development and Applications of Testing", 
   "Review"
@@ -174,9 +175,9 @@ The best two (2) out of three (3) qualitative aspects will be used to determine 
 
 ### Assignment Dates
 
-- Assignment 1: Friday, `r advdate(mon, 6, assignment="f")`: Set 1 and Critique of an online test.
+- Assignment 1: Friday, `r advdate(mon, 7, assignment="f")`: Set 1 and Critique of an online test.
 
-- Assignment 2: Friday, `r advdate(mon, 12, assignment="f")`: Set 2 and Critique of a testing-related popular media article.
+- Assignment 2: Friday, `r advdate(mon, 13, assignment="f")`: Set 2 and Critique of a testing-related popular media article.
 
 - Assignment 3: Friday, `r advdate(mon, 15, assignment="f")`: Set 3 and Critique of a testing-related YouTube video.
 
