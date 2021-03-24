@@ -94,11 +94,11 @@ topic=c(
   "Norms and the Meaning of Test Scores",
   "Classical Test Theory",
   "Reliability",
+  "Catch Up Week",
   "Validity",
   "Item Analysis", 
   "Factor Analysis",
   "Item Response Theory",
-  "Catch Up Week",
   "Practical Testing Things",
   "Ability Testing",
   "Personality Testing", 
@@ -157,9 +157,9 @@ There will be 6 quizzes in this course. These will be approximately every three 
 
 - Quiz 2: Friday, `r advdate(mon, 6, assignment="f")`
 
-- Quiz 3: Friday, `r advdate(mon, 9, assignment="f")`
+- Quiz 3: Friday, `r advdate(mon, 10, assignment="f")`
 
-- Quiz 4: Friday, `r advdate(mon, 12, assignment="f")`
+- Quiz 4: Friday, `r advdate(mon, 13, assignment="f")`
 
 - Quiz 5: Friday, `r advdate(mon, 15, assignment="f")`
 
