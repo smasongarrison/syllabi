@@ -24,7 +24,6 @@ This course was designed to be a starting point. You have learned so much in a s
 
 
 
-
 ```{r, echo=FALSE}
 #library(vembedr)
 #embed_url("https://www.youtube.com/watch?v=HGtAP_Td8z4") %>%
@@ -44,8 +43,4 @@ Github has some incredibly useful guides to do this...
  (https://docs.github.com/en/github/setting-up-and-managing-your-github-user-account/setting-a-backup-email-address)
 
 Please do not procrastinate this! It is really important to do this before you lose access!!!!
-
-
-
-
 
