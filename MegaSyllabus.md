@@ -1,9 +1,9 @@
 --- 
-title: "COURSE NAME"
+title: "Prof. Mason's Syllabi"
 subtitle: "A Snappy Subtitle"
 author: 
 - S. Mason Garrison
-date: "2021-05-17"
+date: "2021-05-18"
 knit: "bookdown::render_book"
 site: bookdown::bookdown_site
 url: 'https\://github.com/DataScience4Psych/DataScience4Psych'
@@ -14,7 +14,7 @@ documentclass: book
 bibliography: [book.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes
-description: "COURSE NUM: COURSE NAME: Snappy Subtitle"
+description: "Prof. Mason's Syllabi"
 favicon: assets/favicon.ico
 
 ---
@@ -22,101 +22,22 @@ favicon: assets/favicon.ico
 
 # (PART\*) Front Matter {-}
 
-# Welcome to PSY 703 {-}
+# Welcome to my Syllabi! {-}
 
 
 
 
-Welcome to class! This website is designed to accompany Mason Garrison's COURSE NAME (CN4P). CN4P is a graduate-level quantitative methods course at Wake Forest University. This class assumes zero knowledge of programming, computer science, linear algebra, probability, or really anything fancy. I encourage anyone who is quant-curious to work their way through these course notes. The course notes include lectures, worked examples, readings, activities, and labs. You can find the current version of the course syllabus [here](https://github.com/smasongarrison/Syllabi/blob/master/syllabus_datascience.pdf), along with all of the [other syllabi for my classes]( https://github.com/smasongarrison/Syllabi). All the embedded lecture videos can be found on a [youtube playlist][ds4p-pl-all]. 
+Welcome to all my syllabi! This website is designed to accompany all of Mason Garrison's courses at Wake Forest University. Over the semesters, I have found that my syllabi keep growing longer and longer as my career has progressed. I know that no one likes reading 8 page syllabi. However, I want to make sure that all my students know what my expectations are. So in that spirit, I've created a website to contain all of my policies in one place. That way, I can have a neat and tidy syllabi, while still making my expectations clear. 
 
 
-```{=html}
-<div class="vembedr" align="center">
-<div>
-<iframe src="https://www.youtube.com/embed/nYYJmmcgzr8" width="533" height="300" frameborder="0" allowfullscreen=""></iframe>
-</div>
-</div>
-```
+## Mason Commentary{-}
 
-
-## Mason Notes {-}
-
-
-
-
-
-This website is constantly changing. This new course is in active development, and approximately 100% done. I have made this process explicitly transparent because I want you to see how you can use R to produce some pretty neat things. Indeed, I've included the source code for this website in the class [github](https://github.com/DataScience4Psych). I encourage you to contribute to the [course code](https://github.com/DataScience4Psych/DataScience4Psych). If you catch typos, errors, please issue a pull request with the fixes. If you find cool / useful resources, please add them. By the end of the semester, I would love for everyone to have contributed to the course materials. It can be as simple as adding a course request to the [wishlist](#course-wishlist). I believe that it is useful skill to be able to do. 
-
+This website is constantly changing. If you catch typos, errors, please issue a pull request with the fixes
 
 
 ### How to use these notes {-}
 
-This document is broken down into multiple chapters. Use the table of contents on the left side of the screen to navigate, and use the hamburger icon (horizontal bars) at the top of the document to open or close the table of contents. At the top of the document, you'll see additional icons which you can click to search the document, change the size, font or color scheme of the page. The document will be updated (unpredictably) throughout the semester.
-
-
-Every module corresponds to a weeks worth of material. Most modules are dedicated to improving a specific skill or at the very least dedicated to a specific theme. Within each module, there are embedded videos, slides, activities, labs, and tutorials. The skills developed in each module build upon skills you've developed in previous modules. Eventually, this class will have more modules available than weeks in a semester, so that you -- the reader can choose your own adventure (err... module) you'd like to start with. 
-
-
-Although these notes share some of the features of a textbook, they are neither comprehensive nor completely original. The main purpose is to give you all a set of common materials on which to draw during the course. In class, we will sometimes do things outside the notes. The idea here is that you will read the materials and try to learn from them, just as you will attend classes and try to learn from them.
-
-### Status of course {-}
-
-In terms of timing, I will have each module completed by the start of the week. Given that the class meets either on Monday or Friday, the start of the "week" will be Wednesday at 12 p.m. EST. It is possible that I will get ahead of this deadline. You can see the current status of the course below. Although you are welcome to work ahead, be aware that I will be making changes to modules that haven't officially started yet. In addition, I may add optional materials to previous modules that might be helpful. 
-
-
-
-```{=html}
-<div class="vembedr" align="center">
-<div>
-<iframe src="https://www.youtube.com/embed/fwJHNw9jU_U" width="533" height="300" frameborder="0" allowfullscreen=""></iframe>
-</div>
-</div>
-```
-
-This table provides the current status of the course. It lists proportions of specific components by module. Overall it is 100% complete. 
-
-
-
-```{=html}
-<div id="htmlwidget-6ebb6f8b4ee606ea5e4b" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-6ebb6f8b4ee606ea5e4b">{"x":{"filter":"none","data":[[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15],[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,null],[null,1,1,1,1,1,1,1,1,1,null,1,null,1,null,null],[1,1,1,1,1,1,1,1,1,1,1,1,1,1,null,null],[null,1,1,1,1,1,null,1,1,null,null,null,null,null,null,null],[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>Module<\/th>\n      <th>Slides<\/th>\n      <th>Lab<\/th>\n      <th>Videos<\/th>\n      <th>Application<\/th>\n      <th>Lecture Notes<\/th>\n      <th>Status<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":true,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":[0,1,2,3,4,5,6]}],"order":[],"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
-```
-
-
-### Course Wishlist {-}
-
-Although there will be hiccups and snafus along the way, one major advantage of this process is that you(!) can have a major input on what we cover. Some of these inputs have already been incorporated (such as github, Rshiny). So take advantage! Add your requests to the [markdown list below](#wish-not-yet-granted)! As I incorporate those requests, I'll move them into the [Wish Granted Section](#wish-granted).
-
-
-#### Wishes {-}
-
-* [Github](#installgit)
-* [Rshiny](#rshiny)
-* Learning R 
-* functions
-* [fun, unusual ways of presenting data](#portfolio)
-* grammar of R
-
-#### Wish Not Yet Granted {-}
-
-* Data Science and the Law
-* Computational neuroscience
-* Multilevel
-* Choosing the best analysis
-* SEM, longitudinal data
-* what to do with existing data
-* basic data and programming skills (applied across platforms)
-* troubleshooting (e.g., figuring out how to answer questions)
-
-
-
-#### Major Mission!!! {-}
-
-* Being comfortable with R
-* really understand data
-* draw meaningful conclusions about it
-* understand why certain code is written certain way and applying that logic
-
+This document is broken down into multiple chapters. Use the table of contents on the left side of the screen to navigate, and use the hamburger icon (horizontal bars) at the top of the document to open or close the table of contents. At the top of the document, you'll see additional icons which you can click to search the document, change the size, font or color scheme of the page. The document will be updated (unpredictably) throughout the semester; however, students aren't bound to policies added once they've signed their syllabus. Instead, they are bound to the version of this "book" that was in place when they signed their syllabus. I have archived versions of this book... somewhere.
 
 
 
@@ -1006,789 +927,6 @@ material.
 
 
 
-# Sitemap {-}
-
-
-```{=html}
-<style>html {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
-}
-
-#britmzyuwj .gt_table {
-  display: table;
-  border-collapse: collapse;
-  margin-left: auto;
-  margin-right: auto;
-  color: #333333;
-  font-size: 16px;
-  font-weight: normal;
-  font-style: normal;
-  background-color: #FFFFFF;
-  width: auto;
-  border-top-style: solid;
-  border-top-width: 2px;
-  border-top-color: #A8A8A8;
-  border-right-style: none;
-  border-right-width: 2px;
-  border-right-color: #D3D3D3;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: #A8A8A8;
-  border-left-style: none;
-  border-left-width: 2px;
-  border-left-color: #D3D3D3;
-}
-
-#britmzyuwj .gt_heading {
-  background-color: #FFFFFF;
-  text-align: center;
-  border-bottom-color: #FFFFFF;
-  border-left-style: none;
-  border-left-width: 1px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 1px;
-  border-right-color: #D3D3D3;
-}
-
-#britmzyuwj .gt_title {
-  color: #333333;
-  font-size: 125%;
-  font-weight: initial;
-  padding-top: 4px;
-  padding-bottom: 4px;
-  border-bottom-color: #FFFFFF;
-  border-bottom-width: 0;
-}
-
-#britmzyuwj .gt_subtitle {
-  color: #333333;
-  font-size: 85%;
-  font-weight: initial;
-  padding-top: 0;
-  padding-bottom: 4px;
-  border-top-color: #FFFFFF;
-  border-top-width: 0;
-}
-
-#britmzyuwj .gt_bottom_border {
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-}
-
-#britmzyuwj .gt_col_headings {
-  border-top-style: solid;
-  border-top-width: 2px;
-  border-top-color: #D3D3D3;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-  border-left-style: none;
-  border-left-width: 1px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 1px;
-  border-right-color: #D3D3D3;
-}
-
-#britmzyuwj .gt_col_heading {
-  color: #333333;
-  background-color: #FFFFFF;
-  font-size: 100%;
-  font-weight: normal;
-  text-transform: inherit;
-  border-left-style: none;
-  border-left-width: 1px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 1px;
-  border-right-color: #D3D3D3;
-  vertical-align: bottom;
-  padding-top: 5px;
-  padding-bottom: 6px;
-  padding-left: 5px;
-  padding-right: 5px;
-  overflow-x: hidden;
-}
-
-#britmzyuwj .gt_column_spanner_outer {
-  color: #333333;
-  background-color: #FFFFFF;
-  font-size: 100%;
-  font-weight: normal;
-  text-transform: inherit;
-  padding-top: 0;
-  padding-bottom: 0;
-  padding-left: 4px;
-  padding-right: 4px;
-}
-
-#britmzyuwj .gt_column_spanner_outer:first-child {
-  padding-left: 0;
-}
-
-#britmzyuwj .gt_column_spanner_outer:last-child {
-  padding-right: 0;
-}
-
-#britmzyuwj .gt_column_spanner {
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-  vertical-align: bottom;
-  padding-top: 5px;
-  padding-bottom: 6px;
-  overflow-x: hidden;
-  display: inline-block;
-  width: 100%;
-}
-
-#britmzyuwj .gt_group_heading {
-  padding: 8px;
-  color: #333333;
-  background-color: #FFFFFF;
-  font-size: 100%;
-  font-weight: initial;
-  text-transform: inherit;
-  border-top-style: solid;
-  border-top-width: 2px;
-  border-top-color: #D3D3D3;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-  border-left-style: none;
-  border-left-width: 1px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 1px;
-  border-right-color: #D3D3D3;
-  vertical-align: middle;
-}
-
-#britmzyuwj .gt_empty_group_heading {
-  padding: 0.5px;
-  color: #333333;
-  background-color: #FFFFFF;
-  font-size: 100%;
-  font-weight: initial;
-  border-top-style: solid;
-  border-top-width: 2px;
-  border-top-color: #D3D3D3;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-  vertical-align: middle;
-}
-
-#britmzyuwj .gt_from_md > :first-child {
-  margin-top: 0;
-}
-
-#britmzyuwj .gt_from_md > :last-child {
-  margin-bottom: 0;
-}
-
-#britmzyuwj .gt_row {
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 5px;
-  padding-right: 5px;
-  margin: 10px;
-  border-top-style: solid;
-  border-top-width: 1px;
-  border-top-color: #D3D3D3;
-  border-left-style: none;
-  border-left-width: 1px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 1px;
-  border-right-color: #D3D3D3;
-  vertical-align: middle;
-  overflow-x: hidden;
-}
-
-#britmzyuwj .gt_stub {
-  color: #333333;
-  background-color: #FFFFFF;
-  font-size: 100%;
-  font-weight: initial;
-  text-transform: inherit;
-  border-right-style: solid;
-  border-right-width: 2px;
-  border-right-color: #D3D3D3;
-  padding-left: 12px;
-}
-
-#britmzyuwj .gt_summary_row {
-  color: #333333;
-  background-color: #FFFFFF;
-  text-transform: inherit;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-
-#britmzyuwj .gt_first_summary_row {
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 5px;
-  padding-right: 5px;
-  border-top-style: solid;
-  border-top-width: 2px;
-  border-top-color: #D3D3D3;
-}
-
-#britmzyuwj .gt_grand_summary_row {
-  color: #333333;
-  background-color: #FFFFFF;
-  text-transform: inherit;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-
-#britmzyuwj .gt_first_grand_summary_row {
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 5px;
-  padding-right: 5px;
-  border-top-style: double;
-  border-top-width: 6px;
-  border-top-color: #D3D3D3;
-}
-
-#britmzyuwj .gt_striped {
-  background-color: rgba(128, 128, 128, 0.05);
-}
-
-#britmzyuwj .gt_table_body {
-  border-top-style: solid;
-  border-top-width: 2px;
-  border-top-color: #D3D3D3;
-  border-bottom-style: solid;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-}
-
-#britmzyuwj .gt_footnotes {
-  color: #333333;
-  background-color: #FFFFFF;
-  border-bottom-style: none;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-  border-left-style: none;
-  border-left-width: 2px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 2px;
-  border-right-color: #D3D3D3;
-}
-
-#britmzyuwj .gt_footnote {
-  margin: 0px;
-  font-size: 90%;
-  padding: 4px;
-}
-
-#britmzyuwj .gt_sourcenotes {
-  color: #333333;
-  background-color: #FFFFFF;
-  border-bottom-style: none;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-  border-left-style: none;
-  border-left-width: 2px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 2px;
-  border-right-color: #D3D3D3;
-}
-
-#britmzyuwj .gt_sourcenote {
-  font-size: 90%;
-  padding: 4px;
-}
-
-#britmzyuwj .gt_left {
-  text-align: left;
-}
-
-#britmzyuwj .gt_center {
-  text-align: center;
-}
-
-#britmzyuwj .gt_right {
-  text-align: right;
-  font-variant-numeric: tabular-nums;
-}
-
-#britmzyuwj .gt_font_normal {
-  font-weight: normal;
-}
-
-#britmzyuwj .gt_font_bold {
-  font-weight: bold;
-}
-
-#britmzyuwj .gt_font_italic {
-  font-style: italic;
-}
-
-#britmzyuwj .gt_super {
-  font-size: 65%;
-}
-
-#britmzyuwj .gt_footnote_marks {
-  font-style: italic;
-  font-size: 65%;
-}
-</style>
-<div id="britmzyuwj" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;"><table class="gt_table">
-  
-  <thead class="gt_col_headings">
-    <tr>
-      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1">title</th>
-      <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1">link</th>
-    </tr>
-  </thead>
-  <tbody class="gt_table_body">
-    <tr>
-      <td class="gt_row gt_left">api wrappers</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/api-wrappers.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">attribution</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/attribution.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">automation</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/automation.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">basic data care</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/basic-data-care.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">bechdal</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/bechdal.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">bootstrapping</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/bootstrapping.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">choice your own activity</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/choice-your-own-activity.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">classic things in r</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/classic-things-in-r.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">colophon</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/colophon.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">communicating data science results effectively</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/communicating-data-science-results-effectively.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">cross validation</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/cross-validation.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">data as rhetoric</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/data-as-rhetoric.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">data science and ethics</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/data-science-and-ethics.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">data types and recoding</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/data-types-and-recoding.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">data usually finds me</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/data-usually-finds-me.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">deeper diving into ggplot2</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/deeper-diving-into-ggplot2.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">designing effective visualizations</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/designing-effective-visualizations.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">diy web data</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/diy-web-data.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">dont miss module 00</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/dont-miss-module-00.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">dont miss the last module</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/dont-miss-the-last-module.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">dplyr intro</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/dplyr-intro.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">exploratory data analysis</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/exploratory-data-analysis.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">fitting and interpreting models</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/fitting-and-interpreting-models.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">functions 1</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/functions-1.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">functions part1</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/functions-part1.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">functions practicum</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/functions-practicum.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">good resources</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/good-resources.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">grammar of data wrangling</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/grammar-of-data-wrangling.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">handson</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/handson.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">import export</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/import-export.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">important topic a</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/important-topic-a.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">importing data</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/importing-data.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">index</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/index.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">lab01</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/lab01.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">lab02</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/lab02.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">lab03</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/lab03.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">lab04</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/lab04.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">lab05</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/lab05.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">lab06a</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/lab06a.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">lab06b</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/lab06b.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">lab07</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/lab07.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">lab08</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/lab08.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">lab08b</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/lab08b.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">lab09</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/lab09.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">lab10</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/lab10.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">lab11</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/lab11.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">language of models</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/language-of-models.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">license</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/license.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">machines learn</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/machines-learn.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">media without a home yet</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/media-without-a-home-yet.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">meet our toolbox</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/meet-our-toolbox.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">merges</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/merges.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">mod06</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/mod06.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">modeling non linear relationships</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/modeling-non-linear-relationships.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">modeling with multiple predictors</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/modeling-with-multiple-predictors.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">natural language processing</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/natural-language-processing.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">neural networks</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/neural-networks.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">notes on feature engineering</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/notes-on-feature-engineering.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">notes on hypothesis testing</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/notes-on-hypothesis-testing.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">notes on logistic regression</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/notes-on-logistic-regression.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">odd design choices in data visualization</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/odd-design-choices-in-data-visualization.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">odd legacy data types</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/odd-legacy-data-types.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">odd notes on cross validation</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/odd-notes-on-cross-validation.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">odd transformations data</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/odd-transformations-data.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">overfitting</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/overfitting.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">plots behaving badly</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/plots-behaving-badly.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">practical advice from the data professor</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/practical-advice-from-the-data-professor.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">public health dashboards</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/public-health-dashboards.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">quantifying uncertainty</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/quantifying-uncertainty.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">r basics</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/r-basics.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">reading error codes</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/reading-error-codes.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">references</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/references.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">rshiny overview</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/rshiny-overview.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">rshiny</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/rshiny.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">scientific studies and confounding</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/scientific-studies-and-confounding.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">scraping the web</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/scraping-the-web.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">secrets</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/secrets.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">shiny overview</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/shiny-overview.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">shiny resources</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/shiny-resources.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">shorthappygit</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/shorthappygit.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">sitemap</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/sitemap.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">special topics machine learn</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/special-topics-machine-learn.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">star wars activity</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/star-wars-activity.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">syllabus</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/syllabus.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">thoughtful workflow</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/thoughtful-workflow.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">thoughts from hadley wickham on tidyverse</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/thoughts-from-hadley-wickham-on-tidyverse.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">tidy data</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/tidy-data.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">visualization examples</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/visualization-examples.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">visualizing categorical data</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/visualizing-categorical-data.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">visualizing data with ggplot2</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/visualizing-data-with-ggplot2.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">visualizing numerical data</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/visualizing-numerical-data.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">welcome to base r</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/welcome-to-base-r.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">welcome to cross validation</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/welcome-to-cross-validation.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">welcome to data and ethics</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/welcome-to-data-and-ethics.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">welcome to data and visualization</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/welcome-to-data-and-visualization.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">welcome to data diving with types</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/welcome-to-data-diving-with-types.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">welcome to data science</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/welcome-to-data-science.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">welcome to functions and automation</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/welcome-to-functions-and-automation.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">welcome to modeling the tidy way</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/welcome-to-modeling-the-tidy-way.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">welcome to prediction and overfitting</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/welcome-to-prediction-and-overfitting.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">welcome to quantifying uncertainty</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/welcome-to-quantifying-uncertainty.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">welcome to the template module</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/welcome-to-the-template-module.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">welcome to the tidyverse</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/welcome-to-the-tidyverse.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">welcome to tips for effective data visualization</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/welcome-to-tips-for-effective-data-visualization.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">welcome to web scraping</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/welcome-to-web-scraping.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">what is data science</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/what-is-data-science.html">website</a></td>
-    </tr>
-    <tr>
-      <td class="gt_row gt_left">working with multiple data frames</td>
-      <td class="gt_row gt_center"><a href="https://datascience4psych.github.io/DataScience4Psych/working-with-multiple-data-frames.html">website</a></td>
-    </tr>
-  </tbody>
-  
-  
-</table></div>
-```
-
 
 
 # Colophon {-}
@@ -1811,15 +949,15 @@ This version of the notes was built with:
 #>  collate  English_United States.1252  
 #>  ctype    English_United States.1252  
 #>  tz       America/New_York            
-#>  date     2021-05-17
+#>  date     2021-05-18
 ```
 
 Along with these packages:
 
 
 ```{=html}
-<div id="htmlwidget-55251ddc8e500780b1e9" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-55251ddc8e500780b1e9">{"x":{"filter":"top","filterHTML":"<tr>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n<\/tr>","data":[["askpass","assertthat","backports","base64enc","BH","blob","bookdown","brew","brio","broom","cachem","callr","cellranger","checkmate","cli","clipr","colorspace","commonmark","conflicted","cpp11","crayon","credentials","crosstalk","crul","curl","data.table","DBI","dbplyr","desc","devtools","dichromat","diffobj","digest","dplyr","DT","dtplyr","ellipsis","evaluate","fansi","farver","fastmap","forcats","fs","gapminder","gargle","gender","genderdata","generics","geonames","gert","ggplot2","gh","gitcreds","glue","googledrive","googlesheets4","gridExtra","gt","gtable","haven","highr","hms","htmltools","htmlwidgets","httpcode","httr","ids","ini","isoband","jsonlite","knitr","labeling","later","lattice","lazyeval","lifecycle","lubridate","magrittr","markdown","MASS","Matrix","memoise","mgcv","mime","modelr","munsell","nlme","openssl","pillar","pkgbuild","pkgconfig","pkgload","plyr","praise","prettyunits","processx","progress","promises","ps","purrr","R6","rappdirs","rcmdcheck","RColorBrewer","Rcpp","readr","readxl","rebird","rematch","rematch2","remotes","reprex","reshape2","rjson","rlang","rmarkdown","roxygen2","rplos","rprojroot","rstudioapi","rversions","rvest","sass","scales","selectr","sessioninfo","solrium","stringi","stringr","sys","testthat","tibble","tidyr","tidyselect","tidyverse","tinytex","triebeard","urltools","usethis","utf8","uuid","vctrs","viridis","viridisLite","waldo","whisker","withr","xfun","xml2","xopen","yaml","zip"],[null,"0.2.1","1.2.1",null,null,null,"0.22",null,null,"0.7.6","1.0.4","3.7.0","1.1.0","2.0.0","2.5.0",null,"2.0-0","1.7",null,null,"1.4.1",null,null,null,null,null,"1.1.1","2.1.1","1.3.0","2.4.1",null,null,"0.6.27","1.0.5","0.18",null,"0.3.2","0.14","0.4.2",null,"1.1.0","0.5.1","1.5.0",null,null,null,null,"0.1.0",null,null,"3.3.3",null,null,"1.4.2",null,null,null,"0.2.2","0.3.0","2.4.1",null,"1.0.0","0.5.1.1","1.5.3",null,"1.4.2",null,null,null,"1.7.2","1.33",null,null,null,null,"1.0.0","1.7.10","2.0.1",null,null,null,"2.0.0",null,null,"0.1.8","0.5.0",null,null,"1.6.0","1.2.0","2.0.3","1.2.1",null,null,"1.1.1","3.5.2",null,null,"1.6.0","0.3.4","2.5.0",null,null,null,"1.0.6","1.4.0","1.3.1",null,null,null,"2.3.0","2.0.0",null,null,"0.4.10","2.8",null,null,"2.0.2","0.13",null,"1.0.0","0.3.1","1.1.1",null,"1.1.1",null,"1.5.3","1.4.0",null,"3.0.2","3.1.1","1.1.3","1.1.1","1.3.1",null,null,null,"2.0.1","1.2.1",null,"0.3.8",null,null,null,null,"2.4.2","0.22","1.3.2",null,"2.2.1",null],["2019-01-13","2019-03-21","2020-12-09","2015-07-28","2021-01-11","2020-01-20","2021-04-22","2011-04-13","2021-04-23","2021-04-05","2021-02-13","2021-04-20","2016-07-27","2020-02-06","2021-04-26","2020-10-08","2020-11-11","2018-12-01","2019-06-21","2021-03-29","2021-02-08","2020-07-21","2021-01-12","2021-02-15","2021-04-30","2021-02-21","2021-01-15","2021-04-06","2021-03-05","2021-05-05","2013-01-24","2021-03-22","2020-10-24","2021-03-05","2021-04-14","2021-02-20","2021-04-29","2019-05-28","2021-01-15","2021-02-28","2021-01-25","2021-01-27","2020-07-31","2017-10-31","2021-04-02","2020-05-15","2020-11-17","2020-10-31","2019-02-19","2021-03-29","2020-12-30","2021-04-30","2020-12-04","2020-08-27","2020-05-05","2021-03-04","2017-09-09","2020-08-05","2019-03-25","2021-04-23","2021-04-16","2021-01-13","2021-01-22","2020-12-10","2020-04-10","2020-07-20","2017-05-31","2018-05-20","2021-03-03","2020-12-09","2021-04-24","2020-10-20","2021-04-23","2020-04-02","2019-03-15","2021-02-15","2021-02-26","2020-11-17","2019-08-07","2021-02-12","2021-01-06","2021-01-26","2021-02-16","2021-02-13","2020-05-19","2018-06-12","2021-02-04","2021-04-30","2021-04-13","2020-12-15","2019-09-22","2021-04-06","2020-03-03","2015-08-11","2020-01-24","2021-04-30","2019-05-16","2021-02-11","2021-02-28","2020-04-17","2020-10-28","2021-01-31","2019-05-07","2014-12-07","2021-01-15","2020-10-05","2019-03-13","2021-01-27","2016-04-21","2020-05-01","2021-04-01","2021-04-02","2020-04-09","2018-06-08","2020-12-30","2021-05-07","2020-06-27","2021-02-23","2020-11-15","2020-11-12","2020-05-25","2021-03-09","2021-01-24","2020-05-11","2019-11-20","2018-11-05","2019-11-02","2020-09-09","2019-02-10","2020-07-23","2021-02-14","2021-04-18","2021-03-03","2021-04-30","2021-04-15","2021-03-30","2016-08-04","2019-04-14","2021-02-10","2021-03-12","2020-02-26","2021-04-29","2021-04-15","2021-04-13","2021-03-08","2019-08-28","2021-04-18","2021-03-11","2020-04-23","2018-09-17","2020-02-01","2020-08-27"],["CRAN (R 4.0.0)","CRAN (R 4.0.0)","CRAN (R 4.0.3)","CRAN (R 4.0.0)","CRAN (R 4.0.3)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.2)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","local","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.2)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.2)","CRAN (R 4.0.4)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.2)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.0)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.0)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.2)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.0)","CRAN (R 4.0.3)","CRAN (R 4.0.0)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.2)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.2)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.0)","CRAN (R 4.0.0)","CRAN (R 4.0.2)","CRAN (R 4.0.3)","CRAN (R 4.0.2)","CRAN (R 4.0.0)","CRAN (R 4.0.2)","CRAN (R 4.0.4)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.2)","CRAN (R 4.0.0)","CRAN (R 4.0.3)"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>package<\/th>\n      <th>loadedversion<\/th>\n      <th>date<\/th>\n      <th>source<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":152,"autoWidth":true,"bInfo":false,"paging":false,"order":[],"orderClasses":false,"orderCellsTop":true,"lengthMenu":[10,25,50,100,152]}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-a5fc137fba98cdbd0fcc" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-a5fc137fba98cdbd0fcc">{"x":{"filter":"top","filterHTML":"<tr>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n<\/tr>","data":[["askpass","assertthat","backports","base64enc","BH","bitops","blob","bookdown","brew","brio","broom","cachem","callr","cellranger","checkmate","cli","clipr","colorspace","commonmark","conflicted","cpp11","crayon","credentials","crosstalk","crul","curl","data.table","DBI","dbplyr","desc","devtools","dichromat","diffobj","digest","dplyr","DT","dtplyr","ellipsis","evaluate","fansi","farver","fastmap","forcats","fs","gapminder","gargle","gender","genderdata","generics","geonames","gert","ggplot2","gh","gitcreds","glue","googledrive","googlesheets4","gridExtra","gt","gtable","haven","highr","hms","htmltools","htmlwidgets","httpcode","httr","ids","ini","isoband","jsonlite","knitr","labeling","later","lattice","lazyeval","lifecycle","lubridate","magrittr","markdown","MASS","Matrix","memoise","mgcv","mime","modelr","munsell","nlme","openssl","pillar","pkgbuild","pkgconfig","pkgload","plyr","praise","prettyunits","processx","progress","promises","ps","purrr","R6","rappdirs","rcmdcheck","RColorBrewer","Rcpp","readr","readxl","rebird","rematch","rematch2","remotes","reprex","reshape2","rjson","rlang","rmarkdown","roxygen2","rplos","rprojroot","rstudioapi","rversions","rvest","sass","scales","selectr","sessioninfo","solrium","stringi","stringr","sys","testthat","tibble","tidyr","tidyselect","tidyverse","tinytex","triebeard","urltools","usethis","utf8","uuid","vctrs","viridis","viridisLite","waldo","whisker","withr","xfun","xml2","xopen","yaml","zip"],[null,"0.2.1","1.2.1",null,null,null,null,"0.22",null,null,"0.7.6","1.0.5","3.7.0","1.1.0",null,"2.5.0",null,"2.0-1",null,null,null,"1.4.1",null,null,null,null,null,"1.1.1","2.1.1","1.3.0","2.4.1",null,null,"0.6.27","1.0.6","0.18",null,"0.3.2","0.14","0.4.2",null,"1.1.0","0.5.1","1.5.0",null,null,null,null,"0.1.0",null,null,"3.3.3",null,null,"1.4.2",null,null,null,null,"0.3.0","2.4.1",null,"1.1.0","0.5.1.9000","1.5.3",null,"1.4.2",null,null,null,"1.7.2","1.33",null,null,null,null,"1.0.0","1.7.10","2.0.1",null,null,null,"2.0.0",null,null,"0.1.8","0.5.0",null,null,"1.6.1","1.2.0","2.0.3","1.2.1",null,null,"1.1.1","3.5.2",null,null,"1.6.0","0.3.4","2.5.0",null,null,null,"1.0.6","1.4.0","1.3.1",null,null,null,"2.3.0","2.0.0",null,null,"0.4.11","2.8",null,null,"2.0.2","0.13",null,"1.0.0","0.4.0","1.1.1",null,"1.1.1",null,"1.6.2","1.4.0",null,"3.0.2","3.1.2","1.1.3","1.1.1","1.3.1",null,null,null,"2.0.1","1.2.1",null,"0.3.8",null,null,null,null,"2.4.2","0.22","1.3.2",null,"2.2.1",null],["2019-01-13","2019-03-21","2020-12-09","2015-07-28","2021-01-11","2021-04-24","2020-01-20","2021-04-22","2011-04-13","2021-04-23","2021-04-05","2021-05-15","2021-04-20","2016-07-27","2020-02-06","2021-04-26","2020-10-08","2021-05-04","2018-12-01","2019-06-21","2021-03-29","2021-02-08","2020-07-21","2021-01-12","2021-02-15","2021-04-30","2021-02-21","2021-01-15","2021-04-06","2021-03-05","2021-05-05",null,"2021-03-22","2020-10-24","2021-05-05","2021-04-14","2021-02-20","2021-04-29","2019-05-28","2021-01-15","2021-02-28","2021-01-25","2021-01-27","2020-07-31","2017-10-31","2021-04-02","2020-05-15",null,"2020-10-31","2019-02-19","2021-03-29","2020-12-30","2021-04-30","2020-12-04","2020-08-27","2020-05-05","2021-03-04","2017-09-09","2021-05-12","2019-03-25","2021-04-23","2021-04-16","2021-05-17","2021-01-12","2020-12-10","2020-04-10","2020-07-20","2017-05-31","2018-05-20","2021-03-03","2020-12-09","2021-04-24","2020-10-20","2021-04-23","2020-04-02","2019-03-15","2021-02-15","2021-02-26","2020-11-17","2019-08-07","2021-02-12","2021-01-06","2021-01-26","2021-02-16","2021-02-13","2020-05-19","2018-06-12","2021-02-04","2021-04-30","2021-05-16","2020-12-15","2019-09-22","2021-04-06","2020-03-03","2015-08-11","2020-01-24","2021-04-30","2019-05-16","2021-02-11","2021-02-28","2020-04-17","2020-10-28","2021-01-31","2019-05-07","2014-12-07","2021-01-15","2020-10-05","2019-03-13","2021-01-27","2016-04-21","2020-05-01","2021-04-01","2021-04-02","2020-04-09","2018-06-08","2021-04-30","2021-05-07","2020-06-27","2021-02-23","2020-11-15","2020-11-12","2020-05-25","2021-03-09","2021-05-12","2020-05-11","2019-11-20","2018-11-05","2019-11-02","2021-05-17","2019-02-10","2020-07-23","2021-02-14","2021-05-16","2021-03-03","2021-04-30","2021-04-15","2021-03-30","2016-08-04","2019-04-14","2021-02-10","2021-03-12","2020-02-26","2021-04-29","2021-05-11","2021-04-13","2021-03-08","2019-08-28","2021-04-18","2021-03-11","2020-04-23","2018-09-17","2020-02-01","2020-08-27"],["CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.5)",null,"CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.4)",null,"CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","Github (rstudio/htmltools@11cfbf3)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.4)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>package<\/th>\n      <th>loadedversion<\/th>\n      <th>date<\/th>\n      <th>source<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":153,"autoWidth":true,"bInfo":false,"paging":false,"order":[],"orderClasses":false,"orderCellsTop":true,"lengthMenu":[10,25,50,100,153]}},"evals":[],"jsHooks":[]}</script>
 ```
 
 
@@ -2917,6 +2055,1383 @@ A good unessay constitutes a critical and active engagement with the course mate
 + https://ryancordell.org/teaching/how-not-to-teach-digital-humanities/
 
 <!--chapter:end:0002_syllabus.Rmd-->
+
+# (PART\*) Specific Courses {-}
+
+
+
+
+
+
+<!--CN4P Links-->
+[ds4p-web]: https://datascience4psych.github.io/DataScience4Psych
+[ds4p-git]: https://github.com/DataScience4Psych/DataScience4Psych
+[ds4p-slides]: https://github.com/DataScience4Psych/slides
+
+[ds4p-pl-00]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYaEAnJX20Ryy4OSie375rVY
+[ds4p-pl-01]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYao_7t5ycK4KDXNKaY-ECup
+[ds4p-pl-02]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYZmr_T3PnuxjVIlj0C0kUNI
+[ds4p-pl-03]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYaHmjzdRvfg0yhOIYQnfjwE
+[ds4p-pl-04]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYYWFcel6_vp8__RUKLxhX4y
+[ds4p-pl-05]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYYMIguiV1F8RagMYibTY4iW
+[ds4p-pl-06]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYYV_KDod3Mk9-RmtFXii9Dv
+[ds4p-pl-07]: https://www.youtube.com/watch?list=PLKrrdtYgOUYZxvEvQ8-PcWrOY_dwY_ETI
+[ds4p-pl-08]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYZgOzYB_dmauw55M7jXvsdo
+[ds4p-pl-09]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYbaiTmldRY2ddsLrHp3z6yO
+[ds4p-pl-10]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYbPw5iYzYEzoOKa7mJKNIhq
+[ds4p-pl-11]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYZ-u6LzBbanrNFoeLHKaLL6
+[ds4p-pl-12]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYbwRS-9Htmb80_t1NG-021e
+[ds4p-pl-13]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYbWGmSnbLIYwdLOnGm6une6
+[ds4p-pl-14]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYbWGmSnbLIYwdLOnGm6une6
+[ds4p-pl-15]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYa5MoYrV8EsWQ5jIr5ZYMpM
+[ds4p-pl-all]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYbWGmSnbLIYwdLOnGm6une6
+
+
+<!--AE. Links-->
+[ae-02-bechdel]: https://github.com/DataScience4Psych/ae-02-bechdel-rmarkdown
+[ae-01a-un-votes]: https://github.com/DataScience4Psych/ae-01a-un-votes
+[ae-01b-covid]: https://github.com/DataScience4Psych/ae-01b-covid
+[ae-03-starwars-dataviz]: https://github.com/DataScience4Psych/ae-03-starwars-dataviz
+
+
+<!-- Lab Links-->
+
+[lab-01-hello]: https://github.com/DataScience4Psych/lab-01-hello-r
+
+<!--Slides-->
+[d01_welcome]: https://datascience4psych.github.io/slides/d01_welcome/d01_welcome.html
+[d02_toolkit]: https://datascience4psych.github.io/slides/d02_toolkit/d02_toolkit.html
+[d03_dataviz]: https://datascience4psych.github.io/slides/d03_dataviz/d03_dataviz.html
+[d04_ggplot2]: https://datascience4psych.github.io/slides/d04_ggplot2/d04_ggplot2.html
+[d05_viznum]: https://datascience4psych.github.io/slides/d05_viznum/d05_viznum.html
+[d06_vizcat]: https://datascience4psych.github.io/slides/d06_vizcat/d06_vizcat.html
+[d07_tidy]: https://datascience4psych.github.io/slides/d07_tidy/d07_tidy.html
+[d08_grammar]: https://datascience4psych.github.io/slides/d08_grammar/d08_grammar.html
+[d09_wrangle]: https://datascience4psych.github.io/slides/d09_wrangle/d09_wrangle.html
+[d10_dfs]: https://datascience4psych.github.io/slides/d10_dfs/d10_dfs.html
+[d11_types]: https://datascience4psych.github.io/slides/d11_types/d11_types.html
+[d12_import]: https://datascience4psych.github.io/slides/d12_import/d12_import.html
+[d13_goodviz]: https://datascience4psych.github.io/slides/d13_goodviz/d13_goodviz.html
+[d13b_moreggplot]: https://datascience4psych.github.io/slides/d13_goodviz/d13b_moreggplot.html
+[d14_confound]: https://datascience4psych.github.io/slides/d14_confound/d14_confound.html
+[d15_goodtalk]: https://datascience4psych.github.io/slides/d15_goodtalk/d15_goodtalk.html
+[d16_webscraping]: https://datascience4psych.github.io/slides/d16_webscraping/d16_webscraping.html
+[d17_functions]: https://datascience4psych.github.io/slides/d17_functions/d17_functions.html
+[d18_ethics]: https://datascience4psych.github.io/slides/d18_ethics/d18_ethics.html
+[d19_bias]: https://datascience4psych.github.io/slides/d19_bias/d19_bias.html
+<!--R Links-->
+[cran]: https://cloud.r-project.org
+[cran-faq]: https://cran.r-project.org/faqs.html
+[cran-R-admin]: http://cran.r-project.org/doc/manuals/R-admin.html
+[cran-add-ons]: https://cran.r-project.org/doc/manuals/R-admin.html#Add_002don-packages
+[r-proj]: https://www.r-project.org
+[stat-545]: https://stat545.com
+[software-carpentry]: https://software-carpentry.org
+[cran-r-extensions]: https://cran.r-project.org/doc/manuals/r-release/R-exts.html
+
+<!--RStudio Links-->
+[rstudio-preview]: https://www.rstudio.com/products/rstudio/download/preview/
+[rstudio-official]: https://www.rstudio.com/products/rstudio/#Desktop
+[rstudio-workbench]: https://www.rstudio.com/wp-content/uploads/2014/04/rstudio-workbench.png
+[rstudio-support]: https://support.rstudio.com/hc/en-us
+[rstudio-R-help]: https://support.rstudio.com/hc/en-us/articles/200552336-Getting-Help-with-R
+[rstudio-customizing]: https://support.rstudio.com/hc/en-us/articles/200549016-Customizing-RStudio
+[rstudio-key-shortcuts]: https://support.rstudio.com/hc/en-us/articles/200711853-Keyboard-Shortcuts
+[rstudio-command-history]: https://support.rstudio.com/hc/en-us/articles/200526217-Command-History
+[rstudio-using-projects]: https://support.rstudio.com/hc/en-us/articles/200526207-Using-Projects
+[rstudio-code-snippets]: https://support.rstudio.com/hc/en-us/articles/204463668-Code-Snippets
+[rstudio-dplyr-cheatsheet-download]: https://github.com/rstudio/cheatsheets/raw/master/data-transformation.pdf
+[rstudio-regex-cheatsheet]: https://www.rstudio.com/wp-content/uploads/2016/09/RegExCheatsheet.pdf
+[rstudio-devtools]: https://www.rstudio.com/products/rpackages/devtools/
+
+<!--HappyGitWithR Links-->
+[happy-git]: https://happygitwithr.com
+[hg-install-git]: https://happygitwithr.com/install-git.html
+[hg-git-client]: https://happygitwithr.com/git-client.html
+[hg-github-account]: https://happygitwithr.com/github-acct.html
+[hg-install-r-rstudio]: https://happygitwithr.com/install-r-rstudio.html
+[hg-connect-intro]: https://happygitwithr.com/connect-intro.html
+[hg-browsability]: https://happygitwithr.com/workflows-browsability.html
+[hg-shell]: https://happygitwithr.com/shell.html
+
+<!--Package Links-->
+[rmarkdown]: https://rmarkdown.rstudio.com
+[knitr-faq]: https://yihui.name/knitr/faq/
+
+[tidyverse-main-page]: https://www.tidyverse.org
+[tidyverse-web]: https://tidyverse.tidyverse.org
+[tidyverse-github]: https://github.com/hadley/tidyverse
+
+[dplyr-web]: https://dplyr.tidyverse.org
+[dplyr-cran]: https://CRAN.R-project.org/package=dplyr
+[dplyr-github]: https://github.com/hadley/dplyr
+[dplyr-vignette-intro]: https://cran.r-project.org/web/packages/dplyr/vignettes/dplyr.html
+[dplyr-vignette-window-fxns]: https://cran.r-project.org/web/packages/dplyr/vignettes/window-functions.html
+[dplyr-vignette-two-table]: https://dplyr.tidyverse.org/articles/two-table.html
+
+[lubridate-web]: https://lubridate.tidyverse.org
+[lubridate-cran]: https://CRAN.R-project.org/package=lubridate
+[lubridate-github]: https://github.com/tidyverse/lubridate
+[lubridate-vignette]: https://cran.r-project.org/web/packages/lubridate/vignettes/lubridate.html
+
+[tidyr-web]: https://tidyr.tidyverse.org
+[tidyr-cran]: https://CRAN.R-project.org/package=tidyr 
+
+[readr-web]: https://readr.tidyverse.org
+[readr-vignette-intro]: https://cran.r-project.org/web/packages/readr/vignettes/readr.html
+
+[stringr-web]: https://stringr.tidyverse.org
+[stringr-cran]: https://CRAN.R-project.org/package=stringr
+
+[ggplot2-web]: https://ggplot2.tidyverse.org
+[ggplot2-tutorial]: https://github.com/jennybc/ggplot2-tutorial
+[ggplot2-reference]: https://docs.ggplot2.org/current/
+[ggplot2-cran]: https://CRAN.R-project.org/package=ggplot2
+[ggplot2-github]: https://github.com/tidyverse/ggplot2
+[ggplot2-theme-args]: https://ggplot2.tidyverse.org/reference/ggtheme.html#arguments
+
+[gapminder-web]: https://www.gapminder.org
+[gapminder-cran]: https://CRAN.R-project.org/package=gapminder
+
+[assertthat-cran]: https://CRAN.R-project.org/package=assertthat
+[assertthat-github]: https://github.com/hadley/assertthat
+
+[ensurer-cran]: https://CRAN.R-project.org/package=ensurer
+[ensurer-github]: https://github.com/smbache/ensurer
+
+[assertr-cran]: https://CRAN.R-project.org/package=assertr
+[assertr-github]: https://github.com/ropensci/assertr
+
+[assertive-cran]: https://CRAN.R-project.org/package=assertive
+[assertive-bitbucket]: https://bitbucket.org/richierocks/assertive/src/master/
+
+[testthat-cran]: https://CRAN.R-project.org/package=testthat
+[testthat-github]: https://github.com/r-lib/testthat
+[testthat-web]: https://testthat.r-lib.org
+
+[viridis-cran]: https://CRAN.R-project.org/package=viridis
+[viridis-github]: https://github.com/sjmgarnier/viridis
+[viridis-vignette]: https://cran.r-project.org/web/packages/viridis/vignettes/intro-to-viridis.html
+
+[colorspace-cran]: https://CRAN.R-project.org/package=colorspace
+[colorspace-vignette]: https://cran.r-project.org/web/packages/colorspace/vignettes/hcl-colors.pdf
+
+[cowplot-cran]: https://CRAN.R-project.org/package=cowplot
+[cowplot-github]: https://github.com/wilkelab/cowplot
+[cowplot-vignette]: https://cran.r-project.org/web/packages/cowplot/vignettes/introduction.html
+
+[devtools-cran]: https://CRAN.R-project.org/package=devtools
+[devtools-github]: https://github.com/r-lib/devtools
+[devtools-web]: https://devtools.r-lib.org
+[devtools-cheatsheet]: https://www.rstudio.com/wp-content/uploads/2015/03/devtools-cheatsheet.pdf
+[devtools-cheatsheet-old]: https://rawgit.com/rstudio/cheatsheets/master/package-development.pdf
+[devtools-1-6]: https://blog.rstudio.com/2014/10/02/devtools-1-6/
+[devtools-1-8]: https://blog.rstudio.com/2015/05/11/devtools-1-9-0/
+[devtools-1-9-1]: https://blog.rstudio.com/2015/09/13/devtools-1-9-1/
+
+[googlesheets-cran]: https://CRAN.R-project.org/package=googlesheets
+[googlesheets-github]: https://github.com/jennybc/googlesheets
+
+[tidycensus-cran]: https://CRAN.R-project.org/package=tidycensus
+[tidycensus-github]: https://github.com/walkerke/tidycensus
+[tidycensus-web]: https://walkerke.github.io/tidycensus/index.html
+
+[fs-web]: https://fs.r-lib.org/index.html
+[fs-cran]: https://CRAN.R-project.org/package=fs
+[fs-github]: https://github.com/r-lib/fs
+
+[plumber-web]: https://www.rplumber.io
+[plumber-docs]: https://www.rplumber.io/docs/
+[plumber-github]: https://github.com/trestletech/plumber
+[plumber-cran]: https://CRAN.R-project.org/package=plumber
+
+[plyr-web]: http://plyr.had.co.nz
+
+[magrittr-web]: https://magrittr.tidyverse.org
+[forcats-web]: https://forcats.tidyverse.org
+[glue-web]: https://glue.tidyverse.org
+[stringi-cran]: https://CRAN.R-project.org/package=stringi
+[rex-github]: https://github.com/kevinushey/rex
+[rcolorbrewer-cran]: https://CRAN.R-project.org/package=RColorBrewer
+[dichromat-cran]: https://CRAN.R-project.org/package=dichromat
+
+[rdryad-web]: https://docs.ropensci.org/rdryad/
+[rdryad-cran]: https://CRAN.R-project.org/package=rdryad
+[rdryad-github]: https://github.com/ropensci/rdryad
+
+[roxygen2-cran]: https://CRAN.R-project.org/package=roxygen2
+[roxygen2-vignette]: https://cran.r-project.org/web/packages/roxygen2/vignettes/rd.html
+
+[shinythemes-web]: https://rstudio.github.io/shinythemes/
+[shinythemes-cran]: https://CRAN.R-project.org/package=shinythemes
+
+[shinyjs-web]: https://deanattali.com/shinyjs/
+[shinyjs-cran]: https://CRAN.R-project.org/package=shinyjs
+[shinyjs-github]: https://github.com/daattali/shinyjs
+
+[leaflet-web]: https://rstudio.github.io/leaflet/
+[leaflet-cran]: https://CRAN.R-project.org/package=leaflet
+[leaflet-github]: https://github.com/rstudio/leaflet
+
+[ggvis-web]: https://ggvis.rstudio.com
+[ggvis-cran]: https://CRAN.R-project.org/package=ggvis
+ 
+[usethis-web]: https://usethis.r-lib.org
+[usethis-cran]: https://CRAN.R-project.org/package=usethis
+[usethis-github]: https://github.com/r-lib/usethis
+
+[pkgdown-web]: https://pkgdown.r-lib.org
+[gh-github]: https://github.com/r-lib/gh
+
+[httr-web]: https://httr.r-lib.org
+[httr-cran]: https://CRAN.R-project.org/package=httr
+[httr-github]: https://github.com/r-lib/httr
+
+[gistr-web]: https://docs.ropensci.org/gistr
+[gistr-cran]: https://CRAN.R-project.org/package=gistr
+[gistr-github]: https://github.com/ropensci/gistr
+
+[rvest-web]: https://rvest.tidyverse.org
+[rvest-cran]: https://CRAN.R-project.org/package=rvest
+[rvest-github]: https://github.com/tidyverse/rvest
+
+[xml2-web]: https://xml2.r-lib.org
+[xml2-cran]: https://CRAN.R-project.org/package=xml2
+[xml2-github]: https://github.com/r-lib/xml2
+
+[jsonlite-paper]: https://arxiv.org/abs/1403.2805
+[jsonlite-cran]: https://CRAN.R-project.org/package=jsonlite
+[jsonlite-github]: https://github.com/jeroen/jsonlite
+
+[readxl-web]: https://readxl.tidyverse.org
+[readxl-github]: https://github.com/tidyverse/readxl
+[readxl-cran]: https://CRAN.R-project.org/package=readxl
+
+[janitor-web]: http://sfirke.github.io/janitor/
+[janitor-cran]: https://CRAN.R-project.org/package=janitor
+[janitor-github]: https://github.com/sfirke/janitor
+
+[purrr-web]: https://purrr.tidyverse.org
+[curl-cran]: https://CRAN.R-project.org/package=curl
+
+<!--Shiny links-->
+[shinydashboard-web]: https://rstudio.github.io/shinydashboard/
+[shinydashboard-cran]: https://CRAN.R-project.org/package=shinydashboard
+[shinydashboard-github]: https://github.com/rstudio/shinydashboard
+
+
+[shiny-official-web]: https://shiny.rstudio.com
+[shiny-official-tutorial]: https://shiny.rstudio.com/tutorial/
+[shiny-cheatsheet]: https://shiny.rstudio.com/images/shiny-cheatsheet.pdf
+[shiny-articles]: https://shiny.rstudio.com/articles/
+[shiny-bookdown]: https://bookdown.org/yihui/rmarkdown/shiny-documents.html
+[shiny-google-groups]: https://groups.google.com/forum/#!forum/shiny-discuss
+[shiny-stack-overflow]: https://stackoverflow.com/questions/tagged/shiny
+[shinyapps-web]: https://www.shinyapps.io
+[shiny-server-setup]: https://deanattali.com/2015/05/09/setup-rstudio-shiny-server-digital-ocean/
+[shiny-reactivity]: https://shiny.rstudio.com/articles/understanding-reactivity.html
+[shiny-debugging]: https://shiny.rstudio.com/articles/debugging.html
+[shiny-server]: https://www.rstudio.com/products/shiny/shiny-server/
+
+<!--Publications--> 
+[adv-r]: http://adv-r.had.co.nz
+[adv-r-fxns]: http://adv-r.had.co.nz/Functions.html
+[adv-r-dsl]: http://adv-r.had.co.nz/dsl.html
+[adv-r-defensive-programming]: http://adv-r.had.co.nz/Exceptions-Debugging.html#defensive-programming
+[adv-r-fxn-args]: http://adv-r.had.co.nz/Functions.html#function-arguments
+[adv-r-return-values]: http://adv-r.had.co.nz/Functions.html#return-values
+[adv-r-closures]: http://adv-r.had.co.nz/Functional-programming.html#closures
+
+[r4ds]: https://r4ds.had.co.nz
+[r4ds-transform]: https://r4ds.had.co.nz/transform.html
+[r4ds-strings]: https://r4ds.had.co.nz/strings.html
+[r4ds-readr-strings]: https://r4ds.had.co.nz/data-import.html#readr-strings
+[r4ds-dates-times]: https://r4ds.had.co.nz/dates-and-times.html
+[r4ds-data-import]: http://r4ds.had.co.nz/data-import.html
+[r4ds-relational-data]: https://r4ds.had.co.nz/relational-data.html
+[r4ds-pepper-shaker]: https://r4ds.had.co.nz/vectors.html#lists-of-condiments
+
+[r-pkgs2]: https://r-pkgs.org/index.html
+[r-pkgs2-whole-game]: https://r-pkgs.org/whole-game.html
+[r-pkgs2-description]: https://r-pkgs.org/description.html
+[r-pkgs2-man]: https://r-pkgs.org/man.htm
+[r-pkgs2-tests]: https://r-pkgs.org/tests.html
+[r-pkgs2-namespace]: https://r-pkgs.org/namespace.html
+[r-pkgs2-vignettes]: https://r-pkgs.org/vignettes.html
+[r-pkgs2-release]: https://r-pkgs.org/release.html
+[r-pkgs2-r-code]: https://r-pkgs.org/r.html#r
+
+[r-graphics-cookbook]: http://shop.oreilly.com/product/0636920023135.do
+
+[cookbook-for-r]: http://www.cookbook-r.com 
+[cookbook-for-r-graphs]: http://www.cookbook-r.com/Graphs/
+[cookbook-for-r-multigraphs]: http://www.cookbook-r.com/Graphs/Multiple_graphs_on_one_page_(ggplot2)/
+
+[elegant-graphics-springer]: https://www.springer.com/gp/book/9780387981413
+
+[testthat-article]: https://journal.r-project.org/archive/2011-1/RJournal_2011-1_Wickham.pdf
+[worry-about-color]: https://github.com/DataScience4Psych/DataScience4Psych/blob/master/admin/pdfs/Why%20Should%20Engineers%20and%20Scientists%20Be%20Worried%20About%20Color.pdf
+[escaping-rgbland-pdf]: https://eeecon.uibk.ac.at/~zeileis/papers/Zeileis+Hornik+Murrell-2009.pdf
+[escaping-rgbland-doi]: https://doi.org/10.1016/j.csda.2008.11.033
+
+
+<!--R Documentation-->
+[rdocs-extremes]: https://rdrr.io/r/base/Extremes.html
+[rdocs-range]: https://rdrr.io/r/base/range.html
+[rdocs-quantile]: https://rdrr.io/r/stats/quantile.html
+[rdocs-c]: https://rdrr.io/r/base/c.html
+[rdocs-list]: https://rdrr.io/r/base/list.html
+[rdocs-lm]: https://rdrr.io/r/stats/lm.html
+[rdocs-coef]: https://rdrr.io/r/stats/coef.html
+[rdocs-devices]: https://rdrr.io/r/grDevices/Devices.html
+[rdocs-ggsave]: https://rdrr.io/cran/ggplot2/man/ggsave.html
+[rdocs-dev]: https://rdrr.io/r/grDevices/dev.html
+
+
+<!--Wikipedia Links-->
+[wiki-snake-case]: https://en.wikipedia.org/wiki/Snake_case
+[wiki-hello-world]: https://en.wikipedia.org/wiki/%22Hello,_world!%22_program
+[wiki-janus]: https://en.wikipedia.org/wiki/Janus
+[wiki-nesting-dolls]: https://en.wikipedia.org/wiki/Matryoshka_doll
+[wiki-pure-fxns]: https://en.wikipedia.org/wiki/Pure_function
+[wiki-camel-case]: https://en.wikipedia.org/wiki/Camel_case
+[wiki-mojibake]: https://en.wikipedia.org/wiki/Mojibake
+[wiki-row-col-major-order]: https://en.wikipedia.org/wiki/Row-_and_column-major_order
+[wiki-boxplot]: https://en.wikipedia.org/wiki/Box_plot
+[wiki-brewer]: https://en.wikipedia.org/wiki/Cynthia_Brewer
+[wiki-vector-graphics]: https://en.wikipedia.org/wiki/Vector_graphics
+[wiki-raster-graphics]: https://en.wikipedia.org/wiki/Raster_graphics
+[wiki-dry]: https://en.wikipedia.org/wiki/Don%27t_repeat_yourself
+[wiki-web-scraping]: https://en.wikipedia.org/wiki/Web_scraping
+[wiki-xpath]: https://en.wikipedia.org/wiki/XPath
+[wiki-css-selector]: https://en.wikipedia.org/wiki/Cascading_Style_Sheets#Selector
+
+
+<!--Misc. Links-->
+[split-apply-combine]: https://www.jstatsoft.org/article/view/v040i01
+[useR-2014-dropbox]: https://www.dropbox.com/sh/i8qnluwmuieicxc/AAAgt9tIKoIm7WZKIyK25lh6a
+[gh-pages]: https://pages.github.com
+[html-preview]: http://htmlpreview.github.io
+[tj-mahr-slides]: https://github.com/tjmahr/MadR_Pipelines
+[dataschool-dplyr]: https://www.dataschool.io/dplyr-tutorial-for-faster-data-manipulation-in-r/
+[xckd-randall-munroe]: https://fivethirtyeight.com/features/xkcd-randall-munroe-qanda-what-if/
+[athena-zeus-forehead]: https://tinyurl.com/athenaforehead
+[tidydata-lotr]: https://github.com/jennybc/lotr-tidy#readme
+[minimal-make]: https://kbroman.org/minimal_make/
+[write-data-tweet]: https://twitter.com/vsbuffalo/statuses/358699162679787521
+[belt-and-suspenders]: https://www.wisegeek.com/what-does-it-mean-to-wear-belt-and-suspenders.htm
+[research-workflow]: https://www.carlboettiger.info/2012/05/06/research-workflow.html
+[yak-shaving]: https://seths.blog/2005/03/dont_shave_that/
+[yaml-with-csv]: https://blog.datacite.org/using-yaml-frontmatter-with-csv/
+[reproducible-examples]: https://stackoverflow.com/questions/5963269/how-to-make-a-great-r-reproducible-example
+[blog-strings-as-factors]: https://notstatschat.tumblr.com/post/124987394001/stringsasfactors-sigh
+[bio-strings-as-factors]: https://simplystatistics.org/2015/07/24/stringsasfactors-an-unauthorized-biography
+[stackexchange-outage]: https://stackstatus.net/post/147710624694/outage-postmortem-july-20-2016
+[email-regex]: https://emailregex.com
+[fix-atom-bug]: https://davidvgalbraith.com/how-i-fixed-atom/
+[icu-regex]: http://userguide.icu-project.org/strings/regexp
+[regex101]: https://regex101.com
+[regexr]: https://regexr.com
+[utf8-debug]: http://www.i18nqa.com/debug/utf8-debug.html
+[unicode-no-excuses]: https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/
+[programmers-encoding]: http://kunststube.net/encoding/
+[encoding-probs-ruby]: https://www.justinweiss.com/articles/3-steps-to-fix-encoding-problems-in-ruby/
+[theyre-to-theyre]: https://www.justinweiss.com/articles/how-to-get-from-theyre-to-theyre/
+[lubridate-ex1]: https://www.r-exercises.com/2016/08/15/dates-and-times-simple-and-easy-with-lubridate-part-1/
+[lubridate-ex2]: https://www.r-exercises.com/2016/08/29/dates-and-times-simple-and-easy-with-lubridate-exercises-part-2/
+[lubridate-ex3]: https://www.r-exercises.com/2016/10/04/dates-and-times-simple-and-easy-with-lubridate-exercises-part-3/
+[google-sql-join]: https://www.google.com/search?q=sql+join&tbm=isch
+[min-viable-product]: https://blog.fastmonkeys.com/
+[telescope-rule]: http://c2.com/cgi/wiki?TelescopeRule
+[unix-philosophy]: http://www.faqs.org/docs/artu/ch01s06.html
+[twitter-wrathematics]: https://twitter.com/wrathematics
+[robbins-effective-graphs]: https://www.amazon.com/Creating-Effective-Graphs-Naomi-Robbins/dp/0985911123
+[r-graph-catalog-github]: https://github.com/jennybc/r-graph-catalog
+[google-pie-charts]: https://www.google.com/search?q=pie+charts+suck
+[why-pie-charts-suck]: https://www.richardhollins.com/blog/why-pie-charts-suck/
+[worst-figure]: https://robjhyndman.com/hyndsight/worst-figure/
+[naomi-robbins]: http://www.nbr-graphs.com
+[hadley-github-index]: https://hadley.github.io
+[scipy-2015-matplotlib-colors]: https://www.youtube.com/watch?v=xAoljeRJ3lU
+[winston-chang-github]: https://github.com/wch
+[favorite-rgb-color]: https://manyworldstheory.com/2013/01/15/my-favorite-rgb-color/
+[stowers-color-chart]: https://web.archive.org/web/20121022044903/http://research.stowers-institute.org/efg/R/Color/Chart/
+[stowers-using-color-in-R]: https://www.uv.es/conesa/CursoR/material/UsingColorInR.pdf
+[zombie-project]: https://imgur.com/ewmBeQG
+[tweet-project-resurfacing]: https://twitter.com/JohnDCook/status/522377493417033728
+[rgraphics-looks-tips]: https://blog.revolutionanalytics.com/2009/01/10-tips-for-making-your-r-graphics-look-their-best.html
+[rgraphics-svg-tips]: https://blog.revolutionanalytics.com/2011/07/r-svg-graphics.html
+[zev-ross-cheatsheet]: http://zevross.com/blog/2014/08/04/beautiful-plotting-in-r-a-ggplot2-cheatsheet-3/
+[parker-writing-r-packages]: https://hilaryparker.com/2014/04/29/writing-an-r-package-from-scratch/
+[broman-r-packages]: https://kbroman.org/pkg_primer/
+[broman-tools4rr]: https://kbroman.org/Tools4RR/
+[leeks-r-packages]: https://github.com/jtleek/rpackages
+[build-maintain-r-packages]: https://thepoliticalmethodologist.com/2014/08/14/building-and-maintaining-r-packages-with-devtools-and-roxygen2/
+[murdoch-package-vignette-slides]: https://web.archive.org/web/20160824010213/http://www.stats.uwo.ca/faculty/murdoch/ism2013/5Vignettes.pdf
+[how-r-searches]: http://blog.obeautifulcode.com/R/How-R-Searches-And-Finds-Stuff/
+
+
+
+
+
+
+<!--chapter:end:0003_specificcourses.Rmd-->
+
+# 255: Personality {-}
+
+
+
+
+
+## Course Description
+
+This class provides a survey of theory and research on the structure and function of human personality, with attention to the relationship to cognition, emotion, motivation, and behavior. It requires P-PSY 151. In addition, we will discuss other individual differences, such as intelligence.
+
+### Broad goals for the course:
+- 1. The first is for you to understand what personality psychologists think. We will cover classic and current theories, research, and applications of Personality psychology.
+- 2. The second is for you to learn how personality psychologists study their field scientifically. We will discuss the procedures used to test theories and to study issues related to personality.
+- 3. The third is to (hopefully) recognize some relevance of personality psychology for your personal and/or professional life.
+
+
+## Required Materials
+
+[1] D. C. Funder. _The personality puzzle_. Seventh. OCLC: 935283402.
+New York: W.W. Norton & Co., 2016. ISBN: 978-0-393-60042-1.
+
+
+## Course Assignments
+
+### Exams 
+There will be 3 exams in this course.  The best 2 out of 3 exam grades will be used to determine your total exam grade.  You can drop any of the exams for any reason BUT YOU MUST PASS THE LAST EXAM (held at TBD on Dec TBD).  If you do not pass the final exam, your score on that exam will count as one of your 2 grades. If you do pass the final exam, then the best 2 grades will be used (irrespective of your score on the final exam).
+
+
+#### Test Dates
+
+- Test 1: Friday, 09/25
+
+- Test 2: Friday, 10/30
+
+- Test 3: During Finals Week
+
+
+#### Short Assignments 
+There will be three (3) short assignments in this course. These assignments will allow you to incorporate some of your own interests into the course. Such interests could be related to your career, another class you're taking, a hobby you're exploring, or some other random fancy. They will typically be approximately two (2) pages. I will provide more specific written guidelines at least two weeks before each assignment is due.
+
+
+The best two (2) out of three (3) short assignments will be used to determine your total short assignments.  You can skip one of the assignments for any reason.
+
+
+#### Short Assignment Dates
+
+- Assignment 1: Friday, 09/18: Critique of an online personality test.
+
+- Assignment 2: Friday, 11/13: Critique of a personality-related media article.
+
+- Assignment 3: Friday, 12/04: Critique of a personality-related YouTube video.
+
+### Engagement Activities
+
+There will be multiple engagement activities in this course. These activities will allow you engage with the material for each module. Details about the specific activities will be provided on canvas. Students must complete two activities per module. For students in the blended section, they can attend their weekly in-person session and count it as an engagement activity.
+
+
+## Grading Policy
+
+
+
+Typically, an A- is defined as 90% of the highest point total in the class, B- as 80% of that total, C- as 70 and D- as 60%. 
+I may shift these values down to provide a better fit to the actual point distribution. 
+By scaling to a percentage of the highest point total in the class, each student has a much better chance of receiving higher grades than if no re-scaling were done. 
+This curve can only help your grade. 
+
+The full table is provided below:
+
+Table: (\#tab:unnamed-chunk-3)Full Table
+
+|Letter | Cutoff|
+|:------|------:|
+|A      |   0.95|
+|A-     |   0.90|
+|B+     |   0.87|
+|B      |   0.83|
+|B-     |   0.80|
+|C+     |   0.77|
+|C      |   0.73|
+|C-     |   0.70|
+|D+     |   0.67|
+|D      |   0.63|
+|D-     |   0.60|
+
+### Curve Projections
+
+Unsurprisingly, students have many questions about the curve in this class. For tests and other assignments, I try to provide a projected letter grade. 
+This projected letter grade is there to give you a sense of what your score *would* be if I implemented the class curve on this particular assignment. 
+It is a projection. It is not a guarantee. These projected letter grades are not incorporated into your final grade. 
+Trust me, you do not want me to curve by assignment.
+
+
+
+- 200 points of your grade will be determined by your best two exams.
+    - The final is not optional.
+- 50 points of your grade will be determined by completing engagement activities.
+- 100 points of your grade will be determined by your best two short assignments.
+
+
+
+<!---
+Schedule
+-->
+
+## Week 01, 08/24 - 08/28 : Introduction and What is Personality
+<!---
+- Monday: First Day of Class / Introduction
+- Wednesday: What is personality? (Chapter 1)
+- Friday: Research in Personality: Sources of Data (Chapter 2)
+-->
+## Week 02, 08/31 - 09/04 : Research Design in Personality
+<!---
+- Monday: NO CLASS MLK Day
+- Wednesday: Research Design: Validity (Chapter 2)
+- Friday: Research Design: Generalizability (Chapter 2; Short Assignment 1 Handed Out)
+-->
+##  Week 03, 09/07 - 09/11 : Personality Assessment and Testing Controversies 
+<!---
+- Monday: Personality Assessment (Chapter 3)
+- Tuesday: "Last day to add full-term class"
+- Wednesday: Evaluation and Ethics (Chapter 3)
+- Friday: Person versus Situation (Chapter 4)
+-->
+
+##  Week 04, 09/14 - 09/18 : How do people differ? Trait Approach (Assignment 1)
+<!---
+- Monday: What are traits? What are the basic traits? (Chapter 4)
+- Wednesday: Personality Judgement (Chapter 5)
+- Friday: Using Personality Traits to Understand Behavior (Chapter 6; Assignment 1 Due)
+-->
+##  Week 05, 09/21 - 09/25 : Big Five (Test 1)
+<!---
+- Monday: Big Five (Chapter 6)
+- Wednesday: Review
+- Friday: Test 1
+-->
+##  Week 06, 09/28 - 10/02 : Personality over the Lifespan
+<!---
+- Monday: Brains (Chapter 8)
+- Wednesday: More Brains (Chapter 8)
+- Friday: Behavior Genetics (Chapter 9)
+-->
+##  Week 07, 10/05 - 10/09 : Biological and Genetic Approaches to Psychology 
+<!---
+- Monday: Behavior Genetics (Chapter 9)
+- Wednesday: Evolutionary Psychology (Chapter 9)
+- Friday: Evolutionary Psychology (Chapter 9)
+-->
+##  Week 08, 10/12 - 10/16 : Evolutionary Psychology
+<!---
+- Monday: Personality over the Lifespan (Chapter 7)
+- Wednesday: Personality over the Lifespan (Chapter 7)
+- Friday: Personality Processes (Chapter 15)
+-->
+##  Week 09, 10/19 - 10/23 : Personality Processes
+<!---
+- Monday: No Class
+- Wednesday: No Class
+- Friday: No Class
+-->
+##  Week 10, 10/26 - 10/30 : The Self  (Test 2)
+<!---
+- Monday: Personality Processes (Chapter 15)
+- Wednesday: Review
+- Friday: Test 2
+-->
+##  Week 11, 11/02 - 11/06 : Freud
+<!---
+- Monday: The Self (Chapter 16) Last day to drop with a grade of "W"
+- Wednesday: The Self (Chapter 16)
+- Friday:  Freud (Chapter 10) 
+-->
+##  Week 12, 11/09 - 11/13 : Positive Psychology  (Assignment 2)
+<!---
+- Monday: Freud (Chapter 10)
+- Wednesday: Freud (Chapter 10)
+- Friday: Neo-Freud (Chapter 11; Assignment 2 Due)
+-->
+## Week 13, 11/16 - 11/20 : Cross-Cultural Psychology
+<!---
+- Monday:  Neo-Freud (Chapter 11) 
+- Wednesday: Positive Psychology
+- Friday: Positive Psychology
+-->
+##  Week 14, 11/23 - 11/27 : Personality and Health
+<!---
+- Monday: Cross-Cultural Psychology
+- Wednesday: Cross-Cultural Psychology
+- Friday: Cross-Cultural Psychology
+-->
+
+##  Week 15, 11/30 - 12/04 : Special Topics (Assignment 3)
+<!---
+- Monday: Personality and Physical Health
+- Wednesday: Personality and Mental Health
+- Friday: Personality Disorders
+
+##  Week 16, 12/07 - 12/11 : NA 
+
+- Monday: Special Topics
+- Wednesday: Review; Assignment 3 Due; Last Day of Class
+-->
+## Final Exam 
+
+- TBD on DEC TBD
+
+
+
+<!--chapter:end:0004_personality.Rmd-->
+
+# 703: Data Science {-}
+
+
+
+
+
+# Course Description
+
+Data Science for Psychologists (DSP) introduces on the principles of data science, including data wrangling, modeling, visualization, and communication. In this class, we link those principles to psychological methods and open science practices by emphasizing exploratory analyses and description, rather than confirmatory analyses and prediction. We'll work our way thru Wickham and Grolemund's R for Data Science text (http://r4ds.had.co.nz/) and develop expertise in tidyverse (https://www.tidyverse.org/). This class emphasizes replication and reproducibility. DSP is a practical skilled-based class and should be useful to students aiming for academia as well as those interested in industry. Applications of these methods can be applied to a full range of psychological areas, including perception (e.g, eye-tracking data), neuroscience (e.g., visualizing neural networks), and individual differences (e.g., valence analysis).
+
+
+## Broad goals for the course:
+- 1. Reproducibility;
+- 2. Replication;
+- 3. Robust Methods;
+- 4. Really Nice Visualization; and
+- 5. R.
+
+# Required Materials
+
+Wickham and Grolemund's R for Data Science text (http://r4ds.had.co.nz/)
+
+
+
+
+# Course Assignments
+
+<!---
+You will be formally evaluated in five different ways.
+
+
+
+## Individual data Project
+
+You will turn in your individual data collection/data analysis projects on Wednesday, September 18.  These projects are described in a separate handout. This project will be worth 10% of your grade.
+
+## Quiz
+There will be two 30-minute quizzes over lecture material and readings (on September 25 and October 30).  These will be objective style quizzes.  Make-ups will only be given under extraordinary circumstances and by prior arrangement. Each quiz = 10% of your grade.
+
+
+## Presentations
+You will give two asynchronous presentations.  Your team will give a 15-20 minute presentation of its data analysis problem.  In addition, you will give a 15- minute individual presentation.  These presentations are chance to practice a formal presentation in a relatively pressure-free setting).
+-->
+
+## Presentation
+You will give one asynchronous presentation. approximately 10- minutes.  This presentation is chance to practice a formal presentation in a relatively pressure-free setting).
+
+
+## Lab
+
+
+## Portfolio
+The major semester projects (described on the separate hand-out) is a set of EDA Projects, which you will summarize in an EDA Portfolio to be handed in on the last day of class.
+
+
+
+
+## Engagement
+
+This experiential course requires active engagement. There will be few lectures and we will not be building toward an exam.  Instead, we will work together to build our facilities for thinking critically about data. You should come to every class having read all of the required reading, watched the required videos, browsed the suggested resources, and so forth. You should enter the classroom prepared to discuss these materials with colleagues and complete both individual and group in-class assignments.
+
+
+
+# Grading Policy
+
+
+In this course, you will determine the grade you receive by fulfilling a contract you will submit for my approval on 02/05.
+
+Your written contract will detail:
+
+- The requirements you will meet in order to receive the grade for which you've contracted, 
+
+- the penalties you will incur for not meeting those requirements,
+
+- a calendar you will follow for meeting the requirements you have outlined. 
+
+Many aspects of this calendar will be determined by windows outlined on the course schedule, but your contract will take ownership of these deadlines while committing to specific due dates for the course’s more flexible assignments.
+
+## Contract Details
+
+To fulfill any grade contract a student must do the following, which should nonetheless be specified in the contract submitted for approval. When writing self-assessments students must describe how they have met these requirements in addition to the grade-specific requirements:
+
+- Come to class prepared to discuss any assigned readings, videos, or other media. Participate actively in class activities and discussions, making observations and asking questions that help the class think together.
+
+- Meet with me in person—during office hours or another scheduled time—at least once around midterm—roughly between weeks 5-8 to ensure you are on-track to meet your contract requirements, discuss any questions or concerns you have about the course or your progress, and decide on any necessary contract amendments.
+
+
+- Revise contractual assignments as necessary until both you and I consider them "Satisfactory."
+
+- Complete a final self-assessment demonstrating that your work has met the agreed requirements, submitting it to me by 5pm on the last day of class.
+
+
+The professor reserves the right to award a grade of D or F to anyone who fails to meet a contractual obligation in a systematic way. A "D" grade denotes some minimal fulfilling of the contract. An “F” is absence of enough satisfactory work, as contracted, to warrant passing of the course. Both a "D" and "F" denote a breakdown of the contractual relationship implied by signing any of the contracts described above.
+
+## What About Exceptional (or Mediocre) Work?
+I also reserve the right to reward exceptional work throughout the semester using the full range of Wake Forest's grading scale. If you contract for a “B,” for instance, and submit particularly strong pieces to fulfill that contract, I may elect to raise your contracted grade to a “B+.”
+
+Likewise, if you consistently submit mediocre work in fulfillment of your contract, I reserve the right to adjust your grade one half-step down (e.g. from “A” to “A-“) or even, in extreme cases, a full step.
+
+## Contract Adjustments
+Periodically during the semester I will ask you to evaluate your work thus far and compare it against what you agreed in your grade contract. In these moments you can also take the opportunity to request an adjustment to your contract in either direction. If you find that you will be unable to meet the obligations of your contract, you may request to move to the next lowest grade and its requirements. Contrariwise, if you find that you've been performing above the obligations of your contract, you may request to fulfill the requirements for the next higher grade. Important Note: In order to effectively evaluate your own progress, you must keep track of your work, including days missed, and so forth.
+
+
+
+## Contract Grades
+
+
+
+### "A" Contract
+
+To contract for an "A" in this course, you agree to:
+
+- Earn "Satisfactory" on 11 self-paced lab assignments on a schedule you will specify in your contract.
+
+- Produce at least 10 "Satisfactory" portfolio pieces over the course of the semester. 
+
+- Complete two "Satisfactory" Unessays on a schedule you will specify in your contract and present the strongest as an asynchronous presentation.
+
+
+### "B+" Contract
+
+To contract for an "B" in this course, you agree to:
+
+- Earn "Satisfactory" on 10 self-paced lab assignments on a schedule you will specify in your contract.
+
+- Produce at least 8 "Satisfactory" portfolio pieces over the course of the semester. 
+
+- Complete one "Satisfactory" Unessay on a schedule you will specify in your contract and present it during the last week of class
+
+
+### "C" Contract
+
+To contract for an "C" in this course, you agree to:
+
+- Earn "Satisfactory" on 8 self-paced lab assignments on a schedule you will specify in your contract.
+
+
+- Produce at least 6 "Satisfactory" portfolio pieces over the course of the semester.
+
+- Complete one "Satisfactory" Unessay on a schedule you will specify in your contract and present it during the last week of class
+
+
+
+
+
+# Course Policies
+
+
+
+## Class Engagement, Presence, and Participation.
+
+In previous semesters, I have had a deliberately hardline attendance policy. In the light of the public health crisis, I have done away with the this policy, as it doesn't align with my general philosophy of treating students as junior colleagues. The student who misses a class meeting is responsible for any assignments and/or announcements made.
+
+Class engagement points are given to encourage your active engagement with the material. Specific instructions for engagement, can be found on the class website In general, you will be rewarded with a perfect score as long as you engage meaningfully and intentionally with the material and your peers.
+
+
+## Life Happens (Extensions and Absences)
+
+As a reasonable and empathetic human, I recognize that life happens. There will be times when your outside life conflicts with scheduled class events. These life events can be any of the obvious things (sports, religious holidays, illness, interviews, etc), but they can also be the less obvious, like spending the entire night looking for your lost pet. My general approach is to work with you. You just need to let me know *ahead* of time. These late policies value discussion and communication over deductions and punishment. It is difficult for me as an instructor to know your situation and reason for lateness (e.g. are you sick? did you lose wifi? struggling with mental health? or just forgot?). Without communication, I will assume that students are choosing not to submit work and do not plan on submitting work. An email will help me better understand your needs and focus on coursework. I'm more than happy to give extensions and accommodations, so don't be afraid to email me. You don't need to disclose personal details (your privacy is important to me), so a heads up or request for assistance is enough.
+
+
+### Excused absences
+Except in the case of *true* emergencies, a possible excused absence should be discussed with me as far in advance as possible and *must* occur beforehand. You should not assume that an excused absence will automatically be granted -- but you may assume that I am a reasonable, empathetic person. This discussion should occur via email. If you also discuss your situation verbally, please send a summary of the discussion via email to me. An unexcused absence will result in a zero for any graded work that should have been performed for or during the missed class. 
+
+
+### Late Work
+
+Be sure to pay close attention to deadlines. If an assignment is not submitted by the deadline (i.e., is late), the student must email the instructor and provide a new deadline, ask for an alternative, or explain concerns *within 36 hours* of the missed deadline. Ideally, you will have communicated with me in advance of the deadline, but on occasion life happens. As long as you've communicated *within 36 hours*, I will do my best to work with you to come up with a new deadline or modification, so that you can receive full credit. This late policy does not apply to exams, tests, or quizzes.
+
+If contact is not made *within 36 hours* of the missed deadline, the missing assignment will receive a 0. Alternative deadlines will be within one week of the original deadline. Exceptions to the 1 week policy are at the instructor's discretion. In general, I will be much more sympathetic and accommodating if you communicate in advance. 
+
+It is your responsibility to ensure that the instructor has received the assignment by the established due date and to ensure that the assignment submitted is the complete and correct version. Unless otherwise specified, all work must be submitted through Canvas.
+
+Unless you have communicated with me in advance, there will be no make-up quizzes or tests.
+
+## Accommodations Policy
+
+If you are (or become) disabled (in any capacity, permanently, or temporarily), and need accommodations in class, reading, or any other work in this course, please contact me to discuss your specific needs as soon as possible. Under the Americans with Disabilities Act, you are legally entitled to reasonable accommodations for disabilities. I will do everything in my capacity as your professor to ensure that you receive those accommodations. 
+
+Students who need reasonable accommodations for disabilities also should contact the Learning Assistance Center \& Disability Services [lac.wfu.edu](https://lac.wfu.edu/). These accommodations are not retroactive. Therefore, I strongly encourage you to use those accommodations. You rightfully deserve them, both in the legal, moral, and ethical sense. 
+
+
+## Academic Dishonesty Policy
+
+All work submitted for credit must be the student's own and is subject to the provisions of the Wake Forest Honor Code. Details can be found at the Student Conduct web site: [studentconduct. wfu.edu/honor-system-wfu](https://studentconduct.wfu.edu/honor-system-wfu/). It is your responsibility to avoid even the appearance of cheating.
+
+Unless I have explicitly stated otherwise, every assessment is closed to outside resources (including, but not limited to books, notes, phones, people). Ignorance of the honor code and assignment instructions is not an acceptable explanation and/or defense.
+
+It is *ALWAYS* academic dishonesty to share test questions, post course materials on any third-party websites, or to work together on tests. And frankly, it is really obvious in Canvas when you work together. I literally wrote a R program that checks for working together on tests. 
+
+Violations of this policy result in a zero for the assignment, my perpetual disappointment, and possible additional penalties, including, but not limited to:
+
+- a referral to honor council, 
+- failing the class, 
+- forfeiting all extra credit, and
+- being excluding from the course curve, drop policy, late policy, and extra credit.
+
+
+## Communication
+
+I ask that you provide me with the respect that I should spend my time engaging with students in meaningful ways, not pointing you to material you can find on your own. Be sure to check the syllabus, course website, course content, and classmates before emailing me. This is important training for life after college – when you have a question, the first thing you do should not be to email your boss. I do not want to discourage you from engaging with me. I love teaching because I love interacting with students.  However, I do not want to engage with you in ways that nurture your inability to critically think and prevents me from engaging with other students.
+<!---
+If you are ever uncertain about the purpose of an assignment, the learning objectives of an activity, or how an assessment will be graded, please reach out. My goal is to be  organized, thoughtful, and transparent. All my assignments were thoughtfully chosen. There is no busy work or unnecessary required course material. If I have done a poor job explaining the motivation for any aspect of my course, please let me know so I can be more clear. 
+
+-->
+
+### Minimums
+
+You are expected to read every LMS announcement, message, and email; as well as view the media embedded within those communications. Students are expected to check e-mail on a frequent and regular basis in order to stay current with University-related communications, recognizing that certain communications may be time-critical. At minimum, you should be checking your communications within 24 hours. Ignorance of a class communication is not grounds for an excused absence or extension. 
+
+
+### Self Advocacy
+
+If you are struggling in this class, please talk to me. Do not assume that I know what is going on in your life. Talk to me and tell me what you need.
+
+### Grading Questions
+
+Please send any questions about grades in writing via email within *two* weeks after the assignment is returned. If I erred in scoring or in calculating the grade, I will happily update the record. Otherwise, I will be most receptive toward questions framed in terms of your learning (rather than simply your performance), as research has shown that focusing overly on extrinsic rewards (like grades) is likely to lead to all sorts of outcomes that I don't wish for you (lower interest in the course material, lower learning, lower enjoyment).
+
+
+## Instructor Availability
+
+I am readily accessible during business hours (9:00AM-5:30PM; Monday-Friday) via email/ LMS/ git/ zoom/ carrier pigeon. Outside those hours, I do not typically respond to messages, in order to devote time to my family, rest, and living my life. Messages received during these times will receive attention once I am back online. Otherwise you can expect to receive a response to your message within 12 to 24 hours, often much sooner. If you do not hear back after 36 hours, please follow-up with me. 
+
+I have given out my cell-phone number, in the case of *true* emergencies. Please be mindful that poor planning on your part does not constitute an emergency for me. 
+
+### Is it an true emergency?
+
+How do you know if it is a true emergency? 
+
+* Ask yourself, would a reasonable person consider this situation an emergency? 
+* How would the situation change if you waited a until morning?
+* Could this situation have been prevented by starting earlier?
+* Would Professor Mason really want to know about this situation *right* now? 
+* If you were in Professor Mason's shoes, would you consider this an emergency?
+
+
+
+# Public Health in the age of COVID-19
+
+
+We share responsibility for the health and safety of each other in a learning space. Maintaining a consistent six feet of distance; wearing face coverings that cover our mouths and noses; limiting our gathering sizes; and isolating or quarantining when ill or exposed to someone with the virus are Wake Forest University directives and policies we all must follow. Students are encouraged to visit [Our Way Forward](https://ourwayforward.wfu.edu/) to stay informed about the latest guidance and review the [Public Health Emergency Addendum to the Student Code of Conduct](https://studentconduct.wfu.edu/undergraduate-student-handbook/public-health-emergency-addendum/).  
+
+Specifically, in this room, we will mitigate the risks of virus transfer and take care of our community by abiding by the following safety directives: 
+- maintain six feet of distance at all times when feasible. 
+- wear a face covering for the entirety of class indoors and out (unless there is exemption via an approved safety plan for specific coursework). This face covering should cover your mouth and your nose, and adhere to our [University face covering policy](https://drive.google.com/file/d/1Tqo-by1sjmc-kWUTwAqeNdaHq8OBsU9B/view) (no face shields without masks; no neck gaiters; no bandanas; and no masks, including N95, with a one-way valve). 
+- stay out of class when sick or after being exposed to someone who is sick.
+
+In this class, any student who does not follow these requirements will be asked once to follow the safety directives. 
+
+I will offer you a mask or ask you to find one. 
+
+If you do not comply, I will ask you to leave the class for that day. 
+
+[I will also refer the matter to the COVID-19 compliance reporting system](https://cm.maxient.com/reportingform.php?WakeForestUniv&layout_id=40). Possible disciplinary actions may follow as described in the Wake Forest University Undergraduate Student Conduct Code Public Health Emergency Addendum.
+
+# Classroom Climate
+
+I aim to create a learning environment for my students that supports a diversity of thoughts, perspectives, and experiences, and honors your identities (including race, ethnicity, sex, gender, gender-identify, class, sexual orientation, religion, ability, political affiliation, etc.) To help accomplish this:
+
+- If you have a name and/or set of pronouns that differ from those that appear in your official records, please let me know!
+
+- If you feel like your performance in the class is being impacted by your experiences outside of class, please don't hesitate to come and talk with me. I want to be a resource for you. 
+
+- I (like many people) am still in the process of learning about diverse perspectives and identities. If something was said in class (by anyone) that made you feel uncomfortable, please talk to me about it. 
+
+- If you reached here in the syllabus, e-mail me a picture of a cat. If you do it before the end of the first week, you get a small bonus.
+
+## Department Statement
+The Psychology Department values, respects, and celebrates the experiences, beliefs, and practices stemming from varied cultures and circumstances (emphasizing, but not limited to, those from historically underrepresented groups),and our deep commitment to diversity, equity, and inclusion plays out through coursework, programming by majors, and research. 
+
+<!---
+
+# To do well in the course
+
+#```{r child = 'doingwell_irl.Rmd'}
+#```
+
+-->
+
+# Tentative Class Schedule
+
+This syllabus is intended to give the student guidance in what may be covered during the semester and will be followed as closely as possible. Dates for tests and assignments won't change, barring extraordinary events. However, I reserve the right to modify, supplement and make changes as the course needs arise. I try to avoid changes to the syllabus. Nevertheless, if changes occur, I will only make changes that are less burdensome and more advantageous to the students. (If I make a change that increases your burden, please talk to me.)
+
+
+<!---
+Schedule
+-->
+
+## Module 01, 01/25 - 01/29 : What is Data Science and Meet the Toolkit
+<!---
+- Monday: First Day of Class / Introduction
+- Wednesday: What is personality? (Chapter 1)
+- Friday: Research in Personality: Sources of Data (Chapter 2)
+-->
+## Module 02, 02/01 - 02/05 : Data and Visualization
+<!---
+- Monday: NO CLASS MLK Day
+- Wednesday: Research Design: Validity (Chapter 2)
+- Friday: Research Design: Generalizability (Chapter 2; Short Assignment 1 Handed Out)
+-->
+##  Module 03, 02/08 - 02/12 : Grammar of data wrangling 
+<!---
+- Monday: Personality Assessment (Chapter 3)
+- Tuesday: "Last day to add full-term class"
+- Wednesday: Evaluation and Ethics (Chapter 3)
+- Friday: Person versus Situation (Chapter 4)
+-->
+
+##  Module 04, 02/15 - 02/19 : Data types and Data Transformations
+<!---
+- Monday: What are traits? What are the basic traits? (Chapter 4)
+- Wednesday: Personality Judgement (Chapter 5)
+- Friday: Using Personality Traits to Understand Behavior (Chapter 6; Assignment 1 Due)
+-->
+##  Module 05, 02/22 - 02/26 : Tips for effective data visualization
+<!---
+- Monday: Big Five (Chapter 6)
+- Wednesday: Review
+- Friday: Test 1
+-->
+##  Module 06, 03/01 - 03/05 : Scientific studies and confounding
+<!---
+- Monday: Brains (Chapter 8)
+- Wednesday: More Brains (Chapter 8)
+- Friday: Behavior Genetics (Chapter 9)
+-->
+##  Module 07, 03/08 - 03/12 : Web scraping 
+<!---
+- Monday: Behavior Genetics (Chapter 9)
+- Wednesday: Evolutionary Psychology (Chapter 9)
+- Friday: Evolutionary Psychology (Chapter 9)
+-->
+##  Module 08, 03/15 - 03/19 : Functions
+<!---
+- Monday: Personality over the Lifespan (Chapter 7)
+- Wednesday: Personality over the Lifespan (Chapter 7)
+- Friday: Personality Processes (Chapter 15)
+-->
+##  Module 09, 03/22 - 03/26 : Data and Ethics
+<!---
+- Monday: No Class
+- Wednesday: No Class
+- Friday: No Class
+-->
+##  Module 10, 03/29 - 04/02 : Fitting and interpreting models
+<!---
+- Monday: Personality Processes (Chapter 15)
+- Wednesday: Review
+- Friday: Test 2
+-->
+##  Module 11, 04/05 - 04/09 : Prediction and overfitting
+<!---
+- Monday: The Self (Chapter 16) Last day to drop with a grade of "W"
+- Wednesday: The Self (Chapter 16)
+- Friday:  Freud (Chapter 10) 
+-->
+##  Module 12, 04/12 - 04/16 : Cross validation
+<!---
+- Monday: Freud (Chapter 10)
+- Wednesday: Freud (Chapter 10)
+- Friday: Neo-Freud (Chapter 11; Assignment 2 Due)
+-->
+## Module 13, 04/19 - 04/23 : Quantifying uncertainty
+<!---
+- Monday:  Neo-Freud (Chapter 11) 
+- Wednesday: Positive Psychology
+- Friday: Positive Psychology
+-->
+##  Module 14, 04/26 - 04/30 : Interactive web apps
+<!---
+- Monday: Cross-Cultural Psychology
+- Wednesday: Cross-Cultural Psychology
+- Friday: Cross-Cultural Psychology
+-->
+
+##  Module 15, 05/03 - 05/07 : Special Topics (like: Text analysis; Machine learning; Bayesian inference)
+<!---
+- Monday: Personality and Physical Health
+- Wednesday: Personality and Mental Health
+- Friday: Personality Disorders
+
+##  Module 16, 05/10 - 05/14 : NA 
+
+- Monday: Special Topics
+- Wednesday: Review; Assignment 3 Due; Last Day of Class
+
+## Final Exam 
+
+- TBD on DEC TBD
+
+# References
+
+-->
+
+<!--chapter:end:0005_datascience.Rmd-->
+
+# 362: Psychological Testing {-}
+
+
+
+# Course Description
+
+This course provides an overview of the development and nature of psychological tests with applications to school counseling, business, and clinical practice. The purpose of the course is to provide students with an understanding of the principles of measurement as applied to group standardized measures of achievement, special aptitude, intelligence, personality, interests and distress for use in counseling.  Format will consist primarily of lectures along with group participation activities. 
+
+
+## Course Objectives:
+- To acquaint you with the fundamental vocabulary and logic of psychological measurement and behavioral assessment.
+- To develop your capacity for critical judgment of the adequacy of measures purported to assess behavior in the role of theory development.
+- To acquaint you with some of the relevant literature in personality assessment, psychometric theory and practice, and methods of observing and measuring behavior.
+- To instill in you an appreciation of and an interest in the principles and methods of psychometric theory in general and behavior assessment in particular.
+- This course is not designed to make you into an accomplished psychometrist (one who gives tests) nor is it designed to make you a skilled psychometrician (one who constructs tests), nor will it give you "hands on" experience with psychometric computer programs. Rather it is aimed to allow you to understand the fundamental theoretical issues concerning both the psychometrist and the psychometrician.
+- Because modern psychometrics and statistics may be done using open source software such as R, examples will be presented in R.
+
+# Materials
+## Texts
+### Required
+
+[1] A. Anastasi and A. Urbina. _Psychological testing_. Upper Saddle
+River, New Jersey: Prentice-Hall, 1997. ISBN: 0-02-303020-8.
+
+
+#### How to use the required text:
+
+The text [@anastasi1997] is intended to supplement the lectures. The lectures don't follow the order of chapters in the text and the text covers some material that won't be covered in the lectures, i.e., not all the information in each chapter is perfectly pertinent to the course requirements.
+
+
+# Course Assignments 
+## Grading Policy
+
+
+
+Typically, an A- is defined as 90% of the highest point total in the class, B- as 80% of that total, C- as 70 and D- as 60%. 
+I may shift these values down to provide a better fit to the actual point distribution. 
+By scaling to a percentage of the highest point total in the class, each student has a much better chance of receiving higher grades than if no re-scaling were done. 
+This curve can only help your grade. 
+
+The full table is provided below:
+
+Table: (\#tab:unnamed-chunk-4)Full Table
+
+|Letter | Cutoff|
+|:------|------:|
+|A      |   0.95|
+|A-     |   0.90|
+|B+     |   0.87|
+|B      |   0.83|
+|B-     |   0.80|
+|C+     |   0.77|
+|C      |   0.73|
+|C-     |   0.70|
+|D+     |   0.67|
+|D      |   0.63|
+|D-     |   0.60|
+
+### Curve Projections
+
+Unsurprisingly, students have many questions about the curve in this class. For tests and other assignments, I try to provide a projected letter grade. 
+This projected letter grade is there to give you a sense of what your score *would* be if I implemented the class curve on this particular assignment. 
+It is a projection. It is not a guarantee. These projected letter grades are not incorporated into your final grade. 
+Trust me, you do not want me to curve by assignment.
+
+
+
+## Quizzes
+There will be 6 quizzes in this course. These will be approximately every three weeks. The best 5 out of 6 quiz grades will be used to determine your total quiz grade.  You can drop 1 of the quizzes for any reason.
+
+
+### Quiz Dates
+
+- Quiz 1: Friday, 02/12
+
+- Quiz 2: Friday, 03/05
+
+- Quiz 3: Friday, 04/02
+
+- Quiz 4: Friday, 04/23
+
+- Quiz 5: Friday, 05/07
+
+- Quiz 6: During Finals, 05/14
+
+
+## Take Home Assignments
+There are three large take-home assignments. Each assignment has a qualitative aspect and a quantitative aspect, and are counted separately in your grade. 
+
+
+The best two (2) out of three (3) qualitative aspects will be used to determine your qualitative score; similarly, the best two (2) out of three (3) quantitative aspects will be used to determine your quantitative score. I will provide more specific written guidelines at least two weeks before each assignment is due. You have to submit assignment 1 because I give extensive feedback that will help you on later assignments. However, you may skip assignment 2 or 3.
+
+
+### Assignment Dates
+
+- Assignment 1: Friday, 03/12: Set 1 and Critique of an online test.
+
+- Assignment 2: Friday, 04/23: Set 2 and Critique of a testing-related popular media article.
+
+- Assignment 3: Friday, 05/07: Set 3 and Critique of a testing-related YouTube video.
+
+
+
+
+## Engagement Activities
+
+There will be multiple engagement activities in this course. These activities will allow you engage with the material for each module. Details about the specific activities will be provided on canvas. Students must complete two activities per module.
+
+
+
+## Grading Weighting
+
+- 150 points of your grade will be determined by your best five (5) quizzes.
+- 100 points of your grade will be determined by your best two (2) quantitative aspects of your take-home assignments.
+- 100 points of your grade will be determined by your best two (2) qualitative aspects of your take-home assignments.
+- 50 points of your grade will be determined by your engagement.
+
+
+# Course Policies
+
+
+
+## Class Engagement, Presence, and Participation.
+
+In previous semesters, I have had a deliberately hardline attendance policy. In the light of the public health crisis, I have done away with the this policy, as it doesn't align with my general philosophy of treating students as junior colleagues. The student who misses a class meeting is responsible for any assignments and/or announcements made.
+
+Class engagement points are given to encourage your active engagement with the material. Specific instructions for engagement, can be found on the class website In general, you will be rewarded with a perfect score as long as you engage meaningfully and intentionally with the material and your peers.
+
+
+## Life Happens (Extensions and Absences)
+
+As a reasonable and empathetic human, I recognize that life happens. There will be times when your outside life conflicts with scheduled class events. These life events can be any of the obvious things (sports, religious holidays, illness, interviews, etc), but they can also be the less obvious, like spending the entire night looking for your lost pet. My general approach is to work with you. You just need to let me know *ahead* of time. These late policies value discussion and communication over deductions and punishment. It is difficult for me as an instructor to know your situation and reason for lateness (e.g. are you sick? did you lose wifi? struggling with mental health? or just forgot?). Without communication, I will assume that students are choosing not to submit work and do not plan on submitting work. An email will help me better understand your needs and focus on coursework. I'm more than happy to give extensions and accommodations, so don't be afraid to email me. You don't need to disclose personal details (your privacy is important to me), so a heads up or request for assistance is enough.
+
+
+### Excused absences
+Except in the case of *true* emergencies, a possible excused absence should be discussed with me as far in advance as possible and *must* occur beforehand. You should not assume that an excused absence will automatically be granted -- but you may assume that I am a reasonable, empathetic person. This discussion should occur via email. If you also discuss your situation verbally, please send a summary of the discussion via email to me. An unexcused absence will result in a zero for any graded work that should have been performed for or during the missed class. 
+
+
+### Late Work
+
+Be sure to pay close attention to deadlines. If an assignment is not submitted by the deadline (i.e., is late), the student must email the instructor and provide a new deadline, ask for an alternative, or explain concerns *within 36 hours* of the missed deadline. Ideally, you will have communicated with me in advance of the deadline, but on occasion life happens. As long as you've communicated *within 36 hours*, I will do my best to work with you to come up with a new deadline or modification, so that you can receive full credit. This late policy does not apply to exams, tests, or quizzes.
+
+If contact is not made *within 36 hours* of the missed deadline, the missing assignment will receive a 0. Alternative deadlines will be within one week of the original deadline. Exceptions to the 1 week policy are at the instructor's discretion. In general, I will be much more sympathetic and accommodating if you communicate in advance. 
+
+It is your responsibility to ensure that the instructor has received the assignment by the established due date and to ensure that the assignment submitted is the complete and correct version. Unless otherwise specified, all work must be submitted through Canvas.
+
+Unless you have communicated with me in advance, there will be no make-up quizzes or tests.
+
+## Accommodations Policy
+
+If you are (or become) disabled (in any capacity, permanently, or temporarily), and need accommodations in class, reading, or any other work in this course, please contact me to discuss your specific needs as soon as possible. Under the Americans with Disabilities Act, you are legally entitled to reasonable accommodations for disabilities. I will do everything in my capacity as your professor to ensure that you receive those accommodations. 
+
+Students who need reasonable accommodations for disabilities also should contact the Learning Assistance Center \& Disability Services [lac.wfu.edu](https://lac.wfu.edu/). These accommodations are not retroactive. Therefore, I strongly encourage you to use those accommodations. You rightfully deserve them, both in the legal, moral, and ethical sense. 
+
+
+## Academic Dishonesty Policy
+
+All work submitted for credit must be the student's own and is subject to the provisions of the Wake Forest Honor Code. Details can be found at the Student Conduct web site: [studentconduct. wfu.edu/honor-system-wfu](https://studentconduct.wfu.edu/honor-system-wfu/). It is your responsibility to avoid even the appearance of cheating.
+
+Unless I have explicitly stated otherwise, every assessment is closed to outside resources (including, but not limited to books, notes, phones, people). Ignorance of the honor code and assignment instructions is not an acceptable explanation and/or defense.
+
+It is *ALWAYS* academic dishonesty to share test questions, post course materials on any third-party websites, or to work together on tests. And frankly, it is really obvious in Canvas when you work together. I literally wrote a R program that checks for working together on tests. 
+
+Violations of this policy result in a zero for the assignment, my perpetual disappointment, and possible additional penalties, including, but not limited to:
+
+- a referral to honor council, 
+- failing the class, 
+- forfeiting all extra credit, and
+- being excluding from the course curve, drop policy, late policy, and extra credit.
+
+
+## Communication
+
+I ask that you provide me with the respect that I should spend my time engaging with students in meaningful ways, not pointing you to material you can find on your own. Be sure to check the syllabus, course website, course content, and classmates before emailing me. This is important training for life after college – when you have a question, the first thing you do should not be to email your boss. I do not want to discourage you from engaging with me. I love teaching because I love interacting with students.  However, I do not want to engage with you in ways that nurture your inability to critically think and prevents me from engaging with other students.
+<!---
+If you are ever uncertain about the purpose of an assignment, the learning objectives of an activity, or how an assessment will be graded, please reach out. My goal is to be  organized, thoughtful, and transparent. All my assignments were thoughtfully chosen. There is no busy work or unnecessary required course material. If I have done a poor job explaining the motivation for any aspect of my course, please let me know so I can be more clear. 
+
+-->
+
+### Minimums
+
+You are expected to read every LMS announcement, message, and email; as well as view the media embedded within those communications. Students are expected to check e-mail on a frequent and regular basis in order to stay current with University-related communications, recognizing that certain communications may be time-critical. At minimum, you should be checking your communications within 24 hours. Ignorance of a class communication is not grounds for an excused absence or extension. 
+
+
+### Self Advocacy
+
+If you are struggling in this class, please talk to me. Do not assume that I know what is going on in your life. Talk to me and tell me what you need.
+
+### Grading Questions
+
+Please send any questions about grades in writing via email within *two* weeks after the assignment is returned. If I erred in scoring or in calculating the grade, I will happily update the record. Otherwise, I will be most receptive toward questions framed in terms of your learning (rather than simply your performance), as research has shown that focusing overly on extrinsic rewards (like grades) is likely to lead to all sorts of outcomes that I don't wish for you (lower interest in the course material, lower learning, lower enjoyment).
+
+
+## Instructor Availability
+
+I am readily accessible during business hours (9:00AM-5:30PM; Monday-Friday) via email/ LMS/ git/ zoom/ carrier pigeon. Outside those hours, I do not typically respond to messages, in order to devote time to my family, rest, and living my life. Messages received during these times will receive attention once I am back online. Otherwise you can expect to receive a response to your message within 12 to 24 hours, often much sooner. If you do not hear back after 36 hours, please follow-up with me. 
+
+I have given out my cell-phone number, in the case of *true* emergencies. Please be mindful that poor planning on your part does not constitute an emergency for me. 
+
+### Is it an true emergency?
+
+How do you know if it is a true emergency? 
+
+* Ask yourself, would a reasonable person consider this situation an emergency? 
+* How would the situation change if you waited a until morning?
+* Could this situation have been prevented by starting earlier?
+* Would Professor Mason really want to know about this situation *right* now? 
+* If you were in Professor Mason's shoes, would you consider this an emergency?
+
+
+
+# Public Health in the age of COVID-19
+
+
+We share responsibility for the health and safety of each other in a learning space. Maintaining a consistent six feet of distance; wearing face coverings that cover our mouths and noses; limiting our gathering sizes; and isolating or quarantining when ill or exposed to someone with the virus are Wake Forest University directives and policies we all must follow. Students are encouraged to visit [Our Way Forward](https://ourwayforward.wfu.edu/) to stay informed about the latest guidance and review the [Public Health Emergency Addendum to the Student Code of Conduct](https://studentconduct.wfu.edu/undergraduate-student-handbook/public-health-emergency-addendum/).  
+
+Specifically, in this room, we will mitigate the risks of virus transfer and take care of our community by abiding by the following safety directives: 
+- maintain six feet of distance at all times when feasible. 
+- wear a face covering for the entirety of class indoors and out (unless there is exemption via an approved safety plan for specific coursework). This face covering should cover your mouth and your nose, and adhere to our [University face covering policy](https://drive.google.com/file/d/1Tqo-by1sjmc-kWUTwAqeNdaHq8OBsU9B/view) (no face shields without masks; no neck gaiters; no bandanas; and no masks, including N95, with a one-way valve). 
+- stay out of class when sick or after being exposed to someone who is sick.
+
+In this class, any student who does not follow these requirements will be asked once to follow the safety directives. 
+
+I will offer you a mask or ask you to find one. 
+
+If you do not comply, I will ask you to leave the class for that day. 
+
+[I will also refer the matter to the COVID-19 compliance reporting system](https://cm.maxient.com/reportingform.php?WakeForestUniv&layout_id=40). Possible disciplinary actions may follow as described in the Wake Forest University Undergraduate Student Conduct Code Public Health Emergency Addendum.
+
+# Classroom Climate
+
+I aim to create a learning environment for my students that supports a diversity of thoughts, perspectives, and experiences, and honors your identities (including race, ethnicity, sex, gender, gender-identify, class, sexual orientation, religion, ability, political affiliation, etc.) To help accomplish this:
+
+- If you have a name and/or set of pronouns that differ from those that appear in your official records, please let me know!
+
+- If you feel like your performance in the class is being impacted by your experiences outside of class, please don't hesitate to come and talk with me. I want to be a resource for you. 
+
+- I (like many people) am still in the process of learning about diverse perspectives and identities. If something was said in class (by anyone) that made you feel uncomfortable, please talk to me about it. 
+
+- If you reached here in the syllabus, e-mail me a picture of a cat. If you do it before the end of the first week, you get a small bonus.
+
+## Department Statement
+The Psychology Department values, respects, and celebrates the experiences, beliefs, and practices stemming from varied cultures and circumstances (emphasizing, but not limited to, those from historically underrepresented groups),and our deep commitment to diversity, equity, and inclusion plays out through coursework, programming by majors, and research. 
+
+<!---
+
+# To do well in the course
+
+#```{r child = 'doingwell_irl.Rmd'}
+#```
+
+-->
+
+# Tentative Class Schedule
+
+This syllabus is intended to give the student guidance in what may be covered during the semester and will be followed as closely as possible. Dates for tests and assignments won't change, barring extraordinary events. However, I reserve the right to modify, supplement and make changes as the course needs arise. I try to avoid changes to the syllabus. Nevertheless, if changes occur, I will only make changes that are less burdensome and more advantageous to the students. (If I make a change that increases your burden, please talk to me.)
+
+
+
+
+
+## Week 01, 01/25 - 01/29 : Foundations and Nature of Testing
+<!---
+- Tuesday: Chapter 1
+- Thursday: Chapter 2
+-->
+## Week 02, 02/01 - 02/05 : History of Testing
+<!---
+- Tuesday: Chapter 18
+- Thursday: Chapter 18
+-->
+##  Week 03, 02/08 - 02/12 : Ethical and Social Considerations in Testing 
+<!---
+- Tuesday: Chapter 3 "Last day to add full-term class"
+- Thursday: Chapter 3
+-->
+##  Week 04, 02/15 - 02/19 : Norms and the Meaning of Test Scores
+<!---
+- Tuesday: Chapter 4
+- Thursday: Chapter 4
+-->
+##  Week 05, 02/22 - 02/26 : Classical Test Theory
+<!---
+- Tuesday: Chapter 5 + 6
+- Thursday: Chapter 5 + 6 
+-->
+##  Week 06, 03/01 - 03/05 : Reliability
+<!---
+- Tuesday: Chapter 6  "Last day to drop full-term class"
+- Thursday: Chapter 9 
+-->
+##  Week 07, 03/08 - 03/12 : Catch Up Week 
+<!---
+- Tuesday: Chapter 7 (Assignment 1 Due)
+- Thursday: Chapter 7
+-->
+##  Week 08, 03/15 - 03/19 : Validity
+<!---
+- Tuesday: Review 
+- Thursday: Exam 1
+-->
+##  Week 09, 03/22 - 03/26 : Item Analysis
+<!---
+- Tuesday: No class
+- Thursday: No class 
+-->
+##  Week 10, 03/29 - 04/02 : Factor Analysis
+<!---
+- Tuesday: Selected readings
+- Thursday: Chapter 10
+-->
+##  Week 11, 04/05 - 04/09 : Item Response Theory
+<!---
+- Monday: Last day to drop with a grade of "W"
+- Tuesday: Chapter 11
+- Thursday: Chapter 12
+-->
+##  Week 12, 04/12 - 04/16 : Practical Testing Things
+<!---
+- Tuesday: Chapter 13
+- Thursday: Chapter 13 
+-->
+## Week 13, 04/19 - 04/23 : Ability Testing
+<!---
+- Tuesday: Chapter 14
+- Thursday: Chapter 14 (Assignment 2 Due)
+-->
+##  Week 14, 04/26 - 04/30 : Personality Testing
+<!---
+- Tuesday: Chapter 15
+- Thursday: Chapter 16
+-->
+##  Week 15, 05/03 - 05/07 : Review
+<!---
+- Tuesday: Supplemental reading
+- Thursday: Supplemental reading
+
+##  Week 16, 05/10 - 05/14 : Other Assessment Techniques 
+
+- Tuesday: Review
+
+## Final Exam 
+
+- TBD
+-->
+# References
+
+<!--chapter:end:0006_testing.Rmd-->
 
 # (PART) Module 01 {-}
 
@@ -4124,7 +4639,6 @@ This course was designed to be a starting point. You have learned so much in a s
 
 
 
-
 Before you go -- I have some important practical things to walk you thru. Most of these are Wake Forest Specific... such as making sure to connect your github account to a non-WFU email. As well as a well other things...
 
 ## Important Wake Forest Stuff
@@ -4141,10 +4655,6 @@ Github has some incredibly useful guides to do this...
 Please do not procrastinate this! It is really important to do this before you lose access!!!!
 
 
-
-
-
-
 <!--chapter:end:1601_closer.Rmd-->
 
 
@@ -4152,1295 +4662,4 @@ Please do not procrastinate this! It is really important to do this before you l
 
 
 <!--chapter:end:9999_references.Rmd-->
-
----
-output: 
-  pdf_document:
-    keep_tex: no
-    fig_caption: yes
-    latex_engine: pdflatex
-    template: ./common/style/svm-latex-syllabus.tex
-    
-bibliography: library.bib
-
-geometry: margin=1in
-
-title: "PSY-703: Data Science for Psychologists"
-
-date: 'May 17, 2021'
-
-author: S. Mason Garrison
-email: "GarrisSM@wfu.edu"
-
-
-officehours: By Appointment \href{https://calendly.com/smasongarrison/}{\small\tt calendly.com/smasongarrison}
-office: "GREENE 438"
-officev: Zoom \href{https://wakeforest-university.zoom.us/my/smasongarrison}{\tiny\tt wakeforest-university.zoom.us/my/smasongarrison}
-
-sectionA: Monday
-sectionB: Friday
-classroomA: GREENE ###
-classhoursA: "M @ 9:30a-10:50a"
-classdeliveryA: "Blended"
-classroomB: GREENE ###
-classdeliveryB: "Blended"
-classhoursB: "F @ 9:30a-10:50a"
-web: \href{https://datascience4psych.github.io/DataScience4Psych/}{\tt datascience4psych.github.io/DataScience4Psych/}
-git: \href{https://github.com/DataScience4Psych/DataScience4Psych}{\tt github.com/DataScience4Psych/DataScience4Psych}
-fontfamily: mathpazo
-fontsize: 11pt
-header-includes:
-   - \linespread{1.05}
----
-<!-- 
-classroom: "GREENE 160"
-classhours: "MWF 9:00a-9:50a"
-canvas: \href{https://wakeforest.instructure.com/courses/29807}{\tt wakeforest.instructure.com/courses/29807}
---> 
-
-
-
-
-
-
-# Course Description
-
-Data Science for Psychologists (DSP) introduces on the principles of data science, including data wrangling, modeling, visualization, and communication. In this class, we link those principles to psychological methods and open science practices by emphasizing exploratory analyses and description, rather than confirmatory analyses and prediction. We'll work our way thru Wickham and Grolemund's R for Data Science text (http://r4ds.had.co.nz/) and develop expertise in tidyverse (https://www.tidyverse.org/). This class emphasizes replication and reproducibility. DSP is a practical skilled-based class and should be useful to students aiming for academia as well as those interested in industry. Applications of these methods can be applied to a full range of psychological areas, including perception (e.g, eye-tracking data), neuroscience (e.g., visualizing neural networks), and individual differences (e.g., valence analysis).
-
-
-## Broad goals for the course:
-- 1. Reproducibility;
-- 2. Replication;
-- 3. Robust Methods;
-- 4. Really Nice Visualization; and
-- 5. R.
-
-# Required Materials
-
-
-
-Wickham and Grolemund's R for Data Science text (http://r4ds.had.co.nz/)
-
-
-
-### How to use the required text:
-
-The text is intended to supplement the lectures. The lectures don't follow the order of chapters in the text and the text covers some material that won't be covered in the lectures, i.e., not all the information in each chapter is perfectly pertinent to the course requirements.
-
-
-# Course Assignments
-
-<!---
-You will be formally evaluated in five different ways.
-
-
-
-## Individual data Project
-
-You will turn in your individual data collection/data analysis projects on Wednesday, September 18.  These projects are described in a separate handout. This project will be worth 10% of your grade.
-
-## Quiz
-There will be two 30-minute quizzes over lecture material and readings (on September 25 and October 30).  These will be objective style quizzes.  Make-ups will only be given under extraordinary circumstances and by prior arrangement. Each quiz = 10% of your grade.
-
-
-## Presentations
-You will give two asynchronous presentations.  Your team will give a 15-20 minute presentation of its data analysis problem.  In addition, you will give a 15- minute individual presentation.  These presentations are chance to practice a formal presentation in a relatively pressure-free setting).
--->
-
-## Presentation
-You will give one asynchronous presentation. approximately 10- minutes.  This presentation is chance to practice a formal presentation in a relatively pressure-free setting).
-
-
-## Lab
-
-<stuff about these should be in here>
-
-## Portfolio
-The major semester projects (described on the separate hand-out) is a set of EDA Projects, which you will summarize in an EDA Portfolio to be handed in on the last day of class.
-
-
-<!---
-### Quiz Dates
-
-- Quiz 1: Friday, 02/26
-
-- Quiz 2: Friday, 04/02
-
--->
-
-## Engagement
-
-This experiential course requires active engagement. There will be few lectures and we will not be building toward an exam.  Instead, we will work together to build our facilities for thinking critically about data. You should come to every class having read all of the required reading, watched the required videos, browsed the suggested resources, and so forth. You should enter the classroom prepared to discuss these materials with colleagues and complete both individual and group in-class assignments.
-
-<!---
-
-### Activities
-
-Because this class is blended, there will be multiple online engagement activities. These activities will allow you engage with the material for each module. Details about the specific activities will be provided on canvas.
-
--->
-
-# Grading Policy
-
-
-In this course, you will determine the grade you receive by fulfilling a contract you will submit for my approval on 02/05.
-
-Your written contract will detail:
-
-- The requirements you will meet in order to receive the grade for which you've contracted, 
-
-- the penalties you will incur for not meeting those requirements,
-
-- a calendar you will follow for meeting the requirements you have outlined. 
-
-Many aspects of this calendar will be determined by windows outlined on the course schedule, but your contract will take ownership of these deadlines while committing to specific due dates for the course’s more flexible assignments.
-
-## Contract Details
-
-To fulfill any grade contract a student must do the following, which should nonetheless be specified in the contract submitted for approval. When writing self-assessments students must describe how they have met these requirements in addition to the grade-specific requirements:
-
-- Come to class prepared to discuss any assigned readings, videos, or other media. Participate actively in class activities and discussions, making observations and asking questions that help the class think together.
-
-- Meet with me in person—during office hours or another scheduled time—at least once around midterm—roughly between weeks 5-8 to ensure you are on-track to meet your contract requirements, discuss any questions or concerns you have about the course or your progress, and decide on any necessary contract amendments.
-
-
-- Revise contractual assignments as necessary until both you and I consider them "Satisfactory."
-
-- Complete a final self-assessment demonstrating that your work has met the agreed requirements, submitting it to me by 5pm on the last day of class.
-
-
-The professor reserves the right to award a grade of D or F to anyone who fails to meet a contractual obligation in a systematic way. A "D" grade denotes some minimal fulfilling of the contract. An “F” is absence of enough satisfactory work, as contracted, to warrant passing of the course. Both a "D" and "F" denote a breakdown of the contractual relationship implied by signing any of the contracts described above.
-
-## What About Exceptional (or Mediocre) Work?
-I also reserve the right to reward exceptional work throughout the semester using the full range of Wake Forest's grading scale. If you contract for a “B,” for instance, and submit particularly strong pieces to fulfill that contract, I may elect to raise your contracted grade to a “B+.”
-
-Likewise, if you consistently submit mediocre work in fulfillment of your contract, I reserve the right to adjust your grade one half-step down (e.g. from “A” to “A-“) or even, in extreme cases, a full step.
-
-## Contract Adjustments
-Periodically during the semester I will ask you to evaluate your work thus far and compare it against what you agreed in your grade contract. In these moments you can also take the opportunity to request an adjustment to your contract in either direction. If you find that you will be unable to meet the obligations of your contract, you may request to move to the next lowest grade and its requirements. Contrariwise, if you find that you've been performing above the obligations of your contract, you may request to fulfill the requirements for the next higher grade. Important Note: In order to effectively evaluate your own progress, you must keep track of your work, including days missed, and so forth.
-
-
-
-## Contract Grades
-
-
-
-### "A" Contract
-
-To contract for an "A" in this course, you agree to:
-
-- Earn "Satisfactory" on 11 self-paced lab assignments on a schedule you will specify in your contract.
-
-- Produce at least 10 "Satisfactory" portfolio pieces over the course of the semester. 
-
-- Complete two "Satisfactory" Unessays on a schedule you will specify in your contract and present the strongest as an asynchronous presentation.
-
-
-### "B+" Contract
-
-To contract for an "B" in this course, you agree to:
-
-- Earn "Satisfactory" on 10 self-paced lab assignments on a schedule you will specify in your contract.
-
-- Produce at least 8 "Satisfactory" portfolio pieces over the course of the semester. 
-
-- Complete one "Satisfactory" Unessay on a schedule you will specify in your contract and present it during the last week of class
-
-
-### "C" Contract
-
-To contract for an "C" in this course, you agree to:
-
-- Earn "Satisfactory" on 8 self-paced lab assignments on a schedule you will specify in your contract.
-
-
-- Produce at least 6 "Satisfactory" portfolio pieces over the course of the semester.
-
-- Complete one "Satisfactory" Unessay on a schedule you will specify in your contract and present it during the last week of class
-
-
-
-
-
-# Course Policies
-
-
-
-## Class Engagement, Presence, and Participation.
-
-In previous semesters, I have had a deliberately hardline attendance policy. In the light of the public health crisis, I have done away with the this policy, as it doesn't align with my general philosophy of treating students as junior colleagues. The student who misses a class meeting is responsible for any assignments and/or announcements made.
-
-Class engagement points are given to encourage your active engagement with the material. Specific instructions for engagement, can be found on the class website In general, you will be rewarded with a perfect score as long as you engage meaningfully and intentionally with the material and your peers.
-
-
-## Life Happens (Extensions and Absences)
-
-As a reasonable and empathetic human, I recognize that life happens. There will be times when your outside life conflicts with scheduled class events. These life events can be any of the obvious things (sports, religious holidays, illness, interviews, etc), but they can also be the less obvious, like spending the entire night looking for your lost pet. My general approach is to work with you. You just need to let me know *ahead* of time. These late policies value discussion and communication over deductions and punishment. It is difficult for me as an instructor to know your situation and reason for lateness (e.g. are you sick? did you lose wifi? struggling with mental health? or just forgot?). Without communication, I will assume that students are choosing not to submit work and do not plan on submitting work. An email will help me better understand your needs and focus on coursework. I'm more than happy to give extensions and accommodations, so don't be afraid to email me. You don't need to disclose personal details (your privacy is important to me), so a heads up or request for assistance is enough.
-
-
-### Excused absences
-Except in the case of *true* emergencies, a possible excused absence should be discussed with me as far in advance as possible and *must* occur beforehand. You should not assume that an excused absence will automatically be granted -- but you may assume that I am a reasonable, empathetic person. This discussion should occur via email. If you also discuss your situation verbally, please send a summary of the discussion via email to me. An unexcused absence will result in a zero for any graded work that should have been performed for or during the missed class. 
-
-
-### Late Work
-
-Be sure to pay close attention to deadlines. If an assignment is not submitted by the deadline (i.e., is late), the student must email the instructor and provide a new deadline, ask for an alternative, or explain concerns *within 36 hours* of the missed deadline. Ideally, you will have communicated with me in advance of the deadline, but on occasion life happens. As long as you've communicated *within 36 hours*, I will do my best to work with you to come up with a new deadline or modification, so that you can receive full credit. This late policy does not apply to exams, tests, or quizzes.
-
-If contact is not made *within 36 hours* of the missed deadline, the missing assignment will receive a 0. Alternative deadlines will be within one week of the original deadline. Exceptions to the 1 week policy are at the instructor's discretion. In general, I will be much more sympathetic and accommodating if you communicate in advance. 
-
-It is your responsibility to ensure that the instructor has received the assignment by the established due date and to ensure that the assignment submitted is the complete and correct version. Unless otherwise specified, all work must be submitted through Canvas.
-
-Unless you have communicated with me in advance, there will be no make-up quizzes or tests.
-
-## Accommodations Policy
-
-If you are (or become) disabled (in any capacity, permanently, or temporarily), and need accommodations in class, reading, or any other work in this course, please contact me to discuss your specific needs as soon as possible. Under the Americans with Disabilities Act, you are legally entitled to reasonable accommodations for disabilities. I will do everything in my capacity as your professor to ensure that you receive those accommodations. 
-
-Students who need reasonable accommodations for disabilities also should contact the Learning Assistance Center \& Disability Services [lac.wfu.edu](https://lac.wfu.edu/). These accommodations are not retroactive. Therefore, I strongly encourage you to use those accommodations. You rightfully deserve them, both in the legal, moral, and ethical sense. 
-
-
-## Academic Dishonesty Policy
-
-All work submitted for credit must be the student's own and is subject to the provisions of the Wake Forest Honor Code. Details can be found at the Student Conduct web site: [studentconduct. wfu.edu/honor-system-wfu](https://studentconduct.wfu.edu/honor-system-wfu/). It is your responsibility to avoid even the appearance of cheating.
-
-Unless I have explicitly stated otherwise, every assessment is closed to outside resources (including, but not limited to books, notes, phones, people). Ignorance of the honor code and assignment instructions is not an acceptable explanation and/or defense.
-
-It is *ALWAYS* academic dishonesty to share test questions, post course materials on any third-party websites, or to work together on tests. And frankly, it is really obvious in Canvas when you work together. I literally wrote a R program that checks for working together on tests. 
-
-Violations of this policy result in a zero for the assignment, my perpetual disappointment, and possible additional penalties, including, but not limited to:
-
-- a referral to honor council, 
-- failing the class, 
-- forfeiting all extra credit, and
-- being excluding from the course curve, drop policy, late policy, and extra credit.
-
-
-## Communication
-
-I ask that you provide me with the respect that I should spend my time engaging with students in meaningful ways, not pointing you to material you can find on your own. Be sure to check the syllabus, course website, course content, and classmates before emailing me. This is important training for life after college – when you have a question, the first thing you do should not be to email your boss. I do not want to discourage you from engaging with me. I love teaching because I love interacting with students.  However, I do not want to engage with you in ways that nurture your inability to critically think and prevents me from engaging with other students.
-<!---
-If you are ever uncertain about the purpose of an assignment, the learning objectives of an activity, or how an assessment will be graded, please reach out. My goal is to be  organized, thoughtful, and transparent. All my assignments were thoughtfully chosen. There is no busy work or unnecessary required course material. If I have done a poor job explaining the motivation for any aspect of my course, please let me know so I can be more clear. 
-
--->
-
-### Minimums
-
-You are expected to read every LMS announcement, message, and email; as well as view the media embedded within those communications. Students are expected to check e-mail on a frequent and regular basis in order to stay current with University-related communications, recognizing that certain communications may be time-critical. At minimum, you should be checking your communications within 24 hours. Ignorance of a class communication is not grounds for an excused absence or extension. 
-
-
-### Self Advocacy
-
-If you are struggling in this class, please talk to me. Do not assume that I know what is going on in your life. Talk to me and tell me what you need.
-
-### Grading Questions
-
-Please send any questions about grades in writing via email within *two* weeks after the assignment is returned. If I erred in scoring or in calculating the grade, I will happily update the record. Otherwise, I will be most receptive toward questions framed in terms of your learning (rather than simply your performance), as research has shown that focusing overly on extrinsic rewards (like grades) is likely to lead to all sorts of outcomes that I don't wish for you (lower interest in the course material, lower learning, lower enjoyment).
-
-
-## Instructor Availability
-
-I am readily accessible during business hours (9:00AM-5:30PM; Monday-Friday) via email/ LMS/ git/ zoom/ carrier pigeon. Outside those hours, I do not typically respond to messages, in order to devote time to my family, rest, and living my life. Messages received during these times will receive attention once I am back online. Otherwise you can expect to receive a response to your message within 12 to 24 hours, often much sooner. If you do not hear back after 36 hours, please follow-up with me. 
-
-I have given out my cell-phone number, in the case of *true* emergencies. Please be mindful that poor planning on your part does not constitute an emergency for me. 
-
-### Is it an true emergency?
-
-How do you know if it is a true emergency? 
-
-* Ask yourself, would a reasonable person consider this situation an emergency? 
-* How would the situation change if you waited a until morning?
-* Could this situation have been prevented by starting earlier?
-* Would Professor Mason really want to know about this situation *right* now? 
-* If you were in Professor Mason's shoes, would you consider this an emergency?
-
-
-
-# Public Health in the age of COVID-19
-
-
-We share responsibility for the health and safety of each other in a learning space. Maintaining a consistent six feet of distance; wearing face coverings that cover our mouths and noses; limiting our gathering sizes; and isolating or quarantining when ill or exposed to someone with the virus are Wake Forest University directives and policies we all must follow. Students are encouraged to visit [Our Way Forward](https://ourwayforward.wfu.edu/) to stay informed about the latest guidance and review the [Public Health Emergency Addendum to the Student Code of Conduct](https://studentconduct.wfu.edu/undergraduate-student-handbook/public-health-emergency-addendum/).  
-
-Specifically, in this room, we will mitigate the risks of virus transfer and take care of our community by abiding by the following safety directives: 
-- maintain six feet of distance at all times when feasible. 
-- wear a face covering for the entirety of class indoors and out (unless there is exemption via an approved safety plan for specific coursework). This face covering should cover your mouth and your nose, and adhere to our [University face covering policy](https://drive.google.com/file/d/1Tqo-by1sjmc-kWUTwAqeNdaHq8OBsU9B/view) (no face shields without masks; no neck gaiters; no bandanas; and no masks, including N95, with a one-way valve). 
-- stay out of class when sick or after being exposed to someone who is sick.
-
-In this class, any student who does not follow these requirements will be asked once to follow the safety directives. 
-
-I will offer you a mask or ask you to find one. 
-
-If you do not comply, I will ask you to leave the class for that day. 
-
-[I will also refer the matter to the COVID-19 compliance reporting system](https://cm.maxient.com/reportingform.php?WakeForestUniv&layout_id=40). Possible disciplinary actions may follow as described in the Wake Forest University Undergraduate Student Conduct Code Public Health Emergency Addendum.
-
-# Classroom Climate
-
-I aim to create a learning environment for my students that supports a diversity of thoughts, perspectives, and experiences, and honors your identities (including race, ethnicity, sex, gender, gender-identify, class, sexual orientation, religion, ability, political affiliation, etc.) To help accomplish this:
-
-- If you have a name and/or set of pronouns that differ from those that appear in your official records, please let me know!
-
-- If you feel like your performance in the class is being impacted by your experiences outside of class, please don't hesitate to come and talk with me. I want to be a resource for you. 
-
-- I (like many people) am still in the process of learning about diverse perspectives and identities. If something was said in class (by anyone) that made you feel uncomfortable, please talk to me about it. 
-
-- If you reached here in the syllabus, e-mail me a picture of a cat. If you do it before the end of the first week, you get a small bonus.
-
-## Department Statement
-The Psychology Department values, respects, and celebrates the experiences, beliefs, and practices stemming from varied cultures and circumstances (emphasizing, but not limited to, those from historically underrepresented groups),and our deep commitment to diversity, equity, and inclusion plays out through coursework, programming by majors, and research. 
-
-<!---
-
-# To do well in the course
-
-#```{r child = 'doingwell_irl.Rmd'}
-#```
-
--->
-
-# Tentative Class Schedule
-
-This syllabus is intended to give the student guidance in what may be covered during the semester and will be followed as closely as possible. Dates for tests and assignments won't change, barring extraordinary events. However, I reserve the right to modify, supplement and make changes as the course needs arise. I try to avoid changes to the syllabus. Nevertheless, if changes occur, I will only make changes that are less burdensome and more advantageous to the students. (If I make a change that increases your burden, please talk to me.)
-
-
-<!---
-Schedule
--->
-
-## Module 01, 01/25 - 01/29 : What is Data Science and Meet the Toolkit
-<!---
-- Monday: First Day of Class / Introduction
-- Wednesday: What is personality? (Chapter 1)
-- Friday: Research in Personality: Sources of Data (Chapter 2)
--->
-## Module 02, 02/01 - 02/05 : Data and Visualization
-<!---
-- Monday: NO CLASS MLK Day
-- Wednesday: Research Design: Validity (Chapter 2)
-- Friday: Research Design: Generalizability (Chapter 2; Short Assignment 1 Handed Out)
--->
-##  Module 03, 02/08 - 02/12 : Grammar of data wrangling 
-<!---
-- Monday: Personality Assessment (Chapter 3)
-- Tuesday: "Last day to add full-term class"
-- Wednesday: Evaluation and Ethics (Chapter 3)
-- Friday: Person versus Situation (Chapter 4)
--->
-
-##  Module 04, 02/15 - 02/19 : Data types and Data Transformations
-<!---
-- Monday: What are traits? What are the basic traits? (Chapter 4)
-- Wednesday: Personality Judgement (Chapter 5)
-- Friday: Using Personality Traits to Understand Behavior (Chapter 6; Assignment 1 Due)
--->
-##  Module 05, 02/22 - 02/26 : Tips for effective data visualization
-<!---
-- Monday: Big Five (Chapter 6)
-- Wednesday: Review
-- Friday: Test 1
--->
-##  Module 06, 03/01 - 03/05 : Scientific studies and confounding
-<!---
-- Monday: Brains (Chapter 8)
-- Wednesday: More Brains (Chapter 8)
-- Friday: Behavior Genetics (Chapter 9)
--->
-##  Module 07, 03/08 - 03/12 : Web scraping 
-<!---
-- Monday: Behavior Genetics (Chapter 9)
-- Wednesday: Evolutionary Psychology (Chapter 9)
-- Friday: Evolutionary Psychology (Chapter 9)
--->
-##  Module 08, 03/15 - 03/19 : Functions
-<!---
-- Monday: Personality over the Lifespan (Chapter 7)
-- Wednesday: Personality over the Lifespan (Chapter 7)
-- Friday: Personality Processes (Chapter 15)
--->
-##  Module 09, 03/22 - 03/26 : Data and Ethics
-<!---
-- Monday: No Class
-- Wednesday: No Class
-- Friday: No Class
--->
-##  Module 10, 03/29 - 04/02 : Fitting and interpreting models
-<!---
-- Monday: Personality Processes (Chapter 15)
-- Wednesday: Review
-- Friday: Test 2
--->
-##  Module 11, 04/05 - 04/09 : Prediction and overfitting
-<!---
-- Monday: The Self (Chapter 16) Last day to drop with a grade of "W"
-- Wednesday: The Self (Chapter 16)
-- Friday:  Freud (Chapter 10) 
--->
-##  Module 12, 04/12 - 04/16 : Cross validation
-<!---
-- Monday: Freud (Chapter 10)
-- Wednesday: Freud (Chapter 10)
-- Friday: Neo-Freud (Chapter 11; Assignment 2 Due)
--->
-## Module 13, 04/19 - 04/23 : Quantifying uncertainty
-<!---
-- Monday:  Neo-Freud (Chapter 11) 
-- Wednesday: Positive Psychology
-- Friday: Positive Psychology
--->
-##  Module 14, 04/26 - 04/30 : Interactive web apps
-<!---
-- Monday: Cross-Cultural Psychology
-- Wednesday: Cross-Cultural Psychology
-- Friday: Cross-Cultural Psychology
--->
-
-##  Module 15, 05/03 - 05/07 : Special Topics (like: Text analysis; Machine learning; Bayesian inference)
-<!---
-- Monday: Personality and Physical Health
-- Wednesday: Personality and Mental Health
-- Friday: Personality Disorders
-
-##  Module 16, 05/10 - 05/14 : NA 
-
-- Monday: Special Topics
-- Wednesday: Review; Assignment 3 Due; Last Day of Class
-
-## Final Exam 
-
-- TBD on DEC TBD
-
-# References
-
--->
-
-<!--chapter:end:syllabus_datascience.Rmd-->
-
----
-output: 
-  pdf_document:
-    keep_tex: no
-    fig_caption: yes
-    latex_engine: pdflatex
-    template: ./common/style/svm-latex-syllabus.tex
-    
-bibliography: library.bib
-
-geometry: margin=1in
-fontfamily: mathpazo
-fontsize: 11pt
-
-title: "PSY-255: Personality"
-
-date: 'May 17, 2021'
-
-author: S. Mason Garrison
-email: "GarrisSM@wfu.edu"
-
-TA: Lindley Slipetz
-taemail: "sliplr19@wfu.edu "
-
-
-officehours: By Appointment \href{https://calendly.com/smasongarrison/}{\small\tt calendly.com/smasongarrison}
-office: "GREENE 438"
-officev: Zoom \href{https://wakeforest-university.zoom.us/my/smasongarrison}{\tiny\tt wakeforest-university.zoom.us/my/smasongarrison}
-
-sectionA: A
-sectionB: B
-classroomA: GREENE 160
-classhoursA: "M or W or F @ 9:00a-9:50a"
-classdeliveryA: "Blended"
-classroomB: Canvas
-classdeliveryB: "Asynchronous"
-web: \href{https://wakeforest.instructure.com/courses/17546}{\tt wakeforest.instructure.com/courses/17546} 
-
-header-includes:
-   - \linespread{1.05}
----
-<!-- 
-classroom: "GREENE 160"
-classhours: "MWF 9:00a-9:50a"
-
-
---> 
-
-
-
-
-# Course Description
-
-This class provides a survey of theory and research on the structure and function of human personality, with attention to the relationship to cognition, emotion, motivation, and behavior. It requires P-PSY 151. In addition, we will discuss other individual differences, such as intelligence.
-
-
-To do well in the course, you should read the assigned material before class and re-read previously assigned material as the course progresses. 
-By reading the text before class you will be better prepared to ask questions and integrate the content of lectures with what was presented in the text. 
-For synchronous classes, be sure to attend all lectures and arrive on time. 
-For asynchronous classes be sure to watch all the video lectures and don't leave them until the last minute. Each topic builds directly on the previous one. 
-Thus, if you miss one lecture or zip through a video, you run the risk of being completely lost in the next lecture.
-
-
-## Important Information for College and This Course:
-
-In addition, many professors have implicit (*i.e.*, unspoken) expectations for college classes. 
-I'm going to explicitly state some of those unspoken expectations. I suspect that your other professors have similar expectations -- so this information will help you in your other classes.
-
-Asynchronous courses put the onus on **YOU** to keep up with the work. You are not guaranteed any reminders throughout the semester. Go to the schedule included here and put it in your calendar. You should also:
-
-1. check course announcements on Canvas often, and 
-2. check your email tied to Canvas often. 
-  
-Email and canvas is how I communicate with you, and I will not continually repeat myself in emails after I have already posted or sent the information.
-
-High school and college are different. In high school, you may have been permitted to turn in work as late as you like, to redo assignments or quizzes until you were satisfied, and to complete extra credit work. This is not the case in this college-level course. Unless explicitly stated, there are no late assignments, make-up work, redoing of assignments, or extra credit. These are course policies; they are not opportunities for negotiation. Although I am always happy to explain the reasoning and calculus behind my policies, they are not negotiable. 
-
-There is also a prevalent attitude of, "it doesn't hurt to ask." Yes, it does. If I have already made clear my policies and expectations, asking me to violate them damages your credibility as a student. One day you may ask for something that is truly reasonable given an emergency situation, but by then your reputation will precede you. Do not be "the boy who cried wolf;" it is not a respected position.
-
-Finally, you should understand that college is not a fee-for-service arrangement. You are not paying me. You are paying tuition to a University for all kinds of things, very little of which actually "pays my salary." Salaries are more commonly paid out of government funds, including grants. You start with a zero in college courses and earn your points from there. I am not "giving" you grades or "taking away" points. You have nothing to begin with and earn your own score based on what you do and how well you do it (not simply on effort). What I offer you is an opportunity for education, not a grade.
-
-<!---
-## Addition pieces of advice:
-
-- Read the syllabus.
-- Read all the class announcements.
-- Read the FAQ and post your questions about the class there.
-- Read and follow the instructions for each assignment. 
-- Read your professor's comments on your submissions -- especially if you did not get full credit on that submission.
-- Treat canvas messages like email.
-- Read and respond to canvas messages from your professor. 
-- Before you send email your professor, try to answer the question yourself by looking at the syllabus, reading the course FAQ, and reading the assignment instructions.
-- Know when assignment deadlines are.
-- If you need additional time or flexibility on an assignment, you communicate with your professor before the deadline passes.
-
---->
-
-
-## Broad goals for the course:
-- 1. The first is for you to understand what personality psychologists think. We will cover classic and current theories, research, and applications of Personality psychology.
-- 2. The second is for you to learn how personality psychologists study their field scientifically. We will discuss the procedures used to test theories and to study issues related to personality.
-- 3. The third is to (hopefully) recognize some relevance of personality psychology for your personal and/or professional life.
-
-
-# Required Materials
-
-[1] D. C. Funder. _The personality puzzle_. Seventh. OCLC: 935283402.
-New York: W.W. Norton & Co., 2016. ISBN: 978-0-393-60042-1.
-
-
-### How to use the required text:
-
-The text [@funder_personality_2016] is intended to supplement the lectures. The lectures don't follow the order of chapters in the text and the text covers some material that won't be covered in the lectures, i.e., not all the information in each chapter is perfectly pertinent to the course requirements.
-
-
-# Course Assignments
-
-## Exams 
-There will be 3 exams in this course.  The best 2 out of 3 exam grades will be used to determine your total exam grade.  You can drop any of the exams for any reason BUT YOU MUST PASS THE LAST EXAM (held at TBD on Dec TBD).  If you do not pass the final exam, your score on that exam will count as one of your 2 grades. If you do pass the final exam, then the best 2 grades will be used (irrespective of your score on the final exam).
-
-
-### Test Dates
-
-- Test 1: Friday, 09/25
-
-- Test 2: Friday, 10/30
-
-- Test 3: During Finals Week
-
-
-## Short Assignments 
-There will be three (3) short assignments in this course. These assignments will allow you to incorporate some of your own interests into the course. Such interests could be related to your career, another class you're taking, a hobby you're exploring, or some other random fancy. They will typically be approximately two (2) pages. I will provide more specific written guidelines at least two weeks before each assignment is due.
-
-
-The best two (2) out of three (3) short assignments will be used to determine your total short assignments.  You can skip one of the assignments for any reason.
-
-
-### Short Assignment Dates
-
-- Assignment 1: Friday, 09/18: Critique of an online personality test.
-
-- Assignment 2: Friday, 11/13: Critique of a personality-related media article.
-
-- Assignment 3: Friday, 12/04: Critique of a personality-related YouTube video.
-
-## Engagement Activities
-
-There will be multiple engagement activities in this course. These activities will allow you engage with the material for each module. Details about the specific activities will be provided on canvas. Students must complete two activities per module. For students in the blended section, they can attend their weekly in-person session and count it as an engagement activity.
-
-
-## Grading Policy
-
-
-
-Typically, an A- is defined as 90% of the highest point total in the class, B- as 80% of that total, C- as 70 and D- as 60%. 
-I may shift these values down to provide a better fit to the actual point distribution. 
-By scaling to a percentage of the highest point total in the class, each student has a much better chance of receiving higher grades than if no re-scaling were done. 
-This curve can only help your grade. 
-
-The full table is provided below:
-
-Table: (\#tab:unnamed-chunk-5)Full Table
-
-|Letter | Cutoff|
-|:------|------:|
-|A      |   0.95|
-|A-     |   0.90|
-|B+     |   0.87|
-|B      |   0.83|
-|B-     |   0.80|
-|C+     |   0.77|
-|C      |   0.73|
-|C-     |   0.70|
-|D+     |   0.67|
-|D      |   0.63|
-|D-     |   0.60|
-
-### Curve Projections
-
-Unsurprisingly, students have many questions about the curve in this class. For tests and other assignments, I try to provide a projected letter grade. 
-This projected letter grade is there to give you a sense of what your score *would* be if I implemented the class curve on this particular assignment. 
-It is a projection. It is not a guarantee. These projected letter grades are not incorporated into your final grade. 
-Trust me, you do not want me to curve by assignment.
-
-
-
-- 200 points of your grade will be determined by your best two exams.
-    - The final is not optional.
-- 50 points of your grade will be determined by completing engagement activities.
-<!---
-your attendance and participation in engagement activities. Generally, ask questions and answer them.
--->
-- 100 points of your grade will be determined by your best two short assignments.
-
-
-# Course Policies
-
-
-
-## Class Engagement, Presence, and Participation.
-
-In previous semesters, I have had a deliberately hardline attendance policy. In the light of the public health crisis, I have done away with the this policy, as it doesn't align with my general philosophy of treating students as junior colleagues. The student who misses a class meeting is responsible for any assignments and/or announcements made.
-
-Class engagement points are given to encourage your active engagement with the material. Specific instructions for engagement, can be found on the class website In general, you will be rewarded with a perfect score as long as you engage meaningfully and intentionally with the material and your peers.
-
-
-## Life Happens (Extensions and Absences)
-
-As a reasonable and empathetic human, I recognize that life happens. There will be times when your outside life conflicts with scheduled class events. These life events can be any of the obvious things (sports, religious holidays, illness, interviews, etc), but they can also be the less obvious, like spending the entire night looking for your lost pet. My general approach is to work with you. You just need to let me know *ahead* of time. These late policies value discussion and communication over deductions and punishment. It is difficult for me as an instructor to know your situation and reason for lateness (e.g. are you sick? did you lose wifi? struggling with mental health? or just forgot?). Without communication, I will assume that students are choosing not to submit work and do not plan on submitting work. An email will help me better understand your needs and focus on coursework. I'm more than happy to give extensions and accommodations, so don't be afraid to email me. You don't need to disclose personal details (your privacy is important to me), so a heads up or request for assistance is enough.
-
-
-### Excused absences
-Except in the case of *true* emergencies, a possible excused absence should be discussed with me as far in advance as possible and *must* occur beforehand. You should not assume that an excused absence will automatically be granted -- but you may assume that I am a reasonable, empathetic person. This discussion should occur via email. If you also discuss your situation verbally, please send a summary of the discussion via email to me. An unexcused absence will result in a zero for any graded work that should have been performed for or during the missed class. 
-
-
-### Late Work
-
-Be sure to pay close attention to deadlines. If an assignment is not submitted by the deadline (i.e., is late), the student must email the instructor and provide a new deadline, ask for an alternative, or explain concerns *within 36 hours* of the missed deadline. Ideally, you will have communicated with me in advance of the deadline, but on occasion life happens. As long as you've communicated *within 36 hours*, I will do my best to work with you to come up with a new deadline or modification, so that you can receive full credit. This late policy does not apply to exams, tests, or quizzes.
-
-If contact is not made *within 36 hours* of the missed deadline, the missing assignment will receive a 0. Alternative deadlines will be within one week of the original deadline. Exceptions to the 1 week policy are at the instructor's discretion. In general, I will be much more sympathetic and accommodating if you communicate in advance. 
-
-It is your responsibility to ensure that the instructor has received the assignment by the established due date and to ensure that the assignment submitted is the complete and correct version. Unless otherwise specified, all work must be submitted through Canvas.
-
-Unless you have communicated with me in advance, there will be no make-up quizzes or tests.
-
-## Accommodations Policy
-
-If you are (or become) disabled (in any capacity, permanently, or temporarily), and need accommodations in class, reading, or any other work in this course, please contact me to discuss your specific needs as soon as possible. Under the Americans with Disabilities Act, you are legally entitled to reasonable accommodations for disabilities. I will do everything in my capacity as your professor to ensure that you receive those accommodations. 
-
-Students who need reasonable accommodations for disabilities also should contact the Learning Assistance Center \& Disability Services [lac.wfu.edu](https://lac.wfu.edu/). These accommodations are not retroactive. Therefore, I strongly encourage you to use those accommodations. You rightfully deserve them, both in the legal, moral, and ethical sense. 
-
-
-## Academic Dishonesty Policy
-
-All work submitted for credit must be the student's own and is subject to the provisions of the Wake Forest Honor Code. Details can be found at the Student Conduct web site: [studentconduct. wfu.edu/honor-system-wfu](https://studentconduct.wfu.edu/honor-system-wfu/). It is your responsibility to avoid even the appearance of cheating.
-
-Unless I have explicitly stated otherwise, every assessment is closed to outside resources (including, but not limited to books, notes, phones, people). Ignorance of the honor code and assignment instructions is not an acceptable explanation and/or defense.
-
-It is *ALWAYS* academic dishonesty to share test questions, post course materials on any third-party websites, or to work together on tests. And frankly, it is really obvious in Canvas when you work together. I literally wrote a R program that checks for working together on tests. 
-
-Violations of this policy result in a zero for the assignment, my perpetual disappointment, and possible additional penalties, including, but not limited to:
-
-- a referral to honor council, 
-- failing the class, 
-- forfeiting all extra credit, and
-- being excluding from the course curve, drop policy, late policy, and extra credit.
-
-
-## Communication
-
-I ask that you provide me with the respect that I should spend my time engaging with students in meaningful ways, not pointing you to material you can find on your own. Be sure to check the syllabus, course website, course content, and classmates before emailing me. This is important training for life after college – when you have a question, the first thing you do should not be to email your boss. I do not want to discourage you from engaging with me. I love teaching because I love interacting with students.  However, I do not want to engage with you in ways that nurture your inability to critically think and prevents me from engaging with other students.
-<!---
-If you are ever uncertain about the purpose of an assignment, the learning objectives of an activity, or how an assessment will be graded, please reach out. My goal is to be  organized, thoughtful, and transparent. All my assignments were thoughtfully chosen. There is no busy work or unnecessary required course material. If I have done a poor job explaining the motivation for any aspect of my course, please let me know so I can be more clear. 
-
--->
-
-### Minimums
-
-You are expected to read every LMS announcement, message, and email; as well as view the media embedded within those communications. Students are expected to check e-mail on a frequent and regular basis in order to stay current with University-related communications, recognizing that certain communications may be time-critical. At minimum, you should be checking your communications within 24 hours. Ignorance of a class communication is not grounds for an excused absence or extension. 
-
-
-### Self Advocacy
-
-If you are struggling in this class, please talk to me. Do not assume that I know what is going on in your life. Talk to me and tell me what you need.
-
-### Grading Questions
-
-Please send any questions about grades in writing via email within *two* weeks after the assignment is returned. If I erred in scoring or in calculating the grade, I will happily update the record. Otherwise, I will be most receptive toward questions framed in terms of your learning (rather than simply your performance), as research has shown that focusing overly on extrinsic rewards (like grades) is likely to lead to all sorts of outcomes that I don't wish for you (lower interest in the course material, lower learning, lower enjoyment).
-
-
-## Instructor Availability
-
-I am readily accessible during business hours (9:00AM-5:30PM; Monday-Friday) via email/ LMS/ git/ zoom/ carrier pigeon. Outside those hours, I do not typically respond to messages, in order to devote time to my family, rest, and living my life. Messages received during these times will receive attention once I am back online. Otherwise you can expect to receive a response to your message within 12 to 24 hours, often much sooner. If you do not hear back after 36 hours, please follow-up with me. 
-
-I have given out my cell-phone number, in the case of *true* emergencies. Please be mindful that poor planning on your part does not constitute an emergency for me. 
-
-### Is it an true emergency?
-
-How do you know if it is a true emergency? 
-
-* Ask yourself, would a reasonable person consider this situation an emergency? 
-* How would the situation change if you waited a until morning?
-* Could this situation have been prevented by starting earlier?
-* Would Professor Mason really want to know about this situation *right* now? 
-* If you were in Professor Mason's shoes, would you consider this an emergency?
-
-
-
-# Public Health in the age of COVID-19
-
-
-We share responsibility for the health and safety of each other in a learning space. Maintaining a consistent six feet of distance; wearing face coverings that cover our mouths and noses; limiting our gathering sizes; and isolating or quarantining when ill or exposed to someone with the virus are Wake Forest University directives and policies we all must follow. Students are encouraged to visit [Our Way Forward](https://ourwayforward.wfu.edu/) to stay informed about the latest guidance and review the [Public Health Emergency Addendum to the Student Code of Conduct](https://studentconduct.wfu.edu/undergraduate-student-handbook/public-health-emergency-addendum/).  
-
-Specifically, in this room, we will mitigate the risks of virus transfer and take care of our community by abiding by the following safety directives: 
-- maintain six feet of distance at all times when feasible. 
-- wear a face covering for the entirety of class indoors and out (unless there is exemption via an approved safety plan for specific coursework). This face covering should cover your mouth and your nose, and adhere to our [University face covering policy](https://drive.google.com/file/d/1Tqo-by1sjmc-kWUTwAqeNdaHq8OBsU9B/view) (no face shields without masks; no neck gaiters; no bandanas; and no masks, including N95, with a one-way valve). 
-- stay out of class when sick or after being exposed to someone who is sick.
-
-In this class, any student who does not follow these requirements will be asked once to follow the safety directives. 
-
-I will offer you a mask or ask you to find one. 
-
-If you do not comply, I will ask you to leave the class for that day. 
-
-[I will also refer the matter to the COVID-19 compliance reporting system](https://cm.maxient.com/reportingform.php?WakeForestUniv&layout_id=40). Possible disciplinary actions may follow as described in the Wake Forest University Undergraduate Student Conduct Code Public Health Emergency Addendum.
-
-# Classroom Climate
-
-I aim to create a learning environment for my students that supports a diversity of thoughts, perspectives, and experiences, and honors your identities (including race, ethnicity, sex, gender, gender-identify, class, sexual orientation, religion, ability, political affiliation, etc.) To help accomplish this:
-
-- If you have a name and/or set of pronouns that differ from those that appear in your official records, please let me know!
-
-- If you feel like your performance in the class is being impacted by your experiences outside of class, please don't hesitate to come and talk with me. I want to be a resource for you. 
-
-- I (like many people) am still in the process of learning about diverse perspectives and identities. If something was said in class (by anyone) that made you feel uncomfortable, please talk to me about it. 
-
-- If you reached here in the syllabus, e-mail me a picture of a cat. If you do it before the end of the first week, you get a small bonus.
-
-## Department Statement
-The Psychology Department values, respects, and celebrates the experiences, beliefs, and practices stemming from varied cultures and circumstances (emphasizing, but not limited to, those from historically underrepresented groups),and our deep commitment to diversity, equity, and inclusion plays out through coursework, programming by majors, and research. 
-
-<!---
-
-# To do well in the course
-
-#```{r child = 'doingwell_irl.Rmd'}
-#```
-
--->
-
-# Tentative Class Schedule
-
-This syllabus is intended to give the student guidance in what may be covered during the semester and will be followed as closely as possible. Dates for tests and assignments won't change, barring extraordinary events. However, I reserve the right to modify, supplement and make changes as the course needs arise. I try to avoid changes to the syllabus. Nevertheless, if changes occur, I will only make changes that are less burdensome and more advantageous to the students. (If I make a change that increases your burden, please talk to me.)
-
-
-<!---
-Schedule
--->
-
-## Week 01, 08/24 - 08/28 : Introduction and What is Personality
-<!---
-- Monday: First Day of Class / Introduction
-- Wednesday: What is personality? (Chapter 1)
-- Friday: Research in Personality: Sources of Data (Chapter 2)
--->
-## Week 02, 08/31 - 09/04 : Research Design in Personality
-<!---
-- Monday: NO CLASS MLK Day
-- Wednesday: Research Design: Validity (Chapter 2)
-- Friday: Research Design: Generalizability (Chapter 2; Short Assignment 1 Handed Out)
--->
-##  Week 03, 09/07 - 09/11 : Personality Assessment and Testing Controversies 
-<!---
-- Monday: Personality Assessment (Chapter 3)
-- Tuesday: "Last day to add full-term class"
-- Wednesday: Evaluation and Ethics (Chapter 3)
-- Friday: Person versus Situation (Chapter 4)
--->
-
-##  Week 04, 09/14 - 09/18 : How do people differ? Trait Approach (Assignment 1)
-<!---
-- Monday: What are traits? What are the basic traits? (Chapter 4)
-- Wednesday: Personality Judgement (Chapter 5)
-- Friday: Using Personality Traits to Understand Behavior (Chapter 6; Assignment 1 Due)
--->
-##  Week 05, 09/21 - 09/25 : Big Five (Test 1)
-<!---
-- Monday: Big Five (Chapter 6)
-- Wednesday: Review
-- Friday: Test 1
--->
-##  Week 06, 09/28 - 10/02 : Personality over the Lifespan
-<!---
-- Monday: Brains (Chapter 8)
-- Wednesday: More Brains (Chapter 8)
-- Friday: Behavior Genetics (Chapter 9)
--->
-##  Week 07, 10/05 - 10/09 : Biological and Genetic Approaches to Psychology 
-<!---
-- Monday: Behavior Genetics (Chapter 9)
-- Wednesday: Evolutionary Psychology (Chapter 9)
-- Friday: Evolutionary Psychology (Chapter 9)
--->
-##  Week 08, 10/12 - 10/16 : Evolutionary Psychology
-<!---
-- Monday: Personality over the Lifespan (Chapter 7)
-- Wednesday: Personality over the Lifespan (Chapter 7)
-- Friday: Personality Processes (Chapter 15)
--->
-##  Week 09, 10/19 - 10/23 : Personality Processes
-<!---
-- Monday: No Class
-- Wednesday: No Class
-- Friday: No Class
--->
-##  Week 10, 10/26 - 10/30 : The Self  (Test 2)
-<!---
-- Monday: Personality Processes (Chapter 15)
-- Wednesday: Review
-- Friday: Test 2
--->
-##  Week 11, 11/02 - 11/06 : Freud
-<!---
-- Monday: The Self (Chapter 16) Last day to drop with a grade of "W"
-- Wednesday: The Self (Chapter 16)
-- Friday:  Freud (Chapter 10) 
--->
-##  Week 12, 11/09 - 11/13 : Positive Psychology  (Assignment 2)
-<!---
-- Monday: Freud (Chapter 10)
-- Wednesday: Freud (Chapter 10)
-- Friday: Neo-Freud (Chapter 11; Assignment 2 Due)
--->
-## Week 13, 11/16 - 11/20 : Cross-Cultural Psychology
-<!---
-- Monday:  Neo-Freud (Chapter 11) 
-- Wednesday: Positive Psychology
-- Friday: Positive Psychology
--->
-##  Week 14, 11/23 - 11/27 : Personality and Health
-<!---
-- Monday: Cross-Cultural Psychology
-- Wednesday: Cross-Cultural Psychology
-- Friday: Cross-Cultural Psychology
--->
-
-##  Week 15, 11/30 - 12/04 : Special Topics (Assignment 3)
-<!---
-- Monday: Personality and Physical Health
-- Wednesday: Personality and Mental Health
-- Friday: Personality Disorders
-
-##  Week 16, 12/07 - 12/11 : NA 
-
-- Monday: Special Topics
-- Wednesday: Review; Assignment 3 Due; Last Day of Class
--->
-## Final Exam 
-
-- TBD on DEC TBD
-
-# References
-
-<!--chapter:end:syllabus_personality.Rmd-->
-
----
-output: 
-  pdf_document:
-    keep_tex: yes
-    fig_caption: yes
-    latex_engine: pdflatex
-    template: ./common/style/svm-latex-syllabus.tex
-    
-bibliography: library.bib
-
-geometry: margin=1in
-fontfamily: mathpazo
-fontsize: 11pt
-
-title: "PSY 362. Psychological Testing"
-
-date: 'May 17, 2021'
-
-author: S. Mason Garrison
-email: "GarrisSM@wfu.edu"
-
-
-officehours: By Appointment \href{https://calendly.com/smasongarrison/}{\small\tt calendly.com/smasongarrison}
-office: "GREENE 438"
-officev: Zoom \href{https://wakeforest-university.zoom.us/my/smasongarrison}{\tiny\tt wakeforest-university.zoom.us/my/smasongarrison}
-
-classroom: Canvas
-classdelivery: "Asynchronous"
-web: \href{https://wakeforest.instructure.com/courses/28913}{\tt wakeforest.instructure.com/courses/28913} 
-
-
-
-header-includes:
-   - \linespread{1.05}
----
-
-
-
-
-
-# Course Description
-
-This course provides an overview of the development and nature of psychological tests with applications to school counseling, business, and clinical practice. The purpose of the course is to provide students with an understanding of the principles of measurement as applied to group standardized measures of achievement, special aptitude, intelligence, personality, interests and distress for use in counseling.  Format will consist primarily of lectures along with group participation activities. 
-
-
-## Course Objectives:
-- To acquaint you with the fundamental vocabulary and logic of psychological measurement and behavioral assessment.
-- To develop your capacity for critical judgment of the adequacy of measures purported to assess behavior in the role of theory development.
-- To acquaint you with some of the relevant literature in personality assessment, psychometric theory and practice, and methods of observing and measuring behavior.
-- To instill in you an appreciation of and an interest in the principles and methods of psychometric theory in general and behavior assessment in particular.
-- This course is not designed to make you into an accomplished psychometrist (one who gives tests) nor is it designed to make you a skilled psychometrician (one who constructs tests), nor will it give you "hands on" experience with psychometric computer programs. Rather it is aimed to allow you to understand the fundamental theoretical issues concerning both the psychometrist and the psychometrician.
-- Because modern psychometrics and statistics may be done using open source software such as R, examples will be presented in R.
-
-# Materials
-## Texts
-### Required
-
-[1] A. Anastasi and A. Urbina. _Psychological testing_. Upper Saddle
-River, New Jersey: Prentice-Hall, 1997. ISBN: 0-02-303020-8.
-
-
-#### How to use the required text:
-
-The text [@anastasi1997] is intended to supplement the lectures. The lectures don't follow the order of chapters in the text and the text covers some material that won't be covered in the lectures, i.e., not all the information in each chapter is perfectly pertinent to the course requirements.
-
-
-# Course Assignments 
-## Grading Policy
-
-
-
-Typically, an A- is defined as 90% of the highest point total in the class, B- as 80% of that total, C- as 70 and D- as 60%. 
-I may shift these values down to provide a better fit to the actual point distribution. 
-By scaling to a percentage of the highest point total in the class, each student has a much better chance of receiving higher grades than if no re-scaling were done. 
-This curve can only help your grade. 
-
-The full table is provided below:
-
-Table: (\#tab:unnamed-chunk-4)Full Table
-
-|Letter | Cutoff|
-|:------|------:|
-|A      |   0.95|
-|A-     |   0.90|
-|B+     |   0.87|
-|B      |   0.83|
-|B-     |   0.80|
-|C+     |   0.77|
-|C      |   0.73|
-|C-     |   0.70|
-|D+     |   0.67|
-|D      |   0.63|
-|D-     |   0.60|
-
-### Curve Projections
-
-Unsurprisingly, students have many questions about the curve in this class. For tests and other assignments, I try to provide a projected letter grade. 
-This projected letter grade is there to give you a sense of what your score *would* be if I implemented the class curve on this particular assignment. 
-It is a projection. It is not a guarantee. These projected letter grades are not incorporated into your final grade. 
-Trust me, you do not want me to curve by assignment.
-
-
-
-## Quizzes
-There will be 6 quizzes in this course. These will be approximately every three weeks. The best 5 out of 6 quiz grades will be used to determine your total quiz grade.  You can drop 1 of the quizzes for any reason.
-
-
-### Quiz Dates
-
-- Quiz 1: Friday, 02/12
-
-- Quiz 2: Friday, 03/05
-
-- Quiz 3: Friday, 04/02
-
-- Quiz 4: Friday, 04/23
-
-- Quiz 5: Friday, 05/07
-
-- Quiz 6: During Finals, 05/14
-
-
-## Take Home Assignments
-There are three large take-home assignments. Each assignment has a qualitative aspect and a quantitative aspect, and are counted separately in your grade. 
-
-
-The best two (2) out of three (3) qualitative aspects will be used to determine your qualitative score; similarly, the best two (2) out of three (3) quantitative aspects will be used to determine your quantitative score. I will provide more specific written guidelines at least two weeks before each assignment is due. You have to submit assignment 1 because I give extensive feedback that will help you on later assignments. However, you may skip assignment 2 or 3.
-
-
-### Assignment Dates
-
-- Assignment 1: Friday, 03/12: Set 1 and Critique of an online test.
-
-- Assignment 2: Friday, 04/23: Set 2 and Critique of a testing-related popular media article.
-
-- Assignment 3: Friday, 05/07: Set 3 and Critique of a testing-related YouTube video.
-
-
-
-
-## Engagement Activities
-
-There will be multiple engagement activities in this course. These activities will allow you engage with the material for each module. Details about the specific activities will be provided on canvas. Students must complete two activities per module.
-
-
-
-## Grading Weighting
-
-- 150 points of your grade will be determined by your best five (5) quizzes.
-- 100 points of your grade will be determined by your best two (2) quantitative aspects of your take-home assignments.
-- 100 points of your grade will be determined by your best two (2) qualitative aspects of your take-home assignments.
-- 50 points of your grade will be determined by your engagement.
-
-
-# Course Policies
-
-
-
-## Class Engagement, Presence, and Participation.
-
-In previous semesters, I have had a deliberately hardline attendance policy. In the light of the public health crisis, I have done away with the this policy, as it doesn't align with my general philosophy of treating students as junior colleagues. The student who misses a class meeting is responsible for any assignments and/or announcements made.
-
-Class engagement points are given to encourage your active engagement with the material. Specific instructions for engagement, can be found on the class website In general, you will be rewarded with a perfect score as long as you engage meaningfully and intentionally with the material and your peers.
-
-
-## Life Happens (Extensions and Absences)
-
-As a reasonable and empathetic human, I recognize that life happens. There will be times when your outside life conflicts with scheduled class events. These life events can be any of the obvious things (sports, religious holidays, illness, interviews, etc), but they can also be the less obvious, like spending the entire night looking for your lost pet. My general approach is to work with you. You just need to let me know *ahead* of time. These late policies value discussion and communication over deductions and punishment. It is difficult for me as an instructor to know your situation and reason for lateness (e.g. are you sick? did you lose wifi? struggling with mental health? or just forgot?). Without communication, I will assume that students are choosing not to submit work and do not plan on submitting work. An email will help me better understand your needs and focus on coursework. I'm more than happy to give extensions and accommodations, so don't be afraid to email me. You don't need to disclose personal details (your privacy is important to me), so a heads up or request for assistance is enough.
-
-
-### Excused absences
-Except in the case of *true* emergencies, a possible excused absence should be discussed with me as far in advance as possible and *must* occur beforehand. You should not assume that an excused absence will automatically be granted -- but you may assume that I am a reasonable, empathetic person. This discussion should occur via email. If you also discuss your situation verbally, please send a summary of the discussion via email to me. An unexcused absence will result in a zero for any graded work that should have been performed for or during the missed class. 
-
-
-### Late Work
-
-Be sure to pay close attention to deadlines. If an assignment is not submitted by the deadline (i.e., is late), the student must email the instructor and provide a new deadline, ask for an alternative, or explain concerns *within 36 hours* of the missed deadline. Ideally, you will have communicated with me in advance of the deadline, but on occasion life happens. As long as you've communicated *within 36 hours*, I will do my best to work with you to come up with a new deadline or modification, so that you can receive full credit. This late policy does not apply to exams, tests, or quizzes.
-
-If contact is not made *within 36 hours* of the missed deadline, the missing assignment will receive a 0. Alternative deadlines will be within one week of the original deadline. Exceptions to the 1 week policy are at the instructor's discretion. In general, I will be much more sympathetic and accommodating if you communicate in advance. 
-
-It is your responsibility to ensure that the instructor has received the assignment by the established due date and to ensure that the assignment submitted is the complete and correct version. Unless otherwise specified, all work must be submitted through Canvas.
-
-Unless you have communicated with me in advance, there will be no make-up quizzes or tests.
-
-## Accommodations Policy
-
-If you are (or become) disabled (in any capacity, permanently, or temporarily), and need accommodations in class, reading, or any other work in this course, please contact me to discuss your specific needs as soon as possible. Under the Americans with Disabilities Act, you are legally entitled to reasonable accommodations for disabilities. I will do everything in my capacity as your professor to ensure that you receive those accommodations. 
-
-Students who need reasonable accommodations for disabilities also should contact the Learning Assistance Center \& Disability Services [lac.wfu.edu](https://lac.wfu.edu/). These accommodations are not retroactive. Therefore, I strongly encourage you to use those accommodations. You rightfully deserve them, both in the legal, moral, and ethical sense. 
-
-
-## Academic Dishonesty Policy
-
-All work submitted for credit must be the student's own and is subject to the provisions of the Wake Forest Honor Code. Details can be found at the Student Conduct web site: [studentconduct. wfu.edu/honor-system-wfu](https://studentconduct.wfu.edu/honor-system-wfu/). It is your responsibility to avoid even the appearance of cheating.
-
-Unless I have explicitly stated otherwise, every assessment is closed to outside resources (including, but not limited to books, notes, phones, people). Ignorance of the honor code and assignment instructions is not an acceptable explanation and/or defense.
-
-It is *ALWAYS* academic dishonesty to share test questions, post course materials on any third-party websites, or to work together on tests. And frankly, it is really obvious in Canvas when you work together. I literally wrote a R program that checks for working together on tests. 
-
-Violations of this policy result in a zero for the assignment, my perpetual disappointment, and possible additional penalties, including, but not limited to:
-
-- a referral to honor council, 
-- failing the class, 
-- forfeiting all extra credit, and
-- being excluding from the course curve, drop policy, late policy, and extra credit.
-
-
-## Communication
-
-I ask that you provide me with the respect that I should spend my time engaging with students in meaningful ways, not pointing you to material you can find on your own. Be sure to check the syllabus, course website, course content, and classmates before emailing me. This is important training for life after college – when you have a question, the first thing you do should not be to email your boss. I do not want to discourage you from engaging with me. I love teaching because I love interacting with students.  However, I do not want to engage with you in ways that nurture your inability to critically think and prevents me from engaging with other students.
-<!---
-If you are ever uncertain about the purpose of an assignment, the learning objectives of an activity, or how an assessment will be graded, please reach out. My goal is to be  organized, thoughtful, and transparent. All my assignments were thoughtfully chosen. There is no busy work or unnecessary required course material. If I have done a poor job explaining the motivation for any aspect of my course, please let me know so I can be more clear. 
-
--->
-
-### Minimums
-
-You are expected to read every LMS announcement, message, and email; as well as view the media embedded within those communications. Students are expected to check e-mail on a frequent and regular basis in order to stay current with University-related communications, recognizing that certain communications may be time-critical. At minimum, you should be checking your communications within 24 hours. Ignorance of a class communication is not grounds for an excused absence or extension. 
-
-
-### Self Advocacy
-
-If you are struggling in this class, please talk to me. Do not assume that I know what is going on in your life. Talk to me and tell me what you need.
-
-### Grading Questions
-
-Please send any questions about grades in writing via email within *two* weeks after the assignment is returned. If I erred in scoring or in calculating the grade, I will happily update the record. Otherwise, I will be most receptive toward questions framed in terms of your learning (rather than simply your performance), as research has shown that focusing overly on extrinsic rewards (like grades) is likely to lead to all sorts of outcomes that I don't wish for you (lower interest in the course material, lower learning, lower enjoyment).
-
-
-## Instructor Availability
-
-I am readily accessible during business hours (9:00AM-5:30PM; Monday-Friday) via email/ LMS/ git/ zoom/ carrier pigeon. Outside those hours, I do not typically respond to messages, in order to devote time to my family, rest, and living my life. Messages received during these times will receive attention once I am back online. Otherwise you can expect to receive a response to your message within 12 to 24 hours, often much sooner. If you do not hear back after 36 hours, please follow-up with me. 
-
-I have given out my cell-phone number, in the case of *true* emergencies. Please be mindful that poor planning on your part does not constitute an emergency for me. 
-
-### Is it an true emergency?
-
-How do you know if it is a true emergency? 
-
-* Ask yourself, would a reasonable person consider this situation an emergency? 
-* How would the situation change if you waited a until morning?
-* Could this situation have been prevented by starting earlier?
-* Would Professor Mason really want to know about this situation *right* now? 
-* If you were in Professor Mason's shoes, would you consider this an emergency?
-
-
-
-# Public Health in the age of COVID-19
-
-
-We share responsibility for the health and safety of each other in a learning space. Maintaining a consistent six feet of distance; wearing face coverings that cover our mouths and noses; limiting our gathering sizes; and isolating or quarantining when ill or exposed to someone with the virus are Wake Forest University directives and policies we all must follow. Students are encouraged to visit [Our Way Forward](https://ourwayforward.wfu.edu/) to stay informed about the latest guidance and review the [Public Health Emergency Addendum to the Student Code of Conduct](https://studentconduct.wfu.edu/undergraduate-student-handbook/public-health-emergency-addendum/).  
-
-Specifically, in this room, we will mitigate the risks of virus transfer and take care of our community by abiding by the following safety directives: 
-- maintain six feet of distance at all times when feasible. 
-- wear a face covering for the entirety of class indoors and out (unless there is exemption via an approved safety plan for specific coursework). This face covering should cover your mouth and your nose, and adhere to our [University face covering policy](https://drive.google.com/file/d/1Tqo-by1sjmc-kWUTwAqeNdaHq8OBsU9B/view) (no face shields without masks; no neck gaiters; no bandanas; and no masks, including N95, with a one-way valve). 
-- stay out of class when sick or after being exposed to someone who is sick.
-
-In this class, any student who does not follow these requirements will be asked once to follow the safety directives. 
-
-I will offer you a mask or ask you to find one. 
-
-If you do not comply, I will ask you to leave the class for that day. 
-
-[I will also refer the matter to the COVID-19 compliance reporting system](https://cm.maxient.com/reportingform.php?WakeForestUniv&layout_id=40). Possible disciplinary actions may follow as described in the Wake Forest University Undergraduate Student Conduct Code Public Health Emergency Addendum.
-
-# Classroom Climate
-
-I aim to create a learning environment for my students that supports a diversity of thoughts, perspectives, and experiences, and honors your identities (including race, ethnicity, sex, gender, gender-identify, class, sexual orientation, religion, ability, political affiliation, etc.) To help accomplish this:
-
-- If you have a name and/or set of pronouns that differ from those that appear in your official records, please let me know!
-
-- If you feel like your performance in the class is being impacted by your experiences outside of class, please don't hesitate to come and talk with me. I want to be a resource for you. 
-
-- I (like many people) am still in the process of learning about diverse perspectives and identities. If something was said in class (by anyone) that made you feel uncomfortable, please talk to me about it. 
-
-- If you reached here in the syllabus, e-mail me a picture of a cat. If you do it before the end of the first week, you get a small bonus.
-
-## Department Statement
-The Psychology Department values, respects, and celebrates the experiences, beliefs, and practices stemming from varied cultures and circumstances (emphasizing, but not limited to, those from historically underrepresented groups),and our deep commitment to diversity, equity, and inclusion plays out through coursework, programming by majors, and research. 
-
-<!---
-
-# To do well in the course
-
-#```{r child = 'doingwell_irl.Rmd'}
-#```
-
--->
-
-# Tentative Class Schedule
-
-This syllabus is intended to give the student guidance in what may be covered during the semester and will be followed as closely as possible. Dates for tests and assignments won't change, barring extraordinary events. However, I reserve the right to modify, supplement and make changes as the course needs arise. I try to avoid changes to the syllabus. Nevertheless, if changes occur, I will only make changes that are less burdensome and more advantageous to the students. (If I make a change that increases your burden, please talk to me.)
-
-
-
-
-
-## Week 01, 01/25 - 01/29 : Foundations and Nature of Testing
-<!---
-- Tuesday: Chapter 1
-- Thursday: Chapter 2
--->
-## Week 02, 02/01 - 02/05 : History of Testing
-<!---
-- Tuesday: Chapter 18
-- Thursday: Chapter 18
--->
-##  Week 03, 02/08 - 02/12 : Ethical and Social Considerations in Testing 
-<!---
-- Tuesday: Chapter 3 "Last day to add full-term class"
-- Thursday: Chapter 3
--->
-##  Week 04, 02/15 - 02/19 : Norms and the Meaning of Test Scores
-<!---
-- Tuesday: Chapter 4
-- Thursday: Chapter 4
--->
-##  Week 05, 02/22 - 02/26 : Classical Test Theory
-<!---
-- Tuesday: Chapter 5 + 6
-- Thursday: Chapter 5 + 6 
--->
-##  Week 06, 03/01 - 03/05 : Reliability
-<!---
-- Tuesday: Chapter 6  "Last day to drop full-term class"
-- Thursday: Chapter 9 
--->
-##  Week 07, 03/08 - 03/12 : Catch Up Week 
-<!---
-- Tuesday: Chapter 7 (Assignment 1 Due)
-- Thursday: Chapter 7
--->
-##  Week 08, 03/15 - 03/19 : Validity
-<!---
-- Tuesday: Review 
-- Thursday: Exam 1
--->
-##  Week 09, 03/22 - 03/26 : Item Analysis
-<!---
-- Tuesday: No class
-- Thursday: No class 
--->
-##  Week 10, 03/29 - 04/02 : Factor Analysis
-<!---
-- Tuesday: Selected readings
-- Thursday: Chapter 10
--->
-##  Week 11, 04/05 - 04/09 : Item Response Theory
-<!---
-- Monday: Last day to drop with a grade of "W"
-- Tuesday: Chapter 11
-- Thursday: Chapter 12
--->
-##  Week 12, 04/12 - 04/16 : Practical Testing Things
-<!---
-- Tuesday: Chapter 13
-- Thursday: Chapter 13 
--->
-## Week 13, 04/19 - 04/23 : Ability Testing
-<!---
-- Tuesday: Chapter 14
-- Thursday: Chapter 14 (Assignment 2 Due)
--->
-##  Week 14, 04/26 - 04/30 : Personality Testing
-<!---
-- Tuesday: Chapter 15
-- Thursday: Chapter 16
--->
-##  Week 15, 05/03 - 05/07 : Review
-<!---
-- Tuesday: Supplemental reading
-- Thursday: Supplemental reading
-
-##  Week 16, 05/10 - 05/14 : Other Assessment Techniques 
-
-- Tuesday: Review
-
-## Final Exam 
-
-- TBD
--->
-# References
-
-<!--chapter:end:syllabus_testing.Rmd-->
 

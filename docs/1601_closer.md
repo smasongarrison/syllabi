@@ -426,7 +426,6 @@ This course was designed to be a starting point. You have learned so much in a s
 
 
 
-
 Before you go -- I have some important practical things to walk you thru. Most of these are Wake Forest Specific... such as making sure to connect your github account to a non-WFU email. As well as a well other things...
 
 ## Important Wake Forest Stuff
@@ -441,8 +440,4 @@ Github has some incredibly useful guides to do this...
  (https://docs.github.com/en/github/setting-up-and-managing-your-github-user-account/setting-a-backup-email-address)
 
 Please do not procrastinate this! It is really important to do this before you lose access!!!!
-
-
-
-
 
