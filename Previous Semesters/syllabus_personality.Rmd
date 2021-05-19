@@ -87,7 +87,7 @@ library(RefManageR)
 
 
 
-bib <- ReadBib("library.bib")
+bib <- ReadBib("book.bib")
 bib <- c(bib, as.BibEntry(citation()))
 bib[length(bib)]$key = "Rcite"
 
