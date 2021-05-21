@@ -2,7 +2,7 @@
 
 
 
-# Welcome to my Syllabi! {-}
+# General information {-}
 
 
 ```{r include = FALSE}
@@ -12,7 +12,7 @@ source("common.R")
 ```{r links, child="links.md"}
 ```
 
-This section includes general syllabus information. The next sections include information specific to your class.
+Welcome. This section includes general syllabus information. The next sections include information specific to your class.
 
 Remember: This course is for you, not for me.
 
