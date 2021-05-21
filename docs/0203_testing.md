@@ -1,82 +1,6 @@
 # 362: Psychological Testing {-}
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(cache=FALSE, dev='pdf')
-mon <- as.Date("2021-01-25")
-cache=F
-number_of_classes=29
-number_of_weeks=15
-advdate <- function(obj, adv, topic = NULL,assignment=NULL) {
- tmon <- obj + 7*(adv-1)
- ttue <- obj + 1 + 7*(adv-1)
- twed <- obj + 2 + 7*(adv-1)
- tthu <- obj + 3 + 7*(adv-1)
- tfri <- obj + 4 + 7*(adv-1)
- tmon <- format(tmon, format="%m/%d")
- ttue <- format(ttue, format="%m/%d")
- twed <- format(twed, format="%m/%d")
- tthu <- format(tthu, format="%m/%d")
- tfri <- format(tfri, format="%m/%d")
- zadv <- sprintf("%02d", adv)
 
- if (is.null(topic)&is.null(assignment)){
- tmp <- paste("Week ",zadv,sep='',", ", tmon," - ",tfri)
- } else if(!is.null(assignment)){if(assignment %in% c("Friday","friday","f","fri")){
-  tmp <- paste0(tfri)
- } else if(assignment %in% c("Tuesday","tues","t","Tue")){
-  tmp <- paste0(ttue)
- }else if(assignment %in% c("wednesday","Wednesday","w","wed","W")){
-  tmp <- paste0(twed)
- } else if(assignment %in% c("thursday","Thursday","thurs","r","R")){
-  tmp <- paste0(tthu)
- } else if(assignment %in% c("monday","Monday","m")){
-  tmp <- paste0(tmon)
- }
- }
- else{ 
-   tmp <- paste("Week ",zadv,sep='',", ", tmon," - ",tfri, " : ", topic[adv])}
- return(tmp)
-}
-
-####
-#devtools::install_github("crsh/citr")
-library(tidyverse)
-library(citr)
-library(RefManageR)
-
-
-
-bib <- ReadBib("book.bib")
-bib <- c(bib, as.BibEntry(citation()))
-bib[length(bib)]$key = "Rcite"
-
-
-topic=c(
-  "Foundations and Nature of Testing", 
-  "History of Testing",
-  "Ethical and Social Considerations in Testing",
-  "Norms and the Meaning of Test Scores",
-  "Classical Test Theory",
-  "Reliability",
-  "Catch Up Week",
-  "Validity",
-  "Item Analysis", 
-  "Factor Analysis",
-  "Item Response Theory",
-  "Practical Testing Things",
-  "Ability Testing",
-  "Personality Testing", 
-  "Review", #Special Topics",
-  "Other Assessment Techniques", 
-  "Modern Development and Applications of Testing", 
-  "Review"
-  )
-  
-  
-
-
-
-```
 
 # Course Description
 
@@ -95,9 +19,8 @@ This course provides an overview of the development and nature of psychological 
 ## Texts
 ### Required
 
-```{r, echo = FALSE, results="asis"} 
-bib[sort(c("anastasi1997"))]
-``` 
+[1] A. Anastasi and A. Urbina. _Psychological testing_. Upper Saddle
+River, New Jersey: Prentice-Hall, 1997. ISBN: 0-02-303020-8.
 
 
 #### How to use the required text:
@@ -108,8 +31,39 @@ The text [@anastasi1997] is intended to supplement the lectures. The lectures do
 # Course Assignments 
 ## Grading Policy
 
-```{r child = './common/content/grading.Rmd'}
-```
+
+
+Typically, an A- is defined as 90% of the highest point total in the class, B- as 80% of that total, C- as 70 and D- as 60%. 
+I may shift these values down to provide a better fit to the actual point distribution. 
+By scaling to a percentage of the highest point total in the class, each student has a much better chance of receiving higher grades than if no re-scaling were done. 
+This curve can only help your grade. 
+
+The full table is provided below:
+
+Table: (\#tab:unnamed-chunk-3)Full Table
+
+|Letter | Cutoff|
+|:------|------:|
+|A      |   0.95|
+|A-     |   0.90|
+|B+     |   0.87|
+|B      |   0.83|
+|B-     |   0.80|
+|C+     |   0.77|
+|C      |   0.73|
+|C-     |   0.70|
+|D+     |   0.67|
+|D      |   0.63|
+|D-     |   0.60|
+
+### Curve Projections
+
+Unsurprisingly, students have many questions about the curve in this class. For tests and other assignments, I try to provide a projected letter grade. 
+This projected letter grade is there to give you a sense of what your score *would* be if I implemented the class curve on this particular assignment. 
+It is a projection. It is not a guarantee. These projected letter grades are not incorporated into your final grade. 
+Trust me, you do not want me to curve by assignment.
+
+
 
 ## Quizzes
 There will be 6 quizzes in this course. These will be approximately every three weeks. The best 5 out of 6 quiz grades will be used to determine your total quiz grade.  You can drop 1 of the quizzes for any reason.
@@ -117,17 +71,17 @@ There will be 6 quizzes in this course. These will be approximately every three 
 
 ### Quiz Dates
 
-- Quiz 1: Friday, `r advdate(mon, 3, assignment="f")`
+- Quiz 1: Friday, 02/12
 
-- Quiz 2: Friday, `r advdate(mon, 6, assignment="f")`
+- Quiz 2: Friday, 03/05
 
-- Quiz 3: Friday, `r advdate(mon, 10, assignment="f")`
+- Quiz 3: Friday, 04/02
 
-- Quiz 4: Friday, `r advdate(mon, 13, assignment="f")`
+- Quiz 4: Friday, 04/23
 
-- Quiz 5: Friday, `r advdate(mon, 15, assignment="f")`
+- Quiz 5: Friday, 05/07
 
-- Quiz 6: During Finals, `r advdate(mon, 16, assignment="f")`
+- Quiz 6: During Finals, 05/14
 
 
 ## Take Home Assignments
@@ -139,11 +93,11 @@ The best two (2) out of three (3) qualitative aspects will be used to determine 
 
 ### Assignment Dates
 
-- Assignment 1: Friday, `r advdate(mon, 7, assignment="f")`: Set 1 and Critique of an online test.
+- Assignment 1: Friday, 03/12: Set 1 and Critique of an online test.
 
-- Assignment 2: Friday, `r advdate(mon, 13, assignment="f")`: Set 2 and Critique of a testing-related popular media article.
+- Assignment 2: Friday, 04/23: Set 2 and Critique of a testing-related popular media article.
 
-- Assignment 3: Friday, `r advdate(mon, 15, assignment="f")`: Set 3 and Critique of a testing-related YouTube video.
+- Assignment 3: Friday, 05/07: Set 3 and Critique of a testing-related YouTube video.
 
 
 
@@ -169,83 +123,83 @@ See Syllabus Website
 
 
 
-## `r advdate(mon, 1, topic)`
+## Week 01, 01/25 - 01/29 : Foundations and Nature of Testing
 <!---
 - Tuesday: Chapter 1
 - Thursday: Chapter 2
 -->
-## `r advdate(mon, 2, topic)`
+## Week 02, 02/01 - 02/05 : History of Testing
 <!---
 - Tuesday: Chapter 18
 - Thursday: Chapter 18
 -->
-##  `r advdate(mon, 3, topic)` 
+##  Week 03, 02/08 - 02/12 : Ethical and Social Considerations in Testing 
 <!---
 - Tuesday: Chapter 3 "Last day to add full-term class"
 - Thursday: Chapter 3
 -->
-##  `r advdate(mon, 4, topic)`
+##  Week 04, 02/15 - 02/19 : Norms and the Meaning of Test Scores
 <!---
 - Tuesday: Chapter 4
 - Thursday: Chapter 4
 -->
-##  `r advdate(mon, 5, topic)`
+##  Week 05, 02/22 - 02/26 : Classical Test Theory
 <!---
 - Tuesday: Chapter 5 + 6
 - Thursday: Chapter 5 + 6 
 -->
-##  `r advdate(mon, 6, topic)`
+##  Week 06, 03/01 - 03/05 : Reliability
 <!---
 - Tuesday: Chapter 6  "Last day to drop full-term class"
 - Thursday: Chapter 9 
 -->
-##  `r advdate(mon, 7, topic)` 
+##  Week 07, 03/08 - 03/12 : Catch Up Week 
 <!---
 - Tuesday: Chapter 7 (Assignment 1 Due)
 - Thursday: Chapter 7
 -->
-##  `r advdate(mon, 8, topic)`
+##  Week 08, 03/15 - 03/19 : Validity
 <!---
 - Tuesday: Review 
 - Thursday: Exam 1
 -->
-##  `r advdate(mon, 9, topic)`
+##  Week 09, 03/22 - 03/26 : Item Analysis
 <!---
 - Tuesday: No class
 - Thursday: No class 
 -->
-##  `r advdate(mon, 10, topic)`
+##  Week 10, 03/29 - 04/02 : Factor Analysis
 <!---
 - Tuesday: Selected readings
 - Thursday: Chapter 10
 -->
-##  `r advdate(mon, 11, topic)`
+##  Week 11, 04/05 - 04/09 : Item Response Theory
 <!---
 - Monday: Last day to drop with a grade of "W"
 - Tuesday: Chapter 11
 - Thursday: Chapter 12
 -->
-##  `r advdate(mon, 12, topic)`
+##  Week 12, 04/12 - 04/16 : Practical Testing Things
 <!---
 - Tuesday: Chapter 13
 - Thursday: Chapter 13 
 -->
-## `r advdate(mon, 13, topic)`
+## Week 13, 04/19 - 04/23 : Ability Testing
 <!---
 - Tuesday: Chapter 14
 - Thursday: Chapter 14 (Assignment 2 Due)
 -->
-##  `r advdate(mon, 14, topic)`
+##  Week 14, 04/26 - 04/30 : Personality Testing
 <!---
 - Tuesday: Chapter 15
 - Thursday: Chapter 16
 -->
-##  `r advdate(mon, 15, topic)`
+##  Week 15, 05/03 - 05/07 : Review
 <!---
 - Tuesday: Supplemental reading
 - Thursday: Supplemental reading
 
-##  `r advdate(mon, 16, topic)` 
+##  Week 16, 05/10 - 05/14 : Other Assessment Techniques 
 
 - Tuesday: Review
 
