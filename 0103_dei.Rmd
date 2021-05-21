@@ -23,6 +23,11 @@ As you journey thru your career, you may find that you need different kinds of a
   - topic, or
   - accommodation.
 
+## Resources
+
+* [Frequently Asked Questions from WFU LAC](https://lac.wfu.edu/frequently-asked-questions-about-lac-ds/)
+* [JAN](https://askjan.org/)
+
 # Classroom Climate
 
 I aim to create a learning environment for my students that supports a diversity of thoughts, perspectives, and experiences, and honors your identities (including race, ethnicity, sex, gender, gender-identity, class, sexual orientation, religion, ability, political affiliation, etc.) To help accomplish this:
