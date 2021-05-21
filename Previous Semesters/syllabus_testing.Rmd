@@ -200,10 +200,7 @@ There will be multiple engagement activities in this course. These activities wi
 
 # Course Policies
 
-```{r child = './common/content/policies.Rmd'}
-```
-
-
+See Syllabus Website
 
 
 ## `r advdate(mon, 1, topic)`

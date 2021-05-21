@@ -196,9 +196,8 @@ your attendance and participation in engagement activities. Generally, ask quest
 
 # Course Policies
 
-```{r child = './common/content/policies.Rmd'}
-```
 
+See Syllabus Website
 <!---
 Schedule
 -->

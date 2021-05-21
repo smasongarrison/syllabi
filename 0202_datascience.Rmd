@@ -167,12 +167,6 @@ This experiential course requires active engagement. There will be few lectures 
 ```
 
 
-
-# Course Policies
-
-```{r child = './common/content/policies.Rmd'}
-```
-
 <!---
 Schedule
 -->

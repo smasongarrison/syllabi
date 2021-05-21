@@ -21,3 +21,16 @@ common/content/policies.html
 syllabus_*.out
 vignettes/*.html
 vignettes/*.pdf
+0000a_front.md
+0001_policies.md
+0002_engagement.md
+0003_ada.md
+0004_dishonesty.md
+0005_communcation.md
+0006_covid.md
+0007_dei.md
+0100_syllabus.md
+0200_specificcourses.md
+0201_personality.md
+0202_datascience.md
+index.md

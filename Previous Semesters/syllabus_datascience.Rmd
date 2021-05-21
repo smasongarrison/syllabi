@@ -236,9 +236,8 @@ Because this class is blended, there will be multiple online engagement activiti
 
 # Course Policies
 
-```{r child = './common/content/policies.Rmd'}
-```
 
+See Syllabus Website
 <!---
 Schedule
 -->
