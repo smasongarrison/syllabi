@@ -12,116 +12,19 @@ library(DT)
 ```{r links, child="links.md"}
 ```
 
-# Class Engagement, Presence, and Participation.
+# Policy Overview
 
-In previous semesters, I have had a deliberately hardline attendance policy. In the light of the public health crisis, I have done away with the this policy, as it doesn't align with my general philosophy of treating students as junior colleagues. The student who misses a class meeting is responsible for any assignments and/or announcements made.
-
-Class engagement points are given to encourage your active engagement with the material. Specific instructions for engagement, can be found on the class website In general, you will be rewarded with a perfect score as long as you engage meaningfully and intentionally with the material and your peers.
-
-
-## Life Happens (Extensions and Absences)
-
-As a reasonable and empathetic human, I recognize that life happens. There will be times when your outside life conflicts with scheduled class events. These life events can be any of the obvious things (sports, religious holidays, illness, interviews, etc), but they can also be the less obvious, like spending the entire night looking for your lost pet. My general approach is to work with you. You just need to let me know *ahead* of time. These late policies value discussion and communication over deductions and punishment. It is difficult for me as an instructor to know your situation and reason for lateness (e.g. are you sick? did you lose wifi? struggling with mental health? or just forgot?). Without communication, I will assume that students are choosing not to submit work and do not plan on submitting work. An email will help me better understand your needs and focus on coursework. I'm more than happy to give extensions and accommodations, so don't be afraid to email me. You don't need to disclose personal details (your privacy is important to me), so a heads up or request for assistance is enough.
-
-
-### Excused absences
-
-Except in the case of *true* emergencies, a possible excused absence should be discussed with me as far in advance as possible and *must* occur beforehand. You should not assume that an excused absence will automatically be granted -- but you may assume that I am a reasonable, empathetic person. This discussion should occur via email. If you also discuss your situation verbally, please send a summary of the discussion via email to me. An unexcused absence will result in a zero for any graded work that should have been performed for or during the missed class. 
-
-
-### Late Work
-
-Be sure to pay close attention to deadlines. If an assignment is not submitted by the deadline (i.e., is late), the student must email the instructor and provide a new deadline, ask for an alternative, or explain concerns *within 36 hours* of the missed deadline. Ideally, you will have communicated with me in advance of the deadline, but on occasion life happens. As long as you've communicated *within 36 hours*, I will do my best to work with you to come up with a new deadline or modification, so that you can receive full credit. This late policy does not apply to exams, tests, or quizzes.
-
-If contact is not made *within 36 hours* of the missed deadline, the missing assignment will receive a 0. Alternative deadlines will be within one week of the original deadline. Exceptions to the 1 week policy are at the instructor's discretion. In general, I will be much more sympathetic and accommodating if you communicate in advance. 
-
-It is your responsibility to ensure that the instructor has received the assignment by the established due date and to ensure that the assignment submitted is the complete and correct version. Unless otherwise specified, all work must be submitted through Canvas.
-
-Unless you have communicated with me in advance, there will be no make-up quizzes or tests.
-
-# Accommodations Policy
-
-If you are (or become) disabled (in any capacity, permanently, or temporarily), and need accommodations in class, reading, or any other work in this course, please contact me to discuss your specific needs as soon as possible. Under the Americans with Disabilities Act, you are legally entitled to reasonable accommodations for disabilities. I will do everything in my capacity as your professor to ensure that you receive those accommodations. 
-
-Students who need reasonable accommodations for disabilities also should contact the Learning Assistance Center \& Disability Services [lac.wfu.edu](https://lac.wfu.edu/). These accommodations are not retroactive. Therefore, I strongly encourage you to use those accommodations. You rightfully deserve them, both in the legal, moral, and ethical sense. 
-
-
-# Academic Dishonesty Policy
-
-All work submitted for credit must be the student's own and is subject to the provisions of the Wake Forest Honor Code. Details can be found at the Student Conduct web site: [studentconduct. wfu.edu/honor-system-wfu](https://studentconduct.wfu.edu/honor-system-wfu/). It is your responsibility to avoid even the appearance of cheating.
-
-Unless I have explicitly stated otherwise, every assessment is closed to outside resources (including, but not limited to books, notes, phones, people, Chegg, the internet). Ignorance of the honor code and assignment instructions is not an acceptable explanation and/or defense. Everything must be in your own words, regardless of any open-resource policy. Open resources does not mean that you can copy and paste material from the outside sources. Assessments are not scavenger hunts. Assessments are a means for you to demonstrate your own understanding of the material. They are an opportunity to earn points.
-
-It is *ALWAYS* academic dishonesty to share test questions, post course materials on any third-party websites, misrepresent others work as your own, or work together on tests or quizzes. And frankly, it is really obvious in Canvas when you work together. I literally wrote a R program that checks for working together on tests. 
-
-Violations of this policy result in a zero for the assignment, my perpetual disappointment, and possible additional penalties, including, but not limited to:
-
-- a referral to honor council, 
-- failing the class,
-- a forensic regrading of all previous assessments,
-- forfeiting all extra credit, and
-- being excluded from the course curve, drop policy, late policy, and extra credit.
-
-
-# Communication
-
-I ask that you provide me with the respect that I should spend my time engaging with students in meaningful ways, not pointing you to material you can find on your own. Be sure to check the syllabus, course website, course content, and classmates before emailing me. This is important training for life after college – when you have a question, the first thing you do should not be to email your boss. I do not want to discourage you from engaging with me. I love teaching because I love interacting with students.  However, I do not want to engage with you in ways that nurture your inability to critically think and prevents me from engaging with other students.
-
-If you are ever uncertain about the purpose of an assignment, the learning objectives of an activity, or how an assessment will be graded, please reach out. My goal is to be  organized, thoughtful, and transparent. All my assignments were thoughtfully chosen. There is no busy work or unnecessary required course material. If I have done a poor job explaining the motivation for any aspect of my course, please let me know so I can be more clear. 
-
-
-## Minimums
-
-You are expected to read every LMS announcement, message, and email; as well as view the media embedded within those communications. Students are expected to check e-mail on a frequent and regular basis in order to stay current with University-related communications, recognizing that certain communications may be time-critical. At minimum, you should be checking your communications within 24 hours. Ignorance of a class communication is not grounds for an excused absence or extension. 
-
-
-### Self Advocacy
-
-If you are struggling in this class, please talk to me. Do not assume that I know what is going on in your life. Talk to me and tell me what you need.
-
-### Grading Questions
-
-Please send any questions about grades in writing via email within *two* weeks after the assignment is returned. If I erred in scoring or in calculating the grade, I will happily update the record. Otherwise, I will be most receptive toward questions framed in terms of your learning (rather than simply your performance), as research has shown that focusing overly on extrinsic rewards (like grades) is likely to lead to all sorts of outcomes that I don't wish for you (lower interest in the course material, lower learning, lower enjoyment).
-
-
-## Instructor Availability
-
-I am readily accessible during business hours (9:00AM-5:30PM; Monday-Friday) via email/ LMS/ git/ zoom/ carrier pigeon. Outside those hours, I do not typically respond to messages, in order to devote time to my family, rest, and living my life. Messages received during these times will receive attention once I am back online. Otherwise you can expect to receive a response to your message within 12 to 24 hours, often much sooner. If you do not hear back after 36 hours, please follow-up with me. 
-
-I have given out my cell-phone number, in the case of *true* emergencies. Please be mindful that poor planning on your part does not constitute an emergency for me. 
-
-### Is it an true emergency?
-
-How do you know if it is a true emergency? 
-
-* Ask yourself, would a reasonable person consider this situation an emergency? 
-* How would the situation change if you waited a until morning?
-* Could this situation have been prevented by starting earlier?
-* Would Professor Mason really want to know about this situation *right* now? 
-* If you were in Professor Mason's shoes, would you consider this an emergency?
+In this section, I provide specific language for all my course policies. 
 
 
 
-# Public Health in the age of COVID-19
 
-```{r child = './covid.Rmd'}
-```
 
-# Classroom Climate
 
-I aim to create a learning environment for my students that supports a diversity of thoughts, perspectives, and experiences, and honors your identities (including race, ethnicity, sex, gender, gender-identify, class, sexual orientation, religion, ability, political affiliation, etc.) To help accomplish this:
 
-- If you have a name and/or set of pronouns that differ from those that appear in your official records, please let me know!
 
-- If you feel like your performance in the class is being impacted by your experiences outside of class, please don't hesitate to come and talk with me. I want to be a resource for you. 
 
-- I (like many people) am still in the process of learning about diverse perspectives and identities. If something was said in class (by anyone) that made you feel uncomfortable, please talk to me about it. 
 
-- If you reached here in the syllabus, e-mail me a picture of a cat. If you do it before the end of the first week, you get a small bonus.
-
-## Department Statement
-
-The Psychology Department values, respects, and celebrates the experiences, beliefs, and practices stemming from varied cultures and circumstances (emphasizing, but not limited to, those from historically underrepresented groups),and our deep commitment to diversity, equity, and inclusion plays out through coursework, programming by majors, and research. 
 
 <!---
 

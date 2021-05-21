@@ -1,0 +1,37 @@
+
+
+```{r include = FALSE}
+source("common.R")
+#htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+library(tidyverse)
+library(devtools)
+library(DT)
+
+```
+
+```{r links, child="links.md"}
+```
+
+# Accommodations Policy
+
+If you are (or become) disabled (in any capacity, permanently, or temporarily), and need accommodations in class, reading, or any other work in this course, please contact me to discuss your specific needs as soon as possible. Under the Americans with Disabilities Act, you are legally entitled to reasonable accommodations for disabilities. I will do everything in my capacity as your professor to ensure that you receive those accommodations. 
+
+Students who need reasonable accommodations for disabilities also should contact the Learning Assistance Center \& Disability Services [lac.wfu.edu](https://lac.wfu.edu/). These accommodations are not retroactive. Therefore, I strongly encourage you to use those accommodations. 
+
+Do not feel guilty about using them. You rightfully deserve them, in the legal, moral, and ethical sense. These accommodations are there so that you can be your best possible self. 
+
+
+## Self-Advocacy
+
+At Wake Forest and at many other places, the expectation is that you will self-advocate for yourselves and know exactly what you need. Is that a good expectation? Is that a good model? I have thoughts... regardless, that is the current state of the world. Accordingly, you will have to advocate for what you need. 
+
+As a student, you may not know what accommodations work best for you. Or you may find that your current accommodations don't work like they used to. 
+
+As you journey thru your career, you may find that you need different kinds of accommodations. Or at least that has been my experience... There are numerous resources for ideas. My personal favorite is [JAN](https://askjan.org/). Technically, JAN (Job Accommodation Network) is focused on employment and jobs. However, I still have found this to be a wonderful resource for ideas. You can [search for accommodation ideas](https://askjan.org/soar.cfm) by [specific](https://askjan.org/a-to-z.cfm):
+  - disability,
+  - limitation,
+  - task,
+  - topic, or
+  - accommodation.
+
+
