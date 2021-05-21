@@ -1,6 +1,8 @@
-# Academic Dishonesty Policy
+# Academic Honesty Policy
 
-All work submitted for credit must be the student's own and is subject to the provisions of the Wake Forest Honor Code. Details can be found at the Student Conduct web site: [studentconduct. wfu.edu/honor-system-wfu](https://studentconduct.wfu.edu/honor-system-wfu/). It is your responsibility to avoid even the appearance of cheating.
+In this course, you will be held to the standards of the Wake Forest Honor Code, a code that you pledged to honor when you signed your application for admission to the institution. If you are unfamiliar with the details of this code and how it is administered, you should consult the [Honor System Handbook](https://studentconduct.wfu.edu/honor-system-wfu/). This handbook outlines the University’s expectations for the integrity of your academic work, the procedures for resolving alleged violations of those expectations, and the rights and responsibilities of students and faculty members throughout the process.
+
+All submitted work must be your own. It is your responsibility to avoid even the appearance of cheating.
 
 Unless I have explicitly stated otherwise, every assessment is closed to outside resources (including, but not limited to books, notes, phones, people, Chegg, the internet). Ignorance of the honor code and assignment instructions is not an acceptable explanation and/or defense. 
 
@@ -32,8 +34,3 @@ It is *ALWAYS* academic dishonesty to post course materials on any third-party w
 It is *ALWAYS* academic dishonesty to misrepresent others work as your own.  
 
 It is *ALWAYS* academic dishonesty to work together on tests or quizzes. (And frankly, it is really obvious in Canvas when you work together. I literally wrote a R program that checks for working together on tests. )
-
-
-
-## What is Plagiarism?
-
