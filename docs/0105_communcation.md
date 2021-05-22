@@ -34,3 +34,21 @@ How do you know if it is a true emergency?
 * Could this situation have been prevented by starting earlier?
 * Would Professor Mason really want to know about this situation *right* now? 
 * If you were in Professor Mason's shoes, would you consider this an emergency?
+
+## Recordings
+
+### Recording of Class Sessions. 
+
+All or some in-person and synchronous classes may be recorded.  Student images and voices may be captured in these recordings.  Recordings will be available for viewing only by students enrolled in the class via Canvas or an alternative platform. The recordings are not available for download. No other recording, including by students, is permitted.
+
+### Recording Tails in our Synchronous Classes. 
+
+Synchronous class recordings may include events that happen before class officially begins or after it officially ends. Students should take care to not discuss any confidential matters during these periods of time.
+
+### Access to Recordings. 
+
+Students may access the class recordings made available to them solely for the purpose of participating in the course. The recordings may not be used by any person other than a student enrolled in the course or for any purpose other than to participate in the course. Students are prohibited from downloading or distributing any portion of the recordings for any purpose. Students should understand that technical problems or human error may prevent successful recording.
+
+### Copyright Notice. 
+
+Students are advised that Wake Forest University faculty members hold the copyright in their course materials. The University and the faculty have legal rights in class recordings.
