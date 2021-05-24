@@ -21,7 +21,6 @@ bib <- c(bib, as.BibEntry(citation()))
 bib[length(bib)]$key = "Rcite"
 
 
-
 topic_vjoe=c(
   "Introduction and What is Data Science", 
   "Graphical Data Analysis",
@@ -39,11 +38,6 @@ topic_vjoe=c(
   "Special Topics",
   "Special Topics" 
   )
-
-
-
-
-
 
 
 
@@ -92,32 +86,22 @@ Wickham and Grolemund's R for Data Science text (http://r4ds.had.co.nz/)
 
 ## Course Assignments
 
-<!---
-You will be formally evaluated in five different ways.
+You will be formally evaluated in three different ways.
 
 
-
-## Individual data Project
-
-You will turn in your individual data collection/data analysis projects on Wednesday, September 18.  These projects are described in a separate handout. This project will be worth 10% of your grade.
-
-## Quiz
-There will be two 30-minute quizzes over lecture material and readings (on September 25 and October 30).  These will be objective style quizzes.  Make-ups will only be given under extraordinary circumstances and by prior arrangement. Each quiz = 10% of your grade.
-
-
-## Presentations
-You will give two asynchronous presentations.  Your team will give a 15-20 minute presentation of its data analysis problem.  In addition, you will give a 15- minute individual presentation.  These presentations are chance to practice a formal presentation in a relatively pressure-free setting).
--->
 
 ### Presentation
+
 You will give one asynchronous presentation. approximately 10- minutes.  This presentation is chance to practice a formal presentation in a relatively pressure-free setting).
 
 
-### Lab
+### Labs
+
 
 
 ### Portfolio
-The major semester projects (described on the separate hand-out) is a set of EDA Projects, which you will summarize in an EDA Portfolio to be handed in on the last day of class.
+
+The major semester projects (described on the data science website) is a set of EDA Projects, which you will summarize in an EDA Portfolio to be handed in on the last day of class.
 
 
 

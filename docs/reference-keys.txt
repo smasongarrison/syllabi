@@ -1,7 +1,7 @@
 tab:unnamed-chunk-3
 materials
-hardware
 required-texts
+hardware
 software
 r-and-rstudio
 git-and-github
@@ -15,7 +15,7 @@ accommodations-policy
 self-advocacy
 resources
 classroom-climate
-department-statement
+psychology-department-statement-on-diversity-equity-and-inclusion
 academic-honesty-policy
 violations
 things-that-i-thought-didnt-need-to-be-said-but-apparently-did-need-to-be-said.
@@ -64,7 +64,7 @@ broad-goals-for-the-course-1
 required-materials-1
 course-assignments-1
 presentation
-lab
+labs
 portfolio
 engagement
 grading-policy-1
@@ -150,3 +150,4 @@ how-do-i-accurately-check-my-grades-in-canvas
 how-do-i-contact-the-canvas-help-desk
 still-have-questions
 important-wake-forest-stuff
+important-information-for-college-and-this-course

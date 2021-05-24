@@ -24,15 +24,17 @@ You can find the [full syllabus](https://github.com/smasongarrison/Syllabi/blob/
 
 ## Materials
 
-### Hardware
-
-This class requires that you have a laptop that can run R.
 
 ### Required Texts
 
-The text is intended to supplement the videos, lecture notes, tutorials, activities, and labs. You probably need to consume all of them in order to be successful in this class.
+For all my classes, the textbook is intended to supplement the course.The lectures don't follow the order of chapters in the text and the text covers some material that won't be covered in the lectures, i.e., not all the information in each chapter is perfectly pertinent to the course requirements.
 
-* [R for Data Science text][r4ds]
+It is merely one of many resources you'll consume. You probably need to consume all of the resources I provide in order to be successful in this class. If you'd like to make the most use of your tuition, I strongly encourage you to consume them all. The course-specific resources can be found on the specific course page.
+
+### Hardware
+
+Most of my classes require that you have a computer that can run R.
+
 
 ### Software
 
