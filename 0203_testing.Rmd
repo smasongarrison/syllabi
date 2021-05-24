@@ -117,11 +117,9 @@ I will provide more specific written guidelines at least two weeks before each a
 
 
 
-
 ## Engagement Activities
 
 There will be multiple engagement activities in this course. These activities will allow you engage with the material for each module. Details about the specific activities will be provided on canvas. Students must complete two activities per module.
-
 
 
 ## Grading Weighting
@@ -133,68 +131,67 @@ There will be multiple engagement activities in this course. These activities wi
 
 ## Course Policies
 
-
 See Syllabus Website
 
+## Schedule
 
-
-## `r advdate(mon, 1, topic)`
+###  `r advdate(mon, 1, topic)`
 <!---
 - Tuesday: Chapter 1
 - Thursday: Chapter 2
 -->
-## `r advdate(mon, 2, topic)`
+###  `r advdate(mon, 2, topic)`
 <!---
 - Tuesday: Chapter 18
 - Thursday: Chapter 18
 -->
-##  `r advdate(mon, 3, topic)` 
+###  `r advdate(mon, 3, topic)` 
 <!---
 - Tuesday: Chapter 3 "Last day to add full-term class"
 - Thursday: Chapter 3
 -->
-##  `r advdate(mon, 4, topic)`
+###  `r advdate(mon, 4, topic)`
 <!---
 - Tuesday: Chapter 4
 - Thursday: Chapter 4
 -->
-##  `r advdate(mon, 5, topic)`
+###  `r advdate(mon, 5, topic)`
 <!---
 - Tuesday: Chapter 5 + 6
 - Thursday: Chapter 5 + 6 
 -->
-##  `r advdate(mon, 6, topic)`
+###  `r advdate(mon, 6, topic)`
 <!---
 - Tuesday: Chapter 6  "Last day to drop full-term class"
 - Thursday: Chapter 9 
 -->
-##  `r advdate(mon, 7, topic)` 
+###  `r advdate(mon, 7, topic)` 
 <!---
 - Tuesday: Chapter 7 (Assignment 1 Due)
 - Thursday: Chapter 7
 -->
-##  `r advdate(mon, 8, topic)`
+###  `r advdate(mon, 8, topic)`
 <!---
 - Tuesday: Review 
 - Thursday: Exam 1
 -->
-##  `r advdate(mon, 9, topic)`
+###  `r advdate(mon, 9, topic)`
 <!---
 - Tuesday: No class
 - Thursday: No class 
 -->
-##  `r advdate(mon, 10, topic)`
+###  `r advdate(mon, 10, topic)`
 <!---
 - Tuesday: Selected readings
 - Thursday: Chapter 10
 -->
-##  `r advdate(mon, 11, topic)`
+###  `r advdate(mon, 11, topic)`
 <!---
 - Monday: Last day to drop with a grade of "W"
 - Tuesday: Chapter 11
 - Thursday: Chapter 12
 -->
-##  `r advdate(mon, 12, topic)`
+###  `r advdate(mon, 12, topic)`
 <!---
 - Tuesday: Chapter 13
 - Thursday: Chapter 13 
@@ -204,17 +201,17 @@ See Syllabus Website
 - Tuesday: Chapter 14
 - Thursday: Chapter 14 (Assignment 2 Due)
 -->
-##  `r advdate(mon, 14, topic)`
+###  `r advdate(mon, 14, topic)`
 <!---
 - Tuesday: Chapter 15
 - Thursday: Chapter 16
 -->
-##  `r advdate(mon, 15, topic)`
+###  `r advdate(mon, 15, topic)`
 <!---
 - Tuesday: Supplemental reading
 - Thursday: Supplemental reading
 
-##  `r advdate(mon, 16, topic)` 
+###  `r advdate(mon, 16, topic)` 
 
 - Tuesday: Review
 
@@ -222,4 +219,3 @@ See Syllabus Website
 
 - TBD
 -->
-# References

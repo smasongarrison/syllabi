@@ -1,0 +1,38 @@
+# Canvas Student Guide {-#canvasguide}
+
+The Canvas Student Guide provides information and guidance related to all things Canvas! Below, you will find both the text and video versions of the Student Guide:
+
+[Canvas Student Guide - Table of Contents](https://community.canvaslms.com/docs/DOC-10701)
+
+[Canvas Student Video Guide - Table of Contents](https://community.canvaslms.com/docs/DOC-3891#jive_content_id_Students)
+
+## Getting Organized
+
+### Global Navigation
+
+[How do I use the Global Navigation Menu?](https://community.canvaslms.com/docs/DOC-10603-4212710332)
+[How do I use the Dashboard?](https://community.canvaslms.com/docs/DOC-10587-4212710330)
+[How do I use the To Do list and sidebar in the Dashboard?](https://community.canvaslms.com/docs/DOC-10589-4212717407)
+
+### Profile and User Settings
+
+[How do I edit my profile in my user account? ](https://community.canvaslms.com/docs/DOC-10628-4212710342)
+[How do I add a profile picture in my user] account?(https://community.canvaslms.com/docs/DOC-10599-4212710334)
+
+[How do I set my Canvas notification preferences?](https://community.canvaslms.com/docs/DOC-10624-4212710344)
+    </li>
+</ul>
+<h3><strong>Calendar&nbsp;</strong></h3>
+<p>
+    <iframe src="https://player.vimeo.com/video/78015141?title=0&amp;byline=0&amp;portrait=0" width="640" height="360" allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen"></iframe>
+</p>
+<p>
+    <a href="https://vimeo.com/78015141">221 - Calendar</a> from <a href="https://vimeo.com/canvaslms">Canvas LMS</a> on <a href="https://vimeo.com">Vimeo</a>.
+</p>
+<h3><strong>Files</strong></h3>
+<p>
+    <iframe src="https://player.vimeo.com/video/74772644?title=0&amp;byline=0&amp;portrait=0" width="640" height="360" allowfullscreen="allowfullscreen" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen"></iframe>
+</p>
+<p>
+    <a href="https://vimeo.com/74772644">212 - Files</a> from <a href="https://vimeo.com/canvaslms">Canvas LMS</a> on <a href="https://vimeo.com">Vimeo</a>.
+</p>

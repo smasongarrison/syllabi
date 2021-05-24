@@ -20,14 +20,9 @@ Below you'll find answers to the questions that I get asked the most by students
 
 You can find due dates in the syllabus.
 
-
-
-
 ### Where/what are my grades?
 
-You can find it on canvas, under grades. I will not look this grade for you. You are all hard working and problem-solving students. I believe in you!
-
-
+You can find it on canvas, under grades. I will not look up this grade for you. You are all hard working and problem-solving students. I believe in you!
 
 
 ### Can you calculate my grade for me?
@@ -35,7 +30,7 @@ You can find it on canvas, under grades. I will not look this grade for you. You
 No. I believe in you!
 
 You are capable of calculating a weighted average. You have 100% of the information you need to do so as outlined in the syllabus. You can calculate your grade using a weighted average and the weightings in the syllabus.
-If you really really need help with this, try this website: https://thegradecalculator.com/
+If you really really need help with this, try this website:https://thegradecalculator.com/
 
 
 
@@ -44,7 +39,7 @@ If you really really need help with this, try this website: https://thegradeca
 
 I agree that my curve is a little confusing at first glance.
 But, this curve can only help you. It means I can lower the thresholds for letter grades, but not raise them.
-Your best approach is to pretend that there is no curve. 
+Your best approach is to pretend that there is no curve.
 
 
 
@@ -65,16 +60,15 @@ No.
 
 ### How much time should I spend on one class every week?
 
-The time you spend on a class can vary. No two instructors will format their classes exactly the same. In general, each credit hour corresponds to a minimum of 3 hours of student engagement per week for a traditional 15-week course. This time may be spent on discussions, readings, and lectures, study, and research, and assignments.
+The time you spend on a class can vary. No two instructors will format their classes exactly the same. In general, each credit hour corresponds to a *minimum* of 3 hours of student engagement per week for a traditional 15-week course. This time may be spent on discussions, readings, and lectures, study, and research, and assignments.
 If you find yourself spending a lot more or a lot less than 9 hours per week on this class, please let me know. That probably means that either you're doing too much or too little.
 
 
 
 
 ### How long are the videos?
-You can always check how long the module playlist is by using this website https://ytplaylist-len.herokuapp.com/
-Each module has about 1 week worth of lectures.
-
+You can always check how long the module playlist is by using this website https://ytplaylist-len.herokuapp.com/
+Each module has 1 week worth of lectures.
 
 
 
@@ -92,7 +86,7 @@ Please, understand that there's not much more I can do at this point. What you a
 
 ### Why is this so much more work compared to face-to-face classes?
 
-It may feel like more work, but it actually isn't. This class covers the same content as the face-to-face version. I have made every effort to not add to your workload. When I have added an assignment in one aspect of the course, I have removed something else from the class.  On average, you should except to spend about 9 hours a week on this class.
+It may feel like more work, but it actually isn't. This class covers the same content as the face-to-face version. I have made every effort to not add to your workload. When I have added an assignment in one aspect of the course, I have removed something else from the class.On average, you should except to spend about 9 hours a week on this class.
 
 
 
@@ -112,9 +106,20 @@ If you still have trouble after troubleshooting, post a the problem to the FAQ a
 
 
 ## Canvas
-### How do I use Canvas for Class?
 
-Students will use Canvas to access course content. 
+### I'm having trouble with Canvas -- help!
+
+If you're having trouble with Canvas, You should first search the Canvas Guides and then reach out to canvas support.
+
+### How do I contact the Canvas Help Desk?
+You can search the Canvas Guides or contact the Canvas Support Helpline by clicking the Help icon (circle with a question mark) in the Account menu.
+
+
+
+
+### How do I use Canvas for class?
+
+Students will use Canvas to access course content.
 All work/assignments/projects will be distributed and collected through Canvas.
 
 
@@ -128,7 +133,7 @@ You should navigate to your "Account" by pressing the icon in the top-left corne
 
 ### How do I submit an assignment on Canvas?
 Navigate to your assignment and click this button
-Double check your work that it's complete and saved correctly. 
+Double check your work that it's complete and saved correctly.
 Upload or type your work and click submit assignment.
 
 
@@ -141,7 +146,7 @@ After you click "submit assignment," you will see "confetti" on your screen. A n
 
 
 ### How do I use the Calendar feature in Canvas?
-Your calendar will allow you to see assignments and important dates for all of your classes.  
+Your calendar will allow you to see assignments and important dates for all of your classes.
 Click this icon to access your calendar 
 From here you will see all of your classes on the right side of the page
 You can click to see specific class work, or color code your calendar.
@@ -158,16 +163,27 @@ Click on 'View Feedback' to view all feedback including comments and any add
 
 
 ### How do I accurately check my grades in Canvas?
-To get an accurate view of your final grade, make sure to uncheck the Calculate based only on graded assignments checkbox:
-
- 
-
-
-### How do I contact the Canvas Help Desk?
-You can search the Canvas Guides or contact the Canvas Support Helpline by clicking the Help icon (circle with a question mark) in the Account menu.
+To get an accurate view of your final grade, make sure to uncheck the Calculate based only on graded assignments checkbox:
 
 
 
+
+
+
+### How do I do this specific thing in Canvas?
+
+Although I am not canvas tech support, here are some links...
+
+[How do I use the Global Navigation Menu?](https://community.canvaslms.com/docs/DOC-10603-4212710332)
+[How do I use the Dashboard?](https://community.canvaslms.com/docs/DOC-10587-4212710330)
+[How do I use the To Do list and sidebar in the Dashboard?](https://community.canvaslms.com/docs/DOC-10589-4212717407)
+
+### Profile and User Settings
+
+[How do I edit my profile in my user account? ](https://community.canvaslms.com/docs/DOC-10628-4212710342)
+[How do I add a profile picture in my user] account?(https://community.canvaslms.com/docs/DOC-10599-4212710334)
+
+[How do I set my Canvas notification preferences?](https://community.canvaslms.com/docs/DOC-10624-4212710344)
 
 ### Still have questions? 
 
