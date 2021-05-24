@@ -2,12 +2,12 @@
 
 
 
-# Course Description
+## Course Description
 
 This course provides an overview of the development and nature of psychological tests with applications to school counseling, business, and clinical practice. The purpose of the course is to provide students with an understanding of the principles of measurement as applied to group standardized measures of achievement, special aptitude, intelligence, personality, interests and distress for use in counseling.  Format will consist primarily of lectures along with group participation activities. 
 
 
-## Course Objectives:
+### Course Objectives:
 - To acquaint you with the fundamental vocabulary and logic of psychological measurement and behavioral assessment.
 - To develop your capacity for critical judgment of the adequacy of measures purported to assess behavior in the role of theory development.
 - To acquaint you with some of the relevant literature in personality assessment, psychometric theory and practice, and methods of observing and measuring behavior.
@@ -15,20 +15,20 @@ This course provides an overview of the development and nature of psychological 
 - This course is not designed to make you into an accomplished psychometrist (one who gives tests) nor is it designed to make you a skilled psychometrician (one who constructs tests), nor will it give you "hands on" experience with psychometric computer programs. Rather it is aimed to allow you to understand the fundamental theoretical issues concerning both the psychometrist and the psychometrician.
 - Because modern psychometrics and statistics may be done using open source software such as R, examples will be presented in R.
 
-# Materials
-## Texts
-### Required
+## Materials
+### Texts
+#### Required
 
 [1] A. Anastasi and A. Urbina. _Psychological testing_. Upper Saddle
 River, New Jersey: Prentice-Hall, 1997. ISBN: 0-02-303020-8.
 
 
-#### How to use the required text:
+##### How to use the required text:
 
 The text [@anastasi1997] is intended to supplement the lectures. The lectures don't follow the order of chapters in the text and the text covers some material that won't be covered in the lectures, i.e., not all the information in each chapter is perfectly pertinent to the course requirements.
 
 
-# Course Assignments 
+## Course Assignments 
 ## Grading Policy
 
 
@@ -65,11 +65,11 @@ Trust me, you do not want me to curve by assignment.
 
 
 
-## Quizzes
+### Quizzes
 There will be 6 quizzes in this course. These will be approximately every three weeks. The best 5 out of 6 quiz grades will be used to determine your total quiz grade.  You can drop 1 of the quizzes for any reason.
 
 
-### Quiz Dates
+#### Quiz Dates
 
 - Quiz 1: Friday, 02/12
 
@@ -84,14 +84,14 @@ There will be 6 quizzes in this course. These will be approximately every three 
 - Quiz 6: During Finals, 05/14
 
 
-## Take Home Assignments
-There are three large take-home assignments. Each assignment has a qualitative aspect and a quantitative aspect, and are counted separately in your grade. 
+### Take Home Assignments
+There are four large take-home assignments. Two are qualitative and two are quantitative. 
 
 
-The best two (2) out of three (3) qualitative aspects will be used to determine your qualitative score; similarly, the best two (2) out of three (3) quantitative aspects will be used to determine your quantitative score. I will provide more specific written guidelines at least two weeks before each assignment is due. You have to submit assignment 1 because I give extensive feedback that will help you on later assignments. However, you may skip assignment 2 or 3.
+I will provide more specific written guidelines at least two weeks before each assignment is due. You have to submit assignment 1 because I give extensive feedback that will help you on later assignments. However, you may skip assignment 2 or 3.
 
 
-### Assignment Dates
+#### Assignment Dates
 
 - Assignment 1: Friday, 03/12: Set 1 and Critique of an online test.
 
@@ -111,12 +111,11 @@ There will be multiple engagement activities in this course. These activities wi
 ## Grading Weighting
 
 - 150 points of your grade will be determined by your best five (5) quizzes.
-- 100 points of your grade will be determined by your best two (2) quantitative aspects of your take-home assignments.
-- 100 points of your grade will be determined by your best two (2) qualitative aspects of your take-home assignments.
+- 150 points of your grade will be determined by your best three (3) take-home assignments.
 - 50 points of your grade will be determined by your engagement.
 
 
-# Course Policies
+## Course Policies
 
 
 See Syllabus Website
