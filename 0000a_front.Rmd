@@ -86,9 +86,14 @@ knitr::write_bib(c(
 
 These notes was written in [bookdown](http://bookdown.org/) inside [RStudio](http://www.rstudio.com/ide/). The [website][ds4p-web] is hosted with [github](https://www.github.com), The complete source is available from [github][ds4p-git].
 
-The book style was designed by [Desirée De Leon](https://desiree.rbind.io/).
+The book style adapted from [Desirée De Leon](https://desiree.rbind.io/).
 
 This version of the notes was built with:
+
+
+
+
+
 
 ```{r message = FALSE,error=TRUE, warning = FALSE, echo = FALSE}
 # needed because new_session is set to true in _bookdown.yml
@@ -118,3 +123,24 @@ session$packages %>%
 
 
 
+Alternate Format
+
+The R session information when compiling this book is shown below:
+
+```{r include=FALSE}
+# only show versions of very relevant packages
+sessionInfo = function() {
+  lapply(c('shiny', 'miniUI'), loadNamespace)
+  res = utils::sessionInfo()
+  loaded = res$loadedOnly
+  res$loadedOnly = loaded[intersect(names(loaded), c(
+    'bookdown', 'knitr', 'rmarkdown', 'shiny', 'htmltools', 'tools', 'miniUI'
+  ))]
+  res$BLAS = res$LAPACK = NULL
+  res
+}
+```
+
+```{r}
+sessionInfo()
+```
