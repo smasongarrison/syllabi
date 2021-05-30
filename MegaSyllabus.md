@@ -3,7 +3,7 @@ title: "Prof. Mason's Syllabi"
 subtitle: "A Snappy Subtitle"
 author: 
 - S. Mason Garrison
-date: "2021-05-24"
+date: "2021-05-30"
 knit: "bookdown::render_book"
 site: bookdown::bookdown_site
 url: 'https\://github.com/DataScience4Psych/DataScience4Psych'
@@ -932,9 +932,14 @@ material.
 
 These notes was written in [bookdown](http://bookdown.org/) inside [RStudio](http://www.rstudio.com/ide/). The [website][ds4p-web] is hosted with [github](https://www.github.com), The complete source is available from [github][ds4p-git].
 
-The book style was designed by [Desirée De Leon](https://desiree.rbind.io/).
+The book style adapted from [Desirée De Leon](https://desiree.rbind.io/).
 
 This version of the notes was built with:
+
+
+
+
+
 
 
 ```
@@ -948,20 +953,55 @@ This version of the notes was built with:
 #>  collate  English_United States.1252  
 #>  ctype    English_United States.1252  
 #>  tz       America/New_York            
-#>  date     2021-05-24
+#>  date     2021-05-30
 ```
 
 Along with these packages:
 
 
 ```{=html}
-<div id="htmlwidget-506b7dd2f38a215e9fcf" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-506b7dd2f38a215e9fcf">{"x":{"filter":"top","filterHTML":"<tr>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n<\/tr>","data":[["askpass","assertthat","backports","base64enc","BH","blob","bookdown","brew","brio","broom","cachem","callr","cellranger","checkmate","cli","clipr","colorspace","commonmark","conflicted","cpp11","crayon","credentials","crosstalk","crul","curl","data.table","DBI","dbplyr","desc","devtools","dichromat","diffobj","digest","dplyr","DT","dtplyr","ellipsis","evaluate","fansi","farver","fastmap","forcats","fs","gapminder","gargle","gender","genderdata","generics","geonames","gert","ggplot2","gh","gitcreds","glue","googledrive","googlesheets4","gridExtra","gt","gtable","haven","highr","hms","htmltools","htmlwidgets","httpcode","httr","ids","ini","isoband","jsonlite","knitr","labeling","later","lattice","lazyeval","lifecycle","lubridate","magrittr","markdown","MASS","Matrix","memoise","mgcv","mime","modelr","munsell","nlme","openssl","pillar","pkgbuild","pkgconfig","pkgload","plyr","praise","prettyunits","processx","progress","promises","ps","purrr","R6","rappdirs","rcmdcheck","RColorBrewer","Rcpp","readr","readxl","rebird","rematch","rematch2","remotes","reprex","reshape2","rjson","rlang","rmarkdown","roxygen2","rplos","rprojroot","rstudioapi","rversions","rvest","sass","scales","selectr","sessioninfo","solrium","stringi","stringr","sys","testthat","tibble","tidyr","tidyselect","tidyverse","tinytex","triebeard","urltools","usethis","utf8","uuid","vctrs","viridis","viridisLite","waldo","whisker","withr","xfun","xml2","xopen","yaml","zip"],[null,"0.2.1","1.2.1",null,null,null,"0.22",null,null,"0.7.6","1.0.4","3.7.0","1.1.0",null,"2.5.0",null,"2.0-0",null,null,null,"1.4.1",null,null,null,null,null,"1.1.1","2.1.1","1.3.0","2.4.1",null,null,"0.6.27","1.0.5","0.18",null,"0.3.2","0.14","0.4.2",null,"1.1.0","0.5.1","1.5.0",null,null,null,null,"0.1.0",null,null,"3.3.3",null,null,"1.4.2",null,null,null,null,"0.3.0","2.4.1",null,"1.0.0","0.5.1.1","1.5.3",null,"1.4.2",null,null,null,"1.7.2","1.33",null,null,null,null,"1.0.0","1.7.10","2.0.1",null,null,null,"2.0.0",null,null,"0.1.8","0.5.0",null,null,"1.6.0","1.2.0","2.0.3","1.2.1",null,null,"1.1.1","3.5.2",null,null,"1.6.0","0.3.4","2.5.0",null,null,null,"1.0.6","1.4.0","1.3.1",null,null,null,"2.3.0","2.0.0",null,null,"0.4.10","2.8",null,null,"2.0.2","0.13",null,"1.0.0","0.3.1","1.1.1",null,"1.1.1",null,"1.5.3","1.4.0",null,"3.0.2","3.1.1","1.1.3","1.1.1","1.3.1",null,null,null,"2.0.1","1.2.1",null,"0.3.8",null,null,null,null,"2.4.2","0.22","1.3.2",null,"2.2.1",null],["2019-01-13","2019-03-21","2020-12-09","2015-07-28","2021-01-11","2020-01-20","2021-04-22","2011-04-13","2021-04-23","2021-04-05","2021-02-13","2021-04-20","2016-07-27","2020-02-06","2021-04-26","2020-10-08","2020-11-11","2018-12-01","2019-06-21","2021-03-29","2021-02-08","2020-07-21","2021-01-12","2021-02-15","2021-04-30","2021-02-21","2021-01-15","2021-04-06","2021-03-05","2021-05-05","2013-01-24","2021-03-22","2020-10-24","2021-03-05","2021-04-14","2021-02-20","2021-04-29","2019-05-28","2021-01-15","2021-02-28","2021-01-25","2021-01-27","2020-07-31","2017-10-31","2021-04-02","2020-05-15","2020-11-17","2020-10-31","2019-02-19","2021-03-29","2020-12-30","2021-04-30","2020-12-04","2020-08-27","2020-05-05","2021-03-04","2017-09-09","2020-08-05","2019-03-25","2021-04-23","2021-04-16","2021-01-13","2021-01-22","2020-12-10","2020-04-10","2020-07-20","2017-05-31","2018-05-20","2021-03-03","2020-12-09","2021-04-24","2020-10-20","2021-04-23","2020-04-02","2019-03-15","2021-02-15","2021-02-26","2020-11-17","2019-08-07","2021-02-12","2021-01-06","2021-01-26","2021-02-16","2021-02-13","2020-05-19","2018-06-12","2021-02-04","2021-04-30","2021-04-13","2020-12-15","2019-09-22","2021-04-06","2020-03-03","2015-08-11","2020-01-24","2021-04-30","2019-05-16","2021-02-11","2021-02-28","2020-04-17","2020-10-28","2021-01-31","2019-05-07","2014-12-07","2021-01-15","2020-10-05","2019-03-13","2021-01-27","2016-04-21","2020-05-01","2021-04-01","2021-04-02","2020-04-09","2018-06-08","2020-12-30","2021-05-07","2020-06-27","2021-02-23","2020-11-15","2020-11-12","2020-05-25","2021-03-09","2021-01-24","2020-05-11","2019-11-20","2018-11-05","2019-11-02","2020-09-09","2019-02-10","2020-07-23","2021-02-14","2021-04-18","2021-03-03","2021-04-30","2021-04-15","2021-03-30","2016-08-04","2019-04-14","2021-02-10","2021-03-12","2020-02-26","2021-04-29","2021-04-15","2021-04-13","2021-03-08","2019-08-28","2021-04-18","2021-03-11","2020-04-23","2018-09-17","2020-02-01","2020-08-27"],["CRAN (R 4.0.0)","CRAN (R 4.0.0)","CRAN (R 4.0.3)","CRAN (R 4.0.0)","CRAN (R 4.0.3)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.2)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","local","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.2)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.2)","CRAN (R 4.0.4)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.2)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.0)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.0)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.2)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.0)","CRAN (R 4.0.3)","CRAN (R 4.0.0)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.2)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.2)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.0)","CRAN (R 4.0.0)","CRAN (R 4.0.2)","CRAN (R 4.0.3)","CRAN (R 4.0.2)","CRAN (R 4.0.0)","CRAN (R 4.0.2)","CRAN (R 4.0.4)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.2)","CRAN (R 4.0.0)","CRAN (R 4.0.3)"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>package<\/th>\n      <th>loadedversion<\/th>\n      <th>date<\/th>\n      <th>source<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":152,"autoWidth":true,"bInfo":false,"paging":false,"order":[],"orderClasses":false,"orderCellsTop":true,"lengthMenu":[10,25,50,100,152]}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-bb0efb5c19ab79e8b61a" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-bb0efb5c19ab79e8b61a">{"x":{"filter":"top","filterHTML":"<tr>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n<\/tr>","data":[["askpass","assertthat","backports","base64enc","BH","blob","bookdown","brew","brio","broom","cachem","callr","cellranger","checkmate","cli","clipr","colorspace","commonmark","conflicted","cpp11","crayon","credentials","crosstalk","crul","curl","data.table","DBI","dbplyr","desc","devtools","dichromat","diffobj","digest","dplyr","DT","dtplyr","ellipsis","evaluate","fansi","farver","fastmap","forcats","fs","gapminder","gargle","gender","genderdata","generics","geonames","gert","ggplot2","gh","gitcreds","glue","googledrive","googlesheets4","gridExtra","gt","gtable","haven","highr","hms","htmltools","htmlwidgets","httpcode","httr","ids","ini","isoband","jsonlite","knitr","labeling","later","lattice","lazyeval","lifecycle","lubridate","magrittr","markdown","MASS","Matrix","memoise","mgcv","mime","modelr","munsell","nlme","openssl","pillar","pkgbuild","pkgconfig","pkgload","plyr","praise","prettyunits","processx","progress","promises","ps","purrr","R6","rappdirs","rcmdcheck","RColorBrewer","Rcpp","readr","readxl","rebird","rematch","rematch2","remotes","reprex","reshape2","rjson","rlang","rmarkdown","roxygen2","rplos","rprojroot","rstudioapi","rversions","rvest","sass","scales","selectr","sessioninfo","solrium","stringi","stringr","sys","testthat","tibble","tidyr","tidyselect","tidyverse","tinytex","triebeard","urltools","usethis","utf8","uuid","vctrs","viridis","viridisLite","waldo","whisker","withr","xfun","xml2","xopen","yaml","zip"],[null,"0.2.1","1.2.1",null,null,null,"0.22",null,null,"0.7.6","1.0.4","3.7.0","1.1.0",null,"2.5.0",null,"2.0-0",null,null,null,"1.4.1",null,null,null,null,null,"1.1.1","2.1.1","1.3.0","2.4.1",null,null,"0.6.27","1.0.5","0.18",null,"0.3.2","0.14","0.4.2",null,"1.1.0","0.5.1","1.5.0",null,null,null,null,"0.1.0",null,null,"3.3.3",null,null,"1.4.2",null,null,null,null,"0.3.0","2.4.1",null,"1.0.0","0.5.1.1","1.5.3",null,"1.4.2",null,null,null,"1.7.2","1.33",null,null,null,null,"1.0.0","1.7.10","2.0.1",null,null,null,"2.0.0",null,null,"0.1.8","0.5.0",null,null,"1.6.0","1.2.0","2.0.3","1.2.1",null,null,"1.1.1","3.5.2",null,null,"1.6.0","0.3.4","2.5.0",null,null,null,"1.0.6","1.4.0","1.3.1",null,null,null,"2.3.0","2.0.0",null,null,"0.4.10","2.8",null,null,"2.0.2","0.13",null,"1.0.0","0.3.1","1.1.1",null,"1.1.1",null,"1.5.3","1.4.0",null,"3.0.2","3.1.1","1.1.3","1.1.1","1.3.1",null,null,null,"2.0.1","1.2.1",null,"0.3.8",null,null,null,null,"2.4.2","0.22","1.3.2",null,"2.2.1",null],["2019-01-13","2019-03-21","2020-12-09","2015-07-28","2021-01-11","2020-01-20","2021-04-22","2011-04-13","2021-04-23","2021-04-05","2021-02-13","2021-04-20","2016-07-27","2020-02-06","2021-04-26","2020-10-08","2020-11-11","2018-12-01","2019-06-21","2021-03-29","2021-02-08","2020-07-21","2021-01-12","2021-02-15","2021-04-30","2021-02-21","2021-01-15","2021-04-06","2021-03-05","2021-05-05","2013-01-24","2021-03-22","2020-10-24","2021-03-05","2021-04-14","2021-02-20","2021-04-29","2019-05-28","2021-01-15","2021-02-28","2021-01-25","2021-01-27","2020-07-31","2017-10-31","2021-04-02","2020-05-15","2020-11-17","2020-10-31","2019-02-19","2021-03-29","2020-12-30","2021-04-30","2020-12-04","2020-08-27","2020-05-05","2021-03-04","2017-09-09","2020-08-05","2019-03-25","2021-04-23","2021-04-16","2021-01-13","2021-01-22","2020-12-10","2020-04-10","2020-07-20","2017-05-31","2018-05-20","2021-03-03","2020-12-09","2021-04-24","2020-10-20","2021-04-23","2020-04-02","2019-03-15","2021-02-15","2021-02-26","2020-11-17","2019-08-07","2021-02-12","2021-01-06","2021-01-26","2021-02-16","2021-02-13","2020-05-19","2018-06-12","2021-02-04","2021-04-30","2021-04-13","2020-12-15","2019-09-22","2021-04-06","2020-03-03","2015-08-11","2020-01-24","2021-04-30","2019-05-16","2021-02-11","2021-02-28","2020-04-17","2020-10-28","2021-01-31","2019-05-07","2014-12-07","2021-01-15","2020-10-05","2019-03-13","2021-01-27","2016-04-21","2020-05-01","2021-04-01","2021-04-02","2020-04-09","2018-06-08","2020-12-30","2021-05-07","2020-06-27","2021-02-23","2020-11-15","2020-11-12","2020-05-25","2021-03-09","2021-01-24","2020-05-11","2019-11-20","2018-11-05","2019-11-02","2020-09-09","2019-02-10","2020-07-23","2021-02-14","2021-04-18","2021-03-03","2021-04-30","2021-04-15","2021-03-30","2016-08-04","2019-04-14","2021-02-10","2021-03-12","2020-02-26","2021-04-29","2021-04-15","2021-04-13","2021-03-08","2019-08-28","2021-04-18","2021-03-11","2020-04-23","2018-09-17","2020-02-01","2020-08-27"],["CRAN (R 4.0.0)","CRAN (R 4.0.0)","CRAN (R 4.0.3)","CRAN (R 4.0.0)","CRAN (R 4.0.3)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.2)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","local","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.2)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.2)","CRAN (R 4.0.4)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.2)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.0)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.0)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.2)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.0)","CRAN (R 4.0.3)","CRAN (R 4.0.0)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.2)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.2)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.0)","CRAN (R 4.0.0)","CRAN (R 4.0.2)","CRAN (R 4.0.3)","CRAN (R 4.0.2)","CRAN (R 4.0.0)","CRAN (R 4.0.2)","CRAN (R 4.0.4)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.2)","CRAN (R 4.0.0)","CRAN (R 4.0.3)"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>package<\/th>\n      <th>loadedversion<\/th>\n      <th>date<\/th>\n      <th>source<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":152,"autoWidth":true,"bInfo":false,"paging":false,"order":[],"orderClasses":false,"orderCellsTop":true,"lengthMenu":[10,25,50,100,152]}},"evals":[],"jsHooks":[]}</script>
 ```
 
 
 
 
+Alternate Format
+
+The R session information when compiling this book is shown below:
+
+
+
+
+```r
+sessionInfo()
+#> R version 4.0.5 (2021-03-31)
+#> Platform: x86_64-w64-mingw32/x64 (64-bit)
+#> Running under: Windows 10 x64 (build 19042)
+#> 
+#> Matrix products: default
+#> 
+#> locale:
+#> [1] LC_COLLATE=English_United States.1252 
+#> [2] LC_CTYPE=English_United States.1252   
+#> [3] LC_MONETARY=English_United States.1252
+#> [4] LC_NUMERIC=C                          
+#> [5] LC_TIME=English_United States.1252    
+#> 
+#> attached base packages:
+#> [1] stats     graphics  grDevices utils     datasets  methods   base     
+#> 
+#> other attached packages:
+#>  [1] DT_0.18         devtools_2.4.1  usethis_2.0.1   forcats_0.5.1  
+#>  [5] stringr_1.4.0   dplyr_1.0.5     purrr_0.3.4     readr_1.4.0    
+#>  [9] tidyr_1.1.3     tibble_3.1.1    ggplot2_3.3.3   tidyverse_1.3.1
+#> [13] knitr_1.33      vembedr_0.1.4   tweetrmd_0.0.8 
+#> 
+#> loaded via a namespace (and not attached):
+#> [1] tools_4.0.5       bookdown_0.22     rmarkdown_2.8     htmltools_0.5.1.1
+#> [5] shiny_1.6.0       miniUI_0.1.1.1
+```
 
 <!--chapter:end:0000a_front.Rmd-->
 
@@ -1399,7 +1439,7 @@ You can find the [full syllabus](https://github.com/smasongarrison/Syllabi/blob/
 
 ### Required Texts
 
-For all my classes, the textbook is intended to supplement the course.The lectures don't follow the order of chapters in the text and the text covers some material that won't be covered in the lectures, i.e., not all the information in each chapter is perfectly pertinent to the course requirements.
+For all my classes, the textbook is intended to supplement the course. The lectures don't follow the order of chapters in the text and the text covers some material that won't be covered in the lectures, i.e., not all the information in each chapter is perfectly pertinent to the course requirements.
 
 It is merely one of many resources you'll consume. You probably need to consume all of the resources I provide in order to be successful in this class. If you'd like to make the most use of your tuition, I strongly encourage you to consume them all. The course-specific resources can be found on the specific course page.
 
@@ -1444,21 +1484,7 @@ In this section, I provide specific language for all my course policies.
 
 
 
-
-
-
-
-
-<!---
-
-# To do well in the course
-
-#```{r child = 'doingwell_irl.Rmd'}
-#```
-
--->
-
-# Tentative Class Schedule
+## Tentative Class Schedule
 
 This syllabus is intended to give the student guidance in what may be covered during the semester and will be followed as closely as possible. Dates for tests and assignments won't change, barring extraordinary events. However, I reserve the right to modify, supplement and make changes as the course needs arise. I try to avoid changes to the syllabus. Nevertheless, if changes occur, I will only make changes that are less burdensome and more advantageous to the students. (If I make a change that increases your burden, please talk to me.)
 
@@ -2642,11 +2668,9 @@ I will provide more specific written guidelines at least two weeks before each a
 
 
 
-
 ## Engagement Activities
 
 There will be multiple engagement activities in this course. These activities will allow you engage with the material for each module. Details about the specific activities will be provided on canvas. Students must complete two activities per module.
-
 
 
 ## Grading Weighting
@@ -2658,68 +2682,67 @@ There will be multiple engagement activities in this course. These activities wi
 
 ## Course Policies
 
-
 See Syllabus Website
 
+## Schedule
 
-
-## Week 01, 01/25 - 01/29 : Foundations and Nature of Testing
+###  Week 01, 01/25 - 01/29 : Foundations and Nature of Testing
 <!---
 - Tuesday: Chapter 1
 - Thursday: Chapter 2
 -->
-## Week 02, 02/01 - 02/05 : History of Testing
+###  Week 02, 02/01 - 02/05 : History of Testing
 <!---
 - Tuesday: Chapter 18
 - Thursday: Chapter 18
 -->
-##  Week 03, 02/08 - 02/12 : Ethical and Social Considerations in Testing 
+###  Week 03, 02/08 - 02/12 : Ethical and Social Considerations in Testing 
 <!---
 - Tuesday: Chapter 3 "Last day to add full-term class"
 - Thursday: Chapter 3
 -->
-##  Week 04, 02/15 - 02/19 : Norms and the Meaning of Test Scores
+###  Week 04, 02/15 - 02/19 : Norms and the Meaning of Test Scores
 <!---
 - Tuesday: Chapter 4
 - Thursday: Chapter 4
 -->
-##  Week 05, 02/22 - 02/26 : Classical Test Theory
+###  Week 05, 02/22 - 02/26 : Classical Test Theory
 <!---
 - Tuesday: Chapter 5 + 6
 - Thursday: Chapter 5 + 6 
 -->
-##  Week 06, 03/01 - 03/05 : Reliability
+###  Week 06, 03/01 - 03/05 : Reliability
 <!---
 - Tuesday: Chapter 6  "Last day to drop full-term class"
 - Thursday: Chapter 9 
 -->
-##  Week 07, 03/08 - 03/12 : Catch Up Week 
+###  Week 07, 03/08 - 03/12 : Catch Up Week 
 <!---
 - Tuesday: Chapter 7 (Assignment 1 Due)
 - Thursday: Chapter 7
 -->
-##  Week 08, 03/15 - 03/19 : Validity
+###  Week 08, 03/15 - 03/19 : Validity
 <!---
 - Tuesday: Review 
 - Thursday: Exam 1
 -->
-##  Week 09, 03/22 - 03/26 : Item Analysis
+###  Week 09, 03/22 - 03/26 : Item Analysis
 <!---
 - Tuesday: No class
 - Thursday: No class 
 -->
-##  Week 10, 03/29 - 04/02 : Factor Analysis
+###  Week 10, 03/29 - 04/02 : Factor Analysis
 <!---
 - Tuesday: Selected readings
 - Thursday: Chapter 10
 -->
-##  Week 11, 04/05 - 04/09 : Item Response Theory
+###  Week 11, 04/05 - 04/09 : Item Response Theory
 <!---
 - Monday: Last day to drop with a grade of "W"
 - Tuesday: Chapter 11
 - Thursday: Chapter 12
 -->
-##  Week 12, 04/12 - 04/16 : Practical Testing Things
+###  Week 12, 04/12 - 04/16 : Practical Testing Things
 <!---
 - Tuesday: Chapter 13
 - Thursday: Chapter 13 
@@ -2729,17 +2752,17 @@ See Syllabus Website
 - Tuesday: Chapter 14
 - Thursday: Chapter 14 (Assignment 2 Due)
 -->
-##  Week 14, 04/26 - 04/30 : Personality Testing
+###  Week 14, 04/26 - 04/30 : Personality Testing
 <!---
 - Tuesday: Chapter 15
 - Thursday: Chapter 16
 -->
-##  Week 15, 05/03 - 05/07 : Review
+###  Week 15, 05/03 - 05/07 : Review
 <!---
 - Tuesday: Supplemental reading
 - Thursday: Supplemental reading
 
-##  Week 16, 05/10 - 05/14 : Other Assessment Techniques 
+###  Week 16, 05/10 - 05/14 : Other Assessment Techniques 
 
 - Tuesday: Review
 
@@ -2747,7 +2770,6 @@ See Syllabus Website
 
 - TBD
 -->
-# References
 
 <!--chapter:end:0203_testing.Rmd-->
 
@@ -2756,8 +2778,9 @@ See Syllabus Website
 
 <!--chapter:end:0300_FYI.Rmd-->
 
-# Frequently Asked Questions
 
+
+# Frequently Asked Questions
 Below you'll find answers to the questions that I get asked the most by students in my classes. I have been asked every single one of these questions.
 
 
@@ -2769,71 +2792,62 @@ Below you'll find answers to the questions that I get asked the most by students
 
 * Email: garrissm@wfu.edu
 
-* Text: 267.357.4392 
+* Text: 267.357.4392
+
+* Github: https://github.com/smasongarrison
+
+* Twitter: https://twitter.com/SMasonGarrison
+
+* Phone Call: ...
+
+<img src="img/why-this-millennial-didnt-answer-your-call.jpeg" width="50%" style="display: block; margin: auto;" />
+
+Credit: [Kiki Schirr](https://kikischirr.medium.com/) at [Tech Doodles](https://medium.com/tech-doodles) on ["Why this millennial didn't answer your call"](https://medium.com/tech-doodles/why-this-millennial-didnt-answer-your-call-d5abccf06cfc)
+
 
 ## Course Questions
+If you have a question about the course AND can't find your answer elsewhere (or you find conflicting answers), please post them in the discussion board.
 
 
 ### Where can I find when assignments are due?
-
 You can find due dates in the syllabus.
 
 
-
-
 ### Where/what are my grades?
-
-You can find it on canvas, under grades. I will not look this grade for you. You are all hard working and problem-solving students. I believe in you!
-
-
+You can find it on canvas, under grades. I will not look up this grade for you. You are all hard working and problem-solving students. I believe in you!
 
 
 ### Can you calculate my grade for me?
-
 No. I believe in you!
 
 You are capable of calculating a weighted average. You have 100% of the information you need to do so as outlined in the syllabus. You can calculate your grade using a weighted average and the weightings in the syllabus.
-If you really really need help with this, try this website: https://thegradecalculator.com/
-
-
+If you really really need help with this, try this website:https://thegradecalculator.com/
 
 
 ### Your curve is confusing. Why can't you just tell me my letter grade?
-
 I agree that my curve is a little confusing at first glance.
 But, this curve can only help you. It means I can lower the thresholds for letter grades, but not raise them.
-Your best approach is to pretend that there is no curve. 
-
-
+Your best approach is to pretend that there is no curve.
 
 
 ### Can my parents email you about my class performance?
 Unless you are legally a minor, I cannot answer your parents questions about this class.
 
 
-
-
 ### Should my parents email you about my class performance?
 No.
-
-
 
 
 ## Online Learning
 
 ### How much time should I spend on one class every week?
-
-The time you spend on a class can vary. No two instructors will format their classes exactly the same. In general, each credit hour corresponds to a minimum of 3 hours of student engagement per week for a traditional 15-week course. This time may be spent on discussions, readings, and lectures, study, and research, and assignments.
+The time you spend on a class can vary. No two instructors will format their classes exactly the same. In general, each credit hour corresponds to a *minimum* of 3 hours of student engagement per week for a traditional 15-week course. This time may be spent on discussions, readings, and lectures, study, and research, and assignments.
 If you find yourself spending a lot more or a lot less than 9 hours per week on this class, please let me know. That probably means that either you're doing too much or too little.
 
 
-
-
 ### How long are the videos?
-You can always check how long the module playlist is by using this website https://ytplaylist-len.herokuapp.com/
-Each module has about 1 week worth of lectures.
-
-
+You can always check how long the module playlist is by using this website https://ytplaylist-len.herokuapp.com/
+Each module has 1 week worth of lectures.
 
 
 ### Why are there so many videos?
@@ -2841,98 +2855,169 @@ I've sliced up the content into smaller chunks. If you want to watch the entire 
 
 
 ### Why is your speaking style so weird?
+I get this comment frequently enough in course evaluations (but never face-to-face...). Most students don't have a problem with it, and it seems that most people recognize that it is outside my control. My speaking style can become a bit fragmented -- students tend to describe it as tangential, scattered, incomprehensible (also some much less kind things... that are often really ableist). But that's not actually, what's happening... effectively, I will on occasion skip the last syllable in a word or the last word of a sentence. 
 
-I get this comment frequently in course evaluations. It often gets described as going off on tangents or being impossible to understand or skipping words. I hear you. I really do. I cannot help it.
+I recognize that it can be frustrating. I hear you. I really do. I cannot help it. And trust me, I am frustrated by it as well.
 
-Please, understand that there's not much more I can do at this point. What you are experiencing is the result of years of speech therapy. Trust me -- what you are experiencing is an improvement. If you *genuinely* struggle to understand me, please TALK to me about it. 
+Please, understand that there's not much more I can do at this point. And I have done a lot.
 
+What you are experiencing is the result of years of speech therapy and is a massive improvement. If you *genuinely* struggle to understand me, please TALK to me about it. I can connect you with resources, including my scripts, previous recordings of lectures. If those don't help, we can work in the LAC to figure out an accommodation that works for both of us.
 
 
 ### Why is this so much more work compared to face-to-face classes?
-
-It may feel like more work, but it actually isn't. This class covers the same content as the face-to-face version. I have made every effort to not add to your workload. When I have added an assignment in one aspect of the course, I have removed something else from the class.  On average, you should except to spend about 9 hours a week on this class.
-
-
+It may feel like more work, but it actually isn't. This class covers the same content as the face-to-face version. I have made every effort to not add to your workload. When I have added an assignment in one aspect of the course, I have removed something else from the class.On average, you should except to spend about 9 hours a week on this class.
 
 
 ### Where can I find more information about technology services or computer resources?
 You can find more information here: TDB
 
 
-
-
 ### I'm having a trouble with a specific problem, can you fix it for me?
-Troubleshooting or problem solving is going to be essential for virtual learning.  Like with anything else related to technology, problems will occur with virtual learning.
+Troubleshooting or problem solving is going to be essential for virtual learning. Like with anything else related to technology, problems will occur with virtual learning.
+
 Please try basic troubleshooting to fix your problem.
-If you still have trouble after troubleshooting, post a the problem to the FAQ and clearly describe what you have already tried.
 
-
+If you still have trouble after troubleshooting, post the problem to the discussion board and clearly describe what you have already tried.
 
 
 ## Canvas
-### How do I use Canvas for Class?
 
-Students will use Canvas to access course content. 
-All work/assignments/projects will be distributed and collected through Canvas.
-
-
-
-
-### How do I set my notifications on Canvas for my classes?
-You should navigate to your "Account" by pressing the icon in the top-left corner of this page, right under the Canvas Logo. Then you press "Notifications" and will be brought to a screen where you can change and adjust your notifications.
-
-
-
-
-### How do I submit an assignment on Canvas?
-Navigate to your assignment and click this button
-Double check your work that it's complete and saved correctly. 
-Upload or type your work and click submit assignment.
-
-
-
-
-### How do I know when an assignment has been submitted?
-After you click "submit assignment," you will see "confetti" on your screen. A notification will appear that looks like this:
-
-
-
-
-### How do I use the Calendar feature in Canvas?
-Your calendar will allow you to see assignments and important dates for all of your classes.  
-Click this icon to access your calendar 
-From here you will see all of your classes on the right side of the page
-You can click to see specific class work, or color code your calendar.
-
-
-
-
-### How do I see feedback on my assignments submitted on Canvas?
-Log into the course and click on the 'Grades' link.
-Find the assignment and click the assignment name.
-Click on 'View Feedback' to view all feedback including comments and any additional annotated comments made on the submission.
-
-
-
-
-### How do I accurately check my grades in Canvas?
-To get an accurate view of your final grade, make sure to uncheck the Calculate based only on graded assignments checkbox:
-
- 
+### I'm having trouble with Canvas -- help!
+If you're having trouble with Canvas, You should first search the Canvas Guides and then reach out to canvas support.
 
 
 ### How do I contact the Canvas Help Desk?
 You can search the Canvas Guides or contact the Canvas Support Helpline by clicking the Help icon (circle with a question mark) in the Account menu.
 
 
+### How do I use Canvas for class?
+Students will use Canvas to access course content.
+All work/assignments/projects will be distributed and collected through Canvas.
 
 
-### Still have questions? 
+### How do I set my notifications on Canvas for my classes?
+You should navigate to your "Account" by pressing the icon in the top-left corner of this page, right under the Canvas Logo. Then you press "Notifications" and will be brought to a screen where you can change and adjust your notifications.
 
-Post them in the Discussion Board! I can nearly guarantee that somebody else wants to know the answer to your question.
+
+### How do I submit an assignment on Canvas?
+Navigate to your assignment and click this button
+Double check your work that it's complete and saved correctly.
+Upload or type your work and click submit assignment.
+
+
+### How do I know when an assignment has been submitted?
+After you click "submit assignment," you will see "confetti" on your screen. A notification will appear that looks like this:
+
+
+### How do I use the Calendar feature in Canvas?
+Your calendar will allow you to see assignments and important dates for all of your classes.
+Click this icon to access your calendar.
+From here, you will see all of your classes on the right side of the page
+You can click to see specific class work, or color code your calendar.
+
+
+### How do I see feedback on my assignments submitted on Canvas?
+Log into the course and click on the 'Grades' link.
+Find the assignment and click the assignment name.
+Click on 'View Feedback' to view all feedback, including comments and any additional annotated comments made on the submission.
+
+
+### How do I accurately check my grades in Canvas?
+To get an accurate view of your final grade, make sure to uncheck the Calculate based only on graded assignments checkbox.
+
+
+### How do I do this specific thing in Canvas?
+Although I am not canvas tech support, here are some links...
+
+[How do I use the Global Navigation Menu?](https://community.canvaslms.com/docs/DOC-10603-4212710332)
+
+[How do I use the Dashboard?](https://community.canvaslms.com/docs/DOC-10587-4212710330)
+
+[How do I use the To Do list and sidebar in the Dashboard?](https://community.canvaslms.com/docs/DOC-10589-4212717407)
+
+
+### Profile and User Settings
+
+[How do I edit my profile in my user account? ](https://community.canvaslms.com/docs/DOC-10628-4212710342)
+
+[How do I add a profile picture in my user account?](https://community.canvaslms.com/docs/DOC-10599-4212710334)
+
+[How do I set my Canvas notification preferences?](https://community.canvaslms.com/docs/DOC-10624-4212710344)
+
+## Still have questions? 
+Post them in the Discussion Board! I can nearly guarantee, that somebody else wants to know the answer to your question. 
+
+
+### Why did a question I asked via email show up on the discussion board?
+No one has asked me this question specifically, but... When students email me questions that *should* have been asked on the discussion board, I will forward the email chain to my TA and ask them to post it. 
 
 
 <!--chapter:end:0301_FAQ.Rmd-->
+
+
+
+
+
+# How to do well in my classes {-}
+
+To do well in the course, you should read the assigned material before class and re-read previously assigned material as the course progresses. 
+By reading the text before class, you will be better prepared to ask questions and integrate the content of lectures with what was presented in the text. 
+For synchronous classes, be sure to attend all lectures and arrive on time. 
+For asynchronous classes be sure to watch all the video lectures and don't leave them until the last minute. Each topic builds directly on the previous one. 
+Thus, if you miss one lecture or zip through a video, you run the risk of being completely lost in the next lecture.
+
+## Successful Asynchronous Learning
+
+I've created a video highlighting how to be a successful asynchronous learner. 
+
+
+```{=html}
+<div class="vembedr" align="center">
+<div>
+<iframe src="https://www.youtube.com/embed/dc3D2tbl8G0" width="533" height="300" frameborder="0" allowfullscreen=""></iframe>
+</div>
+</div>
+```
+
+Much of this information comes from Northeastern University's [Tips for Taking Online Classes](https://www.northeastern.edu/graduate/blog/tips-for-taking-online-classes/)
+
+
+
+<!--- ## Important Information for College and This Course:
+
+In addition, many professors have implicit (*i.e.*, unspoken) expectations for college classes. 
+I'm going to explicitly state some of those unspoken expectations. I suspect that your other professors have similar expectations -- so this information will help you in your other classes.
+
+Asynchronous courses put the onus on **YOU** to keep up with the work. You are not guaranteed any reminders throughout the semester. Go to the schedule included here and put it in your calendar. You should also:
+
+1. check course announcements on Canvas often, and 
+2. check your email tied to Canvas often. 
+  
+Email and canvas is how I communicate with you, and I will not continually repeat myself in emails after I have already posted or sent the information.
+
+High school and college are different. In high school, you may have been permitted to turn in work as late as you like, to redo assignments or quizzes until you were satisfied, and to complete extra credit work. This is not the case in this college-level course. Unless explicitly stated, there are no late assignments, make-up work, redoing of assignments, or extra credit. These are course policies; they are not opportunities for negotiation. Although I am always happy to explain the reasoning and calculus behind my policies, they are not negotiable. 
+
+There is also a prevalent attitude of, "it doesn't hurt to ask." Yes, it does. If I have already made clear my policies and expectations, asking me to violate them damages your credibility as a student. One day you may ask for something that is truly reasonable given an emergency situation, but by then your reputation will precede you. Do not be "the student who cried wolf;" it is not a respected position.
+
+Finally, you should understand that college is not a fee-for-service arrangement. You are not paying me. You are paying tuition to a University for all kinds of things, very little of which actually "pays my salary." Salaries are more commonly paid out of government funds, including grants. You start with a zero in college courses and earn your points from there. I am not "giving" you grades or "taking away" points. You have nothing to begin with and earn your own score based on what you do and how well you do it (not simply on effort). What I offer you is an opportunity for education, not a grade.
+--->
+
+<!--- ## Addition pieces of advice:
+
+- Read the syllabus.
+- Read all the class announcements.
+- Read the FAQ and post your questions about the class there.
+- Read and follow the instructions for each assignment. 
+- Read your professor's comments on your submissions -- especially if you did not get full credit on that submission.
+- Treat canvas messages like email.
+- Read and respond to canvas messages from your professor. 
+- Before you send email your professor, try to answer the question yourself by looking at the syllabus, reading the course FAQ, and reading the assignment instructions.
+- Know when assignment deadlines are.
+- If you need additional time or flexibility on an assignment, you communicate with your professor before the deadline passes.
+
+--->
+
+<!--chapter:end:0302_doingwell_irl.Rmd-->
 
 # (PART\*) Module Last {-}
 
@@ -3379,52 +3464,6 @@ Please do not procrastinate this! It is really important to do this before you l
 
 
 <!--chapter:end:1601_closer.Rmd-->
-
-# How to do well in my classes {-}
-
-
-To do well in the course, you should read the assigned material before class and re-read previously assigned material as the course progresses. 
-By reading the text before class, you will be better prepared to ask questions and integrate the content of lectures with what was presented in the text. 
-For synchronous classes, be sure to attend all lectures and arrive on time. 
-For asynchronous classes be sure to watch all the video lectures and don't leave them until the last minute. Each topic builds directly on the previous one. 
-Thus, if you miss one lecture or zip through a video, you run the risk of being completely lost in the next lecture.
-
-
-## Important Information for College and This Course:
-
-In addition, many professors have implicit (*i.e.*, unspoken) expectations for college classes. 
-I'm going to explicitly state some of those unspoken expectations. I suspect that your other professors have similar expectations -- so this information will help you in your other classes.
-
-Asynchronous courses put the onus on **YOU** to keep up with the work. You are not guaranteed any reminders throughout the semester. Go to the schedule included here and put it in your calendar. You should also:
-
-1. check course announcements on Canvas often, and 
-2. check your email tied to Canvas often. 
-  
-Email and canvas is how I communicate with you, and I will not continually repeat myself in emails after I have already posted or sent the information.
-
-High school and college are different. In high school, you may have been permitted to turn in work as late as you like, to redo assignments or quizzes until you were satisfied, and to complete extra credit work. This is not the case in this college-level course. Unless explicitly stated, there are no late assignments, make-up work, redoing of assignments, or extra credit. These are course policies; they are not opportunities for negotiation. Although I am always happy to explain the reasoning and calculus behind my policies, they are not negotiable. 
-
-There is also a prevalent attitude of, "it doesn't hurt to ask." Yes, it does. If I have already made clear my policies and expectations, asking me to violate them damages your credibility as a student. One day you may ask for something that is truly reasonable given an emergency situation, but by then your reputation will precede you. Do not be "the boy who cried wolf;" it is not a respected position.
-
-Finally, you should understand that college is not a fee-for-service arrangement. You are not paying me. You are paying tuition to a University for all kinds of things, very little of which actually "pays my salary." Salaries are more commonly paid out of government funds, including grants. You start with a zero in college courses and earn your points from there. I am not "giving" you grades or "taking away" points. You have nothing to begin with and earn your own score based on what you do and how well you do it (not simply on effort). What I offer you is an opportunity for education, not a grade.
-
-<!---
-## Addition pieces of advice:
-
-- Read the syllabus.
-- Read all the class announcements.
-- Read the FAQ and post your questions about the class there.
-- Read and follow the instructions for each assignment. 
-- Read your professor's comments on your submissions -- especially if you did not get full credit on that submission.
-- Treat canvas messages like email.
-- Read and respond to canvas messages from your professor. 
-- Before you send email your professor, try to answer the question yourself by looking at the syllabus, reading the course FAQ, and reading the assignment instructions.
-- Know when assignment deadlines are.
-- If you need additional time or flexibility on an assignment, you communicate with your professor before the deadline passes.
-
---->
-
-<!--chapter:end:302_doingwell_irl.Rmd-->
 
 
 # References {-}

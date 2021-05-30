@@ -101,11 +101,9 @@ I will provide more specific written guidelines at least two weeks before each a
 
 
 
-
 ## Engagement Activities
 
 There will be multiple engagement activities in this course. These activities will allow you engage with the material for each module. Details about the specific activities will be provided on canvas. Students must complete two activities per module.
-
 
 
 ## Grading Weighting
@@ -117,68 +115,67 @@ There will be multiple engagement activities in this course. These activities wi
 
 ## Course Policies
 
-
 See Syllabus Website
 
+## Schedule
 
-
-## Week 01, 01/25 - 01/29 : Foundations and Nature of Testing
+###  Week 01, 01/25 - 01/29 : Foundations and Nature of Testing
 <!---
 - Tuesday: Chapter 1
 - Thursday: Chapter 2
 -->
-## Week 02, 02/01 - 02/05 : History of Testing
+###  Week 02, 02/01 - 02/05 : History of Testing
 <!---
 - Tuesday: Chapter 18
 - Thursday: Chapter 18
 -->
-##  Week 03, 02/08 - 02/12 : Ethical and Social Considerations in Testing 
+###  Week 03, 02/08 - 02/12 : Ethical and Social Considerations in Testing 
 <!---
 - Tuesday: Chapter 3 "Last day to add full-term class"
 - Thursday: Chapter 3
 -->
-##  Week 04, 02/15 - 02/19 : Norms and the Meaning of Test Scores
+###  Week 04, 02/15 - 02/19 : Norms and the Meaning of Test Scores
 <!---
 - Tuesday: Chapter 4
 - Thursday: Chapter 4
 -->
-##  Week 05, 02/22 - 02/26 : Classical Test Theory
+###  Week 05, 02/22 - 02/26 : Classical Test Theory
 <!---
 - Tuesday: Chapter 5 + 6
 - Thursday: Chapter 5 + 6 
 -->
-##  Week 06, 03/01 - 03/05 : Reliability
+###  Week 06, 03/01 - 03/05 : Reliability
 <!---
 - Tuesday: Chapter 6  "Last day to drop full-term class"
 - Thursday: Chapter 9 
 -->
-##  Week 07, 03/08 - 03/12 : Catch Up Week 
+###  Week 07, 03/08 - 03/12 : Catch Up Week 
 <!---
 - Tuesday: Chapter 7 (Assignment 1 Due)
 - Thursday: Chapter 7
 -->
-##  Week 08, 03/15 - 03/19 : Validity
+###  Week 08, 03/15 - 03/19 : Validity
 <!---
 - Tuesday: Review 
 - Thursday: Exam 1
 -->
-##  Week 09, 03/22 - 03/26 : Item Analysis
+###  Week 09, 03/22 - 03/26 : Item Analysis
 <!---
 - Tuesday: No class
 - Thursday: No class 
 -->
-##  Week 10, 03/29 - 04/02 : Factor Analysis
+###  Week 10, 03/29 - 04/02 : Factor Analysis
 <!---
 - Tuesday: Selected readings
 - Thursday: Chapter 10
 -->
-##  Week 11, 04/05 - 04/09 : Item Response Theory
+###  Week 11, 04/05 - 04/09 : Item Response Theory
 <!---
 - Monday: Last day to drop with a grade of "W"
 - Tuesday: Chapter 11
 - Thursday: Chapter 12
 -->
-##  Week 12, 04/12 - 04/16 : Practical Testing Things
+###  Week 12, 04/12 - 04/16 : Practical Testing Things
 <!---
 - Tuesday: Chapter 13
 - Thursday: Chapter 13 
@@ -188,17 +185,17 @@ See Syllabus Website
 - Tuesday: Chapter 14
 - Thursday: Chapter 14 (Assignment 2 Due)
 -->
-##  Week 14, 04/26 - 04/30 : Personality Testing
+###  Week 14, 04/26 - 04/30 : Personality Testing
 <!---
 - Tuesday: Chapter 15
 - Thursday: Chapter 16
 -->
-##  Week 15, 05/03 - 05/07 : Review
+###  Week 15, 05/03 - 05/07 : Review
 <!---
 - Tuesday: Supplemental reading
 - Thursday: Supplemental reading
 
-##  Week 16, 05/10 - 05/14 : Other Assessment Techniques 
+###  Week 16, 05/10 - 05/14 : Other Assessment Techniques 
 
 - Tuesday: Review
 
@@ -206,4 +203,3 @@ See Syllabus Website
 
 - TBD
 -->
-# References

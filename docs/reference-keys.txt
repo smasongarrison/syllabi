@@ -106,6 +106,7 @@ assignment-dates
 engagement-activities-1
 grading-weighting
 course-policies
+schedule
 week-01-0125---0129-foundations-and-nature-of-testing
 week-02-0201---0205-history-of-testing
 week-03-0208---0212-ethical-and-social-considerations-in-testing
@@ -121,7 +122,6 @@ week-12-0412---0416-practical-testing-things
 week-13-0419---0423-ability-testing
 week-14-0426---0430-personality-testing
 week-15-0503---0507-review
-references
 frequently-asked-questions
 how-can-i-get-ahold-of-you
 course-questions
@@ -140,6 +140,8 @@ why-is-this-so-much-more-work-compared-to-face-to-face-classes
 where-can-i-find-more-information-about-technology-services-or-computer-resources
 im-having-a-trouble-with-a-specific-problem-can-you-fix-it-for-me
 canvas
+im-having-trouble-with-canvas-help
+how-do-i-contact-the-canvas-help-desk
 how-do-i-use-canvas-for-class
 how-do-i-set-my-notifications-on-canvas-for-my-classes
 how-do-i-submit-an-assignment-on-canvas
@@ -147,7 +149,9 @@ how-do-i-know-when-an-assignment-has-been-submitted
 how-do-i-use-the-calendar-feature-in-canvas
 how-do-i-see-feedback-on-my-assignments-submitted-on-canvas
 how-do-i-accurately-check-my-grades-in-canvas
-how-do-i-contact-the-canvas-help-desk
+how-do-i-do-this-specific-thing-in-canvas
+profile-and-user-settings
 still-have-questions
+why-did-a-question-i-asked-via-email-show-up-on-the-discussion-board
+successful-asynchronous-learning
 important-wake-forest-stuff
-important-information-for-college-and-this-course
