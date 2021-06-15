@@ -13,12 +13,9 @@ library(tidyverse)
 library(citr)
 library(RefManageR)
 
-
-
 bib <- ReadBib("book.bib")
 bib <- c(bib, as.BibEntry(citation()))
 bib[length(bib)]$key = "Rcite"
-
 
 topic=c(
   "Introduction and What is Personality", 
