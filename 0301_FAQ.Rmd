@@ -3,6 +3,7 @@ source("common.R")
 ```
 
 # Frequently Asked Questions
+
 Below you'll find answers to the questions that I get asked the most by students in my classes. I have been asked every single one of these questions.
 
 
@@ -30,7 +31,7 @@ include_graphics("img/why-this-millennial-didnt-answer-your-call.jpeg")
 Credit: [Kiki Schirr](https://kikischirr.medium.com/) at [Tech Doodles](https://medium.com/tech-doodles) on ["Why this millennial didn't answer your call"](https://medium.com/tech-doodles/why-this-millennial-didnt-answer-your-call-d5abccf06cfc)
 
 
-## Course Questions
+## General Course Questions
 If you have a question about the course AND can't find your answer elsewhere (or you find conflicting answers), please post them in the discussion board.
 
 
@@ -61,6 +62,11 @@ Unless you are legally a minor, I cannot answer your parents questions about thi
 
 ### Should my parents email you about my class performance?
 No.
+
+
+### Why do I have to meet with you if I want to see my test again? Why can't you just release them?
+
+Unfortunately, my tests/quizzes take a long time to make as do the rubrics I use to grade. So although I'm happy to show you both your test and the rubric used to grade it, I can't share those publicly. 
 
 
 ## Online Learning
@@ -148,8 +154,17 @@ Click on 'View Feedback' to view all feedback, including comments and any additi
 
 
 ### How do I accurately check my grades in Canvas?
-To get an accurate view of your final grade, make sure to uncheck the Calculate based only on graded assignments checkbox.
+You're probably familiar with checking your grades for a [current course in Canvas](https://community.canvaslms.com/t5/Student-Guide/How-do-I-view-my-grades-in-a-current-course/ta-p/493), but did you know that you might not be seeing an accurate calculation of your final grade when you check your grades at the end of the semester?
 
+In order to get an accurate view of your final grade towards the end of the semester,
+
+```{r echo = FALSE,out.width='50%', fig.align='center'}
+include_graphics("img/grades.png")
+```
+
+You may also be seeing icons and colors when you view your grades. [Learn what these grade icons and colors mean](https://community.canvaslms.com/docs/DOC-16533-4212829283).
+
+[Note: Answer Adapted from Florida State University Canvas Support](https://support.canvas.fsu.edu/kb/article/1068-students-make-sure-you-are-seeing-the-right-grades-in-canvas/)
 
 ### How do I do this specific thing in Canvas?
 Although I am not canvas tech support, here are some links...
@@ -169,10 +184,17 @@ Although I am not canvas tech support, here are some links...
 
 [How do I set my Canvas notification preferences?](https://community.canvaslms.com/docs/DOC-10624-4212710344)
 
+
+## Course-Specific Questions
+
+### Personality Psychology
+
+#### Is the Final Cumulative?
+
+
 ## Still have questions? 
 Post them in the Discussion Board! I can nearly guarantee, that somebody else wants to know the answer to your question. 
 
 
 ### Why did a question I asked via email show up on the discussion board?
-No one has asked me this question specifically, but... When students email me questions that *should* have been asked on the discussion board, I will forward the email chain to my TA and ask them to post it. 
-
+No one has asked me this question specifically, but... when students email me questions that *should* have been asked on the discussion board, I will forward the email chain to my TA and ask them to post it.
