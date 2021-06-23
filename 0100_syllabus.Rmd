@@ -17,11 +17,6 @@ Welcome. This section includes general syllabus information. The next sections i
 Remember: This course is for you, not for me.
 
 
-<!-- To Do: find a way to embed a pdf in rmarkdown -->
-You can find the [full syllabus](https://github.com/smasongarrison/Syllabi/blob/master/syllabus_datascience.pdf) on my [syllabus git repo](https://github.com/smasongarrison/Syllabi). 
-
-
-
 ## Materials
 
 
@@ -29,7 +24,7 @@ You can find the [full syllabus](https://github.com/smasongarrison/Syllabi/blob/
 
 For all my classes, the textbook is intended to supplement the course. The lectures don't follow the order of chapters in the text and the text covers some material that won't be covered in the lectures, i.e., not all the information in each chapter is perfectly pertinent to the course requirements.
 
-It is merely one of many resources you'll consume. You probably need to consume all of the resources I provide in order to be successful in this class. If you'd like to make the most use of your tuition, I strongly encourage you to consume them all. The course-specific resources can be found on the specific course page.
+It is merely one of many resources you'll consume. You probably need to consume all of the resources I provide in order to be successful in this class. If you'd like to make the most of your tuition, I strongly encourage you to consume them all. The course-specific resources can be found on the specific course page.
 
 ### Hardware
 
