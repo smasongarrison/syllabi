@@ -10,7 +10,7 @@ library(knitr)
 ```
 
 
-# How to do well in my classes {-}
+# How to do well in my classes
 
 To do well in the course, you should read the assigned material before class and re-read previously assigned material as the course progresses. 
 By reading the text before class, you will be better prepared to ask questions and integrate the content of lectures with what was presented in the text. 
