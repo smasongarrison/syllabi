@@ -7,7 +7,7 @@ r-and-rstudio
 git-and-github
 policy-overview
 tentative-class-schedule
-class-engagement-presence-and-participation.
+class-engagement
 life-happens-extensions-and-absences
 excused-absences
 late-work
@@ -157,5 +157,6 @@ personality-psychology
 is-the-final-cumulative
 still-have-questions
 why-did-a-question-i-asked-via-email-show-up-on-the-discussion-board
+how-to-do-well-in-my-classes
 successful-asynchronous-learning
 important-wake-forest-stuff

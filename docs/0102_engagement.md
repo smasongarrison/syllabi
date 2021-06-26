@@ -1,6 +1,6 @@
 
 
-# Class Engagement, Presence, and Participation.
+# Class Engagement
 
 In previous semesters, I have had a deliberately hardline attendance policy. 
 In the light of the public health crisis, I have done away with the this policy, as it doesn't align with my general philosophy of treating students as junior colleagues. 
@@ -35,13 +35,17 @@ An unexcused absence will result in a zero for any graded work that should have 
 ### Late Work
 
 Be sure to pay close attention to deadlines. 
-If an assignment is not submitted by the deadline (i.e., is late), the student must email the instructor and provide a new deadline, ask for an alternative, or explain concerns *within 36 hours hours* of the missed deadline. 
+If an assignment is not submitted by the deadline (i.e., is late), the student must email the instructor and provide a new deadline, ask for an alternative, or explain concerns *within 36 hours* of the missed deadline. 
 Ideally, you will have communicated with me in advance of the deadline, but on occasion life happens. 
 As long as you've communicated *within 36 hours*, I will do my best to work with you to come up with a new deadline or modification, so that you can earn full credit. 
 This late policy does not apply to exams, tests, or quizzes.
 
-If contact is not made *within 36 hours* of the missed deadline, the missing assignment will receive a 0. Alternative deadlines will be within one week of the original deadline. Exceptions to the 1 week policy are at the instructor's discretion. In general, I will be much more sympathetic and accommodating if you communicate in advance. 
+If contact is not made *within 36 hours* of the missed deadline, the missing assignment will receive a 0. 
+Alternative deadlines will be within one week of the original deadline. 
+Exceptions to the 1 week policy are at the instructor's discretion. 
+In general, I am much more sympathetic and accommodating if you communicate in advance. 
 
-It is your responsibility to ensure that the instructor has received the assignment by the established due date and to ensure that the assignment submitted is the complete and correct version. Unless otherwise specified, all work must be submitted through Canvas.
+It is your responsibility to ensure that the instructor has received the assignment by the established due date and to ensure that the assignment submitted is the complete and correct version. 
+Unless otherwise specified, all work must be submitted through Canvas.
 
 Unless you have communicated with me in advance, there will be no make-up quizzes or tests.
