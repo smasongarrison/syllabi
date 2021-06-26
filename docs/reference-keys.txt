@@ -124,13 +124,14 @@ week-14-0426---0430-personality-testing
 week-15-0503---0507-review
 frequently-asked-questions
 how-can-i-get-ahold-of-you
-course-questions
+general-course-questions
 where-can-i-find-when-assignments-are-due
 wherewhat-are-my-grades
 can-you-calculate-my-grade-for-me
 your-curve-is-confusing.-why-cant-you-just-tell-me-my-letter-grade
 can-my-parents-email-you-about-my-class-performance
 should-my-parents-email-you-about-my-class-performance
+why-do-i-have-to-meet-with-you-if-i-want-to-see-my-test-again-why-cant-you-just-release-them
 online-learning
 how-much-time-should-i-spend-on-one-class-every-week
 how-long-are-the-videos
@@ -151,6 +152,9 @@ how-do-i-see-feedback-on-my-assignments-submitted-on-canvas
 how-do-i-accurately-check-my-grades-in-canvas
 how-do-i-do-this-specific-thing-in-canvas
 profile-and-user-settings
+course-specific-questions
+personality-psychology
+is-the-final-cumulative
 still-have-questions
 why-did-a-question-i-asked-via-email-show-up-on-the-discussion-board
 successful-asynchronous-learning

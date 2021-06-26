@@ -3,7 +3,7 @@ title: "Prof. Mason's Syllabi"
 subtitle: "A Snappy Subtitle"
 author: 
 - S. Mason Garrison
-date: "2021-05-30"
+date: "2021-06-26"
 knit: "bookdown::render_book"
 site: bookdown::bookdown_site
 url: 'https\://github.com/DataScience4Psych/DataScience4Psych'

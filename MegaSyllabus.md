@@ -3,7 +3,7 @@ title: "Prof. Mason's Syllabi"
 subtitle: "A Snappy Subtitle"
 author: 
 - S. Mason Garrison
-date: "2021-05-30"
+date: "2021-06-26"
 knit: "bookdown::render_book"
 site: bookdown::bookdown_site
 url: 'https\://github.com/DataScience4Psych/DataScience4Psych'
@@ -953,15 +953,15 @@ This version of the notes was built with:
 #>  collate  English_United States.1252  
 #>  ctype    English_United States.1252  
 #>  tz       America/New_York            
-#>  date     2021-05-30
+#>  date     2021-06-26
 ```
 
 Along with these packages:
 
 
 ```{=html}
-<div id="htmlwidget-bb0efb5c19ab79e8b61a" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-bb0efb5c19ab79e8b61a">{"x":{"filter":"top","filterHTML":"<tr>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n<\/tr>","data":[["askpass","assertthat","backports","base64enc","BH","blob","bookdown","brew","brio","broom","cachem","callr","cellranger","checkmate","cli","clipr","colorspace","commonmark","conflicted","cpp11","crayon","credentials","crosstalk","crul","curl","data.table","DBI","dbplyr","desc","devtools","dichromat","diffobj","digest","dplyr","DT","dtplyr","ellipsis","evaluate","fansi","farver","fastmap","forcats","fs","gapminder","gargle","gender","genderdata","generics","geonames","gert","ggplot2","gh","gitcreds","glue","googledrive","googlesheets4","gridExtra","gt","gtable","haven","highr","hms","htmltools","htmlwidgets","httpcode","httr","ids","ini","isoband","jsonlite","knitr","labeling","later","lattice","lazyeval","lifecycle","lubridate","magrittr","markdown","MASS","Matrix","memoise","mgcv","mime","modelr","munsell","nlme","openssl","pillar","pkgbuild","pkgconfig","pkgload","plyr","praise","prettyunits","processx","progress","promises","ps","purrr","R6","rappdirs","rcmdcheck","RColorBrewer","Rcpp","readr","readxl","rebird","rematch","rematch2","remotes","reprex","reshape2","rjson","rlang","rmarkdown","roxygen2","rplos","rprojroot","rstudioapi","rversions","rvest","sass","scales","selectr","sessioninfo","solrium","stringi","stringr","sys","testthat","tibble","tidyr","tidyselect","tidyverse","tinytex","triebeard","urltools","usethis","utf8","uuid","vctrs","viridis","viridisLite","waldo","whisker","withr","xfun","xml2","xopen","yaml","zip"],[null,"0.2.1","1.2.1",null,null,null,"0.22",null,null,"0.7.6","1.0.4","3.7.0","1.1.0",null,"2.5.0",null,"2.0-0",null,null,null,"1.4.1",null,null,null,null,null,"1.1.1","2.1.1","1.3.0","2.4.1",null,null,"0.6.27","1.0.5","0.18",null,"0.3.2","0.14","0.4.2",null,"1.1.0","0.5.1","1.5.0",null,null,null,null,"0.1.0",null,null,"3.3.3",null,null,"1.4.2",null,null,null,null,"0.3.0","2.4.1",null,"1.0.0","0.5.1.1","1.5.3",null,"1.4.2",null,null,null,"1.7.2","1.33",null,null,null,null,"1.0.0","1.7.10","2.0.1",null,null,null,"2.0.0",null,null,"0.1.8","0.5.0",null,null,"1.6.0","1.2.0","2.0.3","1.2.1",null,null,"1.1.1","3.5.2",null,null,"1.6.0","0.3.4","2.5.0",null,null,null,"1.0.6","1.4.0","1.3.1",null,null,null,"2.3.0","2.0.0",null,null,"0.4.10","2.8",null,null,"2.0.2","0.13",null,"1.0.0","0.3.1","1.1.1",null,"1.1.1",null,"1.5.3","1.4.0",null,"3.0.2","3.1.1","1.1.3","1.1.1","1.3.1",null,null,null,"2.0.1","1.2.1",null,"0.3.8",null,null,null,null,"2.4.2","0.22","1.3.2",null,"2.2.1",null],["2019-01-13","2019-03-21","2020-12-09","2015-07-28","2021-01-11","2020-01-20","2021-04-22","2011-04-13","2021-04-23","2021-04-05","2021-02-13","2021-04-20","2016-07-27","2020-02-06","2021-04-26","2020-10-08","2020-11-11","2018-12-01","2019-06-21","2021-03-29","2021-02-08","2020-07-21","2021-01-12","2021-02-15","2021-04-30","2021-02-21","2021-01-15","2021-04-06","2021-03-05","2021-05-05","2013-01-24","2021-03-22","2020-10-24","2021-03-05","2021-04-14","2021-02-20","2021-04-29","2019-05-28","2021-01-15","2021-02-28","2021-01-25","2021-01-27","2020-07-31","2017-10-31","2021-04-02","2020-05-15","2020-11-17","2020-10-31","2019-02-19","2021-03-29","2020-12-30","2021-04-30","2020-12-04","2020-08-27","2020-05-05","2021-03-04","2017-09-09","2020-08-05","2019-03-25","2021-04-23","2021-04-16","2021-01-13","2021-01-22","2020-12-10","2020-04-10","2020-07-20","2017-05-31","2018-05-20","2021-03-03","2020-12-09","2021-04-24","2020-10-20","2021-04-23","2020-04-02","2019-03-15","2021-02-15","2021-02-26","2020-11-17","2019-08-07","2021-02-12","2021-01-06","2021-01-26","2021-02-16","2021-02-13","2020-05-19","2018-06-12","2021-02-04","2021-04-30","2021-04-13","2020-12-15","2019-09-22","2021-04-06","2020-03-03","2015-08-11","2020-01-24","2021-04-30","2019-05-16","2021-02-11","2021-02-28","2020-04-17","2020-10-28","2021-01-31","2019-05-07","2014-12-07","2021-01-15","2020-10-05","2019-03-13","2021-01-27","2016-04-21","2020-05-01","2021-04-01","2021-04-02","2020-04-09","2018-06-08","2020-12-30","2021-05-07","2020-06-27","2021-02-23","2020-11-15","2020-11-12","2020-05-25","2021-03-09","2021-01-24","2020-05-11","2019-11-20","2018-11-05","2019-11-02","2020-09-09","2019-02-10","2020-07-23","2021-02-14","2021-04-18","2021-03-03","2021-04-30","2021-04-15","2021-03-30","2016-08-04","2019-04-14","2021-02-10","2021-03-12","2020-02-26","2021-04-29","2021-04-15","2021-04-13","2021-03-08","2019-08-28","2021-04-18","2021-03-11","2020-04-23","2018-09-17","2020-02-01","2020-08-27"],["CRAN (R 4.0.0)","CRAN (R 4.0.0)","CRAN (R 4.0.3)","CRAN (R 4.0.0)","CRAN (R 4.0.3)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.2)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","local","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.2)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.2)","CRAN (R 4.0.4)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.2)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.0)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.0)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.2)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.0)","CRAN (R 4.0.3)","CRAN (R 4.0.0)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.2)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.2)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.0)","CRAN (R 4.0.0)","CRAN (R 4.0.2)","CRAN (R 4.0.3)","CRAN (R 4.0.2)","CRAN (R 4.0.0)","CRAN (R 4.0.2)","CRAN (R 4.0.4)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.2)","CRAN (R 4.0.0)","CRAN (R 4.0.3)"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>package<\/th>\n      <th>loadedversion<\/th>\n      <th>date<\/th>\n      <th>source<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":152,"autoWidth":true,"bInfo":false,"paging":false,"order":[],"orderClasses":false,"orderCellsTop":true,"lengthMenu":[10,25,50,100,152]}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-fa7866094052b198f590" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-fa7866094052b198f590">{"x":{"filter":"top","filterHTML":"<tr>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n<\/tr>","data":[["askpass","assertthat","backports","base64enc","BH","blob","bookdown","brew","brio","broom","cachem","callr","cellranger","checkmate","cli","clipr","colorspace","commonmark","conflicted","cpp11","crayon","credentials","crosstalk","crul","curl","data.table","DBI","dbplyr","desc","devtools","dichromat","diffobj","digest","dplyr","DT","dtplyr","ellipsis","evaluate","fansi","farver","fastmap","forcats","fs","gapminder","gargle","gender","genderdata","generics","geonames","gert","ggplot2","gh","gitcreds","glue","googledrive","googlesheets4","gridExtra","gt","gtable","haven","highr","hms","htmltools","htmlwidgets","httpcode","httr","ids","ini","isoband","jsonlite","knitr","labeling","later","lattice","lazyeval","lifecycle","lubridate","magrittr","markdown","MASS","Matrix","memoise","mgcv","mime","modelr","munsell","nlme","openssl","pillar","pkgbuild","pkgconfig","pkgload","plyr","praise","prettyunits","processx","progress","promises","ps","purrr","R6","rappdirs","rcmdcheck","RColorBrewer","Rcpp","readr","readxl","rebird","rematch","rematch2","remotes","reprex","reshape2","rjson","rlang","rmarkdown","roxygen2","rplos","rprojroot","rstudioapi","rversions","rvest","sass","scales","selectr","sessioninfo","solrium","stringi","stringr","sys","testthat","tibble","tidyr","tidyselect","tidyverse","tinytex","triebeard","urltools","usethis","utf8","uuid","vctrs","viridis","viridisLite","waldo","whisker","withr","xfun","xml2","xopen","yaml","zip"],[null,"0.2.1","1.2.1",null,null,null,"0.22",null,null,"0.7.6","1.0.4","3.7.0","1.1.0",null,"2.5.0",null,"2.0-0",null,null,null,"1.4.1",null,null,null,null,null,"1.1.1","2.1.1","1.3.0","2.4.1",null,null,"0.6.27","1.0.5","0.18",null,"0.3.2","0.14","0.4.2",null,"1.1.0","0.5.1","1.5.0",null,null,null,null,"0.1.0",null,null,"3.3.3",null,null,"1.4.2",null,null,null,null,"0.3.0","2.4.1",null,"1.0.0","0.5.1.1","1.5.3",null,"1.4.2",null,null,null,"1.7.2","1.33",null,null,null,null,"1.0.0","1.7.10","2.0.1",null,null,null,"2.0.0",null,null,"0.1.8","0.5.0",null,null,"1.6.0","1.2.0","2.0.3","1.2.1",null,null,"1.1.1","3.5.2",null,null,"1.6.0","0.3.4","2.5.0",null,null,null,"1.0.6","1.4.0","1.3.1",null,null,null,"2.3.0","2.0.0",null,null,"0.4.10","2.8",null,null,"2.0.2","0.13",null,"1.0.0","0.3.1","1.1.1",null,"1.1.1",null,"1.5.3","1.4.0",null,"3.0.2","3.1.1","1.1.3","1.1.1","1.3.1",null,null,null,"2.0.1","1.2.1",null,"0.3.8",null,null,null,null,"2.4.2","0.22","1.3.2",null,"2.2.1",null],["2019-01-13","2019-03-21","2020-12-09","2015-07-28","2021-01-11","2020-01-20","2021-04-22","2011-04-13","2021-04-23","2021-04-05","2021-02-13","2021-04-20","2016-07-27","2020-02-06","2021-04-26","2020-10-08","2020-11-11","2018-12-01","2019-06-21","2021-03-29","2021-02-08","2020-07-21","2021-01-12","2021-02-15","2021-04-30","2021-02-21","2021-01-15","2021-04-06","2021-03-05","2021-05-05","2013-01-24","2021-03-22","2020-10-24","2021-03-05","2021-04-14","2021-02-20","2021-04-29","2019-05-28","2021-01-15","2021-02-28","2021-01-25","2021-01-27","2020-07-31","2017-10-31","2021-04-02","2020-05-15","2020-11-17","2020-10-31","2019-02-19","2021-03-29","2020-12-30","2021-04-30","2020-12-04","2020-08-27","2020-05-05","2021-03-04","2017-09-09","2020-08-05","2019-03-25","2021-04-23","2021-04-16","2021-01-13","2021-01-22","2020-12-10","2020-04-10","2020-07-20","2017-05-31","2018-05-20","2021-03-03","2020-12-09","2021-04-24","2020-10-20","2021-04-23","2020-04-02","2019-03-15","2021-02-15","2021-02-26","2020-11-17","2019-08-07","2021-02-12","2021-01-06","2021-01-26","2021-02-16","2021-02-13","2020-05-19","2018-06-12","2021-02-04","2021-04-30","2021-04-13","2020-12-15","2019-09-22","2021-04-06","2020-03-03","2015-08-11","2020-01-24","2021-04-30","2019-05-16","2021-02-11","2021-02-28","2020-04-17","2020-10-28","2021-01-31","2019-05-07","2014-12-07","2021-01-15","2020-10-05","2019-03-13","2021-01-27","2016-04-21","2020-05-01","2021-04-01","2021-04-02","2020-04-09","2018-06-08","2020-12-30","2021-05-07","2020-06-27","2021-02-23","2020-11-15","2020-11-12","2020-05-25","2021-03-09","2021-01-24","2020-05-11","2019-11-20","2018-11-05","2019-11-02","2020-09-09","2019-02-10","2020-07-23","2021-02-14","2021-04-18","2021-03-03","2021-04-30","2021-04-15","2021-03-30","2016-08-04","2019-04-14","2021-02-10","2021-03-12","2020-02-26","2021-04-29","2021-04-15","2021-04-13","2021-03-08","2019-08-28","2021-04-18","2021-03-11","2020-04-23","2018-09-17","2020-02-01","2020-08-27"],["CRAN (R 4.0.0)","CRAN (R 4.0.0)","CRAN (R 4.0.3)","CRAN (R 4.0.0)","CRAN (R 4.0.3)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.2)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","local","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.2)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.2)","CRAN (R 4.0.4)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.2)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.0)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.0)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.2)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.0)","CRAN (R 4.0.3)","CRAN (R 4.0.0)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.2)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.2)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.0)","CRAN (R 4.0.0)","CRAN (R 4.0.2)","CRAN (R 4.0.3)","CRAN (R 4.0.2)","CRAN (R 4.0.0)","CRAN (R 4.0.2)","CRAN (R 4.0.4)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.2)","CRAN (R 4.0.0)","CRAN (R 4.0.3)"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>package<\/th>\n      <th>loadedversion<\/th>\n      <th>date<\/th>\n      <th>source<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":152,"autoWidth":true,"bInfo":false,"paging":false,"order":[],"orderClasses":false,"orderCellsTop":true,"lengthMenu":[10,25,50,100,152]}},"evals":[],"jsHooks":[]}</script>
 ```
 
 
@@ -1429,11 +1429,6 @@ Welcome. This section includes general syllabus information. The next sections i
 Remember: This course is for you, not for me.
 
 
-<!-- To Do: find a way to embed a pdf in rmarkdown -->
-You can find the [full syllabus](https://github.com/smasongarrison/Syllabi/blob/master/syllabus_datascience.pdf) on my [syllabus git repo](https://github.com/smasongarrison/Syllabi). 
-
-
-
 ## Materials
 
 
@@ -1441,7 +1436,7 @@ You can find the [full syllabus](https://github.com/smasongarrison/Syllabi/blob/
 
 For all my classes, the textbook is intended to supplement the course. The lectures don't follow the order of chapters in the text and the text covers some material that won't be covered in the lectures, i.e., not all the information in each chapter is perfectly pertinent to the course requirements.
 
-It is merely one of many resources you'll consume. You probably need to consume all of the resources I provide in order to be successful in this class. If you'd like to make the most use of your tuition, I strongly encourage you to consume them all. The course-specific resources can be found on the specific course page.
+It is merely one of many resources you'll consume. You probably need to consume all of the resources I provide in order to be successful in this class. If you'd like to make the most of your tuition, I strongly encourage you to consume them all. The course-specific resources can be found on the specific course page.
 
 ### Hardware
 
@@ -1486,31 +1481,56 @@ In this section, I provide specific language for all my course policies.
 
 ## Tentative Class Schedule
 
-This syllabus is intended to give the student guidance in what may be covered during the semester and will be followed as closely as possible. Dates for tests and assignments won't change, barring extraordinary events. However, I reserve the right to modify, supplement and make changes as the course needs arise. I try to avoid changes to the syllabus. Nevertheless, if changes occur, I will only make changes that are less burdensome and more advantageous to the students. (If I make a change that increases your burden, please talk to me.)
-
+This syllabus is intended to give the student guidance in what may be covered during the semester and will be followed as closely as possible. 
+Dates for tests and assignments won't change, barring extraordinary events. 
+However, I reserve the right to modify, supplement, and make changes as the course needs arise. 
+I try to avoid changes to the syllabus. 
+Nevertheless, if changes occur, I will only make changes that are less burdensome and more advantageous to the students. 
+(If I make a change that increases your burden, please talk to me.)
 
 <!--chapter:end:0101_policies.Rmd-->
 
+
+
 # Class Engagement, Presence, and Participation.
 
-In previous semesters, I have had a deliberately hardline attendance policy. In the light of the public health crisis, I have done away with the this policy, as it doesn't align with my general philosophy of treating students as junior colleagues. The student who misses a class meeting is responsible for any assignments and/or announcements made.
+In previous semesters, I have had a deliberately hardline attendance policy. 
+In the light of the public health crisis, I have done away with the this policy, as it doesn't align with my general philosophy of treating students as junior colleagues. 
 
-Class engagement points are given to encourage your active engagement with the material. Specific instructions for engagement, can be found on the class website In general, you will be rewarded with a perfect score as long as you engage meaningfully and intentionally with the material and your peers.
+Class engagement points are given to encourage your active engagement with the material. 
+Specific instructions for engagement, can be found on the class website In general, you will be rewarded with a perfect score as long as you engage meaningfully, intentionally, and professionally with the material and your peers. As a reminder, you are still responsible for any assignments and/or announcements made if you miss a class.
 
 
 ## Life Happens (Extensions and Absences)
 
-As a reasonable and empathetic human, I recognize that life happens. There will be times when your outside life conflicts with scheduled class events. These life events can be any of the obvious things (sports, religious holidays, illness, interviews, etc), but they can also be the less obvious, like spending the entire night looking for your lost pet. My general approach is to work with you. You just need to let me know *ahead* of time. These late policies value discussion and communication over deductions and punishment. It is difficult for me as an instructor to know your situation and reason for lateness (e.g. are you sick? did you lose wifi? struggling with mental health? or just forgot?). Without communication, I will assume that students are choosing not to submit work and do not plan on submitting work. An email will help me better understand your needs and focus on coursework. I'm more than happy to give extensions and accommodations, so don't be afraid to email me. You don't need to disclose personal details (your privacy is important to me), so a heads up or request for assistance is enough.
+As a reasonable and empathetic human, I recognize that life happens. 
+There will be times when your outside life conflicts with scheduled class events. 
+These life events can be any of the obvious things (sports, religious holidays, illness, interviews, etc), but they can also be the less obvious, like spending the entire night looking for your lost pet. 
+My general approach is to work with you. You just need to let me know *ahead* of time. 
+These late policies value discussion and communication over deductions and punishment. 
+It is difficult for me as an instructor to know your situation and reason for lateness (e.g. are you sick? did you lose wifi? struggling with mental health? or just forgot?). 
+Without communication, I will assume that students are choosing not to submit work and do not plan on submitting work. 
+An email will help me better understand your needs and focus on coursework. 
+I'm more than happy to give extensions and accommodations, so don't be afraid to email me. 
+You don't need to disclose personal details (your privacy is important to me), so a heads up or request for assistance is enough.
 
 
 ### Excused absences
 
-Except in the case of *true* emergencies, a possible excused absence should be discussed with me as far in advance as possible and *must* occur beforehand. You should not assume that an excused absence will automatically be granted -- but you may assume that I am a reasonable, empathetic person. This discussion should occur via email. If you also discuss your situation verbally, please send a summary of the discussion via email to me. An unexcused absence will result in a zero for any graded work that should have been performed for or during the missed class. 
+Except in the case of *true* emergencies, a possible excused absence should be discussed with me as far in advance as possible and *must* occur beforehand. 
+You should not assume that an excused absence will automatically be granted -- but you may assume that I am a reasonable, empathetic person. 
+This discussion should occur via email so that we have a record of it.
+If you also discuss your situation verbally, please send a summary of the discussion via email to me. 
+An unexcused absence will result in a zero for any graded work that should have been performed for or during the missed class. 
 
 
 ### Late Work
 
-Be sure to pay close attention to deadlines. If an assignment is not submitted by the deadline (i.e., is late), the student must email the instructor and provide a new deadline, ask for an alternative, or explain concerns *within 36 hours* of the missed deadline. Ideally, you will have communicated with me in advance of the deadline, but on occasion life happens. As long as you've communicated *within 36 hours*, I will do my best to work with you to come up with a new deadline or modification, so that you can receive full credit. This late policy does not apply to exams, tests, or quizzes.
+Be sure to pay close attention to deadlines. 
+If an assignment is not submitted by the deadline (i.e., is late), the student must email the instructor and provide a new deadline, ask for an alternative, or explain concerns *within 36 hours hours* of the missed deadline. 
+Ideally, you will have communicated with me in advance of the deadline, but on occasion life happens. 
+As long as you've communicated *within 36 hours*, I will do my best to work with you to come up with a new deadline or modification, so that you can earn full credit. 
+This late policy does not apply to exams, tests, or quizzes.
 
 If contact is not made *within 36 hours* of the missed deadline, the missing assignment will receive a 0. Alternative deadlines will be within one week of the original deadline. Exceptions to the 1 week policy are at the instructor's discretion. In general, I will be much more sympathetic and accommodating if you communicate in advance. 
 
@@ -1572,11 +1592,14 @@ The Psychology Department values, respects, and celebrates the experiences, beli
 
 # Academic Honesty Policy
 
-In this course, you will be held to the standards of the Wake Forest Honor Code, a code that you pledged to honor when you signed your application for admission to the institution. If you are unfamiliar with the details of this code and how it is administered, you should consult the [Honor System Handbook](https://studentconduct.wfu.edu/honor-system-wfu/). This handbook outlines the University’s expectations for the integrity of your academic work, the procedures for resolving alleged violations of those expectations, and the rights and responsibilities of students and faculty members throughout the process.
+In this course, you will be held to the standards of the Wake Forest Honor Code, a code that you pledged to honor when you signed your application for admission to the institution. 
+If you are unfamiliar with the details of this code and how it is administered, you should consult the [Honor System Handbook](https://studentconduct.wfu.edu/honor-system-wfu/). 
+That handbook outlines the University’s expectations for the integrity of your academic work, the procedures for resolving alleged violations of those expectations, and the rights and responsibilities of students and faculty members throughout the process.
 
 All submitted work must be your own. It is your responsibility to avoid even the appearance of cheating.
 
-Unless I have explicitly stated otherwise, every assessment is closed to outside resources (including, but not limited to books, notes, phones, people, Chegg, the internet). Ignorance of the honor code and assignment instructions is not an acceptable explanation and/or defense. 
+Unless I have explicitly stated otherwise, every assessment is closed to outside resources (including, but not limited to books, notes, phones, people, Chegg, the internet). 
+Ignorance of the honor code and assignment instructions is not an acceptable explanation and/or defense. 
 
 
 ## Violations
@@ -1594,7 +1617,11 @@ Violations of this policy result in a zero for the assignment, my perpetual disa
 
 ## Things that I thought didn't need to be said, but apparently did need to be said.
 
-Everything must be in your own words, regardless of any open-resource policy. Open resources does not mean that you can copy and paste material from the outside sources. Assessments are not scavenger hunts. Assessments are a means for you to demonstrate your own understanding of the material. They are an opportunity to earn points through the demonstration of knowledge. 
+Everything must be in your own words, regardless of any open-resource policy. 
+Open resources does not mean that you can copy and paste material from outside sources (or from course sources) directly into an assessment.
+Assessments are not scavenger hunts. 
+Assessments are a means for you to demonstrate your own understanding of the material. 
+They are an opportunity to earn points through the demonstration of knowledge.
 
 
 ### It is *ALWAYS* academic dishonesty...
@@ -1605,7 +1632,9 @@ It is *ALWAYS* academic dishonesty to post course materials on any third-party w
 
 It is *ALWAYS* academic dishonesty to misrepresent others work as your own.  
 
-It is *ALWAYS* academic dishonesty to work together on tests or quizzes. (And frankly, it is really obvious in Canvas when you work together. I literally wrote a R program that checks for working together on tests. )
+It is *ALWAYS* academic dishonesty to work together on tests or quizzes. 
+(And frankly, it is really obvious in Canvas when you work together. 
+I literally wrote a R program that checks for working together on tests. )
 
 <!--chapter:end:0104_honesty.Rmd-->
 
@@ -2781,6 +2810,7 @@ See Syllabus Website
 
 
 # Frequently Asked Questions
+
 Below you'll find answers to the questions that I get asked the most by students in my classes. I have been asked every single one of these questions.
 
 
@@ -2805,7 +2835,7 @@ Below you'll find answers to the questions that I get asked the most by students
 Credit: [Kiki Schirr](https://kikischirr.medium.com/) at [Tech Doodles](https://medium.com/tech-doodles) on ["Why this millennial didn't answer your call"](https://medium.com/tech-doodles/why-this-millennial-didnt-answer-your-call-d5abccf06cfc)
 
 
-## Course Questions
+## General Course Questions
 If you have a question about the course AND can't find your answer elsewhere (or you find conflicting answers), please post them in the discussion board.
 
 
@@ -2836,6 +2866,11 @@ Unless you are legally a minor, I cannot answer your parents questions about thi
 
 ### Should my parents email you about my class performance?
 No.
+
+
+### Why do I have to meet with you if I want to see my test again? Why can't you just release them?
+
+Unfortunately, my tests/quizzes take a long time to make as do the rubrics I use to grade. So although I'm happy to show you both your test and the rubric used to grade it, I can't share those publicly. 
 
 
 ## Online Learning
@@ -2923,8 +2958,15 @@ Click on 'View Feedback' to view all feedback, including comments and any additi
 
 
 ### How do I accurately check my grades in Canvas?
-To get an accurate view of your final grade, make sure to uncheck the Calculate based only on graded assignments checkbox.
+You're probably familiar with checking your grades for a [current course in Canvas](https://community.canvaslms.com/t5/Student-Guide/How-do-I-view-my-grades-in-a-current-course/ta-p/493), but did you know that you might not be seeing an accurate calculation of your final grade when you check your grades at the end of the semester?
 
+In order to get an accurate view of your final grade towards the end of the semester,
+
+<img src="img/grades.png" width="50%" style="display: block; margin: auto;" />
+
+You may also be seeing icons and colors when you view your grades. [Learn what these grade icons and colors mean](https://community.canvaslms.com/docs/DOC-16533-4212829283).
+
+[Note: Answer Adapted from Florida State University Canvas Support](https://support.canvas.fsu.edu/kb/article/1068-students-make-sure-you-are-seeing-the-right-grades-in-canvas/)
 
 ### How do I do this specific thing in Canvas?
 Although I am not canvas tech support, here are some links...
@@ -2944,13 +2986,20 @@ Although I am not canvas tech support, here are some links...
 
 [How do I set my Canvas notification preferences?](https://community.canvaslms.com/docs/DOC-10624-4212710344)
 
+
+## Course-Specific Questions
+
+### Personality Psychology
+
+#### Is the Final Cumulative?
+
+
 ## Still have questions? 
 Post them in the Discussion Board! I can nearly guarantee, that somebody else wants to know the answer to your question. 
 
 
 ### Why did a question I asked via email show up on the discussion board?
-No one has asked me this question specifically, but... When students email me questions that *should* have been asked on the discussion board, I will forward the email chain to my TA and ask them to post it. 
-
+No one has asked me this question specifically, but... when students email me questions that *should* have been asked on the discussion board, I will forward the email chain to my TA and ask them to post it.
 
 <!--chapter:end:0301_FAQ.Rmd-->
 
