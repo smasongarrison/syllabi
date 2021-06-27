@@ -18,18 +18,18 @@ bib <- c(bib, as.BibEntry(citation()))
 bib[length(bib)]$key = "Rcite"
 
 topic=c(
-  "Introduction and What is Personality", 
+  "What is Personality", 
   "Research Design in Personality",
   "Personality Assessment and Testing Controversies",
-  "How do people differ? Trait Approach (Assignment 1)",
-  "Big Five (Test 1)",
+  "How do people differ? Trait Approach",
+  "Big Five",
   "Personality over the Lifespan",#  "Spring Break",#  "",
   "Biological and Genetic Approaches to Psychology", 
   "Evolutionary Psychology", 
   "Personality Processes",
-  "The Self  (Test 2)", 
+  "The Self", 
   "Freud", 
-  "Positive Psychology  (Assignment 2)", 
+  "Positive Psychology", 
   "Cross-Cultural Psychology",
   "Personality and Health",
   "Special Topics (Assignment 3)" 
