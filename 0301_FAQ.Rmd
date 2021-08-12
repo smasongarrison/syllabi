@@ -184,6 +184,14 @@ Although I am not canvas tech support, here are some links...
 
 [How do I set my Canvas notification preferences?](https://community.canvaslms.com/docs/DOC-10624-4212710344)
 
+## Resources
+
+* Where can I find textbooks and course materisl?
+
+```{r, echo=FALSE}
+include_tweet("https://twitter.com/GaloAndStuff/status/1424818560417902604")
+```
+
 
 ## Course-Specific Questions
 
