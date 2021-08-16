@@ -3,7 +3,7 @@ title: "Prof. Mason's Syllabi"
 subtitle: "A Snappy Subtitle"
 author: 
 - S. Mason Garrison
-date: "2021-06-29"
+date: "2021-08-16"
 knit: "bookdown::render_book"
 site: bookdown::bookdown_site
 url: 'https\://github.com/DataScience4Psych/DataScience4Psych'
@@ -40,62 +40,7 @@ This document is broken down into multiple chapters. Use the table of contents o
 
 
 
-<!--CN4P Links-->
-[ds4p-web]: https://datascience4psych.github.io/DataScience4Psych
-[ds4p-git]: https://github.com/DataScience4Psych/DataScience4Psych
-[ds4p-slides]: https://github.com/DataScience4Psych/slides
 
-[ds4p-pl-00]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYaEAnJX20Ryy4OSie375rVY
-[ds4p-pl-01]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYao_7t5ycK4KDXNKaY-ECup
-[ds4p-pl-02]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYZmr_T3PnuxjVIlj0C0kUNI
-[ds4p-pl-03]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYaHmjzdRvfg0yhOIYQnfjwE
-[ds4p-pl-04]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYYWFcel6_vp8__RUKLxhX4y
-[ds4p-pl-05]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYYMIguiV1F8RagMYibTY4iW
-[ds4p-pl-06]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYYV_KDod3Mk9-RmtFXii9Dv
-[ds4p-pl-07]: https://www.youtube.com/watch?list=PLKrrdtYgOUYZxvEvQ8-PcWrOY_dwY_ETI
-[ds4p-pl-08]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYZgOzYB_dmauw55M7jXvsdo
-[ds4p-pl-09]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYbaiTmldRY2ddsLrHp3z6yO
-[ds4p-pl-10]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYbPw5iYzYEzoOKa7mJKNIhq
-[ds4p-pl-11]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYZ-u6LzBbanrNFoeLHKaLL6
-[ds4p-pl-12]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYbwRS-9Htmb80_t1NG-021e
-[ds4p-pl-13]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYbWGmSnbLIYwdLOnGm6une6
-[ds4p-pl-14]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYbWGmSnbLIYwdLOnGm6une6
-[ds4p-pl-15]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYa5MoYrV8EsWQ5jIr5ZYMpM
-[ds4p-pl-all]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYbWGmSnbLIYwdLOnGm6une6
-
-
-<!--AE. Links-->
-[ae-02-bechdel]: https://github.com/DataScience4Psych/ae-02-bechdel-rmarkdown
-[ae-01a-un-votes]: https://github.com/DataScience4Psych/ae-01a-un-votes
-[ae-01b-covid]: https://github.com/DataScience4Psych/ae-01b-covid
-[ae-03-starwars-dataviz]: https://github.com/DataScience4Psych/ae-03-starwars-dataviz
-
-
-<!-- Lab Links-->
-
-[lab-01-hello]: https://github.com/DataScience4Psych/lab-01-hello-r
-
-<!--Slides-->
-[d01_welcome]: https://datascience4psych.github.io/slides/d01_welcome/d01_welcome.html
-[d02_toolkit]: https://datascience4psych.github.io/slides/d02_toolkit/d02_toolkit.html
-[d03_dataviz]: https://datascience4psych.github.io/slides/d03_dataviz/d03_dataviz.html
-[d04_ggplot2]: https://datascience4psych.github.io/slides/d04_ggplot2/d04_ggplot2.html
-[d05_viznum]: https://datascience4psych.github.io/slides/d05_viznum/d05_viznum.html
-[d06_vizcat]: https://datascience4psych.github.io/slides/d06_vizcat/d06_vizcat.html
-[d07_tidy]: https://datascience4psych.github.io/slides/d07_tidy/d07_tidy.html
-[d08_grammar]: https://datascience4psych.github.io/slides/d08_grammar/d08_grammar.html
-[d09_wrangle]: https://datascience4psych.github.io/slides/d09_wrangle/d09_wrangle.html
-[d10_dfs]: https://datascience4psych.github.io/slides/d10_dfs/d10_dfs.html
-[d11_types]: https://datascience4psych.github.io/slides/d11_types/d11_types.html
-[d12_import]: https://datascience4psych.github.io/slides/d12_import/d12_import.html
-[d13_goodviz]: https://datascience4psych.github.io/slides/d13_goodviz/d13_goodviz.html
-[d13b_moreggplot]: https://datascience4psych.github.io/slides/d13_goodviz/d13b_moreggplot.html
-[d14_confound]: https://datascience4psych.github.io/slides/d14_confound/d14_confound.html
-[d15_goodtalk]: https://datascience4psych.github.io/slides/d15_goodtalk/d15_goodtalk.html
-[d16_webscraping]: https://datascience4psych.github.io/slides/d16_webscraping/d16_webscraping.html
-[d17_functions]: https://datascience4psych.github.io/slides/d17_functions/d17_functions.html
-[d18_ethics]: https://datascience4psych.github.io/slides/d18_ethics/d18_ethics.html
-[d19_bias]: https://datascience4psych.github.io/slides/d19_bias/d19_bias.html
 <!--R Links-->
 [cran]: https://cloud.r-project.org
 [cran-faq]: https://cran.r-project.org/faqs.html
@@ -455,62 +400,7 @@ This document is broken down into multiple chapters. Use the table of contents o
 
 
 
-<!--CN4P Links-->
-[ds4p-web]: https://datascience4psych.github.io/DataScience4Psych
-[ds4p-git]: https://github.com/DataScience4Psych/DataScience4Psych
-[ds4p-slides]: https://github.com/DataScience4Psych/slides
 
-[ds4p-pl-00]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYaEAnJX20Ryy4OSie375rVY
-[ds4p-pl-01]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYao_7t5ycK4KDXNKaY-ECup
-[ds4p-pl-02]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYZmr_T3PnuxjVIlj0C0kUNI
-[ds4p-pl-03]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYaHmjzdRvfg0yhOIYQnfjwE
-[ds4p-pl-04]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYYWFcel6_vp8__RUKLxhX4y
-[ds4p-pl-05]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYYMIguiV1F8RagMYibTY4iW
-[ds4p-pl-06]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYYV_KDod3Mk9-RmtFXii9Dv
-[ds4p-pl-07]: https://www.youtube.com/watch?list=PLKrrdtYgOUYZxvEvQ8-PcWrOY_dwY_ETI
-[ds4p-pl-08]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYZgOzYB_dmauw55M7jXvsdo
-[ds4p-pl-09]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYbaiTmldRY2ddsLrHp3z6yO
-[ds4p-pl-10]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYbPw5iYzYEzoOKa7mJKNIhq
-[ds4p-pl-11]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYZ-u6LzBbanrNFoeLHKaLL6
-[ds4p-pl-12]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYbwRS-9Htmb80_t1NG-021e
-[ds4p-pl-13]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYbWGmSnbLIYwdLOnGm6une6
-[ds4p-pl-14]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYbWGmSnbLIYwdLOnGm6une6
-[ds4p-pl-15]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYa5MoYrV8EsWQ5jIr5ZYMpM
-[ds4p-pl-all]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYbWGmSnbLIYwdLOnGm6une6
-
-
-<!--AE. Links-->
-[ae-02-bechdel]: https://github.com/DataScience4Psych/ae-02-bechdel-rmarkdown
-[ae-01a-un-votes]: https://github.com/DataScience4Psych/ae-01a-un-votes
-[ae-01b-covid]: https://github.com/DataScience4Psych/ae-01b-covid
-[ae-03-starwars-dataviz]: https://github.com/DataScience4Psych/ae-03-starwars-dataviz
-
-
-<!-- Lab Links-->
-
-[lab-01-hello]: https://github.com/DataScience4Psych/lab-01-hello-r
-
-<!--Slides-->
-[d01_welcome]: https://datascience4psych.github.io/slides/d01_welcome/d01_welcome.html
-[d02_toolkit]: https://datascience4psych.github.io/slides/d02_toolkit/d02_toolkit.html
-[d03_dataviz]: https://datascience4psych.github.io/slides/d03_dataviz/d03_dataviz.html
-[d04_ggplot2]: https://datascience4psych.github.io/slides/d04_ggplot2/d04_ggplot2.html
-[d05_viznum]: https://datascience4psych.github.io/slides/d05_viznum/d05_viznum.html
-[d06_vizcat]: https://datascience4psych.github.io/slides/d06_vizcat/d06_vizcat.html
-[d07_tidy]: https://datascience4psych.github.io/slides/d07_tidy/d07_tidy.html
-[d08_grammar]: https://datascience4psych.github.io/slides/d08_grammar/d08_grammar.html
-[d09_wrangle]: https://datascience4psych.github.io/slides/d09_wrangle/d09_wrangle.html
-[d10_dfs]: https://datascience4psych.github.io/slides/d10_dfs/d10_dfs.html
-[d11_types]: https://datascience4psych.github.io/slides/d11_types/d11_types.html
-[d12_import]: https://datascience4psych.github.io/slides/d12_import/d12_import.html
-[d13_goodviz]: https://datascience4psych.github.io/slides/d13_goodviz/d13_goodviz.html
-[d13b_moreggplot]: https://datascience4psych.github.io/slides/d13_goodviz/d13b_moreggplot.html
-[d14_confound]: https://datascience4psych.github.io/slides/d14_confound/d14_confound.html
-[d15_goodtalk]: https://datascience4psych.github.io/slides/d15_goodtalk/d15_goodtalk.html
-[d16_webscraping]: https://datascience4psych.github.io/slides/d16_webscraping/d16_webscraping.html
-[d17_functions]: https://datascience4psych.github.io/slides/d17_functions/d17_functions.html
-[d18_ethics]: https://datascience4psych.github.io/slides/d18_ethics/d18_ethics.html
-[d19_bias]: https://datascience4psych.github.io/slides/d19_bias/d19_bias.html
 <!--R Links-->
 [cran]: https://cloud.r-project.org
 [cran-faq]: https://cran.r-project.org/faqs.html
@@ -953,15 +843,15 @@ This version of the notes was built with:
 #>  collate  English_United States.1252  
 #>  ctype    English_United States.1252  
 #>  tz       America/New_York            
-#>  date     2021-06-29
+#>  date     2021-08-16
 ```
 
 Along with these packages:
 
 
 ```{=html}
-<div id="htmlwidget-66c0f97703f6b8711caf" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-66c0f97703f6b8711caf">{"x":{"filter":"top","filterHTML":"<tr>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n<\/tr>","data":[["askpass","assertthat","backports","base64enc","BH","blob","bookdown","brew","brio","broom","cachem","callr","cellranger","checkmate","cli","clipr","colorspace","commonmark","conflicted","cpp11","crayon","credentials","crosstalk","crul","curl","data.table","DBI","dbplyr","desc","devtools","dichromat","diffobj","digest","dplyr","DT","dtplyr","ellipsis","evaluate","fansi","farver","fastmap","forcats","fs","gapminder","gargle","gender","genderdata","generics","geonames","gert","ggplot2","gh","gitcreds","glue","googledrive","googlesheets4","gridExtra","gt","gtable","haven","highr","hms","htmltools","htmlwidgets","httpcode","httr","ids","ini","isoband","jsonlite","knitr","labeling","later","lattice","lazyeval","lifecycle","lubridate","magrittr","markdown","MASS","Matrix","memoise","mgcv","mime","modelr","munsell","nlme","openssl","pillar","pkgbuild","pkgconfig","pkgload","plyr","praise","prettyunits","processx","progress","promises","ps","purrr","R6","rappdirs","rcmdcheck","RColorBrewer","Rcpp","readr","readxl","rebird","rematch","rematch2","remotes","reprex","reshape2","rjson","rlang","rmarkdown","roxygen2","rplos","rprojroot","rstudioapi","rversions","rvest","sass","scales","selectr","sessioninfo","solrium","stringi","stringr","sys","testthat","tibble","tidyr","tidyselect","tidyverse","tinytex","triebeard","urltools","usethis","utf8","uuid","vctrs","viridis","viridisLite","waldo","whisker","withr","xfun","xml2","xopen","yaml","zip"],[null,"0.2.1","1.2.1",null,null,null,"0.22",null,null,"0.7.6","1.0.4","3.7.0","1.1.0",null,"2.5.0",null,"2.0-0",null,null,null,"1.4.1",null,null,null,null,null,"1.1.1","2.1.1","1.3.0","2.4.1",null,null,"0.6.27","1.0.5","0.18",null,"0.3.2","0.14","0.4.2",null,"1.1.0","0.5.1","1.5.0",null,null,null,null,"0.1.0",null,null,"3.3.3",null,null,"1.4.2",null,null,null,null,"0.3.0","2.4.1",null,"1.0.0","0.5.1.1","1.5.3",null,"1.4.2",null,null,null,"1.7.2","1.33",null,null,null,null,"1.0.0","1.7.10","2.0.1",null,null,null,"2.0.0",null,null,"0.1.8","0.5.0",null,null,"1.6.0","1.2.0","2.0.3","1.2.1",null,null,"1.1.1","3.5.2",null,null,"1.6.0","0.3.4","2.5.0",null,null,null,"1.0.6","1.4.0","1.3.1",null,null,null,"2.3.0","2.0.0",null,null,"0.4.10","2.8",null,null,"2.0.2","0.13",null,"1.0.0","0.3.1","1.1.1",null,"1.1.1",null,"1.5.3","1.4.0",null,"3.0.2","3.1.1","1.1.3","1.1.1","1.3.1",null,null,null,"2.0.1","1.2.1",null,"0.3.8",null,null,null,null,"2.4.2","0.24","1.3.2",null,"2.2.1",null],["2019-01-13","2019-03-21","2020-12-09","2015-07-28","2021-01-11","2020-01-20","2021-04-22","2011-04-13","2021-04-23","2021-04-05","2021-02-13","2021-04-20","2016-07-27","2020-02-06","2021-04-26","2020-10-08","2020-11-11","2018-12-01","2019-06-21","2021-03-29","2021-02-08","2020-07-21","2021-01-12","2021-02-15","2021-04-30","2021-02-21","2021-01-15","2021-04-06","2021-03-05","2021-05-05","2013-01-24","2021-03-22","2020-10-24","2021-03-05","2021-04-14","2021-02-20","2021-04-29","2019-05-28","2021-01-15","2021-02-28","2021-01-25","2021-01-27","2020-07-31","2017-10-31","2021-04-02","2020-05-15","2020-11-17","2020-10-31","2019-02-19","2021-03-29","2020-12-30","2021-04-30","2020-12-04","2020-08-27","2020-05-05","2021-03-04","2017-09-09","2020-08-05","2019-03-25","2021-04-23","2021-04-16","2021-01-13","2021-01-22","2020-12-10","2020-04-10","2020-07-20","2017-05-31","2018-05-20","2021-03-03","2020-12-09","2021-04-24","2020-10-20","2021-04-23","2020-04-02","2019-03-15","2021-02-15","2021-02-26","2020-11-17","2019-08-07","2021-02-12","2021-01-06","2021-01-26","2021-02-16","2021-02-13","2020-05-19","2018-06-12","2021-02-04","2021-04-30","2021-04-13","2020-12-15","2019-09-22","2021-04-06","2020-03-03","2015-08-11","2020-01-24","2021-04-30","2019-05-16","2021-02-11","2021-02-28","2020-04-17","2020-10-28","2021-01-31","2019-05-07","2014-12-07","2021-01-15","2020-10-05","2019-03-13","2021-01-27","2016-04-21","2020-05-01","2021-04-01","2021-04-02","2020-04-09","2018-06-08","2020-12-30","2021-05-07","2020-06-27","2021-02-23","2020-11-15","2020-11-12","2020-05-25","2021-03-09","2021-01-24","2020-05-11","2019-11-20","2018-11-05","2019-11-02","2020-09-09","2019-02-10","2020-07-23","2021-02-14","2021-04-18","2021-03-03","2021-04-30","2021-04-15","2021-05-29","2016-08-04","2019-04-14","2021-02-10","2021-03-12","2020-02-26","2021-04-29","2021-04-15","2021-04-13","2021-03-08","2019-08-28","2021-04-18","2021-06-15","2020-04-23","2018-09-17","2020-02-01","2020-08-27"],["CRAN (R 4.0.0)","CRAN (R 4.0.0)","CRAN (R 4.0.3)","CRAN (R 4.0.0)","CRAN (R 4.0.3)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.2)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","local","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.2)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.2)","CRAN (R 4.0.4)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.2)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.0)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.0)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.2)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.0)","CRAN (R 4.0.3)","CRAN (R 4.0.0)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.2)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.2)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.0)","CRAN (R 4.0.0)","CRAN (R 4.0.2)","CRAN (R 4.0.3)","CRAN (R 4.0.2)","CRAN (R 4.0.0)","CRAN (R 4.0.2)","CRAN (R 4.0.4)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.2)","CRAN (R 4.0.0)","CRAN (R 4.0.3)"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>package<\/th>\n      <th>loadedversion<\/th>\n      <th>date<\/th>\n      <th>source<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":152,"autoWidth":true,"bInfo":false,"paging":false,"order":[],"orderClasses":false,"orderCellsTop":true,"lengthMenu":[10,25,50,100,152]}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-b13c4c71236213d33068" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-b13c4c71236213d33068">{"x":{"filter":"top","filterHTML":"<tr>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n<\/tr>","data":[["askpass","assertthat","backports","base64enc","bit","bit64","bitops","blob","bookdown","brew","brio","broom","cachem","callr","cellranger","checkmate","cli","clipr","colorspace","commonmark","conflicted","cpp11","crayon","credentials","crosstalk","crul","curl","data.table","DBI","dbplyr","desc","devtools","dichromat","diffobj","digest","dplyr","DT","dtplyr","ellipsis","evaluate","fansi","farver","fastmap","forcats","fs","gapminder","gargle","gender","genderdata","generics","geonames","gert","ggplot2","gh","gitcreds","glue","googledrive","googlesheets4","gridExtra","gt","gtable","haven","highr","hms","htmltools","htmlwidgets","httpcode","httr","ids","ini","isoband","jsonlite","knitr","labeling","later","lattice","lazyeval","lifecycle","lubridate","magrittr","markdown","MASS","Matrix","memoise","mgcv","mime","modelr","munsell","nlme","openssl","pillar","pkgbuild","pkgconfig","pkgload","plyr","praise","prettyunits","processx","progress","promises","ps","purrr","R6","rappdirs","rcmdcheck","RColorBrewer","Rcpp","readr","readxl","rebird","rematch","rematch2","remotes","reprex","reshape2","rjson","rlang","rmarkdown","roxygen2","rplos","rprojroot","rstudioapi","rversions","rvest","sass","scales","selectr","sessioninfo","solrium","stringi","stringr","sys","testthat","tibble","tidyr","tidyselect","tidyverse","tinytex","triebeard","tzdb","urltools","usethis","utf8","uuid","vctrs","viridis","viridisLite","vroom","waldo","whisker","withr","xfun","xml2","xopen","yaml","zip"],[null,"0.2.1","1.2.1",null,null,null,null,null,"0.22",null,null,"0.7.9","1.0.5","3.7.0","1.1.0",null,"3.0.1",null,"2.0-2",null,null,null,"1.4.1",null,null,null,null,null,"1.1.1","2.1.1","1.3.0","2.4.2",null,null,"0.6.27","1.0.7","0.18",null,"0.3.2","0.14","0.5.0",null,"1.1.0","0.5.1","1.5.0",null,null,null,null,"0.1.0",null,null,"3.3.5",null,null,"1.4.2",null,null,null,null,"0.3.0","2.4.3",null,"1.1.0","0.5.1.1","1.5.3",null,"1.4.2",null,null,null,"1.7.2","1.33",null,null,null,null,"1.0.0","1.7.10","2.0.1",null,null,null,"2.0.0",null,null,"0.1.8","0.5.0",null,null,"1.6.2","1.2.0","2.0.3","1.2.1",null,null,"1.1.1","3.5.2",null,null,"1.6.0","0.3.4","2.5.0",null,null,null,"1.0.7","2.0.0","1.3.1",null,null,null,"2.4.0","2.0.1",null,null,"0.4.10","2.10",null,null,"2.0.2","0.13",null,"1.0.1","0.4.0","1.1.1",null,"1.1.1",null,"1.7.3","1.4.0",null,"3.0.4","3.1.3","1.1.3","1.1.1","1.3.1",null,null,"0.1.2",null,"2.0.1","1.2.2",null,"0.3.8",null,null,null,null,null,"2.4.2","0.24","1.3.2",null,"2.2.1",null],["2019-01-13","2019-03-21","2020-12-09","2015-07-28","2020-08-04","2020-08-30","2021-04-24","2021-07-23","2021-04-22","2011-04-13","2021-04-23","2021-07-27","2021-05-15","2021-04-20","2016-07-27","2020-02-06","2021-07-17","2020-10-08","2021-06-24","2018-12-01","2019-06-21","2021-06-25","2021-02-08","2021-07-25","2021-01-12","2021-02-15","2021-06-23","2021-02-21","2021-01-15","2021-04-06","2021-03-05","2021-06-07","2013-01-24","2021-03-22","2020-10-24","2021-06-18","2021-04-14","2021-02-20","2021-04-29","2019-05-28","2021-05-25","2021-02-28","2021-01-25","2021-01-27","2020-07-31","2017-10-31","2021-07-02","2020-05-15","2020-11-17","2020-10-31","2019-02-19","2021-06-23","2021-06-25","2021-04-30","2020-12-04","2020-08-27","2021-07-08","2021-07-21","2017-09-09","2021-05-12","2019-03-25","2021-08-04","2021-04-16","2021-05-17","2021-01-22","2020-12-10","2020-04-10","2020-07-20","2017-05-31","2018-05-20","2021-07-13","2020-12-09","2021-04-24","2020-10-20","2021-04-23","2020-04-02","2019-03-15","2021-02-15","2021-02-26","2020-11-17","2019-08-07","2021-02-12","2021-01-06","2021-01-26","2021-02-16","2021-06-23","2020-05-19","2018-06-12","2021-02-04","2021-04-30","2021-07-29","2020-12-15","2019-09-22","2021-04-06","2020-03-03","2015-08-11","2020-01-24","2021-04-30","2019-05-16","2021-02-11","2021-02-28","2020-04-17","2020-10-28","2021-01-31","2019-05-07","2014-12-07","2021-07-07","2021-07-20","2019-03-13","2021-01-27","2016-04-21","2020-05-01","2021-06-02","2021-08-05","2020-04-09","2018-06-08","2020-12-30","2021-08-06","2020-06-27","2021-02-23","2020-11-15","2020-11-12","2021-05-31","2021-07-26","2021-05-12","2020-05-11","2019-11-20","2018-11-05","2021-05-19","2021-07-16","2019-02-10","2020-07-23","2021-07-01","2021-07-23","2021-03-03","2021-04-30","2021-04-15","2021-08-05","2016-08-04","2021-07-20","2019-04-14","2021-02-10","2021-07-24","2020-02-26","2021-04-29","2021-05-11","2021-04-13","2021-08-05","2021-03-08","2019-08-28","2021-04-18","2021-06-15","2020-04-23","2018-09-17","2020-02-01","2021-05-31"],["CRAN (R 4.0.0)","CRAN (R 4.0.0)","CRAN (R 4.0.3)","CRAN (R 4.0.0)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.2)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","local","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.2)","CRAN (R 4.0.4)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.2)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.0)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.0)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.2)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.3)","CRAN (R 4.0.0)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.2)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.0)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.2)","CRAN (R 4.0.0)","CRAN (R 4.0.5)"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>package<\/th>\n      <th>loadedversion<\/th>\n      <th>date<\/th>\n      <th>source<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":156,"autoWidth":true,"bInfo":false,"paging":false,"order":[],"orderClasses":false,"orderCellsTop":true,"lengthMenu":[10,25,50,100,156]}},"evals":[],"jsHooks":[]}</script>
 ```
 
 
@@ -978,7 +868,7 @@ The R session information when compiling this book is shown below:
 sessionInfo()
 #> R version 4.0.5 (2021-03-31)
 #> Platform: x86_64-w64-mingw32/x64 (64-bit)
-#> Running under: Windows 10 x64 (build 19042)
+#> Running under: Windows 10 x64 (build 19043)
 #> 
 #> Matrix products: default
 #> 
@@ -993,13 +883,13 @@ sessionInfo()
 #> [1] stats     graphics  grDevices utils     datasets  methods   base     
 #> 
 #> other attached packages:
-#>  [1] DT_0.18         devtools_2.4.1  usethis_2.0.1   forcats_0.5.1  
-#>  [5] stringr_1.4.0   dplyr_1.0.5     purrr_0.3.4     readr_1.4.0    
-#>  [9] tidyr_1.1.3     tibble_3.1.1    ggplot2_3.3.3   tidyverse_1.3.1
+#>  [1] DT_0.18         devtools_2.4.2  usethis_2.0.1   forcats_0.5.1  
+#>  [5] stringr_1.4.0   dplyr_1.0.7     purrr_0.3.4     readr_2.0.0    
+#>  [9] tidyr_1.1.3     tibble_3.1.3    ggplot2_3.3.5   tidyverse_1.3.1
 #> [13] knitr_1.33      vembedr_0.1.4   tweetrmd_0.0.8 
 #> 
 #> loaded via a namespace (and not attached):
-#> [1] tools_4.0.5       bookdown_0.22     rmarkdown_2.8     htmltools_0.5.1.1
+#> [1] tools_4.0.5       bookdown_0.22     rmarkdown_2.10    htmltools_0.5.1.1
 #> [5] shiny_1.6.0       miniUI_0.1.1.1
 ```
 
@@ -1016,62 +906,7 @@ sessionInfo()
 
 
 
-<!--CN4P Links-->
-[ds4p-web]: https://datascience4psych.github.io/DataScience4Psych
-[ds4p-git]: https://github.com/DataScience4Psych/DataScience4Psych
-[ds4p-slides]: https://github.com/DataScience4Psych/slides
 
-[ds4p-pl-00]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYaEAnJX20Ryy4OSie375rVY
-[ds4p-pl-01]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYao_7t5ycK4KDXNKaY-ECup
-[ds4p-pl-02]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYZmr_T3PnuxjVIlj0C0kUNI
-[ds4p-pl-03]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYaHmjzdRvfg0yhOIYQnfjwE
-[ds4p-pl-04]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYYWFcel6_vp8__RUKLxhX4y
-[ds4p-pl-05]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYYMIguiV1F8RagMYibTY4iW
-[ds4p-pl-06]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYYV_KDod3Mk9-RmtFXii9Dv
-[ds4p-pl-07]: https://www.youtube.com/watch?list=PLKrrdtYgOUYZxvEvQ8-PcWrOY_dwY_ETI
-[ds4p-pl-08]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYZgOzYB_dmauw55M7jXvsdo
-[ds4p-pl-09]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYbaiTmldRY2ddsLrHp3z6yO
-[ds4p-pl-10]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYbPw5iYzYEzoOKa7mJKNIhq
-[ds4p-pl-11]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYZ-u6LzBbanrNFoeLHKaLL6
-[ds4p-pl-12]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYbwRS-9Htmb80_t1NG-021e
-[ds4p-pl-13]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYbWGmSnbLIYwdLOnGm6une6
-[ds4p-pl-14]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYbWGmSnbLIYwdLOnGm6une6
-[ds4p-pl-15]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYa5MoYrV8EsWQ5jIr5ZYMpM
-[ds4p-pl-all]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYbWGmSnbLIYwdLOnGm6une6
-
-
-<!--AE. Links-->
-[ae-02-bechdel]: https://github.com/DataScience4Psych/ae-02-bechdel-rmarkdown
-[ae-01a-un-votes]: https://github.com/DataScience4Psych/ae-01a-un-votes
-[ae-01b-covid]: https://github.com/DataScience4Psych/ae-01b-covid
-[ae-03-starwars-dataviz]: https://github.com/DataScience4Psych/ae-03-starwars-dataviz
-
-
-<!-- Lab Links-->
-
-[lab-01-hello]: https://github.com/DataScience4Psych/lab-01-hello-r
-
-<!--Slides-->
-[d01_welcome]: https://datascience4psych.github.io/slides/d01_welcome/d01_welcome.html
-[d02_toolkit]: https://datascience4psych.github.io/slides/d02_toolkit/d02_toolkit.html
-[d03_dataviz]: https://datascience4psych.github.io/slides/d03_dataviz/d03_dataviz.html
-[d04_ggplot2]: https://datascience4psych.github.io/slides/d04_ggplot2/d04_ggplot2.html
-[d05_viznum]: https://datascience4psych.github.io/slides/d05_viznum/d05_viznum.html
-[d06_vizcat]: https://datascience4psych.github.io/slides/d06_vizcat/d06_vizcat.html
-[d07_tidy]: https://datascience4psych.github.io/slides/d07_tidy/d07_tidy.html
-[d08_grammar]: https://datascience4psych.github.io/slides/d08_grammar/d08_grammar.html
-[d09_wrangle]: https://datascience4psych.github.io/slides/d09_wrangle/d09_wrangle.html
-[d10_dfs]: https://datascience4psych.github.io/slides/d10_dfs/d10_dfs.html
-[d11_types]: https://datascience4psych.github.io/slides/d11_types/d11_types.html
-[d12_import]: https://datascience4psych.github.io/slides/d12_import/d12_import.html
-[d13_goodviz]: https://datascience4psych.github.io/slides/d13_goodviz/d13_goodviz.html
-[d13b_moreggplot]: https://datascience4psych.github.io/slides/d13_goodviz/d13b_moreggplot.html
-[d14_confound]: https://datascience4psych.github.io/slides/d14_confound/d14_confound.html
-[d15_goodtalk]: https://datascience4psych.github.io/slides/d15_goodtalk/d15_goodtalk.html
-[d16_webscraping]: https://datascience4psych.github.io/slides/d16_webscraping/d16_webscraping.html
-[d17_functions]: https://datascience4psych.github.io/slides/d17_functions/d17_functions.html
-[d18_ethics]: https://datascience4psych.github.io/slides/d18_ethics/d18_ethics.html
-[d19_bias]: https://datascience4psych.github.io/slides/d19_bias/d19_bias.html
 <!--R Links-->
 [cran]: https://cloud.r-project.org
 [cran-faq]: https://cran.r-project.org/faqs.html
@@ -1556,11 +1391,15 @@ Unless you have communicated with me in advance, there will be no make-up quizze
 
 # Accommodations Policy
 
-If you are (or become) disabled (in any capacity, permanently, or temporarily), and need accommodations in class, reading, or any other work in this course, please contact me to discuss your specific needs as soon as possible. Under the Americans with Disabilities Act, you are legally entitled to reasonable accommodations for disabilities. I will do everything in my capacity as your professor to ensure that you receive those accommodations. 
+If you are (or become) disabled (in any capacity, permanently, or temporarily), and need accommodations in class, reading, or any other work in this course, please contact me to discuss your specific needs as soon as possible. 
+Under the [Americans with Disabilities Act (ADA) of 1990](https://www.dol.gov/general/topic/disability/ada) and [ADA Amendments Act (ADAAA) of 2008](https://en.wikipedia.org/wiki/ADA_Amendments_Act_of_2008), you are legally entitled to reasonable accommodations for disabilities. 
+I will do everything in my capacity as your professor to ensure that you receive those accommodations. 
 
 Students who need reasonable accommodations for disabilities also should contact the Learning Assistance Center \& Disability Services  (118 Reynolda Hall, 336-758-5929,  [lac.wfu.edu](https://lac.wfu.edu/)). These accommodations are not retroactive.  Therefore, I strongly encourage you to use those accommodations. 
 
-Do not feel guilty about using them. You rightfully deserve them, in the legal, moral, and ethical sense. These accommodations are there so that you can be your best possible self. 
+Do not feel guilty about using them. 
+You rightfully deserve them, in the legal, moral, and ethical sense. 
+These accommodations are there so that you can be your best possible self. 
 
 
 ## Self-Advocacy
@@ -1569,7 +1408,10 @@ At Wake Forest and at many other places, the expectation is that you will self-a
 
 As a student, you may not know what accommodations work best for you. Or you may find that your current accommodations don't work like they used to. 
 
-As you journey thru your career, you may find that you need different kinds of accommodations. Or at least that has been my experience... There are numerous resources for ideas. My personal favorite is [JAN](https://askjan.org/). Technically, JAN (Job Accommodation Network) is focused on employment and jobs. However, I still have found this to be a wonderful resource for ideas. You can [search for accommodation ideas](https://askjan.org/soar.cfm) by [specific](https://askjan.org/a-to-z.cfm):
+As you journey thru your career, you may find that you need different kinds of accommodations. Or at least that has been my experience... There are numerous resources for ideas. 
+My personal favorite is [JAN](https://askjan.org/). Technically, JAN (Job Accommodation Network) is focused on employment and jobs. 
+However, I still have found this to be a wonderful resource for ideas. 
+You can [search for accommodation ideas](https://askjan.org/soar.cfm) by [specific](https://askjan.org/a-to-z.cfm):
 
   - disability,
   - limitation,
@@ -1585,7 +1427,7 @@ As you journey thru your career, you may find that you need different kinds of a
 
 # Classroom Climate
 
-I aim to create a learning environment for my students that supports a diversity of thoughts, perspectives, and experiences, and honors your identities (including but not limited to race, ethnicity, sex, gender, gender-identity, class, sexual orientation, religion, ability, political affiliation) To help accomplish this:
+I aim to create a learning environment for my students that supports a diversity of thoughts, perspectives, and experiences, and honors your identities (including but not limited to race, ethnicity, sex, gender, gender-identity, class, sexual orientation, religion, ability, political affiliation). To help accomplish this:
 
 - If you have a name and/or set of pronouns that differ from those that appear in your official records, please let me know!
 
@@ -1711,7 +1553,6 @@ Students are advised that Wake Forest University faculty members hold the copyri
 
 At the request of my university, I have included the following information related to public health.
 
-
 > We share responsibility for the health and safety of each other in a learning space. Maintaining a consistent six feet of distance; wearing face coverings that cover our mouths and noses; limiting our gathering sizes; and isolating or quarantining when ill or exposed to someone with the virus are Wake Forest University directives and policies we all must follow. Students are encouraged to visit [Our Way Forward](https://ourwayforward.wfu.edu/) to stay informed about the latest guidance and review the [Public Health Emergency Addendum to the Student Code of Conduct](https://studentconduct.wfu.edu/undergraduate-student-handbook/public-health-emergency-addendum/).  
 >
 > Specifically, in this room, we will mitigate the risks of virus transfer and take care of our community by abiding by the following safety directives: 
@@ -1736,62 +1577,7 @@ At the request of my university, I have included the following information relat
 
 
 
-<!--CN4P Links-->
-[ds4p-web]: https://datascience4psych.github.io/DataScience4Psych
-[ds4p-git]: https://github.com/DataScience4Psych/DataScience4Psych
-[ds4p-slides]: https://github.com/DataScience4Psych/slides
 
-[ds4p-pl-00]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYaEAnJX20Ryy4OSie375rVY
-[ds4p-pl-01]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYao_7t5ycK4KDXNKaY-ECup
-[ds4p-pl-02]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYZmr_T3PnuxjVIlj0C0kUNI
-[ds4p-pl-03]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYaHmjzdRvfg0yhOIYQnfjwE
-[ds4p-pl-04]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYYWFcel6_vp8__RUKLxhX4y
-[ds4p-pl-05]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYYMIguiV1F8RagMYibTY4iW
-[ds4p-pl-06]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYYV_KDod3Mk9-RmtFXii9Dv
-[ds4p-pl-07]: https://www.youtube.com/watch?list=PLKrrdtYgOUYZxvEvQ8-PcWrOY_dwY_ETI
-[ds4p-pl-08]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYZgOzYB_dmauw55M7jXvsdo
-[ds4p-pl-09]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYbaiTmldRY2ddsLrHp3z6yO
-[ds4p-pl-10]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYbPw5iYzYEzoOKa7mJKNIhq
-[ds4p-pl-11]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYZ-u6LzBbanrNFoeLHKaLL6
-[ds4p-pl-12]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYbwRS-9Htmb80_t1NG-021e
-[ds4p-pl-13]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYbWGmSnbLIYwdLOnGm6une6
-[ds4p-pl-14]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYbWGmSnbLIYwdLOnGm6une6
-[ds4p-pl-15]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYa5MoYrV8EsWQ5jIr5ZYMpM
-[ds4p-pl-all]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYbWGmSnbLIYwdLOnGm6une6
-
-
-<!--AE. Links-->
-[ae-02-bechdel]: https://github.com/DataScience4Psych/ae-02-bechdel-rmarkdown
-[ae-01a-un-votes]: https://github.com/DataScience4Psych/ae-01a-un-votes
-[ae-01b-covid]: https://github.com/DataScience4Psych/ae-01b-covid
-[ae-03-starwars-dataviz]: https://github.com/DataScience4Psych/ae-03-starwars-dataviz
-
-
-<!-- Lab Links-->
-
-[lab-01-hello]: https://github.com/DataScience4Psych/lab-01-hello-r
-
-<!--Slides-->
-[d01_welcome]: https://datascience4psych.github.io/slides/d01_welcome/d01_welcome.html
-[d02_toolkit]: https://datascience4psych.github.io/slides/d02_toolkit/d02_toolkit.html
-[d03_dataviz]: https://datascience4psych.github.io/slides/d03_dataviz/d03_dataviz.html
-[d04_ggplot2]: https://datascience4psych.github.io/slides/d04_ggplot2/d04_ggplot2.html
-[d05_viznum]: https://datascience4psych.github.io/slides/d05_viznum/d05_viznum.html
-[d06_vizcat]: https://datascience4psych.github.io/slides/d06_vizcat/d06_vizcat.html
-[d07_tidy]: https://datascience4psych.github.io/slides/d07_tidy/d07_tidy.html
-[d08_grammar]: https://datascience4psych.github.io/slides/d08_grammar/d08_grammar.html
-[d09_wrangle]: https://datascience4psych.github.io/slides/d09_wrangle/d09_wrangle.html
-[d10_dfs]: https://datascience4psych.github.io/slides/d10_dfs/d10_dfs.html
-[d11_types]: https://datascience4psych.github.io/slides/d11_types/d11_types.html
-[d12_import]: https://datascience4psych.github.io/slides/d12_import/d12_import.html
-[d13_goodviz]: https://datascience4psych.github.io/slides/d13_goodviz/d13_goodviz.html
-[d13b_moreggplot]: https://datascience4psych.github.io/slides/d13_goodviz/d13b_moreggplot.html
-[d14_confound]: https://datascience4psych.github.io/slides/d14_confound/d14_confound.html
-[d15_goodtalk]: https://datascience4psych.github.io/slides/d15_goodtalk/d15_goodtalk.html
-[d16_webscraping]: https://datascience4psych.github.io/slides/d16_webscraping/d16_webscraping.html
-[d17_functions]: https://datascience4psych.github.io/slides/d17_functions/d17_functions.html
-[d18_ethics]: https://datascience4psych.github.io/slides/d18_ethics/d18_ethics.html
-[d19_bias]: https://datascience4psych.github.io/slides/d19_bias/d19_bias.html
 <!--R Links-->
 [cran]: https://cloud.r-project.org
 [cran-faq]: https://cran.r-project.org/faqs.html
@@ -2174,20 +1960,28 @@ New York: W.W. Norton & Co., 2016. ISBN: 978-0-393-60042-1.
 
 ## Course Assignments
 
-### Exams 
-There will be 3 exams in this course.  The best 2 out of 3 exam grades will be used to determine your total exam grade.  You can drop any of the exams for any reason BUT YOU MUST PASS THE LAST EXAM (held at TBD on Dec TBD).  If you do not pass the final exam, your score on that exam will count as one of your 2 grades. If you do pass the final exam, then the best 2 grades will be used (irrespective of your score on the final exam).
+### Quizzes 
+There will be 6 quizzes in this course.  The best 5 out of 6 quizzes grades will be used to determine your total quiz grade.  You can drop any of the quizzes for any reason BUT YOU MUST PASS THE LAST Quiz (held at TBD on Dec TBD).  If you do not pass the final quiz, your score on that quiz will count as one of your 5 grades. If you do pass the final quiz, then the best 5 grades will be used (irrespective of your score on the final quiz).
 
 
-#### Test Dates
 
-- Test 1: Friday, 09/25
+#### Quiz Dates
 
-- Test 2: Friday, 10/30
+- Quiz 1: Friday, 09/10
 
-- Test 3: During Finals Week
+- Quiz 2: Friday, 10/01
+
+- Quiz 3: Friday, 10/29
+
+- Quiz 4: Friday, 11/19
+
+- Quiz 5: Friday, 12/03
+
+- Quiz 6: During Finals, 12/10
 
 
-#### Short Assignments 
+#### Short Assignments
+
 There will be three (3) short assignments in this course. These assignments will allow you to incorporate some of your own interests into the course. Such interests could be related to your career, another class you're taking, a hobby you're exploring, or some other random fancy. They will typically be approximately two (2) pages. I will provide more specific written guidelines at least two weeks before each assignment is due.
 
 
@@ -2196,11 +1990,11 @@ The best two (2) out of three (3) short assignments will be used to determine yo
 
 #### Short Assignment Dates
 
-- Assignment 1: Friday, 09/18: Critique of an online personality test.
+- Assignment 1: Friday, 09/17: Critique of an online personality test.
 
-- Assignment 2: Friday, 11/13: Critique of a personality-related media article.
+- Assignment 2: Friday, 11/12: Critique of a personality-related media article.
 
-- Assignment 3: Friday, 12/04: Critique of a personality-related YouTube video.
+- Assignment 3: Friday, 12/03: Critique of a personality-related YouTube video.
 
 ### Engagement Activities
 
@@ -2243,9 +2037,9 @@ Trust me, you do not want me to curve by assignment.
 
 
 
-- 200 points of your grade will be determined by your best two exams.
+- 150 points of your grade will be determined by your best 5 quizzes
     - The final is not optional.
-- 50 points of your grade will be determined by completing engagement activities.
+- 25 points of your grade will be determined by completing engagement activities.
 - 100 points of your grade will be determined by your best two short assignments.
 
 
@@ -2254,19 +2048,19 @@ Trust me, you do not want me to curve by assignment.
 Schedule
 -->
 
-## Week 01, 08/24 - 08/28 : What is Personality
+## Week 01, 08/23 - 08/27 : What is Personality
 <!---
 - Monday: First Day of Class / Introduction
 - Wednesday: What is personality? (Chapter 1)
 - Friday: Research in Personality: Sources of Data (Chapter 2)
 -->
-## Week 02, 08/31 - 09/04 : Research Design in Personality
+## Week 02, 08/30 - 09/03 : Research Design in Personality
 <!---
 - Monday: NO CLASS MLK Day
 - Wednesday: Research Design: Validity (Chapter 2)
 - Friday: Research Design: Generalizability (Chapter 2; Short Assignment 1 Handed Out)
 -->
-##  Week 03, 09/07 - 09/11 : Personality Assessment and Testing Controversies 
+##  Week 03, 09/06 - 09/10 : Personality Assessment and Testing Controversies 
 <!---
 - Monday: Personality Assessment (Chapter 3)
 - Tuesday: "Last day to add full-term class"
@@ -2274,80 +2068,80 @@ Schedule
 - Friday: Person versus Situation (Chapter 4)
 -->
 
-##  Week 04, 09/14 - 09/18 : How do people differ? Trait Approach
+##  Week 04, 09/13 - 09/17 : How do people differ? Trait Approach
 <!---
 - Monday: What are traits? What are the basic traits? (Chapter 4)
 - Wednesday: Personality Judgement (Chapter 5)
 - Friday: Using Personality Traits to Understand Behavior (Chapter 6; Assignment 1 Due)
 -->
-##  Week 05, 09/21 - 09/25 : Big Five
+##  Week 05, 09/20 - 09/24 : Big Five
 <!---
 - Monday: Big Five (Chapter 6)
 - Wednesday: Review
 - Friday: Test 1
 -->
-##  Week 06, 09/28 - 10/02 : Personality over the Lifespan
+##  Week 06, 09/27 - 10/01 : Personality over the Lifespan
 <!---
 - Monday: Brains (Chapter 8)
 - Wednesday: More Brains (Chapter 8)
 - Friday: Behavior Genetics (Chapter 9)
 -->
-##  Week 07, 10/05 - 10/09 : Biological and Genetic Approaches to Psychology 
+##  Week 07, 10/04 - 10/08 : Biological and Genetic Approaches to Psychology 
 <!---
 - Monday: Behavior Genetics (Chapter 9)
 - Wednesday: Evolutionary Psychology (Chapter 9)
 - Friday: Evolutionary Psychology (Chapter 9)
 -->
-##  Week 08, 10/12 - 10/16 : Evolutionary Psychology
+##  Week 08, 10/11 - 10/15 : Evolutionary Psychology
 <!---
 - Monday: Personality over the Lifespan (Chapter 7)
 - Wednesday: Personality over the Lifespan (Chapter 7)
 - Friday: Personality Processes (Chapter 15)
 -->
-##  Week 09, 10/19 - 10/23 : Personality Processes
+##  Week 09, 10/18 - 10/22 : Personality Processes
 <!---
 - Monday: No Class
 - Wednesday: No Class
 - Friday: No Class
 -->
-##  Week 10, 10/26 - 10/30 : The Self
+##  Week 10, 10/25 - 10/29 : The Self
 <!---
 - Monday: Personality Processes (Chapter 15)
 - Wednesday: Review
 - Friday: Test 2
 -->
-##  Week 11, 11/02 - 11/06 : Freud
+##  Week 11, 11/01 - 11/05 : Freud
 <!---
 - Monday: The Self (Chapter 16) Last day to drop with a grade of "W"
 - Wednesday: The Self (Chapter 16)
 - Friday:  Freud (Chapter 10) 
 -->
-##  Week 12, 11/09 - 11/13 : Positive Psychology
+##  Week 12, 11/08 - 11/12 : Positive Psychology
 <!---
 - Monday: Freud (Chapter 10)
 - Wednesday: Freud (Chapter 10)
 - Friday: Neo-Freud (Chapter 11; Assignment 2 Due)
 -->
-## Week 13, 11/16 - 11/20 : Cross-Cultural Psychology
+## Week 13, 11/15 - 11/19 : Cross-Cultural Psychology
 <!---
 - Monday:  Neo-Freud (Chapter 11) 
 - Wednesday: Positive Psychology
 - Friday: Positive Psychology
 -->
-##  Week 14, 11/23 - 11/27 : Personality and Health
+##  Week 14, 11/22 - 11/26 : Personality and Health
 <!---
 - Monday: Cross-Cultural Psychology
 - Wednesday: Cross-Cultural Psychology
 - Friday: Cross-Cultural Psychology
 -->
 
-##  Week 15, 11/30 - 12/04 : Special Topics (Assignment 3)
+##  Week 15, 11/29 - 12/03 : Special Topics
 <!---
 - Monday: Personality and Physical Health
 - Wednesday: Personality and Mental Health
 - Friday: Personality Disorders
 
-##  Week 16, 12/07 - 12/11 : NA 
+##  Week 16, 12/06 - 12/10 : NA 
 
 - Monday: Special Topics
 - Wednesday: Review; Assignment 3 Due; Last Day of Class
@@ -2359,6 +2153,214 @@ Schedule
 
 
 <!--chapter:end:0201_personality.Rmd-->
+
+# 362: Psychological Testing {-}
+
+
+
+## Course Description
+
+This course provides an overview of the development and nature of psychological tests with applications to school counseling, business, and clinical practice. The purpose of the course is to provide students with an understanding of the principles of measurement as applied to group standardized measures of achievement, special aptitude, intelligence, personality, interests and distress for use in counseling.  Format will consist primarily of lectures along with group participation activities. 
+
+
+### Course Objectives:
+- To acquaint you with the fundamental vocabulary and logic of psychological measurement and behavioral assessment.
+- To develop your capacity for critical judgment of the adequacy of measures purported to assess behavior in the role of theory development.
+- To acquaint you with some of the relevant literature in personality assessment, psychometric theory and practice, and methods of observing and measuring behavior.
+- To instill in you an appreciation of and an interest in the principles and methods of psychometric theory in general and behavior assessment in particular.
+- This course is not designed to make you into an accomplished psychometrist (one who gives tests) nor is it designed to make you a skilled psychometrician (one who constructs tests), nor will it give you "hands on" experience with psychometric computer programs. Rather it is aimed to allow you to understand the fundamental theoretical issues concerning both the psychometrist and the psychometrician.
+- Because modern psychometrics and statistics may be done using open source software such as R, examples will be presented in R.
+
+## Materials
+### Texts
+#### Required
+
+[1] A. Anastasi and A. Urbina. _Psychological testing_. Upper Saddle
+River, New Jersey: Prentice-Hall, 1997. ISBN: 0-02-303020-8.
+
+
+##### How to use the required text:
+
+The text [@anastasi1997] is intended to supplement the lectures. The lectures don't follow the order of chapters in the text and the text covers some material that won't be covered in the lectures, i.e., not all the information in each chapter is perfectly pertinent to the course requirements.
+
+
+## Course Assignments 
+## Grading Policy
+
+
+
+Typically, an A- is defined as 90% of the highest point total in the class, B- as 80% of that total, C- as 70 and D- as 60%. 
+I may shift these values down to provide a better fit to the actual point distribution. 
+By scaling to a percentage of the highest point total in the class, each student has a much better chance of receiving higher grades than if no re-scaling were done. 
+This curve can only help your grade. 
+
+The full table is provided below:
+
+Table: (\#tab:unnamed-chunk-3)Full Table
+
+|Letter | Cutoff|
+|:------|------:|
+|A      |   0.95|
+|A-     |   0.90|
+|B+     |   0.87|
+|B      |   0.83|
+|B-     |   0.80|
+|C+     |   0.77|
+|C      |   0.73|
+|C-     |   0.70|
+|D+     |   0.67|
+|D      |   0.63|
+|D-     |   0.60|
+
+### Curve Projections
+
+Unsurprisingly, students have many questions about the curve in this class. For tests and other assignments, I try to provide a projected letter grade. 
+This projected letter grade is there to give you a sense of what your score *would* be if I implemented the class curve on this particular assignment. 
+It is a projection. It is not a guarantee. These projected letter grades are not incorporated into your final grade. 
+Trust me, you do not want me to curve by assignment.
+
+
+
+### Quizzes
+There will be 6 quizzes in this course. These will be approximately every three weeks. The best 5 out of 6 quiz grades will be used to determine your total quiz grade.  You can drop 1 of the quizzes for any reason.
+
+
+#### Quiz Dates
+
+- Quiz 1: Friday, 02/12
+
+- Quiz 2: Friday, 03/05
+
+- Quiz 3: Friday, 04/02
+
+- Quiz 4: Friday, 04/23
+
+- Quiz 5: Friday, 05/07
+
+- Quiz 6: During Finals, 05/14
+
+
+### Take Home Assignments
+There are four large take-home assignments. Two are qualitative and two are quantitative. 
+
+
+I will provide more specific written guidelines at least two weeks before each assignment is due. You have to submit assignment 1 because I give extensive feedback that will help you on later assignments. However, you may skip assignment 2 or 3.
+
+
+#### Assignment Dates
+
+- Assignment 1: Friday, 03/12: Set 1 and Critique of an online test.
+
+- Assignment 2: Friday, 04/23: Set 2 and Critique of a testing-related popular media article.
+
+- Assignment 3: Friday, 05/07: Set 3 and Critique of a testing-related YouTube video.
+
+
+
+## Engagement Activities
+
+There will be multiple engagement activities in this course. These activities will allow you engage with the material for each module. Details about the specific activities will be provided on canvas. Students must complete two activities per module.
+
+
+## Grading Weighting
+
+- 150 points of your grade will be determined by your best five (5) quizzes.
+- 150 points of your grade will be determined by your best three (3) take-home assignments.
+- 50 points of your grade will be determined by your engagement.
+
+
+## Course Policies
+
+See Syllabus Website
+
+## Schedule
+
+###  Week 01, 01/25 - 01/29 : Foundations and Nature of Testing
+<!---
+- Tuesday: Chapter 1
+- Thursday: Chapter 2
+-->
+###  Week 02, 02/01 - 02/05 : History of Testing
+<!---
+- Tuesday: Chapter 18
+- Thursday: Chapter 18
+-->
+###  Week 03, 02/08 - 02/12 : Ethical and Social Considerations in Testing 
+<!---
+- Tuesday: Chapter 3 "Last day to add full-term class"
+- Thursday: Chapter 3
+-->
+###  Week 04, 02/15 - 02/19 : Norms and the Meaning of Test Scores
+<!---
+- Tuesday: Chapter 4
+- Thursday: Chapter 4
+-->
+###  Week 05, 02/22 - 02/26 : Classical Test Theory
+<!---
+- Tuesday: Chapter 5 + 6
+- Thursday: Chapter 5 + 6 
+-->
+###  Week 06, 03/01 - 03/05 : Reliability
+<!---
+- Tuesday: Chapter 6  "Last day to drop full-term class"
+- Thursday: Chapter 9 
+-->
+###  Week 07, 03/08 - 03/12 : Catch Up Week 
+<!---
+- Tuesday: Chapter 7 (Assignment 1 Due)
+- Thursday: Chapter 7
+-->
+###  Week 08, 03/15 - 03/19 : Validity
+<!---
+- Tuesday: Review 
+- Thursday: Exam 1
+-->
+###  Week 09, 03/22 - 03/26 : Item Analysis
+<!---
+- Tuesday: No class
+- Thursday: No class 
+-->
+###  Week 10, 03/29 - 04/02 : Factor Analysis
+<!---
+- Tuesday: Selected readings
+- Thursday: Chapter 10
+-->
+###  Week 11, 04/05 - 04/09 : Item Response Theory
+<!---
+- Monday: Last day to drop with a grade of "W"
+- Tuesday: Chapter 11
+- Thursday: Chapter 12
+-->
+###  Week 12, 04/12 - 04/16 : Practical Testing Things
+<!---
+- Tuesday: Chapter 13
+- Thursday: Chapter 13 
+-->
+## Week 13, 04/19 - 04/23 : Ability Testing
+<!---
+- Tuesday: Chapter 14
+- Thursday: Chapter 14 (Assignment 2 Due)
+-->
+###  Week 14, 04/26 - 04/30 : Personality Testing
+<!---
+- Tuesday: Chapter 15
+- Thursday: Chapter 16
+-->
+###  Week 15, 05/03 - 05/07 : Review
+<!---
+- Tuesday: Supplemental reading
+- Thursday: Supplemental reading
+
+###  Week 16, 05/10 - 05/14 : Other Assessment Techniques 
+
+- Tuesday: Review
+
+## Final Exam 
+
+- TBD
+-->
+
+<!--chapter:end:0202_testing.Rmd-->
 
 # 703: Data Science {-}
 
@@ -2604,215 +2606,7 @@ Schedule
 
 -->
 
-<!--chapter:end:0202_datascience.Rmd-->
-
-# 362: Psychological Testing {-}
-
-
-
-## Course Description
-
-This course provides an overview of the development and nature of psychological tests with applications to school counseling, business, and clinical practice. The purpose of the course is to provide students with an understanding of the principles of measurement as applied to group standardized measures of achievement, special aptitude, intelligence, personality, interests and distress for use in counseling.  Format will consist primarily of lectures along with group participation activities. 
-
-
-### Course Objectives:
-- To acquaint you with the fundamental vocabulary and logic of psychological measurement and behavioral assessment.
-- To develop your capacity for critical judgment of the adequacy of measures purported to assess behavior in the role of theory development.
-- To acquaint you with some of the relevant literature in personality assessment, psychometric theory and practice, and methods of observing and measuring behavior.
-- To instill in you an appreciation of and an interest in the principles and methods of psychometric theory in general and behavior assessment in particular.
-- This course is not designed to make you into an accomplished psychometrist (one who gives tests) nor is it designed to make you a skilled psychometrician (one who constructs tests), nor will it give you "hands on" experience with psychometric computer programs. Rather it is aimed to allow you to understand the fundamental theoretical issues concerning both the psychometrist and the psychometrician.
-- Because modern psychometrics and statistics may be done using open source software such as R, examples will be presented in R.
-
-## Materials
-### Texts
-#### Required
-
-[1] A. Anastasi and A. Urbina. _Psychological testing_. Upper Saddle
-River, New Jersey: Prentice-Hall, 1997. ISBN: 0-02-303020-8.
-
-
-##### How to use the required text:
-
-The text [@anastasi1997] is intended to supplement the lectures. The lectures don't follow the order of chapters in the text and the text covers some material that won't be covered in the lectures, i.e., not all the information in each chapter is perfectly pertinent to the course requirements.
-
-
-## Course Assignments 
-## Grading Policy
-
-
-
-Typically, an A- is defined as 90% of the highest point total in the class, B- as 80% of that total, C- as 70 and D- as 60%. 
-I may shift these values down to provide a better fit to the actual point distribution. 
-By scaling to a percentage of the highest point total in the class, each student has a much better chance of receiving higher grades than if no re-scaling were done. 
-This curve can only help your grade. 
-
-The full table is provided below:
-
-Table: (\#tab:unnamed-chunk-3)Full Table
-
-|Letter | Cutoff|
-|:------|------:|
-|A      |   0.95|
-|A-     |   0.90|
-|B+     |   0.87|
-|B      |   0.83|
-|B-     |   0.80|
-|C+     |   0.77|
-|C      |   0.73|
-|C-     |   0.70|
-|D+     |   0.67|
-|D      |   0.63|
-|D-     |   0.60|
-
-### Curve Projections
-
-Unsurprisingly, students have many questions about the curve in this class. For tests and other assignments, I try to provide a projected letter grade. 
-This projected letter grade is there to give you a sense of what your score *would* be if I implemented the class curve on this particular assignment. 
-It is a projection. It is not a guarantee. These projected letter grades are not incorporated into your final grade. 
-Trust me, you do not want me to curve by assignment.
-
-
-
-### Quizzes
-There will be 6 quizzes in this course. These will be approximately every three weeks. The best 5 out of 6 quiz grades will be used to determine your total quiz grade.  You can drop 1 of the quizzes for any reason.
-
-
-#### Quiz Dates
-
-- Quiz 1: Friday, 02/12
-
-- Quiz 2: Friday, 03/05
-
-- Quiz 3: Friday, 04/02
-
-- Quiz 4: Friday, 04/23
-
-- Quiz 5: Friday, 05/07
-
-- Quiz 6: During Finals, 05/14
-
-
-### Take Home Assignments
-There are four large take-home assignments. Two are qualitative and two are quantitative. 
-
-
-I will provide more specific written guidelines at least two weeks before each assignment is due. You have to submit assignment 1 because I give extensive feedback that will help you on later assignments. However, you may skip assignment 2 or 3.
-
-
-#### Assignment Dates
-
-- Assignment 1: Friday, 03/12: Set 1 and Critique of an online test.
-
-- Assignment 2: Friday, 04/23: Set 2 and Critique of a testing-related popular media article.
-
-- Assignment 3: Friday, 05/07: Set 3 and Critique of a testing-related YouTube video.
-
-
-
-## Engagement Activities
-
-There will be multiple engagement activities in this course. These activities will allow you engage with the material for each module. Details about the specific activities will be provided on canvas. Students must complete two activities per module.
-
-
-## Grading Weighting
-
-- 150 points of your grade will be determined by your best five (5) quizzes.
-- 150 points of your grade will be determined by your best three (3) take-home assignments.
-- 50 points of your grade will be determined by your engagement.
-
-
-## Course Policies
-
-See Syllabus Website
-
-## Schedule
-
-###  Week 01, 01/25 - 01/29 : Foundations and Nature of Testing
-<!---
-- Tuesday: Chapter 1
-- Thursday: Chapter 2
--->
-###  Week 02, 02/01 - 02/05 : History of Testing
-<!---
-- Tuesday: Chapter 18
-- Thursday: Chapter 18
--->
-###  Week 03, 02/08 - 02/12 : Ethical and Social Considerations in Testing 
-<!---
-- Tuesday: Chapter 3 "Last day to add full-term class"
-- Thursday: Chapter 3
--->
-###  Week 04, 02/15 - 02/19 : Norms and the Meaning of Test Scores
-<!---
-- Tuesday: Chapter 4
-- Thursday: Chapter 4
--->
-###  Week 05, 02/22 - 02/26 : Classical Test Theory
-<!---
-- Tuesday: Chapter 5 + 6
-- Thursday: Chapter 5 + 6 
--->
-###  Week 06, 03/01 - 03/05 : Reliability
-<!---
-- Tuesday: Chapter 6  "Last day to drop full-term class"
-- Thursday: Chapter 9 
--->
-###  Week 07, 03/08 - 03/12 : Catch Up Week 
-<!---
-- Tuesday: Chapter 7 (Assignment 1 Due)
-- Thursday: Chapter 7
--->
-###  Week 08, 03/15 - 03/19 : Validity
-<!---
-- Tuesday: Review 
-- Thursday: Exam 1
--->
-###  Week 09, 03/22 - 03/26 : Item Analysis
-<!---
-- Tuesday: No class
-- Thursday: No class 
--->
-###  Week 10, 03/29 - 04/02 : Factor Analysis
-<!---
-- Tuesday: Selected readings
-- Thursday: Chapter 10
--->
-###  Week 11, 04/05 - 04/09 : Item Response Theory
-<!---
-- Monday: Last day to drop with a grade of "W"
-- Tuesday: Chapter 11
-- Thursday: Chapter 12
--->
-###  Week 12, 04/12 - 04/16 : Practical Testing Things
-<!---
-- Tuesday: Chapter 13
-- Thursday: Chapter 13 
--->
-## Week 13, 04/19 - 04/23 : Ability Testing
-<!---
-- Tuesday: Chapter 14
-- Thursday: Chapter 14 (Assignment 2 Due)
--->
-###  Week 14, 04/26 - 04/30 : Personality Testing
-<!---
-- Tuesday: Chapter 15
-- Thursday: Chapter 16
--->
-###  Week 15, 05/03 - 05/07 : Review
-<!---
-- Tuesday: Supplemental reading
-- Thursday: Supplemental reading
-
-###  Week 16, 05/10 - 05/14 : Other Assessment Techniques 
-
-- Tuesday: Review
-
-## Final Exam 
-
-- TBD
--->
-
-<!--chapter:end:0203_testing.Rmd-->
+<!--chapter:end:0203_datascience.Rmd-->
 
 # (PART\*) For Your Information {-}
 
@@ -2998,6 +2792,16 @@ Although I am not canvas tech support, here are some links...
 
 [How do I set my Canvas notification preferences?](https://community.canvaslms.com/docs/DOC-10624-4212710344)
 
+## Resources
+
+* Where can I find textbooks and course materisl?
+
+
+```{=html}
+<blockquote class="twitter-tweet" data-width="550" data-lang="en" data-dnt="true" data-theme="light"><p lang="en" dir="ltr">Once again, I DO NOT recommend students go to libgen (dot) rs and download books for their upcoming courses. I am NOT advocating for getting and sharing free pdfs of required texts. DON&#39;T DO IT.</p>&mdash; itsgalo 🗯 (@GaloAndStuff) <a href="https://twitter.com/GaloAndStuff/status/1424818560417902604?ref_src=twsrc%5Etfw">August 9, 2021</a></blockquote>
+
+```
+
 
 ## Course-Specific Questions
 
@@ -3088,62 +2892,7 @@ Finally, you should understand that college is not a fee-for-service arrangement
 
 
 
-<!--CN4P Links-->
-[ds4p-web]: https://datascience4psych.github.io/DataScience4Psych
-[ds4p-git]: https://github.com/DataScience4Psych/DataScience4Psych
-[ds4p-slides]: https://github.com/DataScience4Psych/slides
 
-[ds4p-pl-00]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYaEAnJX20Ryy4OSie375rVY
-[ds4p-pl-01]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYao_7t5ycK4KDXNKaY-ECup
-[ds4p-pl-02]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYZmr_T3PnuxjVIlj0C0kUNI
-[ds4p-pl-03]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYaHmjzdRvfg0yhOIYQnfjwE
-[ds4p-pl-04]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYYWFcel6_vp8__RUKLxhX4y
-[ds4p-pl-05]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYYMIguiV1F8RagMYibTY4iW
-[ds4p-pl-06]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYYV_KDod3Mk9-RmtFXii9Dv
-[ds4p-pl-07]: https://www.youtube.com/watch?list=PLKrrdtYgOUYZxvEvQ8-PcWrOY_dwY_ETI
-[ds4p-pl-08]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYZgOzYB_dmauw55M7jXvsdo
-[ds4p-pl-09]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYbaiTmldRY2ddsLrHp3z6yO
-[ds4p-pl-10]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYbPw5iYzYEzoOKa7mJKNIhq
-[ds4p-pl-11]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYZ-u6LzBbanrNFoeLHKaLL6
-[ds4p-pl-12]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYbwRS-9Htmb80_t1NG-021e
-[ds4p-pl-13]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYbWGmSnbLIYwdLOnGm6une6
-[ds4p-pl-14]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYbWGmSnbLIYwdLOnGm6une6
-[ds4p-pl-15]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYa5MoYrV8EsWQ5jIr5ZYMpM
-[ds4p-pl-all]: https://www.youtube.com/playlist?list=PLKrrdtYgOUYbWGmSnbLIYwdLOnGm6une6
-
-
-<!--AE. Links-->
-[ae-02-bechdel]: https://github.com/DataScience4Psych/ae-02-bechdel-rmarkdown
-[ae-01a-un-votes]: https://github.com/DataScience4Psych/ae-01a-un-votes
-[ae-01b-covid]: https://github.com/DataScience4Psych/ae-01b-covid
-[ae-03-starwars-dataviz]: https://github.com/DataScience4Psych/ae-03-starwars-dataviz
-
-
-<!-- Lab Links-->
-
-[lab-01-hello]: https://github.com/DataScience4Psych/lab-01-hello-r
-
-<!--Slides-->
-[d01_welcome]: https://datascience4psych.github.io/slides/d01_welcome/d01_welcome.html
-[d02_toolkit]: https://datascience4psych.github.io/slides/d02_toolkit/d02_toolkit.html
-[d03_dataviz]: https://datascience4psych.github.io/slides/d03_dataviz/d03_dataviz.html
-[d04_ggplot2]: https://datascience4psych.github.io/slides/d04_ggplot2/d04_ggplot2.html
-[d05_viznum]: https://datascience4psych.github.io/slides/d05_viznum/d05_viznum.html
-[d06_vizcat]: https://datascience4psych.github.io/slides/d06_vizcat/d06_vizcat.html
-[d07_tidy]: https://datascience4psych.github.io/slides/d07_tidy/d07_tidy.html
-[d08_grammar]: https://datascience4psych.github.io/slides/d08_grammar/d08_grammar.html
-[d09_wrangle]: https://datascience4psych.github.io/slides/d09_wrangle/d09_wrangle.html
-[d10_dfs]: https://datascience4psych.github.io/slides/d10_dfs/d10_dfs.html
-[d11_types]: https://datascience4psych.github.io/slides/d11_types/d11_types.html
-[d12_import]: https://datascience4psych.github.io/slides/d12_import/d12_import.html
-[d13_goodviz]: https://datascience4psych.github.io/slides/d13_goodviz/d13_goodviz.html
-[d13b_moreggplot]: https://datascience4psych.github.io/slides/d13_goodviz/d13b_moreggplot.html
-[d14_confound]: https://datascience4psych.github.io/slides/d14_confound/d14_confound.html
-[d15_goodtalk]: https://datascience4psych.github.io/slides/d15_goodtalk/d15_goodtalk.html
-[d16_webscraping]: https://datascience4psych.github.io/slides/d16_webscraping/d16_webscraping.html
-[d17_functions]: https://datascience4psych.github.io/slides/d17_functions/d17_functions.html
-[d18_ethics]: https://datascience4psych.github.io/slides/d18_ethics/d18_ethics.html
-[d19_bias]: https://datascience4psych.github.io/slides/d19_bias/d19_bias.html
 <!--R Links-->
 [cran]: https://cloud.r-project.org
 [cran-faq]: https://cran.r-project.org/faqs.html

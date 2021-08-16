@@ -1,7 +1,7 @@
 # 255: Personality {-}
 
 ```{r setup, include=FALSE}
-mon <- as.Date("2020-08-24")
+mon <- as.Date("2021-08-23")
 cache=F
 number_of_classes=29
 number_of_weeks=15
@@ -32,7 +32,7 @@ topic=c(
   "Positive Psychology", 
   "Cross-Cultural Psychology",
   "Personality and Health",
-  "Special Topics (Assignment 3)" 
+  "Special Topics" 
   )
 ```
 
@@ -57,20 +57,28 @@ bib[sort(c("funder_personality_2016"))]
 
 ## Course Assignments
 
-### Exams 
-There will be 3 exams in this course.  The best 2 out of 3 exam grades will be used to determine your total exam grade.  You can drop any of the exams for any reason BUT YOU MUST PASS THE LAST EXAM (held at TBD on Dec TBD).  If you do not pass the final exam, your score on that exam will count as one of your 2 grades. If you do pass the final exam, then the best 2 grades will be used (irrespective of your score on the final exam).
+### Quizzes 
+There will be 6 quizzes in this course.  The best 5 out of 6 quizzes grades will be used to determine your total quiz grade.  You can drop any of the quizzes for any reason BUT YOU MUST PASS THE LAST Quiz (held at TBD on Dec TBD).  If you do not pass the final quiz, your score on that quiz will count as one of your 5 grades. If you do pass the final quiz, then the best 5 grades will be used (irrespective of your score on the final quiz).
 
 
-#### Test Dates
 
-- Test 1: Friday, `r advdate(mon, 5, assignment="f")`
+#### Quiz Dates
 
-- Test 2: Friday, `r advdate(mon, 10, assignment="f")`
+- Quiz 1: Friday, `r advdate(mon, 3, assignment="f")`
 
-- Test 3: During Finals Week
+- Quiz 2: Friday, `r advdate(mon, 6, assignment="f")`
+
+- Quiz 3: Friday, `r advdate(mon, 10, assignment="f")`
+
+- Quiz 4: Friday, `r advdate(mon, 13, assignment="f")`
+
+- Quiz 5: Friday, `r advdate(mon, 15, assignment="f")`
+
+- Quiz 6: During Finals, `r advdate(mon, 16, assignment="f")`
 
 
-#### Short Assignments 
+#### Short Assignments
+
 There will be three (3) short assignments in this course. These assignments will allow you to incorporate some of your own interests into the course. Such interests could be related to your career, another class you're taking, a hobby you're exploring, or some other random fancy. They will typically be approximately two (2) pages. I will provide more specific written guidelines at least two weeks before each assignment is due.
 
 
@@ -95,9 +103,9 @@ There will be multiple engagement activities in this course. These activities wi
 ```{r child = './common/content/grading.Xmd'}
 ```
 
-- 200 points of your grade will be determined by your best two exams.
+- 150 points of your grade will be determined by your best 5 quizzes
     - The final is not optional.
-- 50 points of your grade will be determined by completing engagement activities.
+- 25 points of your grade will be determined by completing engagement activities.
 - 100 points of your grade will be determined by your best two short assignments.
 
 
