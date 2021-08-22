@@ -87,7 +87,7 @@ The best two (2) out of three (3) short assignments will be used to determine yo
 
 #### Short Assignment Dates
 
-- Assignment 1: Friday, `r advdate(mon, 4, assignment="f")`: Critique of an online personality test.
+- Assignment 1: Friday, `r advdate(mon, 7, assignment="f")`: Critique of an online personality test.
 
 - Assignment 2: Friday, `r advdate(mon, 12, assignment="f")`: Critique of a personality-related media article.
 
