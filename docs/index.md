@@ -3,11 +3,11 @@ title: "Prof. Mason's Syllabi"
 subtitle: "A Snappy Subtitle"
 author: 
 - S. Mason Garrison
-date: "2021-08-22"
+date: "2021-08-24"
 knit: "bookdown::render_book"
 site: bookdown::bookdown_site
-url: 'https\://github.com/DataScience4Psych/DataScience4Psych'
-github-repo: DataScience4Psych/DataScience4Psych
+url: 'https\://github.com/smasongarrison/syllabi'
+github-repo: smasongarrison/syllabi
 twitter-handle: smasongarrison
 cover-image: assets/logo.png
 documentclass: book
@@ -16,6 +16,7 @@ biblio-style: apalike
 link-citations: yes
 description: "Prof. Mason's Syllabi"
 favicon: assets/favicon.ico
+always_allow_html: true
 
 ---
 
@@ -27,7 +28,11 @@ favicon: assets/favicon.ico
 
 
 
-Welcome to all my syllabi! This website is designed to accompany all of Mason Garrison's courses at Wake Forest University. Over the semesters, I have found that my syllabi keep growing longer and longer as my career has progressed. I know that no one likes reading 8 page syllabi. However, I want to make sure that all my students know what my expectations are. So in that spirit, I've created a website to contain all of my policies in one place. That way, I can have a neat and tidy syllabi, while still making my expectations clear.
+Welcome to all my syllabi! This website is designed to accompany all of Mason Garrison's courses at Wake Forest University. 
+Over the semesters, I have found that my syllabi keep growing longer and longer as my career has progressed. I know that no one likes reading 8 page syllabi. 
+However, I want to make sure that all my students know what my expectations are. 
+So in that spirit, I've created a website to contain all of my policies in one place. 
+That way, I can have a neat and tidy syllabi, while still making my expectations clear.
 
 
 ## How to use these notes {-}
@@ -39,6 +44,19 @@ This document is broken down into multiple chapters. Use the table of contents o
 
 
 
+<!--class Links-->
+[web]: https://smasongarrison.github.io/syllabi
+[git]: https://github.com/smasongarrison/syllabi
+[slides]: https://github.com/DataScience4Psych/slides
+[edits]: https://github.com/smasongarrison/syllabi/commits/main
+<!-- keep-->
+
+[stat-545]: https://stat545.com
+[jennybryan]: https://jennybryan.org
+
+[albano-class]: https://www.thetaminusb.com/intro-measurement-r/
+[noba]: https://nobaproject.com/
+[ytplaylist]: https://ytplaylist-len.herokuapp.com/
 
 
 <!--R Links-->

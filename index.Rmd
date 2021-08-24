@@ -16,6 +16,7 @@ biblio-style: apalike
 link-citations: yes
 description: "Prof. Mason's Syllabi"
 favicon: assets/favicon.ico
+always_allow_html: true
 
 ---
 

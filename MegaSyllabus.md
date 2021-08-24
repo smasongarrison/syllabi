@@ -3,11 +3,11 @@ title: "Prof. Mason's Syllabi"
 subtitle: "A Snappy Subtitle"
 author: 
 - S. Mason Garrison
-date: "2021-08-22"
+date: "2021-08-24"
 knit: "bookdown::render_book"
 site: bookdown::bookdown_site
-url: 'https\://github.com/DataScience4Psych/DataScience4Psych'
-github-repo: DataScience4Psych/DataScience4Psych
+url: 'https\://github.com/smasongarrison/syllabi'
+github-repo: smasongarrison/syllabi
 twitter-handle: smasongarrison
 cover-image: assets/logo.png
 documentclass: book
@@ -16,6 +16,7 @@ biblio-style: apalike
 link-citations: yes
 description: "Prof. Mason's Syllabi"
 favicon: assets/favicon.ico
+always_allow_html: true
 
 ---
 
@@ -27,7 +28,11 @@ favicon: assets/favicon.ico
 
 
 
-Welcome to all my syllabi! This website is designed to accompany all of Mason Garrison's courses at Wake Forest University. Over the semesters, I have found that my syllabi keep growing longer and longer as my career has progressed. I know that no one likes reading 8 page syllabi. However, I want to make sure that all my students know what my expectations are. So in that spirit, I've created a website to contain all of my policies in one place. That way, I can have a neat and tidy syllabi, while still making my expectations clear.
+Welcome to all my syllabi! This website is designed to accompany all of Mason Garrison's courses at Wake Forest University. 
+Over the semesters, I have found that my syllabi keep growing longer and longer as my career has progressed. I know that no one likes reading 8 page syllabi. 
+However, I want to make sure that all my students know what my expectations are. 
+So in that spirit, I've created a website to contain all of my policies in one place. 
+That way, I can have a neat and tidy syllabi, while still making my expectations clear.
 
 
 ## How to use these notes {-}
@@ -39,6 +44,19 @@ This document is broken down into multiple chapters. Use the table of contents o
 
 
 
+<!--class Links-->
+[web]: https://smasongarrison.github.io/syllabi
+[git]: https://github.com/smasongarrison/syllabi
+[slides]: https://github.com/DataScience4Psych/slides
+[edits]: https://github.com/smasongarrison/syllabi/commits/main
+<!-- keep-->
+
+[stat-545]: https://stat545.com
+[jennybryan]: https://jennybryan.org
+
+[albano-class]: https://www.thetaminusb.com/intro-measurement-r/
+[noba]: https://nobaproject.com/
+[ytplaylist]: https://ytplaylist-len.herokuapp.com/
 
 
 <!--R Links-->
@@ -399,6 +417,19 @@ This document is broken down into multiple chapters. Use the table of contents o
 
 
 
+<!--class Links-->
+[web]: https://smasongarrison.github.io/syllabi
+[git]: https://github.com/smasongarrison/syllabi
+[slides]: https://github.com/DataScience4Psych/slides
+[edits]: https://github.com/smasongarrison/syllabi/commits/main
+<!-- keep-->
+
+[stat-545]: https://stat545.com
+[jennybryan]: https://jennybryan.org
+
+[albano-class]: https://www.thetaminusb.com/intro-measurement-r/
+[noba]: https://nobaproject.com/
+[ytplaylist]: https://ytplaylist-len.herokuapp.com/
 
 
 <!--R Links-->
@@ -764,7 +795,7 @@ This mega syllabus leans on other peoples' materials and ideas. I have done my b
 * Jenny Bryan's ([jennybryan.org](https://jennybryan.org)) [STAT 545][stat-545]
 
 
-## Additional Attributions  {-}
+<!-- ## Additional Attributions  {-} -->
 
 
 # License {-#license}
@@ -820,14 +851,11 @@ material.
 
 # Colophon {-}
 
-These notes was written in [bookdown](http://bookdown.org/) inside [RStudio](http://www.rstudio.com/ide/). The [website][ds4p-web] is hosted with [github](https://www.github.com), The complete source is available from [github][ds4p-git].
+These notes was written in [bookdown](http://bookdown.org/) inside [RStudio](http://www.rstudio.com/ide/). The [website][ds4p-web] is hosted with [github](https://www.github.com), The complete source is available from [github][git].
 
 The book style adapted from [Desirée De Leon](https://desiree.rbind.io/).
 
 This version of the notes was built with:
-
-
-
 
 
 
@@ -843,15 +871,15 @@ This version of the notes was built with:
 #>  collate  English_United States.1252  
 #>  ctype    English_United States.1252  
 #>  tz       America/New_York            
-#>  date     2021-08-22
+#>  date     2021-08-24
 ```
 
 Along with these packages:
 
 
 ```{=html}
-<div id="htmlwidget-eb7366da72ae156fa22e" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-eb7366da72ae156fa22e">{"x":{"filter":"top","filterHTML":"<tr>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n<\/tr>","data":[["askpass","assertthat","backports","base64enc","bit","bit64","bitops","blob","bookdown","brew","brio","broom","cachem","callr","cellranger","checkmate","cli","clipr","colorspace","commonmark","conflicted","cpp11","crayon","credentials","crosstalk","crul","curl","data.table","DBI","dbplyr","desc","devtools","dichromat","diffobj","digest","dplyr","DT","dtplyr","ellipsis","evaluate","fansi","farver","fastmap","forcats","fs","gapminder","gargle","gender","genderdata","generics","geonames","gert","ggplot2","gh","gitcreds","glue","googledrive","googlesheets4","gridExtra","gt","gtable","haven","highr","hms","htmltools","htmlwidgets","httpcode","httr","ids","ini","isoband","jquerylib","jsonlite","knitr","labeling","later","lattice","lazyeval","lifecycle","lubridate","magrittr","markdown","MASS","Matrix","memoise","mgcv","mime","modelr","munsell","nlme","openssl","pillar","pkgbuild","pkgconfig","pkgload","plyr","praise","prettyunits","processx","progress","promises","ps","purrr","R6","rappdirs","rcmdcheck","RColorBrewer","Rcpp","readr","readxl","rebird","rematch","rematch2","remotes","reprex","reshape2","rjson","rlang","rmarkdown","roxygen2","rplos","rprojroot","rstudioapi","rversions","rvest","sass","scales","selectr","sessioninfo","solrium","stringi","stringr","sys","testthat","tibble","tidyr","tidyselect","tidyverse","tinytex","triebeard","tzdb","urltools","usethis","utf8","uuid","vctrs","viridis","viridisLite","vroom","waldo","whisker","withr","xfun","xml2","xopen","yaml","zip"],[null,"0.2.1","1.2.1",null,null,null,null,null,"0.23",null,null,"0.7.9","1.0.5","3.7.0","1.1.0",null,"3.0.1",null,"2.0-2",null,null,null,"1.4.1",null,null,null,null,null,"1.1.1","2.1.1","1.3.0","2.4.2",null,null,"0.6.27","1.0.7","0.18",null,"0.3.2","0.14","0.5.0",null,"1.1.0","0.5.1","1.5.0",null,null,null,null,"0.1.0",null,null,"3.3.5",null,null,"1.4.2",null,null,null,null,"0.3.0","2.4.3",null,"1.1.0","0.5.1.9000","1.5.3",null,"1.4.2",null,null,null,"0.1.4","1.7.2","1.33",null,null,null,null,"1.0.0","1.7.10","2.0.1",null,null,null,"2.0.0",null,null,"0.1.8","0.5.0",null,null,"1.6.2","1.2.0","2.0.3","1.2.1",null,null,"1.1.1","3.5.2",null,null,"1.6.0","0.3.4","2.5.1",null,null,null,"1.0.7","2.0.1","1.3.1",null,null,null,"2.4.0","2.0.1",null,null,"0.4.11","2.10",null,null,"2.0.2","0.13",null,"1.0.1","0.4.0","1.1.1",null,"1.1.1",null,"1.7.3","1.4.0",null,"3.0.4","3.1.3","1.1.3","1.1.1","1.3.1",null,null,"0.1.2",null,"2.0.1","1.2.2",null,"0.3.8",null,null,null,null,null,"2.4.2","0.24","1.3.2",null,"2.2.1",null],["2019-01-13","2019-03-21","2020-12-09","2015-07-28","2020-08-04","2020-08-30","2021-04-24","2021-07-23","2021-08-13","2011-04-13","2021-04-23","2021-07-27","2021-05-15","2021-04-20","2016-07-27","2020-02-06","2021-07-17","2020-10-08","2021-06-24","2018-12-01","2019-06-21","2021-06-25","2021-02-08","2021-07-25","2021-01-12","2021-02-15","2021-06-23","2021-02-21","2021-01-15","2021-04-06","2021-03-05","2021-06-07",null,"2021-03-22","2020-10-24","2021-06-18","2021-04-14","2021-02-20","2021-04-29","2019-05-28","2021-05-25","2021-02-28","2021-01-25","2021-01-27","2020-07-31","2017-10-31","2021-07-02","2020-05-15",null,"2020-10-31","2019-02-19","2021-08-16","2021-06-25","2021-04-30","2020-12-04","2020-08-27","2021-07-08","2021-07-21","2017-09-09","2021-08-07","2019-03-25","2021-08-04","2021-04-16","2021-05-17","2021-01-12","2020-12-10","2020-04-10","2020-07-20","2017-05-31","2018-05-20","2021-07-13","2021-04-26","2020-12-09","2021-04-24","2020-10-20","2021-08-18","2020-04-02","2019-03-15","2021-02-15","2021-02-26","2020-11-17","2019-08-07","2021-02-12","2021-01-06","2021-01-26","2021-02-16","2021-06-23","2020-05-19","2018-06-12","2021-02-04","2021-04-30","2021-07-29","2020-12-15","2019-09-22","2021-04-06","2020-03-03","2015-08-11","2020-01-24","2021-04-30","2019-05-16","2021-02-11","2021-02-28","2020-04-17","2021-08-19","2021-01-31","2019-05-07","2014-12-07","2021-07-07","2021-08-10","2019-03-13","2021-01-27","2016-04-21","2020-05-01","2021-06-02","2021-08-05","2020-04-09","2018-06-08","2021-04-30","2021-08-06","2020-06-27","2021-02-23","2020-11-15","2020-11-12","2021-05-31","2021-07-26","2021-05-12","2020-05-11","2019-11-20","2018-11-05","2021-05-19","2021-07-16","2019-02-10","2020-07-23","2021-07-01","2021-07-23","2021-03-03","2021-04-30","2021-04-15","2021-08-05","2016-08-04","2021-07-20","2019-04-14","2021-02-10","2021-07-24","2020-02-26","2021-04-29","2021-05-11","2021-04-13","2021-08-05","2021-03-08","2019-08-28","2021-04-18","2021-06-15","2020-04-23","2018-09-17","2020-02-01","2021-05-31"],["CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.5)",null,"CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.4)",null,"CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","Github (rstudio/htmltools@11cfbf3)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>package<\/th>\n      <th>loadedversion<\/th>\n      <th>date<\/th>\n      <th>source<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":157,"autoWidth":true,"bInfo":false,"paging":false,"order":[],"orderClasses":false,"orderCellsTop":true,"lengthMenu":[10,25,50,100,157]}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-ac4287e25eacbe9911ba" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-ac4287e25eacbe9911ba">{"x":{"filter":"top","filterHTML":"<tr>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n<\/tr>","data":[["askpass","assertthat","backports","base64enc","bit","bit64","bitops","blob","bookdown","brew","brio","broom","cachem","callr","cellranger","checkmate","cli","clipr","colorspace","commonmark","conflicted","cpp11","crayon","credentials","crosstalk","crul","curl","data.table","DBI","dbplyr","desc","devtools","dichromat","diffobj","digest","dplyr","DT","dtplyr","ellipsis","evaluate","fansi","farver","fastmap","forcats","fs","gapminder","gargle","gender","genderdata","generics","geonames","gert","ggplot2","gh","gitcreds","glue","googledrive","googlesheets4","gridExtra","gt","gtable","haven","highr","hms","htmltools","htmlwidgets","httpcode","httr","ids","ini","isoband","jsonlite","knitr","labeling","later","lattice","lazyeval","lifecycle","lubridate","magrittr","markdown","MASS","Matrix","memoise","mgcv","mime","modelr","munsell","nlme","openssl","pillar","pkgbuild","pkgconfig","pkgload","plyr","praise","prettyunits","processx","progress","promises","ps","purrr","R6","rappdirs","rcmdcheck","RColorBrewer","Rcpp","readr","readxl","rebird","rematch","rematch2","remotes","reprex","reshape2","rjson","rlang","rmarkdown","roxygen2","rplos","rprojroot","rstudioapi","rversions","rvest","sass","scales","selectr","sessioninfo","solrium","stringi","stringr","sys","testthat","tibble","tidyr","tidyselect","tidyverse","tinytex","triebeard","tzdb","urltools","usethis","utf8","uuid","vctrs","viridis","viridisLite","vroom","waldo","whisker","withr","xfun","xml2","xopen","yaml","zip"],[null,"0.2.1","1.2.1",null,null,null,null,null,"0.22",null,null,"0.7.9","1.0.5","3.7.0","1.1.0",null,"3.0.1",null,"2.0-2",null,null,null,"1.4.1",null,null,null,null,null,"1.1.1","2.1.1","1.3.0","2.4.2",null,null,"0.6.27","1.0.7","0.18",null,"0.3.2","0.14","0.5.0",null,"1.1.0","0.5.1","1.5.0",null,null,null,null,"0.1.0",null,null,"3.3.5",null,null,"1.4.2",null,null,null,null,"0.3.0","2.4.3",null,"1.1.0","0.5.1.1","1.5.3",null,"1.4.2",null,null,null,"1.7.2","1.33",null,null,null,null,"1.0.0","1.7.10","2.0.1",null,null,null,"2.0.0",null,null,"0.1.8","0.5.0",null,null,"1.6.2","1.2.0","2.0.3","1.2.1",null,null,"1.1.1","3.5.2",null,null,"1.6.0","0.3.4","2.5.0",null,null,null,"1.0.7","2.0.0","1.3.1",null,null,null,"2.4.0","2.0.1",null,null,"0.4.10","2.10",null,null,"2.0.2","0.13",null,"1.0.1","0.4.0","1.1.1",null,"1.1.1",null,"1.7.3","1.4.0",null,"3.0.4","3.1.3","1.1.3","1.1.1","1.3.1",null,null,"0.1.2",null,"2.0.1","1.2.2",null,"0.3.8",null,null,null,null,null,"2.4.2","0.24","1.3.2",null,"2.2.1",null],["2019-01-13","2019-03-21","2020-12-09","2015-07-28","2020-08-04","2020-08-30","2021-04-24","2021-07-23","2021-04-22","2011-04-13","2021-04-23","2021-07-27","2021-05-15","2021-04-20","2016-07-27","2020-02-06","2021-07-17","2020-10-08","2021-06-24","2018-12-01","2019-06-21","2021-06-25","2021-02-08","2021-07-25","2021-01-12","2021-02-15","2021-06-23","2021-02-21","2021-01-15","2021-04-06","2021-03-05","2021-06-07","2013-01-24","2021-03-22","2020-10-24","2021-06-18","2021-04-14","2021-02-20","2021-04-29","2019-05-28","2021-05-25","2021-02-28","2021-01-25","2021-01-27","2020-07-31","2017-10-31","2021-07-02","2020-05-15","2020-11-17","2020-10-31","2019-02-19","2021-06-23","2021-06-25","2021-04-30","2020-12-04","2020-08-27","2021-07-08","2021-07-21","2017-09-09","2021-05-12","2019-03-25","2021-08-04","2021-04-16","2021-05-17","2021-01-22","2020-12-10","2020-04-10","2020-07-20","2017-05-31","2018-05-20","2021-07-13","2020-12-09","2021-04-24","2020-10-20","2021-04-23","2020-04-02","2019-03-15","2021-02-15","2021-02-26","2020-11-17","2019-08-07","2021-02-12","2021-01-06","2021-01-26","2021-02-16","2021-06-23","2020-05-19","2018-06-12","2021-02-04","2021-04-30","2021-07-29","2020-12-15","2019-09-22","2021-04-06","2020-03-03","2015-08-11","2020-01-24","2021-04-30","2019-05-16","2021-02-11","2021-02-28","2020-04-17","2020-10-28","2021-01-31","2019-05-07","2014-12-07","2021-07-07","2021-07-20","2019-03-13","2021-01-27","2016-04-21","2020-05-01","2021-06-02","2021-08-05","2020-04-09","2018-06-08","2020-12-30","2021-08-06","2020-06-27","2021-02-23","2020-11-15","2020-11-12","2021-05-31","2021-07-26","2021-05-12","2020-05-11","2019-11-20","2018-11-05","2021-05-19","2021-07-16","2019-02-10","2020-07-23","2021-07-01","2021-07-23","2021-03-03","2021-04-30","2021-04-15","2021-08-05","2016-08-04","2021-07-20","2019-04-14","2021-02-10","2021-07-24","2020-02-26","2021-04-29","2021-05-11","2021-04-13","2021-08-05","2021-03-08","2019-08-28","2021-04-18","2021-06-15","2020-04-23","2018-09-17","2020-02-01","2021-05-31"],["CRAN (R 4.0.0)","CRAN (R 4.0.0)","CRAN (R 4.0.3)","CRAN (R 4.0.0)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.2)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","local","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.2)","CRAN (R 4.0.4)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.2)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.0)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.0)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.2)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.3)","CRAN (R 4.0.0)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.2)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.0)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.2)","CRAN (R 4.0.0)","CRAN (R 4.0.5)"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>package<\/th>\n      <th>loadedversion<\/th>\n      <th>date<\/th>\n      <th>source<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":156,"autoWidth":true,"bInfo":false,"paging":false,"order":[],"orderClasses":false,"orderCellsTop":true,"lengthMenu":[10,25,50,100,156]}},"evals":[],"jsHooks":[]}</script>
 ```
 
 
@@ -884,13 +912,13 @@ sessionInfo()
 #> 
 #> other attached packages:
 #>  [1] DT_0.18         devtools_2.4.2  usethis_2.0.1   forcats_0.5.1  
-#>  [5] stringr_1.4.0   dplyr_1.0.7     purrr_0.3.4     readr_2.0.1    
+#>  [5] stringr_1.4.0   dplyr_1.0.7     purrr_0.3.4     readr_2.0.0    
 #>  [9] tidyr_1.1.3     tibble_3.1.3    ggplot2_3.3.5   tidyverse_1.3.1
-#> [13] knitr_1.33      vembedr_0.1.4   tweetrmd_0.0.8 
+#> [13] webshot_0.5.2   knitr_1.33      vembedr_0.1.4   tweetrmd_0.0.8 
 #> 
 #> loaded via a namespace (and not attached):
-#> [1] tools_4.0.5          bookdown_0.23        rmarkdown_2.10      
-#> [4] htmltools_0.5.1.9000 shiny_1.6.0          miniUI_0.1.1.1
+#> [1] tools_4.0.5       bookdown_0.22     rmarkdown_2.10    htmltools_0.5.1.1
+#> [5] shiny_1.6.0       miniUI_0.1.1.1
 ```
 
 <!--chapter:end:0000a_front.Rmd-->
@@ -905,6 +933,19 @@ sessionInfo()
 
 
 
+<!--class Links-->
+[web]: https://smasongarrison.github.io/syllabi
+[git]: https://github.com/smasongarrison/syllabi
+[slides]: https://github.com/DataScience4Psych/slides
+[edits]: https://github.com/smasongarrison/syllabi/commits/main
+<!-- keep-->
+
+[stat-545]: https://stat545.com
+[jennybryan]: https://jennybryan.org
+
+[albano-class]: https://www.thetaminusb.com/intro-measurement-r/
+[noba]: https://nobaproject.com/
+[ytplaylist]: https://ytplaylist-len.herokuapp.com/
 
 
 <!--R Links-->
@@ -1576,6 +1617,19 @@ At the request of my university, I have included the following information relat
 
 
 
+<!--class Links-->
+[web]: https://smasongarrison.github.io/syllabi
+[git]: https://github.com/smasongarrison/syllabi
+[slides]: https://github.com/DataScience4Psych/slides
+[edits]: https://github.com/smasongarrison/syllabi/commits/main
+<!-- keep-->
+
+[stat-545]: https://stat545.com
+[jennybryan]: https://jennybryan.org
+
+[albano-class]: https://www.thetaminusb.com/intro-measurement-r/
+[noba]: https://nobaproject.com/
+[ytplaylist]: https://ytplaylist-len.herokuapp.com/
 
 
 <!--R Links-->
@@ -2891,6 +2945,19 @@ Finally, you should understand that college is not a fee-for-service arrangement
 
 
 
+<!--class Links-->
+[web]: https://smasongarrison.github.io/syllabi
+[git]: https://github.com/smasongarrison/syllabi
+[slides]: https://github.com/DataScience4Psych/slides
+[edits]: https://github.com/smasongarrison/syllabi/commits/main
+<!-- keep-->
+
+[stat-545]: https://stat545.com
+[jennybryan]: https://jennybryan.org
+
+[albano-class]: https://www.thetaminusb.com/intro-measurement-r/
+[noba]: https://nobaproject.com/
+[ytplaylist]: https://ytplaylist-len.herokuapp.com/
 
 
 <!--R Links-->
