@@ -9,6 +9,7 @@ if (!require("tweetrmd"))  devtools::install_github("gadenbuie/tweetrmd")
 library(tweetrmd) #... embedding tweets
 library(vembedr)  #... embedding youtube videos
 library(knitr)
+library(webshot)
 
 ## Options
 knitr::opts_chunk$set(
@@ -92,4 +93,3 @@ slide_url=function(df_url,title,slide=NULL){
   var_url=paste0(df_url$link[df_url$title==title],slide)
   return(var_url)
 }
-
