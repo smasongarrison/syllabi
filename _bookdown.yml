@@ -1,4 +1,4 @@
-book_filename: "MegaSyllabus"
+book_filename: "megasyllabus"
 delete_merged_file: false
 new_session: true
 output_dir: "docs"
