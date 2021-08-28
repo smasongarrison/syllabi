@@ -19,20 +19,20 @@ bib[length(bib)]$key = "Rcite"
 
 topic=c(
   "What is Personality", 
-  "Research Design in Personality",
-  "Personality Assessment and Testing Controversies",
+  "Personality Research Methods",
+  "Assessment, Evaluation, and Ethicss",
   "How do people differ? Trait Approach",
+  "Personality Judgement"
   "Big Five",
-  "Personality over the Lifespan",#  "Spring Break",#  "",
-  "Biological and Genetic Approaches to Psychology", 
+  "Personality over the Lifespan",# 
+  "Biological Approaches to Psychology", 
+  "Behavior Genetics"
   "Evolutionary Psychology", 
-  "Personality Processes",
-  "The Self", 
-  "Freud", 
-  "Positive Psychology", 
   "Cross-Cultural Psychology",
-  "Personality and Health",
-  "Special Topics" 
+  "Freud", 
+  "Psychoanalysis After Freud", 
+  "Personality Processes and Positive Psych",
+  "Personality and Health"
   )
 ```
 
