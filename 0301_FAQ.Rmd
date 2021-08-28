@@ -193,13 +193,6 @@ include_tweet("https://twitter.com/GaloAndStuff/status/1424818560417902604")
 ```
 
 
-## Course-Specific Questions
-
-### Personality Psychology
-
-#### Is the Final Cumulative?
-
-
 ## Still have questions? 
 Post them in the Discussion Board! I can nearly guarantee, that somebody else wants to know the answer to your question. 
 
