@@ -12,7 +12,7 @@ source("common.R")
 ```{r links, child="links.md"}
 ```
 
-Welcome. This section includes general syllabus information. The next sections include information specific to your class.
+Welcome! This section includes general syllabus information. The next sections include information specific to your class.
 
 Remember: This course is for you, not for me.
 
@@ -20,16 +20,27 @@ Remember: This course is for you, not for me.
 embed_url("https://www.youtube.com/watch?v=aL_fP5axQV4") %>%
   use_align("center")
 ```
-Credit: https://twitter.com/AcademicsSay/status/1293621452684644355
+
+Credit: 
+```{r, echo=FALSE}
+include_tweet("https://twitter.com/AcademicsSay/status/1293621452684644355")
+```
+
 
 ## Materials
+
+If you chose to use alternative materials, such as an older edition of the book, it is your responsibility to ensure that those materials are equivalent.
 
 
 ### Required Texts
 
-For all my classes, the textbook is intended to supplement the course. The lectures don't follow the order of chapters in the text and the text covers some material that won't be covered in the lectures, i.e., not all the information in each chapter is perfectly pertinent to the course requirements.
+For all my classes, the textbook is intended to supplement the course. 
+The lectures don't follow the order of chapters in the text and the text covers some material that won't be covered in the lectures, i.e., not all the information in each chapter is perfectly pertinent to the course requirements. 
 
-It is one of many resources you'll consume. You probably need to consume all of the resources I provide in order to be successful in this class. If you'd like to make the most of your tuition, I strongly encourage you to consume them all. The course-specific resources can be found on the specific course page.
+It is one of many resources you'll consume. 
+You probably need to consume all of the resources I provide in order to be successful in this class. 
+If you'd like to make the most of your tuition, I strongly encourage you to consume them all. 
+The course-specific resources can be found on the specific course page.
 
 ### Hardware
 

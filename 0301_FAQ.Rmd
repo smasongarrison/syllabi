@@ -81,12 +81,13 @@ If you find yourself spending a lot more or a lot less than 9 hours per week on 
 
 
 ### How long are the videos?
-You can always check how long the module playlist is by using this website https://ytplaylist-len.herokuapp.com/
+You can always check how long the module playlist is by using this website https://ytplaylist-len.herokuapp.com/ 
 Each module has 1 week worth of lectures.
 
 
 ### Why are there so many videos?
-I've sliced up the content into smaller chunks. If you want to watch the entire module worth in one sitting, you can use the youtube playlist.
+I've sliced up the content into smaller chunks. 
+If you want to watch the entire module worth in one sitting, you can use the youtube playlist.
 
 
 ### Why is your speaking style so weird?
@@ -141,7 +142,7 @@ Upload or type your work and click submit assignment.
 
 
 ### How do I know when an assignment has been submitted?
-After you click "submit assignment," you will see "confetti" on your screen. A notification will appear that looks like this:
+After you click "submit assignment," you will see "confetti" on your screen.
 
 
 ### How do I use the Calendar feature in Canvas?
