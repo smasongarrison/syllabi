@@ -22,11 +22,11 @@ topic=c(
   "Personality Research Methods",
   "Assessment, Evaluation, and Ethicss",
   "How do people differ? Trait Approach",
-  "Personality Judgement"
+  "Personality Judgement",
   "Big Five",
   "Personality over the Lifespan",# 
   "Biological Approaches to Psychology", 
-  "Behavior Genetics"
+  "Behavior Genetics",
   "Evolutionary Psychology", 
   "Cross-Cultural Psychology",
   "Freud", 

@@ -3,7 +3,7 @@ title: "Prof. Mason's Syllabi"
 subtitle: "A Snappy Subtitle"
 author: 
 - S. Mason Garrison
-date: "2021-08-24"
+date: "2021-08-31"
 knit: "bookdown::render_book"
 site: bookdown::bookdown_site
 url: 'https\://github.com/smasongarrison/syllabi'
@@ -871,15 +871,15 @@ This version of the notes was built with:
 #>  collate  English_United States.1252  
 #>  ctype    English_United States.1252  
 #>  tz       America/New_York            
-#>  date     2021-08-24
+#>  date     2021-08-31
 ```
 
 Along with these packages:
 
 
 ```{=html}
-<div id="htmlwidget-ac4287e25eacbe9911ba" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-ac4287e25eacbe9911ba">{"x":{"filter":"top","filterHTML":"<tr>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n<\/tr>","data":[["askpass","assertthat","backports","base64enc","bit","bit64","bitops","blob","bookdown","brew","brio","broom","cachem","callr","cellranger","checkmate","cli","clipr","colorspace","commonmark","conflicted","cpp11","crayon","credentials","crosstalk","crul","curl","data.table","DBI","dbplyr","desc","devtools","dichromat","diffobj","digest","dplyr","DT","dtplyr","ellipsis","evaluate","fansi","farver","fastmap","forcats","fs","gapminder","gargle","gender","genderdata","generics","geonames","gert","ggplot2","gh","gitcreds","glue","googledrive","googlesheets4","gridExtra","gt","gtable","haven","highr","hms","htmltools","htmlwidgets","httpcode","httr","ids","ini","isoband","jsonlite","knitr","labeling","later","lattice","lazyeval","lifecycle","lubridate","magrittr","markdown","MASS","Matrix","memoise","mgcv","mime","modelr","munsell","nlme","openssl","pillar","pkgbuild","pkgconfig","pkgload","plyr","praise","prettyunits","processx","progress","promises","ps","purrr","R6","rappdirs","rcmdcheck","RColorBrewer","Rcpp","readr","readxl","rebird","rematch","rematch2","remotes","reprex","reshape2","rjson","rlang","rmarkdown","roxygen2","rplos","rprojroot","rstudioapi","rversions","rvest","sass","scales","selectr","sessioninfo","solrium","stringi","stringr","sys","testthat","tibble","tidyr","tidyselect","tidyverse","tinytex","triebeard","tzdb","urltools","usethis","utf8","uuid","vctrs","viridis","viridisLite","vroom","waldo","whisker","withr","xfun","xml2","xopen","yaml","zip"],[null,"0.2.1","1.2.1",null,null,null,null,null,"0.22",null,null,"0.7.9","1.0.5","3.7.0","1.1.0",null,"3.0.1",null,"2.0-2",null,null,null,"1.4.1",null,null,null,null,null,"1.1.1","2.1.1","1.3.0","2.4.2",null,null,"0.6.27","1.0.7","0.18",null,"0.3.2","0.14","0.5.0",null,"1.1.0","0.5.1","1.5.0",null,null,null,null,"0.1.0",null,null,"3.3.5",null,null,"1.4.2",null,null,null,null,"0.3.0","2.4.3",null,"1.1.0","0.5.1.1","1.5.3",null,"1.4.2",null,null,null,"1.7.2","1.33",null,null,null,null,"1.0.0","1.7.10","2.0.1",null,null,null,"2.0.0",null,null,"0.1.8","0.5.0",null,null,"1.6.2","1.2.0","2.0.3","1.2.1",null,null,"1.1.1","3.5.2",null,null,"1.6.0","0.3.4","2.5.0",null,null,null,"1.0.7","2.0.0","1.3.1",null,null,null,"2.4.0","2.0.1",null,null,"0.4.10","2.10",null,null,"2.0.2","0.13",null,"1.0.1","0.4.0","1.1.1",null,"1.1.1",null,"1.7.3","1.4.0",null,"3.0.4","3.1.3","1.1.3","1.1.1","1.3.1",null,null,"0.1.2",null,"2.0.1","1.2.2",null,"0.3.8",null,null,null,null,null,"2.4.2","0.24","1.3.2",null,"2.2.1",null],["2019-01-13","2019-03-21","2020-12-09","2015-07-28","2020-08-04","2020-08-30","2021-04-24","2021-07-23","2021-04-22","2011-04-13","2021-04-23","2021-07-27","2021-05-15","2021-04-20","2016-07-27","2020-02-06","2021-07-17","2020-10-08","2021-06-24","2018-12-01","2019-06-21","2021-06-25","2021-02-08","2021-07-25","2021-01-12","2021-02-15","2021-06-23","2021-02-21","2021-01-15","2021-04-06","2021-03-05","2021-06-07","2013-01-24","2021-03-22","2020-10-24","2021-06-18","2021-04-14","2021-02-20","2021-04-29","2019-05-28","2021-05-25","2021-02-28","2021-01-25","2021-01-27","2020-07-31","2017-10-31","2021-07-02","2020-05-15","2020-11-17","2020-10-31","2019-02-19","2021-06-23","2021-06-25","2021-04-30","2020-12-04","2020-08-27","2021-07-08","2021-07-21","2017-09-09","2021-05-12","2019-03-25","2021-08-04","2021-04-16","2021-05-17","2021-01-22","2020-12-10","2020-04-10","2020-07-20","2017-05-31","2018-05-20","2021-07-13","2020-12-09","2021-04-24","2020-10-20","2021-04-23","2020-04-02","2019-03-15","2021-02-15","2021-02-26","2020-11-17","2019-08-07","2021-02-12","2021-01-06","2021-01-26","2021-02-16","2021-06-23","2020-05-19","2018-06-12","2021-02-04","2021-04-30","2021-07-29","2020-12-15","2019-09-22","2021-04-06","2020-03-03","2015-08-11","2020-01-24","2021-04-30","2019-05-16","2021-02-11","2021-02-28","2020-04-17","2020-10-28","2021-01-31","2019-05-07","2014-12-07","2021-07-07","2021-07-20","2019-03-13","2021-01-27","2016-04-21","2020-05-01","2021-06-02","2021-08-05","2020-04-09","2018-06-08","2020-12-30","2021-08-06","2020-06-27","2021-02-23","2020-11-15","2020-11-12","2021-05-31","2021-07-26","2021-05-12","2020-05-11","2019-11-20","2018-11-05","2021-05-19","2021-07-16","2019-02-10","2020-07-23","2021-07-01","2021-07-23","2021-03-03","2021-04-30","2021-04-15","2021-08-05","2016-08-04","2021-07-20","2019-04-14","2021-02-10","2021-07-24","2020-02-26","2021-04-29","2021-05-11","2021-04-13","2021-08-05","2021-03-08","2019-08-28","2021-04-18","2021-06-15","2020-04-23","2018-09-17","2020-02-01","2021-05-31"],["CRAN (R 4.0.0)","CRAN (R 4.0.0)","CRAN (R 4.0.3)","CRAN (R 4.0.0)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.2)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","local","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.2)","CRAN (R 4.0.4)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.2)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.0)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.0)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.2)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.3)","CRAN (R 4.0.0)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.2)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.0)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.2)","CRAN (R 4.0.0)","CRAN (R 4.0.5)"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>package<\/th>\n      <th>loadedversion<\/th>\n      <th>date<\/th>\n      <th>source<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":156,"autoWidth":true,"bInfo":false,"paging":false,"order":[],"orderClasses":false,"orderCellsTop":true,"lengthMenu":[10,25,50,100,156]}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-d39f339537744a4ef016" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-d39f339537744a4ef016">{"x":{"filter":"top","filterHTML":"<tr>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n<\/tr>","data":[["askpass","assertthat","backports","base64enc","bit","bit64","bitops","blob","bookdown","brew","brio","broom","cachem","callr","cellranger","checkmate","cli","clipr","colorspace","commonmark","conflicted","cpp11","crayon","credentials","crosstalk","crul","curl","data.table","DBI","dbplyr","desc","devtools","dichromat","diffobj","digest","dplyr","DT","dtplyr","ellipsis","evaluate","fansi","farver","fastmap","forcats","fs","gapminder","gargle","gender","genderdata","generics","geonames","gert","ggplot2","gh","gitcreds","glue","googledrive","googlesheets4","gridExtra","gt","gtable","haven","highr","hms","htmltools","htmlwidgets","httpcode","httr","ids","ini","isoband","jquerylib","jsonlite","knitr","labeling","later","lattice","lazyeval","lifecycle","lubridate","magrittr","markdown","MASS","Matrix","memoise","mgcv","mime","modelr","munsell","nlme","openssl","pillar","pkgbuild","pkgconfig","pkgload","plyr","praise","prettyunits","processx","progress","promises","ps","purrr","R6","rappdirs","rcmdcheck","RColorBrewer","Rcpp","readr","readxl","rebird","rematch","rematch2","remotes","reprex","reshape2","rjson","rlang","rmarkdown","roxygen2","rplos","rprojroot","rstudioapi","rversions","rvest","sass","scales","selectr","sessioninfo","solrium","stringi","stringr","sys","testthat","tibble","tidyr","tidyselect","tidyverse","tinytex","triebeard","tzdb","urltools","usethis","utf8","uuid","vctrs","viridis","viridisLite","vroom","waldo","whisker","withr","xfun","xml2","xopen","yaml","zip"],[null,"0.2.1","1.2.1",null,null,null,null,null,"0.23",null,null,"0.7.9","1.0.6","3.7.0","1.1.0",null,"3.0.1",null,"2.0-2",null,null,null,"1.4.1",null,null,null,null,null,"1.1.1","2.1.1","1.3.0","2.4.2",null,null,"0.6.27","1.0.7","0.18",null,"0.3.2","0.14","0.5.0",null,"1.1.0","0.5.1","1.5.0",null,null,null,null,"0.1.0",null,null,"3.3.5",null,null,"1.4.2",null,null,null,null,"0.3.0","2.4.3",null,"1.1.0","0.5.1.9000","1.5.3",null,"1.4.2",null,null,null,"0.1.4","1.7.2","1.33",null,null,null,null,"1.0.0","1.7.10","2.0.1",null,null,null,"2.0.0",null,null,"0.1.8","0.5.0",null,null,"1.6.2","1.2.0","2.0.3","1.2.1",null,null,"1.1.1","3.5.2",null,null,"1.6.0","0.3.4","2.5.1",null,null,null,"1.0.7","2.0.1","1.3.1",null,null,null,"2.4.0","2.0.1",null,null,"0.4.11","2.10",null,null,"2.0.2","0.13",null,"1.0.1","0.4.0","1.1.1",null,"1.1.1",null,"1.7.4","1.4.0",null,"3.0.4","3.1.4","1.1.3","1.1.1","1.3.1",null,null,"0.1.2",null,"2.0.1","1.2.2",null,"0.3.8",null,null,null,null,null,"2.4.2","0.24","1.3.2",null,"2.2.1",null],["2019-01-13","2019-03-21","2020-12-09","2015-07-28","2020-08-04","2020-08-30","2021-04-24","2021-07-23","2021-08-13","2011-04-13","2021-04-23","2021-07-27","2021-08-19","2021-04-20","2016-07-27","2020-02-06","2021-07-17","2020-10-08","2021-06-24","2018-12-01","2019-06-21","2021-06-25","2021-02-08","2021-07-25","2021-01-12","2021-02-15","2021-06-23","2021-02-21","2021-01-15","2021-04-06","2021-03-05","2021-06-07",null,"2021-03-22","2020-10-24","2021-06-18","2021-04-14","2021-02-20","2021-04-29","2019-05-28","2021-05-25","2021-02-28","2021-01-25","2021-01-27","2020-07-31","2017-10-31","2021-07-02","2020-05-15",null,"2020-10-31","2019-02-19","2021-08-16","2021-06-25","2021-04-30","2020-12-04","2020-08-27","2021-07-08","2021-07-21","2017-09-09","2021-08-07","2019-03-25","2021-08-04","2021-04-16","2021-05-17","2021-01-12","2020-12-10","2020-04-10","2020-07-20","2017-05-31","2018-05-20","2021-07-13","2021-04-26","2020-12-09","2021-04-24","2020-10-20","2021-08-18","2020-04-02","2019-03-15","2021-02-15","2021-02-26","2020-11-17","2019-08-07","2021-02-12","2021-01-06","2021-01-26","2021-02-16","2021-06-23","2020-05-19","2018-06-12","2021-02-04","2021-04-30","2021-07-29","2020-12-15","2019-09-22","2021-04-06","2020-03-03","2015-08-11","2020-01-24","2021-04-30","2019-05-16","2021-02-11","2021-02-28","2020-04-17","2021-08-19","2021-01-31","2019-05-07","2014-12-07","2021-07-07","2021-08-10","2019-03-13","2021-01-27","2016-04-21","2020-05-01","2021-06-02","2021-08-05","2020-04-09","2018-06-08","2021-04-30","2021-08-06","2020-06-27","2021-02-23","2020-11-15","2020-11-12","2021-05-31","2021-07-26","2021-05-12","2020-05-11","2019-11-20","2018-11-05","2021-05-19","2021-08-25","2019-02-10","2020-07-23","2021-07-01","2021-08-25","2021-03-03","2021-04-30","2021-04-15","2021-08-05","2016-08-04","2021-07-20","2019-04-14","2021-02-10","2021-07-24","2020-02-26","2021-04-29","2021-05-11","2021-04-13","2021-08-05","2021-08-23","2019-08-28","2021-04-18","2021-06-15","2020-04-23","2018-09-17","2020-02-01","2021-05-31"],["CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.5)",null,"CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.4)",null,"CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","Github (rstudio/htmltools@11cfbf3)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>package<\/th>\n      <th>loadedversion<\/th>\n      <th>date<\/th>\n      <th>source<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":157,"autoWidth":true,"bInfo":false,"paging":false,"order":[],"orderClasses":false,"orderCellsTop":true,"lengthMenu":[10,25,50,100,157]}},"evals":[],"jsHooks":[]}</script>
 ```
 
 
@@ -912,13 +912,13 @@ sessionInfo()
 #> 
 #> other attached packages:
 #>  [1] DT_0.18         devtools_2.4.2  usethis_2.0.1   forcats_0.5.1  
-#>  [5] stringr_1.4.0   dplyr_1.0.7     purrr_0.3.4     readr_2.0.0    
-#>  [9] tidyr_1.1.3     tibble_3.1.3    ggplot2_3.3.5   tidyverse_1.3.1
+#>  [5] stringr_1.4.0   dplyr_1.0.7     purrr_0.3.4     readr_2.0.1    
+#>  [9] tidyr_1.1.3     tibble_3.1.4    ggplot2_3.3.5   tidyverse_1.3.1
 #> [13] webshot_0.5.2   knitr_1.33      vembedr_0.1.4   tweetrmd_0.0.8 
 #> 
 #> loaded via a namespace (and not attached):
-#> [1] tools_4.0.5       bookdown_0.22     rmarkdown_2.10    htmltools_0.5.1.1
-#> [5] shiny_1.6.0       miniUI_0.1.1.1
+#> [1] tools_4.0.5          bookdown_0.23        rmarkdown_2.10      
+#> [4] htmltools_0.5.1.9000 shiny_1.6.0          miniUI_0.1.1.1
 ```
 
 <!--chapter:end:0000a_front.Rmd-->
@@ -2108,13 +2108,13 @@ Schedule
 - Wednesday: What is personality? (Chapter 1)
 - Friday: Research in Personality: Sources of Data (Chapter 2)
 -->
-## Week 02, 08/30 - 09/03 : Research Design in Personality
+## Week 02, 08/30 - 09/03 : Personality Research Methods
 <!---
 - Monday: NO CLASS MLK Day
 - Wednesday: Research Design: Validity (Chapter 2)
 - Friday: Research Design: Generalizability (Chapter 2; Short Assignment 1 Handed Out)
 -->
-##  Week 03, 09/06 - 09/10 : Personality Assessment and Testing Controversies 
+##  Week 03, 09/06 - 09/10 : Assessment, Evaluation, and Ethicss 
 <!---
 - Monday: Personality Assessment (Chapter 3)
 - Tuesday: "Last day to add full-term class"
@@ -2128,68 +2128,68 @@ Schedule
 - Wednesday: Personality Judgement (Chapter 5)
 - Friday: Using Personality Traits to Understand Behavior (Chapter 6; Assignment 1 Due)
 -->
-##  Week 05, 09/20 - 09/24 : Big Five
+##  Week 05, 09/20 - 09/24 : Personality Judgement
 <!---
 - Monday: Big Five (Chapter 6)
 - Wednesday: Review
 - Friday: Test 1
 -->
-##  Week 06, 09/27 - 10/01 : Personality over the Lifespan
+##  Week 06, 09/27 - 10/01 : Big Five
 <!---
 - Monday: Brains (Chapter 8)
 - Wednesday: More Brains (Chapter 8)
 - Friday: Behavior Genetics (Chapter 9)
 -->
-##  Week 07, 10/04 - 10/08 : Biological and Genetic Approaches to Psychology 
+##  Week 07, 10/04 - 10/08 : Personality over the Lifespan 
 <!---
 - Monday: Behavior Genetics (Chapter 9)
 - Wednesday: Evolutionary Psychology (Chapter 9)
 - Friday: Evolutionary Psychology (Chapter 9)
 -->
-##  Week 08, 10/11 - 10/15 : Evolutionary Psychology
+##  Week 08, 10/11 - 10/15 : Biological Approaches to Psychology
 <!---
 - Monday: Personality over the Lifespan (Chapter 7)
 - Wednesday: Personality over the Lifespan (Chapter 7)
 - Friday: Personality Processes (Chapter 15)
 -->
-##  Week 09, 10/18 - 10/22 : Personality Processes
+##  Week 09, 10/18 - 10/22 : Behavior Genetics
 <!---
 - Monday: No Class
 - Wednesday: No Class
 - Friday: No Class
 -->
-##  Week 10, 10/25 - 10/29 : The Self
+##  Week 10, 10/25 - 10/29 : Evolutionary Psychology
 <!---
 - Monday: Personality Processes (Chapter 15)
 - Wednesday: Review
 - Friday: Test 2
 -->
-##  Week 11, 11/01 - 11/05 : Freud
+##  Week 11, 11/01 - 11/05 : Cross-Cultural Psychology
 <!---
 - Monday: The Self (Chapter 16) Last day to drop with a grade of "W"
 - Wednesday: The Self (Chapter 16)
 - Friday:  Freud (Chapter 10) 
 -->
-##  Week 12, 11/08 - 11/12 : Positive Psychology
+##  Week 12, 11/08 - 11/12 : Freud
 <!---
 - Monday: Freud (Chapter 10)
 - Wednesday: Freud (Chapter 10)
 - Friday: Neo-Freud (Chapter 11; Assignment 2 Due)
 -->
-## Week 13, 11/15 - 11/19 : Cross-Cultural Psychology
+## Week 13, 11/15 - 11/19 : Psychoanalysis After Freud
 <!---
 - Monday:  Neo-Freud (Chapter 11) 
 - Wednesday: Positive Psychology
 - Friday: Positive Psychology
 -->
-##  Week 14, 11/22 - 11/26 : Personality and Health
+##  Week 14, 11/22 - 11/26 : Personality Processes and Positive Psych
 <!---
 - Monday: Cross-Cultural Psychology
 - Wednesday: Cross-Cultural Psychology
 - Friday: Cross-Cultural Psychology
 -->
 
-##  Week 15, 11/29 - 12/03 : Special Topics
+##  Week 15, 11/29 - 12/03 : Personality and Health
 <!---
 - Monday: Personality and Physical Health
 - Wednesday: Personality and Mental Health
@@ -2673,6 +2673,8 @@ Schedule
 
 Below you'll find answers to the questions that I get asked the most by students in my classes. I have been asked every single one of these questions.
 
+I don't want to discourage you from asking questions. However, asking me is not an efficient method for finding facts and searchable information...
+
 
 ## How can I get ahold of you?
 
@@ -2710,7 +2712,9 @@ You can find it on canvas, under grades. I will not look up this grade for you. 
 ### Can you calculate my grade for me?
 No. I believe in you!
 
-You are capable of calculating a weighted average. You have 100% of the information you need to do so as outlined in the syllabus. You can calculate your grade using a weighted average and the weightings in the syllabus.
+You are capable of calculating a weighted average. 
+You have 100% of the information you need to do so as outlined in the syllabus. 
+You can calculate your grade using a weighted average and the weightings in the syllabus.
 If you really really need help with this, try this website:https://thegradecalculator.com/
 
 
@@ -2724,7 +2728,7 @@ Your best approach is to pretend that there is no curve.
 Unless you are legally a minor, I cannot answer your parents questions about this class.
 
 
-### Should my parents email you about my class performance?
+#### Should my parents email you about my class performance?
 No.
 
 
@@ -2750,13 +2754,13 @@ I've sliced up the content into smaller chunks. If you want to watch the entire 
 
 
 ### Why is your speaking style so weird?
-I get this comment frequently enough in course evaluations (but never face-to-face...). Most students don't have a problem with it, and it seems that most people recognize that it is outside my control. My speaking style can become a bit fragmented -- students tend to describe it as tangential, scattered, incomprehensible (also some much less kind things... that are often really ableist). But that's not actually, what's happening... effectively, I will on occasion skip the last syllable in a word or the last word of a sentence. 
+I get this comment frequently enough in course evaluations (but never face-to-face...). Most students don't have a problem with it, and it seems that most people recognize that it is outside my control. My speaking style can become a bit fragmented -- students tend to describe it as tangential, scattered, incomprehensible (also some much less kind things... that are often really ableist). But that's not actually, what's happening... what's happening is a mixture of cluttering and some other less well-known speech dysfluencies. Practically, this means I will on occasion skip the last syllable in a word or the last word of a sentence or repeat a phrase.  
 
 I recognize that it can be frustrating. I hear you. I really do. I cannot help it. And trust me, I am frustrated by it as well.
 
 Please, understand that there's not much more I can do at this point. And I have done a lot.
 
-What you are experiencing is the result of years of speech therapy and is a massive improvement. If you *genuinely* struggle to understand me, please TALK to me about it. I can connect you with resources, including my scripts, previous recordings of lectures. If those don't help, we can work in the LAC to figure out an accommodation that works for both of us.
+What you are experiencing is the result of years of speech therapy and is a massive improvement. If you *genuinely* struggle to understand me, please TALK to me about it. I can connect you with resources, including my scripts, previous recordings of lectures. If those don't help, we can work in the LAC to figure out an accommodation that works for both of us. PLEASE do not wait until after the course is over and complain in my course evaluations. That is not helpful to anyone. 
 
 
 ### Why is this so much more work compared to face-to-face classes?
@@ -2764,11 +2768,11 @@ It may feel like more work, but it actually isn't. This class covers the same co
 
 
 ### Where can I find more information about technology services or computer resources?
-You can find more information here: TDB
+You can find more information here: https://is.wfu.edu/
 
 
 ### I'm having a trouble with a specific problem, can you fix it for me?
-Troubleshooting or problem solving is going to be essential for virtual learning. Like with anything else related to technology, problems will occur with virtual learning.
+If you are my grandmother, then yes. Otherwise... Troubleshooting or problem solving is an essential skill.  Like anything else related to technology, problems will occur with virtual learning. And it is part of your job as a student to troubleshoot your problem.
 
 Please try basic troubleshooting to fix your problem.
 
@@ -2778,7 +2782,7 @@ If you still have trouble after troubleshooting, post the problem to the discuss
 ## Canvas
 
 ### I'm having trouble with Canvas -- help!
-If you're having trouble with Canvas, You should first search the Canvas Guides and then reach out to canvas support.
+If you're having trouble with Canvas, you should first search the Canvas Guides and then reach out to canvas support.
 
 
 ### How do I contact the Canvas Help Desk?
@@ -2855,13 +2859,6 @@ Although I am not canvas tech support, here are some links...
 <blockquote class="twitter-tweet" data-width="550" data-lang="en" data-dnt="true" data-theme="light"><p lang="en" dir="ltr">Once again, I DO NOT recommend students go to libgen (dot) rs and download books for their upcoming courses. I am NOT advocating for getting and sharing free pdfs of required texts. DON&#39;T DO IT.</p>&mdash; itsgalo 🗯 (@GaloAndStuff) <a href="https://twitter.com/GaloAndStuff/status/1424818560417902604?ref_src=twsrc%5Etfw">August 9, 2021</a></blockquote>
 
 ```
-
-
-## Course-Specific Questions
-
-### Personality Psychology
-
-#### Is the Final Cumulative?
 
 
 ## Still have questions? 
