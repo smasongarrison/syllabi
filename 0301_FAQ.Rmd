@@ -124,7 +124,7 @@ Students will use Canvas to access course content.
 All work/assignments/projects will be distributed and collected through Canvas.
 
 ### I'm having trouble with Canvas -- help!
-If you're having trouble with Canvas, you should first search the Canvas Guides and then reach out to canvas support.
+If you're having trouble with Canvas, you should first search the [Canvas Guides](https://community.canvaslms.com/t5/Canvas-Basics-Guide/tkb-p/basics) and then reach out to canvas support.
 
 
 #### How do I contact the Canvas Help Desk?
@@ -179,6 +179,7 @@ You may also be seeing icons and colors when you view your grades. [Learn what t
 
 #### How do I do this specific thing in Canvas?
 
+Check out the canvas [basic guides](https://community.canvaslms.com/t5/Canvas-Basics-Guide/tkb-p/basics)
 
 [How do I use the Global Navigation Menu?](https://community.canvaslms.com/docs/DOC-10603-4212710332)
 
