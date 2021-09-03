@@ -118,47 +118,59 @@ If you still have trouble after troubleshooting, post the problem to the discuss
 
 ## Canvas
 
+
 ### I'm having trouble with Canvas -- help!
 If you're having trouble with Canvas, you should first search the Canvas Guides and then reach out to canvas support.
 
 
-### How do I contact the Canvas Help Desk?
+#### How do I contact the Canvas Help Desk?
 You can search the Canvas Guides or contact the Canvas Support Helpline by clicking the Help icon (circle with a question mark) in the Account menu.
 
 
-### How do I use Canvas for class?
+
+### Why is the assignment/activity/quiz locked?
+
+ 
+Because some of the requirements to unlock it the aci To unlock the activity/module, you need to do whatever is listed.
+
+ 
+
+### How do I... ? 
+
+
+#### How do I use Canvas for class?
 Students will use Canvas to access course content.
 All work/assignments/projects will be distributed and collected through Canvas.
 
 
-### How do I set my notifications on Canvas for my classes?
+#### How do I set my notifications on Canvas for my classes?
 You should navigate to your "Account" by pressing the icon in the top-left corner of this page, right under the Canvas Logo. Then you press "Notifications" and will be brought to a screen where you can change and adjust your notifications.
 
 
-### How do I submit an assignment on Canvas?
+#### How do I submit an assignment on Canvas?
 Navigate to your assignment and click this button
 Double check your work that it's complete and saved correctly.
 Upload or type your work and click submit assignment.
 
 
-### How do I know when an assignment has been submitted?
+#### How do I know when an assignment has been submitted?
 After you click "submit assignment," you will see "confetti" on your screen.
 
 
-### How do I use the Calendar feature in Canvas?
+#### How do I use the Calendar feature in Canvas?
 Your calendar will allow you to see assignments and important dates for all of your classes.
-Click this icon to access your calendar.
+Click the calendar icon to access your calendar.
 From here, you will see all of your classes on the right side of the page
 You can click to see specific class work, or color code your calendar.
 
 
-### How do I see feedback on my assignments submitted on Canvas?
+#### How do I see feedback on my assignments submitted on Canvas?
 Log into the course and click on the 'Grades' link.
 Find the assignment and click the assignment name.
 Click on 'View Feedback' to view all feedback, including comments and any additional annotated comments made on the submission.
 
 
-### How do I accurately check my grades in Canvas?
+#### How do I accurately check my grades in Canvas?
 You're probably familiar with checking your grades for a [current course in Canvas](https://community.canvaslms.com/t5/Student-Guide/How-do-I-view-my-grades-in-a-current-course/ta-p/493), but did you know that you might not be seeing an accurate calculation of your final grade when you check your grades at the end of the semester?
 
 In order to get an accurate view of your final grade towards the end of the semester,
@@ -171,7 +183,8 @@ You may also be seeing icons and colors when you view your grades. [Learn what t
 
 [Note: Answer Adapted from Florida State University Canvas Support](https://support.canvas.fsu.edu/kb/article/1068-students-make-sure-you-are-seeing-the-right-grades-in-canvas/)
 
-### How do I do this specific thing in Canvas?
+#### How do I do this specific thing in Canvas?
+
 Although I am not canvas tech support, here are some links...
 
 [How do I use the Global Navigation Menu?](https://community.canvaslms.com/docs/DOC-10603-4212710332)
