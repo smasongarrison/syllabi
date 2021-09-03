@@ -51,7 +51,7 @@ No. I believe in you!
 You are capable of calculating a weighted average. 
 You have 100% of the information you need to do so as outlined in the syllabus. 
 You can calculate your grade using a weighted average and the weightings in the syllabus.
-If you really really need help with this, try this website:https://thegradecalculator.com/
+If you really really need help with this, try [this website](https://thegradecalculator.com/).
 
 
 ### Your curve is confusing. Why can't you just tell me my letter grade?
