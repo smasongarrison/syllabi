@@ -118,6 +118,10 @@ If you still have trouble after troubleshooting, post the problem to the discuss
 
 ## Canvas
 
+#### How do I use Canvas for class?
+
+Students will use Canvas to access course content.
+All work/assignments/projects will be distributed and collected through Canvas.
 
 ### I'm having trouble with Canvas -- help!
 If you're having trouble with Canvas, you should first search the Canvas Guides and then reach out to canvas support.
@@ -127,22 +131,10 @@ If you're having trouble with Canvas, you should first search the Canvas Guides 
 You can search the Canvas Guides or contact the Canvas Support Helpline by clicking the Help icon (circle with a question mark) in the Account menu.
 
 
-
-### Why is the assignment/activity/quiz locked?
-
- 
-Because some of the requirements to unlock it the activity are not met. To unlock the activity/module, you need to do whatever is listed.
-
-![image](https://user-images.githubusercontent.com/6001608/132035507-fc352f9a-da22-4b2d-880d-872e9bb8c7bd.png)
-
-
  
 ### How do I... ? 
 
-
-#### How do I use Canvas for class?
-Students will use Canvas to access course content.
-All work/assignments/projects will be distributed and collected through Canvas.
+Although I am not canvas tech support, here are some answers to commonly asked questions.
 
 
 #### How do I set my notifications on Canvas for my classes?
@@ -187,7 +179,6 @@ You may also be seeing icons and colors when you view your grades. [Learn what t
 
 #### How do I do this specific thing in Canvas?
 
-Although I am not canvas tech support, here are some links...
 
 [How do I use the Global Navigation Menu?](https://community.canvaslms.com/docs/DOC-10603-4212710332)
 
@@ -195,14 +186,22 @@ Although I am not canvas tech support, here are some links...
 
 [How do I use the To Do list and sidebar in the Dashboard?](https://community.canvaslms.com/docs/DOC-10589-4212717407)
 
-
-### Profile and User Settings
-
 [How do I edit my profile in my user account? ](https://community.canvaslms.com/docs/DOC-10628-4212710342)
 
 [How do I add a profile picture in my user account?](https://community.canvaslms.com/docs/DOC-10599-4212710334)
 
 [How do I set my Canvas notification preferences?](https://community.canvaslms.com/docs/DOC-10624-4212710344)
+
+
+### Why is...
+
+#### Why is the assignment/activity/quiz locked?
+
+Because some of the requirements to unlock it the activity are not met. To unlock the activity/module, you need to do whatever is listed.
+
+```{r echo = FALSE,out.width='50%', fig.align='center'}
+include_graphics("img/requirements.png")
+```
 
 ## Resources
 
