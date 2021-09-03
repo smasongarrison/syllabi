@@ -1,6 +1,5 @@
 --- 
 title: "Prof. Mason's Syllabi"
-subtitle: "A Snappy Subtitle"
 author: 
 - S. Mason Garrison
 date: "`r Sys.Date()`"
