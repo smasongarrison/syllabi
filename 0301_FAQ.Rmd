@@ -34,7 +34,7 @@ Credit: [Kiki Schirr](https://kikischirr.medium.com/) at [Tech Doodles](https://
 
 
 ## General Course Questions
-If you have a question about the course AND can't find your answer elsewhere (or you find conflicting answers), please post them in the discussion board.
+If you have a question about the course AND can't find your answer elsewhere (or you find conflicting answers), please post them on the class discussion board. (Depending on the class, this board will either be on canvas or github)
 
 
 ### Where can I find when assignments are due?
@@ -131,10 +131,12 @@ You can search the Canvas Guides or contact the Canvas Support Helpline by click
 ### Why is the assignment/activity/quiz locked?
 
  
-Because some of the requirements to unlock it the aci To unlock the activity/module, you need to do whatever is listed.
+Because some of the requirements to unlock it the activity are not met. To unlock the activity/module, you need to do whatever is listed.
+
+![image](https://user-images.githubusercontent.com/6001608/132035507-fc352f9a-da22-4b2d-880d-872e9bb8c7bd.png)
+
 
  
-
 ### How do I... ? 
 
 
