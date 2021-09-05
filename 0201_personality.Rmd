@@ -77,7 +77,7 @@ There will be 6 quizzes in this course.  The best 5 out of 6 quizzes grades will
 - Quiz 6: During Finals, `r advdate(mon, 16, assignment="f")`
 
 
-#### Short Assignments
+### Short Assignments
 
 There will be three (3) short assignments in this course. These assignments will allow you to incorporate some of your own interests into the course. Such interests could be related to your career, another class you're taking, a hobby you're exploring, or some other random fancy. They will typically be approximately two (2) pages. I will provide more specific written guidelines at least two weeks before each assignment is due.
 
@@ -103,6 +103,8 @@ There will be multiple engagement activities in this course. These activities wi
 ```{r child = './common/content/grading.Xmd'}
 ```
 
+### Weighting
+
 - 150 points of your grade will be determined by your best 5 quizzes
     - The final is not optional.
 - 25 points of your grade will be determined by completing engagement activities.
@@ -110,23 +112,22 @@ There will be multiple engagement activities in this course. These activities wi
 
 
 
-<!---
-Schedule
--->
+## Schedule
 
-## `r advdate(mon, 1, topic)`
+
+## `r advdate(mon, 1, topic)`  {-}
 <!---
 - Monday: First Day of Class / Introduction
 - Wednesday: What is personality? (Chapter 1)
 - Friday: Research in Personality: Sources of Data (Chapter 2)
 -->
-## `r advdate(mon, 2, topic)`
+## `r advdate(mon, 2, topic)`  {-}
 <!---
 - Monday: NO CLASS MLK Day
 - Wednesday: Research Design: Validity (Chapter 2)
 - Friday: Research Design: Generalizability (Chapter 2; Short Assignment 1 Handed Out)
 -->
-##  `r advdate(mon, 3, topic)` 
+##  `r advdate(mon, 3, topic)`   {-}
 <!---
 - Monday: Personality Assessment (Chapter 3)
 - Tuesday: "Last day to add full-term class"
@@ -134,74 +135,74 @@ Schedule
 - Friday: Person versus Situation (Chapter 4)
 -->
 
-##  `r advdate(mon, 4, topic)`
+##  `r advdate(mon, 4, topic)` {-}
 <!---
 - Monday: What are traits? What are the basic traits? (Chapter 4)
 - Wednesday: Personality Judgement (Chapter 5)
 - Friday: Using Personality Traits to Understand Behavior (Chapter 6; Assignment 1 Due)
 -->
-##  `r advdate(mon, 5, topic)`
+##  `r advdate(mon, 5, topic)` {-}
 <!---
 - Monday: Big Five (Chapter 6)
 - Wednesday: Review
 - Friday: Test 1
 -->
-##  `r advdate(mon, 6, topic)`
+##  `r advdate(mon, 6, topic)`  {-}
 <!---
 - Monday: Brains (Chapter 8)
 - Wednesday: More Brains (Chapter 8)
 - Friday: Behavior Genetics (Chapter 9)
 -->
-##  `r advdate(mon, 7, topic)` 
+##  `r advdate(mon, 7, topic)`  {-}
 <!---
 - Monday: Behavior Genetics (Chapter 9)
 - Wednesday: Evolutionary Psychology (Chapter 9)
 - Friday: Evolutionary Psychology (Chapter 9)
 -->
-##  `r advdate(mon, 8, topic)`
+##  `r advdate(mon, 8, topic)`  {-}
 <!---
 - Monday: Personality over the Lifespan (Chapter 7)
 - Wednesday: Personality over the Lifespan (Chapter 7)
 - Friday: Personality Processes (Chapter 15)
 -->
-##  `r advdate(mon, 9, topic)`
+##  `r advdate(mon, 9, topic)`  {-}
 <!---
 - Monday: No Class
 - Wednesday: No Class
 - Friday: No Class
 -->
-##  `r advdate(mon, 10, topic)`
+##  `r advdate(mon, 10, topic)`  {-}
 <!---
 - Monday: Personality Processes (Chapter 15)
 - Wednesday: Review
 - Friday: Test 2
 -->
-##  `r advdate(mon, 11, topic)`
+##  `r advdate(mon, 11, topic)`  {-}
 <!---
 - Monday: The Self (Chapter 16) Last day to drop with a grade of "W"
 - Wednesday: The Self (Chapter 16)
 - Friday:  Freud (Chapter 10) 
 -->
-##  `r advdate(mon, 12, topic)`
+##  `r advdate(mon, 12, topic)`  {-}
 <!---
 - Monday: Freud (Chapter 10)
 - Wednesday: Freud (Chapter 10)
 - Friday: Neo-Freud (Chapter 11; Assignment 2 Due)
 -->
-## `r advdate(mon, 13, topic)`
+## `r advdate(mon, 13, topic)`  {-}
 <!---
 - Monday:  Neo-Freud (Chapter 11) 
 - Wednesday: Positive Psychology
 - Friday: Positive Psychology
 -->
-##  `r advdate(mon, 14, topic)`
+##  `r advdate(mon, 14, topic)`  {-}
 <!---
 - Monday: Cross-Cultural Psychology
 - Wednesday: Cross-Cultural Psychology
 - Friday: Cross-Cultural Psychology
 -->
 
-##  `r advdate(mon, 15, topic)`
+##  `r advdate(mon, 15, topic)`  {-}
 <!---
 - Monday: Personality and Physical Health
 - Wednesday: Personality and Mental Health
@@ -212,7 +213,7 @@ Schedule
 - Monday: Special Topics
 - Wednesday: Review; Assignment 3 Due; Last Day of Class
 -->
-## Final Exam 
+## Final Exam   {-}
 
 - TBD on DEC TBD
 

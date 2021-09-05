@@ -1,9 +1,8 @@
 --- 
 title: "Prof. Mason's Syllabi"
-subtitle: "A Snappy Subtitle"
 author: 
 - S. Mason Garrison
-date: "2021-08-31"
+date: "2021-09-05"
 knit: "bookdown::render_book"
 site: bookdown::bookdown_site
 url: 'https\://github.com/smasongarrison/syllabi'
@@ -29,7 +28,8 @@ always_allow_html: true
 
 
 Welcome to all my syllabi! This website is designed to accompany all of Mason Garrison's courses at Wake Forest University. 
-Over the semesters, I have found that my syllabi keep growing longer and longer as my career has progressed. I know that no one likes reading 8 page syllabi. 
+Over the semesters, I have found that my syllabi keep growing longer and longer as my career has progressed. 
+I know that no one likes reading 8 page syllabi. 
 However, I want to make sure that all my students know what my expectations are. 
 So in that spirit, I've created a website to contain all of my policies in one place. 
 That way, I can have a neat and tidy syllabi, while still making my expectations clear.
@@ -38,9 +38,9 @@ That way, I can have a neat and tidy syllabi, while still making my expectations
 ## How to use these notes {-}
 
 
-This website is constantly changing. If you catch typos, errors, please issue a pull request with the fixes
+This website is constantly changing. If you catch typos, errors, please issue a pull request with the fixes. 
 
-This document is broken down into multiple chapters. Use the table of contents on the left side of the screen to navigate, and use the hamburger icon (horizontal bars) at the top of the document to open or close the table of contents. At the top of the document, you'll see additional icons which you can click to search the document, change the size, font or color scheme of the page. The document will be updated (unpredictably) throughout the semester; however, students aren't bound to policies added once they've signed their syllabus. Instead, they are bound to the version of this "book" that was in place when they signed their syllabus. I have archived versions of this book... somewhere.
+This document is broken down into multiple chapters. Use the table of contents on the left side of the screen to navigate, and use the hamburger icon (horizontal bars) at the top of the document to open or close the table of contents. At the top of the document, you'll see additional icons which you can click to search the document, change the size, font or color scheme of the page. The document will be updated (unpredictably) throughout the semester; however, students aren't bound to policies added once they've signed their syllabus. Instead, they are bound to the version of this "book" that was in place when they signed their syllabus. I have archived versions of this book [here](https://github.com/smasongarrison/syllabi/tree/main/Previous%20Semesters).
 
 
 

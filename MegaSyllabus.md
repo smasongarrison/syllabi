@@ -1,9 +1,8 @@
 --- 
 title: "Prof. Mason's Syllabi"
-subtitle: "A Snappy Subtitle"
 author: 
 - S. Mason Garrison
-date: "2021-08-31"
+date: "2021-09-05"
 knit: "bookdown::render_book"
 site: bookdown::bookdown_site
 url: 'https\://github.com/smasongarrison/syllabi'
@@ -29,7 +28,8 @@ always_allow_html: true
 
 
 Welcome to all my syllabi! This website is designed to accompany all of Mason Garrison's courses at Wake Forest University. 
-Over the semesters, I have found that my syllabi keep growing longer and longer as my career has progressed. I know that no one likes reading 8 page syllabi. 
+Over the semesters, I have found that my syllabi keep growing longer and longer as my career has progressed. 
+I know that no one likes reading 8 page syllabi. 
 However, I want to make sure that all my students know what my expectations are. 
 So in that spirit, I've created a website to contain all of my policies in one place. 
 That way, I can have a neat and tidy syllabi, while still making my expectations clear.
@@ -38,9 +38,9 @@ That way, I can have a neat and tidy syllabi, while still making my expectations
 ## How to use these notes {-}
 
 
-This website is constantly changing. If you catch typos, errors, please issue a pull request with the fixes
+This website is constantly changing. If you catch typos, errors, please issue a pull request with the fixes. 
 
-This document is broken down into multiple chapters. Use the table of contents on the left side of the screen to navigate, and use the hamburger icon (horizontal bars) at the top of the document to open or close the table of contents. At the top of the document, you'll see additional icons which you can click to search the document, change the size, font or color scheme of the page. The document will be updated (unpredictably) throughout the semester; however, students aren't bound to policies added once they've signed their syllabus. Instead, they are bound to the version of this "book" that was in place when they signed their syllabus. I have archived versions of this book... somewhere.
+This document is broken down into multiple chapters. Use the table of contents on the left side of the screen to navigate, and use the hamburger icon (horizontal bars) at the top of the document to open or close the table of contents. At the top of the document, you'll see additional icons which you can click to search the document, change the size, font or color scheme of the page. The document will be updated (unpredictably) throughout the semester; however, students aren't bound to policies added once they've signed their syllabus. Instead, they are bound to the version of this "book" that was in place when they signed their syllabus. I have archived versions of this book [here](https://github.com/smasongarrison/syllabi/tree/main/Previous%20Semesters).
 
 
 
@@ -863,7 +863,7 @@ This version of the notes was built with:
 ```
 #> Finding R package dependencies ... Done!
 #>  setting  value                       
-#>  version  R version 4.0.5 (2021-03-31)
+#>  version  R version 4.1.1 (2021-08-10)
 #>  os       Windows 10 x64              
 #>  system   x86_64, mingw32             
 #>  ui       RTerm                       
@@ -871,15 +871,15 @@ This version of the notes was built with:
 #>  collate  English_United States.1252  
 #>  ctype    English_United States.1252  
 #>  tz       America/New_York            
-#>  date     2021-08-31
+#>  date     2021-09-05
 ```
 
 Along with these packages:
 
 
 ```{=html}
-<div id="htmlwidget-ce147ea84ed4618e5c3a" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-ce147ea84ed4618e5c3a">{"x":{"filter":"top","filterHTML":"<tr>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n<\/tr>","data":[["askpass","assertthat","backports","base64enc","bit","bit64","bitops","blob","bookdown","brew","brio","broom","cachem","callr","cellranger","checkmate","cli","clipr","colorspace","commonmark","conflicted","cpp11","crayon","credentials","crosstalk","crul","curl","data.table","DBI","dbplyr","desc","devtools","dichromat","diffobj","digest","dplyr","DT","dtplyr","ellipsis","evaluate","fansi","farver","fastmap","forcats","fs","gapminder","gargle","gender","genderdata","generics","geonames","gert","ggplot2","gh","gitcreds","glue","googledrive","googlesheets4","gridExtra","gt","gtable","haven","highr","hms","htmltools","htmlwidgets","httpcode","httr","ids","ini","isoband","jquerylib","jsonlite","knitr","labeling","later","lattice","lazyeval","lifecycle","lubridate","magrittr","markdown","MASS","Matrix","memoise","mgcv","mime","modelr","munsell","nlme","openssl","pillar","pkgbuild","pkgconfig","pkgload","plyr","praise","prettyunits","processx","progress","promises","ps","purrr","R6","rappdirs","rcmdcheck","RColorBrewer","Rcpp","readr","readxl","rebird","rematch","rematch2","remotes","reprex","reshape2","rjson","rlang","rmarkdown","roxygen2","rplos","rprojroot","rstudioapi","rversions","rvest","sass","scales","selectr","sessioninfo","solrium","stringi","stringr","sys","testthat","tibble","tidyr","tidyselect","tidyverse","tinytex","triebeard","tzdb","urltools","usethis","utf8","uuid","vctrs","viridis","viridisLite","vroom","waldo","whisker","withr","xfun","xml2","xopen","yaml","zip"],[null,"0.2.1","1.2.1",null,null,null,null,null,"0.23",null,null,"0.7.9","1.0.6","3.7.0","1.1.0",null,"3.0.1",null,"2.0-2",null,null,null,"1.4.1",null,null,null,null,null,"1.1.1","2.1.1","1.3.0","2.4.2",null,null,"0.6.27","1.0.7","0.18",null,"0.3.2","0.14","0.5.0",null,"1.1.0","0.5.1","1.5.0",null,null,null,null,"0.1.0",null,null,"3.3.5",null,null,"1.4.2",null,null,null,null,"0.3.0","2.4.3",null,"1.1.0","0.5.1.9000","1.5.3",null,"1.4.2",null,null,null,"0.1.4","1.7.2","1.33",null,null,null,null,"1.0.0","1.7.10","2.0.1",null,null,null,"2.0.0",null,null,"0.1.8","0.5.0",null,null,"1.6.2","1.2.0","2.0.3","1.2.1",null,null,"1.1.1","3.5.2",null,null,"1.6.0","0.3.4","2.5.1",null,null,null,"1.0.7","2.0.1","1.3.1",null,null,null,"2.4.0","2.0.1",null,null,"0.4.11","2.10",null,null,"2.0.2","0.13",null,"1.0.1","0.4.0","1.1.1",null,"1.1.1",null,"1.7.4","1.4.0",null,"3.0.4","3.1.4","1.1.3","1.1.1","1.3.1",null,null,"0.1.2",null,"2.0.1","1.2.2",null,"0.3.8",null,null,null,null,null,"2.4.2","0.24","1.3.2",null,"2.2.1",null],["2019-01-13","2019-03-21","2020-12-09","2015-07-28","2020-08-04","2020-08-30","2021-04-24","2021-07-23","2021-08-13","2011-04-13","2021-04-23","2021-07-27","2021-08-19","2021-04-20","2016-07-27","2020-02-06","2021-07-17","2020-10-08","2021-06-24","2018-12-01","2019-06-21","2021-06-25","2021-02-08","2021-07-25","2021-01-12","2021-02-15","2021-06-23","2021-02-21","2021-01-15","2021-04-06","2021-03-05","2021-06-07",null,"2021-03-22","2020-10-24","2021-06-18","2021-04-14","2021-02-20","2021-04-29","2019-05-28","2021-05-25","2021-02-28","2021-01-25","2021-01-27","2020-07-31","2017-10-31","2021-07-02","2020-05-15",null,"2020-10-31","2019-02-19","2021-08-16","2021-06-25","2021-04-30","2020-12-04","2020-08-27","2021-07-08","2021-07-21","2017-09-09","2021-08-07","2019-03-25","2021-08-04","2021-04-16","2021-05-17","2021-01-12","2020-12-10","2020-04-10","2020-07-20","2017-05-31","2018-05-20","2021-07-13","2021-04-26","2020-12-09","2021-04-24","2020-10-20","2021-08-18","2020-04-02","2019-03-15","2021-02-15","2021-02-26","2020-11-17","2019-08-07","2021-02-12","2021-01-06","2021-01-26","2021-02-16","2021-06-23","2020-05-19","2018-06-12","2021-02-04","2021-04-30","2021-07-29","2020-12-15","2019-09-22","2021-04-06","2020-03-03","2015-08-11","2020-01-24","2021-04-30","2019-05-16","2021-02-11","2021-02-28","2020-04-17","2021-08-19","2021-01-31","2019-05-07","2014-12-07","2021-07-07","2021-08-10","2019-03-13","2021-01-27","2016-04-21","2020-05-01","2021-06-02","2021-08-05","2020-04-09","2018-06-08","2021-04-30","2021-08-06","2020-06-27","2021-02-23","2020-11-15","2020-11-12","2021-05-31","2021-07-26","2021-05-12","2020-05-11","2019-11-20","2018-11-05","2021-05-19","2021-08-25","2019-02-10","2020-07-23","2021-07-01","2021-08-25","2021-03-03","2021-04-30","2021-04-15","2021-08-05","2016-08-04","2021-07-20","2019-04-14","2021-02-10","2021-07-24","2020-02-26","2021-04-29","2021-05-11","2021-04-13","2021-08-05","2021-08-23","2019-08-28","2021-04-18","2021-06-15","2020-04-23","2018-09-17","2020-02-01","2021-05-31"],["CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.5)",null,"CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.4)",null,"CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","Github (rstudio/htmltools@11cfbf3)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>package<\/th>\n      <th>loadedversion<\/th>\n      <th>date<\/th>\n      <th>source<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":157,"autoWidth":true,"bInfo":false,"paging":false,"order":[],"orderClasses":false,"orderCellsTop":true,"lengthMenu":[10,25,50,100,157]}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-72be88d6c1d81379a4d2" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-72be88d6c1d81379a4d2">{"x":{"filter":"top","vertical":false,"filterHTML":"<tr>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n<\/tr>","data":[["askpass","assertthat","backports","base64enc","bit","bit64","blob","bookdown","brew","brio","broom","cachem","callr","cellranger","cli","clipr","colorspace","commonmark","conflicted","cpp11","crayon","credentials","crosstalk","curl","data.table","DBI","dbplyr","desc","devtools","dichromat","diffobj","digest","dplyr","DT","dtplyr","ellipsis","evaluate","fansi","farver","fastmap","forcats","fs","gapminder","gargle","gender","genderdata","generics","geonames","gert","ggplot2","gh","gitcreds","glue","googledrive","googlesheets4","gridExtra","gt","gtable","haven","highr","hms","htmltools","htmlwidgets","httr","ids","ini","isoband","jquerylib","jsonlite","knitr","labeling","later","lattice","lazyeval","lifecycle","lubridate","magrittr","markdown","MASS","Matrix","memoise","mgcv","mime","modelr","munsell","nlme","openssl","pillar","pkgbuild","pkgconfig","pkgload","praise","prettyunits","processx","progress","promises","ps","purrr","R6","rappdirs","rcmdcheck","RColorBrewer","Rcpp","readr","readxl","rebird","rematch","rematch2","remotes","reprex","rlang","rmarkdown","roxygen2","rplos","rprojroot","rstudioapi","rversions","rvest","scales","selectr","sessioninfo","stringi","stringr","sys","testthat","tibble","tidyr","tidyselect","tidyverse","tinytex","tzdb","usethis","utf8","uuid","vctrs","viridis","viridisLite","vroom","waldo","whisker","withr","xfun","xml2","xopen","yaml","zip"],[null,"0.2.1","1.2.1",null,null,null,null,"0.24",null,null,"0.7.9","1.0.6","3.7.0","1.1.0","3.0.1",null,"2.0-2",null,null,null,"1.4.1",null,null,null,null,"1.1.1","2.1.1","1.3.0","2.4.2",null,null,"0.6.27","1.0.7","0.19",null,"0.3.2","0.14","0.5.0",null,"1.1.0","0.5.1","1.5.0",null,null,null,null,"0.1.0",null,null,"3.3.5",null,null,"1.4.2",null,null,null,null,"0.3.0","2.4.3",null,"1.1.0","0.5.2","1.5.3","1.4.2",null,null,null,"0.1.4","1.7.2","1.33",null,null,null,null,"1.0.0","1.7.10","2.0.1",null,null,null,"2.0.0",null,null,"0.1.8","0.5.0",null,null,"1.6.2","1.2.0","2.0.3","1.2.1",null,"1.1.1","3.5.2",null,null,"1.6.0","0.3.4","2.5.1",null,null,null,"1.0.7","2.0.1","1.3.1",null,null,null,"2.4.0","2.0.1","0.4.11","2.10",null,null,"2.0.2","0.13",null,"1.0.1","1.1.1",null,"1.1.1","1.7.4","1.4.0",null,"3.0.4","3.1.4","1.1.3","1.1.1","1.3.1",null,"0.1.2","2.0.1","1.2.2",null,"0.3.8",null,null,null,null,null,"2.4.2","0.25","1.3.2",null,"2.2.1",null],["2019-01-13","2019-03-21","2020-12-09","2015-07-28","2020-08-04","2020-08-30","2021-07-23","2021-09-02","2011-04-13","2021-04-23","2021-07-27","2021-08-19","2021-04-20","2016-07-27","2021-07-17","2020-10-08","2021-06-24","2018-12-01",null,"2021-06-25","2021-02-08","2021-07-25","2021-01-12","2021-06-23","2021-02-21","2021-01-15","2021-04-06","2021-03-05","2021-06-07",null,"2021-03-22","2020-10-24","2021-06-18","2021-09-02","2021-02-20","2021-04-29","2019-05-28","2021-05-25","2021-02-28","2021-01-25","2021-01-27","2020-07-31",null,"2021-07-02",null,null,"2020-10-31",null,"2021-08-16","2021-06-25","2021-04-30","2020-12-04","2020-08-27","2021-07-08","2021-07-21","2017-09-09",null,"2019-03-25","2021-08-04","2021-04-16","2021-05-17","2021-08-25","2020-12-10","2020-07-20","2017-05-31","2018-05-20","2021-07-13","2021-04-26","2020-12-09","2021-04-24","2020-10-20","2021-08-18","2021-05-02","2019-03-15","2021-02-15","2021-02-26","2020-11-17","2019-08-07","2021-05-03","2021-06-01","2021-01-26","2021-06-01","2021-06-23","2020-05-19","2018-06-12","2021-02-04","2021-09-02","2021-07-29","2020-12-15","2019-09-22","2021-04-06","2015-08-11","2020-01-24","2021-04-30","2019-05-16","2021-02-11","2021-02-28","2020-04-17","2021-08-19","2021-01-31","2019-05-07","2014-12-07","2021-07-07","2021-08-10","2019-03-13",null,"2016-04-21","2020-05-01","2021-06-02","2021-08-05","2021-04-30","2021-08-06","2020-06-27",null,"2020-11-15","2020-11-12","2021-05-31","2021-07-26","2020-05-11","2019-11-20","2018-11-05","2021-08-25","2019-02-10","2020-07-23","2021-07-01","2021-08-25","2021-03-03","2021-04-30","2021-04-15","2021-08-05","2021-07-20","2021-02-10","2021-07-24","2020-02-26","2021-04-29","2021-05-11","2021-04-13","2021-08-05","2021-08-23","2019-08-28","2021-04-18","2021-08-06","2020-04-23","2018-09-17","2020-02-01","2021-05-31"],["CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.0)","CRAN (R 4.1.0)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.0)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.0)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)",null,"CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)",null,"CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.0)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.0)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)",null,"CRAN (R 4.1.1)",null,null,"CRAN (R 4.1.1)",null,"CRAN (R 4.1.1)","CRAN (R 4.1.0)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)",null,"CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.0)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.0)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.0)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)",null,"CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)",null,"CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.0)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.0)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.0)","CRAN (R 4.1.1)"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>package<\/th>\n      <th>loadedversion<\/th>\n      <th>date<\/th>\n      <th>source<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":146,"autoWidth":true,"bInfo":false,"paging":false,"order":[],"orderClasses":false,"orderCellsTop":true,"lengthMenu":[10,25,50,100,146]}},"evals":[],"jsHooks":[]}</script>
 ```
 
 
@@ -894,9 +894,9 @@ The R session information when compiling this book is shown below:
 
 ```r
 sessionInfo()
-#> R version 4.0.5 (2021-03-31)
+#> R version 4.1.1 (2021-08-10)
 #> Platform: x86_64-w64-mingw32/x64 (64-bit)
-#> Running under: Windows 10 x64 (build 19043)
+#> Running under: Windows 10 x64 (build 17763)
 #> 
 #> Matrix products: default
 #> 
@@ -911,14 +911,14 @@ sessionInfo()
 #> [1] stats     graphics  grDevices utils     datasets  methods   base     
 #> 
 #> other attached packages:
-#>  [1] DT_0.18         devtools_2.4.2  usethis_2.0.1   forcats_0.5.1  
+#>  [1] DT_0.19         devtools_2.4.2  usethis_2.0.1   forcats_0.5.1  
 #>  [5] stringr_1.4.0   dplyr_1.0.7     purrr_0.3.4     readr_2.0.1    
 #>  [9] tidyr_1.1.3     tibble_3.1.4    ggplot2_3.3.5   tidyverse_1.3.1
-#> [13] webshot_0.5.2   knitr_1.33      vembedr_0.1.4   tweetrmd_0.0.8 
+#> [13] webshot_0.5.2   knitr_1.33      vembedr_0.1.4   tweetrmd_0.0.9 
 #> 
 #> loaded via a namespace (and not attached):
-#> [1] tools_4.0.5          bookdown_0.23        rmarkdown_2.10      
-#> [4] htmltools_0.5.1.9000 shiny_1.6.0          miniUI_0.1.1.1
+#> [1] tools_4.1.1     bookdown_0.24   rmarkdown_2.10  htmltools_0.5.2
+#> [5] shiny_1.6.0     miniUI_0.1.1.1
 ```
 
 <!--chapter:end:0000a_front.Rmd-->
@@ -1300,7 +1300,7 @@ sessionInfo()
 [how-r-searches]: http://blog.obeautifulcode.com/R/How-R-Searches-And-Finds-Stuff/
 
 
-Welcome. This section includes general syllabus information. The next sections include information specific to your class.
+Welcome! This section includes general syllabus information. The next sections include information specific to your class.
 
 Remember: This course is for you, not for me.
 
@@ -1312,16 +1312,29 @@ Remember: This course is for you, not for me.
 </div>
 </div>
 ```
-Credit: https://twitter.com/AcademicsSay/status/1293621452684644355
+
+Credit: 
+
+```{=html}
+<blockquote class="twitter-tweet" data-width="550" data-lang="en" data-dnt="true" data-theme="light"><p lang="en" dir="ltr">“Read the syllabus” - <a href="https://twitter.com/SnoopDogg?ref_src=twsrc%5Etfw">@SnoopDogg</a> <a href="https://t.co/RXHvAB5ryO">https://t.co/RXHvAB5ryO</a></p>&mdash; Shit Academics Say (@AcademicsSay) <a href="https://twitter.com/AcademicsSay/status/1293621452684644355?ref_src=twsrc%5Etfw">August 12, 2020</a></blockquote>
+
+```
+
 
 ## Materials
+
+If you chose to use alternative materials, such as an older edition of the book, it is your responsibility to ensure that those materials are equivalent.
 
 
 ### Required Texts
 
-For all my classes, the textbook is intended to supplement the course. The lectures don't follow the order of chapters in the text and the text covers some material that won't be covered in the lectures, i.e., not all the information in each chapter is perfectly pertinent to the course requirements.
+For all my classes, the textbook is intended to supplement the course. 
+The lectures don't follow the order of chapters in the text and the text covers some material that won't be covered in the lectures, i.e., not all the information in each chapter is perfectly pertinent to the course requirements. 
 
-It is one of many resources you'll consume. You probably need to consume all of the resources I provide in order to be successful in this class. If you'd like to make the most of your tuition, I strongly encourage you to consume them all. The course-specific resources can be found on the specific course page.
+It is one of many resources you'll consume. 
+You probably need to consume all of the resources I provide in order to be successful in this class. 
+If you'd like to make the most of your tuition, I strongly encourage you to consume them all. 
+The course-specific resources can be found on the specific course page.
 
 ### Hardware
 
@@ -2032,7 +2045,7 @@ There will be 6 quizzes in this course.  The best 5 out of 6 quizzes grades will
 - Quiz 6: During Finals, 12/10
 
 
-#### Short Assignments
+### Short Assignments
 
 There will be three (3) short assignments in this course. These assignments will allow you to incorporate some of your own interests into the course. Such interests could be related to your career, another class you're taking, a hobby you're exploring, or some other random fancy. They will typically be approximately two (2) pages. I will provide more specific written guidelines at least two weeks before each assignment is due.
 
@@ -2089,6 +2102,8 @@ Trust me, you do not want me to curve by assignment.
 
 
 
+### Weighting
+
 - 150 points of your grade will be determined by your best 5 quizzes
     - The final is not optional.
 - 25 points of your grade will be determined by completing engagement activities.
@@ -2096,23 +2111,22 @@ Trust me, you do not want me to curve by assignment.
 
 
 
-<!---
-Schedule
--->
+## Schedule
 
-## Week 01, 08/23 - 08/27 : What is Personality
+
+## Week 01, 08/23 - 08/27 : What is Personality  {-}
 <!---
 - Monday: First Day of Class / Introduction
 - Wednesday: What is personality? (Chapter 1)
 - Friday: Research in Personality: Sources of Data (Chapter 2)
 -->
-## Week 02, 08/30 - 09/03 : Personality Research Methods
+## Week 02, 08/30 - 09/03 : Personality Research Methods  {-}
 <!---
 - Monday: NO CLASS MLK Day
 - Wednesday: Research Design: Validity (Chapter 2)
 - Friday: Research Design: Generalizability (Chapter 2; Short Assignment 1 Handed Out)
 -->
-##  Week 03, 09/06 - 09/10 : Assessment, Evaluation, and Ethicss 
+##  Week 03, 09/06 - 09/10 : Assessment, Evaluation, and Ethicss   {-}
 <!---
 - Monday: Personality Assessment (Chapter 3)
 - Tuesday: "Last day to add full-term class"
@@ -2120,74 +2134,74 @@ Schedule
 - Friday: Person versus Situation (Chapter 4)
 -->
 
-##  Week 04, 09/13 - 09/17 : How do people differ? Trait Approach
+##  Week 04, 09/13 - 09/17 : How do people differ? Trait Approach {-}
 <!---
 - Monday: What are traits? What are the basic traits? (Chapter 4)
 - Wednesday: Personality Judgement (Chapter 5)
 - Friday: Using Personality Traits to Understand Behavior (Chapter 6; Assignment 1 Due)
 -->
-##  Week 05, 09/20 - 09/24 : Personality Judgement
+##  Week 05, 09/20 - 09/24 : Personality Judgement {-}
 <!---
 - Monday: Big Five (Chapter 6)
 - Wednesday: Review
 - Friday: Test 1
 -->
-##  Week 06, 09/27 - 10/01 : Big Five
+##  Week 06, 09/27 - 10/01 : Big Five  {-}
 <!---
 - Monday: Brains (Chapter 8)
 - Wednesday: More Brains (Chapter 8)
 - Friday: Behavior Genetics (Chapter 9)
 -->
-##  Week 07, 10/04 - 10/08 : Personality over the Lifespan 
+##  Week 07, 10/04 - 10/08 : Personality over the Lifespan  {-}
 <!---
 - Monday: Behavior Genetics (Chapter 9)
 - Wednesday: Evolutionary Psychology (Chapter 9)
 - Friday: Evolutionary Psychology (Chapter 9)
 -->
-##  Week 08, 10/11 - 10/15 : Biological Approaches to Psychology
+##  Week 08, 10/11 - 10/15 : Biological Approaches to Psychology  {-}
 <!---
 - Monday: Personality over the Lifespan (Chapter 7)
 - Wednesday: Personality over the Lifespan (Chapter 7)
 - Friday: Personality Processes (Chapter 15)
 -->
-##  Week 09, 10/18 - 10/22 : Behavior Genetics
+##  Week 09, 10/18 - 10/22 : Behavior Genetics  {-}
 <!---
 - Monday: No Class
 - Wednesday: No Class
 - Friday: No Class
 -->
-##  Week 10, 10/25 - 10/29 : Evolutionary Psychology
+##  Week 10, 10/25 - 10/29 : Evolutionary Psychology  {-}
 <!---
 - Monday: Personality Processes (Chapter 15)
 - Wednesday: Review
 - Friday: Test 2
 -->
-##  Week 11, 11/01 - 11/05 : Cross-Cultural Psychology
+##  Week 11, 11/01 - 11/05 : Cross-Cultural Psychology  {-}
 <!---
 - Monday: The Self (Chapter 16) Last day to drop with a grade of "W"
 - Wednesday: The Self (Chapter 16)
 - Friday:  Freud (Chapter 10) 
 -->
-##  Week 12, 11/08 - 11/12 : Freud
+##  Week 12, 11/08 - 11/12 : Freud  {-}
 <!---
 - Monday: Freud (Chapter 10)
 - Wednesday: Freud (Chapter 10)
 - Friday: Neo-Freud (Chapter 11; Assignment 2 Due)
 -->
-## Week 13, 11/15 - 11/19 : Psychoanalysis After Freud
+## Week 13, 11/15 - 11/19 : Psychoanalysis After Freud  {-}
 <!---
 - Monday:  Neo-Freud (Chapter 11) 
 - Wednesday: Positive Psychology
 - Friday: Positive Psychology
 -->
-##  Week 14, 11/22 - 11/26 : Personality Processes and Positive Psych
+##  Week 14, 11/22 - 11/26 : Personality Processes and Positive Psych  {-}
 <!---
 - Monday: Cross-Cultural Psychology
 - Wednesday: Cross-Cultural Psychology
 - Friday: Cross-Cultural Psychology
 -->
 
-##  Week 15, 11/29 - 12/03 : Personality and Health
+##  Week 15, 11/29 - 12/03 : Personality and Health  {-}
 <!---
 - Monday: Personality and Physical Health
 - Wednesday: Personality and Mental Health
@@ -2198,7 +2212,7 @@ Schedule
 - Monday: Special Topics
 - Wednesday: Review; Assignment 3 Due; Last Day of Class
 -->
-## Final Exam 
+## Final Exam   {-}
 
 - TBD on DEC TBD
 
@@ -2696,7 +2710,7 @@ Credit: [Kiki Schirr](https://kikischirr.medium.com/) at [Tech Doodles](https://
 
 
 ## General Course Questions
-If you have a question about the course AND can't find your answer elsewhere (or you find conflicting answers), please post them in the discussion board.
+If you have a question about the course AND can't find your answer elsewhere (or you find conflicting answers), please post them on the class discussion board. (Depending on the class, this board will either be on canvas or github)
 
 
 ### Where can I find when assignments are due?
@@ -2713,7 +2727,7 @@ No. I believe in you!
 You are capable of calculating a weighted average. 
 You have 100% of the information you need to do so as outlined in the syllabus. 
 You can calculate your grade using a weighted average and the weightings in the syllabus.
-If you really really need help with this, try this website:https://thegradecalculator.com/
+If you really really need help with this, try [this website](https://thegradecalculator.com/).
 
 
 ### Your curve is confusing. Why can't you just tell me my letter grade?
@@ -2743,12 +2757,13 @@ If you find yourself spending a lot more or a lot less than 9 hours per week on 
 
 
 ### How long are the videos?
-You can always check how long the module playlist is by using this website https://ytplaylist-len.herokuapp.com/
+You can always check how long the module playlist is by using this website https://ytplaylist-len.herokuapp.com/ 
 Each module has 1 week worth of lectures.
 
 
 ### Why are there so many videos?
-I've sliced up the content into smaller chunks. If you want to watch the entire module worth in one sitting, you can use the youtube playlist.
+I've sliced up the content into smaller chunks. 
+If you want to watch the entire module worth in one sitting, you can use the youtube playlist.
 
 
 ### Why is your speaking style so weird?
@@ -2779,47 +2794,53 @@ If you still have trouble after troubleshooting, post the problem to the discuss
 
 ## Canvas
 
-### I'm having trouble with Canvas -- help!
-If you're having trouble with Canvas, you should first search the Canvas Guides and then reach out to canvas support.
+#### How do I use Canvas for class?
 
-
-### How do I contact the Canvas Help Desk?
-You can search the Canvas Guides or contact the Canvas Support Helpline by clicking the Help icon (circle with a question mark) in the Account menu.
-
-
-### How do I use Canvas for class?
 Students will use Canvas to access course content.
 All work/assignments/projects will be distributed and collected through Canvas.
 
+### I'm having trouble with Canvas -- help!
+If you're having trouble with Canvas, you should first search the [Canvas Guides](https://community.canvaslms.com/t5/Canvas-Basics-Guide/tkb-p/basics) and then reach out to canvas support.
 
-### How do I set my notifications on Canvas for my classes?
+
+#### How do I contact the Canvas Help Desk?
+You can search the Canvas Guides or contact the Canvas Support Helpline by clicking the Help icon (circle with a question mark) in the Account menu.
+
+
+ 
+### How do I... ? 
+
+Although I am not canvas tech support, here are some answers to commonly asked questions.
+
+
+#### How do I set my notifications on Canvas for my classes?
 You should navigate to your "Account" by pressing the icon in the top-left corner of this page, right under the Canvas Logo. Then you press "Notifications" and will be brought to a screen where you can change and adjust your notifications.
 
 
-### How do I submit an assignment on Canvas?
+#### How do I submit an assignment on Canvas?
 Navigate to your assignment and click this button
 Double check your work that it's complete and saved correctly.
 Upload or type your work and click submit assignment.
 
 
-### How do I know when an assignment has been submitted?
-After you click "submit assignment," you will see "confetti" on your screen. A notification will appear that looks like this:
+#### How do I know when an assignment has been submitted?
+After you click "submit assignment," you will see "confetti" on your screen.
 
 
-### How do I use the Calendar feature in Canvas?
+#### How do I use the Calendar feature in Canvas?
 Your calendar will allow you to see assignments and important dates for all of your classes.
-Click this icon to access your calendar.
+Click the calendar icon to access your calendar.
 From here, you will see all of your classes on the right side of the page
 You can click to see specific class work, or color code your calendar.
 
 
-### How do I see feedback on my assignments submitted on Canvas?
+#### How do I see feedback on my assignments submitted on Canvas?
 Log into the course and click on the 'Grades' link.
 Find the assignment and click the assignment name.
 Click on 'View Feedback' to view all feedback, including comments and any additional annotated comments made on the submission.
 
 
-### How do I accurately check my grades in Canvas?
+#### How do I accurately check my grades in Canvas?
 You're probably familiar with checking your grades for a [current course in Canvas](https://community.canvaslms.com/t5/Student-Guide/How-do-I-view-my-grades-in-a-current-course/ta-p/493), but did you know that you might not be seeing an accurate calculation of your final grade when you check your grades at the end of the semester?
 
 In order to get an accurate view of your final grade towards the end of the semester,
@@ -2830,8 +2851,9 @@ You may also be seeing icons and colors when you view your grades. [Learn what t
 
 [Note: Answer Adapted from Florida State University Canvas Support](https://support.canvas.fsu.edu/kb/article/1068-students-make-sure-you-are-seeing-the-right-grades-in-canvas/)
 
-### How do I do this specific thing in Canvas?
-Although I am not canvas tech support, here are some links...
+#### How do I do this specific thing in Canvas?
+
+Check out the canvas [basic guides](https://community.canvaslms.com/t5/Canvas-Basics-Guide/tkb-p/basics)
 
 [How do I use the Global Navigation Menu?](https://community.canvaslms.com/docs/DOC-10603-4212710332)
 
@@ -2839,14 +2861,20 @@ Although I am not canvas tech support, here are some links...
 
 [How do I use the To Do list and sidebar in the Dashboard?](https://community.canvaslms.com/docs/DOC-10589-4212717407)
 
-
-### Profile and User Settings
-
 [How do I edit my profile in my user account? ](https://community.canvaslms.com/docs/DOC-10628-4212710342)
 
 [How do I add a profile picture in my user account?](https://community.canvaslms.com/docs/DOC-10599-4212710334)
 
 [How do I set my Canvas notification preferences?](https://community.canvaslms.com/docs/DOC-10624-4212710344)
+
+
+### Why is...
+
+#### Why is the assignment/activity/quiz locked?
+
+Because some of the requirements to unlock it the activity are not met. To unlock the activity/module, you need to do whatever is listed.
+
+<img src="img/requirements.png" width="50%" style="display: block; margin: auto;" />
 
 ## Resources
 
