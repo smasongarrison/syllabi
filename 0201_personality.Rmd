@@ -20,9 +20,8 @@ bib[length(bib)]$key = "Rcite"
 topic=c(
   "What is Personality", 
   "Personality Research Methods",
-  "Assessment, Evaluation, and Ethicss",
-  "How do people differ? Trait Approach",
-  "Personality Judgement",
+  "Assessment, Evaluation, and Ethics",
+  "Trait Approach and Personality Judgment",
   "Big Five",
   "Personality over the Lifespan",# 
   "Biological Approaches to Psychology", 
@@ -32,6 +31,7 @@ topic=c(
   "Freud", 
   "Psychoanalysis After Freud", 
   "Personality Processes and Positive Psych",
+  "Thanksgiving Break"
   "Personality and Health"
   )
 ```
@@ -58,7 +58,7 @@ bib[sort(c("funder_personality_2016"))]
 ## Course Assignments
 
 ### Quizzes 
-There will be 6 quizzes in this course.  The best 5 out of 6 quizzes grades will be used to determine your total quiz grade.  You can drop any of the quizzes for any reason BUT YOU MUST PASS THE LAST Quiz (held at TBD on Dec TBD).  If you do not pass the final quiz, your score on that quiz will count as one of your 5 grades. If you do pass the final quiz, then the best 5 grades will be used (irrespective of your score on the final quiz).
+There will be 6 quizzes in this course. The best 5 out of 6 quizzes grades will be used to determine your total quiz grade.  You can drop any of the quizzes for any reason BUT YOU MUST PASS THE LAST Quiz (held at TBD on Dec TBD).  If you do not pass the final quiz, your score on that quiz will count as one of your 5 grades. If you do pass the final quiz, then the best 5 grades will be used (irrespective of your score on the final quiz).
 
 
 
