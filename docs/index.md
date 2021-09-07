@@ -2,7 +2,7 @@
 title: "Prof. Mason's Syllabi"
 author: 
 - S. Mason Garrison
-date: "2021-09-05"
+date: "2021-09-07"
 knit: "bookdown::render_book"
 site: bookdown::bookdown_site
 url: 'https\://github.com/smasongarrison/syllabi'

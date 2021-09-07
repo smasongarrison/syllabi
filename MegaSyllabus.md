@@ -2,7 +2,7 @@
 title: "Prof. Mason's Syllabi"
 author: 
 - S. Mason Garrison
-date: "2021-09-05"
+date: "2021-09-07"
 knit: "bookdown::render_book"
 site: bookdown::bookdown_site
 url: 'https\://github.com/smasongarrison/syllabi'
@@ -871,15 +871,15 @@ This version of the notes was built with:
 #>  collate  English_United States.1252  
 #>  ctype    English_United States.1252  
 #>  tz       America/New_York            
-#>  date     2021-09-05
+#>  date     2021-09-07
 ```
 
 Along with these packages:
 
 
 ```{=html}
-<div id="htmlwidget-72be88d6c1d81379a4d2" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-72be88d6c1d81379a4d2">{"x":{"filter":"top","vertical":false,"filterHTML":"<tr>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n<\/tr>","data":[["askpass","assertthat","backports","base64enc","bit","bit64","blob","bookdown","brew","brio","broom","cachem","callr","cellranger","cli","clipr","colorspace","commonmark","conflicted","cpp11","crayon","credentials","crosstalk","curl","data.table","DBI","dbplyr","desc","devtools","dichromat","diffobj","digest","dplyr","DT","dtplyr","ellipsis","evaluate","fansi","farver","fastmap","forcats","fs","gapminder","gargle","gender","genderdata","generics","geonames","gert","ggplot2","gh","gitcreds","glue","googledrive","googlesheets4","gridExtra","gt","gtable","haven","highr","hms","htmltools","htmlwidgets","httr","ids","ini","isoband","jquerylib","jsonlite","knitr","labeling","later","lattice","lazyeval","lifecycle","lubridate","magrittr","markdown","MASS","Matrix","memoise","mgcv","mime","modelr","munsell","nlme","openssl","pillar","pkgbuild","pkgconfig","pkgload","praise","prettyunits","processx","progress","promises","ps","purrr","R6","rappdirs","rcmdcheck","RColorBrewer","Rcpp","readr","readxl","rebird","rematch","rematch2","remotes","reprex","rlang","rmarkdown","roxygen2","rplos","rprojroot","rstudioapi","rversions","rvest","scales","selectr","sessioninfo","stringi","stringr","sys","testthat","tibble","tidyr","tidyselect","tidyverse","tinytex","tzdb","usethis","utf8","uuid","vctrs","viridis","viridisLite","vroom","waldo","whisker","withr","xfun","xml2","xopen","yaml","zip"],[null,"0.2.1","1.2.1",null,null,null,null,"0.24",null,null,"0.7.9","1.0.6","3.7.0","1.1.0","3.0.1",null,"2.0-2",null,null,null,"1.4.1",null,null,null,null,"1.1.1","2.1.1","1.3.0","2.4.2",null,null,"0.6.27","1.0.7","0.19",null,"0.3.2","0.14","0.5.0",null,"1.1.0","0.5.1","1.5.0",null,null,null,null,"0.1.0",null,null,"3.3.5",null,null,"1.4.2",null,null,null,null,"0.3.0","2.4.3",null,"1.1.0","0.5.2","1.5.3","1.4.2",null,null,null,"0.1.4","1.7.2","1.33",null,null,null,null,"1.0.0","1.7.10","2.0.1",null,null,null,"2.0.0",null,null,"0.1.8","0.5.0",null,null,"1.6.2","1.2.0","2.0.3","1.2.1",null,"1.1.1","3.5.2",null,null,"1.6.0","0.3.4","2.5.1",null,null,null,"1.0.7","2.0.1","1.3.1",null,null,null,"2.4.0","2.0.1","0.4.11","2.10",null,null,"2.0.2","0.13",null,"1.0.1","1.1.1",null,"1.1.1","1.7.4","1.4.0",null,"3.0.4","3.1.4","1.1.3","1.1.1","1.3.1",null,"0.1.2","2.0.1","1.2.2",null,"0.3.8",null,null,null,null,null,"2.4.2","0.25","1.3.2",null,"2.2.1",null],["2019-01-13","2019-03-21","2020-12-09","2015-07-28","2020-08-04","2020-08-30","2021-07-23","2021-09-02","2011-04-13","2021-04-23","2021-07-27","2021-08-19","2021-04-20","2016-07-27","2021-07-17","2020-10-08","2021-06-24","2018-12-01",null,"2021-06-25","2021-02-08","2021-07-25","2021-01-12","2021-06-23","2021-02-21","2021-01-15","2021-04-06","2021-03-05","2021-06-07",null,"2021-03-22","2020-10-24","2021-06-18","2021-09-02","2021-02-20","2021-04-29","2019-05-28","2021-05-25","2021-02-28","2021-01-25","2021-01-27","2020-07-31",null,"2021-07-02",null,null,"2020-10-31",null,"2021-08-16","2021-06-25","2021-04-30","2020-12-04","2020-08-27","2021-07-08","2021-07-21","2017-09-09",null,"2019-03-25","2021-08-04","2021-04-16","2021-05-17","2021-08-25","2020-12-10","2020-07-20","2017-05-31","2018-05-20","2021-07-13","2021-04-26","2020-12-09","2021-04-24","2020-10-20","2021-08-18","2021-05-02","2019-03-15","2021-02-15","2021-02-26","2020-11-17","2019-08-07","2021-05-03","2021-06-01","2021-01-26","2021-06-01","2021-06-23","2020-05-19","2018-06-12","2021-02-04","2021-09-02","2021-07-29","2020-12-15","2019-09-22","2021-04-06","2015-08-11","2020-01-24","2021-04-30","2019-05-16","2021-02-11","2021-02-28","2020-04-17","2021-08-19","2021-01-31","2019-05-07","2014-12-07","2021-07-07","2021-08-10","2019-03-13",null,"2016-04-21","2020-05-01","2021-06-02","2021-08-05","2021-04-30","2021-08-06","2020-06-27",null,"2020-11-15","2020-11-12","2021-05-31","2021-07-26","2020-05-11","2019-11-20","2018-11-05","2021-08-25","2019-02-10","2020-07-23","2021-07-01","2021-08-25","2021-03-03","2021-04-30","2021-04-15","2021-08-05","2021-07-20","2021-02-10","2021-07-24","2020-02-26","2021-04-29","2021-05-11","2021-04-13","2021-08-05","2021-08-23","2019-08-28","2021-04-18","2021-08-06","2020-04-23","2018-09-17","2020-02-01","2021-05-31"],["CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.0)","CRAN (R 4.1.0)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.0)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.0)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)",null,"CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)",null,"CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.0)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.0)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)",null,"CRAN (R 4.1.1)",null,null,"CRAN (R 4.1.1)",null,"CRAN (R 4.1.1)","CRAN (R 4.1.0)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)",null,"CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.0)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.0)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.0)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)",null,"CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)",null,"CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.0)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.0)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.0)","CRAN (R 4.1.1)"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>package<\/th>\n      <th>loadedversion<\/th>\n      <th>date<\/th>\n      <th>source<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":146,"autoWidth":true,"bInfo":false,"paging":false,"order":[],"orderClasses":false,"orderCellsTop":true,"lengthMenu":[10,25,50,100,146]}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-b297bd2a891108656455" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-b297bd2a891108656455">{"x":{"filter":"top","vertical":false,"filterHTML":"<tr>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n<\/tr>","data":[["askpass","assertthat","backports","base64enc","bit","bit64","blob","bookdown","brew","brio","broom","cachem","callr","cellranger","cli","clipr","colorspace","commonmark","conflicted","cpp11","crayon","credentials","crosstalk","curl","data.table","DBI","dbplyr","desc","devtools","dichromat","diffobj","digest","dplyr","DT","dtplyr","ellipsis","evaluate","fansi","farver","fastmap","forcats","fs","gapminder","gargle","gender","genderdata","generics","geonames","gert","ggplot2","gh","gitcreds","glue","googledrive","googlesheets4","gridExtra","gt","gtable","haven","highr","hms","htmltools","htmlwidgets","httr","ids","ini","isoband","jquerylib","jsonlite","knitr","labeling","later","lattice","lazyeval","lifecycle","lubridate","magrittr","markdown","MASS","Matrix","memoise","mgcv","mime","modelr","munsell","nlme","openssl","pillar","pkgbuild","pkgconfig","pkgload","praise","prettyunits","processx","progress","promises","ps","purrr","R6","rappdirs","rcmdcheck","RColorBrewer","Rcpp","readr","readxl","rebird","rematch","rematch2","remotes","reprex","rlang","rmarkdown","roxygen2","rplos","rprojroot","rstudioapi","rversions","rvest","scales","selectr","sessioninfo","stringi","stringr","sys","testthat","tibble","tidyr","tidyselect","tidyverse","tinytex","tzdb","usethis","utf8","uuid","vctrs","viridis","viridisLite","vroom","waldo","whisker","withr","xfun","xml2","xopen","yaml","zip"],[null,"0.2.1","1.2.1",null,null,null,null,"0.24",null,null,"0.7.9","1.0.6","3.7.0","1.1.0","3.0.1",null,"2.0-2",null,null,null,"1.4.1",null,null,null,null,"1.1.1","2.1.1","1.3.0","2.4.2",null,null,"0.6.27","1.0.7","0.19",null,"0.3.2","0.14","0.5.0",null,"1.1.0","0.5.1","1.5.0",null,null,null,null,"0.1.0",null,null,"3.3.5",null,null,"1.4.2",null,null,null,null,"0.3.0","2.4.3",null,"1.1.0","0.5.2","1.5.3","1.4.2",null,null,null,"0.1.4","1.7.2","1.33",null,null,null,null,"1.0.0","1.7.10","2.0.1",null,null,null,"2.0.0",null,null,"0.1.8","0.5.0",null,null,"1.6.2","1.2.0","2.0.3","1.2.1",null,"1.1.1","3.5.2",null,null,"1.6.0","0.3.4","2.5.1",null,null,null,"1.0.7","2.0.1","1.3.1",null,null,null,"2.4.0","2.0.1","0.4.11","2.10",null,null,"2.0.2","0.13",null,"1.0.1","1.1.1",null,"1.1.1","1.7.4","1.4.0",null,"3.0.4","3.1.4","1.1.3","1.1.1","1.3.1",null,"0.1.2","2.0.1","1.2.2",null,"0.3.8",null,null,null,null,null,"2.4.2","0.25","1.3.2",null,"2.2.1",null],["2019-01-13","2019-03-21","2020-12-09","2015-07-28","2020-08-04","2020-08-30","2021-07-23","2021-09-02","2011-04-13","2021-04-23","2021-07-27","2021-08-19","2021-04-20","2016-07-27","2021-07-17","2020-10-08","2021-06-24","2018-12-01",null,"2021-06-25","2021-02-08","2021-07-25","2021-01-12","2021-06-23","2021-02-21","2021-01-15","2021-04-06","2021-03-05","2021-06-07",null,"2021-03-22","2020-10-24","2021-06-18","2021-09-02","2021-02-20","2021-04-29","2019-05-28","2021-05-25","2021-02-28","2021-01-25","2021-01-27","2020-07-31",null,"2021-07-02",null,null,"2020-10-31",null,"2021-08-16","2021-06-25","2021-04-30","2020-12-04","2020-08-27","2021-07-08","2021-07-21","2017-09-09",null,"2019-03-25","2021-08-04","2021-04-16","2021-05-17","2021-08-25","2020-12-10","2020-07-20","2017-05-31","2018-05-20","2021-07-13","2021-04-26","2020-12-09","2021-04-24","2020-10-20","2021-08-18","2021-05-02","2019-03-15","2021-02-15","2021-02-26","2020-11-17","2019-08-07","2021-05-03","2021-06-01","2021-01-26","2021-06-01","2021-06-23","2020-05-19","2018-06-12","2021-02-04","2021-09-02","2021-07-29","2020-12-15","2019-09-22","2021-04-06","2015-08-11","2020-01-24","2021-04-30","2019-05-16","2021-02-11","2021-02-28","2020-04-17","2021-08-19","2021-01-31","2019-05-07","2014-12-07","2021-07-07","2021-08-10","2019-03-13",null,"2016-04-21","2020-05-01","2021-06-02","2021-08-05","2021-04-30","2021-08-06","2020-06-27",null,"2020-11-15","2020-11-12","2021-05-31","2021-07-26","2020-05-11","2019-11-20","2018-11-05","2021-08-25","2019-02-10","2020-07-23","2021-07-01","2021-08-25","2021-03-03","2021-04-30","2021-04-15","2021-08-05","2021-07-20","2021-02-10","2021-07-24","2020-02-26","2021-04-29","2021-05-11","2021-04-13","2021-08-05","2021-08-23","2019-08-28","2021-04-18","2021-08-06","2020-04-23","2018-09-17","2020-02-01","2021-05-31"],["CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.0)","CRAN (R 4.1.0)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.0)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.0)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)",null,"CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)",null,"CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.0)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.0)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)",null,"CRAN (R 4.1.1)",null,null,"CRAN (R 4.1.1)",null,"CRAN (R 4.1.1)","CRAN (R 4.1.0)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)",null,"CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.0)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.0)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.0)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)",null,"CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)",null,"CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.0)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.0)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.1)","CRAN (R 4.1.0)","CRAN (R 4.1.1)"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>package<\/th>\n      <th>loadedversion<\/th>\n      <th>date<\/th>\n      <th>source<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":146,"autoWidth":true,"bInfo":false,"paging":false,"order":[],"orderClasses":false,"orderCellsTop":true,"lengthMenu":[10,25,50,100,146]}},"evals":[],"jsHooks":[]}</script>
 ```
 
 
@@ -2026,7 +2026,7 @@ New York: W.W. Norton & Co., 2016. ISBN: 978-0-393-60042-1.
 ## Course Assignments
 
 ### Quizzes 
-There will be 6 quizzes in this course.  The best 5 out of 6 quizzes grades will be used to determine your total quiz grade.  You can drop any of the quizzes for any reason BUT YOU MUST PASS THE LAST Quiz (held at TBD on Dec TBD).  If you do not pass the final quiz, your score on that quiz will count as one of your 5 grades. If you do pass the final quiz, then the best 5 grades will be used (irrespective of your score on the final quiz).
+There will be 6 quizzes in this course. The best 5 out of 6 quizzes grades will be used to determine your total quiz grade.  You can drop any of the quizzes for any reason BUT YOU MUST PASS THE LAST Quiz (held at TBD on Dec TBD).  If you do not pass the final quiz, your score on that quiz will count as one of your 5 grades. If you do pass the final quiz, then the best 5 grades will be used (irrespective of your score on the final quiz).
 
 
 
@@ -2126,7 +2126,7 @@ Trust me, you do not want me to curve by assignment.
 - Wednesday: Research Design: Validity (Chapter 2)
 - Friday: Research Design: Generalizability (Chapter 2; Short Assignment 1 Handed Out)
 -->
-##  Week 03, 09/06 - 09/10 : Assessment, Evaluation, and Ethicss   {-}
+##  Week 03, 09/06 - 09/10 : Assessment, Evaluation, and Ethics   {-}
 <!---
 - Monday: Personality Assessment (Chapter 3)
 - Tuesday: "Last day to add full-term class"
@@ -2134,67 +2134,67 @@ Trust me, you do not want me to curve by assignment.
 - Friday: Person versus Situation (Chapter 4)
 -->
 
-##  Week 04, 09/13 - 09/17 : How do people differ? Trait Approach {-}
+##  Week 04, 09/13 - 09/17 : Trait Approach and Personality Judgment {-}
 <!---
 - Monday: What are traits? What are the basic traits? (Chapter 4)
 - Wednesday: Personality Judgement (Chapter 5)
 - Friday: Using Personality Traits to Understand Behavior (Chapter 6; Assignment 1 Due)
 -->
-##  Week 05, 09/20 - 09/24 : Personality Judgement {-}
+##  Week 05, 09/20 - 09/24 : Big Five {-}
 <!---
 - Monday: Big Five (Chapter 6)
 - Wednesday: Review
 - Friday: Test 1
 -->
-##  Week 06, 09/27 - 10/01 : Big Five  {-}
+##  Week 06, 09/27 - 10/01 : Personality over the Lifespan  {-}
 <!---
 - Monday: Brains (Chapter 8)
 - Wednesday: More Brains (Chapter 8)
 - Friday: Behavior Genetics (Chapter 9)
 -->
-##  Week 07, 10/04 - 10/08 : Personality over the Lifespan  {-}
+##  Week 07, 10/04 - 10/08 : Biological Approaches to Psychology  {-}
 <!---
 - Monday: Behavior Genetics (Chapter 9)
 - Wednesday: Evolutionary Psychology (Chapter 9)
 - Friday: Evolutionary Psychology (Chapter 9)
 -->
-##  Week 08, 10/11 - 10/15 : Biological Approaches to Psychology  {-}
+##  Week 08, 10/11 - 10/15 : Behavior Genetics  {-}
 <!---
 - Monday: Personality over the Lifespan (Chapter 7)
 - Wednesday: Personality over the Lifespan (Chapter 7)
 - Friday: Personality Processes (Chapter 15)
 -->
-##  Week 09, 10/18 - 10/22 : Behavior Genetics  {-}
+##  Week 09, 10/18 - 10/22 : Evolutionary Psychology  {-}
 <!---
 - Monday: No Class
 - Wednesday: No Class
 - Friday: No Class
 -->
-##  Week 10, 10/25 - 10/29 : Evolutionary Psychology  {-}
+##  Week 10, 10/25 - 10/29 : Cross-Cultural Psychology  {-}
 <!---
 - Monday: Personality Processes (Chapter 15)
 - Wednesday: Review
 - Friday: Test 2
 -->
-##  Week 11, 11/01 - 11/05 : Cross-Cultural Psychology  {-}
+##  Week 11, 11/01 - 11/05 : Freud  {-}
 <!---
 - Monday: The Self (Chapter 16) Last day to drop with a grade of "W"
 - Wednesday: The Self (Chapter 16)
 - Friday:  Freud (Chapter 10) 
 -->
-##  Week 12, 11/08 - 11/12 : Freud  {-}
+##  Week 12, 11/08 - 11/12 : Psychoanalysis After Freud  {-}
 <!---
 - Monday: Freud (Chapter 10)
 - Wednesday: Freud (Chapter 10)
 - Friday: Neo-Freud (Chapter 11; Assignment 2 Due)
 -->
-## Week 13, 11/15 - 11/19 : Psychoanalysis After Freud  {-}
+## Week 13, 11/15 - 11/19 : Personality Processes and Positive Psych  {-}
 <!---
 - Monday:  Neo-Freud (Chapter 11) 
 - Wednesday: Positive Psychology
 - Friday: Positive Psychology
 -->
-##  Week 14, 11/22 - 11/26 : Personality Processes and Positive Psych  {-}
+##  Week 14, 11/22 - 11/26 : Thanksgiving Break  {-}
 <!---
 - Monday: Cross-Cultural Psychology
 - Wednesday: Cross-Cultural Psychology
