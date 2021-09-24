@@ -31,7 +31,7 @@ topic=c(
   "Freud", 
   "Psychoanalysis After Freud", 
   "Personality Processes and Positive Psych",
-  "Thanksgiving Break",
+  "Thanksgiving Break!",
   "Personality and Health"
   )
 ```
