@@ -10,6 +10,10 @@ Unless I have explicitly stated otherwise, every assessment is closed to outside
 Ignorance of the honor code and assignment instructions is not an acceptable explanation and/or defense. 
 
 
+## Common Sense
+
+To be clear, even if something is NOT explicitly forbidden in this document, that does not mean it is allowed. Please use your common sense here. If a reasonable person would consider it cheating, it's cheating. 
+
 ## Violations
 
 Violations of this policy result in a zero for the assignment, my perpetual disappointment, and possible additional penalties, including, but not limited to:
@@ -33,6 +37,16 @@ They are an opportunity to earn points through the demonstration of knowledge.
 
 
 ### It is *ALWAYS* academic dishonesty...
+
+It is *ALWAYS* academic dishonesty to copy outside materials directly into a test or quiz. 
+
+It is *ALWAYS* academic dishonesty to copy lecture notes directly into a test or quiz.
+
+It is *ALWAYS* academic dishonesty to copy powerpoint slides directly into a test or quiz.
+
+It is still dishonest if you indirectly copy outside materials into a test or quiz.
+
+It is still dishonest if you then edit what you have copied. Frankly that is worse because you tried to hide that you did it.
 
 It is *ALWAYS* academic dishonesty to share test questions.  
 
