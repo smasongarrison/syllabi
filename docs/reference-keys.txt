@@ -17,6 +17,7 @@ resources
 classroom-climate
 psychology-department-statement-on-diversity-equity-and-inclusion
 academic-honesty-policy
+common-sense
 violations
 things-that-i-thought-didnt-need-to-be-said-but-apparently-did-need-to-be-said.
 it-is-always-academic-dishonesty
