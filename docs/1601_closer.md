@@ -1,6 +1,6 @@
-# (PART\*) Module Last {-}
+# (PART\*) Offboarding {-}
 
-# Don't Miss The Last Module {-}
+# Don't Miss This!
 
 
 
@@ -372,7 +372,6 @@
 [how-r-searches]: http://blog.obeautifulcode.com/R/How-R-Searches-And-Finds-Stuff/
 
 
-
 This course was designed to be a starting point. You have learned so much in a short span. I am so proud of each and every one of you!!!!! 
 
 
@@ -394,8 +393,7 @@ Github has some incredibly useful guides to do this...
 
 * [How to add an email address to your github account](https://docs.github.com/en/github/setting-up-and-managing-your-github-user-account/adding-an-email-address-to-your-github-account)
 * [Hot to change your primary email address](https://docs.github.com/en/github/setting-up-and-managing-your-github-user-account/changing-your-primary-email-address)
-* [How to set up a backup email address]
- (https://docs.github.com/en/github/setting-up-and-managing-your-github-user-account/setting-a-backup-email-address)
+* [How to set up a backup email address](https://docs.github.com/en/github/setting-up-and-managing-your-github-user-account/setting-a-backup-email-address)
 
 Please do not procrastinate this! It is really important to do this before you lose access!!!!
 
