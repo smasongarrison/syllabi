@@ -211,10 +211,16 @@ include_graphics("img/requirements.png")
 
 ## Resources
 
-* Where can I find textbooks and course materials?
+### Where can I find textbooks and course materials?
 
 ```{r, echo=FALSE}
 include_tweet("https://twitter.com/GaloAndStuff/status/1424818560417902604")
+```
+
+### How can I ask professors for extensions?
+
+```{r, echo=FALSE}
+include_tweet("https://twitter.com/BettySLai/status/1455555111397117954")
 ```
 
 
