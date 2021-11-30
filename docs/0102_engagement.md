@@ -6,10 +6,10 @@ In previous semesters, I have had a deliberately hardline attendance policy.
 In the light of the public health crisis, I have done away with the this policy, as it doesn't align with my general philosophy of treating students as junior colleagues. 
 
 Class engagement points are given to encourage your active engagement with the material. 
-Specific instructions for engagement, can be found on the class website In general, you will be rewarded with a perfect score as long as you engage meaningfully, intentionally, and professionally with the material and your peers. As a reminder, you are still responsible for any assignments and/or announcements made if you miss a class.
+Specific instructions for engagement, can be found on the class website. In general, you will be rewarded with a perfect score as long as you engage meaningfully, intentionally, and professionally with the material and your peers. As a reminder, you are still responsible for any assignments and/or announcements made if you miss a class.
 
 
-## Life Happens (Extensions and Absences)
+## Life Happens
 
 As a reasonable and empathetic human, I recognize that life happens. 
 There will be times when your outside life conflicts with scheduled class events. 
@@ -22,6 +22,8 @@ An email will help me better understand your needs and focus on coursework.
 I'm more than happy to give extensions and accommodations, so don't be afraid to email me. 
 You don't need to disclose personal details (your privacy is important to me), so a heads up or request for assistance is enough.
 
+
+##  Extensions, Absences, Incompletes
 
 ### Excused absences
 
@@ -46,6 +48,16 @@ Exceptions to the 1 week policy are at the instructor's discretion.
 In general, I am much more sympathetic and accommodating if you communicate in advance. 
 
 It is your responsibility to ensure that the instructor has received the assignment by the established due date and to ensure that the assignment submitted is the complete and correct version. 
-Unless otherwise specified, all work must be submitted through Canvas.
+Unless otherwise explicitly specified, all work must be submitted through Canvas.
 
 Unless you have communicated with me in advance, there will be no make-up quizzes or tests.
+
+
+### Incomplete Grades
+
+I did not make this policy. 
+
+Although the language surrounding incompletes differs slightly across the bulletins ( [undergraduate](https://bulletin.wfu.edu/undergraduate/procedures/exams-grading/#:~:text=Incomplete%20Grade); [graduate](https://bulletin.wfu.edu/graduate/procedures/grading/#:~:text=Grade%20of%20I)), and office of [academic advising]( https://advising.wfu.edu/academic-challenges/incompletes/), the intent is consistent. 
+Incompletes can only be granted IF a student fails to complete the work of a course because of something outside of the student's control, such as an illness, emergency, or extenuating circumstances. The window for completing the work is narrow, typically 30 days into the next semester. If the work isn't completed after that point, the grade is automatically changed to an F. 
+
+

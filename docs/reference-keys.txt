@@ -6,11 +6,13 @@ software
 r-and-rstudio
 git-and-github
 policy-overview
-tentative-class-schedule
+changes
 class-engagement
-life-happens-extensions-and-absences
+life-happens
+extensions-absences-incompletes
 excused-absences
 late-work
+incomplete-grades
 accommodations-policy
 self-advocacy
 resources

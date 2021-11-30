@@ -196,7 +196,7 @@ See Syllabus Website
 - Tuesday: Chapter 13
 - Thursday: Chapter 13 
 -->
-## `r advdate(mon, 13, topic)`
+### `r advdate(mon, 13, topic)`
 <!---
 - Tuesday: Chapter 14
 - Thursday: Chapter 14 (Assignment 2 Due)
