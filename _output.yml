@@ -18,7 +18,7 @@ bookdown::gitbook:
             <i class = "fab fa-creative-commons-sa fa-2x"></i>
           </a>
         </li></center>
-    download: ["rmd", "epub"]
+    download: ["rmd", "pdf"]
     edit: https://github.com/smasongarrison/Syllabi/edit/main/%s
     sharing:
       github: yes
@@ -28,6 +28,8 @@ bookdown::html_document2: default
 bookdown::pdf_book:
   includes:
     in_header: preamble.tex
-  latex_engine: xelatex
   citation_package: natbib
   keep_tex: yes
+  geometry: margin=5cm
+  latex_engine: pdflatex
+  toc_depth: 1

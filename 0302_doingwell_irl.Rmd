@@ -1,7 +1,6 @@
 
 ```{r include = FALSE}
 source("common.R")
-htmltools::tagList(rmarkdown::html_dependency_font_awesome())
 library(tidyverse)
 library(devtools)
 library(DT)
@@ -20,11 +19,19 @@ Thus, if you miss one lecture or zip through a video, you run the risk of being 
 
 ## Successful Asynchronous Learning
 
-I've created a video highlighting how to be a successful asynchronous learner. 
+I've created a [video](https://youtu.be/dc3D2tbl8G0) highlighting how to be a successful asynchronous learner. 
 
 ```{r, echo=FALSE}
+
+if (knitr::is_latex_output()) {
+include_graphics("img/learngood.png")
+  
+}else{
+htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+
 embed_url("https://www.youtube.com/watch?v=dc3D2tbl8G0") %>%
   use_align("center")
+}
 ```
 
 Much of this information comes from Northeastern University's [Tips for Taking Online Classes](https://www.northeastern.edu/graduate/blog/tips-for-taking-online-classes/)

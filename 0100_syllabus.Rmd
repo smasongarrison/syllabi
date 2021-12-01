@@ -1,12 +1,17 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+---
 # (PART\*) Syllabi {-}
-
-
 
 # General information {-}
 
 
 ```{r include = FALSE}
 source("common.R")
+library(webshot)
+
 ```
 
 ```{r links, child="links.md"}
@@ -16,15 +21,27 @@ Welcome! This section includes general syllabus information. The next sections i
 
 Remember: This course is for you, not for me.
 
-```{r, echo=FALSE}
-embed_url("https://www.youtube.com/watch?v=aL_fP5axQV4") %>%
+
+```{r, echo=FALSE, cache = TRUE}
+if (knitr::is_latex_output()) {
+include_graphics("img/snoop.png")
+}else{
+"https://www.youtube.com/watch?v=aL_fP5axQV4"%>%
+embed_url() %>%
   use_align("center")
+}
 ```
 
 Credit: 
-```{r, echo=FALSE}
+
+```{r, echo=FALSE, cache = TRUE}
+if (knitr::is_latex_output()) {
+include_graphics("img/AcademicsSaystatus.png")
+}else{
 include_tweet("https://twitter.com/AcademicsSay/status/1293621452684644355")
+}
 ```
+
 
 
 ## Materials
@@ -51,8 +68,14 @@ Most of my classes require that you have a computer that can run R and stream vi
 #### R and RStudio
 
 ```{r, echo=FALSE}
+
+if (knitr::is_latex_output()) {
+}else{
 embed_url("https://www.youtube.com/watch?v=kVIZGCT5p9U") %>%
  use_align("center")
+}
+
+
 ```
 
 R is a free software environment for statistical computing and graphics. It compiles and runs on a wide variety of UNIX platforms, Windows, and MacOS.
