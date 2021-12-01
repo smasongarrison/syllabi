@@ -30,6 +30,7 @@ bookdown::pdf_book:
     in_header: preamble.tex
   citation_package: natbib
   keep_tex: yes
-  geometry: margin=5cm
+  geometry: margin=1in
   latex_engine: pdflatex
   toc_depth: 1
+  documentclass: book
