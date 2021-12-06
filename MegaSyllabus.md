@@ -2,7 +2,7 @@
 title: "Prof. Mason's Syllabi"
 author: 
 - S. Mason Garrison
-date: "2021-11-30"
+date: "2021-12-06"
 knit: "bookdown::render_book"
 site: bookdown::bookdown_site
 url: 'https\://github.com/smasongarrison/syllabi'
@@ -865,25 +865,27 @@ This version of the notes was built with:
 #> Finding R package dependencies ... Done!
 #>  setting  value
 #>  version  R version 4.0.5 (2021-03-31)
-#>  os       Windows 10 x64 (build 19043)
+#>  os       Windows 10 x64 (build 19044)
 #>  system   x86_64, mingw32
 #>  ui       RTerm
 #>  language (EN)
 #>  collate  English_United States.1252
 #>  ctype    English_United States.1252
 #>  tz       America/New_York
-#>  date     2021-11-30
+#>  date     2021-12-06
 #>  pandoc   2.11.4 @ C:/Program Files/RStudio/bin/pandoc/ (via rmarkdown)
 ```
 
 Along with these packages:
 
-![](0000a_front_files/figure-latex/unnamed-chunk-4-1.pdf)<!-- --> 
+
+```{=html}
+<div id="htmlwidget-344d49b1c785287cdc91" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-344d49b1c785287cdc91">{"x":{"filter":"top","vertical":false,"filterHTML":"<tr>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n<\/tr>","data":[["askpass","assertthat","backports","base64enc","bit","bit64","bitops","blob","bookdown","brew","brio","broom","cachem","callr","cellranger","checkmate","cli","clipr","colorspace","commonmark","conflicted","cpp11","crayon","credentials","crosstalk","crul","curl","data.table","DBI","dbplyr","desc","devtools","dichromat","diffobj","digest","dplyr","DT","dtplyr","ellipsis","evaluate","fansi","farver","fastmap","forcats","fs","gapminder","gargle","gender","genderdata","generics","geonames","gert","ggplot2","gh","gitcreds","glue","googledrive","googlesheets4","gridExtra","gt","gtable","haven","highr","hms","htmltools","htmlwidgets","httpcode","httr","ids","ini","isoband","jquerylib","jsonlite","knitr","labeling","later","lattice","lazyeval","lifecycle","lubridate","magrittr","MASS","Matrix","memoise","mgcv","mime","modelr","munsell","nlme","openssl","pillar","pkgbuild","pkgconfig","pkgload","plyr","praise","prettyunits","processx","progress","promises","ps","purrr","R6","rappdirs","rcmdcheck","RColorBrewer","Rcpp","readr","readxl","rebird","rematch","rematch2","remotes","reprex","reshape2","rjson","rlang","rmarkdown","roxygen2","rplos","rprojroot","rstudioapi","rversions","rvest","sass","scales","selectr","sessioninfo","solrium","stringi","stringr","sys","testthat","tibble","tidyr","tidyselect","tidyverse","tinytex","triebeard","tzdb","urltools","usethis","utf8","uuid","vctrs","viridis","viridisLite","vroom","waldo","whisker","withr","xfun","xml2","xopen","yaml","zip"],[null,"0.2.1","1.3.0",null,null,null,null,null,"0.24",null,null,"0.7.10","1.0.6","3.7.0","1.1.0",null,"3.1.0",null,"2.0-2",null,null,null,"1.4.2",null,null,null,null,null,"1.1.1","2.1.1","1.4.0","2.4.2",null,null,"0.6.27","1.0.7","0.20",null,"0.3.2","0.14","0.5.0",null,"1.1.0","0.5.1","1.5.0",null,null,null,null,"0.1.1",null,null,"3.3.5",null,null,"1.5.0",null,null,null,null,"0.3.0","2.4.3",null,"1.1.1","0.5.2","1.5.4",null,"1.4.2",null,null,null,"0.1.4","1.7.2","1.36",null,null,null,null,"1.0.1","1.8.0","2.0.1",null,null,"2.0.0",null,null,"0.1.8","0.5.0",null,null,"1.6.4","1.2.0","2.0.3","1.2.3",null,null,"1.1.1","3.5.2",null,null,"1.6.0","0.3.4","2.5.1",null,null,null,"1.0.7","2.1.0","1.3.1",null,null,null,"2.4.1","2.0.1",null,null,"0.4.11","2.11",null,null,"2.0.2","0.13",null,"1.0.2","0.4.0","1.1.1",null,"1.2.1",null,"1.7.5","1.4.0",null,"3.1.0","3.1.6","1.1.4","1.1.1","1.3.1",null,null,"0.2.0",null,"2.1.3","1.2.2",null,"0.3.8",null,null,null,null,null,"2.4.2","0.25","1.3.2",null,"2.2.1",null],["2019-01-13","2019-03-21","2021-10-27","2015-07-28","2020-08-04","2020-08-30","2021-04-24","2021-07-23","2021-09-02","2011-04-13","2021-04-23","2021-10-31","2021-08-19","2021-04-20","2016-07-27","2020-02-06","2021-10-27","2020-10-08","2021-06-24","2018-12-01","2019-06-21","2021-11-03","2021-10-29","2021-07-25","2021-11-04","2021-11-22","2021-06-23","2021-09-27","2021-01-15","2021-04-06","2021-09-28","2021-06-07",null,"2021-10-05","2020-10-24","2021-06-18","2021-11-15","2021-02-20","2021-04-29","2019-05-28","2021-05-25","2021-02-28","2021-01-25","2021-01-27","2020-07-31","2017-10-31","2021-07-02","2021-10-13",null,"2021-10-25","2019-02-19","2021-11-10","2021-06-25","2021-04-30","2020-12-04","2021-11-07","2021-07-08","2021-07-21","2017-09-09","2021-08-07","2019-03-25","2021-08-04","2021-04-16","2021-09-26","2021-08-25","2021-09-08","2020-04-10","2020-07-20","2017-05-31","2018-05-20","2021-07-13","2021-04-26","2020-12-09","2021-09-29","2020-10-20","2021-08-18","2020-04-02","2019-03-15","2021-09-24","2021-10-07","2020-11-17","2021-02-12","2021-01-06","2021-01-26","2021-02-16","2021-09-28","2020-05-19","2018-06-12","2021-02-04","2021-09-02","2021-10-18","2020-12-15","2019-09-22","2021-10-13","2020-03-03","2015-08-11","2020-01-24","2021-04-30","2019-05-16","2021-02-11","2021-02-28","2020-04-17","2021-08-19","2021-01-31","2021-09-27","2014-12-07","2021-07-07","2021-11-11","2019-03-13","2021-09-20","2016-04-21","2020-05-01","2021-09-29","2021-08-05","2020-04-09","2018-06-08","2021-04-30","2021-09-14","2021-09-08","2021-02-23","2020-11-15","2020-11-12","2021-05-31","2021-10-16","2021-05-12","2020-05-11","2019-11-20","2021-11-02","2021-05-19","2021-10-04","2019-02-10","2020-07-23","2021-10-04","2021-11-07","2021-09-27","2021-04-30","2021-04-15","2021-11-04","2016-08-04","2021-10-27","2019-04-14","2021-10-27","2021-07-24","2021-11-01","2021-04-29","2021-10-13","2021-04-13","2021-11-10","2021-09-14","2019-08-28","2021-04-18","2021-08-06","2020-04-23","2018-09-17","2020-02-01","2021-05-31"],["CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)",null,"CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)",null,"CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>package<\/th>\n      <th>loadedversion<\/th>\n      <th>date<\/th>\n      <th>source<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":156,"autoWidth":true,"bInfo":false,"paging":false,"order":[],"orderClasses":false,"orderCellsTop":true,"lengthMenu":[10,25,50,100,156]}},"evals":[],"jsHooks":[]}</script>
+```
 
 
 
-
-Alternate Format
 
 The R session information when compiling this book is shown below:
 
@@ -894,7 +896,7 @@ The R session information when compiling this book is shown below:
 sessionInfo()
 #> R version 4.0.5 (2021-03-31)
 #> Platform: x86_64-w64-mingw32/x64 (64-bit)
-#> Running under: Windows 10 x64 (build 19043)
+#> Running under: Windows 10 x64 (build 19044)
 #> 
 #> Matrix products: default
 #> 
@@ -906,8 +908,7 @@ sessionInfo()
 #> [5] LC_TIME=English_United States.1252    
 #> 
 #> attached base packages:
-#> [1] stats     graphics  grDevices utils     datasets  methods  
-#> [7] base     
+#> [1] stats     graphics  grDevices utils     datasets  methods   base     
 #> 
 #> other attached packages:
 #>  [1] DT_0.20         devtools_2.4.2  usethis_2.1.3   forcats_0.5.1  
@@ -1308,12 +1309,21 @@ Remember: This course is for you, not for me.
 
 
 
-\includegraphics[width=29.86in]{img/snoop} 
+```{=html}
+<div class="vembedr" align="center">
+<div>
+<iframe src="https://www.youtube.com/embed/aL_fP5axQV4" width="533" height="300" frameborder="0" allowfullscreen=""></iframe>
+</div>
+</div>
+```
 
 Credit: 
 
 
-\includegraphics[width=19.31in]{img/AcademicsSaystatus} 
+```{=html}
+<blockquote class="twitter-tweet" data-width="550" data-lang="en" data-dnt="true" data-theme="light"><p lang="en" dir="ltr">“Read the syllabus” - <a href="https://twitter.com/SnoopDogg?ref_src=twsrc%5Etfw">@SnoopDogg</a> <a href="https://t.co/RXHvAB5ryO">https://t.co/RXHvAB5ryO</a></p>&mdash; Shit Academics Say (@AcademicsSay) <a href="https://twitter.com/AcademicsSay/status/1293621452684644355?ref_src=twsrc%5Etfw">August 12, 2020</a></blockquote>
+
+```
 
 
 
@@ -1341,8 +1351,12 @@ Most of my classes require that you have a computer that can run R and stream vi
 #### R and RStudio
 
 
-```
-#> NULL
+```{=html}
+<div class="vembedr" align="center">
+<div>
+<iframe src="https://www.youtube.com/embed/kVIZGCT5p9U" width="533" height="300" frameborder="0" allowfullscreen=""></iframe>
+</div>
+</div>
 ```
 
 R is a free software environment for statistical computing and graphics. It compiles and runs on a wide variety of UNIX platforms, Windows, and MacOS.
@@ -1455,30 +1469,21 @@ Do not feel guilty about using them.
 You rightfully deserve them, in the legal, moral, and ethical sense. 
 These accommodations are there so that you can be your best possible self. 
 
-> Instead of asking only disabled people to disclose their disability,
-> when it might not be safe to do so, why don\'t employers ask EVERYONE
-> what their access needs and workplace adjustments are.\
-> \
-> Normalise that everyone needs flexibility and the tools to do their
-> job.
-> [\#DisabilityRC](https://twitter.com/hashtag/DisabilityRC)
->
-> --- El Gibbs (\@bluntshovels) [November 23,
-> 2021](https://twitter.com/bluntshovels/status/1463275576337129480)
+
+```{=html}
+<blockquote class="twitter-tweet" data-width="550" data-lang="en" data-dnt="true" data-theme="light"><p lang="en" dir="ltr">Instead of asking only disabled people to disclose their disability, when it might not be safe to do so, why don&#39;t employers ask EVERYONE what their access needs and workplace adjustments are.<br><br>Normalise that everyone needs flexibility and the tools to do their job. <a href="https://twitter.com/hashtag/DisabilityRC?src=hash&amp;ref_src=twsrc%5Etfw">#DisabilityRC</a></p>&mdash; El Gibbs (@bluntshovels) <a href="https://twitter.com/bluntshovels/status/1463275576337129480?ref_src=twsrc%5Etfw">November 23, 2021</a></blockquote>
+
+```
 ## Self-Advocacy
 
 At Wake Forest and at many other places, the expectation is that you will self-advocate for yourselves and know exactly what you need. Is that a good expectation? Is that a good model? Is that equitable? I have thoughts... regardless, that is the current state of the world. Accordingly, you will have to advocate for what you need. If this process seems daunting, please talk to me! Regardless, I am happy to talk with you about this process and to share my own experiences.
 
 
-> Every time we write that self-advocacy is key to disabled students\'
-> success, we need to include an asterisk and note, \"BUT IT SHOULDN\'T
-> BE\"\
-> \
-> Disabled students deserve success regardless of how well they can
-> navigate the system and cajole/plead/argue with profs for access.
->
-> --- The ADHD Academic (\@theADHDacademic) [November 11,
-> 2021](https://twitter.com/theADHDacademic/status/1458876178580881410)
+
+```{=html}
+<blockquote class="twitter-tweet" data-width="550" data-lang="en" data-dnt="true" data-theme="light"><p lang="en" dir="ltr">Every time we write that self-advocacy is key to disabled students&#39; success, we need to include an asterisk and note, &quot;BUT IT SHOULDN&#39;T BE&quot; <br><br>Disabled students deserve success regardless of how well they can navigate the system and cajole/plead/argue with profs for access.</p>&mdash; The ADHD Academic (@theADHDacademic) <a href="https://twitter.com/theADHDacademic/status/1458876178580881410?ref_src=twsrc%5Etfw">November 11, 2021</a></blockquote>
+
+```
 
 As a student, you may not know what accommodations work best for you. Or you may find that your current accommodations don't work like they used to. 
 
@@ -2037,7 +2042,7 @@ At the request of my university, I have included the following information relat
 
 <!--chapter:end:0200_specificcourses.Rmd-->
 
-# 255: Personality {-}
+# 255: Personality {-#personality}
 
 
 
@@ -2112,38 +2117,22 @@ By scaling to a percentage of the highest point total in the class, each student
 This curve can only help your grade. 
 
 The full table is provided below:
-\begin{table}
 
-\caption{(\#tab:unnamed-chunk-3)Full Table}
-\centering
-\begin{tabular}[t]{l|r}
-\hline
-Letter & Cutoff\\
-\hline
-A & 0.95\\
-\hline
-A- & 0.90\\
-\hline
-B+ & 0.87\\
-\hline
-B & 0.83\\
-\hline
-B- & 0.80\\
-\hline
-C+ & 0.77\\
-\hline
-C & 0.73\\
-\hline
-C- & 0.70\\
-\hline
-D+ & 0.67\\
-\hline
-D & 0.63\\
-\hline
-D- & 0.60\\
-\hline
-\end{tabular}
-\end{table}
+Table: (\#tab:unnamed-chunk-3)Full Table
+
+|Letter | Cutoff|
+|:------|------:|
+|A      |   0.95|
+|A-     |   0.90|
+|B+     |   0.87|
+|B      |   0.83|
+|B-     |   0.80|
+|C+     |   0.77|
+|C      |   0.73|
+|C-     |   0.70|
+|D+     |   0.67|
+|D      |   0.63|
+|D-     |   0.60|
 
 ### Curve Projections
 
@@ -2272,7 +2261,151 @@ Trust me, you do not want me to curve by assignment.
 
 <!--chapter:end:0201_personality.Rmd-->
 
-# 362: Psychological Testing {-}
+# 310: Methods in Psychological Research {-#statsminor}
+
+
+
+
+
+## Course Description
+
+Methods in Psychological Research introduces statistics and research design for students minoring in psychology. Prereq: P—PSY 151 (D, QR)
+
+This course is designed to help students develop the conceptual background and practical skills necessary to evaluate the statistics encountered in their coursework and in everyday life. It emphasizes selection, application, and interpretation. Topics to be covered include statistical inference, probability distributions, sampling, hypothesis testing, and correlation. The goal will be to go beyond rote memorization of abstract formulas and for students to develop an appreciation for the critical role that statistics plays in psychological science.
+
+Selected Course Objectives:
+
+
+### Broad goals for the course:
+- 1. To understand the selection, computation, and interpretation of descriptive and inferential
+statistics
+- 2. To learn how to use and interpret R (R Core Team 2018).
+
+
+## Required Materials
+
+Wickham and Grolemund's R for Data Science text (http://r4ds.had.co.nz/)
+
+
+
+
+## Course Assignments
+
+
+
+<!---
+Schedule
+-->
+
+## Week 01, 01/10 - 01/14 : What is Data Science and Meet the Toolkit
+<!---
+- Monday: First Day of Class / Introduction
+- Wednesday: What is personality? (Chapter 1)
+- Friday: Research in Personality: Sources of Data (Chapter 2)
+-->
+## Week 02, 01/17 - 01/21 : Data and Visualization
+<!---
+- Monday: NO CLASS MLK Day
+- Wednesday: Research Design: Validity (Chapter 2)
+- Friday: Research Design: Generalizability (Chapter 2; Short Assignment 1 Handed Out)
+-->
+##  Week 03, 01/24 - 01/28 : Grammar of data wrangling 
+<!---
+- Monday: Personality Assessment (Chapter 3)
+- Tuesday: "Last day to add full-term class"
+- Wednesday: Evaluation and Ethics (Chapter 3)
+- Friday: Person versus Situation (Chapter 4)
+-->
+
+##  Week 04, 01/31 - 02/04 : Data types and Data Transformations
+<!---
+- Monday: What are traits? What are the basic traits? (Chapter 4)
+- Wednesday: Personality Judgement (Chapter 5)
+- Friday: Using Personality Traits to Understand Behavior (Chapter 6; Assignment 1 Due)
+-->
+##  Week 05, 02/07 - 02/11 : Tips for effective data visualization
+<!---
+- Monday: Big Five (Chapter 6)
+- Wednesday: Review
+- Friday: Test 1
+-->
+##  Week 06, 02/14 - 02/18 : Scientific studies and confounding
+<!---
+- Monday: Brains (Chapter 8)
+- Wednesday: More Brains (Chapter 8)
+- Friday: Behavior Genetics (Chapter 9)
+-->
+##  Week 07, 02/21 - 02/25 : Web scraping 
+<!---
+- Monday: Behavior Genetics (Chapter 9)
+- Wednesday: Evolutionary Psychology (Chapter 9)
+- Friday: Evolutionary Psychology (Chapter 9)
+-->
+##  Week 08, 02/28 - 03/04 : Functions
+<!---
+- Monday: Personality over the Lifespan (Chapter 7)
+- Wednesday: Personality over the Lifespan (Chapter 7)
+- Friday: Personality Processes (Chapter 15)
+-->
+##  Week 09, 03/07 - 03/11 : Data and Ethics
+<!---
+- Monday: No Class
+- Wednesday: No Class
+- Friday: No Class
+-->
+##  Week 10, 03/14 - 03/18 : Fitting and interpreting models
+<!---
+- Monday: Personality Processes (Chapter 15)
+- Wednesday: Review
+- Friday: Test 2
+-->
+##  Week 11, 03/21 - 03/25 : Prediction and overfitting
+<!---
+- Monday: The Self (Chapter 16) Last day to drop with a grade of "W"
+- Wednesday: The Self (Chapter 16)
+- Friday:  Freud (Chapter 10) 
+-->
+##  Week 12, 03/28 - 04/01 : Cross validation
+<!---
+- Monday: Freud (Chapter 10)
+- Wednesday: Freud (Chapter 10)
+- Friday: Neo-Freud (Chapter 11; Assignment 2 Due)
+-->
+## Week 13, 04/04 - 04/08 : Quantifying uncertainty
+<!---
+- Monday:  Neo-Freud (Chapter 11) 
+- Wednesday: Positive Psychology
+- Friday: Positive Psychology
+-->
+##  Week 14, 04/11 - 04/15 : Interactive web apps
+<!---
+- Monday: Cross-Cultural Psychology
+- Wednesday: Cross-Cultural Psychology
+- Friday: Cross-Cultural Psychology
+-->
+
+##  Week 15, 04/18 - 04/22 : Special Topics (like: Text analysis; Machine learning; Bayesian inference)
+<!---
+- Monday: Personality and Physical Health
+- Wednesday: Personality and Mental Health
+- Friday: Personality Disorders
+
+##  Week 16, 04/25 - 04/29 : NA 
+
+- Monday: Special Topics
+- Wednesday: Review; Assignment 3 Due; Last Day of Class
+
+## Final Exam 
+
+- TBD on DEC TBD
+
+# References
+
+-->
+
+<!--chapter:end:0202_stats.Rmd-->
+
+# 362: Psychological Testing {-#testing}
 
 
 
@@ -2313,38 +2446,22 @@ By scaling to a percentage of the highest point total in the class, each student
 This curve can only help your grade. 
 
 The full table is provided below:
-\begin{table}
 
-\caption{(\#tab:unnamed-chunk-3)Full Table}
-\centering
-\begin{tabular}[t]{l|r}
-\hline
-Letter & Cutoff\\
-\hline
-A & 0.95\\
-\hline
-A- & 0.90\\
-\hline
-B+ & 0.87\\
-\hline
-B & 0.83\\
-\hline
-B- & 0.80\\
-\hline
-C+ & 0.77\\
-\hline
-C & 0.73\\
-\hline
-C- & 0.70\\
-\hline
-D+ & 0.67\\
-\hline
-D & 0.63\\
-\hline
-D- & 0.60\\
-\hline
-\end{tabular}
-\end{table}
+Table: (\#tab:unnamed-chunk-3)Full Table
+
+|Letter | Cutoff|
+|:------|------:|
+|A      |   0.95|
+|A-     |   0.90|
+|B+     |   0.87|
+|B      |   0.83|
+|B-     |   0.80|
+|C+     |   0.77|
+|C      |   0.73|
+|C-     |   0.70|
+|D+     |   0.67|
+|D      |   0.63|
+|D-     |   0.60|
 
 ### Curve Projections
 
@@ -2494,7 +2611,7 @@ See Syllabus Website
 - TBD
 -->
 
-<!--chapter:end:0202_testing.Rmd-->
+<!--chapter:end:0203_testing.Rmd-->
 
 # 703: Data Science {-}
 
@@ -2740,7 +2857,7 @@ Schedule
 
 -->
 
-<!--chapter:end:0203_datascience.Rmd-->
+<!--chapter:end:0204_datascience.Rmd-->
 
 # (PART\*) For Your Information {-}
 
@@ -2755,14 +2872,11 @@ Below you'll find answers to the questions that I get asked the most by students
 
 I don't want to discourage you from asking questions. However, asking me is not an efficient method for finding facts and searchable information...
 
-> Considering launching the following autoreply:\
-> Frequently Asked Questions\
-> Q: \"Can you -\"\
-> A: I cannot.
->
-> --- Alison Ledgerwood is on a social media break (\@AlisonLedg)
-> [September 23,
-> 2021](https://twitter.com/AlisonLedg/status/1441181845706579969)
+
+```{=html}
+<blockquote class="twitter-tweet" data-width="550" data-lang="en" data-dnt="true" data-theme="light"><p lang="en" dir="ltr">Considering launching the following autoreply:<br>Frequently Asked Questions<br>Q: &quot;Can you -&quot;<br>A: I cannot.</p>&mdash; Alison Ledgerwood (@AlisonLedg) <a href="https://twitter.com/AlisonLedg/status/1441181845706579969?ref_src=twsrc%5Etfw">September 23, 2021</a></blockquote>
+
+```
 
 ## How can I get ahold of you?
 
@@ -2780,8 +2894,7 @@ I don't want to discourage you from asking questions. However, asking me is not 
 
 * Phone Call: ...
 
-
-\begin{center}\includegraphics[width=0.5\linewidth]{img/why-this-millennial-didnt-answer-your-call} \end{center}
+<img src="img/why-this-millennial-didnt-answer-your-call.jpeg" width="50%" style="display: block; margin: auto;" />
 
 Credit: [Kiki Schirr](https://kikischirr.medium.com/) at [Tech Doodles](https://medium.com/tech-doodles) on ["Why this millennial didn't answer your call"](https://medium.com/tech-doodles/why-this-millennial-didnt-answer-your-call-d5abccf06cfc)
 
@@ -2931,8 +3044,7 @@ You're probably familiar with checking your grades for a [current course in Canv
 
 In order to get an accurate view of your final grade towards the end of the semester,
 
-
-\begin{center}\includegraphics[width=0.5\linewidth]{img/grades} \end{center}
+<img src="img/grades.png" width="50%" style="display: block; margin: auto;" />
 
 You may also be seeing icons and colors when you view your grades. [Learn what these grade icons and colors mean](https://community.canvaslms.com/docs/DOC-16533-4212829283).
 
@@ -2962,33 +3074,25 @@ Check out the canvas [basic guides](https://community.canvaslms.com/t5/Canvas-Ba
 
 Because some of the requirements to unlock it the activity are not met. To unlock the activity/module, you need to do whatever is listed.
 
-
-\begin{center}\includegraphics[width=0.5\linewidth]{img/requirements} \end{center}
+<img src="img/requirements.png" width="50%" style="display: block; margin: auto;" />
 
 ## Resources
 
 ### Where can I find textbooks and course materials?
 
-> Once again, I DO NOT recommend students go to libgen (dot) rs and
-> download books for their upcoming courses. I am NOT advocating for
-> getting and sharing free pdfs of required texts. DON\'T DO IT.
->
-> --- itsgalo (\@GaloAndStuff) [August 9,
-> 2021](https://twitter.com/GaloAndStuff/status/1424818560417902604)
+
+```{=html}
+<blockquote class="twitter-tweet" data-width="550" data-lang="en" data-dnt="true" data-theme="light"><p lang="en" dir="ltr">Once again, I DO NOT recommend students go to libgen (dot) rs and download books for their upcoming courses. I am NOT advocating for getting and sharing free pdfs of required texts. DON&#39;T DO IT.</p>&mdash; itsgalo 🗯 (@GaloAndStuff) <a href="https://twitter.com/GaloAndStuff/status/1424818560417902604?ref_src=twsrc%5Etfw">August 9, 2021</a></blockquote>
+
+```
 
 ### How can I ask professors for extensions?
 
-> Until I became a professor, I didn\'t realize that students can (and
-> do) regularly ask for extensions.\
-> \
-> This means some students know how to use this strategy to support
-> their learning, some don\'t.\
-> \
-> Sharing info so everyone has access to the same tools. A thread.
-> [\@OpenAcademics](https://twitter.com/OpenAcademics)
->
-> --- Dr. Betty Lai (\@BettySLai) [November 2,
-> 2021](https://twitter.com/BettySLai/status/1455555111397117954)
+
+```{=html}
+<blockquote class="twitter-tweet" data-width="550" data-lang="en" data-dnt="true" data-theme="light"><p lang="en" dir="ltr">Until I became a professor, I didn&#39;t realize that students can (and do) regularly ask for extensions. <br><br>This means some students know how to use this strategy to support their learning, some don&#39;t.<br><br>Sharing info so everyone has access to the same tools. A thread. <a href="https://twitter.com/OpenAcademics?ref_src=twsrc%5Etfw">@OpenAcademics</a></p>&mdash; Dr. Betty Lai (@BettySLai) <a href="https://twitter.com/BettySLai/status/1455555111397117954?ref_src=twsrc%5Etfw">November 2, 2021</a></blockquote>
+
+```
 
 
 ## Still have questions? 
@@ -3017,7 +3121,13 @@ Thus, if you miss one lecture or zip through a video, you run the risk of being 
 I've created a [video](https://youtu.be/dc3D2tbl8G0) highlighting how to be a successful asynchronous learner. 
 
 
-\includegraphics[width=30.76in]{img/learngood} 
+```{=html}
+<div class="vembedr" align="center">
+<div>
+<iframe src="https://www.youtube.com/embed/dc3D2tbl8G0" width="533" height="300" frameborder="0" allowfullscreen=""></iframe>
+</div>
+</div>
+```
 
 Much of this information comes from Northeastern University's [Tips for Taking Online Classes](https://www.northeastern.edu/graduate/blog/tips-for-taking-online-classes/)
 
@@ -3059,6 +3169,8 @@ Finally, you should understand that college is not a fee-for-service arrangement
 
 <!--chapter:end:0302_doingwell_irl.Rmd-->
 
+
+# References {-}
 
 
 <!--chapter:end:9999_references.Rmd-->

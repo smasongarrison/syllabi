@@ -1,4 +1,4 @@
-# 362: Psychological Testing {-}
+# 362: Psychological Testing {-#testing}
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(cache=FALSE, dev='pdf')

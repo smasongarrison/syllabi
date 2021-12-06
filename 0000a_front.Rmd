@@ -121,8 +121,6 @@ session$packages %>%
 
 
 
-Alternate Format
-
 The R session information when compiling this book is shown below:
 
 ```{r include=FALSE}
