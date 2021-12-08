@@ -1,0 +1,11 @@
+```{r include = FALSE}
+source("common.R")
+library(tidyverse)
+library(devtools)
+library(DT)
+library(vembedr)
+library(knitr)
+```
+
+
+# Student Support \& Resources
