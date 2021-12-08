@@ -19,6 +19,8 @@ include_tweet("https://twitter.com/bluntshovels/status/1463275576337129480")
 At Wake Forest and at many other places, the expectation is that you will self-advocate for yourselves and know exactly what you need. Is that a good expectation? Is that a good model? Is that equitable? I have thoughts... regardless, that is the current state of the world. Accordingly, you will have to advocate for what you need. If this process seems daunting, please talk to me! Regardless, I am happy to talk with you about this process and to share my own experiences.
 
 
+
+
 ```{r, echo=FALSE}
 
 include_tweet("https://twitter.com/theADHDacademic/status/1458876178580881410")
@@ -39,8 +41,9 @@ You can [search for accommodation ideas](https://askjan.org/soar.cfm) by [specif
 
 ## Resources
 
-* [Frequently Asked Questions from WFU LAC](https://lac.wfu.edu/frequently-asked-questions-about-lac-ds/)
+* [Frequently Asked Questions from WFU CLASS](https://class.wfu.edu/frequently-asked-questions-about-lac-ds/)
 * [JAN](https://askjan.org/)
+* [WFU Self-advocacy handout](https://docs.google.com/document/d/1X44zJyTz8-s9t6IXw0bII2DCFiOk1NR2MRfTi8wBiIc/)
 
 
 # Classroom Climate
