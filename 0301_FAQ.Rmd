@@ -75,7 +75,18 @@ Your best approach is to pretend that there is no curve.
 
 #### What can I do to get a better grade?
 
-The work.
+The work...
+
+```{r}
+if (knitr::is_latex_output()) {
+include_graphics("img/worriedgrade.png")
+}else{
+"https://www.youtube.com/watch?v=WVvKnq5XT-g" %>%
+embed_url() %>%
+  use_align("center")
+}
+```
+
 
 ### Why...
 
@@ -222,7 +233,8 @@ include_graphics("img/requirements.png")
 ### Where can I find textbooks and course materials?
 
 ```{r, echo=FALSE}
-include_tweet("https://twitter.com/GaloAndStuff/status/1424818560417902604")
+"https://twitter.com/GaloAndStuff/status/1424818560417902604" %>$
+include_tweet()
 ```
 
 ### How can I ask professors for extensions?
