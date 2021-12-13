@@ -3,7 +3,7 @@
 
 # Policy Overview
 
-In this section, I provide specific language for all my course policies. These policies are in addition to those policies and procedures outlined in the unversity [bulletin](https://bulletin.wfu.edu). There are slight differences between the [undergraduate college](https://bulletin.wfu.edu/undergraduate/) and the [graduate school](https://bulletin.wfu.edu/graduate/). 
+In this section, I provide specific language for all my course policies. These policies are in addition to those policies and procedures outlined in the university [bulletin](https://bulletin.wfu.edu). There are slight differences between the [undergraduate college](https://bulletin.wfu.edu/undergraduate/) and the [graduate school](https://bulletin.wfu.edu/graduate/). 
 
 ## Changes
 
