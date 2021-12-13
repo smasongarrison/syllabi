@@ -2,7 +2,7 @@
 title: "Prof. Mason's Syllabi"
 author: 
 - S. Mason Garrison
-date: "2021-12-06"
+date: "2021-12-13"
 knit: "bookdown::render_book"
 site: bookdown::bookdown_site
 url: 'https\://github.com/smasongarrison/syllabi'
@@ -807,7 +807,7 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 Inter
 </center>
  -->
  
-*This information is a human-readable summary of (and not a substitute for) the license.
+* This information is a human-readable summary of (and not a substitute for) the license.
 Please see <https://creativecommons.org/licenses/by-sa/4.0/legalcode> for the full legal text.*
 
 **You are free to:**
@@ -865,14 +865,14 @@ This version of the notes was built with:
 #> Finding R package dependencies ... Done!
 #>  setting  value
 #>  version  R version 4.0.5 (2021-03-31)
-#>  os       Windows 10 x64 (build 19044)
+#>  os       Windows 10 x64 (build 19043)
 #>  system   x86_64, mingw32
 #>  ui       RTerm
 #>  language (EN)
 #>  collate  English_United States.1252
 #>  ctype    English_United States.1252
 #>  tz       America/New_York
-#>  date     2021-12-06
+#>  date     2021-12-13
 #>  pandoc   2.11.4 @ C:/Program Files/RStudio/bin/pandoc/ (via rmarkdown)
 ```
 
@@ -880,8 +880,8 @@ Along with these packages:
 
 
 ```{=html}
-<div id="htmlwidget-344d49b1c785287cdc91" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-344d49b1c785287cdc91">{"x":{"filter":"top","vertical":false,"filterHTML":"<tr>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n<\/tr>","data":[["askpass","assertthat","backports","base64enc","bit","bit64","bitops","blob","bookdown","brew","brio","broom","cachem","callr","cellranger","checkmate","cli","clipr","colorspace","commonmark","conflicted","cpp11","crayon","credentials","crosstalk","crul","curl","data.table","DBI","dbplyr","desc","devtools","dichromat","diffobj","digest","dplyr","DT","dtplyr","ellipsis","evaluate","fansi","farver","fastmap","forcats","fs","gapminder","gargle","gender","genderdata","generics","geonames","gert","ggplot2","gh","gitcreds","glue","googledrive","googlesheets4","gridExtra","gt","gtable","haven","highr","hms","htmltools","htmlwidgets","httpcode","httr","ids","ini","isoband","jquerylib","jsonlite","knitr","labeling","later","lattice","lazyeval","lifecycle","lubridate","magrittr","MASS","Matrix","memoise","mgcv","mime","modelr","munsell","nlme","openssl","pillar","pkgbuild","pkgconfig","pkgload","plyr","praise","prettyunits","processx","progress","promises","ps","purrr","R6","rappdirs","rcmdcheck","RColorBrewer","Rcpp","readr","readxl","rebird","rematch","rematch2","remotes","reprex","reshape2","rjson","rlang","rmarkdown","roxygen2","rplos","rprojroot","rstudioapi","rversions","rvest","sass","scales","selectr","sessioninfo","solrium","stringi","stringr","sys","testthat","tibble","tidyr","tidyselect","tidyverse","tinytex","triebeard","tzdb","urltools","usethis","utf8","uuid","vctrs","viridis","viridisLite","vroom","waldo","whisker","withr","xfun","xml2","xopen","yaml","zip"],[null,"0.2.1","1.3.0",null,null,null,null,null,"0.24",null,null,"0.7.10","1.0.6","3.7.0","1.1.0",null,"3.1.0",null,"2.0-2",null,null,null,"1.4.2",null,null,null,null,null,"1.1.1","2.1.1","1.4.0","2.4.2",null,null,"0.6.27","1.0.7","0.20",null,"0.3.2","0.14","0.5.0",null,"1.1.0","0.5.1","1.5.0",null,null,null,null,"0.1.1",null,null,"3.3.5",null,null,"1.5.0",null,null,null,null,"0.3.0","2.4.3",null,"1.1.1","0.5.2","1.5.4",null,"1.4.2",null,null,null,"0.1.4","1.7.2","1.36",null,null,null,null,"1.0.1","1.8.0","2.0.1",null,null,"2.0.0",null,null,"0.1.8","0.5.0",null,null,"1.6.4","1.2.0","2.0.3","1.2.3",null,null,"1.1.1","3.5.2",null,null,"1.6.0","0.3.4","2.5.1",null,null,null,"1.0.7","2.1.0","1.3.1",null,null,null,"2.4.1","2.0.1",null,null,"0.4.11","2.11",null,null,"2.0.2","0.13",null,"1.0.2","0.4.0","1.1.1",null,"1.2.1",null,"1.7.5","1.4.0",null,"3.1.0","3.1.6","1.1.4","1.1.1","1.3.1",null,null,"0.2.0",null,"2.1.3","1.2.2",null,"0.3.8",null,null,null,null,null,"2.4.2","0.25","1.3.2",null,"2.2.1",null],["2019-01-13","2019-03-21","2021-10-27","2015-07-28","2020-08-04","2020-08-30","2021-04-24","2021-07-23","2021-09-02","2011-04-13","2021-04-23","2021-10-31","2021-08-19","2021-04-20","2016-07-27","2020-02-06","2021-10-27","2020-10-08","2021-06-24","2018-12-01","2019-06-21","2021-11-03","2021-10-29","2021-07-25","2021-11-04","2021-11-22","2021-06-23","2021-09-27","2021-01-15","2021-04-06","2021-09-28","2021-06-07",null,"2021-10-05","2020-10-24","2021-06-18","2021-11-15","2021-02-20","2021-04-29","2019-05-28","2021-05-25","2021-02-28","2021-01-25","2021-01-27","2020-07-31","2017-10-31","2021-07-02","2021-10-13",null,"2021-10-25","2019-02-19","2021-11-10","2021-06-25","2021-04-30","2020-12-04","2021-11-07","2021-07-08","2021-07-21","2017-09-09","2021-08-07","2019-03-25","2021-08-04","2021-04-16","2021-09-26","2021-08-25","2021-09-08","2020-04-10","2020-07-20","2017-05-31","2018-05-20","2021-07-13","2021-04-26","2020-12-09","2021-09-29","2020-10-20","2021-08-18","2020-04-02","2019-03-15","2021-09-24","2021-10-07","2020-11-17","2021-02-12","2021-01-06","2021-01-26","2021-02-16","2021-09-28","2020-05-19","2018-06-12","2021-02-04","2021-09-02","2021-10-18","2020-12-15","2019-09-22","2021-10-13","2020-03-03","2015-08-11","2020-01-24","2021-04-30","2019-05-16","2021-02-11","2021-02-28","2020-04-17","2021-08-19","2021-01-31","2021-09-27","2014-12-07","2021-07-07","2021-11-11","2019-03-13","2021-09-20","2016-04-21","2020-05-01","2021-09-29","2021-08-05","2020-04-09","2018-06-08","2021-04-30","2021-09-14","2021-09-08","2021-02-23","2020-11-15","2020-11-12","2021-05-31","2021-10-16","2021-05-12","2020-05-11","2019-11-20","2021-11-02","2021-05-19","2021-10-04","2019-02-10","2020-07-23","2021-10-04","2021-11-07","2021-09-27","2021-04-30","2021-04-15","2021-11-04","2016-08-04","2021-10-27","2019-04-14","2021-10-27","2021-07-24","2021-11-01","2021-04-29","2021-10-13","2021-04-13","2021-11-10","2021-09-14","2019-08-28","2021-04-18","2021-08-06","2020-04-23","2018-09-17","2020-02-01","2021-05-31"],["CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)",null,"CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)",null,"CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>package<\/th>\n      <th>loadedversion<\/th>\n      <th>date<\/th>\n      <th>source<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":156,"autoWidth":true,"bInfo":false,"paging":false,"order":[],"orderClasses":false,"orderCellsTop":true,"lengthMenu":[10,25,50,100,156]}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-dfdb698dd77ff1481e6a" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-dfdb698dd77ff1481e6a">{"x":{"filter":"top","vertical":false,"filterHTML":"<tr>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n<\/tr>","data":[["askpass","assertthat","backports","base64enc","bit","bit64","bitops","blob","bookdown","brew","brio","broom","cachem","callr","cellranger","checkmate","cli","clipr","colorspace","commonmark","conflicted","cpp11","crayon","credentials","crosstalk","crul","curl","data.table","DBI","dbplyr","desc","devtools","dichromat","diffobj","digest","dplyr","DT","dtplyr","ellipsis","evaluate","fansi","farver","fastmap","forcats","fs","gapminder","gargle","gender","genderdata","generics","geonames","gert","ggplot2","gh","gitcreds","glue","googledrive","googlesheets4","gridExtra","gt","gtable","haven","highr","hms","htmltools","htmlwidgets","httpcode","httr","ids","ini","isoband","jquerylib","jsonlite","knitr","labeling","later","lattice","lazyeval","lifecycle","lubridate","magrittr","MASS","Matrix","memoise","mgcv","mime","modelr","munsell","nlme","openssl","pillar","pkgbuild","pkgconfig","pkgload","plyr","praise","prettyunits","processx","progress","promises","ps","purrr","R6","rappdirs","rcmdcheck","RColorBrewer","Rcpp","readr","readxl","rebird","rematch","rematch2","remotes","reprex","reshape2","rjson","rlang","rmarkdown","roxygen2","rplos","rprojroot","rstudioapi","rversions","rvest","sass","scales","selectr","sessioninfo","solrium","stringi","stringr","sys","testthat","tibble","tidyr","tidyselect","tidyverse","tinytex","triebeard","tzdb","urltools","usethis","utf8","uuid","vctrs","viridis","viridisLite","vroom","waldo","whisker","withr","xfun","xml2","xopen","yaml","zip"],[null,"0.2.1","1.3.0",null,null,null,null,null,"0.24",null,null,"0.7.10","1.0.6","3.7.0","1.1.0",null,"3.1.0",null,"2.0-2",null,null,null,"1.4.2",null,null,null,null,null,"1.1.1","2.1.1","1.4.0","2.4.3",null,null,"0.6.28","1.0.7","0.20",null,"0.3.2","0.14","0.5.0",null,"1.1.0","0.5.1","1.5.0",null,null,null,null,"0.1.1",null,null,"3.3.5",null,null,"1.5.0",null,null,null,null,"0.3.0","2.4.3",null,"1.1.1","0.5.2","1.5.4",null,"1.4.2",null,null,null,"0.1.4","1.7.2","1.36",null,null,null,null,"1.0.1","1.8.0","2.0.1",null,null,"2.0.1",null,null,"0.1.8","0.5.0",null,null,"1.6.4","1.2.1","2.0.3","1.2.4",null,null,"1.1.1","3.5.2",null,null,"1.6.0","0.3.4","2.5.1",null,null,null,"1.0.7","2.1.1","1.3.1",null,null,null,"2.4.2","2.0.1",null,null,"0.4.12","2.11",null,null,"2.0.2","0.13",null,"1.0.2","0.4.0","1.1.1",null,"1.2.2",null,"1.7.6","1.4.0",null,"3.1.1","3.1.6","1.1.4","1.1.1","1.3.1",null,null,"0.2.0",null,"2.1.3","1.2.2",null,"0.3.8",null,null,null,null,null,"2.4.3","0.28","1.3.3",null,"2.2.1",null],["2019-01-13","2019-03-21","2021-10-27","2015-07-28","2020-08-04","2020-08-30","2021-04-24","2021-07-23","2021-09-02","2011-04-13","2021-11-30","2021-10-31","2021-08-19","2021-04-20","2016-07-27","2020-02-06","2021-10-27","2020-10-08","2021-06-24","2018-12-01","2021-11-26","2021-11-30","2021-10-29","2021-11-29","2021-11-04","2021-11-22","2021-06-23","2021-09-27","2021-01-15","2021-04-06","2021-09-28","2021-11-30","2013-01-24","2021-10-05","2021-09-23","2021-06-18","2021-11-15","2021-12-05","2021-04-29","2019-05-28","2021-05-25","2021-02-28","2021-01-25","2021-01-27","2020-07-31","2017-10-31","2021-07-02","2021-10-13","2020-11-17","2021-10-25","2019-02-19","2021-11-10","2021-06-25","2021-04-30","2020-12-04","2021-11-07","2021-07-08","2021-07-21","2017-09-09","2021-08-07","2019-03-25","2021-08-04","2021-04-16","2021-09-26","2021-08-25","2021-09-08","2020-04-10","2020-07-20","2017-05-31","2018-05-20","2021-07-13","2021-04-26","2020-12-09","2021-09-29","2020-10-20","2021-08-18","2020-04-02","2019-03-15","2021-09-24","2021-10-07","2020-11-17","2021-02-12","2021-01-06","2021-11-26","2021-02-16","2021-09-28","2020-05-19","2018-06-12","2021-02-04","2021-09-02","2021-10-18","2021-11-30","2019-09-22","2021-11-30","2020-03-03","2015-08-11","2020-01-24","2021-04-30","2019-05-16","2021-02-11","2021-02-28","2020-04-17","2021-08-19","2021-01-31","2021-09-27","2014-12-07","2021-07-07","2021-11-30","2019-03-13","2021-09-20","2016-04-21","2020-05-01","2021-11-30","2021-08-05","2020-04-09","2018-06-08","2021-10-18","2021-09-14","2021-09-08","2021-02-23","2020-11-15","2020-11-12","2021-05-31","2021-10-16","2021-05-12","2020-05-11","2019-11-20","2021-12-06","2021-05-19","2021-11-29","2019-02-10","2020-07-23","2021-12-03","2021-11-07","2021-09-27","2021-04-30","2021-04-15","2021-11-04","2016-08-04","2021-10-27","2019-04-14","2021-10-27","2021-07-24","2021-11-01","2021-04-29","2021-10-13","2021-04-13","2021-11-30","2021-09-14","2019-08-28","2021-11-30","2021-11-04","2021-11-30","2018-09-17","2020-02-01","2021-05-31"],["CRAN (R 4.0.0)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.2)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","local","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.2)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.0)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.2)","CRAN (R 4.0.0)","CRAN (R 4.0.5)"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>package<\/th>\n      <th>loadedversion<\/th>\n      <th>date<\/th>\n      <th>source<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":156,"autoWidth":true,"bInfo":false,"paging":false,"order":[],"orderClasses":false,"orderCellsTop":true,"lengthMenu":[10,25,50,100,156]}},"evals":[],"jsHooks":[]}</script>
 ```
 
 
@@ -896,7 +896,7 @@ The R session information when compiling this book is shown below:
 sessionInfo()
 #> R version 4.0.5 (2021-03-31)
 #> Platform: x86_64-w64-mingw32/x64 (64-bit)
-#> Running under: Windows 10 x64 (build 19044)
+#> Running under: Windows 10 x64 (build 19043)
 #> 
 #> Matrix products: default
 #> 
@@ -911,8 +911,8 @@ sessionInfo()
 #> [1] stats     graphics  grDevices utils     datasets  methods   base     
 #> 
 #> other attached packages:
-#>  [1] DT_0.20         devtools_2.4.2  usethis_2.1.3   forcats_0.5.1  
-#>  [5] stringr_1.4.0   dplyr_1.0.7     purrr_0.3.4     readr_2.1.0    
+#>  [1] DT_0.20         devtools_2.4.3  usethis_2.1.3   forcats_0.5.1  
+#>  [5] stringr_1.4.0   dplyr_1.0.7     purrr_0.3.4     readr_2.1.1    
 #>  [9] tidyr_1.1.4     tibble_3.1.6    ggplot2_3.3.5   tidyverse_1.3.1
 #> [13] webshot_0.5.2   knitr_1.36      vembedr_0.1.4   tweetrmd_0.0.8 
 #> 
@@ -1378,7 +1378,7 @@ Github is a free IDE and hosting service for Git. As a Wake Forest student, you 
 
 # Policy Overview
 
-In this section, I provide specific language for all my course policies. These policies are in addition to those policies and procedures outlined in the unversity [bulletin](https://bulletin.wfu.edu). There are slight differences between the [undergraduate college](https://bulletin.wfu.edu/undergraduate/) and the [graduate school](https://bulletin.wfu.edu/graduate/). 
+In this section, I provide specific language for all my course policies. These policies are in addition to those policies and procedures outlined in the university [bulletin](https://bulletin.wfu.edu). There are slight differences between the [undergraduate college](https://bulletin.wfu.edu/undergraduate/) and the [graduate school](https://bulletin.wfu.edu/graduate/). 
 
 ## Changes
 
@@ -1480,6 +1480,8 @@ At Wake Forest and at many other places, the expectation is that you will self-a
 
 
 
+
+
 ```{=html}
 <blockquote class="twitter-tweet" data-width="550" data-lang="en" data-dnt="true" data-theme="light"><p lang="en" dir="ltr">Every time we write that self-advocacy is key to disabled students&#39; success, we need to include an asterisk and note, &quot;BUT IT SHOULDN&#39;T BE&quot; <br><br>Disabled students deserve success regardless of how well they can navigate the system and cajole/plead/argue with profs for access.</p>&mdash; The ADHD Academic (@theADHDacademic) <a href="https://twitter.com/theADHDacademic/status/1458876178580881410?ref_src=twsrc%5Etfw">November 11, 2021</a></blockquote>
 
@@ -1500,8 +1502,9 @@ You can [search for accommodation ideas](https://askjan.org/soar.cfm) by [specif
 
 ## Resources
 
-* [Frequently Asked Questions from WFU LAC](https://lac.wfu.edu/frequently-asked-questions-about-lac-ds/)
+* [Frequently Asked Questions from WFU CLASS](https://class.wfu.edu/frequently-asked-questions-about-lac-ds/)
 * [JAN](https://askjan.org/)
+* [WFU Self-advocacy handout](https://docs.google.com/document/d/1X44zJyTz8-s9t6IXw0bII2DCFiOk1NR2MRfTi8wBiIc/)
 
 
 # Classroom Climate
@@ -2904,14 +2907,23 @@ If you have a question about the course AND can't find your answer elsewhere (or
 
 ### Where...
 
+#### Where can I find the reading list for the entire semester?
+You can find the suggested readings for each module on the GitHub course notes: https://smasongarrison.github.io/personality/
+
 #### Where can I find when assignments are due?
 You can find due dates in the syllabus.
 
+#### Where can I check the closing time of assessments?
+You can check the due time and closing time of assessments by clicking the corresponding page in "Modules". You should be able to see the time after you entered there.
 
 #### Where are my grades?
 You can find it on canvas, under grades. I will not look up this grade for you. You are all hard working and problem-solving students. I believe in you!
 
 ### Can...
+
+#### Can I rent the textbook for this course from somewhere (Amazon, bookstores, etc.)?
+Of course. You can rent the book from Amazon or anywhere else you'd like.
+
 #### Can you calculate my grade for me?
 No. I believe in you!
 
@@ -2938,9 +2950,32 @@ Your best approach is to pretend that there is no curve.
 
 #### What can I do to get a better grade?
 
-The work.
+The work...
+
+
+```r
+if (knitr::is_latex_output()) {
+include_graphics("img/worriedgrade.png")
+}else{
+"https://www.youtube.com/watch?v=WVvKnq5XT-g" %>%
+embed_url() %>%
+  use_align("center")
+}
+```
+
+```{=html}
+<div class="vembedr" align="center">
+<div>
+<iframe src="https://www.youtube.com/embed/WVvKnq5XT-g" width="533" height="300" frameborder="0" allowfullscreen=""></iframe>
+</div>
+</div>
+```
+
 
 ### Why...
+
+#### Why is the <assignment/activity/quiz> locked?
+Because you didn't complete all the requirements to unlock it... To unlock the activity/module, you need to do whatever is listed.
 
 #### Why do I have to meet with you if I want to see my test again? Why can't you just release them?
 
@@ -2999,6 +3034,7 @@ Students will use Canvas to access course content.
 All work/assignments/projects will be distributed and collected through Canvas.
 
 ### I'm having trouble with Canvas -- help!
+
 If you're having trouble with Canvas, you should first search the [Canvas Guides](https://community.canvaslms.com/t5/Canvas-Basics-Guide/tkb-p/basics) and then reach out to canvas support.
 
 
@@ -3009,7 +3045,7 @@ You can search the Canvas Guides or contact the Canvas Support Helpline by click
  
 ### How do I... ? 
 
-Although I am not canvas tech support, here are some answers to commonly asked questions.
+Although I am not Canvas tech support, here are some answers to commonly asked questions.
 
 
 #### How do I set my notifications on Canvas for my classes?
@@ -3040,6 +3076,7 @@ Click on 'View Feedback' to view all feedback, including comments and any additi
 
 
 #### How do I accurately check my grades in Canvas?
+
 You're probably familiar with checking your grades for a [current course in Canvas](https://community.canvaslms.com/t5/Student-Guide/How-do-I-view-my-grades-in-a-current-course/ta-p/493), but did you know that you might not be seeing an accurate calculation of your final grade when you check your grades at the end of the semester?
 
 In order to get an accurate view of your final grade towards the end of the semester,
@@ -3168,6 +3205,238 @@ Finally, you should understand that college is not a fee-for-service arrangement
 --->
 
 <!--chapter:end:0302_doingwell_irl.Rmd-->
+
+
+
+
+# Student Support \& Resources
+
+Below you'll find materials of available supports for this course.
+
+## Prof. Mason FAQ
+
+https://smasongarrison.github.io/syllabi/frequently-asked-questions.html
+
+## Canvas
+
+### Canvas: Helpful Tips
+
+#### Canvas Student Guide
+
+The Canvas Student Guide provides information and guidance related to all things Canvas! Below, you will find both the text and video versions of the Student Guide: 
+
+* [Canvas Student Guide - Table of Contents](https://community.canvaslms.com/t5/Student-Guide/tkb-p/student)
+ 
+* [Canvas Student Video Guide - Table of Contents](https://community.canvaslms.com/t5/Student-Guide/tkb-p/student)
+
+#### Getting Organized
+
+Global Navigation:
+
+* [How do I use the Global Navigation Menu? ](https://community.canvaslms.com/t5/Student-Guide/How-do-I-use-the-Global-Navigation-Menu-as-a-student/ta-p/522)
+
+* [How do I use the Dashboard?](https://community.canvaslms.com/t5/Student-Guide/How-do-I-use-the-Dashboard-as-a-student/ta-p/512)
+
+* [How do I use the To Do list and sidebar in the Dashboard?](https://community.canvaslms.com/t5/Student-Guide/How-do-I-use-the-To-Do-list-and-sidebar-in-the-Dashboard-as-a/ta-p/511)
+
+Profile and User Settings:
+
+* [How do I edit my profile in my user account? ](https://community.canvaslms.com/t5/Student-Guide/How-do-I-edit-my-profile-in-my-user-account-as-a-student/ta-p/421)
+
+* [How do I add a profile picture in my user account?](https://community.canvaslms.com/t5/Student-Guide/How-do-I-add-a-profile-picture-in-my-user-account-as-a-student/ta-p/518)
+
+* [How do I set my Canvas notification preferences?](https://community.canvaslms.com/t5/Student-Guide/How-do-I-manage-my-Canvas-notification-settings-as-a-student/ta-p/434)
+
+* [Calendar](https://vimeo.com/78015141)
+
+* [Files](https://vimeo.com/74772644)
+
+### Canvas: Quick Links
+
+#### Your Canvas Profile
+
+* [Profiles](https://community.canvaslms.com/t5/Student-Guide/How-do-I-edit-my-profile-in-my-user-account-as-a-student/ta-p/421) allow you to update your name, preferred contact methods, and any personal links for your account. Your profile information can be viewed by all users in your courses. In an online course, your profile is an important way of letting your instructor and classmates "see" you.
+
+
+#### Notifications
+
+* The [notification](https://community.canvaslms.com/t5/Student-Guide/How-do-I-manage-my-Canvas-notification-settings-as-a-student/ta-p/434) system is designed to help you keep track of the activity in your Canvas sites. It's important that you customize the default settings to fit the way you want to receive notifications. (You don't want to miss any important communications from your instructor!)
+
+
+#### Other Helpful Canvas Guides Links
+
+* [Student Guide Table of Contents](https://community.canvaslms.com/t5/Student-Guide/tkb-p/student)
+This will show you a list of all the topics within the Student Guides.
+
+* [View your grades](https://community.canvaslms.com/t5/Student-Guide/How-do-I-view-my-grades-in-a-current-course/ta-p/493)
+Learn how to view your grades, scoring details and instructor comments on assignments.
+
+* [Submitting an online assignment](https://community.canvaslms.com/t5/Student-Guide/How-do-I-submit-an-online-assignment/ta-p/503)
+Instructors can choose what kind of online submissions they want you to use. Learn how to submit your assignment online.
+
+* [Using the Inbox](https://community.canvaslms.com/t5/Student-Guide/How-do-I-use-the-Inbox-as-a-student/ta-p/532)
+Many instructors prefer (or even require) that you use the Canvas Inbox (also called "Conversations") rather than your regular email account.
+
+* [Using Canvas on your mobile device](https://community.canvaslms.com/t5/Student-Guide/How-can-I-use-Canvas-on-my-mobile-device-as-a-student/ta-p/282)
+On mobile devices, Canvas is designed to be used within Canvas mobile applications. Be aware that not all features are fully supported in the app. (It's recommended you do "sophisticated" tasks like taking quizzes and submitting assignments using a regular web browser.)
+
+### Accurately Calculating Grades in Canvas
+
+**Students: Make sure you are seeing the right grades in Canvas!**
+
+* You're probably familiar with [checking your grades for a current course in Canvas](https://community.canvaslms.com/t5/Student-Guide/How-do-I-view-my-grades-in-a-current-course/ta-p/493), but did you know that you might not be seeing an accurate calculation of your final grade when you check your grades at the end of the semester?
+
+* In order to get an accurate view of your final grade towards the end of the semester, make sure to uncheck the Calculate based only on graded assignments checkbox:
+
+
+<img src="img/grades.png" width="50%" style="display: block; margin: auto;" />
+
+
+* You may also be seeing icons and colors when you view your grades. [Learn what these grade icons and colors mean](https://community.canvaslms.com/t5/Student-Guide/How-do-I-use-the-icons-and-colors-in-the-Grades-page/ta-p/476)
+
+* Adapted from: [Florida State University Canvas Support](https://support.canvas.fsu.edu/kb/article/1068-students-make-sure-you-are-seeing-the-right-grades-in-canvas/)
+
+## Resource Collections
+
+### Student Support Services
+
+The follow list is a non-exhaustive list of services that Wake Forest offers to students.
+
+**[Learning Assistance Center](https://class.wfu.edu/)**
+
+* [Academic Coaching](https://class.wfu.edu/): encourages students to strengthen a wide range of study skills including time management, note-taking, study skills, planning and organizing, test preparation, and test anxiety.
+
+* [Disability Services](https://class.wfu.edu/): enable students with disabilities to experience equal access to the academic, social, and recreational activities and programs at Wake Forest University.
+
+* [Peer Tutoring Program](https://class.wfu.edu/): provides individual or group assistance to any undergraduate student wishing to improve their learning in specific courses. Tutors focus on the learning process and help students make progress toward their academic goals.
+
+**[Thrive Remotely ](https://thrive.wfu.edu/thrive-remotely-2/)**
+* To support the students, faculty, and staff of Wake Forest University, the [Office of Wellbeing](https://thrive.wfu.edu/), Campus Recreation, and other colleagues at WFU have curated this hub of resources which encompass a variety of wellbeing topics to help our community as we transition to remote school and work.
+
+#### [Crash Course: Study Skills](https://www.youtube.com/watch?v=E7CwqNHn_Ns&list=PL8dPuuaLjXtNcAJRf3bE1IJU6nMfHj86W)
+
+#### [What are Office Hours?](https://vimeo.com/270014784?embedded=true&source=vimeo_logo&owner=2248721)
+
+#### [What Are Course Evals and Why Should You Submit Them](https://www.youtube.com/watch?v=5zkAOpx8Qk8)
+
+#### WFU Honor Code Definitions
+
+**These definitions are reproduced from the [WFU Honor Code](https://studentconduct.wfu.edu/procedures-of-the-honor-and-ethics-council/)**
+
+
+Cheating, plagiarism, stealing, deception, academic misconduct, and contempt are considered violations of the Honor Code. These terms should be construed to have their ordinary, non-legal meaning.
+
+1. The term “cheating” includes:
+  + (a) providing or receiving unauthorized assistance in academic endeavors (e.g., quizzes, tests, examinations, reports, term papers);
+
+  + (b) use of sources beyond those authorized by the instructor in writing papers,     preparing reports, solving problems, or carrying out other assignments; or
+
+  + (c) the use, without permission, of tests or other academic material belonging to a member of the University faculty or staff.
+
+2. “Plagiarism” is a type of cheating. It includes:
+  + (a) the use, by paraphrase or direct quotation, of the published or unpublished work of another person without complete acknowledgment of the source;
+
+  + (b) the unacknowledged use of materials prepared by another agency or person providing term papers or other academic materials;
+
+  + (c) the non-attributed use of any portion of a computer algorithm or data file; or
+
+  + (d) the use, by paraphrase or direct quotation, of online material without complete acknowledgment of the source.
+
+|      When faced with conflicting definitions of plagiarism during a case, the Honor and Ethics Council will adopt the definition established for use in the department/course by the department or professor involved in the case.
+
+3. The term “stealing” includes:
+  + (a) the unauthorized taking, misappropriation, or possession of any property belonging to, owned by, or maintained by the University, an organization, or another individual, or
+
+  + (b) the possession, retention, or disposal of stolen property.
+
+4. The term “deception” includes any false or deceiving representation. In the academic context, such representations include:
+  + (a) any attempt to avoid meeting the stated course requirements, such as making false statements to avoid taking examinations at the scheduled times or to avoid turning in assignments at the scheduled times;
+
+  + (b) listing sources in a bibliography not directly used in the academic exercise; or
+
+  + (c) submitting falsified, invented, or fictitious data or evidence, or concealing or distorting the true nature, origin, or function of data or evidence.
+
+|      In the social context, deceptive representations include:
+
+  + (a) making a false statement to a University official, including Residence Advisors, or
+
+  + (b) presenting a false identification.
+
+5. The term “academic misconduct” may be used as a generic designation for all honor code violations in the academic context. As a specific charge it includes:
+  + (a) the violation of University policies by tampering with grades
+
+  + (b) taking part in obtaining or distributing any part of an unadministered academic exercise;
+
+  + (c) any attempt to gain access or to aid another in gaining access to any computer account other than one’s own without proper authorization; or
+
+  + (d) any attempt to gain access or to aid another in gaining access, without proper authorization, to department offices, faculty offices, laboratories, or any other place where unadministered assignments are kept.
+
+6. The term “contempt” includes:
+  + (a) instances of perjury (giving false testimony), or
+
+  + (b) acts which otherwise obstruct the conduct process.
+
+*Note: Cheating, stealing, making false or deceiving statements, plagiarism, vandalism, and harassment are just as wrong when done in the context of computing as they are in all other aspects of University conduct.*
+
+### Discussion Board Etiquette
+Here are a few websites that cover general guidelines for how to write discussion board posts.
+* [Discussion Board Etiquette by Kay Lehmann and Lisa Chamberlin](https://www2.uwstout.edu/content/profdev/rubrics/discuss_etiquette.html)
+* [Etiquette For Online Course Discussion Board Posts by Kelly Paul](http://learnmore.uncg.edu/blog/etiquette-for-online-course-discussion-boards)
+
+Here's a useful and quick video on [discussion boards](https://www.youtube.com/watch?v=tg3y2A9pdtI)
+
+#### [Poem 013: Did I Miss Anything? Links to an external site.](https://www.loc.gov/programs/poetry-and-literature/poet-laureate/poet-laureate-projects/poetry-180/all-poems/item/poetry-180-013/did-i-miss-anything/)
+
+#### [Advice for students so they don't sound silly in emails (essay) Links to an external site.](https://www.insidehighered.com/views/2015/04/16/advice-students-so-they-dont-sound-silly-emails-essay)
+
+### Online Learning Resources
+(leaving blank)
+
+#### [Tips for Taking Online Classes: 8 Strategies for Success Links to an external site.](https://www.northeastern.edu/graduate/blog/tips-for-taking-online-classes/)
+
+#### [Navigating Digital Information Links to an external site.](https://www.youtube.com/watch?v=pLlv2o6UfTU&list=PL8dPuuaLjXtN07XYqqWSKpPrtNDiCHTzU)
+
+### Tech Services & Computer Resources
+
+**Basic Computer Requirements**
+Having regular access to a computer with a reliable Internet connection is required. You will need a word processing program capable of saving word formats such as .doc, .docx or .pdf. 
+
+Check out the technical requirements for your computer and browser in order to maximize Canvas functionality: [Test your computer's readiness](https://apps.3cmediasolutions.org/oei/tools/computer-readiness.html)
+
+**Plug-ins and Helper Applications**
+There may be plug-ins and helper applications to download that support the Canvas environment and play multimedia such as:
+
+* [Java](https://www.java.com/en/download/)
+* [Adobe Reader](https://get.adobe.com/cn/reader/)
+* [Adobe Flash Player](https://www.flash.cn/)
+* [Windows Media Player](https://support.microsoft.com/en-us/windows/get-windows-media-player-81718e0d-cfce-25b1-aee3-94596b658287)
+* [Quicktime](https://support.apple.com/kb/DL837?locale=zh_CN)
+* [Apache Open Office for Microsoft Word](https://www.openoffice.org/download/index.html)
+* [Microsoft Silverlight](https://www.microsoft.com/silverlight/)
+
+**Browser Support**
+
+While Chrome is the preferred browser for most Canvas interactions, Canvas supports the latest versions of every browser release. It's highly recommended that you update to the newest version of whatever browser you are using as well as the most up-to-date Flash plug-in. Check out the Canvas Browser Support page (Links to an external site.) for the most recent information.
+
+**Contacting the Canvas Help Desk:**
+
+You can search the Canvas Guides or contact the Canvas Support Helpline by clicking the Help icon (circle with a question mark) in the Account menu.
+
+
+**Tech Support Cheat Sheet**
+
+![](https://imgs.xkcd.com/comics/tech_support_cheat_sheet.png)
+
+## Public Health
+
+**[WFU Covid Dashboard](https://ourwayforward.wfu.edu/covid-19-dashboard/)**
+**[microCOVID Risk Calculator](https://www.microcovid.org/)**
+**[NYT Covid Latest Map and Case Count Links to an external site.](https://www.nytimes.com/interactive/2021/us/north-carolina-covid-cases.html)**
+
+## Additional Resources
+
+
+<!--chapter:end:0303_support.Rmd-->
 
 
 # References {-}

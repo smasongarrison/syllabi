@@ -1,11 +1,4 @@
-```{r include = FALSE}
-source("common.R")
-library(tidyverse)
-library(devtools)
-library(DT)
-library(vembedr)
-library(knitr)
-```
+
 
 
 # Student Support \& Resources
@@ -88,9 +81,7 @@ On mobile devices, Canvas is designed to be used within Canvas mobile applicatio
 * In order to get an accurate view of your final grade towards the end of the semester, make sure to uncheck the Calculate based only on graded assignments checkbox:
 
 
-```{r echo = FALSE,out.width='50%', fig.align='center'}
-include_graphics("img/grades.png")
-```
+<img src="img/grades.png" width="50%" style="display: block; margin: auto;" />
 
 
 * You may also be seeing icons and colors when you view your grades. [Learn what these grade icons and colors mean](https://community.canvaslms.com/t5/Student-Guide/How-do-I-use-the-icons-and-colors-in-the-Grades-page/ta-p/476)
@@ -186,18 +177,18 @@ Here are a few websites that cover general guidelines for how to write discussio
 
 Here's a useful and quick video on [discussion boards](https://www.youtube.com/watch?v=tg3y2A9pdtI)
 
-#### [Poem 013: Did I Miss Anything? ](https://www.loc.gov/programs/poetry-and-literature/poet-laureate/poet-laureate-projects/poetry-180/all-poems/item/poetry-180-013/did-i-miss-anything/)
+#### [Poem 013: Did I Miss Anything? Links to an external site.](https://www.loc.gov/programs/poetry-and-literature/poet-laureate/poet-laureate-projects/poetry-180/all-poems/item/poetry-180-013/did-i-miss-anything/)
 
-#### [Advice for students so they don't sound silly in emails (essay)](https://www.insidehighered.com/views/2015/04/16/advice-students-so-they-dont-sound-silly-emails-essay)
+#### [Advice for students so they don't sound silly in emails (essay) Links to an external site.](https://www.insidehighered.com/views/2015/04/16/advice-students-so-they-dont-sound-silly-emails-essay)
 
 ### Online Learning Resources
 (leaving blank)
 
 #### [Tips for Taking Online Classes: 8 Strategies for Success Links to an external site.](https://www.northeastern.edu/graduate/blog/tips-for-taking-online-classes/)
 
-#### [Navigating Digital Information](https://www.youtube.com/watch?v=pLlv2o6UfTU&list=PL8dPuuaLjXtN07XYqqWSKpPrtNDiCHTzU)
+#### [Navigating Digital Information Links to an external site.](https://www.youtube.com/watch?v=pLlv2o6UfTU&list=PL8dPuuaLjXtN07XYqqWSKpPrtNDiCHTzU)
 
-### Tech Services \& Computer Resources
+### Tech Services & Computer Resources
 
 **Basic Computer Requirements**
 Having regular access to a computer with a reliable Internet connection is required. You will need a word processing program capable of saving word formats such as .doc, .docx or .pdf. 
@@ -233,4 +224,6 @@ You can search the Canvas Guides or contact the Canvas Support Helpline by click
 **[WFU Covid Dashboard](https://ourwayforward.wfu.edu/covid-19-dashboard/)**
 **[microCOVID Risk Calculator](https://www.microcovid.org/)**
 **[NYT Covid Latest Map and Case Count Links to an external site.](https://www.nytimes.com/interactive/2021/us/north-carolina-covid-cases.html)**
+
+## Additional Resources
 

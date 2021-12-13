@@ -1,0 +1,2276 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{book}
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{ifxetex,ifluatex}
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\hypersetup{
+  pdftitle={Prof.~Mason's Syllabi},
+  pdfauthor={S. Mason Garrison},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+\urlstyle{same} % disable monospaced font for URLs
+\usepackage{color}
+\usepackage{fancyvrb}
+\newcommand{\VerbBar}{|}
+\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+% Add ',fontsize=\small' for more characters per line
+\usepackage{framed}
+\definecolor{shadecolor}{RGB}{248,248,248}
+\newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
+\newcommand{\AlertTok}[1]{\textcolor[rgb]{0.94,0.16,0.16}{#1}}
+\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.77,0.63,0.00}{#1}}
+\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\BuiltInTok}[1]{#1}
+\newcommand{\CharTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{#1}}
+\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.64,0.00,0.00}{\textbf{#1}}}
+\newcommand{\ExtensionTok}[1]{#1}
+\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\ImportTok}[1]{#1}
+\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\NormalTok}[1]{#1}
+\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.81,0.36,0.00}{\textbf{#1}}}
+\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
+\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\RegionMarkerTok}[1]{#1}
+\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\StringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{5}
+\usepackage{booktabs}
+\ifluatex
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\usepackage[]{natbib}
+\bibliographystyle{apalike}
+
+\title{Prof.~Mason's Syllabi}
+\author{S. Mason Garrison}
+\date{2021-12-13}
+
+\begin{document}
+\maketitle
+
+{
+\setcounter{tocdepth}{0}
+\tableofcontents
+}
+\hypertarget{part-front-matter}{%
+\part*{Front Matter}\label{part-front-matter}}
+\addcontentsline{toc}{part}{Front Matter}
+
+\hypertarget{welcome-to-my-syllabi}{%
+\chapter*{Welcome to my Syllabi!}\label{welcome-to-my-syllabi}}
+\addcontentsline{toc}{chapter}{Welcome to my Syllabi!}
+
+Welcome to all my syllabi! This website is designed to accompany all of Mason Garrison's courses at Wake Forest University.
+Over the semesters, I have found that my syllabi keep growing longer and longer as my career has progressed.
+I know that no one likes reading 8 page syllabi.
+However, I want to make sure that all my students know what my expectations are.
+So in that spirit, I've created a website to contain all of my policies in one place.
+That way, I can have a neat and tidy syllabi, while still making my expectations clear.
+
+\hypertarget{how-to-use-these-notes}{%
+\section*{How to use these notes}\label{how-to-use-these-notes}}
+\addcontentsline{toc}{section}{How to use these notes}
+
+This website is constantly changing. If you catch typos, errors, please issue a pull request with the fixes.
+
+This document is broken down into multiple chapters. Use the table of contents on the left side of the screen to navigate, and use the hamburger icon (horizontal bars) at the top of the document to open or close the table of contents. At the top of the document, you'll see additional icons which you can click to search the document, change the size, font or color scheme of the page. The document will be updated (unpredictably) throughout the semester; however, students aren't bound to policies added once they've signed their syllabus. Instead, they are bound to the version of this ``book'' that was in place when they signed their syllabus. I have archived versions of this book \href{https://github.com/smasongarrison/syllabi/tree/main/Previous\%20Semesters}{here}.
+
+\hypertarget{attribution}{%
+\chapter*{Attribution}\label{attribution}}
+\addcontentsline{toc}{chapter}{Attribution}
+
+This mega syllabus leans on other peoples' materials and ideas. I have done my best to document the origin of the materials and ideas. In particular, I have noted those people whose work has been a major contribution as well as those who have additional contributions. You can see specific changes by examining the \href{https://github.com/smasongarrison/Syllabi/commits/main}{edit history on the git repo}
+
+\hypertarget{major-attributions}{%
+\section*{Major Attributions}\label{major-attributions}}
+\addcontentsline{toc}{section}{Major Attributions}
+
+\begin{itemize}
+\tightlist
+\item
+  Jenny Bryan's (\href{https://jennybryan.org}{jennybryan.org}) \href{https://stat545.com}{STAT 545}
+\end{itemize}
+
+\hypertarget{license}{%
+\chapter*{License}\label{license}}
+\addcontentsline{toc}{chapter}{License}
+
+This work is licensed under a \href{https://creativecommons.org/licenses/by-sa/4.0/}{Creative Commons Attribution-ShareAlike 4.0 International License}.
+
+\begin{itemize}
+\tightlist
+\item
+  This information is a human-readable summary of (and not a substitute for) the license.
+  Please see \url{https://creativecommons.org/licenses/by-sa/4.0/legalcode} for the full legal text.*
+\end{itemize}
+
+\textbf{You are free to:}
+
+\begin{itemize}
+\item
+  \textbf{Share}---copy and redistribute the material in any medium or
+  format
+\item
+  \textbf{Remix}---remix, transform, and build upon the material for any
+  purpose, even commercially.
+\end{itemize}
+
+The licensor cannot revoke these freedoms as long as you follow the
+license terms.
+
+\textbf{Under the following terms:}
+
+\begin{itemize}
+\item
+  \textbf{Attribution}---You must give appropriate credit, provide a link
+  to the license, and indicate if changes were made. You may do so in
+  any reasonable manner, but not in any way that suggests the licensor
+  endorses you or your use.
+\item
+  \textbf{ShareAlike}---If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
+\item
+  \textbf{No additional restrictions}---You may not apply legal terms or
+  technological measures that legally restrict others from doing
+  anything the license permits.
+\end{itemize}
+
+\textbf{Notices:}
+
+You do not have to comply with the license for elements of the
+material in the public domain or where your use is permitted by an
+applicable exception or limitation.
+
+No warranties are given. The license may not give you all of the
+permissions necessary for your intended use. For example, other rights
+such as publicity, privacy, or moral rights may limit how you use the
+material.
+
+\hypertarget{colophon}{%
+\chapter*{Colophon}\label{colophon}}
+\addcontentsline{toc}{chapter}{Colophon}
+
+These notes was written in \href{http://bookdown.org/}{bookdown} inside \href{http://www.rstudio.com/ide/}{RStudio}. The {[}website{]}{[}ds4p-web{]} is hosted with \href{https://www.github.com}{github}, The complete source is available from \href{https://github.com/smasongarrison/syllabi}{github}.
+
+The book style adapted from \href{https://desiree.rbind.io/}{Desirée De Leon}.
+
+This version of the notes was built with:
+
+\begin{verbatim}
+#> Finding R package dependencies ... Done!
+#>  setting  value
+#>  version  R version 4.0.5 (2021-03-31)
+#>  os       Windows 10 x64 (build 19043)
+#>  system   x86_64, mingw32
+#>  ui       RTerm
+#>  language (EN)
+#>  collate  English_United States.1252
+#>  ctype    English_United States.1252
+#>  tz       America/New_York
+#>  date     2021-12-13
+#>  pandoc   2.11.4 @ C:/Program Files/RStudio/bin/pandoc/ (via rmarkdown)
+\end{verbatim}
+
+Along with these packages:
+
+\includegraphics{0000a_front_files/figure-latex/unnamed-chunk-4-1.pdf}
+
+The R session information when compiling this book is shown below:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{sessionInfo}\NormalTok{()}
+\CommentTok{\#\textgreater{} R version 4.0.5 (2021{-}03{-}31)}
+\CommentTok{\#\textgreater{} Platform: x86\_64{-}w64{-}mingw32/x64 (64{-}bit)}
+\CommentTok{\#\textgreater{} Running under: Windows 10 x64 (build 19043)}
+\CommentTok{\#\textgreater{} }
+\CommentTok{\#\textgreater{} Matrix products: default}
+\CommentTok{\#\textgreater{} }
+\CommentTok{\#\textgreater{} locale:}
+\CommentTok{\#\textgreater{} [1] LC\_COLLATE=English\_United States.1252 }
+\CommentTok{\#\textgreater{} [2] LC\_CTYPE=English\_United States.1252   }
+\CommentTok{\#\textgreater{} [3] LC\_MONETARY=English\_United States.1252}
+\CommentTok{\#\textgreater{} [4] LC\_NUMERIC=C                          }
+\CommentTok{\#\textgreater{} [5] LC\_TIME=English\_United States.1252    }
+\CommentTok{\#\textgreater{} }
+\CommentTok{\#\textgreater{} attached base packages:}
+\CommentTok{\#\textgreater{} [1] stats     graphics  grDevices utils     datasets  methods  }
+\CommentTok{\#\textgreater{} [7] base     }
+\CommentTok{\#\textgreater{} }
+\CommentTok{\#\textgreater{} other attached packages:}
+\CommentTok{\#\textgreater{}  [1] DT\_0.20         devtools\_2.4.3  usethis\_2.1.3   forcats\_0.5.1  }
+\CommentTok{\#\textgreater{}  [5] stringr\_1.4.0   dplyr\_1.0.7     purrr\_0.3.4     readr\_2.1.1    }
+\CommentTok{\#\textgreater{}  [9] tidyr\_1.1.4     tibble\_3.1.6    ggplot2\_3.3.5   tidyverse\_1.3.1}
+\CommentTok{\#\textgreater{} [13] webshot\_0.5.2   knitr\_1.36      vembedr\_0.1.4   tweetrmd\_0.0.8 }
+\CommentTok{\#\textgreater{} }
+\CommentTok{\#\textgreater{} loaded via a namespace (and not attached):}
+\CommentTok{\#\textgreater{} [1] tools\_4.0.5     bookdown\_0.24   rmarkdown\_2.11  htmltools\_0.5.2}
+\CommentTok{\#\textgreater{} [5] shiny\_1.7.1     miniUI\_0.1.1.1}
+\end{Highlighting}
+\end{Shaded}
+
+\hypertarget{part-syllabi}{%
+\part*{Syllabi}\label{part-syllabi}}
+\addcontentsline{toc}{part}{Syllabi}
+
+\hypertarget{general-information}{%
+\chapter*{General information}\label{general-information}}
+\addcontentsline{toc}{chapter}{General information}
+
+Welcome! This section includes general syllabus information. The next sections include information specific to your class.
+
+Remember: This course is for you, not for me.
+
+\includegraphics[width=29.86in]{img/snoop}
+
+Credit:
+
+\includegraphics[width=19.31in]{img/AcademicsSaystatus}
+
+\hypertarget{materials}{%
+\section{Materials}\label{materials}}
+
+If you chose to use alternative materials, such as an older edition of the book, it is your responsibility to ensure that those materials are equivalent.
+
+\hypertarget{required-texts}{%
+\subsection{Required Texts}\label{required-texts}}
+
+For all my classes, the textbook is intended to supplement the course.
+The lectures don't follow the order of chapters in the text and the text covers some material that won't be covered in the lectures, i.e., not all the information in each chapter is perfectly pertinent to the course requirements.
+
+It is one of many resources you'll consume.
+You probably need to consume all of the resources I provide in order to be successful in this class.
+If you'd like to make the most of your tuition, I strongly encourage you to consume them all.
+The course-specific resources can be found on the specific course page.
+
+\hypertarget{hardware}{%
+\subsection{Hardware}\label{hardware}}
+
+Most of my classes require that you have a computer that can run R and stream videos from youtube.
+
+\hypertarget{software}{%
+\subsection{Software}\label{software}}
+
+\hypertarget{r-and-rstudio}{%
+\subsubsection{R and RStudio}\label{r-and-rstudio}}
+
+\begin{verbatim}
+#> NULL
+\end{verbatim}
+
+R is a free software environment for statistical computing and graphics. It compiles and runs on a wide variety of UNIX platforms, Windows, and MacOS.
+
+RStudio is a free \emph{integrated development environment} (IDE), a powerful user interface for R.
+
+\hypertarget{git-and-github}{%
+\subsubsection{Git and Github}\label{git-and-github}}
+
+Git is a version control system. Its original purpose was to help groups of developers work collaboratively on big software projects. Git manages the evolution of a set of files -- called a repository -- in a structured way. Think of it like the ``Track Changes'' features from Microsoft Word.
+
+Github is a free IDE and hosting service for Git. As a Wake Forest student, you should be able to access the \href{https://education.github.com/benefits?type=student}{GitHub Student Developer Pack for free}. It includes a free PRO upgrade for your github account.
+
+\hypertarget{part-policies}{%
+\part*{Policies}\label{part-policies}}
+\addcontentsline{toc}{part}{Policies}
+
+\hypertarget{policy-overview}{%
+\chapter{Policy Overview}\label{policy-overview}}
+
+In this section, I provide specific language for all my course policies. These policies are in addition to those policies and procedures outlined in the university \href{https://bulletin.wfu.edu}{bulletin}. There are slight differences between the \href{https://bulletin.wfu.edu/undergraduate/}{undergraduate college} and the \href{https://bulletin.wfu.edu/graduate/}{graduate school}.
+
+\hypertarget{changes}{%
+\section{Changes}\label{changes}}
+
+This syllabus is intended to give the student guidance in what may be covered during the semester and will be followed as closely as possible.
+Dates for tests and assignments won't change, barring extraordinary events.
+However, I reserve the right to modify, supplement, and make changes as the course needs arise.
+I try to avoid changes to the syllabus.
+Nevertheless, if changes occur, I will only make changes that are less burdensome and more advantageous to the students.
+(If I make a change that increases your burden, please talk to me so that we can find a solution.)
+
+\hypertarget{class-engagement}{%
+\chapter{Class Engagement}\label{class-engagement}}
+
+In previous semesters, I have had a deliberately hardline attendance policy.
+In the light of the public health crisis, I have done away with the this policy, as it doesn't align with my general philosophy of treating students as junior colleagues.
+
+Class engagement points are given to encourage your active engagement with the material.
+Specific instructions for engagement, can be found on the class website. In general, you will be rewarded with a perfect score as long as you engage meaningfully, intentionally, and professionally with the material and your peers. As a reminder, you are still responsible for any assignments and/or announcements made if you miss a class.
+
+\hypertarget{life-happens}{%
+\section{Life Happens}\label{life-happens}}
+
+As a reasonable and empathetic human, I recognize that life happens.
+There will be times when your outside life conflicts with scheduled class events.
+These life events can be any of the obvious things (sports, religious holidays, illness, interviews, etc), but they can also be the less obvious, like spending the entire night looking for your lost pet.
+My general approach is to work with you. You just need to let me know \emph{ahead} of time.
+These late policies value discussion and communication over deductions and punishment.
+It is difficult for me as an instructor to know your situation and reason for lateness (e.g.~are you sick? did you lose wifi? struggling with mental health? or just forgot?).
+Without communication, I will assume that students are choosing not to submit work and do not plan on submitting work.
+An email will help me better understand your needs and focus on coursework.
+I'm more than happy to give extensions and accommodations, so don't be afraid to email me.
+You don't need to disclose personal details (your privacy is important to me), so a heads up or request for assistance is enough.
+
+\hypertarget{extensions-absences-incompletes}{%
+\section{Extensions, Absences, Incompletes}\label{extensions-absences-incompletes}}
+
+\hypertarget{excused-absences}{%
+\subsection{Excused absences}\label{excused-absences}}
+
+Except in the case of \emph{true} emergencies, a possible excused absence should be discussed with me as far in advance as possible and \emph{must} occur beforehand.
+You should not assume that an excused absence will automatically be granted -- but you may assume that I am a reasonable, empathetic person.
+This discussion should occur via email so that we have a record of it.
+If you also discuss your situation verbally, please send a summary of the discussion via email to me.
+An unexcused absence will result in a zero for any graded work that should have been performed for or during the missed class.
+
+\hypertarget{late-work}{%
+\subsection{Late Work}\label{late-work}}
+
+Be sure to pay close attention to deadlines.
+If an assignment is not submitted by the deadline (i.e., is late), the student must email the instructor and provide a new deadline, ask for an alternative, or explain concerns \emph{within 36 hours} of the missed deadline.
+Ideally, you will have communicated with me in advance of the deadline, but on occasion life happens.
+As long as you've communicated \emph{within 36 hours}, I will do my best to work with you to come up with a new deadline or modification, so that you can earn full credit.
+This late policy does not apply to exams, tests, or quizzes.
+
+If contact is not made \emph{within 36 hours} of the missed deadline, the missing assignment will receive a 0.
+Alternative deadlines will be within one week of the original deadline.
+Exceptions to the 1 week policy are at the instructor's discretion.
+In general, I am much more sympathetic and accommodating if you communicate in advance.
+
+It is your responsibility to ensure that the instructor has received the assignment by the established due date and to ensure that the assignment submitted is the complete and correct version.
+Unless otherwise explicitly specified, all work must be submitted through Canvas.
+
+Unless you have communicated with me in advance, there will be no make-up quizzes or tests.
+
+\hypertarget{incomplete-grades}{%
+\subsection{Incomplete Grades}\label{incomplete-grades}}
+
+I did not make this policy.
+
+Although the language surrounding incompletes differs slightly across the bulletins ( \href{https://bulletin.wfu.edu/undergraduate/procedures/exams-grading/\#:~:text=Incomplete\%20Grade}{undergraduate}; \href{https://bulletin.wfu.edu/graduate/procedures/grading/\#:~:text=Grade\%20of\%20I}{graduate}), and office of \href{https://advising.wfu.edu/academic-challenges/incompletes/}{academic advising}, the intent is consistent.
+Incompletes can only be granted IF a student fails to complete the work of a course because of something outside of the student's control, such as an illness, emergency, or extenuating circumstances. The window for completing the work is narrow, typically 30 days into the next semester. If the work isn't completed after that point, the grade is automatically changed to an F.
+
+\hypertarget{accommodations-policy}{%
+\chapter{Accommodations Policy}\label{accommodations-policy}}
+
+If you are (or become) disabled (in any capacity, permanently, or temporarily), and need accommodations in class, reading, or any other work in this course, please contact me to discuss your specific needs as soon as possible.
+Under the \href{https://www.dol.gov/general/topic/disability/ada}{Americans with Disabilities Act (ADA) of 1990} and \href{https://en.wikipedia.org/wiki/ADA_Amendments_Act_of_2008}{ADA Amendments Act (ADAAA) of 2008}, you are legally entitled to reasonable accommodations for disabilities.
+I will do everything in my capacity as your professor to ensure that you receive those accommodations.
+
+Students who need reasonable accommodations for disabilities also should contact the Learning Assistance Center \& Disability Services (118 Reynolda Hall, 336-758-5929, \href{https://lac.wfu.edu/}{lac.wfu.edu}). You can request accommodations through the student portal here: \url{https://olympic.accessiblelearning.com/WFU/}. These accommodations are not retroactive. Therefore, I strongly encourage you to use those accommodations.
+
+Do not feel guilty about using them.
+You rightfully deserve them, in the legal, moral, and ethical sense.
+These accommodations are there so that you can be your best possible self.
+
+\begin{quote}
+Instead of asking only disabled people to disclose their disability,
+when it might not be safe to do so, why don't employers ask EVERYONE
+what their access needs and workplace adjustments are.\\
+~\\
+Normalise that everyone needs flexibility and the tools to do their
+job.
+\href{https://twitter.com/hashtag/DisabilityRC}{\#DisabilityRC}
+
+--- El Gibbs (@bluntshovels) \href{https://twitter.com/bluntshovels/status/1463275576337129480}{November 23,
+2021}
+\#\# Self-Advocacy
+\end{quote}
+
+At Wake Forest and at many other places, the expectation is that you will self-advocate for yourselves and know exactly what you need. Is that a good expectation? Is that a good model? Is that equitable? I have thoughts\ldots{} regardless, that is the current state of the world. Accordingly, you will have to advocate for what you need. If this process seems daunting, please talk to me! Regardless, I am happy to talk with you about this process and to share my own experiences.
+
+\begin{quote}
+Every time we write that self-advocacy is key to disabled students'
+success, we need to include an asterisk and note, "BUT IT SHOULDN'T
+BE"\\
+~\\
+Disabled students deserve success regardless of how well they can
+navigate the system and cajole/plead/argue with profs for access.
+
+--- The ADHD Academic (@theADHDacademic) \href{https://twitter.com/theADHDacademic/status/1458876178580881410}{November 11,
+2021}
+\end{quote}
+
+As a student, you may not know what accommodations work best for you. Or you may find that your current accommodations don't work like they used to.
+
+As you journey thru your career, you may find that you need different kinds of accommodations. Or at least that has been my experience\ldots{} There are numerous resources for ideas.
+My personal favorite is \href{https://askjan.org/}{JAN}. Technically, JAN (Job Accommodation Network) is focused on employment and jobs.
+However, I still have found this to be a wonderful resource for ideas.
+You can \href{https://askjan.org/soar.cfm}{search for accommodation ideas} by \href{https://askjan.org/a-to-z.cfm}{specific}:
+
+\begin{itemize}
+\tightlist
+\item
+  disability,
+\item
+  limitation,
+\item
+  task,
+\item
+  topic, or
+\item
+  accommodation.
+\end{itemize}
+
+\hypertarget{resources}{%
+\section{Resources}\label{resources}}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://class.wfu.edu/frequently-asked-questions-about-lac-ds/}{Frequently Asked Questions from WFU CLASS}
+\item
+  \href{https://askjan.org/}{JAN}
+\item
+  \href{https://docs.google.com/document/d/1X44zJyTz8-s9t6IXw0bII2DCFiOk1NR2MRfTi8wBiIc/}{WFU Self-advocacy handout}
+\end{itemize}
+
+\hypertarget{classroom-climate}{%
+\chapter{Classroom Climate}\label{classroom-climate}}
+
+I aim to create a learning environment for my students that supports a diversity of thoughts, perspectives, and experiences, and honors your identities (including but not limited to race, ethnicity, sex, gender, gender-identity, class, sexual orientation, religion, ability, political affiliation). To help accomplish this:
+
+\begin{itemize}
+\item
+  If you have a name and/or set of pronouns that differ from those that appear in your official records, please let me know!
+\item
+  If you feel like your performance in the class is being impacted by your experiences outside of class, please don't hesitate to come and talk with me. I want to be a resource for you.
+\item
+  I (like many people) am still in the process of learning about diverse perspectives and identities. If something was said in class (by anyone) that made you feel uncomfortable, please talk to me about it.
+\item
+  If you reached here in the syllabus, e-mail me a picture of a cat. If you do it before the end of the first week, you get a small bonus.
+\end{itemize}
+
+\hypertarget{psychology-department-statement-on-diversity-equity-and-inclusion}{%
+\section{Psychology Department Statement on Diversity, Equity, and Inclusion}\label{psychology-department-statement-on-diversity-equity-and-inclusion}}
+
+The Psychology Department values, respects, and celebrates the experiences, beliefs, and practices stemming from varied cultures and circumstances (emphasizing, but not limited to, those from historically underrepresented groups),and our deep commitment to diversity, equity, and inclusion plays out through coursework, programming by majors, and research.
+
+\hypertarget{academic-honesty-policy}{%
+\chapter{Academic Honesty Policy}\label{academic-honesty-policy}}
+
+In this course, you will be held to the standards of the Wake Forest Honor Code, a code that you pledged to honor when you signed your application for admission to the institution.
+If you are unfamiliar with the details of this code and how it is administered, you should consult the \href{https://studentconduct.wfu.edu/honor-system-wfu/}{Honor System Handbook}.
+That handbook outlines the University's expectations for the integrity of your academic work, the procedures for resolving alleged violations of those expectations, and the rights and responsibilities of students and faculty members throughout the process.
+
+All submitted work must be your own. It is your responsibility to avoid even the appearance of cheating.
+
+Unless I have explicitly stated otherwise, every assessment is closed to outside resources (including, but not limited to books, notes, phones, people, Chegg, the internet).
+Ignorance of the honor code and assignment instructions is not an acceptable explanation and/or defense.
+
+\hypertarget{common-sense}{%
+\section{Common Sense}\label{common-sense}}
+
+To be clear, even if something is NOT explicitly forbidden in this document, that does not mean it is allowed. Please use your common sense here. If a reasonable person would consider it cheating, it's cheating.
+
+\hypertarget{violations}{%
+\section{Violations}\label{violations}}
+
+Violations of this policy result in a zero for the assignment, my perpetual disappointment, and possible additional penalties, including, but not limited to:
+
+\begin{itemize}
+\tightlist
+\item
+  a referral to honor council,
+\item
+  failing the class,
+\item
+  a forensic regrading of all previous assessments,
+\item
+  forfeiting all extra credit, and
+\item
+  being excluded from the course curve, drop policy, late policy, and extra credit.
+\end{itemize}
+
+\hypertarget{things-that-i-thought-didnt-need-to-be-said-but-apparently-did-need-to-be-said.}{%
+\section{Things that I thought didn't need to be said, but apparently did need to be said.}\label{things-that-i-thought-didnt-need-to-be-said-but-apparently-did-need-to-be-said.}}
+
+Everything must be in your own words, regardless of any open-resource policy.
+Open resources does not mean that you can copy and paste material from outside sources (or from course sources) directly into an assessment.
+Assessments are not scavenger hunts.
+Assessments are a means for you to demonstrate your own understanding of the material.
+They are an opportunity to earn points through the demonstration of knowledge.
+
+\hypertarget{it-is-always-academic-dishonesty}{%
+\subsection{\texorpdfstring{It is \emph{ALWAYS} academic dishonesty\ldots{}}{It is ALWAYS academic dishonesty\ldots{}}}\label{it-is-always-academic-dishonesty}}
+
+It is \emph{ALWAYS} academic dishonesty to copy outside materials directly into a test or quiz.
+
+It is \emph{ALWAYS} academic dishonesty to copy lecture notes directly into a test or quiz.
+
+It is \emph{ALWAYS} academic dishonesty to copy powerpoint slides directly into a test or quiz.
+
+It is still dishonest if you indirectly copy outside materials into a test or quiz.
+
+It is still dishonest if you then edit what you have copied. Frankly that is worse because you tried to hide that you did it.
+
+It is \emph{ALWAYS} academic dishonesty to share test questions.
+
+It is \emph{ALWAYS} academic dishonesty to post course materials on any third-party websites.
+
+It is \emph{ALWAYS} academic dishonesty to misrepresent others work as your own.
+
+It is \emph{ALWAYS} academic dishonesty to work together on tests or quizzes.
+(And frankly, it is really obvious in Canvas when you work together.
+I literally wrote a R program that checks for working together on tests. )
+
+\hypertarget{communication}{%
+\chapter{Communication}\label{communication}}
+
+I ask that you provide me with the respect that I should spend my time engaging with students in meaningful ways, not pointing you to material you can find on your own. Be sure to check the syllabus, course website, course content, and classmates before emailing me. This is important training for life after college -- when you have a question, the first thing you do should not be to email your boss. I do not want to discourage you from engaging with me. I love teaching because I love interacting with students. However, I do not want to engage with you in ways that nurture your inability to critically think and prevents me from engaging with other students.
+
+If you are ever uncertain about the purpose of an assignment, the learning objectives of an activity, or how an assessment will be graded, please reach out. My goal is to be organized, thoughtful, and transparent. All my assignments were thoughtfully chosen. There is no busy work or unnecessary required course material. If I have done a poor job explaining the motivation for any aspect of my course, please let me know so I can be more clear.
+
+\hypertarget{minimums}{%
+\section{Minimums}\label{minimums}}
+
+You are expected to read every LMS announcement, message, and email; as well as view the media embedded within those communications. Students are expected to check e-mail on a frequent and regular basis in order to stay current with University-related communications, recognizing that certain communications may be time-critical. At minimum, you should be checking your communications within 24 hours. Ignorance of a class communication is not grounds for an excused absence or extension.
+
+\hypertarget{self-advocacy}{%
+\subsection{Self Advocacy}\label{self-advocacy}}
+
+If you are struggling in this class, please talk to me. Do not assume that I know what is going on in your life. Talk to me and tell me what you need.
+
+\hypertarget{grading-questions}{%
+\subsection{Grading Questions}\label{grading-questions}}
+
+Please send any questions about grades in writing via email within \emph{two} weeks after the assignment is returned. If I erred in scoring or in calculating the grade, I will happily update the record. Otherwise, I will be most receptive toward questions framed in terms of your learning (rather than simply your performance), as research has shown that focusing overly on extrinsic rewards (like grades) is likely to lead to all sorts of outcomes that I don't wish for you (lower interest in the course material, lower learning, lower enjoyment).
+
+\hypertarget{instructor-availability}{%
+\section{Instructor Availability}\label{instructor-availability}}
+
+I am readily accessible during business hours (9:00AM-5:30PM; Monday-Friday) via \href{garrissm@wfu.edu}{email}/ LMS/ git/ zoom/ carrier pigeon/\href{https://calendly.com/smasongarrison/}{calendly}. Outside those hours, I do not typically respond to messages, in order to devote time to my family, rest, and living my life. Messages received during these times will receive attention once I am back online. Otherwise you can expect to receive a response to your message within 12 to 24 hours, often much sooner. If you do not hear back after 36 hours, please follow-up with me.
+
+I have given out my cell-phone number, in the case of \emph{true} emergencies. Please be mindful that poor planning on your part does not constitute an emergency for me.
+
+\hypertarget{is-it-an-true-emergency}{%
+\subsection{Is it an true emergency?}\label{is-it-an-true-emergency}}
+
+How do you know if it is a true emergency?
+
+\begin{itemize}
+\tightlist
+\item
+  Ask yourself, would a reasonable person consider this situation an emergency?
+\item
+  How would the situation change if you waited a until morning?
+\item
+  Could this situation have been prevented by starting earlier?
+\item
+  Would Professor Mason really want to know about this situation \emph{right} now?
+\item
+  If you were in Professor Mason's shoes, would you consider this an emergency?
+\end{itemize}
+
+\hypertarget{recordings}{%
+\section{Recordings}\label{recordings}}
+
+\hypertarget{recording-of-class-sessions.}{%
+\subsection{Recording of Class Sessions.}\label{recording-of-class-sessions.}}
+
+All or some in-person and synchronous classes may be recorded. Student images and voices may be captured in these recordings. Recordings will be available for viewing only by students enrolled in the class via Canvas or an alternative platform. The recordings are not available for download. No other recording, including by students, is permitted.
+
+\hypertarget{recording-tails-in-our-synchronous-classes.}{%
+\subsection{Recording Tails in our Synchronous Classes.}\label{recording-tails-in-our-synchronous-classes.}}
+
+Synchronous class recordings may include events that happen before class officially begins or after it officially ends. Students should take care to not discuss any confidential matters during these periods of time.
+
+\hypertarget{access-to-recordings.}{%
+\subsection{Access to Recordings.}\label{access-to-recordings.}}
+
+Students may access the class recordings made available to them solely for the purpose of participating in the course. The recordings may not be used by any person other than a student enrolled in the course or for any purpose other than to participate in the course. Students are prohibited from downloading or distributing any portion of the recordings for any purpose. Students should understand that technical problems or human error may prevent successful recording.
+
+\hypertarget{copyright-notice.}{%
+\subsection{Copyright Notice.}\label{copyright-notice.}}
+
+Students are advised that Wake Forest University faculty members hold the copyright in their course materials. The University and the faculty have legal rights in class recordings.
+
+\hypertarget{public-health-in-the-age-of-covid-19}{%
+\chapter{Public Health in the age of COVID-19}\label{public-health-in-the-age-of-covid-19}}
+
+At the request of my university, I have included the following information related to public health.
+
+\begin{quote}
+We share responsibility for the health and safety of each other in a learning space. Maintaining a consistent six feet of distance; wearing face coverings that cover our mouths and noses; limiting our gathering sizes; and isolating or quarantining when ill or exposed to someone with the virus are Wake Forest University directives and policies we all must follow. Students are encouraged to visit \href{https://ourwayforward.wfu.edu/}{Our Way Forward} to stay informed about the latest guidance and review the \href{https://studentconduct.wfu.edu/undergraduate-student-handbook/public-health-emergency-addendum/}{Public Health Emergency Addendum to the Student Code of Conduct}.
+
+Specifically, in this room, we will mitigate the risks of virus transfer and take care of our community by abiding by the following safety directives:
+- maintain six feet of distance at all times when feasible.
+- wear a face covering for the entirety of class indoors and out (unless there is exemption via an approved safety plan for specific coursework). This face covering should cover your mouth and your nose, and adhere to our \href{https://drive.google.com/file/d/1Tqo-by1sjmc-kWUTwAqeNdaHq8OBsU9B/view}{University face covering policy} (no face shields without masks; no neck gaiters; no bandanas; and no masks, including N95, with a one-way valve).
+- stay out of class when sick or after being exposed to someone who is sick.
+
+In this class, any student who does not follow these requirements will be asked once to follow the safety directives.
+
+I will offer you a mask or ask you to find one.
+
+If you do not comply, I will ask you to leave the class for that day.
+
+\href{https://cm.maxient.com/reportingform.php?WakeForestUniv\&layout_id=40}{I will also refer the matter to the COVID-19 compliance reporting system}. Possible disciplinary actions may follow as described in the Wake Forest University Undergraduate Student Conduct Code Public Health Emergency Addendum.
+\end{quote}
+
+\hypertarget{part-specific-courses}{%
+\part*{Specific Courses}\label{part-specific-courses}}
+\addcontentsline{toc}{part}{Specific Courses}
+
+\hypertarget{personality}{%
+\chapter*{255: Personality}\label{personality}}
+\addcontentsline{toc}{chapter}{255: Personality}
+
+\hypertarget{course-description}{%
+\section{Course Description}\label{course-description}}
+
+This class provides a survey of theory and research on the structure and function of human personality, with attention to the relationship to cognition, emotion, motivation, and behavior. It requires P-PSY 151. In addition, we will discuss other individual differences, such as intelligence.
+
+\hypertarget{broad-goals-for-the-course}{%
+\subsection{Broad goals for the course:}\label{broad-goals-for-the-course}}
+
+\begin{itemize}
+\item
+  \begin{enumerate}
+  \def\labelenumi{\arabic{enumi}.}
+  \tightlist
+  \item
+    The first is for you to understand what personality psychologists think. We will cover classic and current theories, research, and applications of Personality psychology.
+  \end{enumerate}
+\item
+  \begin{enumerate}
+  \def\labelenumi{\arabic{enumi}.}
+  \setcounter{enumi}{1}
+  \tightlist
+  \item
+    The second is for you to learn how personality psychologists study their field scientifically. We will discuss the procedures used to test theories and to study issues related to personality.
+  \end{enumerate}
+\item
+  \begin{enumerate}
+  \def\labelenumi{\arabic{enumi}.}
+  \setcounter{enumi}{2}
+  \tightlist
+  \item
+    The third is to (hopefully) recognize some relevance of personality psychology for your personal and/or professional life.
+  \end{enumerate}
+\end{itemize}
+
+\hypertarget{required-materials}{%
+\section{Required Materials}\label{required-materials}}
+
+{[}1{]} D. C. Funder. \emph{The personality puzzle}. Seventh. OCLC: 935283402.
+New York: W.W. Norton \& Co., 2016. ISBN: 978-0-393-60042-1.
+
+\hypertarget{course-assignments}{%
+\section{Course Assignments}\label{course-assignments}}
+
+\hypertarget{quizzes}{%
+\subsection{Quizzes}\label{quizzes}}
+
+There will be 6 quizzes in this course. The best 5 out of 6 quizzes grades will be used to determine your total quiz grade. You can drop any of the quizzes for any reason BUT YOU MUST PASS THE LAST Quiz (held at TBD on Dec TBD). If you do not pass the final quiz, your score on that quiz will count as one of your 5 grades. If you do pass the final quiz, then the best 5 grades will be used (irrespective of your score on the final quiz).
+
+\hypertarget{quiz-dates}{%
+\subsubsection{Quiz Dates}\label{quiz-dates}}
+
+\begin{itemize}
+\item
+  Quiz 1: Friday, 09/10
+\item
+  Quiz 2: Friday, 10/01
+\item
+  Quiz 3: Friday, 10/29
+\item
+  Quiz 4: Friday, 11/19
+\item
+  Quiz 5: Friday, 12/03
+\item
+  Quiz 6: During Finals, 12/10
+\end{itemize}
+
+\hypertarget{short-assignments}{%
+\subsection{Short Assignments}\label{short-assignments}}
+
+There will be three (3) short assignments in this course. These assignments will allow you to incorporate some of your own interests into the course. Such interests could be related to your career, another class you're taking, a hobby you're exploring, or some other random fancy. They will typically be approximately two (2) pages. I will provide more specific written guidelines at least two weeks before each assignment is due.
+
+The best two (2) out of three (3) short assignments will be used to determine your total short assignments. You can skip one of the assignments for any reason.
+
+\hypertarget{short-assignment-dates}{%
+\subsubsection{Short Assignment Dates}\label{short-assignment-dates}}
+
+\begin{itemize}
+\item
+  Assignment 1: Friday, 10/08: Critique of an online personality test.
+\item
+  Assignment 2: Friday, 11/12: Critique of a personality-related media article.
+\item
+  Assignment 3: Friday, 12/03: Critique of a personality-related YouTube video.
+\end{itemize}
+
+\hypertarget{engagement-activities}{%
+\subsection{Engagement Activities}\label{engagement-activities}}
+
+There will be multiple engagement activities in this course. These activities will allow you engage with the material for each module. Details about the specific activities will be provided on canvas. Students must complete two activities per module. For students in the blended section, they can attend their weekly in-person session and count it as an engagement activity.
+
+\hypertarget{grading-policy}{%
+\section{Grading Policy}\label{grading-policy}}
+
+Typically, an A- is defined as 90\% of the highest point total in the class, B- as 80\% of that total, C- as 70 and D- as 60\%.
+I may shift these values down to provide a better fit to the actual point distribution.
+By scaling to a percentage of the highest point total in the class, each student has a much better chance of receiving higher grades than if no re-scaling were done.
+This curve can only help your grade.
+
+The full table is provided below:
+
+\begin{table}
+
+\caption{\label{tab:unnamed-chunk-3}Full Table}
+\centering
+\begin{tabular}[t]{l|r}
+\hline
+Letter & Cutoff\\
+\hline
+A & 0.95\\
+\hline
+A- & 0.90\\
+\hline
+B+ & 0.87\\
+\hline
+B & 0.83\\
+\hline
+B- & 0.80\\
+\hline
+C+ & 0.77\\
+\hline
+C & 0.73\\
+\hline
+C- & 0.70\\
+\hline
+D+ & 0.67\\
+\hline
+D & 0.63\\
+\hline
+D- & 0.60\\
+\hline
+\end{tabular}
+\end{table}
+
+\hypertarget{curve-projections}{%
+\subsection{Curve Projections}\label{curve-projections}}
+
+Unsurprisingly, students have many questions about the curve in this class. For tests and other assignments, I try to provide a projected letter grade.
+This projected letter grade is there to give you a sense of what your score \emph{would} be if I implemented the class curve on this particular assignment.
+It is a projection. It is not a guarantee. These projected letter grades are not incorporated into your final grade.
+Trust me, you do not want me to curve by assignment.
+
+\hypertarget{weighting}{%
+\subsection{Weighting}\label{weighting}}
+
+\begin{itemize}
+\tightlist
+\item
+  150 points of your grade will be determined by your best 5 quizzes
+
+  \begin{itemize}
+  \tightlist
+  \item
+    The final is not optional.
+  \end{itemize}
+\item
+  25 points of your grade will be determined by completing engagement activities.
+\item
+  100 points of your grade will be determined by your best two short assignments.
+\end{itemize}
+
+\hypertarget{schedule}{%
+\section{Schedule}\label{schedule}}
+
+\hypertarget{week-01-0823---0827-what-is-personality}{%
+\section*{Week 01, 08/23 - 08/27 : What is Personality}\label{week-01-0823---0827-what-is-personality}}
+\addcontentsline{toc}{section}{Week 01, 08/23 - 08/27 : What is Personality}
+
+\hypertarget{week-02-0830---0903-personality-research-methods}{%
+\section*{Week 02, 08/30 - 09/03 : Personality Research Methods}\label{week-02-0830---0903-personality-research-methods}}
+\addcontentsline{toc}{section}{Week 02, 08/30 - 09/03 : Personality Research Methods}
+
+\hypertarget{week-03-0906---0910-assessment-evaluation-and-ethics}{%
+\section*{Week 03, 09/06 - 09/10 : Assessment, Evaluation, and Ethics}\label{week-03-0906---0910-assessment-evaluation-and-ethics}}
+\addcontentsline{toc}{section}{Week 03, 09/06 - 09/10 : Assessment, Evaluation, and Ethics}
+
+\hypertarget{week-04-0913---0917-trait-approach-and-personality-judgment}{%
+\section*{Week 04, 09/13 - 09/17 : Trait Approach and Personality Judgment}\label{week-04-0913---0917-trait-approach-and-personality-judgment}}
+\addcontentsline{toc}{section}{Week 04, 09/13 - 09/17 : Trait Approach and Personality Judgment}
+
+\hypertarget{week-05-0920---0924-big-five}{%
+\section*{Week 05, 09/20 - 09/24 : Big Five}\label{week-05-0920---0924-big-five}}
+\addcontentsline{toc}{section}{Week 05, 09/20 - 09/24 : Big Five}
+
+\hypertarget{week-06-0927---1001-personality-over-the-lifespan}{%
+\section*{Week 06, 09/27 - 10/01 : Personality over the Lifespan}\label{week-06-0927---1001-personality-over-the-lifespan}}
+\addcontentsline{toc}{section}{Week 06, 09/27 - 10/01 : Personality over the Lifespan}
+
+\hypertarget{week-07-1004---1008-biological-approaches-to-psychology}{%
+\section*{Week 07, 10/04 - 10/08 : Biological Approaches to Psychology}\label{week-07-1004---1008-biological-approaches-to-psychology}}
+\addcontentsline{toc}{section}{Week 07, 10/04 - 10/08 : Biological Approaches to Psychology}
+
+\hypertarget{week-08-1011---1015-behavior-genetics}{%
+\section*{Week 08, 10/11 - 10/15 : Behavior Genetics}\label{week-08-1011---1015-behavior-genetics}}
+\addcontentsline{toc}{section}{Week 08, 10/11 - 10/15 : Behavior Genetics}
+
+\hypertarget{week-09-1018---1022-evolutionary-psychology}{%
+\section*{Week 09, 10/18 - 10/22 : Evolutionary Psychology}\label{week-09-1018---1022-evolutionary-psychology}}
+\addcontentsline{toc}{section}{Week 09, 10/18 - 10/22 : Evolutionary Psychology}
+
+\hypertarget{week-10-1025---1029-cross-cultural-psychology}{%
+\section*{Week 10, 10/25 - 10/29 : Cross-Cultural Psychology}\label{week-10-1025---1029-cross-cultural-psychology}}
+\addcontentsline{toc}{section}{Week 10, 10/25 - 10/29 : Cross-Cultural Psychology}
+
+\hypertarget{week-11-1101---1105-freud}{%
+\section*{Week 11, 11/01 - 11/05 : Freud}\label{week-11-1101---1105-freud}}
+\addcontentsline{toc}{section}{Week 11, 11/01 - 11/05 : Freud}
+
+\hypertarget{week-12-1108---1112-psychoanalysis-after-freud}{%
+\section*{Week 12, 11/08 - 11/12 : Psychoanalysis After Freud}\label{week-12-1108---1112-psychoanalysis-after-freud}}
+\addcontentsline{toc}{section}{Week 12, 11/08 - 11/12 : Psychoanalysis After Freud}
+
+\hypertarget{week-13-1115---1119-personality-processes-and-positive-psych}{%
+\section*{Week 13, 11/15 - 11/19 : Personality Processes and Positive Psych}\label{week-13-1115---1119-personality-processes-and-positive-psych}}
+\addcontentsline{toc}{section}{Week 13, 11/15 - 11/19 : Personality Processes and Positive Psych}
+
+\hypertarget{week-14-1122---1126-thanksgiving-break}{%
+\section*{Week 14, 11/22 - 11/26 : Thanksgiving Break!}\label{week-14-1122---1126-thanksgiving-break}}
+\addcontentsline{toc}{section}{Week 14, 11/22 - 11/26 : Thanksgiving Break!}
+
+\hypertarget{week-15-1129---1203-personality-and-health}{%
+\section*{Week 15, 11/29 - 12/03 : Personality and Health}\label{week-15-1129---1203-personality-and-health}}
+\addcontentsline{toc}{section}{Week 15, 11/29 - 12/03 : Personality and Health}
+
+\hypertarget{final-exam}{%
+\section*{Final Exam}\label{final-exam}}
+\addcontentsline{toc}{section}{Final Exam}
+
+\begin{itemize}
+\tightlist
+\item
+  TBD on DEC TBD
+\end{itemize}
+
+\hypertarget{statsminor}{%
+\chapter*{310: Methods in Psychological Research}\label{statsminor}}
+\addcontentsline{toc}{chapter}{310: Methods in Psychological Research}
+
+\hypertarget{course-description-1}{%
+\section{Course Description}\label{course-description-1}}
+
+Methods in Psychological Research introduces statistics and research design for students minoring in psychology. Prereq: P---PSY 151 (D, QR)
+
+This course is designed to help students develop the conceptual background and practical skills necessary to evaluate the statistics encountered in their coursework and in everyday life. It emphasizes selection, application, and interpretation. Topics to be covered include statistical inference, probability distributions, sampling, hypothesis testing, and correlation. The goal will be to go beyond rote memorization of abstract formulas and for students to develop an appreciation for the critical role that statistics plays in psychological science.
+
+Selected Course Objectives:
+
+\hypertarget{broad-goals-for-the-course-1}{%
+\subsection{Broad goals for the course:}\label{broad-goals-for-the-course-1}}
+
+\begin{itemize}
+\item
+  \begin{enumerate}
+  \def\labelenumi{\arabic{enumi}.}
+  \tightlist
+  \item
+    To understand the selection, computation, and interpretation of descriptive and inferential
+    statistics
+  \end{enumerate}
+\item
+  \begin{enumerate}
+  \def\labelenumi{\arabic{enumi}.}
+  \setcounter{enumi}{1}
+  \tightlist
+  \item
+    To learn how to use and interpret R (R Core Team 2018).
+  \end{enumerate}
+\end{itemize}
+
+\hypertarget{required-materials-1}{%
+\section{Required Materials}\label{required-materials-1}}
+
+Wickham and Grolemund's R for Data Science text (\url{http://r4ds.had.co.nz/})
+
+\hypertarget{course-assignments-1}{%
+\section{Course Assignments}\label{course-assignments-1}}
+
+\hypertarget{week-01-0110---0114-what-is-data-science-and-meet-the-toolkit}{%
+\section{Week 01, 01/10 - 01/14 : What is Data Science and Meet the Toolkit}\label{week-01-0110---0114-what-is-data-science-and-meet-the-toolkit}}
+
+\hypertarget{week-02-0117---0121-data-and-visualization}{%
+\section{Week 02, 01/17 - 01/21 : Data and Visualization}\label{week-02-0117---0121-data-and-visualization}}
+
+\hypertarget{week-03-0124---0128-grammar-of-data-wrangling}{%
+\section{Week 03, 01/24 - 01/28 : Grammar of data wrangling}\label{week-03-0124---0128-grammar-of-data-wrangling}}
+
+\hypertarget{week-04-0131---0204-data-types-and-data-transformations}{%
+\section{Week 04, 01/31 - 02/04 : Data types and Data Transformations}\label{week-04-0131---0204-data-types-and-data-transformations}}
+
+\hypertarget{week-05-0207---0211-tips-for-effective-data-visualization}{%
+\section{Week 05, 02/07 - 02/11 : Tips for effective data visualization}\label{week-05-0207---0211-tips-for-effective-data-visualization}}
+
+\hypertarget{week-06-0214---0218-scientific-studies-and-confounding}{%
+\section{Week 06, 02/14 - 02/18 : Scientific studies and confounding}\label{week-06-0214---0218-scientific-studies-and-confounding}}
+
+\hypertarget{week-07-0221---0225-web-scraping}{%
+\section{Week 07, 02/21 - 02/25 : Web scraping}\label{week-07-0221---0225-web-scraping}}
+
+\hypertarget{week-08-0228---0304-functions}{%
+\section{Week 08, 02/28 - 03/04 : Functions}\label{week-08-0228---0304-functions}}
+
+\hypertarget{week-09-0307---0311-data-and-ethics}{%
+\section{Week 09, 03/07 - 03/11 : Data and Ethics}\label{week-09-0307---0311-data-and-ethics}}
+
+\hypertarget{week-10-0314---0318-fitting-and-interpreting-models}{%
+\section{Week 10, 03/14 - 03/18 : Fitting and interpreting models}\label{week-10-0314---0318-fitting-and-interpreting-models}}
+
+\hypertarget{week-11-0321---0325-prediction-and-overfitting}{%
+\section{Week 11, 03/21 - 03/25 : Prediction and overfitting}\label{week-11-0321---0325-prediction-and-overfitting}}
+
+\hypertarget{week-12-0328---0401-cross-validation}{%
+\section{Week 12, 03/28 - 04/01 : Cross validation}\label{week-12-0328---0401-cross-validation}}
+
+\hypertarget{week-13-0404---0408-quantifying-uncertainty}{%
+\section{Week 13, 04/04 - 04/08 : Quantifying uncertainty}\label{week-13-0404---0408-quantifying-uncertainty}}
+
+\hypertarget{week-14-0411---0415-interactive-web-apps}{%
+\section{Week 14, 04/11 - 04/15 : Interactive web apps}\label{week-14-0411---0415-interactive-web-apps}}
+
+\hypertarget{week-15-0418---0422-special-topics-like-text-analysis-machine-learning-bayesian-inference}{%
+\section{Week 15, 04/18 - 04/22 : Special Topics (like: Text analysis; Machine learning; Bayesian inference)}\label{week-15-0418---0422-special-topics-like-text-analysis-machine-learning-bayesian-inference}}
+
+\hypertarget{testing}{%
+\chapter*{362: Psychological Testing}\label{testing}}
+\addcontentsline{toc}{chapter}{362: Psychological Testing}
+
+\hypertarget{course-description-2}{%
+\section{Course Description}\label{course-description-2}}
+
+This course provides an overview of the development and nature of psychological tests with applications to school counseling, business, and clinical practice. The purpose of the course is to provide students with an understanding of the principles of measurement as applied to group standardized measures of achievement, special aptitude, intelligence, personality, interests and distress for use in counseling. Format will consist primarily of lectures along with group participation activities.
+
+\hypertarget{course-objectives}{%
+\subsection{Course Objectives:}\label{course-objectives}}
+
+\begin{itemize}
+\tightlist
+\item
+  To acquaint you with the fundamental vocabulary and logic of psychological measurement and behavioral assessment.
+\item
+  To develop your capacity for critical judgment of the adequacy of measures purported to assess behavior in the role of theory development.
+\item
+  To acquaint you with some of the relevant literature in personality assessment, psychometric theory and practice, and methods of observing and measuring behavior.
+\item
+  To instill in you an appreciation of and an interest in the principles and methods of psychometric theory in general and behavior assessment in particular.
+\item
+  This course is not designed to make you into an accomplished psychometrist (one who gives tests) nor is it designed to make you a skilled psychometrician (one who constructs tests), nor will it give you ``hands on'' experience with psychometric computer programs. Rather it is aimed to allow you to understand the fundamental theoretical issues concerning both the psychometrist and the psychometrician.
+\item
+  Because modern psychometrics and statistics may be done using open source software such as R, examples will be presented in R.
+\end{itemize}
+
+\hypertarget{materials-1}{%
+\section{Materials}\label{materials-1}}
+
+\hypertarget{texts}{%
+\subsection{Texts}\label{texts}}
+
+\hypertarget{required}{%
+\subsubsection{Required}\label{required}}
+
+{[}1{]} A. Anastasi and A. Urbina. \emph{Psychological testing}. Upper Saddle
+River, New Jersey: Prentice-Hall, 1997. ISBN: 0-02-303020-8.
+
+\hypertarget{how-to-use-the-required-text}{%
+\paragraph{How to use the required text:}\label{how-to-use-the-required-text}}
+
+The text \citep{anastasi1997} is intended to supplement the lectures. The lectures don't follow the order of chapters in the text and the text covers some material that won't be covered in the lectures, i.e., not all the information in each chapter is perfectly pertinent to the course requirements.
+
+\hypertarget{course-assignments-2}{%
+\section{Course Assignments}\label{course-assignments-2}}
+
+\hypertarget{grading-policy-1}{%
+\section{Grading Policy}\label{grading-policy-1}}
+
+Typically, an A- is defined as 90\% of the highest point total in the class, B- as 80\% of that total, C- as 70 and D- as 60\%.
+I may shift these values down to provide a better fit to the actual point distribution.
+By scaling to a percentage of the highest point total in the class, each student has a much better chance of receiving higher grades than if no re-scaling were done.
+This curve can only help your grade.
+
+The full table is provided below:
+
+\begin{table}
+
+\caption{\label{tab:unnamed-chunk-3}Full Table}
+\centering
+\begin{tabular}[t]{l|r}
+\hline
+Letter & Cutoff\\
+\hline
+A & 0.95\\
+\hline
+A- & 0.90\\
+\hline
+B+ & 0.87\\
+\hline
+B & 0.83\\
+\hline
+B- & 0.80\\
+\hline
+C+ & 0.77\\
+\hline
+C & 0.73\\
+\hline
+C- & 0.70\\
+\hline
+D+ & 0.67\\
+\hline
+D & 0.63\\
+\hline
+D- & 0.60\\
+\hline
+\end{tabular}
+\end{table}
+
+\hypertarget{curve-projections-1}{%
+\subsection{Curve Projections}\label{curve-projections-1}}
+
+Unsurprisingly, students have many questions about the curve in this class. For tests and other assignments, I try to provide a projected letter grade.
+This projected letter grade is there to give you a sense of what your score \emph{would} be if I implemented the class curve on this particular assignment.
+It is a projection. It is not a guarantee. These projected letter grades are not incorporated into your final grade.
+Trust me, you do not want me to curve by assignment.
+
+\hypertarget{quizzes-1}{%
+\subsection{Quizzes}\label{quizzes-1}}
+
+There will be 6 quizzes in this course. These will be approximately every three weeks. The best 5 out of 6 quiz grades will be used to determine your total quiz grade. You can drop 1 of the quizzes for any reason.
+
+\hypertarget{quiz-dates-1}{%
+\subsubsection{Quiz Dates}\label{quiz-dates-1}}
+
+\begin{itemize}
+\item
+  Quiz 1: Friday, 02/12
+\item
+  Quiz 2: Friday, 03/05
+\item
+  Quiz 3: Friday, 04/02
+\item
+  Quiz 4: Friday, 04/23
+\item
+  Quiz 5: Friday, 05/07
+\item
+  Quiz 6: During Finals, 05/14
+\end{itemize}
+
+\hypertarget{take-home-assignments}{%
+\subsection{Take Home Assignments}\label{take-home-assignments}}
+
+There are four large take-home assignments. Two are qualitative and two are quantitative.
+
+I will provide more specific written guidelines at least two weeks before each assignment is due. You have to submit assignment 1 because I give extensive feedback that will help you on later assignments. However, you may skip assignment 2 or 3.
+
+\hypertarget{assignment-dates}{%
+\subsubsection{Assignment Dates}\label{assignment-dates}}
+
+\begin{itemize}
+\item
+  Assignment 1: Friday, 03/12: Set 1 and Critique of an online test.
+\item
+  Assignment 2: Friday, 04/23: Set 2 and Critique of a testing-related popular media article.
+\item
+  Assignment 3: Friday, 05/07: Set 3 and Critique of a testing-related YouTube video.
+\end{itemize}
+
+\hypertarget{engagement-activities-1}{%
+\section{Engagement Activities}\label{engagement-activities-1}}
+
+There will be multiple engagement activities in this course. These activities will allow you engage with the material for each module. Details about the specific activities will be provided on canvas. Students must complete two activities per module.
+
+\hypertarget{grading-weighting}{%
+\section{Grading Weighting}\label{grading-weighting}}
+
+\begin{itemize}
+\tightlist
+\item
+  150 points of your grade will be determined by your best five (5) quizzes.
+\item
+  150 points of your grade will be determined by your best three (3) take-home assignments.
+\item
+  50 points of your grade will be determined by your engagement.
+\end{itemize}
+
+\hypertarget{course-policies}{%
+\section{Course Policies}\label{course-policies}}
+
+See Syllabus Website
+
+\hypertarget{schedule-1}{%
+\section{Schedule}\label{schedule-1}}
+
+\hypertarget{week-01-0125---0129-foundations-and-nature-of-testing}{%
+\subsection{Week 01, 01/25 - 01/29 : Foundations and Nature of Testing}\label{week-01-0125---0129-foundations-and-nature-of-testing}}
+
+\hypertarget{week-02-0201---0205-history-of-testing}{%
+\subsection{Week 02, 02/01 - 02/05 : History of Testing}\label{week-02-0201---0205-history-of-testing}}
+
+\hypertarget{week-03-0208---0212-ethical-and-social-considerations-in-testing}{%
+\subsection{Week 03, 02/08 - 02/12 : Ethical and Social Considerations in Testing}\label{week-03-0208---0212-ethical-and-social-considerations-in-testing}}
+
+\hypertarget{week-04-0215---0219-norms-and-the-meaning-of-test-scores}{%
+\subsection{Week 04, 02/15 - 02/19 : Norms and the Meaning of Test Scores}\label{week-04-0215---0219-norms-and-the-meaning-of-test-scores}}
+
+\hypertarget{week-05-0222---0226-classical-test-theory}{%
+\subsection{Week 05, 02/22 - 02/26 : Classical Test Theory}\label{week-05-0222---0226-classical-test-theory}}
+
+\hypertarget{week-06-0301---0305-reliability}{%
+\subsection{Week 06, 03/01 - 03/05 : Reliability}\label{week-06-0301---0305-reliability}}
+
+\hypertarget{week-07-0308---0312-catch-up-week}{%
+\subsection{Week 07, 03/08 - 03/12 : Catch Up Week}\label{week-07-0308---0312-catch-up-week}}
+
+\hypertarget{week-08-0315---0319-validity}{%
+\subsection{Week 08, 03/15 - 03/19 : Validity}\label{week-08-0315---0319-validity}}
+
+\hypertarget{week-09-0322---0326-item-analysis}{%
+\subsection{Week 09, 03/22 - 03/26 : Item Analysis}\label{week-09-0322---0326-item-analysis}}
+
+\hypertarget{week-10-0329---0402-factor-analysis}{%
+\subsection{Week 10, 03/29 - 04/02 : Factor Analysis}\label{week-10-0329---0402-factor-analysis}}
+
+\hypertarget{week-11-0405---0409-item-response-theory}{%
+\subsection{Week 11, 04/05 - 04/09 : Item Response Theory}\label{week-11-0405---0409-item-response-theory}}
+
+\hypertarget{week-12-0412---0416-practical-testing-things}{%
+\subsection{Week 12, 04/12 - 04/16 : Practical Testing Things}\label{week-12-0412---0416-practical-testing-things}}
+
+\hypertarget{week-13-0419---0423-ability-testing}{%
+\subsection{Week 13, 04/19 - 04/23 : Ability Testing}\label{week-13-0419---0423-ability-testing}}
+
+\hypertarget{week-14-0426---0430-personality-testing}{%
+\subsection{Week 14, 04/26 - 04/30 : Personality Testing}\label{week-14-0426---0430-personality-testing}}
+
+\hypertarget{week-15-0503---0507-review}{%
+\subsection{Week 15, 05/03 - 05/07 : Review}\label{week-15-0503---0507-review}}
+
+\hypertarget{data-science}{%
+\chapter*{703: Data Science}\label{data-science}}
+\addcontentsline{toc}{chapter}{703: Data Science}
+
+\hypertarget{course-description-3}{%
+\section{Course Description}\label{course-description-3}}
+
+Data Science for Psychologists (DSP) introduces on the principles of data science, including data wrangling, modeling, visualization, and communication. In this class, we link those principles to psychological methods and open science practices by emphasizing exploratory analyses and description, rather than confirmatory analyses and prediction. We'll work our way thru Wickham and Grolemund's R for Data Science text (\url{http://r4ds.had.co.nz/}) and develop expertise in tidyverse (\url{https://www.tidyverse.org/}). This class emphasizes replication and reproducibility. DSP is a practical skilled-based class and should be useful to students aiming for academia as well as those interested in industry. Applications of these methods can be applied to a full range of psychological areas, including perception (e.g, eye-tracking data), neuroscience (e.g., visualizing neural networks), and individual differences (e.g., valence analysis).
+
+\hypertarget{broad-goals-for-the-course-2}{%
+\subsection{Broad goals for the course:}\label{broad-goals-for-the-course-2}}
+
+\begin{itemize}
+\item
+  \begin{enumerate}
+  \def\labelenumi{\arabic{enumi}.}
+  \tightlist
+  \item
+    Reproducibility;
+  \end{enumerate}
+\item
+  \begin{enumerate}
+  \def\labelenumi{\arabic{enumi}.}
+  \setcounter{enumi}{1}
+  \tightlist
+  \item
+    Replication;
+  \end{enumerate}
+\item
+  \begin{enumerate}
+  \def\labelenumi{\arabic{enumi}.}
+  \setcounter{enumi}{2}
+  \tightlist
+  \item
+    Robust Methods;
+  \end{enumerate}
+\item
+  \begin{enumerate}
+  \def\labelenumi{\arabic{enumi}.}
+  \setcounter{enumi}{3}
+  \tightlist
+  \item
+    Really Nice Visualization; and
+  \end{enumerate}
+\item
+  \begin{enumerate}
+  \def\labelenumi{\arabic{enumi}.}
+  \setcounter{enumi}{4}
+  \item
+    \begin{enumerate}
+    \def\labelenumii{\Alph{enumii}.}
+    \setcounter{enumii}{17}
+    \tightlist
+    \item
+    \end{enumerate}
+  \end{enumerate}
+\end{itemize}
+
+\hypertarget{required-materials-2}{%
+\section{Required Materials}\label{required-materials-2}}
+
+Wickham and Grolemund's R for Data Science text (\url{http://r4ds.had.co.nz/})
+
+\hypertarget{course-assignments-3}{%
+\section{Course Assignments}\label{course-assignments-3}}
+
+You will be formally evaluated in three different ways.
+
+\hypertarget{presentation}{%
+\subsection{Presentation}\label{presentation}}
+
+You will give one asynchronous presentation. approximately 10- minutes. This presentation is chance to practice a formal presentation in a relatively pressure-free setting).
+
+\hypertarget{labs}{%
+\subsection{Labs}\label{labs}}
+
+\hypertarget{portfolio}{%
+\subsection{Portfolio}\label{portfolio}}
+
+The major semester projects (described on the data science website) is a set of EDA Projects, which you will summarize in an EDA Portfolio to be handed in on the last day of class.
+
+\hypertarget{engagement}{%
+\subsection{Engagement}\label{engagement}}
+
+This experiential course requires active engagement. There will be few lectures and we will not be building toward an exam. Instead, we will work together to build our facilities for thinking critically about data. You should come to every class having read all of the required reading, watched the required videos, browsed the suggested resources, and so forth. You should enter the classroom prepared to discuss these materials with colleagues and complete both individual and group in-class assignments.
+
+\hypertarget{grading-policy-2}{%
+\section{Grading Policy}\label{grading-policy-2}}
+
+In this course, you will determine the grade you receive by fulfilling a contract you will submit for my approval on 02/05.
+
+Your written contract will detail:
+
+\begin{itemize}
+\item
+  The requirements you will meet in order to receive the grade for which you've contracted,
+\item
+  the penalties you will incur for not meeting those requirements,
+\item
+  a calendar you will follow for meeting the requirements you have outlined.
+\end{itemize}
+
+Many aspects of this calendar will be determined by windows outlined on the course schedule, but your contract will take ownership of these deadlines while committing to specific due dates for the course's more flexible assignments.
+
+\hypertarget{contract-details}{%
+\section{Contract Details}\label{contract-details}}
+
+To fulfill any grade contract a student must do the following, which should nonetheless be specified in the contract submitted for approval. When writing self-assessments students must describe how they have met these requirements in addition to the grade-specific requirements:
+
+\begin{itemize}
+\item
+  Come to class prepared to discuss any assigned readings, videos, or other media. Participate actively in class activities and discussions, making observations and asking questions that help the class think together.
+\item
+  Meet with me in person---during office hours or another scheduled time---at least once around midterm---roughly between weeks 5-8 to ensure you are on-track to meet your contract requirements, discuss any questions or concerns you have about the course or your progress, and decide on any necessary contract amendments.
+\item
+  Revise contractual assignments as necessary until both you and I consider them ``Satisfactory.''
+\item
+  Complete a final self-assessment demonstrating that your work has met the agreed requirements, submitting it to me by 5pm on the last day of class.
+\end{itemize}
+
+The professor reserves the right to award a grade of D or F to anyone who fails to meet a contractual obligation in a systematic way. A ``D'' grade denotes some minimal fulfilling of the contract. An ``F'' is absence of enough satisfactory work, as contracted, to warrant passing of the course. Both a ``D'' and ``F'' denote a breakdown of the contractual relationship implied by signing any of the contracts described above.
+
+\hypertarget{what-about-exceptional-or-mediocre-work}{%
+\section{What About Exceptional (or Mediocre) Work?}\label{what-about-exceptional-or-mediocre-work}}
+
+I also reserve the right to reward exceptional work throughout the semester using the full range of Wake Forest's grading scale. If you contract for a ``B,'' for instance, and submit particularly strong pieces to fulfill that contract, I may elect to raise your contracted grade to a ``B+.''
+
+Likewise, if you consistently submit mediocre work in fulfillment of your contract, I reserve the right to adjust your grade one half-step down (e.g.~from ``A'' to ``A-``) or even, in extreme cases, a full step.
+
+\hypertarget{contract-adjustments}{%
+\section{Contract Adjustments}\label{contract-adjustments}}
+
+Periodically during the semester I will ask you to evaluate your work thus far and compare it against what you agreed in your grade contract. In these moments you can also take the opportunity to request an adjustment to your contract in either direction. If you find that you will be unable to meet the obligations of your contract, you may request to move to the next lowest grade and its requirements. Contrariwise, if you find that you've been performing above the obligations of your contract, you may request to fulfill the requirements for the next higher grade. Important Note: In order to effectively evaluate your own progress, you must keep track of your work, including days missed, and so forth.
+
+\hypertarget{contract-grades}{%
+\subsection{Contract Grades}\label{contract-grades}}
+
+\hypertarget{a-contract}{%
+\subsection{``A'' Contract}\label{a-contract}}
+
+To contract for an ``A'' in this course, you agree to:
+
+\begin{itemize}
+\item
+  Earn ``Satisfactory'' on 11 self-paced lab assignments on a schedule you will specify in your contract.
+\item
+  Produce at least 10 ``Satisfactory'' portfolio pieces over the course of the semester.
+\item
+  Complete two ``Satisfactory'' Unessays on a schedule you will specify in your contract and present the strongest as an asynchronous presentation.
+\end{itemize}
+
+\hypertarget{b-contract}{%
+\subsection{``B+'' Contract}\label{b-contract}}
+
+To contract for an ``B'' in this course, you agree to:
+
+\begin{itemize}
+\item
+  Earn ``Satisfactory'' on 10 self-paced lab assignments on a schedule you will specify in your contract.
+\item
+  Produce at least 8 ``Satisfactory'' portfolio pieces over the course of the semester.
+\item
+  Complete one ``Satisfactory'' Unessay on a schedule you will specify in your contract and present it during the last week of class
+\end{itemize}
+
+\hypertarget{c-contract}{%
+\subsection{``C'' Contract}\label{c-contract}}
+
+To contract for an ``C'' in this course, you agree to:
+
+\begin{itemize}
+\item
+  Earn ``Satisfactory'' on 8 self-paced lab assignments on a schedule you will specify in your contract.
+\item
+  Produce at least 6 ``Satisfactory'' portfolio pieces over the course of the semester.
+\item
+  Complete one ``Satisfactory'' Unessay on a schedule you will specify in your contract and present it during the last week of class
+\end{itemize}
+
+\hypertarget{week-01-0125---0129-what-is-data-science-and-meet-the-toolkit}{%
+\section{Week 01, 01/25 - 01/29 : What is Data Science and Meet the Toolkit}\label{week-01-0125---0129-what-is-data-science-and-meet-the-toolkit}}
+
+\hypertarget{week-02-0201---0205-data-and-visualization}{%
+\section{Week 02, 02/01 - 02/05 : Data and Visualization}\label{week-02-0201---0205-data-and-visualization}}
+
+\hypertarget{week-03-0208---0212-grammar-of-data-wrangling}{%
+\section{Week 03, 02/08 - 02/12 : Grammar of data wrangling}\label{week-03-0208---0212-grammar-of-data-wrangling}}
+
+\hypertarget{week-04-0215---0219-data-types-and-data-transformations}{%
+\section{Week 04, 02/15 - 02/19 : Data types and Data Transformations}\label{week-04-0215---0219-data-types-and-data-transformations}}
+
+\hypertarget{week-05-0222---0226-tips-for-effective-data-visualization}{%
+\section{Week 05, 02/22 - 02/26 : Tips for effective data visualization}\label{week-05-0222---0226-tips-for-effective-data-visualization}}
+
+\hypertarget{week-06-0301---0305-scientific-studies-and-confounding}{%
+\section{Week 06, 03/01 - 03/05 : Scientific studies and confounding}\label{week-06-0301---0305-scientific-studies-and-confounding}}
+
+\hypertarget{week-07-0308---0312-web-scraping}{%
+\section{Week 07, 03/08 - 03/12 : Web scraping}\label{week-07-0308---0312-web-scraping}}
+
+\hypertarget{week-08-0315---0319-functions}{%
+\section{Week 08, 03/15 - 03/19 : Functions}\label{week-08-0315---0319-functions}}
+
+\hypertarget{week-09-0322---0326-data-and-ethics}{%
+\section{Week 09, 03/22 - 03/26 : Data and Ethics}\label{week-09-0322---0326-data-and-ethics}}
+
+\hypertarget{week-10-0329---0402-fitting-and-interpreting-models}{%
+\section{Week 10, 03/29 - 04/02 : Fitting and interpreting models}\label{week-10-0329---0402-fitting-and-interpreting-models}}
+
+\hypertarget{week-11-0405---0409-prediction-and-overfitting}{%
+\section{Week 11, 04/05 - 04/09 : Prediction and overfitting}\label{week-11-0405---0409-prediction-and-overfitting}}
+
+\hypertarget{week-12-0412---0416-cross-validation}{%
+\section{Week 12, 04/12 - 04/16 : Cross validation}\label{week-12-0412---0416-cross-validation}}
+
+\hypertarget{week-13-0419---0423-quantifying-uncertainty}{%
+\section{Week 13, 04/19 - 04/23 : Quantifying uncertainty}\label{week-13-0419---0423-quantifying-uncertainty}}
+
+\hypertarget{week-14-0426---0430-interactive-web-apps}{%
+\section{Week 14, 04/26 - 04/30 : Interactive web apps}\label{week-14-0426---0430-interactive-web-apps}}
+
+\hypertarget{week-15-0503---0507-special-topics-like-text-analysis-machine-learning-bayesian-inference}{%
+\section{Week 15, 05/03 - 05/07 : Special Topics (like: Text analysis; Machine learning; Bayesian inference)}\label{week-15-0503---0507-special-topics-like-text-analysis-machine-learning-bayesian-inference}}
+
+\hypertarget{part-for-your-information}{%
+\part*{For Your Information}\label{part-for-your-information}}
+\addcontentsline{toc}{part}{For Your Information}
+
+\hypertarget{frequently-asked-questions}{%
+\chapter{Frequently Asked Questions}\label{frequently-asked-questions}}
+
+Below you'll find answers to the questions that I get asked the most by students in my classes. I have been asked every single one of these questions.
+
+I don't want to discourage you from asking questions. However, asking me is not an efficient method for finding facts and searchable information\ldots{}
+
+\begin{quote}
+Considering launching the following autoreply:\\
+Frequently Asked Questions\\
+Q: "Can you -"\\
+A: I cannot.
+
+--- Alison Ledgerwood (@AlisonLedg) \href{https://twitter.com/AlisonLedg/status/1441181845706579969}{September 23,
+2021}
+\end{quote}
+
+\hypertarget{how-can-i-get-ahold-of-you}{%
+\section{How can I get ahold of you?}\label{how-can-i-get-ahold-of-you}}
+
+\begin{itemize}
+\item
+  Face2Face: Green 438
+\item
+  Calendly Appointments: \url{https://calendly.com/smasongarrison}
+\item
+  Email: \href{mailto:garrissm@wfu.edu}{\nolinkurl{garrissm@wfu.edu}}
+\item
+  Text: 267.357.4392
+\item
+  Github: \url{https://github.com/smasongarrison}
+\item
+  Twitter: \url{https://twitter.com/SMasonGarrison}
+\item
+  Phone Call: \ldots{}
+\end{itemize}
+
+\begin{center}\includegraphics[width=0.5\linewidth]{img/why-this-millennial-didnt-answer-your-call} \end{center}
+
+Credit: \href{https://kikischirr.medium.com/}{Kiki Schirr} at \href{https://medium.com/tech-doodles}{Tech Doodles} on \href{https://medium.com/tech-doodles/why-this-millennial-didnt-answer-your-call-d5abccf06cfc}{``Why this millennial didn't answer your call''}
+
+\hypertarget{general-course-questions}{%
+\section{General Course Questions}\label{general-course-questions}}
+
+If you have a question about the course AND can't find your answer elsewhere (or you find conflicting answers), please post them on the class discussion board. (Depending on the class, this board will either be on canvas or github)
+
+\hypertarget{where}{%
+\subsection{Where\ldots{}}\label{where}}
+
+\hypertarget{where-can-i-find-the-reading-list-for-the-entire-semester}{%
+\subsubsection{Where can I find the reading list for the entire semester?}\label{where-can-i-find-the-reading-list-for-the-entire-semester}}
+
+You can find the suggested readings for each module on the GitHub course notes: \url{https://smasongarrison.github.io/personality/}
+
+\hypertarget{where-can-i-find-when-assignments-are-due}{%
+\subsubsection{Where can I find when assignments are due?}\label{where-can-i-find-when-assignments-are-due}}
+
+You can find due dates in the syllabus.
+
+\hypertarget{where-can-i-check-the-closing-time-of-assessments}{%
+\subsubsection{Where can I check the closing time of assessments?}\label{where-can-i-check-the-closing-time-of-assessments}}
+
+You can check the due time and closing time of assessments by clicking the corresponding page in ``Modules''. You should be able to see the time after you entered there.
+
+\hypertarget{where-are-my-grades}{%
+\subsubsection{Where are my grades?}\label{where-are-my-grades}}
+
+You can find it on canvas, under grades. I will not look up this grade for you. You are all hard working and problem-solving students. I believe in you!
+
+\hypertarget{can}{%
+\subsection{Can\ldots{}}\label{can}}
+
+\hypertarget{can-i-rent-the-textbook-for-this-course-from-somewhere-amazon-bookstores-etc.}{%
+\subsubsection{Can I rent the textbook for this course from somewhere (Amazon, bookstores, etc.)?}\label{can-i-rent-the-textbook-for-this-course-from-somewhere-amazon-bookstores-etc.}}
+
+Of course. You can rent the book from Amazon or anywhere else you'd like.
+
+\hypertarget{can-you-calculate-my-grade-for-me}{%
+\subsubsection{Can you calculate my grade for me?}\label{can-you-calculate-my-grade-for-me}}
+
+No.~I believe in you!
+
+You are capable of calculating a weighted average.
+You have 100\% of the information you need to do so as outlined in the syllabus.
+You can calculate your grade using a weighted average and the weightings in the syllabus.
+If you really really need help with this, try \href{https://thegradecalculator.com/}{this website}.
+
+\hypertarget{can-my-parents-email-you-about-my-class-performance}{%
+\subsubsection{Can my parents email you about my class performance?}\label{can-my-parents-email-you-about-my-class-performance}}
+
+Unless you are legally a minor, I cannot answer your parents questions about this class.
+
+\hypertarget{should-my-parents-email-you-about-my-class-performance}{%
+\paragraph{Should my parents email you about my class performance?}\label{should-my-parents-email-you-about-my-class-performance}}
+
+No.
+
+\hypertarget{cant-you-just-tell-me-my-letter-grade-your-curve-is-confusing.}{%
+\subsubsection{Can't you just tell me my letter grade? Your curve is confusing.}\label{cant-you-just-tell-me-my-letter-grade-your-curve-is-confusing.}}
+
+I agree that my curve is a little confusing at first glance.
+But, this curve can only help you. It means I can lower the thresholds for letter grades, but not raise them.
+Your best approach is to pretend that there is no curve.
+
+\hypertarget{what}{%
+\subsection{What\ldots{}}\label{what}}
+
+\hypertarget{what-can-i-do-to-get-a-better-grade}{%
+\subsubsection{What can I do to get a better grade?}\label{what-can-i-do-to-get-a-better-grade}}
+
+The work\ldots{}
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\ControlFlowTok{if}\NormalTok{ (knitr}\SpecialCharTok{::}\FunctionTok{is\_latex\_output}\NormalTok{()) \{}
+\FunctionTok{include\_graphics}\NormalTok{(}\StringTok{"img/worriedgrade.png"}\NormalTok{)}
+\NormalTok{\}}\ControlFlowTok{else}\NormalTok{\{}
+\StringTok{"https://www.youtube.com/watch?v=WVvKnq5XT{-}g"} \SpecialCharTok{\%\textgreater{}\%}
+\FunctionTok{embed\_url}\NormalTok{() }\SpecialCharTok{\%\textgreater{}\%}
+  \FunctionTok{use\_align}\NormalTok{(}\StringTok{"center"}\NormalTok{)}
+\NormalTok{\}}
+\end{Highlighting}
+\end{Shaded}
+
+\includegraphics[width=18.14in]{img/worriedgrade}
+
+\hypertarget{why}{%
+\subsection{Why\ldots{}}\label{why}}
+
+\hypertarget{why-is-the-locked}{%
+\subsubsection{\texorpdfstring{Why is the locked?}{Why is the  locked?}}\label{why-is-the-locked}}
+
+Because you didn't complete all the requirements to unlock it\ldots{} To unlock the activity/module, you need to do whatever is listed.
+
+\hypertarget{why-do-i-have-to-meet-with-you-if-i-want-to-see-my-test-again-why-cant-you-just-release-them}{%
+\subsubsection{Why do I have to meet with you if I want to see my test again? Why can't you just release them?}\label{why-do-i-have-to-meet-with-you-if-i-want-to-see-my-test-again-why-cant-you-just-release-them}}
+
+Unfortunately, my tests/quizzes take a long time to make as do the rubrics I use to grade. So although I'm happy to show you both your test and the rubric used to grade it, I can't share those publicly.
+
+\hypertarget{why-is-your-speaking-style-so-weird}{%
+\subsubsection{Why is your speaking style so weird?}\label{why-is-your-speaking-style-so-weird}}
+
+I get this comment frequently enough in course evaluations (but never face-to-face\ldots). Most students don't have a problem with it, and it seems that most people recognize that it is outside my control. My speaking style can become a bit fragmented -- students tend to describe it as tangential, scattered, incomprehensible (also some much less kind things\ldots{} that are often really ableist). But that's not actually, what's happening\ldots{} what's happening is a mixture of cluttering and some other less well-known speech dysfluencies. Practically, this means I will on occasion skip the last syllable in a word or the last word of a sentence or repeat a phrase.
+
+I recognize that it can be frustrating. I hear you. I really do. I cannot help it. And trust me, I am frustrated by it as well.
+
+Please, understand that there's not much more I can do at this point. And I have done a lot.
+
+What you are experiencing is the result of years of speech therapy and is a massive improvement. If you \emph{genuinely} struggle to understand me, please TALK to me about it. I can connect you with resources, including my scripts, previous recordings of lectures. If those don't help, we can work in the LAC to figure out an accommodation that works for both of us. PLEASE do not wait until after the course is over and complain in my course evaluations. That is not helpful to anyone.
+
+\hypertarget{online-learning}{%
+\section{Online Learning}\label{online-learning}}
+
+\hypertarget{how-much-time-should-i-spend-on-one-class-every-week}{%
+\subsection{How much time should I spend on one class every week?}\label{how-much-time-should-i-spend-on-one-class-every-week}}
+
+The time you spend on a class can vary. No two instructors will format their classes exactly the same. In general, each credit hour corresponds to a \emph{minimum} of 3 hours of student engagement per week for a traditional 15-week course. This time may be spent on discussions, readings, and lectures, study, and research, and assignments.
+If you find yourself spending a lot more or a lot less than 9 hours per week on this class, please let me know. That probably means that either you're doing too much or too little.
+
+\hypertarget{how-long-are-the-videos}{%
+\subsection{How long are the videos?}\label{how-long-are-the-videos}}
+
+You can always check how long the module playlist is by using this website \url{https://ytplaylist-len.herokuapp.com/}
+Each module has 1 week worth of lectures.
+
+\hypertarget{why-are-there-so-many-videos}{%
+\subsection{Why are there so many videos?}\label{why-are-there-so-many-videos}}
+
+I've sliced up the content into smaller chunks.
+If you want to watch the entire module worth in one sitting, you can use the youtube playlist.
+
+\hypertarget{why-is-this-so-much-more-work-compared-to-face-to-face-classes}{%
+\subsection{Why is this so much more work compared to face-to-face classes?}\label{why-is-this-so-much-more-work-compared-to-face-to-face-classes}}
+
+It may feel like more work, but it actually isn't. This class covers the same content as the face-to-face version. I have made every effort to not add to your workload. When I have added an assignment in one aspect of the course, I have removed something else from the class.On average, you should except to spend about 9 hours a week on this class.
+
+\hypertarget{where-can-i-find-more-information-about-technology-services-or-computer-resources}{%
+\subsection{Where can I find more information about technology services or computer resources?}\label{where-can-i-find-more-information-about-technology-services-or-computer-resources}}
+
+You can find more information here: \url{https://is.wfu.edu/}
+
+\hypertarget{im-having-a-trouble-with-a-specific-problem-can-you-fix-it-for-me}{%
+\subsection{I'm having a trouble with a specific problem, can you fix it for me?}\label{im-having-a-trouble-with-a-specific-problem-can-you-fix-it-for-me}}
+
+If you are my grandmother, then yes. Otherwise\ldots{} Troubleshooting or problem solving is an essential skill. Like anything else related to technology, problems will occur with virtual learning. And it is part of your job as a student to troubleshoot your problem.
+
+Please try basic troubleshooting to fix your problem.
+
+If you still have trouble after troubleshooting, post the problem to the discussion board and clearly describe what you have already tried.
+
+\hypertarget{canvas}{%
+\section{Canvas}\label{canvas}}
+
+\hypertarget{how-do-i-use-canvas-for-class}{%
+\subsubsection{How do I use Canvas for class?}\label{how-do-i-use-canvas-for-class}}
+
+Students will use Canvas to access course content.
+All work/assignments/projects will be distributed and collected through Canvas.
+
+\hypertarget{im-having-trouble-with-canvas-help}{%
+\subsection{I'm having trouble with Canvas -- help!}\label{im-having-trouble-with-canvas-help}}
+
+If you're having trouble with Canvas, you should first search the \href{https://community.canvaslms.com/t5/Canvas-Basics-Guide/tkb-p/basics}{Canvas Guides} and then reach out to canvas support.
+
+\hypertarget{how-do-i-contact-the-canvas-help-desk}{%
+\subsubsection{How do I contact the Canvas Help Desk?}\label{how-do-i-contact-the-canvas-help-desk}}
+
+You can search the Canvas Guides or contact the Canvas Support Helpline by clicking the Help icon (circle with a question mark) in the Account menu.
+
+\hypertarget{how-do-i}{%
+\subsection{How do I\ldots{} ?}\label{how-do-i}}
+
+Although I am not Canvas tech support, here are some answers to commonly asked questions.
+
+\hypertarget{how-do-i-set-my-notifications-on-canvas-for-my-classes}{%
+\subsubsection{How do I set my notifications on Canvas for my classes?}\label{how-do-i-set-my-notifications-on-canvas-for-my-classes}}
+
+You should navigate to your ``Account'' by pressing the icon in the top-left corner of this page, right under the Canvas Logo. Then you press ``Notifications'' and will be brought to a screen where you can change and adjust your notifications.
+
+\hypertarget{how-do-i-submit-an-assignment-on-canvas}{%
+\subsubsection{How do I submit an assignment on Canvas?}\label{how-do-i-submit-an-assignment-on-canvas}}
+
+Navigate to your assignment and click this button
+Double check your work that it's complete and saved correctly.
+Upload or type your work and click submit assignment.
+
+\hypertarget{how-do-i-know-when-an-assignment-has-been-submitted}{%
+\subsubsection{How do I know when an assignment has been submitted?}\label{how-do-i-know-when-an-assignment-has-been-submitted}}
+
+After you click ``submit assignment,'' you will see ``confetti'' on your screen.
+
+\hypertarget{how-do-i-use-the-calendar-feature-in-canvas}{%
+\subsubsection{How do I use the Calendar feature in Canvas?}\label{how-do-i-use-the-calendar-feature-in-canvas}}
+
+Your calendar will allow you to see assignments and important dates for all of your classes.
+Click the calendar icon to access your calendar.
+From here, you will see all of your classes on the right side of the page
+You can click to see specific class work, or color code your calendar.
+
+\hypertarget{how-do-i-see-feedback-on-my-assignments-submitted-on-canvas}{%
+\subsubsection{How do I see feedback on my assignments submitted on Canvas?}\label{how-do-i-see-feedback-on-my-assignments-submitted-on-canvas}}
+
+Log into the course and click on the `Grades' link.
+Find the assignment and click the assignment name.
+Click on `View Feedback' to view all feedback, including comments and any additional annotated comments made on the submission.
+
+\hypertarget{how-do-i-accurately-check-my-grades-in-canvas}{%
+\subsubsection{How do I accurately check my grades in Canvas?}\label{how-do-i-accurately-check-my-grades-in-canvas}}
+
+You're probably familiar with checking your grades for a \href{https://community.canvaslms.com/t5/Student-Guide/How-do-I-view-my-grades-in-a-current-course/ta-p/493}{current course in Canvas}, but did you know that you might not be seeing an accurate calculation of your final grade when you check your grades at the end of the semester?
+
+In order to get an accurate view of your final grade towards the end of the semester,
+
+\begin{center}\includegraphics[width=0.5\linewidth]{img/grades} \end{center}
+
+You may also be seeing icons and colors when you view your grades. \href{https://community.canvaslms.com/docs/DOC-16533-4212829283}{Learn what these grade icons and colors mean}.
+
+\href{https://support.canvas.fsu.edu/kb/article/1068-students-make-sure-you-are-seeing-the-right-grades-in-canvas/}{Note: Answer Adapted from Florida State University Canvas Support}
+
+\hypertarget{how-do-i-do-this-specific-thing-in-canvas}{%
+\subsubsection{How do I do this specific thing in Canvas?}\label{how-do-i-do-this-specific-thing-in-canvas}}
+
+Check out the canvas \href{https://community.canvaslms.com/t5/Canvas-Basics-Guide/tkb-p/basics}{basic guides}
+
+\href{https://community.canvaslms.com/docs/DOC-10603-4212710332}{How do I use the Global Navigation Menu?}
+
+\href{https://community.canvaslms.com/docs/DOC-10587-4212710330}{How do I use the Dashboard?}
+
+\href{https://community.canvaslms.com/docs/DOC-10589-4212717407}{How do I use the To Do list and sidebar in the Dashboard?}
+
+\href{https://community.canvaslms.com/docs/DOC-10628-4212710342}{How do I edit my profile in my user account?}
+
+\href{https://community.canvaslms.com/docs/DOC-10599-4212710334}{How do I add a profile picture in my user account?}
+
+\href{https://community.canvaslms.com/docs/DOC-10624-4212710344}{How do I set my Canvas notification preferences?}
+
+\hypertarget{why-is}{%
+\subsection{Why is\ldots{}}\label{why-is}}
+
+\hypertarget{why-is-the-assignmentactivityquiz-locked}{%
+\subsubsection{Why is the assignment/activity/quiz locked?}\label{why-is-the-assignmentactivityquiz-locked}}
+
+Because some of the requirements to unlock it the activity are not met. To unlock the activity/module, you need to do whatever is listed.
+
+\begin{center}\includegraphics[width=0.5\linewidth]{img/requirements} \end{center}
+
+\hypertarget{resources-1}{%
+\section{Resources}\label{resources-1}}
+
+\hypertarget{where-can-i-find-textbooks-and-course-materials}{%
+\subsection{Where can I find textbooks and course materials?}\label{where-can-i-find-textbooks-and-course-materials}}
+
+\begin{quote}
+Once again, I DO NOT recommend students go to libgen (dot) rs and
+download books for their upcoming courses. I am NOT advocating for
+getting and sharing free pdfs of required texts. DON'T DO IT.
+
+--- itsgalo (@GaloAndStuff) \href{https://twitter.com/GaloAndStuff/status/1424818560417902604}{August 9,
+2021}
+\end{quote}
+
+\hypertarget{how-can-i-ask-professors-for-extensions}{%
+\subsection{How can I ask professors for extensions?}\label{how-can-i-ask-professors-for-extensions}}
+
+\begin{quote}
+Until I became a professor, I didn't realize that students can (and
+do) regularly ask for extensions.\\
+~\\
+This means some students know how to use this strategy to support
+their learning, some don't.\\
+~\\
+Sharing info so everyone has access to the same tools. A thread.
+\href{https://twitter.com/OpenAcademics}{@OpenAcademics}
+
+--- Dr.~Betty Lai (@BettySLai) \href{https://twitter.com/BettySLai/status/1455555111397117954}{November 2,
+2021}
+\end{quote}
+
+\hypertarget{still-have-questions}{%
+\section{Still have questions?}\label{still-have-questions}}
+
+Post them in the Discussion Board! I can nearly guarantee, that somebody else wants to know the answer to your question.
+
+\hypertarget{why-did-a-question-i-asked-via-email-show-up-on-the-discussion-board}{%
+\subsection{Why did a question I asked via email show up on the discussion board?}\label{why-did-a-question-i-asked-via-email-show-up-on-the-discussion-board}}
+
+No one has asked me this question specifically, but\ldots{} when students email me questions that \emph{should} have been asked on the discussion board, I will forward the email chain to my TA and ask them to post it.
+
+\hypertarget{how-to-do-well-in-my-classes}{%
+\chapter{How to do well in my classes}\label{how-to-do-well-in-my-classes}}
+
+To do well in the course, you should read the assigned material before class and re-read previously assigned material as the course progresses.
+By reading the text before class, you will be better prepared to ask questions and integrate the content of lectures with what was presented in the text.
+For synchronous classes, be sure to attend all lectures and arrive on time.
+For asynchronous classes be sure to watch all the video lectures and don't leave them until the last minute. Each topic builds directly on the previous one.
+Thus, if you miss one lecture or zip through a video, you run the risk of being completely lost in the next lecture.
+
+\hypertarget{successful-asynchronous-learning}{%
+\section{Successful Asynchronous Learning}\label{successful-asynchronous-learning}}
+
+I've created a \href{https://youtu.be/dc3D2tbl8G0}{video} highlighting how to be a successful asynchronous learner.
+
+\includegraphics[width=30.76in]{img/learngood}
+
+Much of this information comes from Northeastern University's \href{https://www.northeastern.edu/graduate/blog/tips-for-taking-online-classes/}{Tips for Taking Online Classes}
+
+\hypertarget{student-support-resources}{%
+\chapter{Student Support \& Resources}\label{student-support-resources}}
+
+Below you'll find materials of available supports for this course.
+
+\hypertarget{prof.-mason-faq}{%
+\section{Prof.~Mason FAQ}\label{prof.-mason-faq}}
+
+\url{https://smasongarrison.github.io/syllabi/frequently-asked-questions.html}
+
+\hypertarget{canvas-1}{%
+\section{Canvas}\label{canvas-1}}
+
+\hypertarget{canvas-helpful-tips}{%
+\subsection{Canvas: Helpful Tips}\label{canvas-helpful-tips}}
+
+\hypertarget{canvas-student-guide}{%
+\subsubsection{Canvas Student Guide}\label{canvas-student-guide}}
+
+The Canvas Student Guide provides information and guidance related to all things Canvas! Below, you will find both the text and video versions of the Student Guide:
+
+\begin{itemize}
+\item
+  \href{https://community.canvaslms.com/t5/Student-Guide/tkb-p/student}{Canvas Student Guide - Table of Contents}
+\item
+  \href{https://community.canvaslms.com/t5/Student-Guide/tkb-p/student}{Canvas Student Video Guide - Table of Contents}
+\end{itemize}
+
+\hypertarget{getting-organized}{%
+\subsubsection{Getting Organized}\label{getting-organized}}
+
+Global Navigation:
+
+\begin{itemize}
+\item
+  \href{https://community.canvaslms.com/t5/Student-Guide/How-do-I-use-the-Global-Navigation-Menu-as-a-student/ta-p/522}{How do I use the Global Navigation Menu?}
+\item
+  \href{https://community.canvaslms.com/t5/Student-Guide/How-do-I-use-the-Dashboard-as-a-student/ta-p/512}{How do I use the Dashboard?}
+\item
+  \href{https://community.canvaslms.com/t5/Student-Guide/How-do-I-use-the-To-Do-list-and-sidebar-in-the-Dashboard-as-a/ta-p/511}{How do I use the To Do list and sidebar in the Dashboard?}
+\end{itemize}
+
+Profile and User Settings:
+
+\begin{itemize}
+\item
+  \href{https://community.canvaslms.com/t5/Student-Guide/How-do-I-edit-my-profile-in-my-user-account-as-a-student/ta-p/421}{How do I edit my profile in my user account?}
+\item
+  \href{https://community.canvaslms.com/t5/Student-Guide/How-do-I-add-a-profile-picture-in-my-user-account-as-a-student/ta-p/518}{How do I add a profile picture in my user account?}
+\item
+  \href{https://community.canvaslms.com/t5/Student-Guide/How-do-I-manage-my-Canvas-notification-settings-as-a-student/ta-p/434}{How do I set my Canvas notification preferences?}
+\item
+  \href{https://vimeo.com/78015141}{Calendar}
+\item
+  \href{https://vimeo.com/74772644}{Files}
+\end{itemize}
+
+\hypertarget{canvas-quick-links}{%
+\subsection{Canvas: Quick Links}\label{canvas-quick-links}}
+
+\hypertarget{your-canvas-profile}{%
+\subsubsection{Your Canvas Profile}\label{your-canvas-profile}}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://community.canvaslms.com/t5/Student-Guide/How-do-I-edit-my-profile-in-my-user-account-as-a-student/ta-p/421}{Profiles} allow you to update your name, preferred contact methods, and any personal links for your account. Your profile information can be viewed by all users in your courses. In an online course, your profile is an important way of letting your instructor and classmates ``see'' you.
+\end{itemize}
+
+\hypertarget{notifications}{%
+\subsubsection{Notifications}\label{notifications}}
+
+\begin{itemize}
+\tightlist
+\item
+  The \href{https://community.canvaslms.com/t5/Student-Guide/How-do-I-manage-my-Canvas-notification-settings-as-a-student/ta-p/434}{notification} system is designed to help you keep track of the activity in your Canvas sites. It's important that you customize the default settings to fit the way you want to receive notifications. (You don't want to miss any important communications from your instructor!)
+\end{itemize}
+
+\hypertarget{other-helpful-canvas-guides-links}{%
+\subsubsection{Other Helpful Canvas Guides Links}\label{other-helpful-canvas-guides-links}}
+
+\begin{itemize}
+\item
+  \href{https://community.canvaslms.com/t5/Student-Guide/tkb-p/student}{Student Guide Table of Contents}
+  This will show you a list of all the topics within the Student Guides.
+\item
+  \href{https://community.canvaslms.com/t5/Student-Guide/How-do-I-view-my-grades-in-a-current-course/ta-p/493}{View your grades}
+  Learn how to view your grades, scoring details and instructor comments on assignments.
+\item
+  \href{https://community.canvaslms.com/t5/Student-Guide/How-do-I-submit-an-online-assignment/ta-p/503}{Submitting an online assignment}
+  Instructors can choose what kind of online submissions they want you to use. Learn how to submit your assignment online.
+\item
+  \href{https://community.canvaslms.com/t5/Student-Guide/How-do-I-use-the-Inbox-as-a-student/ta-p/532}{Using the Inbox}
+  Many instructors prefer (or even require) that you use the Canvas Inbox (also called ``Conversations'') rather than your regular email account.
+\item
+  \href{https://community.canvaslms.com/t5/Student-Guide/How-can-I-use-Canvas-on-my-mobile-device-as-a-student/ta-p/282}{Using Canvas on your mobile device}
+  On mobile devices, Canvas is designed to be used within Canvas mobile applications. Be aware that not all features are fully supported in the app. (It's recommended you do ``sophisticated'' tasks like taking quizzes and submitting assignments using a regular web browser.)
+\end{itemize}
+
+\hypertarget{accurately-calculating-grades-in-canvas}{%
+\subsection{Accurately Calculating Grades in Canvas}\label{accurately-calculating-grades-in-canvas}}
+
+\textbf{Students: Make sure you are seeing the right grades in Canvas!}
+
+\begin{itemize}
+\item
+  You're probably familiar with \href{https://community.canvaslms.com/t5/Student-Guide/How-do-I-view-my-grades-in-a-current-course/ta-p/493}{checking your grades for a current course in Canvas}, but did you know that you might not be seeing an accurate calculation of your final grade when you check your grades at the end of the semester?
+\item
+  In order to get an accurate view of your final grade towards the end of the semester, make sure to uncheck the Calculate based only on graded assignments checkbox:
+\end{itemize}
+
+\begin{center}\includegraphics[width=0.5\linewidth]{img/grades} \end{center}
+
+\begin{itemize}
+\item
+  You may also be seeing icons and colors when you view your grades. \href{https://community.canvaslms.com/t5/Student-Guide/How-do-I-use-the-icons-and-colors-in-the-Grades-page/ta-p/476}{Learn what these grade icons and colors mean}
+\item
+  Adapted from: \href{https://support.canvas.fsu.edu/kb/article/1068-students-make-sure-you-are-seeing-the-right-grades-in-canvas/}{Florida State University Canvas Support}
+\end{itemize}
+
+\hypertarget{resource-collections}{%
+\section{Resource Collections}\label{resource-collections}}
+
+\hypertarget{student-support-services}{%
+\subsection{Student Support Services}\label{student-support-services}}
+
+The follow list is a non-exhaustive list of services that Wake Forest offers to students.
+
+\textbf{\href{https://class.wfu.edu/}{Learning Assistance Center}}
+
+\begin{itemize}
+\item
+  \href{https://class.wfu.edu/}{Academic Coaching}: encourages students to strengthen a wide range of study skills including time management, note-taking, study skills, planning and organizing, test preparation, and test anxiety.
+\item
+  \href{https://class.wfu.edu/}{Disability Services}: enable students with disabilities to experience equal access to the academic, social, and recreational activities and programs at Wake Forest University.
+\item
+  \href{https://class.wfu.edu/}{Peer Tutoring Program}: provides individual or group assistance to any undergraduate student wishing to improve their learning in specific courses. Tutors focus on the learning process and help students make progress toward their academic goals.
+\end{itemize}
+
+\textbf{\href{https://thrive.wfu.edu/thrive-remotely-2/}{Thrive Remotely}}
+* To support the students, faculty, and staff of Wake Forest University, the \href{https://thrive.wfu.edu/}{Office of Wellbeing}, Campus Recreation, and other colleagues at WFU have curated this hub of resources which encompass a variety of wellbeing topics to help our community as we transition to remote school and work.
+
+\hypertarget{crash-course-study-skills}{%
+\subsubsection{\texorpdfstring{\href{https://www.youtube.com/watch?v=E7CwqNHn_Ns\&list=PL8dPuuaLjXtNcAJRf3bE1IJU6nMfHj86W}{Crash Course: Study Skills}}{Crash Course: Study Skills}}\label{crash-course-study-skills}}
+
+\hypertarget{what-are-office-hours}{%
+\subsubsection{\texorpdfstring{\href{https://vimeo.com/270014784?embedded=true\&source=vimeo_logo\&owner=2248721}{What are Office Hours?}}{What are Office Hours?}}\label{what-are-office-hours}}
+
+\hypertarget{what-are-course-evals-and-why-should-you-submit-them}{%
+\subsubsection{\texorpdfstring{\href{https://www.youtube.com/watch?v=5zkAOpx8Qk8}{What Are Course Evals and Why Should You Submit Them}}{What Are Course Evals and Why Should You Submit Them}}\label{what-are-course-evals-and-why-should-you-submit-them}}
+
+\hypertarget{wfu-honor-code-definitions}{%
+\subsubsection{WFU Honor Code Definitions}\label{wfu-honor-code-definitions}}
+
+\textbf{These definitions are reproduced from the \href{https://studentconduct.wfu.edu/procedures-of-the-honor-and-ethics-council/}{WFU Honor Code}}
+
+Cheating, plagiarism, stealing, deception, academic misconduct, and contempt are considered violations of the Honor Code. These terms should be construed to have their ordinary, non-legal meaning.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  The term ``cheating'' includes:
+\end{enumerate}
+
+\begin{itemize}
+\item
+  \begin{enumerate}
+  \def\labelenumi{(\alph{enumi})}
+  \tightlist
+  \item
+    providing or receiving unauthorized assistance in academic endeavors (e.g., quizzes, tests, examinations, reports, term papers);
+  \end{enumerate}
+\item
+  \begin{enumerate}
+  \def\labelenumi{(\alph{enumi})}
+  \setcounter{enumi}{1}
+  \tightlist
+  \item
+    use of sources beyond those authorized by the instructor in writing papers, preparing reports, solving problems, or carrying out other assignments; or
+  \end{enumerate}
+\item
+  \begin{enumerate}
+  \def\labelenumi{(\alph{enumi})}
+  \setcounter{enumi}{2}
+  \tightlist
+  \item
+    the use, without permission, of tests or other academic material belonging to a member of the University faculty or staff.
+  \end{enumerate}
+\end{itemize}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{1}
+\tightlist
+\item
+  ``Plagiarism'' is a type of cheating. It includes:
+\end{enumerate}
+
+\begin{itemize}
+\item
+  \begin{enumerate}
+  \def\labelenumi{(\alph{enumi})}
+  \tightlist
+  \item
+    the use, by paraphrase or direct quotation, of the published or unpublished work of another person without complete acknowledgment of the source;
+  \end{enumerate}
+\item
+  \begin{enumerate}
+  \def\labelenumi{(\alph{enumi})}
+  \setcounter{enumi}{1}
+  \tightlist
+  \item
+    the unacknowledged use of materials prepared by another agency or person providing term papers or other academic materials;
+  \end{enumerate}
+\item
+  \begin{enumerate}
+  \def\labelenumi{(\alph{enumi})}
+  \setcounter{enumi}{2}
+  \tightlist
+  \item
+    the non-attributed use of any portion of a computer algorithm or data file; or
+  \end{enumerate}
+\item
+  \begin{enumerate}
+  \def\labelenumi{(\alph{enumi})}
+  \setcounter{enumi}{3}
+  \tightlist
+  \item
+    the use, by paraphrase or direct quotation, of online material without complete acknowledgment of the source.
+  \end{enumerate}
+\end{itemize}
+
+~~~~~When faced with conflicting definitions of plagiarism during a case, the Honor and Ethics Council will adopt the definition established for use in the department/course by the department or professor involved in the case.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{2}
+\tightlist
+\item
+  The term ``stealing'' includes:
+\end{enumerate}
+
+\begin{itemize}
+\item
+  \begin{enumerate}
+  \def\labelenumi{(\alph{enumi})}
+  \tightlist
+  \item
+    the unauthorized taking, misappropriation, or possession of any property belonging to, owned by, or maintained by the University, an organization, or another individual, or
+  \end{enumerate}
+\item
+  \begin{enumerate}
+  \def\labelenumi{(\alph{enumi})}
+  \setcounter{enumi}{1}
+  \tightlist
+  \item
+    the possession, retention, or disposal of stolen property.
+  \end{enumerate}
+\end{itemize}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{3}
+\tightlist
+\item
+  The term ``deception'' includes any false or deceiving representation. In the academic context, such representations include:
+\end{enumerate}
+
+\begin{itemize}
+\item
+  \begin{enumerate}
+  \def\labelenumi{(\alph{enumi})}
+  \tightlist
+  \item
+    any attempt to avoid meeting the stated course requirements, such as making false statements to avoid taking examinations at the scheduled times or to avoid turning in assignments at the scheduled times;
+  \end{enumerate}
+\item
+  \begin{enumerate}
+  \def\labelenumi{(\alph{enumi})}
+  \setcounter{enumi}{1}
+  \tightlist
+  \item
+    listing sources in a bibliography not directly used in the academic exercise; or
+  \end{enumerate}
+\item
+  \begin{enumerate}
+  \def\labelenumi{(\alph{enumi})}
+  \setcounter{enumi}{2}
+  \tightlist
+  \item
+    submitting falsified, invented, or fictitious data or evidence, or concealing or distorting the true nature, origin, or function of data or evidence.
+  \end{enumerate}
+\end{itemize}
+
+~~~~~In the social context, deceptive representations include:
+
+\begin{itemize}
+\item
+  \begin{enumerate}
+  \def\labelenumi{(\alph{enumi})}
+  \tightlist
+  \item
+    making a false statement to a University official, including Residence Advisors, or
+  \end{enumerate}
+\item
+  \begin{enumerate}
+  \def\labelenumi{(\alph{enumi})}
+  \setcounter{enumi}{1}
+  \tightlist
+  \item
+    presenting a false identification.
+  \end{enumerate}
+\end{itemize}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{4}
+\tightlist
+\item
+  The term ``academic misconduct'' may be used as a generic designation for all honor code violations in the academic context. As a specific charge it includes:
+\end{enumerate}
+
+\begin{itemize}
+\item
+  \begin{enumerate}
+  \def\labelenumi{(\alph{enumi})}
+  \tightlist
+  \item
+    the violation of University policies by tampering with grades
+  \end{enumerate}
+\item
+  \begin{enumerate}
+  \def\labelenumi{(\alph{enumi})}
+  \setcounter{enumi}{1}
+  \tightlist
+  \item
+    taking part in obtaining or distributing any part of an unadministered academic exercise;
+  \end{enumerate}
+\item
+  \begin{enumerate}
+  \def\labelenumi{(\alph{enumi})}
+  \setcounter{enumi}{2}
+  \tightlist
+  \item
+    any attempt to gain access or to aid another in gaining access to any computer account other than one's own without proper authorization; or
+  \end{enumerate}
+\item
+  \begin{enumerate}
+  \def\labelenumi{(\alph{enumi})}
+  \setcounter{enumi}{3}
+  \tightlist
+  \item
+    any attempt to gain access or to aid another in gaining access, without proper authorization, to department offices, faculty offices, laboratories, or any other place where unadministered assignments are kept.
+  \end{enumerate}
+\end{itemize}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{5}
+\tightlist
+\item
+  The term ``contempt'' includes:
+\end{enumerate}
+
+\begin{itemize}
+\item
+  \begin{enumerate}
+  \def\labelenumi{(\alph{enumi})}
+  \tightlist
+  \item
+    instances of perjury (giving false testimony), or
+  \end{enumerate}
+\item
+  \begin{enumerate}
+  \def\labelenumi{(\alph{enumi})}
+  \setcounter{enumi}{1}
+  \tightlist
+  \item
+    acts which otherwise obstruct the conduct process.
+  \end{enumerate}
+\end{itemize}
+
+\emph{Note: Cheating, stealing, making false or deceiving statements, plagiarism, vandalism, and harassment are just as wrong when done in the context of computing as they are in all other aspects of University conduct.}
+
+\hypertarget{discussion-board-etiquette}{%
+\subsection{Discussion Board Etiquette}\label{discussion-board-etiquette}}
+
+Here are a few websites that cover general guidelines for how to write discussion board posts.
+* \href{https://www2.uwstout.edu/content/profdev/rubrics/discuss_etiquette.html}{Discussion Board Etiquette by Kay Lehmann and Lisa Chamberlin}
+* \href{http://learnmore.uncg.edu/blog/etiquette-for-online-course-discussion-boards}{Etiquette For Online Course Discussion Board Posts by Kelly Paul}
+
+Here's a useful and quick video on \href{https://www.youtube.com/watch?v=tg3y2A9pdtI}{discussion boards}
+
+\hypertarget{poem-013-did-i-miss-anything-links-to-an-external-site.}{%
+\subsubsection{\texorpdfstring{\href{https://www.loc.gov/programs/poetry-and-literature/poet-laureate/poet-laureate-projects/poetry-180/all-poems/item/poetry-180-013/did-i-miss-anything/}{Poem 013: Did I Miss Anything? Links to an external site.}}{Poem 013: Did I Miss Anything? Links to an external site.}}\label{poem-013-did-i-miss-anything-links-to-an-external-site.}}
+
+\hypertarget{advice-for-students-so-they-dont-sound-silly-in-emails-essay-links-to-an-external-site.}{%
+\subsubsection{\texorpdfstring{\href{https://www.insidehighered.com/views/2015/04/16/advice-students-so-they-dont-sound-silly-emails-essay}{Advice for students so they don't sound silly in emails (essay) Links to an external site.}}{Advice for students so they don't sound silly in emails (essay) Links to an external site.}}\label{advice-for-students-so-they-dont-sound-silly-in-emails-essay-links-to-an-external-site.}}
+
+\hypertarget{online-learning-resources}{%
+\subsection{Online Learning Resources}\label{online-learning-resources}}
+
+(leaving blank)
+
+\hypertarget{tips-for-taking-online-classes-8-strategies-for-success-links-to-an-external-site.}{%
+\subsubsection{\texorpdfstring{\href{https://www.northeastern.edu/graduate/blog/tips-for-taking-online-classes/}{Tips for Taking Online Classes: 8 Strategies for Success Links to an external site.}}{Tips for Taking Online Classes: 8 Strategies for Success Links to an external site.}}\label{tips-for-taking-online-classes-8-strategies-for-success-links-to-an-external-site.}}
+
+\hypertarget{navigating-digital-information-links-to-an-external-site.}{%
+\subsubsection{\texorpdfstring{\href{https://www.youtube.com/watch?v=pLlv2o6UfTU\&list=PL8dPuuaLjXtN07XYqqWSKpPrtNDiCHTzU}{Navigating Digital Information Links to an external site.}}{Navigating Digital Information Links to an external site.}}\label{navigating-digital-information-links-to-an-external-site.}}
+
+\hypertarget{tech-services-computer-resources}{%
+\subsection{Tech Services \& Computer Resources}\label{tech-services-computer-resources}}
+
+\textbf{Basic Computer Requirements}
+Having regular access to a computer with a reliable Internet connection is required. You will need a word processing program capable of saving word formats such as .doc, .docx or .pdf.
+
+Check out the technical requirements for your computer and browser in order to maximize Canvas functionality: \href{https://apps.3cmediasolutions.org/oei/tools/computer-readiness.html}{Test your computer's readiness}
+
+\textbf{Plug-ins and Helper Applications}
+There may be plug-ins and helper applications to download that support the Canvas environment and play multimedia such as:
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://www.java.com/en/download/}{Java}
+\item
+  \href{https://get.adobe.com/cn/reader/}{Adobe Reader}
+\item
+  \href{https://www.flash.cn/}{Adobe Flash Player}
+\item
+  \href{https://support.microsoft.com/en-us/windows/get-windows-media-player-81718e0d-cfce-25b1-aee3-94596b658287}{Windows Media Player}
+\item
+  \href{https://support.apple.com/kb/DL837?locale=zh_CN}{Quicktime}
+\item
+  \href{https://www.openoffice.org/download/index.html}{Apache Open Office for Microsoft Word}
+\item
+  \href{https://www.microsoft.com/silverlight/}{Microsoft Silverlight}
+\end{itemize}
+
+\textbf{Browser Support}
+
+While Chrome is the preferred browser for most Canvas interactions, Canvas supports the latest versions of every browser release. It's highly recommended that you update to the newest version of whatever browser you are using as well as the most up-to-date Flash plug-in. Check out the Canvas Browser Support page (Links to an external site.) for the most recent information.
+
+\textbf{Contacting the Canvas Help Desk:}
+
+You can search the Canvas Guides or contact the Canvas Support Helpline by clicking the Help icon (circle with a question mark) in the Account menu.
+
+\textbf{Tech Support Cheat Sheet}
+
+\includegraphics{https://imgs.xkcd.com/comics/tech_support_cheat_sheet.png}
+
+\hypertarget{public-health}{%
+\section{Public Health}\label{public-health}}
+
+\textbf{\href{https://ourwayforward.wfu.edu/covid-19-dashboard/}{WFU Covid Dashboard}}
+\textbf{\href{https://www.microcovid.org/}{microCOVID Risk Calculator}}
+\textbf{\href{https://www.nytimes.com/interactive/2021/us/north-carolina-covid-cases.html}{NYT Covid Latest Map and Case Count Links to an external site.}}
+
+\hypertarget{additional-resources}{%
+\section{Additional Resources}\label{additional-resources}}
+
+\hypertarget{licenses-and-attributions}{%
+\subsection{Licenses and Attributions}\label{licenses-and-attributions}}
+
+\textbf{Numerous Icons from the Noun Project by:}
+* Adrien Coquet
+* Corpus Delicti
+* Suhyeon Jung
+
+\textbf{Select lecture notes from:}
+* Jenny Bryan's (\href{https://jennybryan.org/}{jennybryan.org}) \href{https://stat545.com/}{STAT 545}
+* \href{https://wwnorton.com/books/The-Personality-Puzzle/}{David Funder's Personality Puzzle}
+* Anthony Albano's \href{https://www.thetaminusb.com/intro-measurement-r/}{Course Notes on ``Introduction to Educational and Psychological Measurement''}
+* R. Biswas-Diener \& E. Diener (Eds), Noba textbook series: Psychology. Champaign, IL: DEF publishers. Retrieved from \href{https://nobaproject.com/}{noba}
+
+  \bibliography{book.bib,packages.bib}
+
+\end{document}

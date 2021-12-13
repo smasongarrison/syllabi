@@ -23,8 +23,20 @@ This mega syllabus leans on other peoples' materials and ideas. I have done my b
 * Jenny Bryan's ([jennybryan.org](https://jennybryan.org)) [STAT 545][stat-545]
 
 
-<!-- ## Additional Attributions  {-} -->
+## Additional Attributions  {-}
 
+
+** Numerous Icons from the Noun Project by: **
+* Adrien Coquet
+* Corpus Delicti
+* Suhyeon Jung
+
+**Select lecture notes from:**
+
+* Jenny Bryan’s ([jennybryan.org](https://jennybryan.org/)) [STAT 545](https://stat545.com/)
+* [David Funder’s Personality Puzzle](https://wwnorton.com/books/The-Personality-Puzzle/)
+* Anthony Albano's [Course Notes on “Introduction to Educational and Psychological Measurement”](https://www.thetaminusb.com/intro-measurement-r/)
+* R. Biswas-Diener & E. Diener (Eds), Noba textbook series: Psychology. Champaign, IL: DEF publishers. Retrieved from [noba](https://nobaproject.com/)
 
 # License {-#license}
 
@@ -35,7 +47,7 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 Inter
 </center>
  -->
  
-*This information is a human-readable summary of (and not a substitute for) the license.
+* This information is a human-readable summary of (and not a substitute for) the license.
 Please see <https://creativecommons.org/licenses/by-sa/4.0/legalcode> for the full legal text.*
 
 **You are free to:**

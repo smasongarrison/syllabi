@@ -159,6 +159,7 @@ Students will use Canvas to access course content.
 All work/assignments/projects will be distributed and collected through Canvas.
 
 ### I'm having trouble with Canvas -- help!
+
 If you're having trouble with Canvas, you should first search the [Canvas Guides](https://community.canvaslms.com/t5/Canvas-Basics-Guide/tkb-p/basics) and then reach out to canvas support.
 
 
@@ -169,7 +170,7 @@ You can search the Canvas Guides or contact the Canvas Support Helpline by click
  
 ### How do I... ? 
 
-Although I am not canvas tech support, here are some answers to commonly asked questions.
+Although I am not Canvas tech support, here are some answers to commonly asked questions.
 
 
 #### How do I set my notifications on Canvas for my classes?
@@ -200,6 +201,7 @@ Click on 'View Feedback' to view all feedback, including comments and any additi
 
 
 #### How do I accurately check my grades in Canvas?
+
 You're probably familiar with checking your grades for a [current course in Canvas](https://community.canvaslms.com/t5/Student-Guide/How-do-I-view-my-grades-in-a-current-course/ta-p/493), but did you know that you might not be seeing an accurate calculation of your final grade when you check your grades at the end of the semester?
 
 In order to get an accurate view of your final grade towards the end of the semester,
@@ -245,7 +247,7 @@ include_graphics("img/requirements.png")
 ### Where can I find textbooks and course materials?
 
 ```{r, echo=FALSE}
-"https://twitter.com/GaloAndStuff/status/1424818560417902604" %>$
+"https://twitter.com/GaloAndStuff/status/1424818560417902604" %>%
 include_tweet()
 ```
 
