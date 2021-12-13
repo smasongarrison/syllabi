@@ -41,14 +41,23 @@ If you have a question about the course AND can't find your answer elsewhere (or
 
 ### Where...
 
+#### Where can I find the reading list for the entire semester?
+You can find the suggested readings for each module on the GitHub course notes: https://smasongarrison.github.io/personality/
+
 #### Where can I find when assignments are due?
 You can find due dates in the syllabus.
 
+#### Where can I check the closing time of assessments?
+You can check the due time and closing time of assessments by clicking the corresponding page in "Modules". You should be able to see the time after you entered there.
 
 #### Where are my grades?
 You can find it on canvas, under grades. I will not look up this grade for you. You are all hard working and problem-solving students. I believe in you!
 
 ### Can...
+
+#### Can I rent the textbook for this course from somewhere (Amazon, bookstores, etc.)?
+Of course. You can rent the book from Amazon or anywhere else you'd like.
+
 #### Can you calculate my grade for me?
 No. I believe in you!
 
@@ -89,6 +98,9 @@ embed_url() %>%
 
 
 ### Why...
+
+#### Why is the <assignment/activity/quiz> locked?
+Because you didn't complete all the requirements to unlock it... To unlock the activity/module, you need to do whatever is listed.
 
 #### Why do I have to meet with you if I want to see my test again? Why can't you just release them?
 
