@@ -21,42 +21,29 @@ bib <- c(bib, as.BibEntry(citation()))
 bib[length(bib)]$key = "Rcite"
 
 
-topic_vjoe=c(
-  "Introduction and What is Data Science", 
-  "Graphical Data Analysis",
-  "Graphical Masterpieces",
-  "Scatterplots and Correlations",
-  "Quiz 1",
-  "Exploratory Data Analysis",#  "Spring Break",#  "",
-  "Data Transformations", 
-  "Robustness and Resistence", 
-  "Replication",
-  "Quiz 2",
-  "Modern Data Science", 
-  "Archival Data", 
-  "Data mining and CART",
-  "Special Topics",
-  "Special Topics" 
-  )
+
+
+
 
 
 
 topic=c(
-  "What is Data Science and Meet the Toolkit", 
-  "Data and Visualization",
-  "Grammar of data wrangling",
-  "Data types and Data Transformations",
-  "Tips for effective data visualization",
-  "Scientific studies and confounding",#  "Spring Break",#  "",
-  "Web scraping", 
-  "Functions", 
-  "Data and Ethics",
-  "Fitting and interpreting models",
-  "Prediction and overfitting", 
-  "Cross validation", 
-  "Quantifying uncertainty",
-  "Interactive web apps",
-  "Special Topics (like: Text analysis; Machine learning; Bayesian inference)" 
+  "Introduction", 
+  "Getting Ready to Do Statistical Analysis",
+  "Describing Data with R",
+  "Univariate Distributions",
+  "Test 1"
+  "Bivariate Distributions",
+  "Probability Theory",#  "Spring Break",#  "",
+  "Binomials and other sampling distributions", 
+  "Test 2", 
+  "Hypothesis Testing",
+  "Inferences about means",
+  "Special Topics", 
+  "Test 3", 
+  "Applications in R",
+  "Applications in R",
+  "Applications in R" 
   )
 
 
@@ -98,82 +85,86 @@ Schedule
 ## `r advdate(mon, 1, topic)`
 <!---
 - Monday: First Day of Class / Introduction
-- Wednesday: What is personality? (Chapter 1)
-- Friday: Research in Personality: Sources of Data (Chapter 2)
+- Thursday: First Day of Class
 -->
 ## `r advdate(mon, 2, topic)`
 <!---
-- Monday: NO CLASS MLK Day
-- Wednesday: Research Design: Validity (Chapter 2)
-- Friday: Research Design: Generalizability (Chapter 2; Short Assignment 1 Handed Out)
+- Tuesday: Research Design (Chapter 9)
+- Thursday: Sampling Theory (Chapter 8) / Measurement in the Social/Behavioral Sciences 
+
 -->
 ##  `r advdate(mon, 3, topic)` 
 <!---
-- Monday: Personality Assessment (Chapter 3)
-- Tuesday: "Last day to add full-term class"
-- Wednesday: Evaluation and Ethics (Chapter 3)
-- Friday: Person versus Situation (Chapter 4)
+- Tuesday: Describing Data Graphically with R
+
+- Wednesday (Sep 05, 2018)
+    - Last day to drop a class (with a paper drop form) with no entry on the record
+    - Last day to add a class & register for pass/fail status using paper forms 
+- Thursday: Describing Data Numerically with R
+
 -->
 
 ##  `r advdate(mon, 4, topic)`
 <!---
-- Monday: What are traits? What are the basic traits? (Chapter 4)
-- Wednesday: Personality Judgement (Chapter 5)
-- Friday: Using Personality Traits to Understand Behavior (Chapter 6; Assignment 1 Due)
+- Tuesday: Univariate Distributions (Chapter 1/2)
+- Thursday: Standardization, z-scores, and the normal distribution	(Chapter 3)
 -->
 ##  `r advdate(mon, 5, topic)`
 <!---
-- Monday: Big Five (Chapter 6)
-- Wednesday: Review
-- Friday: Test 1
+- Tuesday: Test 1 Review
+
+- Thursday: Test 1
 -->
 ##  `r advdate(mon, 6, topic)`
 <!---
-- Monday: Brains (Chapter 8)
-- Wednesday: More Brains (Chapter 8)
-- Friday: Behavior Genetics (Chapter 9)
+- Tuesday: Bivariate Distributions (Chapter 4)
+
+- Thursday: Correlation	(Chapter 5)
 -->
 ##  `r advdate(mon, 7, topic)` 
 <!---
-- Monday: Behavior Genetics (Chapter 9)
-- Wednesday: Evolutionary Psychology (Chapter 9)
-- Friday: Evolutionary Psychology (Chapter 9)
+- Thursday: Probability Theory (Chapter 12) 
 -->
 ##  `r advdate(mon, 8, topic)`
 <!---
-- Monday: Personality over the Lifespan (Chapter 7)
-- Wednesday: Personality over the Lifespan (Chapter 7)
-- Friday: Personality Processes (Chapter 15)
+- Tuesday: More Probability Theory (Chapter 13) 
+
+- Thursday: Review
 -->
 ##  `r advdate(mon, 9, topic)`
 <!---
-- Monday: No Class
-- Wednesday: No Class
-- Friday: No Class
+- Tuesday: Test 2
+
+- Thursday No Class (Fall Break Oct 18-19)
+- Friday (Oct 19, 2018)
+    - Last day undergraduate students may withdraw from fall semester classes
+    - Last day to change from pass/fail to graded status in a fall semester class
 -->
 ##  `r advdate(mon, 10, topic)`
 <!---
-- Monday: Personality Processes (Chapter 15)
-- Wednesday: Review
-- Friday: Test 2
+- Tuesday: The Logic of Hypothesis Testing Hypotheses, Errors (Chapters 16-19)
+
+- Thursday: t-tests
 -->
 ##  `r advdate(mon, 11, topic)`
 <!---
-- Monday: The Self (Chapter 16) Last day to drop with a grade of "W"
-- Wednesday: The Self (Chapter 16)
-- Friday:  Freud (Chapter 10) 
+- Tuesday: Applying t-tests and ANOVA (Chapters 20 & 21)
+
+- Thursday: More Analysis of Variance	(Chapters 24 & 27)
 -->
 ##  `r advdate(mon, 12, topic)`
 <!---
-- Monday: Freud (Chapter 10)
-- Wednesday: Freud (Chapter 10)
-- Friday: Neo-Freud (Chapter 11; Assignment 2 Due)
+- Tuesday: Subverting the Research Process
+
+- Thursday: Causal Inference
 -->
 ## `r advdate(mon, 13, topic)`
 <!---
-- Monday:  Neo-Freud (Chapter 11) 
-- Wednesday: Positive Psychology
-- Friday: Positive Psychology
+- Tuesday: Review
+
+- Wednesday: Alternative Test Date
+
+- Thursday: Test 3
 -->
 ##  `r advdate(mon, 14, topic)`
 <!---
@@ -184,14 +175,16 @@ Schedule
 
 ##  `r advdate(mon, 15, topic)`
 <!---
-- Monday: Personality and Physical Health
-- Wednesday: Personality and Mental Health
-- Friday: Personality Disorders
+- Tuesday: Translating Research Questions into R
+
+- Thursday: Addressing Statistical Questions in R
+
 
 ##  `r advdate(mon, 16, topic)` 
 
-- Monday: Special Topics
-- Wednesday: Review; Assignment 3 Due; Last Day of Class
+- Tuesday: Addressing Statistical Questions in R
+- Thursday: Last Day of Class 
+- Friday: Extra Credit Due at 7pm
 
 ## Final Exam 
 
