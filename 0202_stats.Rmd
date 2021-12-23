@@ -32,7 +32,7 @@ topic=c(
   "Getting Ready to Do Statistical Analysis",
   "Describing Data with R",
   "Univariate Distributions",
-  "Test 1"
+  "Test 1",
   "Bivariate Distributions",
   "Probability Theory",#  "Spring Break",#  "",
   "Binomials and other sampling distributions", 

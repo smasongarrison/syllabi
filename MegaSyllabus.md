@@ -2,7 +2,7 @@
 title: "Prof. Mason's Syllabi"
 author: 
 - S. Mason Garrison
-date: "2021-12-13"
+date: "2021-12-23"
 knit: "bookdown::render_book"
 site: bookdown::bookdown_site
 url: 'https\://github.com/smasongarrison/syllabi'
@@ -795,8 +795,20 @@ This mega syllabus leans on other peoples' materials and ideas. I have done my b
 * Jenny Bryan's ([jennybryan.org](https://jennybryan.org)) [STAT 545][stat-545]
 
 
-<!-- ## Additional Attributions  {-} -->
+## Additional Attributions  {-}
 
+
+** Numerous Icons from the Noun Project by: **
+* Adrien Coquet
+* Corpus Delicti
+* Suhyeon Jung
+
+**Select lecture notes from:**
+
+* Jenny Bryan’s ([jennybryan.org](https://jennybryan.org/)) [STAT 545](https://stat545.com/)
+* [David Funder’s Personality Puzzle](https://wwnorton.com/books/The-Personality-Puzzle/)
+* Anthony Albano's [Course Notes on “Introduction to Educational and Psychological Measurement”](https://www.thetaminusb.com/intro-measurement-r/)
+* R. Biswas-Diener & E. Diener (Eds), Noba textbook series: Psychology. Champaign, IL: DEF publishers. Retrieved from [noba](https://nobaproject.com/)
 
 # License {-#license}
 
@@ -865,14 +877,14 @@ This version of the notes was built with:
 #> Finding R package dependencies ... Done!
 #>  setting  value
 #>  version  R version 4.0.5 (2021-03-31)
-#>  os       Windows 10 x64 (build 19043)
+#>  os       Windows 10 x64 (build 19044)
 #>  system   x86_64, mingw32
 #>  ui       RTerm
 #>  language (EN)
 #>  collate  English_United States.1252
 #>  ctype    English_United States.1252
 #>  tz       America/New_York
-#>  date     2021-12-13
+#>  date     2021-12-23
 #>  pandoc   2.11.4 @ C:/Program Files/RStudio/bin/pandoc/ (via rmarkdown)
 ```
 
@@ -880,8 +892,8 @@ Along with these packages:
 
 
 ```{=html}
-<div id="htmlwidget-dfdb698dd77ff1481e6a" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-dfdb698dd77ff1481e6a">{"x":{"filter":"top","vertical":false,"filterHTML":"<tr>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n<\/tr>","data":[["askpass","assertthat","backports","base64enc","bit","bit64","bitops","blob","bookdown","brew","brio","broom","cachem","callr","cellranger","checkmate","cli","clipr","colorspace","commonmark","conflicted","cpp11","crayon","credentials","crosstalk","crul","curl","data.table","DBI","dbplyr","desc","devtools","dichromat","diffobj","digest","dplyr","DT","dtplyr","ellipsis","evaluate","fansi","farver","fastmap","forcats","fs","gapminder","gargle","gender","genderdata","generics","geonames","gert","ggplot2","gh","gitcreds","glue","googledrive","googlesheets4","gridExtra","gt","gtable","haven","highr","hms","htmltools","htmlwidgets","httpcode","httr","ids","ini","isoband","jquerylib","jsonlite","knitr","labeling","later","lattice","lazyeval","lifecycle","lubridate","magrittr","MASS","Matrix","memoise","mgcv","mime","modelr","munsell","nlme","openssl","pillar","pkgbuild","pkgconfig","pkgload","plyr","praise","prettyunits","processx","progress","promises","ps","purrr","R6","rappdirs","rcmdcheck","RColorBrewer","Rcpp","readr","readxl","rebird","rematch","rematch2","remotes","reprex","reshape2","rjson","rlang","rmarkdown","roxygen2","rplos","rprojroot","rstudioapi","rversions","rvest","sass","scales","selectr","sessioninfo","solrium","stringi","stringr","sys","testthat","tibble","tidyr","tidyselect","tidyverse","tinytex","triebeard","tzdb","urltools","usethis","utf8","uuid","vctrs","viridis","viridisLite","vroom","waldo","whisker","withr","xfun","xml2","xopen","yaml","zip"],[null,"0.2.1","1.3.0",null,null,null,null,null,"0.24",null,null,"0.7.10","1.0.6","3.7.0","1.1.0",null,"3.1.0",null,"2.0-2",null,null,null,"1.4.2",null,null,null,null,null,"1.1.1","2.1.1","1.4.0","2.4.3",null,null,"0.6.28","1.0.7","0.20",null,"0.3.2","0.14","0.5.0",null,"1.1.0","0.5.1","1.5.0",null,null,null,null,"0.1.1",null,null,"3.3.5",null,null,"1.5.0",null,null,null,null,"0.3.0","2.4.3",null,"1.1.1","0.5.2","1.5.4",null,"1.4.2",null,null,null,"0.1.4","1.7.2","1.36",null,null,null,null,"1.0.1","1.8.0","2.0.1",null,null,"2.0.1",null,null,"0.1.8","0.5.0",null,null,"1.6.4","1.2.1","2.0.3","1.2.4",null,null,"1.1.1","3.5.2",null,null,"1.6.0","0.3.4","2.5.1",null,null,null,"1.0.7","2.1.1","1.3.1",null,null,null,"2.4.2","2.0.1",null,null,"0.4.12","2.11",null,null,"2.0.2","0.13",null,"1.0.2","0.4.0","1.1.1",null,"1.2.2",null,"1.7.6","1.4.0",null,"3.1.1","3.1.6","1.1.4","1.1.1","1.3.1",null,null,"0.2.0",null,"2.1.3","1.2.2",null,"0.3.8",null,null,null,null,null,"2.4.3","0.28","1.3.3",null,"2.2.1",null],["2019-01-13","2019-03-21","2021-10-27","2015-07-28","2020-08-04","2020-08-30","2021-04-24","2021-07-23","2021-09-02","2011-04-13","2021-11-30","2021-10-31","2021-08-19","2021-04-20","2016-07-27","2020-02-06","2021-10-27","2020-10-08","2021-06-24","2018-12-01","2021-11-26","2021-11-30","2021-10-29","2021-11-29","2021-11-04","2021-11-22","2021-06-23","2021-09-27","2021-01-15","2021-04-06","2021-09-28","2021-11-30","2013-01-24","2021-10-05","2021-09-23","2021-06-18","2021-11-15","2021-12-05","2021-04-29","2019-05-28","2021-05-25","2021-02-28","2021-01-25","2021-01-27","2020-07-31","2017-10-31","2021-07-02","2021-10-13","2020-11-17","2021-10-25","2019-02-19","2021-11-10","2021-06-25","2021-04-30","2020-12-04","2021-11-07","2021-07-08","2021-07-21","2017-09-09","2021-08-07","2019-03-25","2021-08-04","2021-04-16","2021-09-26","2021-08-25","2021-09-08","2020-04-10","2020-07-20","2017-05-31","2018-05-20","2021-07-13","2021-04-26","2020-12-09","2021-09-29","2020-10-20","2021-08-18","2020-04-02","2019-03-15","2021-09-24","2021-10-07","2020-11-17","2021-02-12","2021-01-06","2021-11-26","2021-02-16","2021-09-28","2020-05-19","2018-06-12","2021-02-04","2021-09-02","2021-10-18","2021-11-30","2019-09-22","2021-11-30","2020-03-03","2015-08-11","2020-01-24","2021-04-30","2019-05-16","2021-02-11","2021-02-28","2020-04-17","2021-08-19","2021-01-31","2021-09-27","2014-12-07","2021-07-07","2021-11-30","2019-03-13","2021-09-20","2016-04-21","2020-05-01","2021-11-30","2021-08-05","2020-04-09","2018-06-08","2021-10-18","2021-09-14","2021-09-08","2021-02-23","2020-11-15","2020-11-12","2021-05-31","2021-10-16","2021-05-12","2020-05-11","2019-11-20","2021-12-06","2021-05-19","2021-11-29","2019-02-10","2020-07-23","2021-12-03","2021-11-07","2021-09-27","2021-04-30","2021-04-15","2021-11-04","2016-08-04","2021-10-27","2019-04-14","2021-10-27","2021-07-24","2021-11-01","2021-04-29","2021-10-13","2021-04-13","2021-11-30","2021-09-14","2019-08-28","2021-11-30","2021-11-04","2021-11-30","2018-09-17","2020-02-01","2021-05-31"],["CRAN (R 4.0.0)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.2)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","local","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.2)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.0)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.2)","CRAN (R 4.0.0)","CRAN (R 4.0.5)"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>package<\/th>\n      <th>loadedversion<\/th>\n      <th>date<\/th>\n      <th>source<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":156,"autoWidth":true,"bInfo":false,"paging":false,"order":[],"orderClasses":false,"orderCellsTop":true,"lengthMenu":[10,25,50,100,156]}},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-578f930150f413d43b69" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-578f930150f413d43b69">{"x":{"filter":"top","vertical":false,"filterHTML":"<tr>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n<\/tr>","data":[["askpass","assertthat","backports","base64enc","bit","bit64","bitops","blob","bookdown","brew","brio","broom","cachem","callr","cellranger","checkmate","cli","clipr","colorspace","commonmark","conflicted","cpp11","crayon","credentials","crosstalk","crul","curl","data.table","DBI","dbplyr","desc","devtools","dichromat","diffobj","digest","dplyr","DT","dtplyr","ellipsis","evaluate","fansi","farver","fastmap","forcats","fs","gapminder","gargle","gender","genderdata","generics","geonames","gert","ggplot2","gh","gitcreds","glue","googledrive","googlesheets4","gridExtra","gt","gtable","haven","highr","hms","htmltools","htmlwidgets","httpcode","httr","ids","ini","isoband","jquerylib","jsonlite","knitr","labeling","later","lattice","lazyeval","lifecycle","lubridate","magrittr","MASS","Matrix","memoise","mgcv","mime","modelr","munsell","nlme","openssl","pillar","pkgbuild","pkgconfig","pkgload","plyr","praise","prettyunits","processx","progress","promises","ps","purrr","R6","rappdirs","rcmdcheck","RColorBrewer","Rcpp","readr","readxl","rebird","rematch","rematch2","remotes","reprex","reshape2","rjson","rlang","rmarkdown","roxygen2","rplos","rprojroot","rstudioapi","rversions","rvest","sass","scales","selectr","sessioninfo","solrium","stringi","stringr","sys","testthat","tibble","tidyr","tidyselect","tidyverse","tinytex","triebeard","tzdb","urltools","usethis","utf8","uuid","vctrs","viridis","viridisLite","vroom","waldo","whisker","withr","xfun","xml2","xopen","yaml","zip"],[null,"0.2.1","1.4.1",null,null,null,null,null,"0.24",null,null,"0.7.10","1.0.6","3.7.0","1.1.0",null,"3.1.0",null,"2.0-2",null,null,null,"1.4.2",null,null,null,null,null,"1.1.2","2.1.1","1.4.0","2.4.3",null,null,"0.6.27","1.0.7","0.20",null,"0.3.2","0.14","0.5.0",null,"1.1.0","0.5.1","1.5.2",null,null,null,null,"0.1.1",null,null,"3.3.5",null,null,"1.6.0",null,null,null,null,"0.3.0","2.4.3",null,"1.1.1","0.5.2","1.5.4",null,"1.4.2",null,null,null,"0.1.4","1.7.2","1.37",null,null,null,null,"1.0.1","1.8.0","2.0.1",null,null,"2.0.1",null,null,"0.1.8","0.5.0",null,null,"1.6.4","1.3.1","2.0.3","1.2.4",null,null,"1.1.1","3.5.2",null,null,"1.6.0","0.3.4","2.5.1",null,null,null,"1.0.7","2.1.1","1.3.1",null,null,null,"2.4.2","2.0.1",null,null,"0.4.11","2.11",null,null,"2.0.2","0.13",null,"1.0.2","0.4.0","1.1.1",null,"1.2.2",null,"1.7.6","1.4.0",null,"3.1.1","3.1.6","1.1.4","1.1.1","1.3.1",null,null,"0.2.0",null,"2.1.5","1.2.2",null,"0.3.8",null,null,null,null,null,"2.4.3","0.29","1.3.3",null,"2.2.1",null],["2019-01-13","2019-03-21","2021-12-13","2015-07-28","2020-08-04","2020-08-30","2021-04-24","2021-07-23","2021-09-02","2011-04-13","2021-11-30","2021-10-31","2021-08-19","2021-04-20","2016-07-27","2020-02-06","2021-10-27","2020-10-08","2021-06-24","2018-12-01","2021-11-26","2021-11-30","2021-10-29","2021-11-29","2021-11-04","2021-11-22","2021-06-23","2021-09-27","2021-12-20","2021-04-06","2021-09-28","2021-11-30",null,"2021-10-05","2020-10-24","2021-06-18","2021-11-15","2021-12-05","2021-04-29","2019-05-28","2021-05-25","2021-02-28","2021-01-25","2021-01-27","2021-12-08","2017-10-31","2021-07-02","2021-10-13",null,"2021-10-25","2019-02-19","2021-11-10","2021-06-25","2021-04-30","2020-12-04","2021-12-17","2021-07-08","2021-07-21","2017-09-09","2021-08-07","2019-03-25","2021-08-04","2021-04-16","2021-09-26","2021-08-25","2021-09-08","2020-04-10","2020-07-20","2017-05-31","2018-05-20","2021-07-13","2021-04-26","2020-12-09","2021-12-16","2020-10-20","2021-08-18","2020-04-02","2019-03-15","2021-09-24","2021-10-07","2020-11-17","2021-02-12","2021-01-06","2021-11-26","2021-02-16","2021-09-28","2020-05-19","2018-06-12","2021-02-04","2021-12-19","2021-10-18","2021-12-20","2019-09-22","2021-11-30","2020-03-03","2015-08-11","2020-01-24","2021-04-30","2019-05-16","2021-02-11","2021-02-28","2020-04-17","2021-08-19","2021-01-31","2021-09-27","2014-12-07","2021-07-07","2021-11-30","2019-03-13","2021-09-20","2016-04-21","2020-05-01","2021-11-30","2021-08-05","2020-04-09","2018-06-08","2021-04-30","2021-09-14","2021-09-08","2021-02-23","2020-11-15","2020-11-12","2021-05-31","2021-10-16","2021-05-12","2020-05-11","2019-11-20","2021-12-06","2021-05-19","2021-11-29","2019-02-10","2020-07-23","2021-12-03","2021-11-07","2021-09-27","2021-04-30","2021-04-15","2021-12-19","2016-08-04","2021-10-27","2019-04-14","2021-12-09","2021-07-24","2021-11-01","2021-04-29","2021-10-13","2021-04-13","2021-11-30","2021-09-14","2019-08-28","2021-11-30","2021-12-14","2021-11-30","2018-09-17","2020-02-01","2021-05-31"],["CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)",null,"CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)",null,"CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>package<\/th>\n      <th>loadedversion<\/th>\n      <th>date<\/th>\n      <th>source<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":156,"autoWidth":true,"bInfo":false,"paging":false,"order":[],"orderClasses":false,"orderCellsTop":true,"lengthMenu":[10,25,50,100,156]}},"evals":[],"jsHooks":[]}</script>
 ```
 
 
@@ -896,7 +908,7 @@ The R session information when compiling this book is shown below:
 sessionInfo()
 #> R version 4.0.5 (2021-03-31)
 #> Platform: x86_64-w64-mingw32/x64 (64-bit)
-#> Running under: Windows 10 x64 (build 19043)
+#> Running under: Windows 10 x64 (build 19044)
 #> 
 #> Matrix products: default
 #> 
@@ -911,10 +923,10 @@ sessionInfo()
 #> [1] stats     graphics  grDevices utils     datasets  methods   base     
 #> 
 #> other attached packages:
-#>  [1] DT_0.20         devtools_2.4.3  usethis_2.1.3   forcats_0.5.1  
+#>  [1] DT_0.20         devtools_2.4.3  usethis_2.1.5   forcats_0.5.1  
 #>  [5] stringr_1.4.0   dplyr_1.0.7     purrr_0.3.4     readr_2.1.1    
 #>  [9] tidyr_1.1.4     tibble_3.1.6    ggplot2_3.3.5   tidyverse_1.3.1
-#> [13] webshot_0.5.2   knitr_1.36      vembedr_0.1.4   tweetrmd_0.0.8 
+#> [13] webshot_0.5.2   knitr_1.37      vembedr_0.1.5   tweetrmd_0.0.8 
 #> 
 #> loaded via a namespace (and not attached):
 #> [1] tools_4.0.5     bookdown_0.24   rmarkdown_2.11  htmltools_0.5.2
@@ -1354,7 +1366,7 @@ Most of my classes require that you have a computer that can run R and stream vi
 ```{=html}
 <div class="vembedr" align="center">
 <div>
-<iframe src="https://www.youtube.com/embed/kVIZGCT5p9U" width="533" height="300" frameborder="0" allowfullscreen=""></iframe>
+<iframe src="https://www.youtube.com/embed/kVIZGCT5p9U" width="533" height="300" frameborder="0" allowfullscreen="" data-external="1"></iframe>
 </div>
 </div>
 ```
@@ -1429,18 +1441,24 @@ An unexcused absence will result in a zero for any graded work that should have 
 
 ### Late Work
 
-Be sure to pay close attention to deadlines. 
-If an assignment is not submitted by the deadline (i.e., is late), the student must email the instructor and provide a new deadline, ask for an alternative, or explain concerns *within 36 hours* of the missed deadline. 
-Ideally, you will have communicated with me in advance of the deadline, but on occasion life happens. 
-As long as you've communicated *within 36 hours*, I will do my best to work with you to come up with a new deadline or modification, so that you can earn full credit. 
-This late policy does not apply to exams, tests, or quizzes.
++ Be sure to pay close attention to deadlines. 
++ If an assignment is not submitted by the deadline (i.e., is late), the student must email the instructor and provide a new deadline, ask for an alternative, or explain concerns *within 36 hours* of the missed deadline. 
++ Ideally, you will have communicated with me in advance of the deadline, but on occasion life happens. 
++ As long as you've communicated *within 36 hours*, I will do my best to work with you to come up with a new deadline or modification, so that you can earn full credit. + Any modifiation or change of deadline must be confirmed in writing. And must be done for each modification.
++ This late policy does not apply to exams, tests, or quizzes. 
 
-If contact is not made *within 36 hours* of the missed deadline, the missing assignment will receive a 0. 
+If contact is not made *within 36 hours* of the missed deadline, the missing assignment will receive a 0 and can not be made up. 
+
 Alternative deadlines will be within one week of the original deadline. 
-Exceptions to the 1 week policy are at the instructor's discretion. 
-In general, I am much more sympathetic and accommodating if you communicate in advance. 
+
+Exceptions to the 1 week policy are at the instructor's discretion. Exceptions are rare.
+
+In general, I am much more sympathetic and accommodating if you communicate in advance.
+
+#### Submissions
 
 It is your responsibility to ensure that the instructor has received the assignment by the established due date and to ensure that the assignment submitted is the complete and correct version. 
+
 Unless otherwise explicitly specified, all work must be submitted through Canvas.
 
 Unless you have communicated with me in advance, there will be no make-up quizzes or tests.
@@ -1470,10 +1488,8 @@ You rightfully deserve them, in the legal, moral, and ethical sense.
 These accommodations are there so that you can be your best possible self. 
 
 
-```{=html}
-<blockquote class="twitter-tweet" data-width="550" data-lang="en" data-dnt="true" data-theme="light"><p lang="en" dir="ltr">Instead of asking only disabled people to disclose their disability, when it might not be safe to do so, why don&#39;t employers ask EVERYONE what their access needs and workplace adjustments are.<br><br>Normalise that everyone needs flexibility and the tools to do their job. <a href="https://twitter.com/hashtag/DisabilityRC?src=hash&amp;ref_src=twsrc%5Etfw">#DisabilityRC</a></p>&mdash; El Gibbs (@bluntshovels) <a href="https://twitter.com/bluntshovels/status/1463275576337129480?ref_src=twsrc%5Etfw">November 23, 2021</a></blockquote>
 
-```
+
 ## Self-Advocacy
 
 At Wake Forest and at many other places, the expectation is that you will self-advocate for yourselves and know exactly what you need. Is that a good expectation? Is that a good model? Is that equitable? I have thoughts... regardless, that is the current state of the world. Accordingly, you will have to advocate for what you need. If this process seems daunting, please talk to me! Regardless, I am happy to talk with you about this process and to share my own experiences.
@@ -2300,103 +2316,109 @@ Wickham and Grolemund's R for Data Science text (http://r4ds.had.co.nz/)
 Schedule
 -->
 
-## Week 01, 01/10 - 01/14 : What is Data Science and Meet the Toolkit
+## Week 01, 01/10 - 01/14 : Introduction
 <!---
 - Monday: First Day of Class / Introduction
-- Wednesday: What is personality? (Chapter 1)
-- Friday: Research in Personality: Sources of Data (Chapter 2)
+- Thursday: First Day of Class
 -->
-## Week 02, 01/17 - 01/21 : Data and Visualization
+## Week 02, 01/17 - 01/21 : Getting Ready to Do Statistical Analysis
 <!---
-- Monday: NO CLASS MLK Day
-- Wednesday: Research Design: Validity (Chapter 2)
-- Friday: Research Design: Generalizability (Chapter 2; Short Assignment 1 Handed Out)
+- Tuesday: Research Design (Chapter 9)
+- Thursday: Sampling Theory (Chapter 8) / Measurement in the Social/Behavioral Sciences 
+
 -->
-##  Week 03, 01/24 - 01/28 : Grammar of data wrangling 
+##  Week 03, 01/24 - 01/28 : Describing Data with R 
 <!---
-- Monday: Personality Assessment (Chapter 3)
-- Tuesday: "Last day to add full-term class"
-- Wednesday: Evaluation and Ethics (Chapter 3)
-- Friday: Person versus Situation (Chapter 4)
+- Tuesday: Describing Data Graphically with R
+
+- Wednesday (Sep 05, 2018)
+    - Last day to drop a class (with a paper drop form) with no entry on the record
+    - Last day to add a class & register for pass/fail status using paper forms 
+- Thursday: Describing Data Numerically with R
+
 -->
 
-##  Week 04, 01/31 - 02/04 : Data types and Data Transformations
+##  Week 04, 01/31 - 02/04 : Univariate Distributions
 <!---
-- Monday: What are traits? What are the basic traits? (Chapter 4)
-- Wednesday: Personality Judgement (Chapter 5)
-- Friday: Using Personality Traits to Understand Behavior (Chapter 6; Assignment 1 Due)
+- Tuesday: Univariate Distributions (Chapter 1/2)
+- Thursday: Standardization, z-scores, and the normal distribution	(Chapter 3)
 -->
-##  Week 05, 02/07 - 02/11 : Tips for effective data visualization
+##  Week 05, 02/07 - 02/11 : Test 1
 <!---
-- Monday: Big Five (Chapter 6)
-- Wednesday: Review
-- Friday: Test 1
+- Tuesday: Test 1 Review
+
+- Thursday: Test 1
 -->
-##  Week 06, 02/14 - 02/18 : Scientific studies and confounding
+##  Week 06, 02/14 - 02/18 : Bivariate Distributions
 <!---
-- Monday: Brains (Chapter 8)
-- Wednesday: More Brains (Chapter 8)
-- Friday: Behavior Genetics (Chapter 9)
+- Tuesday: Bivariate Distributions (Chapter 4)
+
+- Thursday: Correlation	(Chapter 5)
 -->
-##  Week 07, 02/21 - 02/25 : Web scraping 
+##  Week 07, 02/21 - 02/25 : Probability Theory 
 <!---
-- Monday: Behavior Genetics (Chapter 9)
-- Wednesday: Evolutionary Psychology (Chapter 9)
-- Friday: Evolutionary Psychology (Chapter 9)
+- Thursday: Probability Theory (Chapter 12) 
 -->
-##  Week 08, 02/28 - 03/04 : Functions
+##  Week 08, 02/28 - 03/04 : Binomials and other sampling distributions
 <!---
-- Monday: Personality over the Lifespan (Chapter 7)
-- Wednesday: Personality over the Lifespan (Chapter 7)
-- Friday: Personality Processes (Chapter 15)
+- Tuesday: More Probability Theory (Chapter 13) 
+
+- Thursday: Review
 -->
-##  Week 09, 03/07 - 03/11 : Data and Ethics
+##  Week 09, 03/07 - 03/11 : Test 2
 <!---
-- Monday: No Class
-- Wednesday: No Class
-- Friday: No Class
+- Tuesday: Test 2
+
+- Thursday No Class (Fall Break Oct 18-19)
+- Friday (Oct 19, 2018)
+    - Last day undergraduate students may withdraw from fall semester classes
+    - Last day to change from pass/fail to graded status in a fall semester class
 -->
-##  Week 10, 03/14 - 03/18 : Fitting and interpreting models
+##  Week 10, 03/14 - 03/18 : Hypothesis Testing
 <!---
-- Monday: Personality Processes (Chapter 15)
-- Wednesday: Review
-- Friday: Test 2
+- Tuesday: The Logic of Hypothesis Testing Hypotheses, Errors (Chapters 16-19)
+
+- Thursday: t-tests
 -->
-##  Week 11, 03/21 - 03/25 : Prediction and overfitting
+##  Week 11, 03/21 - 03/25 : Inferences about means
 <!---
-- Monday: The Self (Chapter 16) Last day to drop with a grade of "W"
-- Wednesday: The Self (Chapter 16)
-- Friday:  Freud (Chapter 10) 
+- Tuesday: Applying t-tests and ANOVA (Chapters 20 & 21)
+
+- Thursday: More Analysis of Variance	(Chapters 24 & 27)
 -->
-##  Week 12, 03/28 - 04/01 : Cross validation
+##  Week 12, 03/28 - 04/01 : Special Topics
 <!---
-- Monday: Freud (Chapter 10)
-- Wednesday: Freud (Chapter 10)
-- Friday: Neo-Freud (Chapter 11; Assignment 2 Due)
+- Tuesday: Subverting the Research Process
+
+- Thursday: Causal Inference
 -->
-## Week 13, 04/04 - 04/08 : Quantifying uncertainty
+## Week 13, 04/04 - 04/08 : Test 3
 <!---
-- Monday:  Neo-Freud (Chapter 11) 
-- Wednesday: Positive Psychology
-- Friday: Positive Psychology
+- Tuesday: Review
+
+- Wednesday: Alternative Test Date
+
+- Thursday: Test 3
 -->
-##  Week 14, 04/11 - 04/15 : Interactive web apps
+##  Week 14, 04/11 - 04/15 : Applications in R
 <!---
 - Monday: Cross-Cultural Psychology
 - Wednesday: Cross-Cultural Psychology
 - Friday: Cross-Cultural Psychology
 -->
 
-##  Week 15, 04/18 - 04/22 : Special Topics (like: Text analysis; Machine learning; Bayesian inference)
+##  Week 15, 04/18 - 04/22 : Applications in R
 <!---
-- Monday: Personality and Physical Health
-- Wednesday: Personality and Mental Health
-- Friday: Personality Disorders
+- Tuesday: Translating Research Questions into R
 
-##  Week 16, 04/25 - 04/29 : NA 
+- Thursday: Addressing Statistical Questions in R
 
-- Monday: Special Topics
-- Wednesday: Review; Assignment 3 Due; Last Day of Class
+
+##  Week 16, 04/25 - 04/29 : Applications in R 
+
+- Tuesday: Addressing Statistical Questions in R
+- Thursday: Last Day of Class 
+- Friday: Extra Credit Due at 7pm
 
 ## Final Exam 
 
@@ -2908,7 +2930,7 @@ If you have a question about the course AND can't find your answer elsewhere (or
 ### Where...
 
 #### Where can I find the reading list for the entire semester?
-You can find the suggested readings for each module on the GitHub course notes: https://smasongarrison.github.io/personality/
+You can find the suggested readings for each module either on canvas or the GitHub course notes.
 
 #### Where can I find when assignments are due?
 You can find due dates in the syllabus.
@@ -2920,6 +2942,13 @@ You can check the due time and closing time of assessments by clicking the corre
 You can find it on canvas, under grades. I will not look up this grade for you. You are all hard working and problem-solving students. I believe in you!
 
 ### Can...
+
+#### Can you bump up my grade?
+
+No. Please don't [grade grub](https://undergraduateswrite.com/2019/05/10/i-say-grade-grubbing-you-say-it-doesnt-hurt-to-ask-on-asking-teachers-to-bump-your-final-grade/). [Seriously, don't do it at the end of the semester.](https://undergraduateswrite.com/2019/05/10/i-say-grade-grubbing-you-say-it-doesnt-hurt-to-ask-on-asking-teachers-to-bump-your-final-grade/) Don't ask me for extra credit or special opportunities to boost your grade. Please don't pull on my heart strings about how you need a certain grade or there will be consequences for you. I know that many students think that it doesn't hurt to ask. It does. It hurts me. Although I care deeply about my students, I have to say no because it isn't equitable. So please don't ask for the grade boost. Seriously, I get enough emotional manipulation from my cats for leaving them at home all day. 
+
+* https://undergraduateswrite.com/2019/05/10/i-say-grade-grubbing-you-say-it-doesnt-hurt-to-ask-on-asking-teachers-to-bump-your-final-grade
+
 
 #### Can I rent the textbook for this course from somewhere (Amazon, bookstores, etc.)?
 Of course. You can rent the book from Amazon or anywhere else you'd like.
@@ -2966,7 +2995,7 @@ embed_url() %>%
 ```{=html}
 <div class="vembedr" align="center">
 <div>
-<iframe src="https://www.youtube.com/embed/WVvKnq5XT-g" width="533" height="300" frameborder="0" allowfullscreen=""></iframe>
+<iframe src="https://www.youtube.com/embed/WVvKnq5XT-g" width="533" height="300" frameborder="0" allowfullscreen="" data-external="1"></iframe>
 </div>
 </div>
 ```
@@ -2990,14 +3019,15 @@ Please, understand that there's not much more I can do at this point. And I have
 
 What you are experiencing is the result of years of speech therapy and is a massive improvement. If you *genuinely* struggle to understand me, please TALK to me about it. I can connect you with resources, including my scripts, previous recordings of lectures. If those don't help, we can work in the LAC to figure out an accommodation that works for both of us. PLEASE do not wait until after the course is over and complain in my course evaluations. That is not helpful to anyone. 
 
+### How ...
+#### How much time should I spend on one class every week?
+The time you spend on a class can vary. No two instructors will format their classes exactly the same. Under the standard ("Carnegie Unit")  [https://www.carnegiefoundation.org/faqs/carnegie-unit/], each credit hour corresponds to a *minimum* of 3 hours of student engagement per week for a traditional 15-week course. This time may be spent on discussions, readings, and lectures, study, and research, and assignments. This ratio is called the 
 
+
+If you find yourself spending a lot more or a lot less than 9 hours per week on this class, please let me know. That probably means that either you're doing too much or too little.
 
 
 ## Online Learning
-
-### How much time should I spend on one class every week?
-The time you spend on a class can vary. No two instructors will format their classes exactly the same. In general, each credit hour corresponds to a *minimum* of 3 hours of student engagement per week for a traditional 15-week course. This time may be spent on discussions, readings, and lectures, study, and research, and assignments.
-If you find yourself spending a lot more or a lot less than 9 hours per week on this class, please let me know. That probably means that either you're doing too much or too little.
 
 
 ### How long are the videos?
@@ -3161,7 +3191,7 @@ I've created a [video](https://youtu.be/dc3D2tbl8G0) highlighting how to be a su
 ```{=html}
 <div class="vembedr" align="center">
 <div>
-<iframe src="https://www.youtube.com/embed/dc3D2tbl8G0" width="533" height="300" frameborder="0" allowfullscreen=""></iframe>
+<iframe src="https://www.youtube.com/embed/dc3D2tbl8G0" width="533" height="300" frameborder="0" allowfullscreen="" data-external="1"></iframe>
 </div>
 </div>
 ```
@@ -3385,18 +3415,18 @@ Here are a few websites that cover general guidelines for how to write discussio
 
 Here's a useful and quick video on [discussion boards](https://www.youtube.com/watch?v=tg3y2A9pdtI)
 
-#### [Poem 013: Did I Miss Anything? Links to an external site.](https://www.loc.gov/programs/poetry-and-literature/poet-laureate/poet-laureate-projects/poetry-180/all-poems/item/poetry-180-013/did-i-miss-anything/)
+#### [Poem 013: Did I Miss Anything? ](https://www.loc.gov/programs/poetry-and-literature/poet-laureate/poet-laureate-projects/poetry-180/all-poems/item/poetry-180-013/did-i-miss-anything/)
 
-#### [Advice for students so they don't sound silly in emails (essay) Links to an external site.](https://www.insidehighered.com/views/2015/04/16/advice-students-so-they-dont-sound-silly-emails-essay)
+#### [Advice for students so they don't sound silly in emails (essay)](https://www.insidehighered.com/views/2015/04/16/advice-students-so-they-dont-sound-silly-emails-essay)
 
 ### Online Learning Resources
 (leaving blank)
 
 #### [Tips for Taking Online Classes: 8 Strategies for Success Links to an external site.](https://www.northeastern.edu/graduate/blog/tips-for-taking-online-classes/)
 
-#### [Navigating Digital Information Links to an external site.](https://www.youtube.com/watch?v=pLlv2o6UfTU&list=PL8dPuuaLjXtN07XYqqWSKpPrtNDiCHTzU)
+#### [Navigating Digital Information](https://www.youtube.com/watch?v=pLlv2o6UfTU&list=PL8dPuuaLjXtN07XYqqWSKpPrtNDiCHTzU)
 
-### Tech Services & Computer Resources
+### Tech Services \& Computer Resources
 
 **Basic Computer Requirements**
 Having regular access to a computer with a reliable Internet connection is required. You will need a word processing program capable of saving word formats such as .doc, .docx or .pdf. 
@@ -3432,8 +3462,6 @@ You can search the Canvas Guides or contact the Canvas Support Helpline by click
 **[WFU Covid Dashboard](https://ourwayforward.wfu.edu/covid-19-dashboard/)**
 **[microCOVID Risk Calculator](https://www.microcovid.org/)**
 **[NYT Covid Latest Map and Case Count Links to an external site.](https://www.nytimes.com/interactive/2021/us/north-carolina-covid-cases.html)**
-
-## Additional Resources
 
 
 <!--chapter:end:0303_support.Rmd-->

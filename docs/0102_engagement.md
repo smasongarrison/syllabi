@@ -36,18 +36,24 @@ An unexcused absence will result in a zero for any graded work that should have 
 
 ### Late Work
 
-Be sure to pay close attention to deadlines. 
-If an assignment is not submitted by the deadline (i.e., is late), the student must email the instructor and provide a new deadline, ask for an alternative, or explain concerns *within 36 hours* of the missed deadline. 
-Ideally, you will have communicated with me in advance of the deadline, but on occasion life happens. 
-As long as you've communicated *within 36 hours*, I will do my best to work with you to come up with a new deadline or modification, so that you can earn full credit. 
-This late policy does not apply to exams, tests, or quizzes.
++ Be sure to pay close attention to deadlines. 
++ If an assignment is not submitted by the deadline (i.e., is late), the student must email the instructor and provide a new deadline, ask for an alternative, or explain concerns *within 36 hours* of the missed deadline. 
++ Ideally, you will have communicated with me in advance of the deadline, but on occasion life happens. 
++ As long as you've communicated *within 36 hours*, I will do my best to work with you to come up with a new deadline or modification, so that you can earn full credit. + Any modifiation or change of deadline must be confirmed in writing. And must be done for each modification.
++ This late policy does not apply to exams, tests, or quizzes. 
 
-If contact is not made *within 36 hours* of the missed deadline, the missing assignment will receive a 0. 
+If contact is not made *within 36 hours* of the missed deadline, the missing assignment will receive a 0 and can not be made up. 
+
 Alternative deadlines will be within one week of the original deadline. 
-Exceptions to the 1 week policy are at the instructor's discretion. 
-In general, I am much more sympathetic and accommodating if you communicate in advance. 
+
+Exceptions to the 1 week policy are at the instructor's discretion. Exceptions are rare.
+
+In general, I am much more sympathetic and accommodating if you communicate in advance.
+
+#### Submissions
 
 It is your responsibility to ensure that the instructor has received the assignment by the established due date and to ensure that the assignment submitted is the complete and correct version. 
+
 Unless otherwise explicitly specified, all work must be submitted through Canvas.
 
 Unless you have communicated with me in advance, there will be no make-up quizzes or tests.

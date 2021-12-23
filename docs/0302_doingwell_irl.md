@@ -18,7 +18,7 @@ I've created a [video](https://youtu.be/dc3D2tbl8G0) highlighting how to be a su
 ```{=html}
 <div class="vembedr" align="center">
 <div>
-<iframe src="https://www.youtube.com/embed/dc3D2tbl8G0" width="533" height="300" frameborder="0" allowfullscreen=""></iframe>
+<iframe src="https://www.youtube.com/embed/dc3D2tbl8G0" width="533" height="300" frameborder="0" allowfullscreen="" data-external="1"></iframe>
 </div>
 </div>
 ```

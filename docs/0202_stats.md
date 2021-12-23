@@ -34,103 +34,109 @@ Wickham and Grolemund's R for Data Science text (http://r4ds.had.co.nz/)
 Schedule
 -->
 
-## Week 01, 01/10 - 01/14 : What is Data Science and Meet the Toolkit
+## Week 01, 01/10 - 01/14 : Introduction
 <!---
 - Monday: First Day of Class / Introduction
-- Wednesday: What is personality? (Chapter 1)
-- Friday: Research in Personality: Sources of Data (Chapter 2)
+- Thursday: First Day of Class
 -->
-## Week 02, 01/17 - 01/21 : Data and Visualization
+## Week 02, 01/17 - 01/21 : Getting Ready to Do Statistical Analysis
 <!---
-- Monday: NO CLASS MLK Day
-- Wednesday: Research Design: Validity (Chapter 2)
-- Friday: Research Design: Generalizability (Chapter 2; Short Assignment 1 Handed Out)
+- Tuesday: Research Design (Chapter 9)
+- Thursday: Sampling Theory (Chapter 8) / Measurement in the Social/Behavioral Sciences 
+
 -->
-##  Week 03, 01/24 - 01/28 : Grammar of data wrangling 
+##  Week 03, 01/24 - 01/28 : Describing Data with R 
 <!---
-- Monday: Personality Assessment (Chapter 3)
-- Tuesday: "Last day to add full-term class"
-- Wednesday: Evaluation and Ethics (Chapter 3)
-- Friday: Person versus Situation (Chapter 4)
+- Tuesday: Describing Data Graphically with R
+
+- Wednesday (Sep 05, 2018)
+    - Last day to drop a class (with a paper drop form) with no entry on the record
+    - Last day to add a class & register for pass/fail status using paper forms 
+- Thursday: Describing Data Numerically with R
+
 -->
 
-##  Week 04, 01/31 - 02/04 : Data types and Data Transformations
+##  Week 04, 01/31 - 02/04 : Univariate Distributions
 <!---
-- Monday: What are traits? What are the basic traits? (Chapter 4)
-- Wednesday: Personality Judgement (Chapter 5)
-- Friday: Using Personality Traits to Understand Behavior (Chapter 6; Assignment 1 Due)
+- Tuesday: Univariate Distributions (Chapter 1/2)
+- Thursday: Standardization, z-scores, and the normal distribution	(Chapter 3)
 -->
-##  Week 05, 02/07 - 02/11 : Tips for effective data visualization
+##  Week 05, 02/07 - 02/11 : Test 1
 <!---
-- Monday: Big Five (Chapter 6)
-- Wednesday: Review
-- Friday: Test 1
+- Tuesday: Test 1 Review
+
+- Thursday: Test 1
 -->
-##  Week 06, 02/14 - 02/18 : Scientific studies and confounding
+##  Week 06, 02/14 - 02/18 : Bivariate Distributions
 <!---
-- Monday: Brains (Chapter 8)
-- Wednesday: More Brains (Chapter 8)
-- Friday: Behavior Genetics (Chapter 9)
+- Tuesday: Bivariate Distributions (Chapter 4)
+
+- Thursday: Correlation	(Chapter 5)
 -->
-##  Week 07, 02/21 - 02/25 : Web scraping 
+##  Week 07, 02/21 - 02/25 : Probability Theory 
 <!---
-- Monday: Behavior Genetics (Chapter 9)
-- Wednesday: Evolutionary Psychology (Chapter 9)
-- Friday: Evolutionary Psychology (Chapter 9)
+- Thursday: Probability Theory (Chapter 12) 
 -->
-##  Week 08, 02/28 - 03/04 : Functions
+##  Week 08, 02/28 - 03/04 : Binomials and other sampling distributions
 <!---
-- Monday: Personality over the Lifespan (Chapter 7)
-- Wednesday: Personality over the Lifespan (Chapter 7)
-- Friday: Personality Processes (Chapter 15)
+- Tuesday: More Probability Theory (Chapter 13) 
+
+- Thursday: Review
 -->
-##  Week 09, 03/07 - 03/11 : Data and Ethics
+##  Week 09, 03/07 - 03/11 : Test 2
 <!---
-- Monday: No Class
-- Wednesday: No Class
-- Friday: No Class
+- Tuesday: Test 2
+
+- Thursday No Class (Fall Break Oct 18-19)
+- Friday (Oct 19, 2018)
+    - Last day undergraduate students may withdraw from fall semester classes
+    - Last day to change from pass/fail to graded status in a fall semester class
 -->
-##  Week 10, 03/14 - 03/18 : Fitting and interpreting models
+##  Week 10, 03/14 - 03/18 : Hypothesis Testing
 <!---
-- Monday: Personality Processes (Chapter 15)
-- Wednesday: Review
-- Friday: Test 2
+- Tuesday: The Logic of Hypothesis Testing Hypotheses, Errors (Chapters 16-19)
+
+- Thursday: t-tests
 -->
-##  Week 11, 03/21 - 03/25 : Prediction and overfitting
+##  Week 11, 03/21 - 03/25 : Inferences about means
 <!---
-- Monday: The Self (Chapter 16) Last day to drop with a grade of "W"
-- Wednesday: The Self (Chapter 16)
-- Friday:  Freud (Chapter 10) 
+- Tuesday: Applying t-tests and ANOVA (Chapters 20 & 21)
+
+- Thursday: More Analysis of Variance	(Chapters 24 & 27)
 -->
-##  Week 12, 03/28 - 04/01 : Cross validation
+##  Week 12, 03/28 - 04/01 : Special Topics
 <!---
-- Monday: Freud (Chapter 10)
-- Wednesday: Freud (Chapter 10)
-- Friday: Neo-Freud (Chapter 11; Assignment 2 Due)
+- Tuesday: Subverting the Research Process
+
+- Thursday: Causal Inference
 -->
-## Week 13, 04/04 - 04/08 : Quantifying uncertainty
+## Week 13, 04/04 - 04/08 : Test 3
 <!---
-- Monday:  Neo-Freud (Chapter 11) 
-- Wednesday: Positive Psychology
-- Friday: Positive Psychology
+- Tuesday: Review
+
+- Wednesday: Alternative Test Date
+
+- Thursday: Test 3
 -->
-##  Week 14, 04/11 - 04/15 : Interactive web apps
+##  Week 14, 04/11 - 04/15 : Applications in R
 <!---
 - Monday: Cross-Cultural Psychology
 - Wednesday: Cross-Cultural Psychology
 - Friday: Cross-Cultural Psychology
 -->
 
-##  Week 15, 04/18 - 04/22 : Special Topics (like: Text analysis; Machine learning; Bayesian inference)
+##  Week 15, 04/18 - 04/22 : Applications in R
 <!---
-- Monday: Personality and Physical Health
-- Wednesday: Personality and Mental Health
-- Friday: Personality Disorders
+- Tuesday: Translating Research Questions into R
 
-##  Week 16, 04/25 - 04/29 : NA 
+- Thursday: Addressing Statistical Questions in R
 
-- Monday: Special Topics
-- Wednesday: Review; Assignment 3 Due; Last Day of Class
+
+##  Week 16, 04/25 - 04/29 : Applications in R 
+
+- Tuesday: Addressing Statistical Questions in R
+- Thursday: Last Day of Class 
+- Friday: Extra Credit Due at 7pm
 
 ## Final Exam 
 
