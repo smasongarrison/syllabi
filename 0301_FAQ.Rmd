@@ -156,12 +156,12 @@ What you are experiencing is the result of years of speech therapy and is a mass
 
 ### How ...
 #### How much time should I spend on one class every week?
-The time you spend on a class can vary. No two instructors will format their classes exactly the same. Under the standard ("Carnegie Unit")  [https://www.carnegiefoundation.org/faqs/carnegie-unit/], each credit hour corresponds to a *minimum* of 3 hours of student engagement per week for a traditional 15-week course. This time may be spent on discussions, readings, and lectures, study, and research, and assignments. This ratio is called the 
+The time you spend on a class can vary. No two instructors will format their classes exactly the same. Nevertheless, under the standard ["Carnegie Unit"]  (https://www.carnegiefoundation.org/faqs/carnegie-unit/), each credit hour corresponds to a *minimum* of 3 hours of student engagement per week for a traditional 15-week course. This time may be spent on discussions, readings, and lectures, study, and research, and assignments. See the WFU regristrar for [more detials](https://registrar.wfu.edu/semester-credit-hour/) if you'd like 
 
 
 If you find yourself spending a lot more or a lot less than 9 hours per week on this class, please let me know. That probably means that either you're doing too much or too little.
 
-### How can I ask professors for extensions?
+### How do I ask professors for extensions?
 
 ```{r, echo=FALSE}
 include_tweet("https://twitter.com/BettySLai/status/1455555111397117954")
