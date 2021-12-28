@@ -37,6 +37,7 @@ Credit: [Kiki Schirr](https://kikischirr.medium.com/) at [Tech Doodles](https://
 
 
 ## General Course Questions
+
 If you have a question about the course AND can't find your answer elsewhere (or you find conflicting answers), please post them on the class discussion board. (Depending on the class, this board will either be on canvas or github)
 
 ### Where...
@@ -45,13 +46,41 @@ If you have a question about the course AND can't find your answer elsewhere (or
 You can find the suggested readings for each module either on canvas or the GitHub course notes.
 
 #### Where can I find when assignments are due?
-You can find due dates in the syllabus.
+You can find due dates in the syllabus and on canvas.
 
 #### Where can I check the closing time of assessments?
-You can check the due time and closing time of assessments by clicking the corresponding page in "Modules". You should be able to see the time after you entered there.
+
+You can check the due time and closing time of assessments by clicking the corresponding page in "Modules". .
 
 #### Where are my grades?
+
 You can find it on canvas, under grades. I will not look up this grade for you. You are all hard working and problem-solving students. I believe in you!
+
+#### Where can I find more information about...
+
+- [WFU technology services or computer resources](https://is.wfu.edu/)
+- [WFU student resources](https://college.wfu.edu/student-resources/)
+- [Center for Learning, Access, and Student Success](https://class.wfu.edu/)
+- [Office of Academic Advising](https://advising.wfu.edu/)
+- [Office of Wellbeing](https://thrive.wfu.edu/)
+- [WFU's Service Status Dashboard](https://status.is.wfu.edu/)
+- 
+#### Where can I find help for canvas?
+
+Although I am not Canvas tech support, I have provided some answers and resources to commonly asked questions 
+
+### Where can I find textbooks and course materials?
+
+- If you'd like to purchase materials, you can do so from any bookstore, including Wake Forest's.
+- If you'd like to rent materials, you can do so from anywhere you'd like, including Wake Forest's Bookstore or the publisher.
+- If you'd like to get materials for free, you can borrow the materials from the library course reserve. 
+- If you'd like to get materials for free, you can borrow the materials from someone who'se already taken the course.
+- **Obviously**, I can't recommend finding the materials online... 
+
+```{r, echo=FALSE}
+"https://twitter.com/GaloAndStuff/status/1424818560417902604" %>%
+include_tweet()
+```
 
 ### Can...
 
@@ -129,9 +158,14 @@ The time you spend on a class can vary. No two instructors will format their cla
 
 If you find yourself spending a lot more or a lot less than 9 hours per week on this class, please let me know. That probably means that either you're doing too much or too little.
 
+### How can I ask professors for extensions?
+
+```{r, echo=FALSE}
+include_tweet("https://twitter.com/BettySLai/status/1455555111397117954")
+```
+
 
 ## Online Learning
-
 
 ### How long are the videos?
 You can always check how long the module playlist is by using this website https://ytplaylist-len.herokuapp.com/ 
@@ -147,8 +181,6 @@ If you want to watch the entire module worth in one sitting, you can use the you
 It may feel like more work, but it actually isn't. This class covers the same content as the face-to-face version. I have made every effort to not add to your workload. When I have added an assignment in one aspect of the course, I have removed something else from the class.On average, you should except to spend about 9 hours a week on this class.
 
 
-### Where can I find more information about technology services or computer resources?
-You can find more information here: https://is.wfu.edu/
 
 
 ### I'm having a trouble with a specific problem, can you fix it for me?
@@ -159,7 +191,7 @@ Please try basic troubleshooting to fix your problem.
 If you still have trouble after troubleshooting, post the problem to the discussion board and clearly describe what you have already tried.
 
 
-## Canvas
+## Canvas {canvas}
 
 #### How do I use Canvas for class?
 
@@ -252,18 +284,9 @@ include_graphics("img/requirements.png")
 
 ## Resources
 
-### Where can I find textbooks and course materials?
 
-```{r, echo=FALSE}
-"https://twitter.com/GaloAndStuff/status/1424818560417902604" %>%
-include_tweet()
-```
 
-### How can I ask professors for extensions?
 
-```{r, echo=FALSE}
-include_tweet("https://twitter.com/BettySLai/status/1455555111397117954")
-```
 
 
 ## Still have questions? 
