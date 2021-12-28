@@ -58,7 +58,7 @@ You can find it on canvas, under grades. I will not look up this grade for you. 
 
 #### Where can I find more information about...
 
-- [WFU technology services or computer resources](https://is.wfu.edu/)
+- [WFU technology services or computer resources](https://is.wfu.edu/student/)
 - [WFU student resources](https://college.wfu.edu/student-resources/)
 - [Center for Learning, Access, and Student Success](https://class.wfu.edu/)
 - [Office of Academic Advising](https://advising.wfu.edu/)
