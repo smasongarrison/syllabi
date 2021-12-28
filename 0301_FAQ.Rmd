@@ -64,7 +64,10 @@ You can find it on canvas, under grades. I will not look up this grade for you. 
 - [Office of Academic Advising](https://advising.wfu.edu/)
 - [Office of Wellbeing](https://thrive.wfu.edu/)
 - [WFU's Service Status Dashboard](https://status.is.wfu.edu/)
-- 
+- [WFU Campus Map](https://map.wfu.edu/)
+- [WFU Library](https://zsr.wfu.edu/)
+
+
 #### Where can I find help for canvas?
 
 Although I am not Canvas tech support, I have provided some answers and resources to commonly asked questions 
