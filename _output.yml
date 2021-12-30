@@ -24,13 +24,13 @@ bookdown::gitbook:
       github: yes
       facebook: no
       twitter: yes
-bookdown::html_document2: default
 bookdown::pdf_book:
   includes:
     in_header: preamble.tex
   citation_package: natbib
+  split_bib: FALSE
   keep_tex: yes
   geometry: margin=1in
   latex_engine: pdflatex
   toc_depth: 1
-  documentclass: book
+  documentclass: article
