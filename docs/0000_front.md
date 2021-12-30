@@ -1,4 +1,170 @@
+# (PART\*) Front Matter {-}
 
+# Welcome to my Syllabi! {-}
+
+
+
+
+
+Welcome to all my syllabi! This website is designed to accompany all of Mason Garrison's courses at Wake Forest University. 
+Over the semesters, I have found that my syllabi keep growing longer and longer as my career has progressed. 
+I know that no one likes reading 8 page syllabi. 
+However, I want to make sure that all my students know what my expectations are. 
+So in that spirit, I've created a website to contain all of my policies in one place. 
+That way, I can have a neat and tidy syllabi, while still making my expectations clear.
+
+
+## How to use these notes {-}
+
+
+This website is constantly changing. If you catch typos, errors, please issue a pull request with the fixes. 
+
+This document is broken down into multiple chapters. Use the table of contents on the left side of the screen to navigate, and use the hamburger icon (horizontal bars) at the top of the document to open or close the table of contents. At the top of the document, you'll see additional icons which you can click to search the document, change the size, font or color scheme of the page. The document will be updated (unpredictably) throughout the semester; however, students aren't bound to policies added once they've signed their syllabus. Instead, they are bound to the version of this "book" that was in place when they signed their syllabus. I have archived versions of this book [here](https://github.com/smasongarrison/syllabi/tree/main/Previous%20Semesters).
+
+
+
+# Attribution {-}
+
+This mega syllabus leans on other peoples' materials and ideas. I have done my best to document the origin of the materials and ideas. In particular, I have noted those people whose work has been a major contribution as well as those who have additional contributions. You can see specific changes by examining the [edit history on the git repo](https://github.com/smasongarrison/Syllabi/commits/main)
+
+## Major Attributions  {-}
+
+* Jenny Bryan's ([jennybryan.org](https://jennybryan.org)) [STAT 545][stat-545]
+
+
+## Additional Attributions  {-}
+
+
+** Numerous Icons from the Noun Project by: **
+* Adrien Coquet
+* Corpus Delicti
+* Suhyeon Jung
+
+**Select lecture notes from:**
+
+* Jenny Bryan’s ([jennybryan.org](https://jennybryan.org/)) [STAT 545](https://stat545.com/)
+* [David Funder’s Personality Puzzle](https://wwnorton.com/books/The-Personality-Puzzle/)
+* Anthony Albano's [Course Notes on “Introduction to Educational and Psychological Measurement”](https://www.thetaminusb.com/intro-measurement-r/)
+* R. Biswas-Diener & E. Diener (Eds), Noba textbook series: Psychology. Champaign, IL: DEF publishers. Retrieved from [noba](https://nobaproject.com/)
+
+# License {-#license}
+
+This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
+
+<!-- <center>
+<i class="fab fa-creative-commons fa-2x"></i><i class="fab fa-creative-commons-by fa-2x"></i><i class="fab fa-creative-commons-sa fa-2x"></i>
+</center>
+ -->
+ 
+* This information is a human-readable summary of (and not a substitute for) the license.
+Please see https://creativecommons.org/licenses/by-sa/4.0/legalcode for the full legal text.*
+
+**You are free to:**
+
+- **Share**---copy and redistribute the material in any medium or
+  format
+
+- **Remix**---remix, transform, and build upon the material for any
+  purpose, even commercially.
+
+The licensor cannot revoke these freedoms as long as you follow the
+license terms.
+
+**Under the following terms:**
+
+- **Attribution**---You must give appropriate credit, provide a link
+  to the license, and indicate if changes were made. You may do so in
+  any reasonable manner, but not in any way that suggests the licensor
+  endorses you or your use.
+  
+- **ShareAlike**---If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original. 
+
+- **No additional restrictions**---You may not apply legal terms or
+  technological measures that legally restrict others from doing
+  anything the license permits.
+
+**Notices:**
+
+You do not have to comply with the license for elements of the
+material in the public domain or where your use is permitted by an
+applicable exception or limitation.
+
+No warranties are given. The license may not give you all of the
+permissions necessary for your intended use. For example, other rights
+such as publicity, privacy, or moral rights may limit how you use the
+material.
+
+
+
+
+
+
+# Colophon {-}
+
+These notes was written in [bookdown](http://bookdown.org/) inside [RStudio](http://www.rstudio.com/ide/). The [website][ds4p-web] is hosted with [github](https://www.github.com), The complete source is available from [github][git].
+
+The book style adapted from [Desirée De Leon](https://desiree.rbind.io/).
+
+This version of the notes was built with:
+
+
+
+```
+#> Finding R package dependencies ... Done!
+#>  setting  value
+#>  version  R version 4.0.5 (2021-03-31)
+#>  os       Windows 10 x64 (build 19044)
+#>  system   x86_64, mingw32
+#>  ui       RTerm
+#>  language (EN)
+#>  collate  English_United States.1252
+#>  ctype    English_United States.1252
+#>  tz       America/New_York
+#>  date     2021-12-30
+#>  pandoc   2.11.4 @ C:/Program Files/RStudio/bin/pandoc/ (via rmarkdown)
+```
+
+Along with these packages:
+
+![](0000_front_files/figure-latex/unnamed-chunk-4-1.pdf)<!-- --> 
+
+
+
+
+The R session information when compiling this book is shown below:
+
+
+
+
+```r
+sessionInfo()
+#> R version 4.0.5 (2021-03-31)
+#> Platform: x86_64-w64-mingw32/x64 (64-bit)
+#> Running under: Windows 10 x64 (build 19044)
+#> 
+#> Matrix products: default
+#> 
+#> locale:
+#> [1] LC_COLLATE=English_United States.1252 
+#> [2] LC_CTYPE=English_United States.1252   
+#> [3] LC_MONETARY=English_United States.1252
+#> [4] LC_NUMERIC=C                          
+#> [5] LC_TIME=English_United States.1252    
+#> 
+#> attached base packages:
+#> [1] stats     graphics  grDevices utils     datasets  methods  
+#> [7] base     
+#> 
+#> other attached packages:
+#>  [1] DT_0.20         devtools_2.4.3  usethis_2.1.5   forcats_0.5.1  
+#>  [5] stringr_1.4.0   dplyr_1.0.7     purrr_0.3.4     readr_2.1.1    
+#>  [9] tidyr_1.1.4     tibble_3.1.6    ggplot2_3.3.5   tidyverse_1.3.1
+#> [13] webshot_0.5.2   knitr_1.37      vembedr_0.1.5   tweetrmd_0.0.8 
+#> 
+#> loaded via a namespace (and not attached):
+#> [1] tools_4.0.5     bookdown_0.24   rmarkdown_2.11  htmltools_0.5.2
+#> [5] shiny_1.7.1     miniUI_0.1.1.1
+```
 
 
 
@@ -368,149 +534,3 @@
 [murdoch-package-vignette-slides]: https://web.archive.org/web/20160824010213/http://www.stats.uwo.ca/faculty/murdoch/ism2013/5Vignettes.pdf
 [how-r-searches]: http://blog.obeautifulcode.com/R/How-R-Searches-And-Finds-Stuff/
 
-
-
-
-# Attribution {-}
-
-This mega syllabus leans on other peoples' materials and ideas. I have done my best to document the origin of the materials and ideas. In particular, I have noted those people whose work has been a major contribution as well as those who have additional contributions. You can see specific changes by examining the [edit history on the git repo](https://github.com/smasongarrison/Syllabi/commits/main)
-
-## Major Attributions  {-}
-
-* Jenny Bryan's ([jennybryan.org](https://jennybryan.org)) [STAT 545][stat-545]
-
-
-## Additional Attributions  {-}
-
-
-** Numerous Icons from the Noun Project by: **
-* Adrien Coquet
-* Corpus Delicti
-* Suhyeon Jung
-
-**Select lecture notes from:**
-
-* Jenny Bryan’s ([jennybryan.org](https://jennybryan.org/)) [STAT 545](https://stat545.com/)
-* [David Funder’s Personality Puzzle](https://wwnorton.com/books/The-Personality-Puzzle/)
-* Anthony Albano's [Course Notes on “Introduction to Educational and Psychological Measurement”](https://www.thetaminusb.com/intro-measurement-r/)
-* R. Biswas-Diener & E. Diener (Eds), Noba textbook series: Psychology. Champaign, IL: DEF publishers. Retrieved from [noba](https://nobaproject.com/)
-
-# License {-#license}
-
-This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
-
-<!-- <center>
-<i class="fab fa-creative-commons fa-2x"></i><i class="fab fa-creative-commons-by fa-2x"></i><i class="fab fa-creative-commons-sa fa-2x"></i>
-</center>
- -->
- 
-* This information is a human-readable summary of (and not a substitute for) the license.
-Please see <https://creativecommons.org/licenses/by-sa/4.0/legalcode> for the full legal text.*
-
-**You are free to:**
-
-- **Share**---copy and redistribute the material in any medium or
-  format
-
-- **Remix**---remix, transform, and build upon the material for any
-  purpose, even commercially.
-
-The licensor cannot revoke these freedoms as long as you follow the
-license terms.
-
-**Under the following terms:**
-
-- **Attribution**---You must give appropriate credit, provide a link
-  to the license, and indicate if changes were made. You may do so in
-  any reasonable manner, but not in any way that suggests the licensor
-  endorses you or your use.
-  
-- **ShareAlike**---If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original. 
-
-- **No additional restrictions**---You may not apply legal terms or
-  technological measures that legally restrict others from doing
-  anything the license permits.
-
-**Notices:**
-
-You do not have to comply with the license for elements of the
-material in the public domain or where your use is permitted by an
-applicable exception or limitation.
-
-No warranties are given. The license may not give you all of the
-permissions necessary for your intended use. For example, other rights
-such as publicity, privacy, or moral rights may limit how you use the
-material.
-
-
-
-
-
-
-# Colophon {-}
-
-These notes was written in [bookdown](http://bookdown.org/) inside [RStudio](http://www.rstudio.com/ide/). The [website][ds4p-web] is hosted with [github](https://www.github.com), The complete source is available from [github][git].
-
-The book style adapted from [Desirée De Leon](https://desiree.rbind.io/).
-
-This version of the notes was built with:
-
-
-
-
-```
-#> Finding R package dependencies ... Done!
-#>  setting  value
-#>  version  R version 4.0.5 (2021-03-31)
-#>  os       Windows 10 x64 (build 19044)
-#>  system   x86_64, mingw32
-#>  ui       RTerm
-#>  language (EN)
-#>  collate  English_United States.1252
-#>  ctype    English_United States.1252
-#>  tz       America/New_York
-#>  date     2021-12-30
-#>  pandoc   2.11.4 @ C:/Program Files/RStudio/bin/pandoc/ (via rmarkdown)
-```
-
-Along with these packages:
-
-![](0000a_front_files/figure-latex/unnamed-chunk-4-1.pdf)<!-- --> 
-
-
-
-
-The R session information when compiling this book is shown below:
-
-
-
-
-```r
-sessionInfo()
-#> R version 4.0.5 (2021-03-31)
-#> Platform: x86_64-w64-mingw32/x64 (64-bit)
-#> Running under: Windows 10 x64 (build 19044)
-#> 
-#> Matrix products: default
-#> 
-#> locale:
-#> [1] LC_COLLATE=English_United States.1252 
-#> [2] LC_CTYPE=English_United States.1252   
-#> [3] LC_MONETARY=English_United States.1252
-#> [4] LC_NUMERIC=C                          
-#> [5] LC_TIME=English_United States.1252    
-#> 
-#> attached base packages:
-#> [1] stats     graphics  grDevices utils     datasets  methods  
-#> [7] base     
-#> 
-#> other attached packages:
-#>  [1] DT_0.20         devtools_2.4.3  usethis_2.1.5   forcats_0.5.1  
-#>  [5] stringr_1.4.0   dplyr_1.0.7     purrr_0.3.4     readr_2.1.1    
-#>  [9] tidyr_1.1.4     tibble_3.1.6    ggplot2_3.3.5   tidyverse_1.3.1
-#> [13] webshot_0.5.2   knitr_1.37      vembedr_0.1.5   tweetrmd_0.0.8 
-#> 
-#> loaded via a namespace (and not attached):
-#> [1] tools_4.0.5     bookdown_0.24   rmarkdown_2.11  htmltools_0.5.2
-#> [5] shiny_1.7.1     miniUI_0.1.1.1
-```

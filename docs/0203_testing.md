@@ -39,22 +39,38 @@ By scaling to a percentage of the highest point total in the class, each student
 This curve can only help your grade. 
 
 The full table is provided below:
+\begin{table}
 
-Table: (\#tab:unnamed-chunk-3)Full Table
-
-|Letter | Cutoff|
-|:------|------:|
-|A      |   0.95|
-|A-     |   0.90|
-|B+     |   0.87|
-|B      |   0.83|
-|B-     |   0.80|
-|C+     |   0.77|
-|C      |   0.73|
-|C-     |   0.70|
-|D+     |   0.67|
-|D      |   0.63|
-|D-     |   0.60|
+\caption{(\#tab:unnamed-chunk-3)Full Table}
+\centering
+\begin{tabular}[t]{l|r}
+\hline
+Letter & Cutoff\\
+\hline
+A & 0.95\\
+\hline
+A- & 0.90\\
+\hline
+B+ & 0.87\\
+\hline
+B & 0.83\\
+\hline
+B- & 0.80\\
+\hline
+C+ & 0.77\\
+\hline
+C & 0.73\\
+\hline
+C- & 0.70\\
+\hline
+D+ & 0.67\\
+\hline
+D & 0.63\\
+\hline
+D- & 0.60\\
+\hline
+\end{tabular}
+\end{table}
 
 ### Curve Projections
 

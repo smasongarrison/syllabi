@@ -54,7 +54,7 @@ This experiential course requires active engagement. There will be few lectures 
 ## Grading Policy
 
 
-In this course, you will determine the grade you receive by fulfilling a contract you will submit for my approval on 02/05.
+In this course, you will determine the grade you receive by fulfilling a contract you will submit for my approval on 01/21.
 
 Your written contract will detail:
 
@@ -136,19 +136,19 @@ To contract for an "C" in this course, you agree to:
 Schedule
 -->
 
-## Week 01, 01/25 - 01/29 : What is Data Science and Meet the Toolkit
+## Week 01, 01/10 - 01/14 : What is Data Science and Meet the Toolkit
 <!---
 - Monday: First Day of Class / Introduction
 - Wednesday: What is personality? (Chapter 1)
 - Friday: Research in Personality: Sources of Data (Chapter 2)
 -->
-## Week 02, 02/01 - 02/05 : Data and Visualization
+## Week 02, 01/17 - 01/21 : Data and Visualization
 <!---
 - Monday: NO CLASS MLK Day
 - Wednesday: Research Design: Validity (Chapter 2)
 - Friday: Research Design: Generalizability (Chapter 2; Short Assignment 1 Handed Out)
 -->
-##  Week 03, 02/08 - 02/12 : Grammar of data wrangling 
+##  Week 03, 01/24 - 01/28 : Grammar of data wrangling 
 <!---
 - Monday: Personality Assessment (Chapter 3)
 - Tuesday: "Last day to add full-term class"
@@ -156,80 +156,80 @@ Schedule
 - Friday: Person versus Situation (Chapter 4)
 -->
 
-##  Week 04, 02/15 - 02/19 : Data types and Data Transformations
+##  Week 04, 01/31 - 02/04 : Data types and Data Transformations
 <!---
 - Monday: What are traits? What are the basic traits? (Chapter 4)
 - Wednesday: Personality Judgement (Chapter 5)
 - Friday: Using Personality Traits to Understand Behavior (Chapter 6; Assignment 1 Due)
 -->
-##  Week 05, 02/22 - 02/26 : Tips for effective data visualization
+##  Week 05, 02/07 - 02/11 : Tips for effective data visualization
 <!---
 - Monday: Big Five (Chapter 6)
 - Wednesday: Review
 - Friday: Test 1
 -->
-##  Week 06, 03/01 - 03/05 : Scientific studies and confounding
+##  Week 06, 02/14 - 02/18 : Scientific studies and confounding
 <!---
 - Monday: Brains (Chapter 8)
 - Wednesday: More Brains (Chapter 8)
 - Friday: Behavior Genetics (Chapter 9)
 -->
-##  Week 07, 03/08 - 03/12 : Web scraping 
+##  Week 07, 02/21 - 02/25 : Web scraping 
 <!---
 - Monday: Behavior Genetics (Chapter 9)
 - Wednesday: Evolutionary Psychology (Chapter 9)
 - Friday: Evolutionary Psychology (Chapter 9)
 -->
-##  Week 08, 03/15 - 03/19 : Functions
+##  Week 08, 02/28 - 03/04 : Functions
 <!---
 - Monday: Personality over the Lifespan (Chapter 7)
 - Wednesday: Personality over the Lifespan (Chapter 7)
 - Friday: Personality Processes (Chapter 15)
 -->
-##  Week 09, 03/22 - 03/26 : Data and Ethics
+##  Week 09, 03/07 - 03/11 : Data and Ethics
 <!---
 - Monday: No Class
 - Wednesday: No Class
 - Friday: No Class
 -->
-##  Week 10, 03/29 - 04/02 : Fitting and interpreting models
+##  Week 10, 03/14 - 03/18 : Fitting and interpreting models
 <!---
 - Monday: Personality Processes (Chapter 15)
 - Wednesday: Review
 - Friday: Test 2
 -->
-##  Week 11, 04/05 - 04/09 : Prediction and overfitting
+##  Week 11, 03/21 - 03/25 : Prediction and overfitting
 <!---
 - Monday: The Self (Chapter 16) Last day to drop with a grade of "W"
 - Wednesday: The Self (Chapter 16)
 - Friday:  Freud (Chapter 10) 
 -->
-##  Week 12, 04/12 - 04/16 : Cross validation
+##  Week 12, 03/28 - 04/01 : Cross validation
 <!---
 - Monday: Freud (Chapter 10)
 - Wednesday: Freud (Chapter 10)
 - Friday: Neo-Freud (Chapter 11; Assignment 2 Due)
 -->
-## Week 13, 04/19 - 04/23 : Quantifying uncertainty
+## Week 13, 04/04 - 04/08 : Quantifying uncertainty
 <!---
 - Monday:  Neo-Freud (Chapter 11) 
 - Wednesday: Positive Psychology
 - Friday: Positive Psychology
 -->
-##  Week 14, 04/26 - 04/30 : Interactive web apps
+##  Week 14, 04/11 - 04/15 : Interactive web apps
 <!---
 - Monday: Cross-Cultural Psychology
 - Wednesday: Cross-Cultural Psychology
 - Friday: Cross-Cultural Psychology
 -->
 
-##  Week 15, 05/03 - 05/07 : Special Topics (like: Text analysis; Machine learning; Bayesian inference)
+##  Week 15, 04/18 - 04/22 : Special Topics (like: Text analysis; Machine learning; Bayesian inference)
 <!---
 - Monday: Personality and Physical Health
 - Wednesday: Personality and Mental Health
 - Friday: Personality Disorders
 
-##  Week 16, 05/10 - 05/14 : NA 
+##  Week 16, 04/25 - 04/29 : NA 
 
 - Monday: Special Topics
 - Wednesday: Review; Assignment 3 Due; Last Day of Class

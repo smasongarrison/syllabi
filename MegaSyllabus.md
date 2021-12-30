@@ -2,7 +2,7 @@
 title: "Prof. Mason's Syllabi"
 author: 
 - S. Mason Garrison
-date: "2021-12-28"
+date: "2021-12-30"
 knit: "bookdown::render_book"
 site: bookdown::bookdown_site
 url: 'https\://github.com/smasongarrison/syllabi'
@@ -10,19 +10,26 @@ github-repo: smasongarrison/syllabi
 twitter-handle: smasongarrison
 cover-image: assets/logo.png
 documentclass: book
-bibliography: [book.bib, packages.bib]
+bibliography: [book.bib, packages.bib,bib/bib.bib]
 biblio-style: apalike
 link-citations: yes
 description: "Prof. Mason's Syllabi"
 favicon: assets/favicon.ico
 always_allow_html: true
-
+lot: no
+lof: no
 ---
 
+
+
+
+
+<!--chapter:end:index.Rmd-->
 
 # (PART\*) Front Matter {-}
 
 # Welcome to my Syllabi! {-}
+
 
 
 
@@ -41,748 +48,6 @@ That way, I can have a neat and tidy syllabi, while still making my expectations
 This website is constantly changing. If you catch typos, errors, please issue a pull request with the fixes. 
 
 This document is broken down into multiple chapters. Use the table of contents on the left side of the screen to navigate, and use the hamburger icon (horizontal bars) at the top of the document to open or close the table of contents. At the top of the document, you'll see additional icons which you can click to search the document, change the size, font or color scheme of the page. The document will be updated (unpredictably) throughout the semester; however, students aren't bound to policies added once they've signed their syllabus. Instead, they are bound to the version of this "book" that was in place when they signed their syllabus. I have archived versions of this book [here](https://github.com/smasongarrison/syllabi/tree/main/Previous%20Semesters).
-
-
-
-<!--class Links-->
-[web]: https://smasongarrison.github.io/syllabi
-[git]: https://github.com/smasongarrison/syllabi
-[slides]: https://github.com/DataScience4Psych/slides
-[edits]: https://github.com/smasongarrison/syllabi/commits/main
-<!-- keep-->
-
-[stat-545]: https://stat545.com
-[jennybryan]: https://jennybryan.org
-
-[albano-class]: https://www.thetaminusb.com/intro-measurement-r/
-[noba]: https://nobaproject.com/
-[ytplaylist]: https://ytplaylist-len.herokuapp.com/
-
-
-<!--R Links-->
-[cran]: https://cloud.r-project.org
-[cran-faq]: https://cran.r-project.org/faqs.html
-[cran-R-admin]: http://cran.r-project.org/doc/manuals/R-admin.html
-[cran-add-ons]: https://cran.r-project.org/doc/manuals/R-admin.html#Add_002don-packages
-[r-proj]: https://www.r-project.org
-[stat-545]: https://stat545.com
-[software-carpentry]: https://software-carpentry.org
-[cran-r-extensions]: https://cran.r-project.org/doc/manuals/r-release/R-exts.html
-
-<!--RStudio Links-->
-[rstudio-preview]: https://www.rstudio.com/products/rstudio/download/preview/
-[rstudio-official]: https://www.rstudio.com/products/rstudio/#Desktop
-[rstudio-workbench]: https://www.rstudio.com/wp-content/uploads/2014/04/rstudio-workbench.png
-[rstudio-support]: https://support.rstudio.com/hc/en-us
-[rstudio-R-help]: https://support.rstudio.com/hc/en-us/articles/200552336-Getting-Help-with-R
-[rstudio-customizing]: https://support.rstudio.com/hc/en-us/articles/200549016-Customizing-RStudio
-[rstudio-key-shortcuts]: https://support.rstudio.com/hc/en-us/articles/200711853-Keyboard-Shortcuts
-[rstudio-command-history]: https://support.rstudio.com/hc/en-us/articles/200526217-Command-History
-[rstudio-using-projects]: https://support.rstudio.com/hc/en-us/articles/200526207-Using-Projects
-[rstudio-code-snippets]: https://support.rstudio.com/hc/en-us/articles/204463668-Code-Snippets
-[rstudio-dplyr-cheatsheet-download]: https://github.com/rstudio/cheatsheets/raw/master/data-transformation.pdf
-[rstudio-regex-cheatsheet]: https://www.rstudio.com/wp-content/uploads/2016/09/RegExCheatsheet.pdf
-[rstudio-devtools]: https://www.rstudio.com/products/rpackages/devtools/
-
-<!--HappyGitWithR Links-->
-[happy-git]: https://happygitwithr.com
-[hg-install-git]: https://happygitwithr.com/install-git.html
-[hg-git-client]: https://happygitwithr.com/git-client.html
-[hg-github-account]: https://happygitwithr.com/github-acct.html
-[hg-install-r-rstudio]: https://happygitwithr.com/install-r-rstudio.html
-[hg-connect-intro]: https://happygitwithr.com/connect-intro.html
-[hg-browsability]: https://happygitwithr.com/workflows-browsability.html
-[hg-shell]: https://happygitwithr.com/shell.html
-
-<!--Package Links-->
-[rmarkdown]: https://rmarkdown.rstudio.com
-[knitr-faq]: https://yihui.name/knitr/faq/
-
-[tidyverse-main-page]: https://www.tidyverse.org
-[tidyverse-web]: https://tidyverse.tidyverse.org
-[tidyverse-github]: https://github.com/hadley/tidyverse
-
-[dplyr-web]: https://dplyr.tidyverse.org
-[dplyr-cran]: https://CRAN.R-project.org/package=dplyr
-[dplyr-github]: https://github.com/hadley/dplyr
-[dplyr-vignette-intro]: https://cran.r-project.org/web/packages/dplyr/vignettes/dplyr.html
-[dplyr-vignette-window-fxns]: https://cran.r-project.org/web/packages/dplyr/vignettes/window-functions.html
-[dplyr-vignette-two-table]: https://dplyr.tidyverse.org/articles/two-table.html
-
-[lubridate-web]: https://lubridate.tidyverse.org
-[lubridate-cran]: https://CRAN.R-project.org/package=lubridate
-[lubridate-github]: https://github.com/tidyverse/lubridate
-[lubridate-vignette]: https://cran.r-project.org/web/packages/lubridate/vignettes/lubridate.html
-
-[tidyr-web]: https://tidyr.tidyverse.org
-[tidyr-cran]: https://CRAN.R-project.org/package=tidyr 
-
-[readr-web]: https://readr.tidyverse.org
-[readr-vignette-intro]: https://cran.r-project.org/web/packages/readr/vignettes/readr.html
-
-[stringr-web]: https://stringr.tidyverse.org
-[stringr-cran]: https://CRAN.R-project.org/package=stringr
-
-[ggplot2-web]: https://ggplot2.tidyverse.org
-[ggplot2-tutorial]: https://github.com/jennybc/ggplot2-tutorial
-[ggplot2-reference]: https://docs.ggplot2.org/current/
-[ggplot2-cran]: https://CRAN.R-project.org/package=ggplot2
-[ggplot2-github]: https://github.com/tidyverse/ggplot2
-[ggplot2-theme-args]: https://ggplot2.tidyverse.org/reference/ggtheme.html#arguments
-
-[gapminder-web]: https://www.gapminder.org
-[gapminder-cran]: https://CRAN.R-project.org/package=gapminder
-
-[assertthat-cran]: https://CRAN.R-project.org/package=assertthat
-[assertthat-github]: https://github.com/hadley/assertthat
-
-[ensurer-cran]: https://CRAN.R-project.org/package=ensurer
-[ensurer-github]: https://github.com/smbache/ensurer
-
-[assertr-cran]: https://CRAN.R-project.org/package=assertr
-[assertr-github]: https://github.com/ropensci/assertr
-
-[assertive-cran]: https://CRAN.R-project.org/package=assertive
-[assertive-bitbucket]: https://bitbucket.org/richierocks/assertive/src/master/
-
-[testthat-cran]: https://CRAN.R-project.org/package=testthat
-[testthat-github]: https://github.com/r-lib/testthat
-[testthat-web]: https://testthat.r-lib.org
-
-[viridis-cran]: https://CRAN.R-project.org/package=viridis
-[viridis-github]: https://github.com/sjmgarnier/viridis
-[viridis-vignette]: https://cran.r-project.org/web/packages/viridis/vignettes/intro-to-viridis.html
-
-[colorspace-cran]: https://CRAN.R-project.org/package=colorspace
-[colorspace-vignette]: https://cran.r-project.org/web/packages/colorspace/vignettes/hcl-colors.pdf
-
-[cowplot-cran]: https://CRAN.R-project.org/package=cowplot
-[cowplot-github]: https://github.com/wilkelab/cowplot
-[cowplot-vignette]: https://cran.r-project.org/web/packages/cowplot/vignettes/introduction.html
-
-[devtools-cran]: https://CRAN.R-project.org/package=devtools
-[devtools-github]: https://github.com/r-lib/devtools
-[devtools-web]: https://devtools.r-lib.org
-[devtools-cheatsheet]: https://www.rstudio.com/wp-content/uploads/2015/03/devtools-cheatsheet.pdf
-[devtools-cheatsheet-old]: https://rawgit.com/rstudio/cheatsheets/master/package-development.pdf
-[devtools-1-6]: https://blog.rstudio.com/2014/10/02/devtools-1-6/
-[devtools-1-8]: https://blog.rstudio.com/2015/05/11/devtools-1-9-0/
-[devtools-1-9-1]: https://blog.rstudio.com/2015/09/13/devtools-1-9-1/
-
-[googlesheets-cran]: https://CRAN.R-project.org/package=googlesheets
-[googlesheets-github]: https://github.com/jennybc/googlesheets
-
-[tidycensus-cran]: https://CRAN.R-project.org/package=tidycensus
-[tidycensus-github]: https://github.com/walkerke/tidycensus
-[tidycensus-web]: https://walkerke.github.io/tidycensus/index.html
-
-[fs-web]: https://fs.r-lib.org/index.html
-[fs-cran]: https://CRAN.R-project.org/package=fs
-[fs-github]: https://github.com/r-lib/fs
-
-[plumber-web]: https://www.rplumber.io
-[plumber-docs]: https://www.rplumber.io/docs/
-[plumber-github]: https://github.com/trestletech/plumber
-[plumber-cran]: https://CRAN.R-project.org/package=plumber
-
-[plyr-web]: http://plyr.had.co.nz
-
-[magrittr-web]: https://magrittr.tidyverse.org
-[forcats-web]: https://forcats.tidyverse.org
-[glue-web]: https://glue.tidyverse.org
-[stringi-cran]: https://CRAN.R-project.org/package=stringi
-[rex-github]: https://github.com/kevinushey/rex
-[rcolorbrewer-cran]: https://CRAN.R-project.org/package=RColorBrewer
-[dichromat-cran]: https://CRAN.R-project.org/package=dichromat
-
-[rdryad-web]: https://docs.ropensci.org/rdryad/
-[rdryad-cran]: https://CRAN.R-project.org/package=rdryad
-[rdryad-github]: https://github.com/ropensci/rdryad
-
-[roxygen2-cran]: https://CRAN.R-project.org/package=roxygen2
-[roxygen2-vignette]: https://cran.r-project.org/web/packages/roxygen2/vignettes/rd.html
-
-[shinythemes-web]: https://rstudio.github.io/shinythemes/
-[shinythemes-cran]: https://CRAN.R-project.org/package=shinythemes
-
-[shinyjs-web]: https://deanattali.com/shinyjs/
-[shinyjs-cran]: https://CRAN.R-project.org/package=shinyjs
-[shinyjs-github]: https://github.com/daattali/shinyjs
-
-[leaflet-web]: https://rstudio.github.io/leaflet/
-[leaflet-cran]: https://CRAN.R-project.org/package=leaflet
-[leaflet-github]: https://github.com/rstudio/leaflet
-
-[ggvis-web]: https://ggvis.rstudio.com
-[ggvis-cran]: https://CRAN.R-project.org/package=ggvis
- 
-[usethis-web]: https://usethis.r-lib.org
-[usethis-cran]: https://CRAN.R-project.org/package=usethis
-[usethis-github]: https://github.com/r-lib/usethis
-
-[pkgdown-web]: https://pkgdown.r-lib.org
-[gh-github]: https://github.com/r-lib/gh
-
-[httr-web]: https://httr.r-lib.org
-[httr-cran]: https://CRAN.R-project.org/package=httr
-[httr-github]: https://github.com/r-lib/httr
-
-[gistr-web]: https://docs.ropensci.org/gistr
-[gistr-cran]: https://CRAN.R-project.org/package=gistr
-[gistr-github]: https://github.com/ropensci/gistr
-
-[rvest-web]: https://rvest.tidyverse.org
-[rvest-cran]: https://CRAN.R-project.org/package=rvest
-[rvest-github]: https://github.com/tidyverse/rvest
-
-[xml2-web]: https://xml2.r-lib.org
-[xml2-cran]: https://CRAN.R-project.org/package=xml2
-[xml2-github]: https://github.com/r-lib/xml2
-
-[jsonlite-paper]: https://arxiv.org/abs/1403.2805
-[jsonlite-cran]: https://CRAN.R-project.org/package=jsonlite
-[jsonlite-github]: https://github.com/jeroen/jsonlite
-
-[readxl-web]: https://readxl.tidyverse.org
-[readxl-github]: https://github.com/tidyverse/readxl
-[readxl-cran]: https://CRAN.R-project.org/package=readxl
-
-[janitor-web]: http://sfirke.github.io/janitor/
-[janitor-cran]: https://CRAN.R-project.org/package=janitor
-[janitor-github]: https://github.com/sfirke/janitor
-
-[purrr-web]: https://purrr.tidyverse.org
-[curl-cran]: https://CRAN.R-project.org/package=curl
-
-<!--Shiny links-->
-[shinydashboard-web]: https://rstudio.github.io/shinydashboard/
-[shinydashboard-cran]: https://CRAN.R-project.org/package=shinydashboard
-[shinydashboard-github]: https://github.com/rstudio/shinydashboard
-
-
-[shiny-official-web]: https://shiny.rstudio.com
-[shiny-official-tutorial]: https://shiny.rstudio.com/tutorial/
-[shiny-cheatsheet]: https://shiny.rstudio.com/images/shiny-cheatsheet.pdf
-[shiny-articles]: https://shiny.rstudio.com/articles/
-[shiny-bookdown]: https://bookdown.org/yihui/rmarkdown/shiny-documents.html
-[shiny-google-groups]: https://groups.google.com/forum/#!forum/shiny-discuss
-[shiny-stack-overflow]: https://stackoverflow.com/questions/tagged/shiny
-[shinyapps-web]: https://www.shinyapps.io
-[shiny-server-setup]: https://deanattali.com/2015/05/09/setup-rstudio-shiny-server-digital-ocean/
-[shiny-reactivity]: https://shiny.rstudio.com/articles/understanding-reactivity.html
-[shiny-debugging]: https://shiny.rstudio.com/articles/debugging.html
-[shiny-server]: https://www.rstudio.com/products/shiny/shiny-server/
-
-<!--Publications--> 
-[adv-r]: http://adv-r.had.co.nz
-[adv-r-fxns]: http://adv-r.had.co.nz/Functions.html
-[adv-r-dsl]: http://adv-r.had.co.nz/dsl.html
-[adv-r-defensive-programming]: http://adv-r.had.co.nz/Exceptions-Debugging.html#defensive-programming
-[adv-r-fxn-args]: http://adv-r.had.co.nz/Functions.html#function-arguments
-[adv-r-return-values]: http://adv-r.had.co.nz/Functions.html#return-values
-[adv-r-closures]: http://adv-r.had.co.nz/Functional-programming.html#closures
-
-[r4ds]: https://r4ds.had.co.nz
-[r4ds-transform]: https://r4ds.had.co.nz/transform.html
-[r4ds-strings]: https://r4ds.had.co.nz/strings.html
-[r4ds-readr-strings]: https://r4ds.had.co.nz/data-import.html#readr-strings
-[r4ds-dates-times]: https://r4ds.had.co.nz/dates-and-times.html
-[r4ds-data-import]: http://r4ds.had.co.nz/data-import.html
-[r4ds-relational-data]: https://r4ds.had.co.nz/relational-data.html
-[r4ds-pepper-shaker]: https://r4ds.had.co.nz/vectors.html#lists-of-condiments
-
-[r-pkgs2]: https://r-pkgs.org/index.html
-[r-pkgs2-whole-game]: https://r-pkgs.org/whole-game.html
-[r-pkgs2-description]: https://r-pkgs.org/description.html
-[r-pkgs2-man]: https://r-pkgs.org/man.htm
-[r-pkgs2-tests]: https://r-pkgs.org/tests.html
-[r-pkgs2-namespace]: https://r-pkgs.org/namespace.html
-[r-pkgs2-vignettes]: https://r-pkgs.org/vignettes.html
-[r-pkgs2-release]: https://r-pkgs.org/release.html
-[r-pkgs2-r-code]: https://r-pkgs.org/r.html#r
-
-[r-graphics-cookbook]: http://shop.oreilly.com/product/0636920023135.do
-
-[cookbook-for-r]: http://www.cookbook-r.com 
-[cookbook-for-r-graphs]: http://www.cookbook-r.com/Graphs/
-[cookbook-for-r-multigraphs]: http://www.cookbook-r.com/Graphs/Multiple_graphs_on_one_page_(ggplot2)/
-
-[elegant-graphics-springer]: https://www.springer.com/gp/book/9780387981413
-
-[testthat-article]: https://journal.r-project.org/archive/2011-1/RJournal_2011-1_Wickham.pdf
-[worry-about-color]: https://github.com/DataScience4Psych/DataScience4Psych/blob/master/admin/pdfs/Why%20Should%20Engineers%20and%20Scientists%20Be%20Worried%20About%20Color.pdf
-[escaping-rgbland-pdf]: https://eeecon.uibk.ac.at/~zeileis/papers/Zeileis+Hornik+Murrell-2009.pdf
-[escaping-rgbland-doi]: https://doi.org/10.1016/j.csda.2008.11.033
-
-
-<!--R Documentation-->
-[rdocs-extremes]: https://rdrr.io/r/base/Extremes.html
-[rdocs-range]: https://rdrr.io/r/base/range.html
-[rdocs-quantile]: https://rdrr.io/r/stats/quantile.html
-[rdocs-c]: https://rdrr.io/r/base/c.html
-[rdocs-list]: https://rdrr.io/r/base/list.html
-[rdocs-lm]: https://rdrr.io/r/stats/lm.html
-[rdocs-coef]: https://rdrr.io/r/stats/coef.html
-[rdocs-devices]: https://rdrr.io/r/grDevices/Devices.html
-[rdocs-ggsave]: https://rdrr.io/cran/ggplot2/man/ggsave.html
-[rdocs-dev]: https://rdrr.io/r/grDevices/dev.html
-
-
-<!--Wikipedia Links-->
-[wiki-snake-case]: https://en.wikipedia.org/wiki/Snake_case
-[wiki-hello-world]: https://en.wikipedia.org/wiki/%22Hello,_world!%22_program
-[wiki-janus]: https://en.wikipedia.org/wiki/Janus
-[wiki-nesting-dolls]: https://en.wikipedia.org/wiki/Matryoshka_doll
-[wiki-pure-fxns]: https://en.wikipedia.org/wiki/Pure_function
-[wiki-camel-case]: https://en.wikipedia.org/wiki/Camel_case
-[wiki-mojibake]: https://en.wikipedia.org/wiki/Mojibake
-[wiki-row-col-major-order]: https://en.wikipedia.org/wiki/Row-_and_column-major_order
-[wiki-boxplot]: https://en.wikipedia.org/wiki/Box_plot
-[wiki-brewer]: https://en.wikipedia.org/wiki/Cynthia_Brewer
-[wiki-vector-graphics]: https://en.wikipedia.org/wiki/Vector_graphics
-[wiki-raster-graphics]: https://en.wikipedia.org/wiki/Raster_graphics
-[wiki-dry]: https://en.wikipedia.org/wiki/Don%27t_repeat_yourself
-[wiki-web-scraping]: https://en.wikipedia.org/wiki/Web_scraping
-[wiki-xpath]: https://en.wikipedia.org/wiki/XPath
-[wiki-css-selector]: https://en.wikipedia.org/wiki/Cascading_Style_Sheets#Selector
-
-
-<!--Misc. Links-->
-[split-apply-combine]: https://www.jstatsoft.org/article/view/v040i01
-[useR-2014-dropbox]: https://www.dropbox.com/sh/i8qnluwmuieicxc/AAAgt9tIKoIm7WZKIyK25lh6a
-[gh-pages]: https://pages.github.com
-[html-preview]: http://htmlpreview.github.io
-[tj-mahr-slides]: https://github.com/tjmahr/MadR_Pipelines
-[dataschool-dplyr]: https://www.dataschool.io/dplyr-tutorial-for-faster-data-manipulation-in-r/
-[xckd-randall-munroe]: https://fivethirtyeight.com/features/xkcd-randall-munroe-qanda-what-if/
-[athena-zeus-forehead]: https://tinyurl.com/athenaforehead
-[tidydata-lotr]: https://github.com/jennybc/lotr-tidy#readme
-[minimal-make]: https://kbroman.org/minimal_make/
-[write-data-tweet]: https://twitter.com/vsbuffalo/statuses/358699162679787521
-[belt-and-suspenders]: https://www.wisegeek.com/what-does-it-mean-to-wear-belt-and-suspenders.htm
-[research-workflow]: https://www.carlboettiger.info/2012/05/06/research-workflow.html
-[yak-shaving]: https://seths.blog/2005/03/dont_shave_that/
-[yaml-with-csv]: https://blog.datacite.org/using-yaml-frontmatter-with-csv/
-[reproducible-examples]: https://stackoverflow.com/questions/5963269/how-to-make-a-great-r-reproducible-example
-[blog-strings-as-factors]: https://notstatschat.tumblr.com/post/124987394001/stringsasfactors-sigh
-[bio-strings-as-factors]: https://simplystatistics.org/2015/07/24/stringsasfactors-an-unauthorized-biography
-[stackexchange-outage]: https://stackstatus.net/post/147710624694/outage-postmortem-july-20-2016
-[email-regex]: https://emailregex.com
-[fix-atom-bug]: https://davidvgalbraith.com/how-i-fixed-atom/
-[icu-regex]: http://userguide.icu-project.org/strings/regexp
-[regex101]: https://regex101.com
-[regexr]: https://regexr.com
-[utf8-debug]: http://www.i18nqa.com/debug/utf8-debug.html
-[unicode-no-excuses]: https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/
-[programmers-encoding]: http://kunststube.net/encoding/
-[encoding-probs-ruby]: https://www.justinweiss.com/articles/3-steps-to-fix-encoding-problems-in-ruby/
-[theyre-to-theyre]: https://www.justinweiss.com/articles/how-to-get-from-theyre-to-theyre/
-[lubridate-ex1]: https://www.r-exercises.com/2016/08/15/dates-and-times-simple-and-easy-with-lubridate-part-1/
-[lubridate-ex2]: https://www.r-exercises.com/2016/08/29/dates-and-times-simple-and-easy-with-lubridate-exercises-part-2/
-[lubridate-ex3]: https://www.r-exercises.com/2016/10/04/dates-and-times-simple-and-easy-with-lubridate-exercises-part-3/
-[google-sql-join]: https://www.google.com/search?q=sql+join&tbm=isch
-[min-viable-product]: https://blog.fastmonkeys.com/
-[telescope-rule]: http://c2.com/cgi/wiki?TelescopeRule
-[unix-philosophy]: http://www.faqs.org/docs/artu/ch01s06.html
-[twitter-wrathematics]: https://twitter.com/wrathematics
-[robbins-effective-graphs]: https://www.amazon.com/Creating-Effective-Graphs-Naomi-Robbins/dp/0985911123
-[r-graph-catalog-github]: https://github.com/jennybc/r-graph-catalog
-[google-pie-charts]: https://www.google.com/search?q=pie+charts+suck
-[why-pie-charts-suck]: https://www.richardhollins.com/blog/why-pie-charts-suck/
-[worst-figure]: https://robjhyndman.com/hyndsight/worst-figure/
-[naomi-robbins]: http://www.nbr-graphs.com
-[hadley-github-index]: https://hadley.github.io
-[scipy-2015-matplotlib-colors]: https://www.youtube.com/watch?v=xAoljeRJ3lU
-[winston-chang-github]: https://github.com/wch
-[favorite-rgb-color]: https://manyworldstheory.com/2013/01/15/my-favorite-rgb-color/
-[stowers-color-chart]: https://web.archive.org/web/20121022044903/http://research.stowers-institute.org/efg/R/Color/Chart/
-[stowers-using-color-in-R]: https://www.uv.es/conesa/CursoR/material/UsingColorInR.pdf
-[zombie-project]: https://imgur.com/ewmBeQG
-[tweet-project-resurfacing]: https://twitter.com/JohnDCook/status/522377493417033728
-[rgraphics-looks-tips]: https://blog.revolutionanalytics.com/2009/01/10-tips-for-making-your-r-graphics-look-their-best.html
-[rgraphics-svg-tips]: https://blog.revolutionanalytics.com/2011/07/r-svg-graphics.html
-[zev-ross-cheatsheet]: http://zevross.com/blog/2014/08/04/beautiful-plotting-in-r-a-ggplot2-cheatsheet-3/
-[parker-writing-r-packages]: https://hilaryparker.com/2014/04/29/writing-an-r-package-from-scratch/
-[broman-r-packages]: https://kbroman.org/pkg_primer/
-[broman-tools4rr]: https://kbroman.org/Tools4RR/
-[leeks-r-packages]: https://github.com/jtleek/rpackages
-[build-maintain-r-packages]: https://thepoliticalmethodologist.com/2014/08/14/building-and-maintaining-r-packages-with-devtools-and-roxygen2/
-[murdoch-package-vignette-slides]: https://web.archive.org/web/20160824010213/http://www.stats.uwo.ca/faculty/murdoch/ism2013/5Vignettes.pdf
-[how-r-searches]: http://blog.obeautifulcode.com/R/How-R-Searches-And-Finds-Stuff/
-
-
-<!--chapter:end:index.Rmd-->
-
-
-
-
-
-<!--class Links-->
-[web]: https://smasongarrison.github.io/syllabi
-[git]: https://github.com/smasongarrison/syllabi
-[slides]: https://github.com/DataScience4Psych/slides
-[edits]: https://github.com/smasongarrison/syllabi/commits/main
-<!-- keep-->
-
-[stat-545]: https://stat545.com
-[jennybryan]: https://jennybryan.org
-
-[albano-class]: https://www.thetaminusb.com/intro-measurement-r/
-[noba]: https://nobaproject.com/
-[ytplaylist]: https://ytplaylist-len.herokuapp.com/
-
-
-<!--R Links-->
-[cran]: https://cloud.r-project.org
-[cran-faq]: https://cran.r-project.org/faqs.html
-[cran-R-admin]: http://cran.r-project.org/doc/manuals/R-admin.html
-[cran-add-ons]: https://cran.r-project.org/doc/manuals/R-admin.html#Add_002don-packages
-[r-proj]: https://www.r-project.org
-[stat-545]: https://stat545.com
-[software-carpentry]: https://software-carpentry.org
-[cran-r-extensions]: https://cran.r-project.org/doc/manuals/r-release/R-exts.html
-
-<!--RStudio Links-->
-[rstudio-preview]: https://www.rstudio.com/products/rstudio/download/preview/
-[rstudio-official]: https://www.rstudio.com/products/rstudio/#Desktop
-[rstudio-workbench]: https://www.rstudio.com/wp-content/uploads/2014/04/rstudio-workbench.png
-[rstudio-support]: https://support.rstudio.com/hc/en-us
-[rstudio-R-help]: https://support.rstudio.com/hc/en-us/articles/200552336-Getting-Help-with-R
-[rstudio-customizing]: https://support.rstudio.com/hc/en-us/articles/200549016-Customizing-RStudio
-[rstudio-key-shortcuts]: https://support.rstudio.com/hc/en-us/articles/200711853-Keyboard-Shortcuts
-[rstudio-command-history]: https://support.rstudio.com/hc/en-us/articles/200526217-Command-History
-[rstudio-using-projects]: https://support.rstudio.com/hc/en-us/articles/200526207-Using-Projects
-[rstudio-code-snippets]: https://support.rstudio.com/hc/en-us/articles/204463668-Code-Snippets
-[rstudio-dplyr-cheatsheet-download]: https://github.com/rstudio/cheatsheets/raw/master/data-transformation.pdf
-[rstudio-regex-cheatsheet]: https://www.rstudio.com/wp-content/uploads/2016/09/RegExCheatsheet.pdf
-[rstudio-devtools]: https://www.rstudio.com/products/rpackages/devtools/
-
-<!--HappyGitWithR Links-->
-[happy-git]: https://happygitwithr.com
-[hg-install-git]: https://happygitwithr.com/install-git.html
-[hg-git-client]: https://happygitwithr.com/git-client.html
-[hg-github-account]: https://happygitwithr.com/github-acct.html
-[hg-install-r-rstudio]: https://happygitwithr.com/install-r-rstudio.html
-[hg-connect-intro]: https://happygitwithr.com/connect-intro.html
-[hg-browsability]: https://happygitwithr.com/workflows-browsability.html
-[hg-shell]: https://happygitwithr.com/shell.html
-
-<!--Package Links-->
-[rmarkdown]: https://rmarkdown.rstudio.com
-[knitr-faq]: https://yihui.name/knitr/faq/
-
-[tidyverse-main-page]: https://www.tidyverse.org
-[tidyverse-web]: https://tidyverse.tidyverse.org
-[tidyverse-github]: https://github.com/hadley/tidyverse
-
-[dplyr-web]: https://dplyr.tidyverse.org
-[dplyr-cran]: https://CRAN.R-project.org/package=dplyr
-[dplyr-github]: https://github.com/hadley/dplyr
-[dplyr-vignette-intro]: https://cran.r-project.org/web/packages/dplyr/vignettes/dplyr.html
-[dplyr-vignette-window-fxns]: https://cran.r-project.org/web/packages/dplyr/vignettes/window-functions.html
-[dplyr-vignette-two-table]: https://dplyr.tidyverse.org/articles/two-table.html
-
-[lubridate-web]: https://lubridate.tidyverse.org
-[lubridate-cran]: https://CRAN.R-project.org/package=lubridate
-[lubridate-github]: https://github.com/tidyverse/lubridate
-[lubridate-vignette]: https://cran.r-project.org/web/packages/lubridate/vignettes/lubridate.html
-
-[tidyr-web]: https://tidyr.tidyverse.org
-[tidyr-cran]: https://CRAN.R-project.org/package=tidyr 
-
-[readr-web]: https://readr.tidyverse.org
-[readr-vignette-intro]: https://cran.r-project.org/web/packages/readr/vignettes/readr.html
-
-[stringr-web]: https://stringr.tidyverse.org
-[stringr-cran]: https://CRAN.R-project.org/package=stringr
-
-[ggplot2-web]: https://ggplot2.tidyverse.org
-[ggplot2-tutorial]: https://github.com/jennybc/ggplot2-tutorial
-[ggplot2-reference]: https://docs.ggplot2.org/current/
-[ggplot2-cran]: https://CRAN.R-project.org/package=ggplot2
-[ggplot2-github]: https://github.com/tidyverse/ggplot2
-[ggplot2-theme-args]: https://ggplot2.tidyverse.org/reference/ggtheme.html#arguments
-
-[gapminder-web]: https://www.gapminder.org
-[gapminder-cran]: https://CRAN.R-project.org/package=gapminder
-
-[assertthat-cran]: https://CRAN.R-project.org/package=assertthat
-[assertthat-github]: https://github.com/hadley/assertthat
-
-[ensurer-cran]: https://CRAN.R-project.org/package=ensurer
-[ensurer-github]: https://github.com/smbache/ensurer
-
-[assertr-cran]: https://CRAN.R-project.org/package=assertr
-[assertr-github]: https://github.com/ropensci/assertr
-
-[assertive-cran]: https://CRAN.R-project.org/package=assertive
-[assertive-bitbucket]: https://bitbucket.org/richierocks/assertive/src/master/
-
-[testthat-cran]: https://CRAN.R-project.org/package=testthat
-[testthat-github]: https://github.com/r-lib/testthat
-[testthat-web]: https://testthat.r-lib.org
-
-[viridis-cran]: https://CRAN.R-project.org/package=viridis
-[viridis-github]: https://github.com/sjmgarnier/viridis
-[viridis-vignette]: https://cran.r-project.org/web/packages/viridis/vignettes/intro-to-viridis.html
-
-[colorspace-cran]: https://CRAN.R-project.org/package=colorspace
-[colorspace-vignette]: https://cran.r-project.org/web/packages/colorspace/vignettes/hcl-colors.pdf
-
-[cowplot-cran]: https://CRAN.R-project.org/package=cowplot
-[cowplot-github]: https://github.com/wilkelab/cowplot
-[cowplot-vignette]: https://cran.r-project.org/web/packages/cowplot/vignettes/introduction.html
-
-[devtools-cran]: https://CRAN.R-project.org/package=devtools
-[devtools-github]: https://github.com/r-lib/devtools
-[devtools-web]: https://devtools.r-lib.org
-[devtools-cheatsheet]: https://www.rstudio.com/wp-content/uploads/2015/03/devtools-cheatsheet.pdf
-[devtools-cheatsheet-old]: https://rawgit.com/rstudio/cheatsheets/master/package-development.pdf
-[devtools-1-6]: https://blog.rstudio.com/2014/10/02/devtools-1-6/
-[devtools-1-8]: https://blog.rstudio.com/2015/05/11/devtools-1-9-0/
-[devtools-1-9-1]: https://blog.rstudio.com/2015/09/13/devtools-1-9-1/
-
-[googlesheets-cran]: https://CRAN.R-project.org/package=googlesheets
-[googlesheets-github]: https://github.com/jennybc/googlesheets
-
-[tidycensus-cran]: https://CRAN.R-project.org/package=tidycensus
-[tidycensus-github]: https://github.com/walkerke/tidycensus
-[tidycensus-web]: https://walkerke.github.io/tidycensus/index.html
-
-[fs-web]: https://fs.r-lib.org/index.html
-[fs-cran]: https://CRAN.R-project.org/package=fs
-[fs-github]: https://github.com/r-lib/fs
-
-[plumber-web]: https://www.rplumber.io
-[plumber-docs]: https://www.rplumber.io/docs/
-[plumber-github]: https://github.com/trestletech/plumber
-[plumber-cran]: https://CRAN.R-project.org/package=plumber
-
-[plyr-web]: http://plyr.had.co.nz
-
-[magrittr-web]: https://magrittr.tidyverse.org
-[forcats-web]: https://forcats.tidyverse.org
-[glue-web]: https://glue.tidyverse.org
-[stringi-cran]: https://CRAN.R-project.org/package=stringi
-[rex-github]: https://github.com/kevinushey/rex
-[rcolorbrewer-cran]: https://CRAN.R-project.org/package=RColorBrewer
-[dichromat-cran]: https://CRAN.R-project.org/package=dichromat
-
-[rdryad-web]: https://docs.ropensci.org/rdryad/
-[rdryad-cran]: https://CRAN.R-project.org/package=rdryad
-[rdryad-github]: https://github.com/ropensci/rdryad
-
-[roxygen2-cran]: https://CRAN.R-project.org/package=roxygen2
-[roxygen2-vignette]: https://cran.r-project.org/web/packages/roxygen2/vignettes/rd.html
-
-[shinythemes-web]: https://rstudio.github.io/shinythemes/
-[shinythemes-cran]: https://CRAN.R-project.org/package=shinythemes
-
-[shinyjs-web]: https://deanattali.com/shinyjs/
-[shinyjs-cran]: https://CRAN.R-project.org/package=shinyjs
-[shinyjs-github]: https://github.com/daattali/shinyjs
-
-[leaflet-web]: https://rstudio.github.io/leaflet/
-[leaflet-cran]: https://CRAN.R-project.org/package=leaflet
-[leaflet-github]: https://github.com/rstudio/leaflet
-
-[ggvis-web]: https://ggvis.rstudio.com
-[ggvis-cran]: https://CRAN.R-project.org/package=ggvis
- 
-[usethis-web]: https://usethis.r-lib.org
-[usethis-cran]: https://CRAN.R-project.org/package=usethis
-[usethis-github]: https://github.com/r-lib/usethis
-
-[pkgdown-web]: https://pkgdown.r-lib.org
-[gh-github]: https://github.com/r-lib/gh
-
-[httr-web]: https://httr.r-lib.org
-[httr-cran]: https://CRAN.R-project.org/package=httr
-[httr-github]: https://github.com/r-lib/httr
-
-[gistr-web]: https://docs.ropensci.org/gistr
-[gistr-cran]: https://CRAN.R-project.org/package=gistr
-[gistr-github]: https://github.com/ropensci/gistr
-
-[rvest-web]: https://rvest.tidyverse.org
-[rvest-cran]: https://CRAN.R-project.org/package=rvest
-[rvest-github]: https://github.com/tidyverse/rvest
-
-[xml2-web]: https://xml2.r-lib.org
-[xml2-cran]: https://CRAN.R-project.org/package=xml2
-[xml2-github]: https://github.com/r-lib/xml2
-
-[jsonlite-paper]: https://arxiv.org/abs/1403.2805
-[jsonlite-cran]: https://CRAN.R-project.org/package=jsonlite
-[jsonlite-github]: https://github.com/jeroen/jsonlite
-
-[readxl-web]: https://readxl.tidyverse.org
-[readxl-github]: https://github.com/tidyverse/readxl
-[readxl-cran]: https://CRAN.R-project.org/package=readxl
-
-[janitor-web]: http://sfirke.github.io/janitor/
-[janitor-cran]: https://CRAN.R-project.org/package=janitor
-[janitor-github]: https://github.com/sfirke/janitor
-
-[purrr-web]: https://purrr.tidyverse.org
-[curl-cran]: https://CRAN.R-project.org/package=curl
-
-<!--Shiny links-->
-[shinydashboard-web]: https://rstudio.github.io/shinydashboard/
-[shinydashboard-cran]: https://CRAN.R-project.org/package=shinydashboard
-[shinydashboard-github]: https://github.com/rstudio/shinydashboard
-
-
-[shiny-official-web]: https://shiny.rstudio.com
-[shiny-official-tutorial]: https://shiny.rstudio.com/tutorial/
-[shiny-cheatsheet]: https://shiny.rstudio.com/images/shiny-cheatsheet.pdf
-[shiny-articles]: https://shiny.rstudio.com/articles/
-[shiny-bookdown]: https://bookdown.org/yihui/rmarkdown/shiny-documents.html
-[shiny-google-groups]: https://groups.google.com/forum/#!forum/shiny-discuss
-[shiny-stack-overflow]: https://stackoverflow.com/questions/tagged/shiny
-[shinyapps-web]: https://www.shinyapps.io
-[shiny-server-setup]: https://deanattali.com/2015/05/09/setup-rstudio-shiny-server-digital-ocean/
-[shiny-reactivity]: https://shiny.rstudio.com/articles/understanding-reactivity.html
-[shiny-debugging]: https://shiny.rstudio.com/articles/debugging.html
-[shiny-server]: https://www.rstudio.com/products/shiny/shiny-server/
-
-<!--Publications--> 
-[adv-r]: http://adv-r.had.co.nz
-[adv-r-fxns]: http://adv-r.had.co.nz/Functions.html
-[adv-r-dsl]: http://adv-r.had.co.nz/dsl.html
-[adv-r-defensive-programming]: http://adv-r.had.co.nz/Exceptions-Debugging.html#defensive-programming
-[adv-r-fxn-args]: http://adv-r.had.co.nz/Functions.html#function-arguments
-[adv-r-return-values]: http://adv-r.had.co.nz/Functions.html#return-values
-[adv-r-closures]: http://adv-r.had.co.nz/Functional-programming.html#closures
-
-[r4ds]: https://r4ds.had.co.nz
-[r4ds-transform]: https://r4ds.had.co.nz/transform.html
-[r4ds-strings]: https://r4ds.had.co.nz/strings.html
-[r4ds-readr-strings]: https://r4ds.had.co.nz/data-import.html#readr-strings
-[r4ds-dates-times]: https://r4ds.had.co.nz/dates-and-times.html
-[r4ds-data-import]: http://r4ds.had.co.nz/data-import.html
-[r4ds-relational-data]: https://r4ds.had.co.nz/relational-data.html
-[r4ds-pepper-shaker]: https://r4ds.had.co.nz/vectors.html#lists-of-condiments
-
-[r-pkgs2]: https://r-pkgs.org/index.html
-[r-pkgs2-whole-game]: https://r-pkgs.org/whole-game.html
-[r-pkgs2-description]: https://r-pkgs.org/description.html
-[r-pkgs2-man]: https://r-pkgs.org/man.htm
-[r-pkgs2-tests]: https://r-pkgs.org/tests.html
-[r-pkgs2-namespace]: https://r-pkgs.org/namespace.html
-[r-pkgs2-vignettes]: https://r-pkgs.org/vignettes.html
-[r-pkgs2-release]: https://r-pkgs.org/release.html
-[r-pkgs2-r-code]: https://r-pkgs.org/r.html#r
-
-[r-graphics-cookbook]: http://shop.oreilly.com/product/0636920023135.do
-
-[cookbook-for-r]: http://www.cookbook-r.com 
-[cookbook-for-r-graphs]: http://www.cookbook-r.com/Graphs/
-[cookbook-for-r-multigraphs]: http://www.cookbook-r.com/Graphs/Multiple_graphs_on_one_page_(ggplot2)/
-
-[elegant-graphics-springer]: https://www.springer.com/gp/book/9780387981413
-
-[testthat-article]: https://journal.r-project.org/archive/2011-1/RJournal_2011-1_Wickham.pdf
-[worry-about-color]: https://github.com/DataScience4Psych/DataScience4Psych/blob/master/admin/pdfs/Why%20Should%20Engineers%20and%20Scientists%20Be%20Worried%20About%20Color.pdf
-[escaping-rgbland-pdf]: https://eeecon.uibk.ac.at/~zeileis/papers/Zeileis+Hornik+Murrell-2009.pdf
-[escaping-rgbland-doi]: https://doi.org/10.1016/j.csda.2008.11.033
-
-
-<!--R Documentation-->
-[rdocs-extremes]: https://rdrr.io/r/base/Extremes.html
-[rdocs-range]: https://rdrr.io/r/base/range.html
-[rdocs-quantile]: https://rdrr.io/r/stats/quantile.html
-[rdocs-c]: https://rdrr.io/r/base/c.html
-[rdocs-list]: https://rdrr.io/r/base/list.html
-[rdocs-lm]: https://rdrr.io/r/stats/lm.html
-[rdocs-coef]: https://rdrr.io/r/stats/coef.html
-[rdocs-devices]: https://rdrr.io/r/grDevices/Devices.html
-[rdocs-ggsave]: https://rdrr.io/cran/ggplot2/man/ggsave.html
-[rdocs-dev]: https://rdrr.io/r/grDevices/dev.html
-
-
-<!--Wikipedia Links-->
-[wiki-snake-case]: https://en.wikipedia.org/wiki/Snake_case
-[wiki-hello-world]: https://en.wikipedia.org/wiki/%22Hello,_world!%22_program
-[wiki-janus]: https://en.wikipedia.org/wiki/Janus
-[wiki-nesting-dolls]: https://en.wikipedia.org/wiki/Matryoshka_doll
-[wiki-pure-fxns]: https://en.wikipedia.org/wiki/Pure_function
-[wiki-camel-case]: https://en.wikipedia.org/wiki/Camel_case
-[wiki-mojibake]: https://en.wikipedia.org/wiki/Mojibake
-[wiki-row-col-major-order]: https://en.wikipedia.org/wiki/Row-_and_column-major_order
-[wiki-boxplot]: https://en.wikipedia.org/wiki/Box_plot
-[wiki-brewer]: https://en.wikipedia.org/wiki/Cynthia_Brewer
-[wiki-vector-graphics]: https://en.wikipedia.org/wiki/Vector_graphics
-[wiki-raster-graphics]: https://en.wikipedia.org/wiki/Raster_graphics
-[wiki-dry]: https://en.wikipedia.org/wiki/Don%27t_repeat_yourself
-[wiki-web-scraping]: https://en.wikipedia.org/wiki/Web_scraping
-[wiki-xpath]: https://en.wikipedia.org/wiki/XPath
-[wiki-css-selector]: https://en.wikipedia.org/wiki/Cascading_Style_Sheets#Selector
-
-
-<!--Misc. Links-->
-[split-apply-combine]: https://www.jstatsoft.org/article/view/v040i01
-[useR-2014-dropbox]: https://www.dropbox.com/sh/i8qnluwmuieicxc/AAAgt9tIKoIm7WZKIyK25lh6a
-[gh-pages]: https://pages.github.com
-[html-preview]: http://htmlpreview.github.io
-[tj-mahr-slides]: https://github.com/tjmahr/MadR_Pipelines
-[dataschool-dplyr]: https://www.dataschool.io/dplyr-tutorial-for-faster-data-manipulation-in-r/
-[xckd-randall-munroe]: https://fivethirtyeight.com/features/xkcd-randall-munroe-qanda-what-if/
-[athena-zeus-forehead]: https://tinyurl.com/athenaforehead
-[tidydata-lotr]: https://github.com/jennybc/lotr-tidy#readme
-[minimal-make]: https://kbroman.org/minimal_make/
-[write-data-tweet]: https://twitter.com/vsbuffalo/statuses/358699162679787521
-[belt-and-suspenders]: https://www.wisegeek.com/what-does-it-mean-to-wear-belt-and-suspenders.htm
-[research-workflow]: https://www.carlboettiger.info/2012/05/06/research-workflow.html
-[yak-shaving]: https://seths.blog/2005/03/dont_shave_that/
-[yaml-with-csv]: https://blog.datacite.org/using-yaml-frontmatter-with-csv/
-[reproducible-examples]: https://stackoverflow.com/questions/5963269/how-to-make-a-great-r-reproducible-example
-[blog-strings-as-factors]: https://notstatschat.tumblr.com/post/124987394001/stringsasfactors-sigh
-[bio-strings-as-factors]: https://simplystatistics.org/2015/07/24/stringsasfactors-an-unauthorized-biography
-[stackexchange-outage]: https://stackstatus.net/post/147710624694/outage-postmortem-july-20-2016
-[email-regex]: https://emailregex.com
-[fix-atom-bug]: https://davidvgalbraith.com/how-i-fixed-atom/
-[icu-regex]: http://userguide.icu-project.org/strings/regexp
-[regex101]: https://regex101.com
-[regexr]: https://regexr.com
-[utf8-debug]: http://www.i18nqa.com/debug/utf8-debug.html
-[unicode-no-excuses]: https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/
-[programmers-encoding]: http://kunststube.net/encoding/
-[encoding-probs-ruby]: https://www.justinweiss.com/articles/3-steps-to-fix-encoding-problems-in-ruby/
-[theyre-to-theyre]: https://www.justinweiss.com/articles/how-to-get-from-theyre-to-theyre/
-[lubridate-ex1]: https://www.r-exercises.com/2016/08/15/dates-and-times-simple-and-easy-with-lubridate-part-1/
-[lubridate-ex2]: https://www.r-exercises.com/2016/08/29/dates-and-times-simple-and-easy-with-lubridate-exercises-part-2/
-[lubridate-ex3]: https://www.r-exercises.com/2016/10/04/dates-and-times-simple-and-easy-with-lubridate-exercises-part-3/
-[google-sql-join]: https://www.google.com/search?q=sql+join&tbm=isch
-[min-viable-product]: https://blog.fastmonkeys.com/
-[telescope-rule]: http://c2.com/cgi/wiki?TelescopeRule
-[unix-philosophy]: http://www.faqs.org/docs/artu/ch01s06.html
-[twitter-wrathematics]: https://twitter.com/wrathematics
-[robbins-effective-graphs]: https://www.amazon.com/Creating-Effective-Graphs-Naomi-Robbins/dp/0985911123
-[r-graph-catalog-github]: https://github.com/jennybc/r-graph-catalog
-[google-pie-charts]: https://www.google.com/search?q=pie+charts+suck
-[why-pie-charts-suck]: https://www.richardhollins.com/blog/why-pie-charts-suck/
-[worst-figure]: https://robjhyndman.com/hyndsight/worst-figure/
-[naomi-robbins]: http://www.nbr-graphs.com
-[hadley-github-index]: https://hadley.github.io
-[scipy-2015-matplotlib-colors]: https://www.youtube.com/watch?v=xAoljeRJ3lU
-[winston-chang-github]: https://github.com/wch
-[favorite-rgb-color]: https://manyworldstheory.com/2013/01/15/my-favorite-rgb-color/
-[stowers-color-chart]: https://web.archive.org/web/20121022044903/http://research.stowers-institute.org/efg/R/Color/Chart/
-[stowers-using-color-in-R]: https://www.uv.es/conesa/CursoR/material/UsingColorInR.pdf
-[zombie-project]: https://imgur.com/ewmBeQG
-[tweet-project-resurfacing]: https://twitter.com/JohnDCook/status/522377493417033728
-[rgraphics-looks-tips]: https://blog.revolutionanalytics.com/2009/01/10-tips-for-making-your-r-graphics-look-their-best.html
-[rgraphics-svg-tips]: https://blog.revolutionanalytics.com/2011/07/r-svg-graphics.html
-[zev-ross-cheatsheet]: http://zevross.com/blog/2014/08/04/beautiful-plotting-in-r-a-ggplot2-cheatsheet-3/
-[parker-writing-r-packages]: https://hilaryparker.com/2014/04/29/writing-an-r-package-from-scratch/
-[broman-r-packages]: https://kbroman.org/pkg_primer/
-[broman-tools4rr]: https://kbroman.org/Tools4RR/
-[leeks-r-packages]: https://github.com/jtleek/rpackages
-[build-maintain-r-packages]: https://thepoliticalmethodologist.com/2014/08/14/building-and-maintaining-r-packages-with-devtools-and-roxygen2/
-[murdoch-package-vignette-slides]: https://web.archive.org/web/20160824010213/http://www.stats.uwo.ca/faculty/murdoch/ism2013/5Vignettes.pdf
-[how-r-searches]: http://blog.obeautifulcode.com/R/How-R-Searches-And-Finds-Stuff/
-
 
 
 
@@ -820,7 +85,7 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 Inter
  -->
  
 * This information is a human-readable summary of (and not a substitute for) the license.
-Please see <https://creativecommons.org/licenses/by-sa/4.0/legalcode> for the full legal text.*
+Please see https://creativecommons.org/licenses/by-sa/4.0/legalcode for the full legal text.*
 
 **You are free to:**
 
@@ -872,7 +137,6 @@ This version of the notes was built with:
 
 
 
-
 ```
 #> Finding R package dependencies ... Done!
 #>  setting  value
@@ -884,17 +148,13 @@ This version of the notes was built with:
 #>  collate  English_United States.1252
 #>  ctype    English_United States.1252
 #>  tz       America/New_York
-#>  date     2021-12-28
+#>  date     2021-12-30
 #>  pandoc   2.11.4 @ C:/Program Files/RStudio/bin/pandoc/ (via rmarkdown)
 ```
 
 Along with these packages:
 
-
-```{=html}
-<div id="htmlwidget-ca417f4cf75ee23cd3ff" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-ca417f4cf75ee23cd3ff">{"x":{"filter":"top","vertical":false,"filterHTML":"<tr>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n<\/tr>","data":[["askpass","assertthat","backports","base64enc","bit","bit64","bitops","blob","bookdown","brew","brio","broom","cachem","callr","cellranger","checkmate","cli","clipr","colorspace","commonmark","conflicted","cpp11","crayon","credentials","crosstalk","crul","curl","data.table","DBI","dbplyr","desc","devtools","dichromat","diffobj","digest","dplyr","DT","dtplyr","ellipsis","evaluate","fansi","farver","fastmap","forcats","fs","gapminder","gargle","gender","genderdata","generics","geonames","gert","ggplot2","gh","gitcreds","glue","googledrive","googlesheets4","gridExtra","gt","gtable","haven","highr","hms","htmltools","htmlwidgets","httpcode","httr","ids","ini","isoband","jquerylib","jsonlite","knitr","labeling","later","lattice","lazyeval","lifecycle","lubridate","magrittr","MASS","Matrix","memoise","mgcv","mime","modelr","munsell","nlme","openssl","pillar","pkgbuild","pkgconfig","pkgload","plyr","praise","prettyunits","processx","progress","promises","ps","purrr","R6","rappdirs","rcmdcheck","RColorBrewer","Rcpp","readr","readxl","rebird","rematch","rematch2","remotes","reprex","reshape2","rjson","rlang","rmarkdown","roxygen2","rplos","rprojroot","rstudioapi","rversions","rvest","sass","scales","selectr","sessioninfo","solrium","stringi","stringr","sys","testthat","tibble","tidyr","tidyselect","tidyverse","tinytex","triebeard","tzdb","urltools","usethis","utf8","uuid","vctrs","viridis","viridisLite","vroom","waldo","whisker","withr","xfun","xml2","xopen","yaml","zip"],[null,"0.2.1","1.4.1",null,null,null,null,null,"0.24",null,null,"0.7.10","1.0.6","3.7.0","1.1.0",null,"3.1.0",null,"2.0-2",null,null,null,"1.4.2",null,null,null,null,null,"1.1.2","2.1.1","1.4.0","2.4.3",null,null,"0.6.27","1.0.7","0.20",null,"0.3.2","0.14","0.5.0",null,"1.1.0","0.5.1","1.5.2",null,null,null,null,"0.1.1",null,null,"3.3.5",null,null,"1.6.0",null,null,null,null,"0.3.0","2.4.3",null,"1.1.1","0.5.2","1.5.4",null,"1.4.2",null,null,null,"0.1.4","1.7.2","1.37",null,null,null,null,"1.0.1","1.8.0","2.0.1",null,null,"2.0.1",null,null,"0.1.8","0.5.0",null,null,"1.6.4","1.3.1","2.0.3","1.2.4",null,null,"1.1.1","3.5.2",null,null,"1.6.0","0.3.4","2.5.1",null,null,null,"1.0.7","2.1.1","1.3.1",null,null,null,"2.4.2","2.0.1",null,null,"0.4.11","2.11",null,null,"2.0.2","0.13",null,"1.0.2","0.4.0","1.1.1",null,"1.2.2",null,"1.7.6","1.4.0",null,"3.1.1","3.1.6","1.1.4","1.1.1","1.3.1",null,null,"0.2.0",null,"2.1.5","1.2.2",null,"0.3.8",null,null,null,null,null,"2.4.3","0.29","1.3.3",null,"2.2.1",null],["2019-01-13","2019-03-21","2021-12-13","2015-07-28","2020-08-04","2020-08-30","2021-04-24","2021-07-23","2021-09-02","2011-04-13","2021-11-30","2021-10-31","2021-08-19","2021-04-20","2016-07-27","2020-02-06","2021-10-27","2020-10-08","2021-06-24","2018-12-01","2021-11-26","2021-11-30","2021-10-29","2021-11-29","2021-11-04","2021-11-22","2021-06-23","2021-09-27","2021-12-20","2021-04-06","2021-09-28","2021-11-30",null,"2021-10-05","2020-10-24","2021-06-18","2021-11-15","2021-12-05","2021-04-29","2019-05-28","2021-05-25","2021-02-28","2021-01-25","2021-01-27","2021-12-08","2017-10-31","2021-07-02","2021-10-13",null,"2021-10-25","2019-02-19","2021-11-10","2021-06-25","2021-04-30","2020-12-04","2021-12-17","2021-07-08","2021-07-21","2017-09-09","2021-08-07","2019-03-25","2021-08-04","2021-04-16","2021-09-26","2021-08-25","2021-09-08","2020-04-10","2020-07-20","2017-05-31","2018-05-20","2021-07-13","2021-04-26","2020-12-09","2021-12-16","2020-10-20","2021-08-18","2020-04-02","2019-03-15","2021-09-24","2021-10-07","2020-11-17","2021-02-12","2021-01-06","2021-11-26","2021-02-16","2021-09-28","2020-05-19","2018-06-12","2021-02-04","2021-12-19","2021-10-18","2021-12-20","2019-09-22","2021-11-30","2020-03-03","2015-08-11","2020-01-24","2021-04-30","2019-05-16","2021-02-11","2021-02-28","2020-04-17","2021-08-19","2021-01-31","2021-09-27","2014-12-07","2021-07-07","2021-11-30","2019-03-13","2021-09-20","2016-04-21","2020-05-01","2021-11-30","2021-08-05","2020-04-09","2018-06-08","2021-04-30","2021-09-14","2021-09-08","2021-02-23","2020-11-15","2020-11-12","2021-05-31","2021-10-16","2021-05-12","2020-05-11","2019-11-20","2021-12-06","2021-05-19","2021-11-29","2019-02-10","2020-07-23","2021-12-03","2021-11-07","2021-09-27","2021-04-30","2021-04-15","2021-12-19","2016-08-04","2021-10-27","2019-04-14","2021-12-09","2021-07-24","2021-11-01","2021-04-29","2021-10-13","2021-04-13","2021-11-30","2021-09-14","2019-08-28","2021-11-30","2021-12-14","2021-11-30","2018-09-17","2020-02-01","2021-05-31"],["CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)",null,"CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)",null,"CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>package<\/th>\n      <th>loadedversion<\/th>\n      <th>date<\/th>\n      <th>source<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":156,"autoWidth":true,"bInfo":false,"paging":false,"order":[],"orderClasses":false,"orderCellsTop":true,"lengthMenu":[10,25,50,100,156]}},"evals":[],"jsHooks":[]}</script>
-```
+![](0000_front_files/figure-latex/unnamed-chunk-4-1.pdf)<!-- --> 
 
 
 
@@ -920,7 +180,8 @@ sessionInfo()
 #> [5] LC_TIME=English_United States.1252    
 #> 
 #> attached base packages:
-#> [1] stats     graphics  grDevices utils     datasets  methods   base     
+#> [1] stats     graphics  grDevices utils     datasets  methods  
+#> [7] base     
 #> 
 #> other attached packages:
 #>  [1] DT_0.20         devtools_2.4.3  usethis_2.1.5   forcats_0.5.1  
@@ -933,7 +194,376 @@ sessionInfo()
 #> [5] shiny_1.7.1     miniUI_0.1.1.1
 ```
 
-<!--chapter:end:0000a_front.Rmd-->
+
+
+<!--class Links-->
+[web]: https://smasongarrison.github.io/syllabi
+[git]: https://github.com/smasongarrison/syllabi
+[slides]: https://github.com/DataScience4Psych/slides
+[edits]: https://github.com/smasongarrison/syllabi/commits/main
+<!-- keep-->
+
+[stat-545]: https://stat545.com
+[jennybryan]: https://jennybryan.org
+
+[albano-class]: https://www.thetaminusb.com/intro-measurement-r/
+[noba]: https://nobaproject.com/
+[ytplaylist]: https://ytplaylist-len.herokuapp.com/
+
+
+<!--R Links-->
+[cran]: https://cloud.r-project.org
+[cran-faq]: https://cran.r-project.org/faqs.html
+[cran-R-admin]: http://cran.r-project.org/doc/manuals/R-admin.html
+[cran-add-ons]: https://cran.r-project.org/doc/manuals/R-admin.html#Add_002don-packages
+[r-proj]: https://www.r-project.org
+[stat-545]: https://stat545.com
+[software-carpentry]: https://software-carpentry.org
+[cran-r-extensions]: https://cran.r-project.org/doc/manuals/r-release/R-exts.html
+
+<!--RStudio Links-->
+[rstudio-preview]: https://www.rstudio.com/products/rstudio/download/preview/
+[rstudio-official]: https://www.rstudio.com/products/rstudio/#Desktop
+[rstudio-workbench]: https://www.rstudio.com/wp-content/uploads/2014/04/rstudio-workbench.png
+[rstudio-support]: https://support.rstudio.com/hc/en-us
+[rstudio-R-help]: https://support.rstudio.com/hc/en-us/articles/200552336-Getting-Help-with-R
+[rstudio-customizing]: https://support.rstudio.com/hc/en-us/articles/200549016-Customizing-RStudio
+[rstudio-key-shortcuts]: https://support.rstudio.com/hc/en-us/articles/200711853-Keyboard-Shortcuts
+[rstudio-command-history]: https://support.rstudio.com/hc/en-us/articles/200526217-Command-History
+[rstudio-using-projects]: https://support.rstudio.com/hc/en-us/articles/200526207-Using-Projects
+[rstudio-code-snippets]: https://support.rstudio.com/hc/en-us/articles/204463668-Code-Snippets
+[rstudio-dplyr-cheatsheet-download]: https://github.com/rstudio/cheatsheets/raw/master/data-transformation.pdf
+[rstudio-regex-cheatsheet]: https://www.rstudio.com/wp-content/uploads/2016/09/RegExCheatsheet.pdf
+[rstudio-devtools]: https://www.rstudio.com/products/rpackages/devtools/
+
+<!--HappyGitWithR Links-->
+[happy-git]: https://happygitwithr.com
+[hg-install-git]: https://happygitwithr.com/install-git.html
+[hg-git-client]: https://happygitwithr.com/git-client.html
+[hg-github-account]: https://happygitwithr.com/github-acct.html
+[hg-install-r-rstudio]: https://happygitwithr.com/install-r-rstudio.html
+[hg-connect-intro]: https://happygitwithr.com/connect-intro.html
+[hg-browsability]: https://happygitwithr.com/workflows-browsability.html
+[hg-shell]: https://happygitwithr.com/shell.html
+
+<!--Package Links-->
+[rmarkdown]: https://rmarkdown.rstudio.com
+[knitr-faq]: https://yihui.name/knitr/faq/
+
+[tidyverse-main-page]: https://www.tidyverse.org
+[tidyverse-web]: https://tidyverse.tidyverse.org
+[tidyverse-github]: https://github.com/hadley/tidyverse
+
+[dplyr-web]: https://dplyr.tidyverse.org
+[dplyr-cran]: https://CRAN.R-project.org/package=dplyr
+[dplyr-github]: https://github.com/hadley/dplyr
+[dplyr-vignette-intro]: https://cran.r-project.org/web/packages/dplyr/vignettes/dplyr.html
+[dplyr-vignette-window-fxns]: https://cran.r-project.org/web/packages/dplyr/vignettes/window-functions.html
+[dplyr-vignette-two-table]: https://dplyr.tidyverse.org/articles/two-table.html
+
+[lubridate-web]: https://lubridate.tidyverse.org
+[lubridate-cran]: https://CRAN.R-project.org/package=lubridate
+[lubridate-github]: https://github.com/tidyverse/lubridate
+[lubridate-vignette]: https://cran.r-project.org/web/packages/lubridate/vignettes/lubridate.html
+
+[tidyr-web]: https://tidyr.tidyverse.org
+[tidyr-cran]: https://CRAN.R-project.org/package=tidyr 
+
+[readr-web]: https://readr.tidyverse.org
+[readr-vignette-intro]: https://cran.r-project.org/web/packages/readr/vignettes/readr.html
+
+[stringr-web]: https://stringr.tidyverse.org
+[stringr-cran]: https://CRAN.R-project.org/package=stringr
+
+[ggplot2-web]: https://ggplot2.tidyverse.org
+[ggplot2-tutorial]: https://github.com/jennybc/ggplot2-tutorial
+[ggplot2-reference]: https://docs.ggplot2.org/current/
+[ggplot2-cran]: https://CRAN.R-project.org/package=ggplot2
+[ggplot2-github]: https://github.com/tidyverse/ggplot2
+[ggplot2-theme-args]: https://ggplot2.tidyverse.org/reference/ggtheme.html#arguments
+
+[gapminder-web]: https://www.gapminder.org
+[gapminder-cran]: https://CRAN.R-project.org/package=gapminder
+
+[assertthat-cran]: https://CRAN.R-project.org/package=assertthat
+[assertthat-github]: https://github.com/hadley/assertthat
+
+[ensurer-cran]: https://CRAN.R-project.org/package=ensurer
+[ensurer-github]: https://github.com/smbache/ensurer
+
+[assertr-cran]: https://CRAN.R-project.org/package=assertr
+[assertr-github]: https://github.com/ropensci/assertr
+
+[assertive-cran]: https://CRAN.R-project.org/package=assertive
+[assertive-bitbucket]: https://bitbucket.org/richierocks/assertive/src/master/
+
+[testthat-cran]: https://CRAN.R-project.org/package=testthat
+[testthat-github]: https://github.com/r-lib/testthat
+[testthat-web]: https://testthat.r-lib.org
+
+[viridis-cran]: https://CRAN.R-project.org/package=viridis
+[viridis-github]: https://github.com/sjmgarnier/viridis
+[viridis-vignette]: https://cran.r-project.org/web/packages/viridis/vignettes/intro-to-viridis.html
+
+[colorspace-cran]: https://CRAN.R-project.org/package=colorspace
+[colorspace-vignette]: https://cran.r-project.org/web/packages/colorspace/vignettes/hcl-colors.pdf
+
+[cowplot-cran]: https://CRAN.R-project.org/package=cowplot
+[cowplot-github]: https://github.com/wilkelab/cowplot
+[cowplot-vignette]: https://cran.r-project.org/web/packages/cowplot/vignettes/introduction.html
+
+[devtools-cran]: https://CRAN.R-project.org/package=devtools
+[devtools-github]: https://github.com/r-lib/devtools
+[devtools-web]: https://devtools.r-lib.org
+[devtools-cheatsheet]: https://www.rstudio.com/wp-content/uploads/2015/03/devtools-cheatsheet.pdf
+[devtools-cheatsheet-old]: https://rawgit.com/rstudio/cheatsheets/master/package-development.pdf
+[devtools-1-6]: https://blog.rstudio.com/2014/10/02/devtools-1-6/
+[devtools-1-8]: https://blog.rstudio.com/2015/05/11/devtools-1-9-0/
+[devtools-1-9-1]: https://blog.rstudio.com/2015/09/13/devtools-1-9-1/
+
+[googlesheets-cran]: https://CRAN.R-project.org/package=googlesheets
+[googlesheets-github]: https://github.com/jennybc/googlesheets
+
+[tidycensus-cran]: https://CRAN.R-project.org/package=tidycensus
+[tidycensus-github]: https://github.com/walkerke/tidycensus
+[tidycensus-web]: https://walkerke.github.io/tidycensus/index.html
+
+[fs-web]: https://fs.r-lib.org/index.html
+[fs-cran]: https://CRAN.R-project.org/package=fs
+[fs-github]: https://github.com/r-lib/fs
+
+[plumber-web]: https://www.rplumber.io
+[plumber-docs]: https://www.rplumber.io/docs/
+[plumber-github]: https://github.com/trestletech/plumber
+[plumber-cran]: https://CRAN.R-project.org/package=plumber
+
+[plyr-web]: http://plyr.had.co.nz
+
+[magrittr-web]: https://magrittr.tidyverse.org
+[forcats-web]: https://forcats.tidyverse.org
+[glue-web]: https://glue.tidyverse.org
+[stringi-cran]: https://CRAN.R-project.org/package=stringi
+[rex-github]: https://github.com/kevinushey/rex
+[rcolorbrewer-cran]: https://CRAN.R-project.org/package=RColorBrewer
+[dichromat-cran]: https://CRAN.R-project.org/package=dichromat
+
+[rdryad-web]: https://docs.ropensci.org/rdryad/
+[rdryad-cran]: https://CRAN.R-project.org/package=rdryad
+[rdryad-github]: https://github.com/ropensci/rdryad
+
+[roxygen2-cran]: https://CRAN.R-project.org/package=roxygen2
+[roxygen2-vignette]: https://cran.r-project.org/web/packages/roxygen2/vignettes/rd.html
+
+[shinythemes-web]: https://rstudio.github.io/shinythemes/
+[shinythemes-cran]: https://CRAN.R-project.org/package=shinythemes
+
+[shinyjs-web]: https://deanattali.com/shinyjs/
+[shinyjs-cran]: https://CRAN.R-project.org/package=shinyjs
+[shinyjs-github]: https://github.com/daattali/shinyjs
+
+[leaflet-web]: https://rstudio.github.io/leaflet/
+[leaflet-cran]: https://CRAN.R-project.org/package=leaflet
+[leaflet-github]: https://github.com/rstudio/leaflet
+
+[ggvis-web]: https://ggvis.rstudio.com
+[ggvis-cran]: https://CRAN.R-project.org/package=ggvis
+ 
+[usethis-web]: https://usethis.r-lib.org
+[usethis-cran]: https://CRAN.R-project.org/package=usethis
+[usethis-github]: https://github.com/r-lib/usethis
+
+[pkgdown-web]: https://pkgdown.r-lib.org
+[gh-github]: https://github.com/r-lib/gh
+
+[httr-web]: https://httr.r-lib.org
+[httr-cran]: https://CRAN.R-project.org/package=httr
+[httr-github]: https://github.com/r-lib/httr
+
+[gistr-web]: https://docs.ropensci.org/gistr
+[gistr-cran]: https://CRAN.R-project.org/package=gistr
+[gistr-github]: https://github.com/ropensci/gistr
+
+[rvest-web]: https://rvest.tidyverse.org
+[rvest-cran]: https://CRAN.R-project.org/package=rvest
+[rvest-github]: https://github.com/tidyverse/rvest
+
+[xml2-web]: https://xml2.r-lib.org
+[xml2-cran]: https://CRAN.R-project.org/package=xml2
+[xml2-github]: https://github.com/r-lib/xml2
+
+[jsonlite-paper]: https://arxiv.org/abs/1403.2805
+[jsonlite-cran]: https://CRAN.R-project.org/package=jsonlite
+[jsonlite-github]: https://github.com/jeroen/jsonlite
+
+[readxl-web]: https://readxl.tidyverse.org
+[readxl-github]: https://github.com/tidyverse/readxl
+[readxl-cran]: https://CRAN.R-project.org/package=readxl
+
+[janitor-web]: http://sfirke.github.io/janitor/
+[janitor-cran]: https://CRAN.R-project.org/package=janitor
+[janitor-github]: https://github.com/sfirke/janitor
+
+[purrr-web]: https://purrr.tidyverse.org
+[curl-cran]: https://CRAN.R-project.org/package=curl
+
+<!--Shiny links-->
+[shinydashboard-web]: https://rstudio.github.io/shinydashboard/
+[shinydashboard-cran]: https://CRAN.R-project.org/package=shinydashboard
+[shinydashboard-github]: https://github.com/rstudio/shinydashboard
+
+
+[shiny-official-web]: https://shiny.rstudio.com
+[shiny-official-tutorial]: https://shiny.rstudio.com/tutorial/
+[shiny-cheatsheet]: https://shiny.rstudio.com/images/shiny-cheatsheet.pdf
+[shiny-articles]: https://shiny.rstudio.com/articles/
+[shiny-bookdown]: https://bookdown.org/yihui/rmarkdown/shiny-documents.html
+[shiny-google-groups]: https://groups.google.com/forum/#!forum/shiny-discuss
+[shiny-stack-overflow]: https://stackoverflow.com/questions/tagged/shiny
+[shinyapps-web]: https://www.shinyapps.io
+[shiny-server-setup]: https://deanattali.com/2015/05/09/setup-rstudio-shiny-server-digital-ocean/
+[shiny-reactivity]: https://shiny.rstudio.com/articles/understanding-reactivity.html
+[shiny-debugging]: https://shiny.rstudio.com/articles/debugging.html
+[shiny-server]: https://www.rstudio.com/products/shiny/shiny-server/
+
+<!--Publications--> 
+[adv-r]: http://adv-r.had.co.nz
+[adv-r-fxns]: http://adv-r.had.co.nz/Functions.html
+[adv-r-dsl]: http://adv-r.had.co.nz/dsl.html
+[adv-r-defensive-programming]: http://adv-r.had.co.nz/Exceptions-Debugging.html#defensive-programming
+[adv-r-fxn-args]: http://adv-r.had.co.nz/Functions.html#function-arguments
+[adv-r-return-values]: http://adv-r.had.co.nz/Functions.html#return-values
+[adv-r-closures]: http://adv-r.had.co.nz/Functional-programming.html#closures
+
+[r4ds]: https://r4ds.had.co.nz
+[r4ds-transform]: https://r4ds.had.co.nz/transform.html
+[r4ds-strings]: https://r4ds.had.co.nz/strings.html
+[r4ds-readr-strings]: https://r4ds.had.co.nz/data-import.html#readr-strings
+[r4ds-dates-times]: https://r4ds.had.co.nz/dates-and-times.html
+[r4ds-data-import]: http://r4ds.had.co.nz/data-import.html
+[r4ds-relational-data]: https://r4ds.had.co.nz/relational-data.html
+[r4ds-pepper-shaker]: https://r4ds.had.co.nz/vectors.html#lists-of-condiments
+
+[r-pkgs2]: https://r-pkgs.org/index.html
+[r-pkgs2-whole-game]: https://r-pkgs.org/whole-game.html
+[r-pkgs2-description]: https://r-pkgs.org/description.html
+[r-pkgs2-man]: https://r-pkgs.org/man.htm
+[r-pkgs2-tests]: https://r-pkgs.org/tests.html
+[r-pkgs2-namespace]: https://r-pkgs.org/namespace.html
+[r-pkgs2-vignettes]: https://r-pkgs.org/vignettes.html
+[r-pkgs2-release]: https://r-pkgs.org/release.html
+[r-pkgs2-r-code]: https://r-pkgs.org/r.html#r
+
+[r-graphics-cookbook]: http://shop.oreilly.com/product/0636920023135.do
+
+[cookbook-for-r]: http://www.cookbook-r.com 
+[cookbook-for-r-graphs]: http://www.cookbook-r.com/Graphs/
+[cookbook-for-r-multigraphs]: http://www.cookbook-r.com/Graphs/Multiple_graphs_on_one_page_(ggplot2)/
+
+[elegant-graphics-springer]: https://www.springer.com/gp/book/9780387981413
+
+[testthat-article]: https://journal.r-project.org/archive/2011-1/RJournal_2011-1_Wickham.pdf
+[worry-about-color]: https://github.com/DataScience4Psych/DataScience4Psych/blob/master/admin/pdfs/Why%20Should%20Engineers%20and%20Scientists%20Be%20Worried%20About%20Color.pdf
+[escaping-rgbland-pdf]: https://eeecon.uibk.ac.at/~zeileis/papers/Zeileis+Hornik+Murrell-2009.pdf
+[escaping-rgbland-doi]: https://doi.org/10.1016/j.csda.2008.11.033
+
+
+<!--R Documentation-->
+[rdocs-extremes]: https://rdrr.io/r/base/Extremes.html
+[rdocs-range]: https://rdrr.io/r/base/range.html
+[rdocs-quantile]: https://rdrr.io/r/stats/quantile.html
+[rdocs-c]: https://rdrr.io/r/base/c.html
+[rdocs-list]: https://rdrr.io/r/base/list.html
+[rdocs-lm]: https://rdrr.io/r/stats/lm.html
+[rdocs-coef]: https://rdrr.io/r/stats/coef.html
+[rdocs-devices]: https://rdrr.io/r/grDevices/Devices.html
+[rdocs-ggsave]: https://rdrr.io/cran/ggplot2/man/ggsave.html
+[rdocs-dev]: https://rdrr.io/r/grDevices/dev.html
+
+
+<!--Wikipedia Links-->
+[wiki-snake-case]: https://en.wikipedia.org/wiki/Snake_case
+[wiki-hello-world]: https://en.wikipedia.org/wiki/%22Hello,_world!%22_program
+[wiki-janus]: https://en.wikipedia.org/wiki/Janus
+[wiki-nesting-dolls]: https://en.wikipedia.org/wiki/Matryoshka_doll
+[wiki-pure-fxns]: https://en.wikipedia.org/wiki/Pure_function
+[wiki-camel-case]: https://en.wikipedia.org/wiki/Camel_case
+[wiki-mojibake]: https://en.wikipedia.org/wiki/Mojibake
+[wiki-row-col-major-order]: https://en.wikipedia.org/wiki/Row-_and_column-major_order
+[wiki-boxplot]: https://en.wikipedia.org/wiki/Box_plot
+[wiki-brewer]: https://en.wikipedia.org/wiki/Cynthia_Brewer
+[wiki-vector-graphics]: https://en.wikipedia.org/wiki/Vector_graphics
+[wiki-raster-graphics]: https://en.wikipedia.org/wiki/Raster_graphics
+[wiki-dry]: https://en.wikipedia.org/wiki/Don%27t_repeat_yourself
+[wiki-web-scraping]: https://en.wikipedia.org/wiki/Web_scraping
+[wiki-xpath]: https://en.wikipedia.org/wiki/XPath
+[wiki-css-selector]: https://en.wikipedia.org/wiki/Cascading_Style_Sheets#Selector
+
+
+<!--Misc. Links-->
+[split-apply-combine]: https://www.jstatsoft.org/article/view/v040i01
+[useR-2014-dropbox]: https://www.dropbox.com/sh/i8qnluwmuieicxc/AAAgt9tIKoIm7WZKIyK25lh6a
+[gh-pages]: https://pages.github.com
+[html-preview]: http://htmlpreview.github.io
+[tj-mahr-slides]: https://github.com/tjmahr/MadR_Pipelines
+[dataschool-dplyr]: https://www.dataschool.io/dplyr-tutorial-for-faster-data-manipulation-in-r/
+[xckd-randall-munroe]: https://fivethirtyeight.com/features/xkcd-randall-munroe-qanda-what-if/
+[athena-zeus-forehead]: https://tinyurl.com/athenaforehead
+[tidydata-lotr]: https://github.com/jennybc/lotr-tidy#readme
+[minimal-make]: https://kbroman.org/minimal_make/
+[write-data-tweet]: https://twitter.com/vsbuffalo/statuses/358699162679787521
+[belt-and-suspenders]: https://www.wisegeek.com/what-does-it-mean-to-wear-belt-and-suspenders.htm
+[research-workflow]: https://www.carlboettiger.info/2012/05/06/research-workflow.html
+[yak-shaving]: https://seths.blog/2005/03/dont_shave_that/
+[yaml-with-csv]: https://blog.datacite.org/using-yaml-frontmatter-with-csv/
+[reproducible-examples]: https://stackoverflow.com/questions/5963269/how-to-make-a-great-r-reproducible-example
+[blog-strings-as-factors]: https://notstatschat.tumblr.com/post/124987394001/stringsasfactors-sigh
+[bio-strings-as-factors]: https://simplystatistics.org/2015/07/24/stringsasfactors-an-unauthorized-biography
+[stackexchange-outage]: https://stackstatus.net/post/147710624694/outage-postmortem-july-20-2016
+[email-regex]: https://emailregex.com
+[fix-atom-bug]: https://davidvgalbraith.com/how-i-fixed-atom/
+[icu-regex]: http://userguide.icu-project.org/strings/regexp
+[regex101]: https://regex101.com
+[regexr]: https://regexr.com
+[utf8-debug]: http://www.i18nqa.com/debug/utf8-debug.html
+[unicode-no-excuses]: https://www.joelonsoftware.com/2003/10/08/the-absolute-minimum-every-software-developer-absolutely-positively-must-know-about-unicode-and-character-sets-no-excuses/
+[programmers-encoding]: http://kunststube.net/encoding/
+[encoding-probs-ruby]: https://www.justinweiss.com/articles/3-steps-to-fix-encoding-problems-in-ruby/
+[theyre-to-theyre]: https://www.justinweiss.com/articles/how-to-get-from-theyre-to-theyre/
+[lubridate-ex1]: https://www.r-exercises.com/2016/08/15/dates-and-times-simple-and-easy-with-lubridate-part-1/
+[lubridate-ex2]: https://www.r-exercises.com/2016/08/29/dates-and-times-simple-and-easy-with-lubridate-exercises-part-2/
+[lubridate-ex3]: https://www.r-exercises.com/2016/10/04/dates-and-times-simple-and-easy-with-lubridate-exercises-part-3/
+[google-sql-join]: https://www.google.com/search?q=sql+join&tbm=isch
+[min-viable-product]: https://blog.fastmonkeys.com/
+[telescope-rule]: http://c2.com/cgi/wiki?TelescopeRule
+[unix-philosophy]: http://www.faqs.org/docs/artu/ch01s06.html
+[twitter-wrathematics]: https://twitter.com/wrathematics
+[robbins-effective-graphs]: https://www.amazon.com/Creating-Effective-Graphs-Naomi-Robbins/dp/0985911123
+[r-graph-catalog-github]: https://github.com/jennybc/r-graph-catalog
+[google-pie-charts]: https://www.google.com/search?q=pie+charts+suck
+[why-pie-charts-suck]: https://www.richardhollins.com/blog/why-pie-charts-suck/
+[worst-figure]: https://robjhyndman.com/hyndsight/worst-figure/
+[naomi-robbins]: http://www.nbr-graphs.com
+[hadley-github-index]: https://hadley.github.io
+[scipy-2015-matplotlib-colors]: https://www.youtube.com/watch?v=xAoljeRJ3lU
+[winston-chang-github]: https://github.com/wch
+[favorite-rgb-color]: https://manyworldstheory.com/2013/01/15/my-favorite-rgb-color/
+[stowers-color-chart]: https://web.archive.org/web/20121022044903/http://research.stowers-institute.org/efg/R/Color/Chart/
+[stowers-using-color-in-R]: https://www.uv.es/conesa/CursoR/material/UsingColorInR.pdf
+[zombie-project]: https://imgur.com/ewmBeQG
+[tweet-project-resurfacing]: https://twitter.com/JohnDCook/status/522377493417033728
+[rgraphics-looks-tips]: https://blog.revolutionanalytics.com/2009/01/10-tips-for-making-your-r-graphics-look-their-best.html
+[rgraphics-svg-tips]: https://blog.revolutionanalytics.com/2011/07/r-svg-graphics.html
+[zev-ross-cheatsheet]: http://zevross.com/blog/2014/08/04/beautiful-plotting-in-r-a-ggplot2-cheatsheet-3/
+[parker-writing-r-packages]: https://hilaryparker.com/2014/04/29/writing-an-r-package-from-scratch/
+[broman-r-packages]: https://kbroman.org/pkg_primer/
+[broman-tools4rr]: https://kbroman.org/Tools4RR/
+[leeks-r-packages]: https://github.com/jtleek/rpackages
+[build-maintain-r-packages]: https://thepoliticalmethodologist.com/2014/08/14/building-and-maintaining-r-packages-with-devtools-and-roxygen2/
+[murdoch-package-vignette-slides]: https://web.archive.org/web/20160824010213/http://www.stats.uwo.ca/faculty/murdoch/ism2013/5Vignettes.pdf
+[how-r-searches]: http://blog.obeautifulcode.com/R/How-R-Searches-And-Finds-Stuff/
+
+
+<!--chapter:end:0000_front.Rmd-->
 
 ---
 output:
@@ -1321,21 +951,12 @@ Remember: This course is for you, not for me.
 
 
 
-```{=html}
-<div class="vembedr" align="center">
-<div>
-<iframe src="https://www.youtube.com/embed/aL_fP5axQV4" width="533" height="300" frameborder="0" allowfullscreen=""></iframe>
-</div>
-</div>
-```
+\includegraphics[width=29.86in]{img/snoop} 
 
 Credit: 
 
 
-```{=html}
-<blockquote class="twitter-tweet" data-width="550" data-lang="en" data-dnt="true" data-theme="light"><p lang="en" dir="ltr">“Read the syllabus” - <a href="https://twitter.com/SnoopDogg?ref_src=twsrc%5Etfw">@SnoopDogg</a> <a href="https://t.co/RXHvAB5ryO">https://t.co/RXHvAB5ryO</a></p>&mdash; Shit Academics Say (@AcademicsSay) <a href="https://twitter.com/AcademicsSay/status/1293621452684644355?ref_src=twsrc%5Etfw">August 12, 2020</a></blockquote>
-
-```
+\includegraphics[width=19.31in]{img/AcademicsSaystatus} 
 
 
 
@@ -1363,12 +984,8 @@ Most of my classes require that you have a computer that can run R and stream vi
 #### R and RStudio
 
 
-```{=html}
-<div class="vembedr" align="center">
-<div>
-<iframe src="https://www.youtube.com/embed/kVIZGCT5p9U" width="533" height="300" frameborder="0" allowfullscreen="" data-external="1"></iframe>
-</div>
-</div>
+```
+#> NULL
 ```
 
 R is a free software environment for statistical computing and graphics. It compiles and runs on a wide variety of UNIX platforms, Windows, and MacOS.
@@ -1497,11 +1114,15 @@ At Wake Forest and at many other places, the expectation is that you will self-a
 
 
 
-
-```{=html}
-<blockquote class="twitter-tweet" data-width="550" data-lang="en" data-dnt="true" data-theme="light"><p lang="en" dir="ltr">Every time we write that self-advocacy is key to disabled students&#39; success, we need to include an asterisk and note, &quot;BUT IT SHOULDN&#39;T BE&quot; <br><br>Disabled students deserve success regardless of how well they can navigate the system and cajole/plead/argue with profs for access.</p>&mdash; The ADHD Academic (@theADHDacademic) <a href="https://twitter.com/theADHDacademic/status/1458876178580881410?ref_src=twsrc%5Etfw">November 11, 2021</a></blockquote>
-
-```
+> Every time we write that self-advocacy is key to disabled students\'
+> success, we need to include an asterisk and note, \"BUT IT SHOULDN\'T
+> BE\"\
+> \
+> Disabled students deserve success regardless of how well they can
+> navigate the system and cajole/plead/argue with profs for access.
+>
+> --- The ADHD Academic (\@theADHDacademic) [November 11,
+> 2021](https://twitter.com/theADHDacademic/status/1458876178580881410)
 
 As a student, you may not know what accommodations work best for you. Or you may find that your current accommodations don't work like they used to. 
 
@@ -2136,22 +1757,38 @@ By scaling to a percentage of the highest point total in the class, each student
 This curve can only help your grade. 
 
 The full table is provided below:
+\begin{table}
 
-Table: (\#tab:unnamed-chunk-3)Full Table
-
-|Letter | Cutoff|
-|:------|------:|
-|A      |   0.95|
-|A-     |   0.90|
-|B+     |   0.87|
-|B      |   0.83|
-|B-     |   0.80|
-|C+     |   0.77|
-|C      |   0.73|
-|C-     |   0.70|
-|D+     |   0.67|
-|D      |   0.63|
-|D-     |   0.60|
+\caption{(\#tab:unnamed-chunk-3)Full Table}
+\centering
+\begin{tabular}[t]{l|r}
+\hline
+Letter & Cutoff\\
+\hline
+A & 0.95\\
+\hline
+A- & 0.90\\
+\hline
+B+ & 0.87\\
+\hline
+B & 0.83\\
+\hline
+B- & 0.80\\
+\hline
+C+ & 0.77\\
+\hline
+C & 0.73\\
+\hline
+C- & 0.70\\
+\hline
+D+ & 0.67\\
+\hline
+D & 0.63\\
+\hline
+D- & 0.60\\
+\hline
+\end{tabular}
+\end{table}
 
 ### Curve Projections
 
@@ -2471,22 +2108,38 @@ By scaling to a percentage of the highest point total in the class, each student
 This curve can only help your grade. 
 
 The full table is provided below:
+\begin{table}
 
-Table: (\#tab:unnamed-chunk-3)Full Table
-
-|Letter | Cutoff|
-|:------|------:|
-|A      |   0.95|
-|A-     |   0.90|
-|B+     |   0.87|
-|B      |   0.83|
-|B-     |   0.80|
-|C+     |   0.77|
-|C      |   0.73|
-|C-     |   0.70|
-|D+     |   0.67|
-|D      |   0.63|
-|D-     |   0.60|
+\caption{(\#tab:unnamed-chunk-3)Full Table}
+\centering
+\begin{tabular}[t]{l|r}
+\hline
+Letter & Cutoff\\
+\hline
+A & 0.95\\
+\hline
+A- & 0.90\\
+\hline
+B+ & 0.87\\
+\hline
+B & 0.83\\
+\hline
+B- & 0.80\\
+\hline
+C+ & 0.77\\
+\hline
+C & 0.73\\
+\hline
+C- & 0.70\\
+\hline
+D+ & 0.67\\
+\hline
+D & 0.63\\
+\hline
+D- & 0.60\\
+\hline
+\end{tabular}
+\end{table}
 
 ### Curve Projections
 
@@ -2694,7 +2347,7 @@ This experiential course requires active engagement. There will be few lectures 
 ## Grading Policy
 
 
-In this course, you will determine the grade you receive by fulfilling a contract you will submit for my approval on 02/05.
+In this course, you will determine the grade you receive by fulfilling a contract you will submit for my approval on 01/21.
 
 Your written contract will detail:
 
@@ -2776,19 +2429,19 @@ To contract for an "C" in this course, you agree to:
 Schedule
 -->
 
-## Week 01, 01/25 - 01/29 : What is Data Science and Meet the Toolkit
+## Week 01, 01/10 - 01/14 : What is Data Science and Meet the Toolkit
 <!---
 - Monday: First Day of Class / Introduction
 - Wednesday: What is personality? (Chapter 1)
 - Friday: Research in Personality: Sources of Data (Chapter 2)
 -->
-## Week 02, 02/01 - 02/05 : Data and Visualization
+## Week 02, 01/17 - 01/21 : Data and Visualization
 <!---
 - Monday: NO CLASS MLK Day
 - Wednesday: Research Design: Validity (Chapter 2)
 - Friday: Research Design: Generalizability (Chapter 2; Short Assignment 1 Handed Out)
 -->
-##  Week 03, 02/08 - 02/12 : Grammar of data wrangling 
+##  Week 03, 01/24 - 01/28 : Grammar of data wrangling 
 <!---
 - Monday: Personality Assessment (Chapter 3)
 - Tuesday: "Last day to add full-term class"
@@ -2796,80 +2449,80 @@ Schedule
 - Friday: Person versus Situation (Chapter 4)
 -->
 
-##  Week 04, 02/15 - 02/19 : Data types and Data Transformations
+##  Week 04, 01/31 - 02/04 : Data types and Data Transformations
 <!---
 - Monday: What are traits? What are the basic traits? (Chapter 4)
 - Wednesday: Personality Judgement (Chapter 5)
 - Friday: Using Personality Traits to Understand Behavior (Chapter 6; Assignment 1 Due)
 -->
-##  Week 05, 02/22 - 02/26 : Tips for effective data visualization
+##  Week 05, 02/07 - 02/11 : Tips for effective data visualization
 <!---
 - Monday: Big Five (Chapter 6)
 - Wednesday: Review
 - Friday: Test 1
 -->
-##  Week 06, 03/01 - 03/05 : Scientific studies and confounding
+##  Week 06, 02/14 - 02/18 : Scientific studies and confounding
 <!---
 - Monday: Brains (Chapter 8)
 - Wednesday: More Brains (Chapter 8)
 - Friday: Behavior Genetics (Chapter 9)
 -->
-##  Week 07, 03/08 - 03/12 : Web scraping 
+##  Week 07, 02/21 - 02/25 : Web scraping 
 <!---
 - Monday: Behavior Genetics (Chapter 9)
 - Wednesday: Evolutionary Psychology (Chapter 9)
 - Friday: Evolutionary Psychology (Chapter 9)
 -->
-##  Week 08, 03/15 - 03/19 : Functions
+##  Week 08, 02/28 - 03/04 : Functions
 <!---
 - Monday: Personality over the Lifespan (Chapter 7)
 - Wednesday: Personality over the Lifespan (Chapter 7)
 - Friday: Personality Processes (Chapter 15)
 -->
-##  Week 09, 03/22 - 03/26 : Data and Ethics
+##  Week 09, 03/07 - 03/11 : Data and Ethics
 <!---
 - Monday: No Class
 - Wednesday: No Class
 - Friday: No Class
 -->
-##  Week 10, 03/29 - 04/02 : Fitting and interpreting models
+##  Week 10, 03/14 - 03/18 : Fitting and interpreting models
 <!---
 - Monday: Personality Processes (Chapter 15)
 - Wednesday: Review
 - Friday: Test 2
 -->
-##  Week 11, 04/05 - 04/09 : Prediction and overfitting
+##  Week 11, 03/21 - 03/25 : Prediction and overfitting
 <!---
 - Monday: The Self (Chapter 16) Last day to drop with a grade of "W"
 - Wednesday: The Self (Chapter 16)
 - Friday:  Freud (Chapter 10) 
 -->
-##  Week 12, 04/12 - 04/16 : Cross validation
+##  Week 12, 03/28 - 04/01 : Cross validation
 <!---
 - Monday: Freud (Chapter 10)
 - Wednesday: Freud (Chapter 10)
 - Friday: Neo-Freud (Chapter 11; Assignment 2 Due)
 -->
-## Week 13, 04/19 - 04/23 : Quantifying uncertainty
+## Week 13, 04/04 - 04/08 : Quantifying uncertainty
 <!---
 - Monday:  Neo-Freud (Chapter 11) 
 - Wednesday: Positive Psychology
 - Friday: Positive Psychology
 -->
-##  Week 14, 04/26 - 04/30 : Interactive web apps
+##  Week 14, 04/11 - 04/15 : Interactive web apps
 <!---
 - Monday: Cross-Cultural Psychology
 - Wednesday: Cross-Cultural Psychology
 - Friday: Cross-Cultural Psychology
 -->
 
-##  Week 15, 05/03 - 05/07 : Special Topics (like: Text analysis; Machine learning; Bayesian inference)
+##  Week 15, 04/18 - 04/22 : Special Topics (like: Text analysis; Machine learning; Bayesian inference)
 <!---
 - Monday: Personality and Physical Health
 - Wednesday: Personality and Mental Health
 - Friday: Personality Disorders
 
-##  Week 16, 05/10 - 05/14 : NA 
+##  Week 16, 04/25 - 04/29 : NA 
 
 - Monday: Special Topics
 - Wednesday: Review; Assignment 3 Due; Last Day of Class
@@ -2897,11 +2550,14 @@ Below you'll find answers to the questions that I get asked the most by students
 
 I don't want to discourage you from asking questions. However, asking me is not an efficient method for finding facts and searchable information...
 
-
-```{=html}
-<blockquote class="twitter-tweet" data-width="550" data-lang="en" data-dnt="true" data-theme="light"><p lang="en" dir="ltr">Considering launching the following autoreply:<br>Frequently Asked Questions<br>Q: &quot;Can you -&quot;<br>A: I cannot.</p>&mdash; Alison Ledgerwood isn&#39;t here right now (@AlisonLedg) <a href="https://twitter.com/AlisonLedg/status/1441181845706579969?ref_src=twsrc%5Etfw">September 23, 2021</a></blockquote>
-
-```
+> Considering launching the following autoreply:\
+> Frequently Asked Questions\
+> Q: \"Can you -\"\
+> A: I cannot.
+>
+> --- Alison Ledgerwood isn\'t here right now (\@AlisonLedg) [September
+> 23,
+> 2021](https://twitter.com/AlisonLedg/status/1441181845706579969)
 
 ## How can I get ahold of you?
 
@@ -2919,7 +2575,8 @@ I don't want to discourage you from asking questions. However, asking me is not 
 
 * Phone Call: ...
 
-<img src="img/why-this-millennial-didnt-answer-your-call.jpeg" width="50%" style="display: block; margin: auto;" />
+
+\begin{center}\includegraphics[width=0.5\linewidth]{img/why-this-millennial-didnt-answer-your-call} \end{center}
 
 Credit: [Kiki Schirr](https://kikischirr.medium.com/) at [Tech Doodles](https://medium.com/tech-doodles) on ["Why this millennial didn't answer your call"](https://medium.com/tech-doodles/why-this-millennial-didnt-answer-your-call-d5abccf06cfc)
 
@@ -2968,11 +2625,12 @@ Although I am not Canvas tech support, I have provided some answers and resource
 - If you'd like to get materials for free, you can borrow the materials from someone who'se already taken the course.
 - **Obviously**, I can't recommend finding the materials online... 
 
-
-```{=html}
-<blockquote class="twitter-tweet" data-width="550" data-lang="en" data-dnt="true" data-theme="light"><p lang="en" dir="ltr">Once again, I DO NOT recommend students go to libgen (dot) rs and download books for their upcoming courses. I am NOT advocating for getting and sharing free pdfs of required texts. DON&#39;T DO IT.</p>&mdash; itsgalo 🗯 (@GaloAndStuff) <a href="https://twitter.com/GaloAndStuff/status/1424818560417902604?ref_src=twsrc%5Etfw">August 9, 2021</a></blockquote>
-
-```
+> Once again, I DO NOT recommend students go to libgen (dot) rs and
+> download books for their upcoming courses. I am NOT advocating for
+> getting and sharing free pdfs of required texts. DON\'T DO IT.
+>
+> --- itsgalo (\@GaloAndStuff) [August 9,
+> 2021](https://twitter.com/GaloAndStuff/status/1424818560417902604)
 
 ### Can...
 
@@ -3025,13 +2683,8 @@ embed_url() %>%
 }
 ```
 
-```{=html}
-<div class="vembedr" align="center">
-<div>
-<iframe src="https://www.youtube.com/embed/WVvKnq5XT-g" width="533" height="300" frameborder="0" allowfullscreen="" data-external="1"></iframe>
-</div>
-</div>
-```
+
+\includegraphics[width=18.14in]{img/worriedgrade} 
 
 
 ### Why...
@@ -3061,11 +2714,17 @@ If you find yourself spending a lot more or a lot less than 9 hours per week on 
 
 ### How do I ask professors for extensions?
 
-
-```{=html}
-<blockquote class="twitter-tweet" data-width="550" data-lang="en" data-dnt="true" data-theme="light"><p lang="en" dir="ltr">Until I became a professor, I didn&#39;t realize that students can (and do) regularly ask for extensions. <br><br>This means some students know how to use this strategy to support their learning, some don&#39;t.<br><br>Sharing info so everyone has access to the same tools. A thread. <a href="https://twitter.com/OpenAcademics?ref_src=twsrc%5Etfw">@OpenAcademics</a></p>&mdash; Dr. Betty Lai (@BettySLai) <a href="https://twitter.com/BettySLai/status/1455555111397117954?ref_src=twsrc%5Etfw">November 2, 2021</a></blockquote>
-
-```
+> Until I became a professor, I didn\'t realize that students can (and
+> do) regularly ask for extensions.\
+> \
+> This means some students know how to use this strategy to support
+> their learning, some don\'t.\
+> \
+> Sharing info so everyone has access to the same tools. A thread.
+> [\@OpenAcademics](https://twitter.com/OpenAcademics)
+>
+> --- Betty Lai, PhD (\@BettySLai) [November 2,
+> 2021](https://twitter.com/BettySLai/status/1455555111397117954)
 
 
 ## Online Learning
@@ -3149,7 +2808,8 @@ You're probably familiar with checking your grades for a [current course in Canv
 
 In order to get an accurate view of your final grade towards the end of the semester,
 
-<img src="img/grades.png" width="50%" style="display: block; margin: auto;" />
+
+\begin{center}\includegraphics[width=0.5\linewidth]{img/grades} \end{center}
 
 You may also be seeing icons and colors when you view your grades. [Learn what these grade icons and colors mean](https://community.canvaslms.com/docs/DOC-16533-4212829283).
 
@@ -3179,7 +2839,8 @@ Check out the canvas [basic guides](https://community.canvaslms.com/t5/Canvas-Ba
 
 Because some of the requirements to unlock it the activity are not met. To unlock the activity/module, you need to do whatever is listed.
 
-<img src="img/requirements.png" width="50%" style="display: block; margin: auto;" />
+
+\begin{center}\includegraphics[width=0.5\linewidth]{img/requirements} \end{center}
 
 ## Resources
 
@@ -3214,13 +2875,7 @@ Thus, if you miss one lecture or zip through a video, you run the risk of being 
 I've created a [video](https://youtu.be/dc3D2tbl8G0) highlighting how to be a successful asynchronous learner. 
 
 
-```{=html}
-<div class="vembedr" align="center">
-<div>
-<iframe src="https://www.youtube.com/embed/dc3D2tbl8G0" width="533" height="300" frameborder="0" allowfullscreen="" data-external="1"></iframe>
-</div>
-</div>
-```
+\includegraphics[width=30.76in]{img/learngood} 
 
 Much of this information comes from Northeastern University's [Tips for Taking Online Classes](https://www.northeastern.edu/graduate/blog/tips-for-taking-online-classes/)
 
@@ -3345,7 +3000,8 @@ On mobile devices, Canvas is designed to be used within Canvas mobile applicatio
 * In order to get an accurate view of your final grade towards the end of the semester, make sure to uncheck the Calculate based only on graded assignments checkbox:
 
 
-<img src="img/grades.png" width="50%" style="display: block; margin: auto;" />
+
+\begin{center}\includegraphics[width=0.5\linewidth]{img/grades} \end{center}
 
 
 * You may also be seeing icons and colors when you view your grades. [Learn what these grade icons and colors mean](https://community.canvaslms.com/t5/Student-Guide/How-do-I-use-the-icons-and-colors-in-the-Grades-page/ta-p/476)
@@ -3481,7 +3137,8 @@ You can search the Canvas Guides or contact the Canvas Support Helpline by click
 
 **Tech Support Cheat Sheet**
 
-![](https://imgs.xkcd.com/comics/tech_support_cheat_sheet.png)
+
+\includegraphics[width=10.17in]{img/tech_support_cheat_sheet} 
 
 ## Public Health
 
@@ -3492,9 +3149,168 @@ You can search the Canvas Guides or contact the Canvas Support Helpline by click
 
 <!--chapter:end:0303_support.Rmd-->
 
+# (PART\*) Back Matter {-}
 
-# References {-}
 
 
 <!--chapter:end:9999_references.Rmd-->
+
+\introduction
+
+The R package `bookdownplus` [@R-bookdownplus] is an extension of `bookdown` [@R-bookdown]. It is a collection of
+multiple templates on the basis of LaTeX, which are tailored so that I can work happily under the umbrella of `bookdown`. `bookdownplus` helps you write academic journal articles, guitar books, chemical equations, mails, calendars, and diaries.
+
+`bookdownplus` extends the features of `bookdown`, and simplifies the procedure. Users only have to choose a template, clarify the book title and author name, and then focus on writing the text. No need to struggle in YAML and LaTeX. 
+
+With `bookdownplus` users can
+
+-   record guitar chords,
+
+-   write a mail in an elegant layout,
+
+-   write a laboratory journal, or a personal diary,
+
+-   draw a monthly or weekly or conference calendar,
+
+-   and, of course, write academic articles in your favourite way,
+
+-   with chemical molecular formulae and equations,
+
+-   even in Chinese,
+
+-   and more wonders will come soon.
+
+Full documentation can be found in the book [R bookdownplus Textbook](https://bookdown.org/baydap/bookdownplus). The webpage looks so-so, while the [pdf file](https://bookdown.org/baydap/bookdownplus/bookdownplus.pdf) might give you a little surprise.  
+
+# Materials and Methods
+
+Although this section might not be the latest version, the general idea won't change. Please see [R bookdownplus Textbook](https://bookdown.org/baydap/bookdownplus) to keep up with the update.
+
+## Preparation
+
+Before starting, you have to install R, RStudio, bookdown package, and
+other software and packages (i.e. Pandoc, LaTeX, rmarkdown, rticle,
+knitr, etc.) which bookdown depends on. See the official [manual](https://bookdown.org/yihui/bookdown/) of
+bookdown for details. Additionally, if you want to produce a poster, phython must be installed before using, and the path of phython might have to be added to the environmental variables for Windows users.
+
+## Installation
+
+```
+install.package("bookdownplus")
+# or
+devtools::
+  install_github("pzhaonet/bookdownplus")
+```
+
+## Generate demo files
+
+Run the following codes, and you will get some files (e.g. `index.Rmd`, `body.Rmd`, `bookdownplus.Rproj`) and folders in your working directory.
+
+```
+getwd() # this is your working directory. run setwd() to change it.
+bookdownplus::bookdownplus()
+```
+
+## Build a demo book
+
+Now open `bookdownplus.Rproj` with RStudio, and press `ctrl+shift+b` to compile it. Your will get a book file named `*.pdf` in `_book/`folder.
+
+## Write your own
+
+Write your own text in `index.Rmd` and `body.Rmd`, and build your own lovely book.
+
+## More outputs
+
+By default, the book is in a pdf file. From 'bookdownplus' 1.0.3, users can get more output formats, including 'word', 'html' and 'epub'. Run:
+
+```
+bookdownplus::
+  bookdownplus(template = 'article', 
+               more_output = c('html', 'word', 'epub'))
+```
+
+## Recommendations
+
+I have been developing some other packages, which bring more features into 'bookdown', such as:
+
+- mindr [@R-mindr], which can extract the outline of your book and turn it into a mind map, and
+
+- pinyin [@R-pinyin], which can automatically generate ['{#ID}'](https://bookdown.org/yihui/bookdown/cross-references.html) of the chapter headers even if there are Chinese characters in them.
+
+Both of them have been released on CRAN and can be installed via:
+
+```
+install.packages('mindr')
+install.packages('pinyin')
+```
+
+Enjoy your bookdowning!
+
+## Models
+
+Eq. \@ref(eq:mc2) is an equation.
+
+\begin{equation} 
+E = mc^2
+  (\#eq:mc2)
+\end{equation} 
+
+It can be written as $E = mc^2$.
+
+
+# Results and Discussions
+
+Fig. \@ref(fig:fig1) psum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.8\linewidth]{body_files/figure-latex/fig1-1} 
+
+}
+
+\caption{caption}(\#fig:fig1)
+\end{figure}
+
+Tab. \@ref(tab:tab1) psum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+
+\begin{table}
+
+\caption{(\#tab:tab1)Here is a nice table!}
+\centering
+\begin{tabular}[t]{rrrrl}
+\toprule
+Sepal.Length & Sepal.Width & Petal.Length & Petal.Width & Species\\
+\midrule
+5.1 & 3.5 & 1.4 & 0.2 & setosa\\
+4.9 & 3.0 & 1.4 & 0.2 & setosa\\
+4.7 & 3.2 & 1.3 & 0.2 & setosa\\
+4.6 & 3.1 & 1.5 & 0.2 & setosa\\
+5.0 & 3.6 & 1.4 & 0.2 & setosa\\
+\addlinespace
+5.4 & 3.9 & 1.7 & 0.4 & setosa\\
+4.6 & 3.4 & 1.4 & 0.3 & setosa\\
+5.0 & 3.4 & 1.5 & 0.2 & setosa\\
+4.4 & 2.9 & 1.4 & 0.2 & setosa\\
+4.9 & 3.1 & 1.5 & 0.1 & setosa\\
+\addlinespace
+5.4 & 3.7 & 1.5 & 0.2 & setosa\\
+4.8 & 3.4 & 1.6 & 0.2 & setosa\\
+4.8 & 3.0 & 1.4 & 0.1 & setosa\\
+4.3 & 3.0 & 1.1 & 0.1 & setosa\\
+5.8 & 4.0 & 1.2 & 0.2 & setosa\\
+\addlinespace
+5.7 & 4.4 & 1.5 & 0.4 & setosa\\
+5.4 & 3.9 & 1.3 & 0.4 & setosa\\
+5.1 & 3.5 & 1.4 & 0.3 & setosa\\
+5.7 & 3.8 & 1.7 & 0.3 & setosa\\
+5.1 & 3.8 & 1.5 & 0.3 & setosa\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\conclusions
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+
+<!--chapter:end:body.Rmd-->
 

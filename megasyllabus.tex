@@ -1,138 +1,520 @@
-% Options for packages loaded elsewhere
-\PassOptionsToPackage{unicode}{hyperref}
-\PassOptionsToPackage{hyphens}{url}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Classicthesis Typographic Thesis
+% LaTeX Template
+% Version 1.0 (23/4/12)
 %
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Andr?Miede (http://www.miede.de)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% General Tips:
+% 1) Make sure to edit the classicthesis-config.file
+% 2) New enumeration (A., B., C., etc in small caps): \begin{aenumerate} \end{aenumerate}
+% 3) For margin notes: \marginpar or \graffito{}
+% 4) Do not use bold fonts in this style, it is designed around them
+% 5) Use tables as in the examples
+% 6) See classicthesis-preamble.sty for useful commands
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+\RequirePackage{scrlfile}
+\ReplacePackage{scrpage2}{scrlayer-scrpage}
 \documentclass[
-]{book}
-\usepackage{amsmath,amssymb}
-\usepackage{lmodern}
-\usepackage{ifxetex,ifluatex}
-\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
-  \usepackage[T1]{fontenc}
-  \usepackage[utf8]{inputenc}
-  \usepackage{textcomp} % provide euro and other symbols
-\else % if luatex or xetex
-  \usepackage{unicode-math}
-  \defaultfontfeatures{Scale=MatchLowercase}
-  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
-\fi
-% Use upquote if available, for straight quotes in verbatim environments
-\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
-\IfFileExists{microtype.sty}{% use microtype if available
-  \usepackage[]{microtype}
-  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
-}{}
-\makeatletter
-\@ifundefined{KOMAClassName}{% if non-KOMA class
-  \IfFileExists{parskip.sty}{%
-    \usepackage{parskip}
-  }{% else
-    \setlength{\parindent}{0pt}
-    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
-}{% if KOMA class
-  \KOMAoptions{parskip=half}}
-\makeatother
-\usepackage{xcolor}
-\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
-\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+		twoside,openright,titlepage,numbers=noenddot,headinclude,%1headlines,
+                footinclude=true,cleardoublepage=empty,
+                BCOR=5mm,paper=b5,fontsize=11pt, % Binding correction, paper type and font size
+                ngerman,american, % Languages
+                ]{scrreprt} 
+%\usepackage{CJK}                
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Thesis Configuration File
+%
+% The main lines to change in this file are in the DOCUMENT VARIABLES
+% section, the rest of the file is for advanced configuration.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	DOCUMENT VARIABLES
+%	Fill in the lines below to enter your information into the thesis template
+%	Each of the commands can be cited anywhere in the thesis
+%----------------------------------------------------------------------------------------
+
+% Remove drafting to get rid of the '[ Date - classicthesis version 4.0 ]' text at the bottom of every page
+\PassOptionsToPackage{eulerchapternumbers, listings,drafting, pdfspacing, subfig,beramono,eulermath,parts}{style/classicthesis}
+% Available options: drafting parts nochapters linedheaders eulerchapternumbers beramono eulermath pdfspacing minionprospacing tocaligned dottedtoc manychapters listings floatperchapter subfig
+% Adding 'dottedtoc' will make page numbers in the table of contents flushed right with dots leading to them
+
+\newcommand{\myTitle}{A Classic Thesis Style\xspace}
+\newcommand{\mySubtitle}{An Homage to The Elements of Typographic Style\xspace}
+\newcommand{\myDegree}{Doktor-Ingenieur (Dr.-Ing.)\xspace}
+\newcommand{\myName}{Andr\'e Miede\xspace}
+\newcommand{\myProf}{Put name here\xspace}
+\newcommand{\myOtherProf}{Put name here\xspace}
+\newcommand{\mySupervisor}{Put name here\xspace}
+\newcommand{\myFaculty}{Put data here\xspace}
+\newcommand{\myDepartment}{Put data here\xspace}
+\newcommand{\myUni}{Put data here\xspace}
+\newcommand{\myLocation}{Darmstadt\xspace}
+\newcommand{\myTime}{December 2011\xspace}
+\newcommand{\myVersion}{version 4.0\xspace}
+
+%----------------------------------------------------------------------------------------
+%	USEFUL COMMANDS
+%----------------------------------------------------------------------------------------
+
+\newcommand{\ie}{i.\,e.}
+\newcommand{\Ie}{I.\,e.}
+\newcommand{\eg}{e.\,g.}
+\newcommand{\Eg}{E.\,g.} 
+
+\newcounter{dummy} % Necessary for correct hyperlinks (to index, bib, etc.)
+\providecommand{\mLyX}{L\kern-.1667em\lower.25em\hbox{Y}\kern-.125emX\@}
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES
+%----------------------------------------------------------------------------------------
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+%------------------------------------------------
+ 
+\PassOptionsToPackage{latin9}{inputenc} % latin9 (ISO-8859-9) = latin1+"Euro sign"
+\usepackage{inputenc}
+ 
+ %------------------------------------------------
+
+%\PassOptionsToPackage{ngerman,american}{babel}  % Change this to your language(s)
+% Spanish languages need extra options in order to work with this template
+%\PassOptionsToPackage{spanish,es-lcroman}{babel}
+\usepackage{babel}
+
+%------------------------------------------------			
+
+\PassOptionsToPackage{square,numbers}{natbib}
+ \usepackage{natbib}
+ 
+ %------------------------------------------------
+
+\PassOptionsToPackage{fleqn}{amsmath} % Math environments and more by the AMS 
+ \usepackage{amsmath}
+ 
+ %------------------------------------------------
+
+\PassOptionsToPackage{T1}{fontenc} % T2A for cyrillics
+\usepackage{fontenc}
+
+%------------------------------------------------
+
+\usepackage{xspace} % To get the spacing after macros right
+
+%------------------------------------------------
+
+\usepackage{mparhack} % To get marginpar right
+
+%------------------------------------------------
+
+\usepackage{fixltx2e} % Fixes some LaTeX stuff 
+
+%------------------------------------------------
+
+\PassOptionsToPackage{smaller}{acronym} % Include printonlyused in the first bracket to only show acronyms used in the text
+\usepackage{acronym} % nice macros for handling all acronyms in the thesis
+
+%------------------------------------------------
+
+%\renewcommand*{\acsfont}[1]{\textssc{#1}} % For MinionPro
+%\renewcommand{\bflabel}[1]{{#1}\hfill} % Fix the list of acronyms
+
+%------------------------------------------------
+
+\PassOptionsToPackage{pdftex}{graphicx}
+\usepackage{graphicx} 
+
+%----------------------------------------------------------------------------------------
+%	FLOATS: TABLES, FIGURES AND CAPTIONS SETUP
+%----------------------------------------------------------------------------------------
+
+\usepackage{tabularx} % Better tables
+\setlength{\extrarowheight}{3pt} % Increase table row height
+\newcommand{\tableheadline}[1]{\multicolumn{1}{c}{\spacedlowsmallcaps{#1}}}
+\newcommand{\myfloatalign}{\centering} % To be used with each float for alignment
+\usepackage{caption}
+\captionsetup{format=hang,font=small}
+\usepackage{subfig}  
+
+\usepackage{longtable,booktabs}
+
+
+%----------------------------------------------------------------------------------------
+%	CODE LISTINGS SETUP
+%----------------------------------------------------------------------------------------
+
+\usepackage{listings} 
+%\lstset{emph={trueIndex,root},emphstyle=\color{BlueViolet}}%\underbar} % for special keywords
+\lstset{language=[LaTeX]Tex, % Specify the language for listings here
+keywordstyle=\color{RoyalBlue}, % Add \bfseries for bold
+basicstyle=\small\ttfamily, % Makes listings a smaller font size and a different font
+%identifierstyle=\color{NavyBlue}, % Color of text inside brackets
+commentstyle=\color{Green}\ttfamily, % Color of comments
+stringstyle=\rmfamily, % Font type to use for strings
+numbers=left, % Change left to none to remove line numbers
+numberstyle=\scriptsize, % Font size of the line numbers
+stepnumber=5, % Increment of line numbers
+numbersep=8pt, % Distance of line numbers from code listing
+showstringspaces=false, % Sets whether spaces in strings should appear underlined
+breaklines=true, % Force the code to stay in the confines of the listing box
+%frameround=ftff, % Uncomment for rounded frame
+frame=single, % Frame border - none/leftline/topline/bottomline/lines/single/shadowbox/L
+belowcaptionskip=.75\baselineskip % Space after the "Listing #: Desciption" text and the listing box
+}
+
+%----------------------------------------------------------------------------------------
+%	HYPERREFERENCES
+%----------------------------------------------------------------------------------------
+
+\PassOptionsToPackage{pdftex,hyperfootnotes=false,pdfpagelabels}{hyperref}
+\usepackage{hyperref}  % backref linktocpage pagebackref
+\pdfcompresslevel=9
+\pdfadjustspacing=1
+
 \hypersetup{
-  pdftitle={Prof.~Mason's Syllabi},
-  pdfauthor={S. Mason Garrison},
-  hidelinks,
-  pdfcreator={LaTeX via pandoc}}
-\urlstyle{same} % disable monospaced font for URLs
+% Uncomment the line below to remove all links (to references, figures, tables, etc)
+%draft, 
+colorlinks=true, linktocpage=true, pdfstartpage=3, pdfstartview=FitV,
+% Uncomment the line below if you want to have black links (e.g. for printing black and white)
+%colorlinks=false, linktocpage=false, pdfborder={0 0 0}, pdfstartpage=3, pdfstartview=FitV, 
+breaklinks=true, pdfpagemode=UseNone, pageanchor=true, pdfpagemode=UseOutlines,
+plainpages=false, bookmarksnumbered, bookmarksopen=true, bookmarksopenlevel=1,
+hypertexnames=true, pdfhighlight=/O, urlcolor=webbrown, linkcolor=RoyalBlue, citecolor=webgreen,
+%------------------------------------------------
+% PDF file meta-information
+pdftitle={\myTitle},
+pdfauthor={\textcopyright\ \myName, \myUni, \myFaculty},
+pdfsubject={},
+pdfkeywords={},
+pdfcreator={pdfLaTeX},
+pdfproducer={LaTeX with hyperref and classicthesis}
+%------------------------------------------------
+}   
+
+%----------------------------------------------------------------------------------------
+%	BACKREFERENCES
+%----------------------------------------------------------------------------------------
+
+\usepackage{ifthen} % Allows the user of the \ifthenelse command
+\newboolean{enable-backrefs} % Variable to enable backrefs in the bibliography
+\setboolean{enable-backrefs}{false} % Variable value: true or false
+
+\newcommand{\backrefnotcitedstring}{\relax} % (Not cited.)
+\newcommand{\backrefcitedsinglestring}[1]{(Cited on page~#1.)}
+\newcommand{\backrefcitedmultistring}[1]{(Cited on pages~#1.)}
+\ifthenelse{\boolean{enable-backrefs}} % If backrefs were enabled
+{
+\PassOptionsToPackage{hyperpageref}{backref}
+\usepackage{backref} % to be loaded after hyperref package 
+\renewcommand{\backreftwosep}{ and~} % separate 2 pages
+\renewcommand{\backreflastsep}{, and~} % separate last of longer list
+\renewcommand*{\backref}[1]{}  % disable standard
+\renewcommand*{\backrefalt}[4]{% detailed backref
+\ifcase #1 
+\backrefnotcitedstring
+\or
+\backrefcitedsinglestring{#2}
+\else
+\backrefcitedmultistring{#2}
+\fi}
+}{\relax} 
+
+%----------------------------------------------------------------------------------------
+%	AUTOREFERENCES SETUP
+%	Redefines how references in text are prefaced for different 
+%	languages (e.g. "Section 1.2" or "section 1.2")
+%----------------------------------------------------------------------------------------
+
+\makeatletter
+\@ifpackageloaded{babel}
+{
+\addto\extrasamerican{
+\renewcommand*{\figureautorefname}{Figure}
+\renewcommand*{\tableautorefname}{Table}
+\renewcommand*{\partautorefname}{Part}
+\renewcommand*{\chapterautorefname}{Chapter}
+\renewcommand*{\sectionautorefname}{Section}
+\renewcommand*{\subsectionautorefname}{Section}
+\renewcommand*{\subsubsectionautorefname}{Section}
+}
+\addto\extrasngerman{
+\renewcommand*{\paragraphautorefname}{Absatz}
+\renewcommand*{\subparagraphautorefname}{Unterabsatz}
+\renewcommand*{\footnoteautorefname}{Fu\"snote}
+\renewcommand*{\FancyVerbLineautorefname}{Zeile}
+\renewcommand*{\theoremautorefname}{Theorem}
+\renewcommand*{\appendixautorefname}{Anhang}
+\renewcommand*{\equationautorefname}{Gleichung}
+\renewcommand*{\itemautorefname}{Punkt}
+}
+\providecommand{\subfigureautorefname}{\figureautorefname} % Fix to getting autorefs for subfigures right
+}{\relax}
+\makeatother
+
+%----------------------------------------------------------------------------------------
+
+\usepackage{style/classicthesis} 
+
+%----------------------------------------------------------------------------------------
+%	CHANGING TEXT AREA 
+%----------------------------------------------------------------------------------------
+
+%\linespread{1.05} % a bit more for Palatino
+%\areaset[current]{312pt}{761pt} % 686 (factor 2.2) + 33 head + 42 head \the\footskip
+%\setlength{\marginparwidth}{7em}%
+%\setlength{\marginparsep}{2em}%
+
+%----------------------------------------------------------------------------------------
+%	USING DIFFERENT FONTS
+%----------------------------------------------------------------------------------------
+
+%\usepackage[oldstylenums]{kpfonts} % oldstyle notextcomp
+%\usepackage[osf]{libertine}
+%\usepackage{hfoldsty} % Computer Modern with osf
+%\usepackage[light,condensed,math]{iwona}
+%\renewcommand{\sfdefault}{iwona}
+%\usepackage{lmodern} % <-- no osf support :-(
+%\usepackage[urw-garamond]{mathdesign} <-- no osf support :-(
+
 \usepackage{color}
 \usepackage{fancyvrb}
 \newcommand{\VerbBar}{|}
 \newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
 \DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
 % Add ',fontsize=\small' for more characters per line
+
 \usepackage{framed}
 \definecolor{shadecolor}{RGB}{248,248,248}
 \newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
-\newcommand{\AlertTok}[1]{\textcolor[rgb]{0.94,0.16,0.16}{#1}}
-\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
-\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.77,0.63,0.00}{#1}}
-\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
-\newcommand{\BuiltInTok}[1]{#1}
-\newcommand{\CharTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
-\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
-\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
-\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
-\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
-\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{#1}}
-\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
-\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
-\newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.64,0.00,0.00}{\textbf{#1}}}
-\newcommand{\ExtensionTok}[1]{#1}
-\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
-\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
-\newcommand{\ImportTok}[1]{#1}
-\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
-\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
-\newcommand{\NormalTok}[1]{#1}
-\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.81,0.36,0.00}{\textbf{#1}}}
-\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
-\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
-\newcommand{\RegionMarkerTok}[1]{#1}
-\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
-\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
-\newcommand{\StringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
-\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
-\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
-\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
-\usepackage{longtable,booktabs,array}
-\usepackage{calc} % for calculating minipage widths
-% Correct order of tables after \paragraph or \subparagraph
-\usepackage{etoolbox}
-\makeatletter
-\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
-\makeatother
-% Allow footnotes in longtable head/foot
-\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
-\makesavenoteenv{longtable}
-\usepackage{graphicx}
-\makeatletter
-\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
-\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
-\makeatother
-% Scale images if necessary, so that they will not overflow the page
-% margins by default, and it is still possible to overwrite the defaults
-% using explicit options in \includegraphics[width, height, ...]{}
-\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
-% Set default figure placement to htbp
-\makeatletter
-\def\fps@figure{htbp}
-\makeatother
-\setlength{\emergencystretch}{3em} % prevent overfull lines
-\providecommand{\tightlist}{%
-  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
-\setcounter{secnumdepth}{5}
-\usepackage{booktabs}
-\ifluatex
-  \usepackage{selnolig}  % disable illegal ligatures
-\fi
-\usepackage[]{natbib}
-\bibliographystyle{apalike}
+\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{{#1}}}}
+\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{{#1}}}
+\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{{#1}}}
+\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{{#1}}}
+\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{{#1}}}
+\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{{#1}}}
+\newcommand{\CharTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{{#1}}}
+\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{{#1}}}
+\newcommand{\StringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{{#1}}}
+\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{{#1}}}
+\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{{#1}}}
+\newcommand{\ImportTok}[1]{{#1}}
+\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{{#1}}}}
+\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{{#1}}}}}
+\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{{#1}}}}}
+\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{{#1}}}}}
+\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{{#1}}}
+\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{{#1}}}
+\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{{#1}}}
+\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{{#1}}}}
+\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.81,0.36,0.00}{\textbf{{#1}}}}
+\newcommand{\BuiltInTok}[1]{{#1}}
+\newcommand{\ExtensionTok}[1]{{#1}}
+\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{{#1}}}}
+\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.77,0.63,0.00}{{#1}}}
+\newcommand{\RegionMarkerTok}[1]{{#1}}
+\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{{#1}}}}}
+\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{{#1}}}}}
+\newcommand{\AlertTok}[1]{\textcolor[rgb]{0.94,0.16,0.16}{{#1}}}
+\newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.64,0.00,0.00}{\textbf{{#1}}}}
+\newcommand{\NormalTok}[1]{{#1}}
 
-\title{Prof.~Mason's Syllabi}
-\author{S. Mason Garrison}
-\date{2021-12-13}
+\usepackage{textcomp} % for backstick
+\providecommand{\tightlist}{ % for tight list
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 
 \begin{document}
-\maketitle
+%\begin{CJK*}{GBK}{song} 
 
-{
-\setcounter{tocdepth}{0}
-\tableofcontents
-}
+\frenchspacing % Reduces space after periods to make text more compact
+
+\raggedbottom % Makes all pages the height of the text on that page
+
+\selectlanguage{american} % Select your default language - e.g. american or ngerman
+
+%\renewcommand*{\bibname}{new name} % Uncomment to change the name of the bibliography
+%\setbibpreamble{} % Uncomment to include a preamble to the bibliography - some text before the reference list starts
+
+\pagenumbering{roman} % Roman page numbering prior to the start of the thesis content (i, ii, iii, etc)
+
+\pagestyle{plain} % Suppress headers for the pre-content pages
+
+
+%----------------------------------------------------------------------------------------
+%	PRE-CONTENT THESIS PAGES
+%----------------------------------------------------------------------------------------
+
+%\include{FrontBackmatter/Titlepage} % Main title page
+
+% Title Page
+
+\begin{titlepage}
+
+\begin{addmargin}[-1cm]{-3cm}
+\begin{center}
+\large
+
+\hfill
+\vfill
+
+\begingroup
+\color{Maroon}\spacedallcaps{Prof.~Mason's Syllabi} \\ \bigskip % Thesis title
+
+\endgroup
+
+\spacedlowsmallcaps{S. Mason Garrison} % Your name
+
+\vfill
+
+\includegraphics[width=6cm]{} \\ \medskip % Picture
+
+%\mySubtitle \\ \medskip % Thesis subtitle
+%\myDegree \\
+%\myDepartment \\
+%\myFaculty \\
+%\myUni \\ \bigskip
+
+%\myTime\ -- \myVersion % Time and version
+
+\vfill
+
+\end{center}
+\end{addmargin}
+
+\end{titlepage}
+
+% \include{FrontBackmatter/Titleback} % Back of the title page
+
+%\cleardoublepage\include{FrontBackmatter/Dedication} % Dedication page
+
+%\cleardoublepage\include{FrontBackmatter/Foreword} % Uncomment and create a Foreword.tex to include a foreword
+
+%\cleardoublepage\include{FrontBackmatter/Abstract} % Abstract page
+
+%\cleardoublepage\include{FrontBackmatter/Publication} % Publications from the thesis page
+
+%\cleardoublepage\include{FrontBackmatter/Acknowledgments} % Acknowledgements page
+
+\pagestyle{scrheadings} % Show chapter titles as headings
+
+%\cleardoublepage\include{FrontBackmatter/Contents} % Contents, list of figures/tables/listings and acronyms
+% Table of Contents - List of Tables/Figures/Listings and Acronyms
+
+\refstepcounter{dummy}
+
+\pdfbookmark[1]{\contentsname}{tableofcontents} % Bookmark name visible in a PDF viewer
+
+\setcounter{tocdepth}{2} % Depth of sections to include in the table of contents - currently up to subsections
+
+\setcounter{secnumdepth}{3} % Depth of sections to number in the text itself - currently up to subsubsections
+
+\manualmark
+\markboth{\spacedlowsmallcaps{\contentsname}}{\spacedlowsmallcaps{\contentsname}}
+\tableofcontents 
+\automark[section]{chapter}
+\renewcommand{\chaptermark}[1]{\markboth{\spacedlowsmallcaps{#1}}{\spacedlowsmallcaps{#1}}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection\enspace\spacedlowsmallcaps{#1}}}
+
+\clearpage
+
+\begingroup 
+\let\clearpage\relax
+\let\cleardoublepage\relax
+\let\cleardoublepage\relax
+
+%----------------------------------------------------------------------------------------
+%	List of Figures
+%----------------------------------------------------------------------------------------
+
+\refstepcounter{dummy}
+%\addcontentsline{toc}{chapter}{\listfigurename} % Uncomment if you would like the list of figures to appear in the table of contents
+\pdfbookmark[1]{\listfigurename}{lof} % Bookmark name visible in a PDF viewer
+
+\listoffigures
+
+\vspace*{8ex}
+\newpage
+
+%----------------------------------------------------------------------------------------
+%	List of Tables
+%----------------------------------------------------------------------------------------
+
+\refstepcounter{dummy}
+%\addcontentsline{toc}{chapter}{\listtablename} % Uncomment if you would like the list of tables to appear in the table of contents
+\pdfbookmark[1]{\listtablename}{lot} % Bookmark name visible in a PDF viewer
+
+\listoftables
+        
+\vspace*{8ex}
+\newpage
+    
+%----------------------------------------------------------------------------------------
+%	List of Listings
+%---------------------------------------------------------------------------------------- 
+
+\refstepcounter{dummy}
+%\addcontentsline{toc}{chapter}{\lstlistlistingname} % Uncomment if you would like the list of listings to appear in the table of contents
+\pdfbookmark[1]{\lstlistlistingname}{lol} % Bookmark name visible in a PDF viewer
+
+\lstlistoflistings 
+
+\vspace*{8ex}
+\newpage
+       
+%----------------------------------------------------------------------------------------
+%	Acronyms
+%----------------------------------------------------------------------------------------
+
+\refstepcounter{dummy}
+%\addcontentsline{toc}{chapter}{Acronyms} % Uncomment if you would like the acronyms to appear in the table of contents
+\pdfbookmark[1]{Acronyms}{acronyms} % Bookmark name visible in a PDF viewer
+
+\markboth{\spacedlowsmallcaps{Acronyms}}{\spacedlowsmallcaps{Acronyms}}
+
+\chapter*{Acronyms}
+
+\begin{acronym}[UML]
+\acro{DRY}{Don't Repeat Yourself}
+\acro{API}{Application Programming Interface}
+\acro{UML}{Unified Modeling Language}
+\end{acronym}  
+                   
+\endgroup
+
+\cleardoublepage
+\pagenumbering{arabic} % Arabic page numbering for thesis content (1, 2, 3, etc)
+%\setcounter{page}{90} % Uncomment to manually start the page counter at an arbitrary value (for example if you wish to count the pre-content pages in the page count)
+
+\cleardoublepage % Avoids problems with pdfbookmark
+
+%----------------------------------------------------------------------------------------
+%	THESIS CONTENT - CHAPTERS
+%----------------------------------------------------------------------------------------
+
+% \ctparttext{You can put some informational part preamble text here. Illo principalmente su nos. Non message \emph{occidental} angloromanic da. Debitas effortio simplificate sia se, auxiliar summarios da que, se avantiate publicationes via. Pan in terra summarios, capital interlingua se que. Al via multo esser specimen, campo responder que da. Le usate medical addresses pro, europa origine sanctificate nos se.} % Text on the Part 1 page describing  the content in Part 1
+
+
 \hypertarget{part-front-matter}{%
 \part*{Front Matter}\label{part-front-matter}}
-\addcontentsline{toc}{part}{Front Matter}
+
 
 \hypertarget{welcome-to-my-syllabi}{%
 \chapter*{Welcome to my Syllabi!}\label{welcome-to-my-syllabi}}
-\addcontentsline{toc}{chapter}{Welcome to my Syllabi!}
+
 
 Welcome to all my syllabi! This website is designed to accompany all of Mason Garrison's courses at Wake Forest University.
 Over the semesters, I have found that my syllabi keep growing longer and longer as my career has progressed.
@@ -143,7 +525,7 @@ That way, I can have a neat and tidy syllabi, while still making my expectations
 
 \hypertarget{how-to-use-these-notes}{%
 \section*{How to use these notes}\label{how-to-use-these-notes}}
-\addcontentsline{toc}{section}{How to use these notes}
+
 
 This website is constantly changing. If you catch typos, errors, please issue a pull request with the fixes.
 
@@ -151,13 +533,13 @@ This document is broken down into multiple chapters. Use the table of contents o
 
 \hypertarget{attribution}{%
 \chapter*{Attribution}\label{attribution}}
-\addcontentsline{toc}{chapter}{Attribution}
+
 
 This mega syllabus leans on other peoples' materials and ideas. I have done my best to document the origin of the materials and ideas. In particular, I have noted those people whose work has been a major contribution as well as those who have additional contributions. You can see specific changes by examining the \href{https://github.com/smasongarrison/Syllabi/commits/main}{edit history on the git repo}
 
 \hypertarget{major-attributions}{%
 \section*{Major Attributions}\label{major-attributions}}
-\addcontentsline{toc}{section}{Major Attributions}
+
 
 \begin{itemize}
 \tightlist
@@ -165,9 +547,32 @@ This mega syllabus leans on other peoples' materials and ideas. I have done my b
   Jenny Bryan's (\href{https://jennybryan.org}{jennybryan.org}) \href{https://stat545.com}{STAT 545}
 \end{itemize}
 
+\hypertarget{additional-attributions}{%
+\section*{Additional Attributions}\label{additional-attributions}}
+
+
+** Numerous Icons from the Noun Project by: **
+* Adrien Coquet
+* Corpus Delicti
+* Suhyeon Jung
+
+\textbf{Select lecture notes from:}
+
+\begin{itemize}
+\tightlist
+\item
+  Jenny Bryan's (\href{https://jennybryan.org/}{jennybryan.org}) \href{https://stat545.com/}{STAT 545}
+\item
+  \href{https://wwnorton.com/books/The-Personality-Puzzle/}{David Funder's Personality Puzzle}
+\item
+  Anthony Albano's \href{https://www.thetaminusb.com/intro-measurement-r/}{Course Notes on ``Introduction to Educational and Psychological Measurement''}
+\item
+  R. Biswas-Diener \& E. Diener (Eds), Noba textbook series: Psychology. Champaign, IL: DEF publishers. Retrieved from \href{https://nobaproject.com/}{noba}
+\end{itemize}
+
 \hypertarget{license}{%
 \chapter*{License}\label{license}}
-\addcontentsline{toc}{chapter}{License}
+
 
 This work is licensed under a \href{https://creativecommons.org/licenses/by-sa/4.0/}{Creative Commons Attribution-ShareAlike 4.0 International License}.
 
@@ -221,7 +626,7 @@ material.
 
 \hypertarget{colophon}{%
 \chapter*{Colophon}\label{colophon}}
-\addcontentsline{toc}{chapter}{Colophon}
+
 
 These notes was written in \href{http://bookdown.org/}{bookdown} inside \href{http://www.rstudio.com/ide/}{RStudio}. The {[}website{]}{[}ds4p-web{]} is hosted with \href{https://www.github.com}{github}, The complete source is available from \href{https://github.com/smasongarrison/syllabi}{github}.
 
@@ -233,20 +638,20 @@ This version of the notes was built with:
 #> Finding R package dependencies ... Done!
 #>  setting  value
 #>  version  R version 4.0.5 (2021-03-31)
-#>  os       Windows 10 x64 (build 19043)
+#>  os       Windows 10 x64 (build 19044)
 #>  system   x86_64, mingw32
 #>  ui       RTerm
 #>  language (EN)
 #>  collate  English_United States.1252
 #>  ctype    English_United States.1252
 #>  tz       America/New_York
-#>  date     2021-12-13
+#>  date     2021-12-30
 #>  pandoc   2.11.4 @ C:/Program Files/RStudio/bin/pandoc/ (via rmarkdown)
 \end{verbatim}
 
 Along with these packages:
 
-\includegraphics{0000a_front_files/figure-latex/unnamed-chunk-4-1.pdf}
+\includegraphics{0000_front_files/figure-latex/unnamed-chunk-4-1.pdf}
 
 The R session information when compiling this book is shown below:
 
@@ -255,7 +660,7 @@ The R session information when compiling this book is shown below:
 \FunctionTok{sessionInfo}\NormalTok{()}
 \CommentTok{\#\textgreater{} R version 4.0.5 (2021{-}03{-}31)}
 \CommentTok{\#\textgreater{} Platform: x86\_64{-}w64{-}mingw32/x64 (64{-}bit)}
-\CommentTok{\#\textgreater{} Running under: Windows 10 x64 (build 19043)}
+\CommentTok{\#\textgreater{} Running under: Windows 10 x64 (build 19044)}
 \CommentTok{\#\textgreater{} }
 \CommentTok{\#\textgreater{} Matrix products: default}
 \CommentTok{\#\textgreater{} }
@@ -271,10 +676,10 @@ The R session information when compiling this book is shown below:
 \CommentTok{\#\textgreater{} [7] base     }
 \CommentTok{\#\textgreater{} }
 \CommentTok{\#\textgreater{} other attached packages:}
-\CommentTok{\#\textgreater{}  [1] DT\_0.20         devtools\_2.4.3  usethis\_2.1.3   forcats\_0.5.1  }
+\CommentTok{\#\textgreater{}  [1] DT\_0.20         devtools\_2.4.3  usethis\_2.1.5   forcats\_0.5.1  }
 \CommentTok{\#\textgreater{}  [5] stringr\_1.4.0   dplyr\_1.0.7     purrr\_0.3.4     readr\_2.1.1    }
 \CommentTok{\#\textgreater{}  [9] tidyr\_1.1.4     tibble\_3.1.6    ggplot2\_3.3.5   tidyverse\_1.3.1}
-\CommentTok{\#\textgreater{} [13] webshot\_0.5.2   knitr\_1.36      vembedr\_0.1.4   tweetrmd\_0.0.8 }
+\CommentTok{\#\textgreater{} [13] webshot\_0.5.2   knitr\_1.37      vembedr\_0.1.5   tweetrmd\_0.0.8 }
 \CommentTok{\#\textgreater{} }
 \CommentTok{\#\textgreater{} loaded via a namespace (and not attached):}
 \CommentTok{\#\textgreater{} [1] tools\_4.0.5     bookdown\_0.24   rmarkdown\_2.11  htmltools\_0.5.2}
@@ -284,11 +689,11 @@ The R session information when compiling this book is shown below:
 
 \hypertarget{part-syllabi}{%
 \part*{Syllabi}\label{part-syllabi}}
-\addcontentsline{toc}{part}{Syllabi}
+
 
 \hypertarget{general-information}{%
 \chapter*{General information}\label{general-information}}
-\addcontentsline{toc}{chapter}{General information}
+
 
 Welcome! This section includes general syllabus information. The next sections include information specific to your class.
 
@@ -344,7 +749,7 @@ Github is a free IDE and hosting service for Git. As a Wake Forest student, you 
 
 \hypertarget{part-policies}{%
 \part*{Policies}\label{part-policies}}
-\addcontentsline{toc}{part}{Policies}
+
 
 \hypertarget{policy-overview}{%
 \chapter{Policy Overview}\label{policy-overview}}
@@ -399,18 +804,33 @@ An unexcused absence will result in a zero for any graded work that should have 
 \hypertarget{late-work}{%
 \subsection{Late Work}\label{late-work}}
 
-Be sure to pay close attention to deadlines.
-If an assignment is not submitted by the deadline (i.e., is late), the student must email the instructor and provide a new deadline, ask for an alternative, or explain concerns \emph{within 36 hours} of the missed deadline.
-Ideally, you will have communicated with me in advance of the deadline, but on occasion life happens.
-As long as you've communicated \emph{within 36 hours}, I will do my best to work with you to come up with a new deadline or modification, so that you can earn full credit.
-This late policy does not apply to exams, tests, or quizzes.
+\begin{itemize}
+\tightlist
+\item
+  Be sure to pay close attention to deadlines.
+\item
+  If an assignment is not submitted by the deadline (i.e., is late), the student must email the instructor and provide a new deadline, ask for an alternative, or explain concerns \emph{within 36 hours} of the missed deadline.
+\item
+  Ideally, you will have communicated with me in advance of the deadline, but on occasion life happens.
+\item
+  As long as you've communicated \emph{within 36 hours}, I will do my best to work with you to come up with a new deadline or modification, so that you can earn full credit. + Any modifiation or change of deadline must be confirmed in writing. And must be done for each modification.
+\item
+  This late policy does not apply to exams, tests, or quizzes.
+\end{itemize}
 
-If contact is not made \emph{within 36 hours} of the missed deadline, the missing assignment will receive a 0.
+If contact is not made \emph{within 36 hours} of the missed deadline, the missing assignment will receive a 0 and can not be made up.
+
 Alternative deadlines will be within one week of the original deadline.
-Exceptions to the 1 week policy are at the instructor's discretion.
+
+Exceptions to the 1 week policy are at the instructor's discretion. Exceptions are rare.
+
 In general, I am much more sympathetic and accommodating if you communicate in advance.
 
+\hypertarget{submissions}{%
+\subsubsection{Submissions}\label{submissions}}
+
 It is your responsibility to ensure that the instructor has received the assignment by the established due date and to ensure that the assignment submitted is the complete and correct version.
+
 Unless otherwise explicitly specified, all work must be submitted through Canvas.
 
 Unless you have communicated with me in advance, there will be no make-up quizzes or tests.
@@ -436,19 +856,8 @@ Do not feel guilty about using them.
 You rightfully deserve them, in the legal, moral, and ethical sense.
 These accommodations are there so that you can be your best possible self.
 
-\begin{quote}
-Instead of asking only disabled people to disclose their disability,
-when it might not be safe to do so, why don't employers ask EVERYONE
-what their access needs and workplace adjustments are.\\
-~\\
-Normalise that everyone needs flexibility and the tools to do their
-job.
-\href{https://twitter.com/hashtag/DisabilityRC}{\#DisabilityRC}
-
---- El Gibbs (@bluntshovels) \href{https://twitter.com/bluntshovels/status/1463275576337129480}{November 23,
-2021}
-\#\# Self-Advocacy
-\end{quote}
+\hypertarget{self-advocacy}{%
+\section{Self-Advocacy}\label{self-advocacy}}
 
 At Wake Forest and at many other places, the expectation is that you will self-advocate for yourselves and know exactly what you need. Is that a good expectation? Is that a good model? Is that equitable? I have thoughts\ldots{} regardless, that is the current state of the world. Accordingly, you will have to advocate for what you need. If this process seems daunting, please talk to me! Regardless, I am happy to talk with you about this process and to share my own experiences.
 
@@ -460,8 +869,8 @@ BE"\\
 Disabled students deserve success regardless of how well they can
 navigate the system and cajole/plead/argue with profs for access.
 
---- The ADHD Academic (@theADHDacademic) \href{https://twitter.com/theADHDacademic/status/1458876178580881410}{November 11,
-2021}
+\begin{flushright}--- The ADHD Academic (@theADHDacademic) \href{https://twitter.com/theADHDacademic/status/1458876178580881410}{November 11,
+2021}\end{flushright}
 \end{quote}
 
 As a student, you may not know what accommodations work best for you. Or you may find that your current accommodations don't work like they used to.
@@ -599,8 +1008,8 @@ If you are ever uncertain about the purpose of an assignment, the learning objec
 
 You are expected to read every LMS announcement, message, and email; as well as view the media embedded within those communications. Students are expected to check e-mail on a frequent and regular basis in order to stay current with University-related communications, recognizing that certain communications may be time-critical. At minimum, you should be checking your communications within 24 hours. Ignorance of a class communication is not grounds for an excused absence or extension.
 
-\hypertarget{self-advocacy}{%
-\subsection{Self Advocacy}\label{self-advocacy}}
+\hypertarget{self-advocacy-1}{%
+\subsection{Self Advocacy}\label{self-advocacy-1}}
 
 If you are struggling in this class, please talk to me. Do not assume that I know what is going on in your life. Talk to me and tell me what you need.
 
@@ -682,11 +1091,11 @@ If you do not comply, I will ask you to leave the class for that day.
 
 \hypertarget{part-specific-courses}{%
 \part*{Specific Courses}\label{part-specific-courses}}
-\addcontentsline{toc}{part}{Specific Courses}
+
 
 \hypertarget{personality}{%
 \chapter*{255: Personality}\label{personality}}
-\addcontentsline{toc}{chapter}{255: Personality}
+
 
 \hypertarget{course-description}{%
 \section{Course Description}\label{course-description}}
@@ -853,67 +1262,67 @@ Trust me, you do not want me to curve by assignment.
 
 \hypertarget{week-01-0823---0827-what-is-personality}{%
 \section*{Week 01, 08/23 - 08/27 : What is Personality}\label{week-01-0823---0827-what-is-personality}}
-\addcontentsline{toc}{section}{Week 01, 08/23 - 08/27 : What is Personality}
+
 
 \hypertarget{week-02-0830---0903-personality-research-methods}{%
 \section*{Week 02, 08/30 - 09/03 : Personality Research Methods}\label{week-02-0830---0903-personality-research-methods}}
-\addcontentsline{toc}{section}{Week 02, 08/30 - 09/03 : Personality Research Methods}
+
 
 \hypertarget{week-03-0906---0910-assessment-evaluation-and-ethics}{%
 \section*{Week 03, 09/06 - 09/10 : Assessment, Evaluation, and Ethics}\label{week-03-0906---0910-assessment-evaluation-and-ethics}}
-\addcontentsline{toc}{section}{Week 03, 09/06 - 09/10 : Assessment, Evaluation, and Ethics}
+
 
 \hypertarget{week-04-0913---0917-trait-approach-and-personality-judgment}{%
 \section*{Week 04, 09/13 - 09/17 : Trait Approach and Personality Judgment}\label{week-04-0913---0917-trait-approach-and-personality-judgment}}
-\addcontentsline{toc}{section}{Week 04, 09/13 - 09/17 : Trait Approach and Personality Judgment}
+
 
 \hypertarget{week-05-0920---0924-big-five}{%
 \section*{Week 05, 09/20 - 09/24 : Big Five}\label{week-05-0920---0924-big-five}}
-\addcontentsline{toc}{section}{Week 05, 09/20 - 09/24 : Big Five}
+
 
 \hypertarget{week-06-0927---1001-personality-over-the-lifespan}{%
 \section*{Week 06, 09/27 - 10/01 : Personality over the Lifespan}\label{week-06-0927---1001-personality-over-the-lifespan}}
-\addcontentsline{toc}{section}{Week 06, 09/27 - 10/01 : Personality over the Lifespan}
+
 
 \hypertarget{week-07-1004---1008-biological-approaches-to-psychology}{%
 \section*{Week 07, 10/04 - 10/08 : Biological Approaches to Psychology}\label{week-07-1004---1008-biological-approaches-to-psychology}}
-\addcontentsline{toc}{section}{Week 07, 10/04 - 10/08 : Biological Approaches to Psychology}
+
 
 \hypertarget{week-08-1011---1015-behavior-genetics}{%
 \section*{Week 08, 10/11 - 10/15 : Behavior Genetics}\label{week-08-1011---1015-behavior-genetics}}
-\addcontentsline{toc}{section}{Week 08, 10/11 - 10/15 : Behavior Genetics}
+
 
 \hypertarget{week-09-1018---1022-evolutionary-psychology}{%
 \section*{Week 09, 10/18 - 10/22 : Evolutionary Psychology}\label{week-09-1018---1022-evolutionary-psychology}}
-\addcontentsline{toc}{section}{Week 09, 10/18 - 10/22 : Evolutionary Psychology}
+
 
 \hypertarget{week-10-1025---1029-cross-cultural-psychology}{%
 \section*{Week 10, 10/25 - 10/29 : Cross-Cultural Psychology}\label{week-10-1025---1029-cross-cultural-psychology}}
-\addcontentsline{toc}{section}{Week 10, 10/25 - 10/29 : Cross-Cultural Psychology}
+
 
 \hypertarget{week-11-1101---1105-freud}{%
 \section*{Week 11, 11/01 - 11/05 : Freud}\label{week-11-1101---1105-freud}}
-\addcontentsline{toc}{section}{Week 11, 11/01 - 11/05 : Freud}
+
 
 \hypertarget{week-12-1108---1112-psychoanalysis-after-freud}{%
 \section*{Week 12, 11/08 - 11/12 : Psychoanalysis After Freud}\label{week-12-1108---1112-psychoanalysis-after-freud}}
-\addcontentsline{toc}{section}{Week 12, 11/08 - 11/12 : Psychoanalysis After Freud}
+
 
 \hypertarget{week-13-1115---1119-personality-processes-and-positive-psych}{%
 \section*{Week 13, 11/15 - 11/19 : Personality Processes and Positive Psych}\label{week-13-1115---1119-personality-processes-and-positive-psych}}
-\addcontentsline{toc}{section}{Week 13, 11/15 - 11/19 : Personality Processes and Positive Psych}
+
 
 \hypertarget{week-14-1122---1126-thanksgiving-break}{%
 \section*{Week 14, 11/22 - 11/26 : Thanksgiving Break!}\label{week-14-1122---1126-thanksgiving-break}}
-\addcontentsline{toc}{section}{Week 14, 11/22 - 11/26 : Thanksgiving Break!}
+
 
 \hypertarget{week-15-1129---1203-personality-and-health}{%
 \section*{Week 15, 11/29 - 12/03 : Personality and Health}\label{week-15-1129---1203-personality-and-health}}
-\addcontentsline{toc}{section}{Week 15, 11/29 - 12/03 : Personality and Health}
+
 
 \hypertarget{final-exam}{%
 \section*{Final Exam}\label{final-exam}}
-\addcontentsline{toc}{section}{Final Exam}
+
 
 \begin{itemize}
 \tightlist
@@ -923,7 +1332,7 @@ Trust me, you do not want me to curve by assignment.
 
 \hypertarget{statsminor}{%
 \chapter*{310: Methods in Psychological Research}\label{statsminor}}
-\addcontentsline{toc}{chapter}{310: Methods in Psychological Research}
+
 
 \hypertarget{course-description-1}{%
 \section{Course Description}\label{course-description-1}}
@@ -964,54 +1373,54 @@ Wickham and Grolemund's R for Data Science text (\url{http://r4ds.had.co.nz/})
 \hypertarget{course-assignments-1}{%
 \section{Course Assignments}\label{course-assignments-1}}
 
-\hypertarget{week-01-0110---0114-what-is-data-science-and-meet-the-toolkit}{%
-\section{Week 01, 01/10 - 01/14 : What is Data Science and Meet the Toolkit}\label{week-01-0110---0114-what-is-data-science-and-meet-the-toolkit}}
+\hypertarget{week-01-0110---0114-introduction}{%
+\section{Week 01, 01/10 - 01/14 : Introduction}\label{week-01-0110---0114-introduction}}
 
-\hypertarget{week-02-0117---0121-data-and-visualization}{%
-\section{Week 02, 01/17 - 01/21 : Data and Visualization}\label{week-02-0117---0121-data-and-visualization}}
+\hypertarget{week-02-0117---0121-getting-ready-to-do-statistical-analysis}{%
+\section{Week 02, 01/17 - 01/21 : Getting Ready to Do Statistical Analysis}\label{week-02-0117---0121-getting-ready-to-do-statistical-analysis}}
 
-\hypertarget{week-03-0124---0128-grammar-of-data-wrangling}{%
-\section{Week 03, 01/24 - 01/28 : Grammar of data wrangling}\label{week-03-0124---0128-grammar-of-data-wrangling}}
+\hypertarget{week-03-0124---0128-describing-data-with-r}{%
+\section{Week 03, 01/24 - 01/28 : Describing Data with R}\label{week-03-0124---0128-describing-data-with-r}}
 
-\hypertarget{week-04-0131---0204-data-types-and-data-transformations}{%
-\section{Week 04, 01/31 - 02/04 : Data types and Data Transformations}\label{week-04-0131---0204-data-types-and-data-transformations}}
+\hypertarget{week-04-0131---0204-univariate-distributions}{%
+\section{Week 04, 01/31 - 02/04 : Univariate Distributions}\label{week-04-0131---0204-univariate-distributions}}
 
-\hypertarget{week-05-0207---0211-tips-for-effective-data-visualization}{%
-\section{Week 05, 02/07 - 02/11 : Tips for effective data visualization}\label{week-05-0207---0211-tips-for-effective-data-visualization}}
+\hypertarget{week-05-0207---0211-test-1}{%
+\section{Week 05, 02/07 - 02/11 : Test 1}\label{week-05-0207---0211-test-1}}
 
-\hypertarget{week-06-0214---0218-scientific-studies-and-confounding}{%
-\section{Week 06, 02/14 - 02/18 : Scientific studies and confounding}\label{week-06-0214---0218-scientific-studies-and-confounding}}
+\hypertarget{week-06-0214---0218-bivariate-distributions}{%
+\section{Week 06, 02/14 - 02/18 : Bivariate Distributions}\label{week-06-0214---0218-bivariate-distributions}}
 
-\hypertarget{week-07-0221---0225-web-scraping}{%
-\section{Week 07, 02/21 - 02/25 : Web scraping}\label{week-07-0221---0225-web-scraping}}
+\hypertarget{week-07-0221---0225-probability-theory}{%
+\section{Week 07, 02/21 - 02/25 : Probability Theory}\label{week-07-0221---0225-probability-theory}}
 
-\hypertarget{week-08-0228---0304-functions}{%
-\section{Week 08, 02/28 - 03/04 : Functions}\label{week-08-0228---0304-functions}}
+\hypertarget{week-08-0228---0304-binomials-and-other-sampling-distributions}{%
+\section{Week 08, 02/28 - 03/04 : Binomials and other sampling distributions}\label{week-08-0228---0304-binomials-and-other-sampling-distributions}}
 
-\hypertarget{week-09-0307---0311-data-and-ethics}{%
-\section{Week 09, 03/07 - 03/11 : Data and Ethics}\label{week-09-0307---0311-data-and-ethics}}
+\hypertarget{week-09-0307---0311-test-2}{%
+\section{Week 09, 03/07 - 03/11 : Test 2}\label{week-09-0307---0311-test-2}}
 
-\hypertarget{week-10-0314---0318-fitting-and-interpreting-models}{%
-\section{Week 10, 03/14 - 03/18 : Fitting and interpreting models}\label{week-10-0314---0318-fitting-and-interpreting-models}}
+\hypertarget{week-10-0314---0318-hypothesis-testing}{%
+\section{Week 10, 03/14 - 03/18 : Hypothesis Testing}\label{week-10-0314---0318-hypothesis-testing}}
 
-\hypertarget{week-11-0321---0325-prediction-and-overfitting}{%
-\section{Week 11, 03/21 - 03/25 : Prediction and overfitting}\label{week-11-0321---0325-prediction-and-overfitting}}
+\hypertarget{week-11-0321---0325-inferences-about-means}{%
+\section{Week 11, 03/21 - 03/25 : Inferences about means}\label{week-11-0321---0325-inferences-about-means}}
 
-\hypertarget{week-12-0328---0401-cross-validation}{%
-\section{Week 12, 03/28 - 04/01 : Cross validation}\label{week-12-0328---0401-cross-validation}}
+\hypertarget{week-12-0328---0401-special-topics}{%
+\section{Week 12, 03/28 - 04/01 : Special Topics}\label{week-12-0328---0401-special-topics}}
 
-\hypertarget{week-13-0404---0408-quantifying-uncertainty}{%
-\section{Week 13, 04/04 - 04/08 : Quantifying uncertainty}\label{week-13-0404---0408-quantifying-uncertainty}}
+\hypertarget{week-13-0404---0408-test-3}{%
+\section{Week 13, 04/04 - 04/08 : Test 3}\label{week-13-0404---0408-test-3}}
 
-\hypertarget{week-14-0411---0415-interactive-web-apps}{%
-\section{Week 14, 04/11 - 04/15 : Interactive web apps}\label{week-14-0411---0415-interactive-web-apps}}
+\hypertarget{week-14-0411---0415-applications-in-r}{%
+\section{Week 14, 04/11 - 04/15 : Applications in R}\label{week-14-0411---0415-applications-in-r}}
 
-\hypertarget{week-15-0418---0422-special-topics-like-text-analysis-machine-learning-bayesian-inference}{%
-\section{Week 15, 04/18 - 04/22 : Special Topics (like: Text analysis; Machine learning; Bayesian inference)}\label{week-15-0418---0422-special-topics-like-text-analysis-machine-learning-bayesian-inference}}
+\hypertarget{week-15-0418---0422-applications-in-r}{%
+\section{Week 15, 04/18 - 04/22 : Applications in R}\label{week-15-0418---0422-applications-in-r}}
 
 \hypertarget{testing}{%
 \chapter*{362: Psychological Testing}\label{testing}}
-\addcontentsline{toc}{chapter}{362: Psychological Testing}
+
 
 \hypertarget{course-description-2}{%
 \section{Course Description}\label{course-description-2}}
@@ -1223,7 +1632,7 @@ See Syllabus Website
 
 \hypertarget{data-science}{%
 \chapter*{703: Data Science}\label{data-science}}
-\addcontentsline{toc}{chapter}{703: Data Science}
+
 
 \hypertarget{course-description-3}{%
 \section{Course Description}\label{course-description-3}}
@@ -1310,7 +1719,7 @@ This experiential course requires active engagement. There will be few lectures 
 \hypertarget{grading-policy-2}{%
 \section{Grading Policy}\label{grading-policy-2}}
 
-In this course, you will determine the grade you receive by fulfilling a contract you will submit for my approval on 02/05.
+In this course, you will determine the grade you receive by fulfilling a contract you will submit for my approval on 01/21.
 
 Your written contract will detail:
 
@@ -1400,54 +1809,54 @@ To contract for an ``C'' in this course, you agree to:
   Complete one ``Satisfactory'' Unessay on a schedule you will specify in your contract and present it during the last week of class
 \end{itemize}
 
-\hypertarget{week-01-0125---0129-what-is-data-science-and-meet-the-toolkit}{%
-\section{Week 01, 01/25 - 01/29 : What is Data Science and Meet the Toolkit}\label{week-01-0125---0129-what-is-data-science-and-meet-the-toolkit}}
+\hypertarget{week-01-0110---0114-what-is-data-science-and-meet-the-toolkit}{%
+\section{Week 01, 01/10 - 01/14 : What is Data Science and Meet the Toolkit}\label{week-01-0110---0114-what-is-data-science-and-meet-the-toolkit}}
 
-\hypertarget{week-02-0201---0205-data-and-visualization}{%
-\section{Week 02, 02/01 - 02/05 : Data and Visualization}\label{week-02-0201---0205-data-and-visualization}}
+\hypertarget{week-02-0117---0121-data-and-visualization}{%
+\section{Week 02, 01/17 - 01/21 : Data and Visualization}\label{week-02-0117---0121-data-and-visualization}}
 
-\hypertarget{week-03-0208---0212-grammar-of-data-wrangling}{%
-\section{Week 03, 02/08 - 02/12 : Grammar of data wrangling}\label{week-03-0208---0212-grammar-of-data-wrangling}}
+\hypertarget{week-03-0124---0128-grammar-of-data-wrangling}{%
+\section{Week 03, 01/24 - 01/28 : Grammar of data wrangling}\label{week-03-0124---0128-grammar-of-data-wrangling}}
 
-\hypertarget{week-04-0215---0219-data-types-and-data-transformations}{%
-\section{Week 04, 02/15 - 02/19 : Data types and Data Transformations}\label{week-04-0215---0219-data-types-and-data-transformations}}
+\hypertarget{week-04-0131---0204-data-types-and-data-transformations}{%
+\section{Week 04, 01/31 - 02/04 : Data types and Data Transformations}\label{week-04-0131---0204-data-types-and-data-transformations}}
 
-\hypertarget{week-05-0222---0226-tips-for-effective-data-visualization}{%
-\section{Week 05, 02/22 - 02/26 : Tips for effective data visualization}\label{week-05-0222---0226-tips-for-effective-data-visualization}}
+\hypertarget{week-05-0207---0211-tips-for-effective-data-visualization}{%
+\section{Week 05, 02/07 - 02/11 : Tips for effective data visualization}\label{week-05-0207---0211-tips-for-effective-data-visualization}}
 
-\hypertarget{week-06-0301---0305-scientific-studies-and-confounding}{%
-\section{Week 06, 03/01 - 03/05 : Scientific studies and confounding}\label{week-06-0301---0305-scientific-studies-and-confounding}}
+\hypertarget{week-06-0214---0218-scientific-studies-and-confounding}{%
+\section{Week 06, 02/14 - 02/18 : Scientific studies and confounding}\label{week-06-0214---0218-scientific-studies-and-confounding}}
 
-\hypertarget{week-07-0308---0312-web-scraping}{%
-\section{Week 07, 03/08 - 03/12 : Web scraping}\label{week-07-0308---0312-web-scraping}}
+\hypertarget{week-07-0221---0225-web-scraping}{%
+\section{Week 07, 02/21 - 02/25 : Web scraping}\label{week-07-0221---0225-web-scraping}}
 
-\hypertarget{week-08-0315---0319-functions}{%
-\section{Week 08, 03/15 - 03/19 : Functions}\label{week-08-0315---0319-functions}}
+\hypertarget{week-08-0228---0304-functions}{%
+\section{Week 08, 02/28 - 03/04 : Functions}\label{week-08-0228---0304-functions}}
 
-\hypertarget{week-09-0322---0326-data-and-ethics}{%
-\section{Week 09, 03/22 - 03/26 : Data and Ethics}\label{week-09-0322---0326-data-and-ethics}}
+\hypertarget{week-09-0307---0311-data-and-ethics}{%
+\section{Week 09, 03/07 - 03/11 : Data and Ethics}\label{week-09-0307---0311-data-and-ethics}}
 
-\hypertarget{week-10-0329---0402-fitting-and-interpreting-models}{%
-\section{Week 10, 03/29 - 04/02 : Fitting and interpreting models}\label{week-10-0329---0402-fitting-and-interpreting-models}}
+\hypertarget{week-10-0314---0318-fitting-and-interpreting-models}{%
+\section{Week 10, 03/14 - 03/18 : Fitting and interpreting models}\label{week-10-0314---0318-fitting-and-interpreting-models}}
 
-\hypertarget{week-11-0405---0409-prediction-and-overfitting}{%
-\section{Week 11, 04/05 - 04/09 : Prediction and overfitting}\label{week-11-0405---0409-prediction-and-overfitting}}
+\hypertarget{week-11-0321---0325-prediction-and-overfitting}{%
+\section{Week 11, 03/21 - 03/25 : Prediction and overfitting}\label{week-11-0321---0325-prediction-and-overfitting}}
 
-\hypertarget{week-12-0412---0416-cross-validation}{%
-\section{Week 12, 04/12 - 04/16 : Cross validation}\label{week-12-0412---0416-cross-validation}}
+\hypertarget{week-12-0328---0401-cross-validation}{%
+\section{Week 12, 03/28 - 04/01 : Cross validation}\label{week-12-0328---0401-cross-validation}}
 
-\hypertarget{week-13-0419---0423-quantifying-uncertainty}{%
-\section{Week 13, 04/19 - 04/23 : Quantifying uncertainty}\label{week-13-0419---0423-quantifying-uncertainty}}
+\hypertarget{week-13-0404---0408-quantifying-uncertainty}{%
+\section{Week 13, 04/04 - 04/08 : Quantifying uncertainty}\label{week-13-0404---0408-quantifying-uncertainty}}
 
-\hypertarget{week-14-0426---0430-interactive-web-apps}{%
-\section{Week 14, 04/26 - 04/30 : Interactive web apps}\label{week-14-0426---0430-interactive-web-apps}}
+\hypertarget{week-14-0411---0415-interactive-web-apps}{%
+\section{Week 14, 04/11 - 04/15 : Interactive web apps}\label{week-14-0411---0415-interactive-web-apps}}
 
-\hypertarget{week-15-0503---0507-special-topics-like-text-analysis-machine-learning-bayesian-inference}{%
-\section{Week 15, 05/03 - 05/07 : Special Topics (like: Text analysis; Machine learning; Bayesian inference)}\label{week-15-0503---0507-special-topics-like-text-analysis-machine-learning-bayesian-inference}}
+\hypertarget{week-15-0418---0422-special-topics-like-text-analysis-machine-learning-bayesian-inference}{%
+\section{Week 15, 04/18 - 04/22 : Special Topics (like: Text analysis; Machine learning; Bayesian inference)}\label{week-15-0418---0422-special-topics-like-text-analysis-machine-learning-bayesian-inference}}
 
 \hypertarget{part-for-your-information}{%
 \part*{For Your Information}\label{part-for-your-information}}
-\addcontentsline{toc}{part}{For Your Information}
+
 
 \hypertarget{frequently-asked-questions}{%
 \chapter{Frequently Asked Questions}\label{frequently-asked-questions}}
@@ -1462,8 +1871,9 @@ Frequently Asked Questions\\
 Q: "Can you -"\\
 A: I cannot.
 
---- Alison Ledgerwood (@AlisonLedg) \href{https://twitter.com/AlisonLedg/status/1441181845706579969}{September 23,
-2021}
+\begin{flushright}--- Alison Ledgerwood isn't here right now (@AlisonLedg) \href{https://twitter.com/AlisonLedg/status/1441181845706579969}{September
+23,
+2021}\end{flushright}
 \end{quote}
 
 \hypertarget{how-can-i-get-ahold-of-you}{%
@@ -1501,25 +1911,90 @@ If you have a question about the course AND can't find your answer elsewhere (or
 \hypertarget{where-can-i-find-the-reading-list-for-the-entire-semester}{%
 \subsubsection{Where can I find the reading list for the entire semester?}\label{where-can-i-find-the-reading-list-for-the-entire-semester}}
 
-You can find the suggested readings for each module on the GitHub course notes: \url{https://smasongarrison.github.io/personality/}
+You can find the suggested readings for each module either on canvas or the GitHub course notes.
 
 \hypertarget{where-can-i-find-when-assignments-are-due}{%
 \subsubsection{Where can I find when assignments are due?}\label{where-can-i-find-when-assignments-are-due}}
 
-You can find due dates in the syllabus.
+You can find due dates in the syllabus and on canvas.
 
 \hypertarget{where-can-i-check-the-closing-time-of-assessments}{%
 \subsubsection{Where can I check the closing time of assessments?}\label{where-can-i-check-the-closing-time-of-assessments}}
 
-You can check the due time and closing time of assessments by clicking the corresponding page in ``Modules''. You should be able to see the time after you entered there.
+You can check the due time and closing time of assessments by clicking the corresponding page in ``Modules''. .
 
 \hypertarget{where-are-my-grades}{%
 \subsubsection{Where are my grades?}\label{where-are-my-grades}}
 
 You can find it on canvas, under grades. I will not look up this grade for you. You are all hard working and problem-solving students. I believe in you!
 
+\hypertarget{where-can-i-find-more-information-about}{%
+\subsubsection{Where can I find more information about\ldots{}}\label{where-can-i-find-more-information-about}}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://is.wfu.edu/student/}{WFU technology services or computer resources}
+\item
+  \href{https://college.wfu.edu/student-resources/}{WFU student resources}
+\item
+  \href{https://class.wfu.edu/}{Center for Learning, Access, and Student Success}
+\item
+  \href{https://advising.wfu.edu/}{Office of Academic Advising}
+\item
+  \href{https://thrive.wfu.edu/}{Office of Wellbeing}
+\item
+  \href{https://status.is.wfu.edu/}{WFU's Service Status Dashboard}
+\item
+  \href{https://map.wfu.edu/}{WFU Campus Map}
+\item
+  \href{https://zsr.wfu.edu/}{WFU Library}
+\end{itemize}
+
+\hypertarget{where-can-i-find-help-for-canvas}{%
+\subsubsection{Where can I find help for canvas?}\label{where-can-i-find-help-for-canvas}}
+
+Although I am not Canvas tech support, I have provided some answers and resources to commonly asked questions
+
+\hypertarget{where-can-i-find-textbooks-and-course-materials}{%
+\subsection{Where can I find textbooks and course materials?}\label{where-can-i-find-textbooks-and-course-materials}}
+
+\begin{itemize}
+\tightlist
+\item
+  If you'd like to purchase materials, you can do so from any bookstore, including Wake Forest's.
+\item
+  If you'd like to rent materials, you can do so from anywhere you'd like, including Wake Forest's Bookstore or the publisher.
+\item
+  If you'd like to get materials for free, you can borrow the materials from the library course reserve.
+\item
+  If you'd like to get materials for free, you can borrow the materials from someone who'se already taken the course.
+\item
+  \textbf{Obviously}, I can't recommend finding the materials online\ldots{}
+\end{itemize}
+
+\begin{quote}
+Once again, I DO NOT recommend students go to libgen (dot) rs and
+download books for their upcoming courses. I am NOT advocating for
+getting and sharing free pdfs of required texts. DON'T DO IT.
+
+\begin{flushright}--- itsgalo (@GaloAndStuff) \href{https://twitter.com/GaloAndStuff/status/1424818560417902604}{August 9,
+2021}\end{flushright}
+\end{quote}
+
 \hypertarget{can}{%
 \subsection{Can\ldots{}}\label{can}}
+
+\hypertarget{can-you-bump-up-my-grade}{%
+\subsubsection{Can you bump up my grade?}\label{can-you-bump-up-my-grade}}
+
+No.~Please don't \href{https://undergraduateswrite.com/2019/05/10/i-say-grade-grubbing-you-say-it-doesnt-hurt-to-ask-on-asking-teachers-to-bump-your-final-grade/}{grade grub}. \href{https://undergraduateswrite.com/2019/05/10/i-say-grade-grubbing-you-say-it-doesnt-hurt-to-ask-on-asking-teachers-to-bump-your-final-grade/}{Seriously, don't do it at the end of the semester.} Don't ask me for extra credit or special opportunities to boost your grade. Please don't pull on my heart strings about how you need a certain grade or there will be consequences for you. I know that many students think that it doesn't hurt to ask. It does. It hurts me. Although I care deeply about my students, I have to say no because it isn't equitable. So please don't ask for the grade boost. Seriously, I get enough emotional manipulation from my cats for leaving them at home all day.
+
+\begin{itemize}
+\tightlist
+\item
+  \url{https://undergraduateswrite.com/2019/05/10/i-say-grade-grubbing-you-say-it-doesnt-hurt-to-ask-on-asking-teachers-to-bump-your-final-grade}
+\end{itemize}
 
 \hypertarget{can-i-rent-the-textbook-for-this-course-from-somewhere-amazon-bookstores-etc.}{%
 \subsubsection{Can I rent the textbook for this course from somewhere (Amazon, bookstores, etc.)?}\label{can-i-rent-the-textbook-for-this-course-from-somewhere-amazon-bookstores-etc.}}
@@ -1597,16 +2072,37 @@ I recognize that it can be frustrating. I hear you. I really do. I cannot help i
 
 Please, understand that there's not much more I can do at this point. And I have done a lot.
 
-What you are experiencing is the result of years of speech therapy and is a massive improvement. If you \emph{genuinely} struggle to understand me, please TALK to me about it. I can connect you with resources, including my scripts, previous recordings of lectures. If those don't help, we can work in the LAC to figure out an accommodation that works for both of us. PLEASE do not wait until after the course is over and complain in my course evaluations. That is not helpful to anyone.
+What you are experiencing is the result of years of speech therapy and is a massive improvement. If you \emph{genuinely} struggle to understand me, please TALK to me about it. I can connect you with resources, including my scripts, previous recordings of lectures. If those don't help, we can work in the LAC to figure out an accommodation that works for both of us. PLEASE do not wait until after the course is over and complain after the fact. That is not helpful to anyone.
+
+\hypertarget{how}{%
+\subsection{How \ldots{}}\label{how}}
+
+\hypertarget{how-much-time-should-i-spend-on-one-class-every-week}{%
+\subsubsection{How much time should I spend on one class every week?}\label{how-much-time-should-i-spend-on-one-class-every-week}}
+
+The time you spend on a class can vary. No two instructors will format their classes exactly the same. Nevertheless, under the standard {[}``Carnegie Unit''{]} (\url{https://www.carnegiefoundation.org/faqs/carnegie-unit/}), each credit hour corresponds to a \emph{minimum} of 3 hours of student engagement per week for a traditional 15-week course. This time may be spent on discussions, readings, and lectures, study, and research, and assignments. See the WFU registrar for \href{https://registrar.wfu.edu/semester-credit-hour/}{more details} if you'd like
+
+If you find yourself spending a lot more or a lot less than 9 hours per week on this class, please let me know. That probably means that either you're doing too much or too little.
+
+\hypertarget{how-do-i-ask-professors-for-extensions}{%
+\subsection{How do I ask professors for extensions?}\label{how-do-i-ask-professors-for-extensions}}
+
+\begin{quote}
+Until I became a professor, I didn't realize that students can (and
+do) regularly ask for extensions.\\
+~\\
+This means some students know how to use this strategy to support
+their learning, some don't.\\
+~\\
+Sharing info so everyone has access to the same tools. A thread.
+\href{https://twitter.com/OpenAcademics}{@OpenAcademics}
+
+\begin{flushright}--- Betty Lai, PhD (@BettySLai) \href{https://twitter.com/BettySLai/status/1455555111397117954}{November 2,
+2021}\end{flushright}
+\end{quote}
 
 \hypertarget{online-learning}{%
 \section{Online Learning}\label{online-learning}}
-
-\hypertarget{how-much-time-should-i-spend-on-one-class-every-week}{%
-\subsection{How much time should I spend on one class every week?}\label{how-much-time-should-i-spend-on-one-class-every-week}}
-
-The time you spend on a class can vary. No two instructors will format their classes exactly the same. In general, each credit hour corresponds to a \emph{minimum} of 3 hours of student engagement per week for a traditional 15-week course. This time may be spent on discussions, readings, and lectures, study, and research, and assignments.
-If you find yourself spending a lot more or a lot less than 9 hours per week on this class, please let me know. That probably means that either you're doing too much or too little.
 
 \hypertarget{how-long-are-the-videos}{%
 \subsection{How long are the videos?}\label{how-long-are-the-videos}}
@@ -1625,11 +2121,6 @@ If you want to watch the entire module worth in one sitting, you can use the you
 
 It may feel like more work, but it actually isn't. This class covers the same content as the face-to-face version. I have made every effort to not add to your workload. When I have added an assignment in one aspect of the course, I have removed something else from the class.On average, you should except to spend about 9 hours a week on this class.
 
-\hypertarget{where-can-i-find-more-information-about-technology-services-or-computer-resources}{%
-\subsection{Where can I find more information about technology services or computer resources?}\label{where-can-i-find-more-information-about-technology-services-or-computer-resources}}
-
-You can find more information here: \url{https://is.wfu.edu/}
-
 \hypertarget{im-having-a-trouble-with-a-specific-problem-can-you-fix-it-for-me}{%
 \subsection{I'm having a trouble with a specific problem, can you fix it for me?}\label{im-having-a-trouble-with-a-specific-problem-can-you-fix-it-for-me}}
 
@@ -1639,8 +2130,8 @@ Please try basic troubleshooting to fix your problem.
 
 If you still have trouble after troubleshooting, post the problem to the discussion board and clearly describe what you have already tried.
 
-\hypertarget{canvas}{%
-\section{Canvas}\label{canvas}}
+\hypertarget{canvas-canvas}{%
+\section{Canvas \{canvas\}}\label{canvas-canvas}}
 
 \hypertarget{how-do-i-use-canvas-for-class}{%
 \subsubsection{How do I use Canvas for class?}\label{how-do-i-use-canvas-for-class}}
@@ -1738,35 +2229,6 @@ Because some of the requirements to unlock it the activity are not met. To unloc
 \hypertarget{resources-1}{%
 \section{Resources}\label{resources-1}}
 
-\hypertarget{where-can-i-find-textbooks-and-course-materials}{%
-\subsection{Where can I find textbooks and course materials?}\label{where-can-i-find-textbooks-and-course-materials}}
-
-\begin{quote}
-Once again, I DO NOT recommend students go to libgen (dot) rs and
-download books for their upcoming courses. I am NOT advocating for
-getting and sharing free pdfs of required texts. DON'T DO IT.
-
---- itsgalo (@GaloAndStuff) \href{https://twitter.com/GaloAndStuff/status/1424818560417902604}{August 9,
-2021}
-\end{quote}
-
-\hypertarget{how-can-i-ask-professors-for-extensions}{%
-\subsection{How can I ask professors for extensions?}\label{how-can-i-ask-professors-for-extensions}}
-
-\begin{quote}
-Until I became a professor, I didn't realize that students can (and
-do) regularly ask for extensions.\\
-~\\
-This means some students know how to use this strategy to support
-their learning, some don't.\\
-~\\
-Sharing info so everyone has access to the same tools. A thread.
-\href{https://twitter.com/OpenAcademics}{@OpenAcademics}
-
---- Dr.~Betty Lai (@BettySLai) \href{https://twitter.com/BettySLai/status/1455555111397117954}{November 2,
-2021}
-\end{quote}
-
 \hypertarget{still-have-questions}{%
 \section{Still have questions?}\label{still-have-questions}}
 
@@ -1805,8 +2267,8 @@ Below you'll find materials of available supports for this course.
 
 \url{https://smasongarrison.github.io/syllabi/frequently-asked-questions.html}
 
-\hypertarget{canvas-1}{%
-\section{Canvas}\label{canvas-1}}
+\hypertarget{canvas}{%
+\section{Canvas}\label{canvas}}
 
 \hypertarget{canvas-helpful-tips}{%
 \subsection{Canvas: Helpful Tips}\label{canvas-helpful-tips}}
@@ -2189,11 +2651,11 @@ Here are a few websites that cover general guidelines for how to write discussio
 
 Here's a useful and quick video on \href{https://www.youtube.com/watch?v=tg3y2A9pdtI}{discussion boards}
 
-\hypertarget{poem-013-did-i-miss-anything-links-to-an-external-site.}{%
-\subsubsection{\texorpdfstring{\href{https://www.loc.gov/programs/poetry-and-literature/poet-laureate/poet-laureate-projects/poetry-180/all-poems/item/poetry-180-013/did-i-miss-anything/}{Poem 013: Did I Miss Anything? Links to an external site.}}{Poem 013: Did I Miss Anything? Links to an external site.}}\label{poem-013-did-i-miss-anything-links-to-an-external-site.}}
+\hypertarget{poem-013-did-i-miss-anything}{%
+\subsubsection{\texorpdfstring{\href{https://www.loc.gov/programs/poetry-and-literature/poet-laureate/poet-laureate-projects/poetry-180/all-poems/item/poetry-180-013/did-i-miss-anything/}{Poem 013: Did I Miss Anything?}}{Poem 013: Did I Miss Anything?}}\label{poem-013-did-i-miss-anything}}
 
-\hypertarget{advice-for-students-so-they-dont-sound-silly-in-emails-essay-links-to-an-external-site.}{%
-\subsubsection{\texorpdfstring{\href{https://www.insidehighered.com/views/2015/04/16/advice-students-so-they-dont-sound-silly-emails-essay}{Advice for students so they don't sound silly in emails (essay) Links to an external site.}}{Advice for students so they don't sound silly in emails (essay) Links to an external site.}}\label{advice-for-students-so-they-dont-sound-silly-in-emails-essay-links-to-an-external-site.}}
+\hypertarget{advice-for-students-so-they-dont-sound-silly-in-emails-essay}{%
+\subsubsection{\texorpdfstring{\href{https://www.insidehighered.com/views/2015/04/16/advice-students-so-they-dont-sound-silly-emails-essay}{Advice for students so they don't sound silly in emails (essay)}}{Advice for students so they don't sound silly in emails (essay)}}\label{advice-for-students-so-they-dont-sound-silly-in-emails-essay}}
 
 \hypertarget{online-learning-resources}{%
 \subsection{Online Learning Resources}\label{online-learning-resources}}
@@ -2203,8 +2665,8 @@ Here's a useful and quick video on \href{https://www.youtube.com/watch?v=tg3y2A9
 \hypertarget{tips-for-taking-online-classes-8-strategies-for-success-links-to-an-external-site.}{%
 \subsubsection{\texorpdfstring{\href{https://www.northeastern.edu/graduate/blog/tips-for-taking-online-classes/}{Tips for Taking Online Classes: 8 Strategies for Success Links to an external site.}}{Tips for Taking Online Classes: 8 Strategies for Success Links to an external site.}}\label{tips-for-taking-online-classes-8-strategies-for-success-links-to-an-external-site.}}
 
-\hypertarget{navigating-digital-information-links-to-an-external-site.}{%
-\subsubsection{\texorpdfstring{\href{https://www.youtube.com/watch?v=pLlv2o6UfTU\&list=PL8dPuuaLjXtN07XYqqWSKpPrtNDiCHTzU}{Navigating Digital Information Links to an external site.}}{Navigating Digital Information Links to an external site.}}\label{navigating-digital-information-links-to-an-external-site.}}
+\hypertarget{navigating-digital-information}{%
+\subsubsection{\texorpdfstring{\href{https://www.youtube.com/watch?v=pLlv2o6UfTU\&list=PL8dPuuaLjXtN07XYqqWSKpPrtNDiCHTzU}{Navigating Digital Information}}{Navigating Digital Information}}\label{navigating-digital-information}}
 
 \hypertarget{tech-services-computer-resources}{%
 \subsection{Tech Services \& Computer Resources}\label{tech-services-computer-resources}}
@@ -2245,7 +2707,7 @@ You can search the Canvas Guides or contact the Canvas Support Helpline by click
 
 \textbf{Tech Support Cheat Sheet}
 
-\includegraphics{https://imgs.xkcd.com/comics/tech_support_cheat_sheet.png}
+\includegraphics[width=10.17in]{img/tech_support_cheat_sheet}
 
 \hypertarget{public-health}{%
 \section{Public Health}\label{public-health}}
@@ -2254,23 +2716,197 @@ You can search the Canvas Guides or contact the Canvas Support Helpline by click
 \textbf{\href{https://www.microcovid.org/}{microCOVID Risk Calculator}}
 \textbf{\href{https://www.nytimes.com/interactive/2021/us/north-carolina-covid-cases.html}{NYT Covid Latest Map and Case Count Links to an external site.}}
 
-\hypertarget{additional-resources}{%
-\section{Additional Resources}\label{additional-resources}}
+\hypertarget{part-back-matter}{%
+\part*{Back Matter}\label{part-back-matter}}
 
-\hypertarget{licenses-and-attributions}{%
-\subsection{Licenses and Attributions}\label{licenses-and-attributions}}
 
-\textbf{Numerous Icons from the Noun Project by:}
-* Adrien Coquet
-* Corpus Delicti
-* Suhyeon Jung
+\introduction
 
-\textbf{Select lecture notes from:}
-* Jenny Bryan's (\href{https://jennybryan.org/}{jennybryan.org}) \href{https://stat545.com/}{STAT 545}
-* \href{https://wwnorton.com/books/The-Personality-Puzzle/}{David Funder's Personality Puzzle}
-* Anthony Albano's \href{https://www.thetaminusb.com/intro-measurement-r/}{Course Notes on ``Introduction to Educational and Psychological Measurement''}
-* R. Biswas-Diener \& E. Diener (Eds), Noba textbook series: Psychology. Champaign, IL: DEF publishers. Retrieved from \href{https://nobaproject.com/}{noba}
+The R package \texttt{bookdownplus} \citep{R-bookdownplus} is an extension of \texttt{bookdown} \citep{R-bookdown}. It is a collection of
+multiple templates on the basis of LaTeX, which are tailored so that I can work happily under the umbrella of \texttt{bookdown}. \texttt{bookdownplus} helps you write academic journal articles, guitar books, chemical equations, mails, calendars, and diaries.
 
-  \bibliography{book.bib,packages.bib}
+\texttt{bookdownplus} extends the features of \texttt{bookdown}, and simplifies the procedure. Users only have to choose a template, clarify the book title and author name, and then focus on writing the text. No need to struggle in YAML and LaTeX.
 
+With \texttt{bookdownplus} users can
+
+\begin{itemize}
+\item
+  record guitar chords,
+\item
+  write a mail in an elegant layout,
+\item
+  write a laboratory journal, or a personal diary,
+\item
+  draw a monthly or weekly or conference calendar,
+\item
+  and, of course, write academic articles in your favourite way,
+\item
+  with chemical molecular formulae and equations,
+\item
+  even in Chinese,
+\item
+  and more wonders will come soon.
+\end{itemize}
+
+Full documentation can be found in the book \href{https://bookdown.org/baydap/bookdownplus}{R bookdownplus Textbook}. The webpage looks so-so, while the \href{https://bookdown.org/baydap/bookdownplus/bookdownplus.pdf}{pdf file} might give you a little surprise.
+
+\hypertarget{materials-and-methods}{%
+\chapter{Materials and Methods}\label{materials-and-methods}}
+
+Although this section might not be the latest version, the general idea won't change. Please see \href{https://bookdown.org/baydap/bookdownplus}{R bookdownplus Textbook} to keep up with the update.
+
+\hypertarget{preparation}{%
+\section{Preparation}\label{preparation}}
+
+Before starting, you have to install R, RStudio, bookdown package, and
+other software and packages (i.e.~Pandoc, LaTeX, rmarkdown, rticle,
+knitr, etc.) which bookdown depends on. See the official \href{https://bookdown.org/yihui/bookdown/}{manual} of
+bookdown for details. Additionally, if you want to produce a poster, phython must be installed before using, and the path of phython might have to be added to the environmental variables for Windows users.
+
+\hypertarget{installation}{%
+\section{Installation}\label{installation}}
+
+\begin{verbatim}
+install.package("bookdownplus")
+# or
+devtools::
+  install_github("pzhaonet/bookdownplus")
+\end{verbatim}
+
+\hypertarget{generate-demo-files}{%
+\section{Generate demo files}\label{generate-demo-files}}
+
+Run the following codes, and you will get some files (e.g.~\texttt{index.Rmd}, \texttt{body.Rmd}, \texttt{bookdownplus.Rproj}) and folders in your working directory.
+
+\begin{verbatim}
+getwd() # this is your working directory. run setwd() to change it.
+bookdownplus::bookdownplus()
+\end{verbatim}
+
+\hypertarget{build-a-demo-book}{%
+\section{Build a demo book}\label{build-a-demo-book}}
+
+Now open \texttt{bookdownplus.Rproj} with RStudio, and press \texttt{ctrl+shift+b} to compile it. Your will get a book file named \texttt{*.pdf} in \texttt{\_book/}folder.
+
+\hypertarget{write-your-own}{%
+\section{Write your own}\label{write-your-own}}
+
+Write your own text in \texttt{index.Rmd} and \texttt{body.Rmd}, and build your own lovely book.
+
+\hypertarget{more-outputs}{%
+\section{More outputs}\label{more-outputs}}
+
+By default, the book is in a pdf file. From `bookdownplus' 1.0.3, users can get more output formats, including `word', `html' and `epub'. Run:
+
+\begin{verbatim}
+bookdownplus::
+  bookdownplus(template = 'article', 
+               more_output = c('html', 'word', 'epub'))
+\end{verbatim}
+
+\hypertarget{recommendations}{%
+\section{Recommendations}\label{recommendations}}
+
+I have been developing some other packages, which bring more features into `bookdown', such as:
+
+\begin{itemize}
+\item
+  mindr \citep{R-mindr}, which can extract the outline of your book and turn it into a mind map, and
+\item
+  pinyin \citep{R-pinyin}, which can automatically generate \href{https://bookdown.org/yihui/bookdown/cross-references.html}{`\{\#ID\}'} of the chapter headers even if there are Chinese characters in them.
+\end{itemize}
+
+Both of them have been released on CRAN and can be installed via:
+
+\begin{verbatim}
+install.packages('mindr')
+install.packages('pinyin')
+\end{verbatim}
+
+Enjoy your bookdowning!
+
+\hypertarget{models}{%
+\section{Models}\label{models}}
+
+Eq. \eqref{eq:mc2} is an equation.
+
+\begin{equation} 
+E = mc^2
+  \label{eq:mc2}
+\end{equation}
+
+It can be written as \(E = mc^2\).
+
+\hypertarget{results-and-discussions}{%
+\chapter{Results and Discussions}\label{results-and-discussions}}
+
+Fig. \ref{fig:fig1} psum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.8\linewidth]{body_files/figure-latex/fig1-1} 
+
+}
+
+\caption{caption}\label{fig:fig1}
+\end{figure}
+
+Tab. \ref{tab:tab1} psum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+\begin{table}
+
+\caption{\label{tab:tab1}Here is a nice table!}
+\centering
+\begin{tabular}[t]{rrrrl}
+\toprule
+Sepal.Length & Sepal.Width & Petal.Length & Petal.Width & Species\\
+\midrule
+5.1 & 3.5 & 1.4 & 0.2 & setosa\\
+4.9 & 3.0 & 1.4 & 0.2 & setosa\\
+4.7 & 3.2 & 1.3 & 0.2 & setosa\\
+4.6 & 3.1 & 1.5 & 0.2 & setosa\\
+5.0 & 3.6 & 1.4 & 0.2 & setosa\\
+\addlinespace
+5.4 & 3.9 & 1.7 & 0.4 & setosa\\
+4.6 & 3.4 & 1.4 & 0.3 & setosa\\
+5.0 & 3.4 & 1.5 & 0.2 & setosa\\
+4.4 & 2.9 & 1.4 & 0.2 & setosa\\
+4.9 & 3.1 & 1.5 & 0.1 & setosa\\
+\addlinespace
+5.4 & 3.7 & 1.5 & 0.2 & setosa\\
+4.8 & 3.4 & 1.6 & 0.2 & setosa\\
+4.8 & 3.0 & 1.4 & 0.1 & setosa\\
+4.3 & 3.0 & 1.1 & 0.1 & setosa\\
+5.8 & 4.0 & 1.2 & 0.2 & setosa\\
+\addlinespace
+5.7 & 4.4 & 1.5 & 0.4 & setosa\\
+5.4 & 3.9 & 1.3 & 0.4 & setosa\\
+5.1 & 3.5 & 1.4 & 0.3 & setosa\\
+5.7 & 3.8 & 1.7 & 0.3 & setosa\\
+5.1 & 3.8 & 1.5 & 0.3 & setosa\\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\conclusions
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+
+% Bibliography
+
+\label{app:bibliography} % Reference the bibliography elsewhere with \autoref{app:bibliography}
+
+\manualmark
+\markboth{\spacedlowsmallcaps{\bibname}}{\spacedlowsmallcaps{\bibname}} 
+\refstepcounter{dummy}
+
+\addtocontents{toc}{\protect\vspace{\beforebibskip}} % Place the bibliography slightly below the rest of the document content in the table of contents
+
+
+\bibliographystyle{plainnat}
+
+%\bibliography{bib/bib}
+\bibliography{book.bib,packages.bib,bib/bib.bib}
+
+%\end{CJK*}
 \end{document}
