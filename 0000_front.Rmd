@@ -5,7 +5,7 @@
 
 ```{r include = FALSE}
 source("common.R")
-htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+
 library(tidyverse)
 library(devtools)
 library(DT)
@@ -14,7 +14,6 @@ library(vembedr)
 library(knitr)
 ```
 
-```
 
 Welcome to all my syllabi! This website is designed to accompany all of Mason Garrison's courses at Wake Forest University. 
 Over the semesters, I have found that my syllabi keep growing longer and longer as my career has progressed. 
@@ -67,7 +66,7 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 Inter
  -->
  
 * This information is a human-readable summary of (and not a substitute for) the license.
-Please see <https://creativecommons.org/licenses/by-sa/4.0/legalcode> for the full legal text.*
+Please see https://creativecommons.org/licenses/by-sa/4.0/legalcode for the full legal text.*
 
 **You are free to:**
 
@@ -116,12 +115,11 @@ knitr::write_bib(c(
 
 # Colophon {-}
 
-These notes was written in [bookdown](http://bookdown.org/) inside [RStudio](http://www.rstudio.com/ide/). The [website][ds4p-web] is hosted with [github](https://www.github.com), The complete source is available from [github][git].
+These notes was written in [bookdown](http://bookdown.org/) inside [RStudio](http://www.rstudio.com/ide/). The [website][web] is hosted with [github](https://www.github.com), The complete source is available from [github][git].
 
 The book style adapted from [Desirée De Leon](https://desiree.rbind.io/).
 
 This version of the notes was built with:
-
 
 
 ```{r message = FALSE,error=TRUE, warning = FALSE, echo = FALSE}
@@ -136,7 +134,15 @@ session$platform
 
 Along with these packages:
 
+
 ```{r message = FALSE,error=TRUE, warning = FALSE, echo = FALSE}
+
+if (knitr::is_latex_output()) {
+
+session$packages %>% 
+  select(package, loadedversion, date, source) %>% 
+  knitr::kable(booktabs = TRUE)
+}else{
 session$packages %>% 
   select(package, loadedversion, date, source) %>% 
   DT::datatable(rownames = FALSE,
@@ -147,6 +153,8 @@ session$packages %>%
                                autoWidth = TRUE,
                                bInfo = FALSE,
                                paging = FALSE))
+}
+
 ```
 
 
