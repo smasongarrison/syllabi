@@ -25,9 +25,7 @@ I've created a [video](https://youtu.be/dc3D2tbl8G0) highlighting how to be a su
 
 if (knitr::is_latex_output()) {
 include_graphics("img/learngood.png")
-  
-}else{
-htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+  }else{
 
 embed_url("https://www.youtube.com/watch?v=dc3D2tbl8G0") %>%
   use_align("center")

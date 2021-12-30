@@ -226,7 +226,13 @@ You can search the Canvas Guides or contact the Canvas Support Helpline by click
 
 **Tech Support Cheat Sheet**
 
-![](https://imgs.xkcd.com/comics/tech_support_cheat_sheet.png)
+```{r, echo=FALSE}
+if (knitr::is_latex_output()) {
+include_graphics("img/tech_support_cheat_sheet.png")
+  }else{
+include_graphics("https://imgs.xkcd.com/comics/tech_support_cheat_sheet.png")
+}
+```
 
 ## Public Health
 

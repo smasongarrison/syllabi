@@ -28,9 +28,13 @@ bookdown::pdf_book:
   includes:
     in_header: preamble.tex
   citation_package: natbib
-  split_bib: FALSE
-  keep_tex: yes
+  documentclass: book
   geometry: margin=1in
+  keep_tex: yes
   latex_engine: pdflatex
+  quote_footer: ["\\begin{flushright}", "\\end{flushright}"]
+  split_bib: FALSE
+  template: tex/template_article.tex
+  toc_appendix: yes
   toc_depth: 1
-  documentclass: article
+  toc_unnumbered: no
