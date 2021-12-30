@@ -1,7 +1,6 @@
 --- 
 title: "Prof. Mason's Syllabi"
-author: 
-- S. Mason Garrison
+author: S. Mason Garrison
 date: "2021-12-30"
 knit: "bookdown::render_book"
 site: bookdown::bookdown_site
@@ -18,8 +17,8 @@ favicon: assets/favicon.ico
 always_allow_html: true
 lot: no
 lof: no
+logo: assets/logo.png
 ---
-
 
 
 

@@ -1,138 +1,518 @@
-% Options for packages loaded elsewhere
-\PassOptionsToPackage{unicode}{hyperref}
-\PassOptionsToPackage{hyphens}{url}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Classicthesis Typographic Thesis
+% LaTeX Template
+% Version 1.0 (23/4/12)
 %
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Andr?Miede (http://www.miede.de)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% General Tips:
+% 1) Make sure to edit the classicthesis-config.file
+% 2) New enumeration (A., B., C., etc in small caps): \begin{aenumerate} \end{aenumerate}
+% 3) For margin notes: \marginpar or \graffito{}
+% 4) Do not use bold fonts in this style, it is designed around them
+% 5) Use tables as in the examples
+% 6) See classicthesis-preamble.sty for useful commands
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+\RequirePackage{scrlfile}
+\ReplacePackage{scrpage2}{scrlayer-scrpage}
 \documentclass[
-]{book}
-\usepackage{amsmath,amssymb}
-\usepackage{lmodern}
-\usepackage{ifxetex,ifluatex}
-\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
-  \usepackage[T1]{fontenc}
-  \usepackage[utf8]{inputenc}
-  \usepackage{textcomp} % provide euro and other symbols
-\else % if luatex or xetex
-  \usepackage{unicode-math}
-  \defaultfontfeatures{Scale=MatchLowercase}
-  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
-\fi
-% Use upquote if available, for straight quotes in verbatim environments
-\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
-\IfFileExists{microtype.sty}{% use microtype if available
-  \usepackage[]{microtype}
-  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
-}{}
-\makeatletter
-\@ifundefined{KOMAClassName}{% if non-KOMA class
-  \IfFileExists{parskip.sty}{%
-    \usepackage{parskip}
-  }{% else
-    \setlength{\parindent}{0pt}
-    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
-}{% if KOMA class
-  \KOMAoptions{parskip=half}}
-\makeatother
-\usepackage{xcolor}
-\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
-\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+		twoside,openright,titlepage,numbers=noenddot,headinclude,%1headlines,
+                footinclude=true,cleardoublepage=empty,
+                BCOR=5mm,paper=b5,fontsize=11pt, % Binding correction, paper type and font size
+                ngerman,american, % Languages
+                ]{scrreprt} 
+%\usepackage{CJK}                
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Thesis Configuration File
+%
+% The main lines to change in this file are in the DOCUMENT VARIABLES
+% section, the rest of the file is for advanced configuration.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	DOCUMENT VARIABLES
+%	Fill in the lines below to enter your information into the thesis template
+%	Each of the commands can be cited anywhere in the thesis
+%----------------------------------------------------------------------------------------
+
+% Remove drafting to get rid of the '[ Date - classicthesis version 4.0 ]' text at the bottom of every page
+\PassOptionsToPackage{eulerchapternumbers, listings,drafting, pdfspacing, subfig,beramono,eulermath,parts}{style/classicthesis}
+% Available options: drafting parts nochapters linedheaders eulerchapternumbers beramono eulermath pdfspacing minionprospacing tocaligned dottedtoc manychapters listings floatperchapter subfig
+% Adding 'dottedtoc' will make page numbers in the table of contents flushed right with dots leading to them
+
+\newcommand{\myTitle}{A Classic Thesis Style\xspace}
+\newcommand{\mySubtitle}{An Homage to The Elements of Typographic Style\xspace}
+\newcommand{\myDegree}{Doktor-Ingenieur (Dr.-Ing.)\xspace}
+\newcommand{\myName}{Andr\'e Miede\xspace}
+\newcommand{\myProf}{Put name here\xspace}
+\newcommand{\myOtherProf}{Put name here\xspace}
+\newcommand{\mySupervisor}{Put name here\xspace}
+\newcommand{\myFaculty}{Put data here\xspace}
+\newcommand{\myDepartment}{Put data here\xspace}
+\newcommand{\myUni}{Put data here\xspace}
+\newcommand{\myLocation}{Darmstadt\xspace}
+\newcommand{\myTime}{December 2011\xspace}
+\newcommand{\myVersion}{version 4.0\xspace}
+
+%----------------------------------------------------------------------------------------
+%	USEFUL COMMANDS
+%----------------------------------------------------------------------------------------
+
+\newcommand{\ie}{i.\,e.}
+\newcommand{\Ie}{I.\,e.}
+\newcommand{\eg}{e.\,g.}
+\newcommand{\Eg}{E.\,g.} 
+
+\newcounter{dummy} % Necessary for correct hyperlinks (to index, bib, etc.)
+\providecommand{\mLyX}{L\kern-.1667em\lower.25em\hbox{Y}\kern-.125emX\@}
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES
+%----------------------------------------------------------------------------------------
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+%------------------------------------------------
+ 
+\PassOptionsToPackage{latin9}{inputenc} % latin9 (ISO-8859-9) = latin1+"Euro sign"
+\usepackage{inputenc}
+ 
+ %------------------------------------------------
+
+%\PassOptionsToPackage{ngerman,american}{babel}  % Change this to your language(s)
+% Spanish languages need extra options in order to work with this template
+%\PassOptionsToPackage{spanish,es-lcroman}{babel}
+\usepackage{babel}
+
+%------------------------------------------------			
+
+\PassOptionsToPackage{square,numbers}{natbib}
+ \usepackage{natbib}
+ 
+ %------------------------------------------------
+
+\PassOptionsToPackage{fleqn}{amsmath} % Math environments and more by the AMS 
+ \usepackage{amsmath}
+ 
+ %------------------------------------------------
+
+\PassOptionsToPackage{T1}{fontenc} % T2A for cyrillics
+\usepackage{fontenc}
+
+%------------------------------------------------
+
+\usepackage{xspace} % To get the spacing after macros right
+
+%------------------------------------------------
+
+\usepackage{mparhack} % To get marginpar right
+
+%------------------------------------------------
+
+\usepackage{fixltx2e} % Fixes some LaTeX stuff 
+
+%------------------------------------------------
+
+\PassOptionsToPackage{smaller}{acronym} % Include printonlyused in the first bracket to only show acronyms used in the text
+\usepackage{acronym} % nice macros for handling all acronyms in the thesis
+
+%------------------------------------------------
+
+%\renewcommand*{\acsfont}[1]{\textssc{#1}} % For MinionPro
+%\renewcommand{\bflabel}[1]{{#1}\hfill} % Fix the list of acronyms
+
+%------------------------------------------------
+
+\PassOptionsToPackage{pdftex}{graphicx}
+\usepackage{graphicx} 
+
+%----------------------------------------------------------------------------------------
+%	FLOATS: TABLES, FIGURES AND CAPTIONS SETUP
+%----------------------------------------------------------------------------------------
+
+\usepackage{tabularx} % Better tables
+\setlength{\extrarowheight}{3pt} % Increase table row height
+\newcommand{\tableheadline}[1]{\multicolumn{1}{c}{\spacedlowsmallcaps{#1}}}
+\newcommand{\myfloatalign}{\centering} % To be used with each float for alignment
+\usepackage{caption}
+\captionsetup{format=hang,font=small}
+\usepackage{subfig}  
+
+\usepackage{longtable,booktabs}
+
+
+%----------------------------------------------------------------------------------------
+%	CODE LISTINGS SETUP
+%----------------------------------------------------------------------------------------
+
+\usepackage{listings} 
+%\lstset{emph={trueIndex,root},emphstyle=\color{BlueViolet}}%\underbar} % for special keywords
+\lstset{language=[LaTeX]Tex, % Specify the language for listings here
+keywordstyle=\color{RoyalBlue}, % Add \bfseries for bold
+basicstyle=\small\ttfamily, % Makes listings a smaller font size and a different font
+%identifierstyle=\color{NavyBlue}, % Color of text inside brackets
+commentstyle=\color{Green}\ttfamily, % Color of comments
+stringstyle=\rmfamily, % Font type to use for strings
+numbers=left, % Change left to none to remove line numbers
+numberstyle=\scriptsize, % Font size of the line numbers
+stepnumber=5, % Increment of line numbers
+numbersep=8pt, % Distance of line numbers from code listing
+showstringspaces=false, % Sets whether spaces in strings should appear underlined
+breaklines=true, % Force the code to stay in the confines of the listing box
+%frameround=ftff, % Uncomment for rounded frame
+frame=single, % Frame border - none/leftline/topline/bottomline/lines/single/shadowbox/L
+belowcaptionskip=.75\baselineskip % Space after the "Listing #: Desciption" text and the listing box
+}
+
+%----------------------------------------------------------------------------------------
+%	HYPERREFERENCES
+%----------------------------------------------------------------------------------------
+
+\PassOptionsToPackage{pdftex,hyperfootnotes=false,pdfpagelabels}{hyperref}
+\usepackage{hyperref}  % backref linktocpage pagebackref
+\pdfcompresslevel=9
+\pdfadjustspacing=1
+
 \hypersetup{
-  pdftitle={Prof.~Mason's Syllabi},
-  pdfauthor={S. Mason Garrison},
-  hidelinks,
-  pdfcreator={LaTeX via pandoc}}
-\urlstyle{same} % disable monospaced font for URLs
+% Uncomment the line below to remove all links (to references, figures, tables, etc)
+%draft, 
+colorlinks=true, linktocpage=true, pdfstartpage=3, pdfstartview=FitV,
+% Uncomment the line below if you want to have black links (e.g. for printing black and white)
+%colorlinks=false, linktocpage=false, pdfborder={0 0 0}, pdfstartpage=3, pdfstartview=FitV, 
+breaklinks=true, pdfpagemode=UseNone, pageanchor=true, pdfpagemode=UseOutlines,
+plainpages=false, bookmarksnumbered, bookmarksopen=true, bookmarksopenlevel=1,
+hypertexnames=true, pdfhighlight=/O, urlcolor=webbrown, linkcolor=RoyalBlue, citecolor=webgreen,
+%------------------------------------------------
+% PDF file meta-information
+pdftitle={\myTitle},
+pdfauthor={\textcopyright\ \myName, \myUni, \myFaculty},
+pdfsubject={},
+pdfkeywords={},
+pdfcreator={pdfLaTeX},
+pdfproducer={LaTeX with hyperref and classicthesis}
+%------------------------------------------------
+}   
+
+%----------------------------------------------------------------------------------------
+%	BACKREFERENCES
+%----------------------------------------------------------------------------------------
+
+\usepackage{ifthen} % Allows the user of the \ifthenelse command
+\newboolean{enable-backrefs} % Variable to enable backrefs in the bibliography
+\setboolean{enable-backrefs}{false} % Variable value: true or false
+
+\newcommand{\backrefnotcitedstring}{\relax} % (Not cited.)
+\newcommand{\backrefcitedsinglestring}[1]{(Cited on page~#1.)}
+\newcommand{\backrefcitedmultistring}[1]{(Cited on pages~#1.)}
+\ifthenelse{\boolean{enable-backrefs}} % If backrefs were enabled
+{
+\PassOptionsToPackage{hyperpageref}{backref}
+\usepackage{backref} % to be loaded after hyperref package 
+\renewcommand{\backreftwosep}{ and~} % separate 2 pages
+\renewcommand{\backreflastsep}{, and~} % separate last of longer list
+\renewcommand*{\backref}[1]{}  % disable standard
+\renewcommand*{\backrefalt}[4]{% detailed backref
+\ifcase #1 
+\backrefnotcitedstring
+\or
+\backrefcitedsinglestring{#2}
+\else
+\backrefcitedmultistring{#2}
+\fi}
+}{\relax} 
+
+%----------------------------------------------------------------------------------------
+%	AUTOREFERENCES SETUP
+%	Redefines how references in text are prefaced for different 
+%	languages (e.g. "Section 1.2" or "section 1.2")
+%----------------------------------------------------------------------------------------
+
+\makeatletter
+\@ifpackageloaded{babel}
+{
+\addto\extrasamerican{
+\renewcommand*{\figureautorefname}{Figure}
+\renewcommand*{\tableautorefname}{Table}
+\renewcommand*{\partautorefname}{Part}
+\renewcommand*{\chapterautorefname}{Chapter}
+\renewcommand*{\sectionautorefname}{Section}
+\renewcommand*{\subsectionautorefname}{Section}
+\renewcommand*{\subsubsectionautorefname}{Section}
+}
+\addto\extrasngerman{
+\renewcommand*{\paragraphautorefname}{Absatz}
+\renewcommand*{\subparagraphautorefname}{Unterabsatz}
+\renewcommand*{\footnoteautorefname}{Fu\"snote}
+\renewcommand*{\FancyVerbLineautorefname}{Zeile}
+\renewcommand*{\theoremautorefname}{Theorem}
+\renewcommand*{\appendixautorefname}{Anhang}
+\renewcommand*{\equationautorefname}{Gleichung}
+\renewcommand*{\itemautorefname}{Punkt}
+}
+\providecommand{\subfigureautorefname}{\figureautorefname} % Fix to getting autorefs for subfigures right
+}{\relax}
+\makeatother
+
+%----------------------------------------------------------------------------------------
+
+\usepackage{style/classicthesis} 
+
+%----------------------------------------------------------------------------------------
+%	CHANGING TEXT AREA 
+%----------------------------------------------------------------------------------------
+
+%\linespread{1.05} % a bit more for Palatino
+%\areaset[current]{312pt}{761pt} % 686 (factor 2.2) + 33 head + 42 head \the\footskip
+%\setlength{\marginparwidth}{7em}%
+%\setlength{\marginparsep}{2em}%
+
+%----------------------------------------------------------------------------------------
+%	USING DIFFERENT FONTS
+%----------------------------------------------------------------------------------------
+
+%\usepackage[oldstylenums]{kpfonts} % oldstyle notextcomp
+%\usepackage[osf]{libertine}
+%\usepackage{hfoldsty} % Computer Modern with osf
+%\usepackage[light,condensed,math]{iwona}
+%\renewcommand{\sfdefault}{iwona}
+%\usepackage{lmodern} % <-- no osf support :-(
+%\usepackage[urw-garamond]{mathdesign} <-- no osf support :-(
+
 \usepackage{color}
 \usepackage{fancyvrb}
 \newcommand{\VerbBar}{|}
 \newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
 \DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
 % Add ',fontsize=\small' for more characters per line
+
 \usepackage{framed}
 \definecolor{shadecolor}{RGB}{248,248,248}
 \newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
-\newcommand{\AlertTok}[1]{\textcolor[rgb]{0.94,0.16,0.16}{#1}}
-\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
-\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.77,0.63,0.00}{#1}}
-\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
-\newcommand{\BuiltInTok}[1]{#1}
-\newcommand{\CharTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
-\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
-\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
-\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
-\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
-\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{#1}}
-\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
-\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
-\newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.64,0.00,0.00}{\textbf{#1}}}
-\newcommand{\ExtensionTok}[1]{#1}
-\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
-\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
-\newcommand{\ImportTok}[1]{#1}
-\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
-\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
-\newcommand{\NormalTok}[1]{#1}
-\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.81,0.36,0.00}{\textbf{#1}}}
-\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
-\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
-\newcommand{\RegionMarkerTok}[1]{#1}
-\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
-\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
-\newcommand{\StringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
-\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
-\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
-\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
-\usepackage{longtable,booktabs,array}
-\usepackage{calc} % for calculating minipage widths
-% Correct order of tables after \paragraph or \subparagraph
-\usepackage{etoolbox}
-\makeatletter
-\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
-\makeatother
-% Allow footnotes in longtable head/foot
-\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
-\makesavenoteenv{longtable}
-\usepackage{graphicx}
-\makeatletter
-\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
-\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
-\makeatother
-% Scale images if necessary, so that they will not overflow the page
-% margins by default, and it is still possible to overwrite the defaults
-% using explicit options in \includegraphics[width, height, ...]{}
-\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
-% Set default figure placement to htbp
-\makeatletter
-\def\fps@figure{htbp}
-\makeatother
-\setlength{\emergencystretch}{3em} % prevent overfull lines
-\providecommand{\tightlist}{%
-  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
-\setcounter{secnumdepth}{5}
-\usepackage{booktabs}
-\ifluatex
-  \usepackage{selnolig}  % disable illegal ligatures
-\fi
-\usepackage[]{natbib}
-\bibliographystyle{apalike}
+\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{{#1}}}}
+\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{{#1}}}
+\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{{#1}}}
+\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{{#1}}}
+\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{{#1}}}
+\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{{#1}}}
+\newcommand{\CharTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{{#1}}}
+\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{{#1}}}
+\newcommand{\StringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{{#1}}}
+\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{{#1}}}
+\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{{#1}}}
+\newcommand{\ImportTok}[1]{{#1}}
+\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{{#1}}}}
+\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{{#1}}}}}
+\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{{#1}}}}}
+\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{{#1}}}}}
+\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{{#1}}}
+\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{{#1}}}
+\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{{#1}}}
+\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{{#1}}}}
+\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.81,0.36,0.00}{\textbf{{#1}}}}
+\newcommand{\BuiltInTok}[1]{{#1}}
+\newcommand{\ExtensionTok}[1]{{#1}}
+\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{{#1}}}}
+\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.77,0.63,0.00}{{#1}}}
+\newcommand{\RegionMarkerTok}[1]{{#1}}
+\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{{#1}}}}}
+\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{{#1}}}}}
+\newcommand{\AlertTok}[1]{\textcolor[rgb]{0.94,0.16,0.16}{{#1}}}
+\newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.64,0.00,0.00}{\textbf{{#1}}}}
+\newcommand{\NormalTok}[1]{{#1}}
 
-\title{Prof.~Mason's Syllabi}
-\author{S. Mason Garrison}
-\date{2021-12-30}
+\usepackage{textcomp} % for backstick
+\providecommand{\tightlist}{ % for tight list
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 
 \begin{document}
-\maketitle
+%\begin{CJK*}{GBK}{song} 
 
-{
-\setcounter{tocdepth}{0}
-\tableofcontents
-}
+\frenchspacing % Reduces space after periods to make text more compact
+
+\raggedbottom % Makes all pages the height of the text on that page
+
+\selectlanguage{american} % Select your default language - e.g. american or ngerman
+
+%\renewcommand*{\bibname}{new name} % Uncomment to change the name of the bibliography
+%\setbibpreamble{} % Uncomment to include a preamble to the bibliography - some text before the reference list starts
+
+\pagenumbering{roman} % Roman page numbering prior to the start of the thesis content (i, ii, iii, etc)
+
+\pagestyle{plain} % Suppress headers for the pre-content pages
+
+
+%----------------------------------------------------------------------------------------
+%	PRE-CONTENT THESIS PAGES
+%----------------------------------------------------------------------------------------
+
+%\include{FrontBackmatter/Titlepage} % Main title page
+
+% Title Page
+
+\begin{titlepage}
+
+\begin{addmargin}[-1cm]{-3cm}
+\begin{center}
+\large
+
+\hfill
+\vfill
+
+\begingroup
+\color{Maroon}\spacedallcaps{Prof.~Mason's Syllabi} \\ \bigskip % Thesis title
+
+\endgroup
+
+\spacedlowsmallcaps{S. Mason Garrison} % Your name
+
+\vfill
+\includegraphics[width=6cm]{assets/logo.png} \\ \medskip % Picture
+%\mySubtitle \\ \medskip % Thesis subtitle
+%\myDegree \\
+%\myDepartment \\
+%\myFaculty \\
+%\myUni \\ \bigskip
+
+%\myTime\ -- \myVersion % Time and version
+
+\vfill
+
+\end{center}
+\end{addmargin}
+
+\end{titlepage}
+
+% \include{FrontBackmatter/Titleback} % Back of the title page
+
+%\cleardoublepage\include{FrontBackmatter/Dedication} % Dedication page
+
+%\cleardoublepage\include{FrontBackmatter/Foreword} % Uncomment and create a Foreword.tex to include a foreword
+
+%\cleardoublepage\include{FrontBackmatter/Abstract} % Abstract page
+
+%\cleardoublepage\include{FrontBackmatter/Publication} % Publications from the thesis page
+
+%\cleardoublepage\include{FrontBackmatter/Acknowledgments} % Acknowledgements page
+
+\pagestyle{scrheadings} % Show chapter titles as headings
+
+%\cleardoublepage\include{FrontBackmatter/Contents} % Contents, list of figures/tables/listings and acronyms
+% Table of Contents - List of Tables/Figures/Listings and Acronyms
+
+\refstepcounter{dummy}
+
+\pdfbookmark[1]{\contentsname}{tableofcontents} % Bookmark name visible in a PDF viewer
+
+\setcounter{tocdepth}{2} % Depth of sections to include in the table of contents - currently up to subsections
+
+\setcounter{secnumdepth}{3} % Depth of sections to number in the text itself - currently up to subsubsections
+
+\manualmark
+\markboth{\spacedlowsmallcaps{\contentsname}}{\spacedlowsmallcaps{\contentsname}}
+\tableofcontents 
+\automark[section]{chapter}
+\renewcommand{\chaptermark}[1]{\markboth{\spacedlowsmallcaps{#1}}{\spacedlowsmallcaps{#1}}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection\enspace\spacedlowsmallcaps{#1}}}
+
+\clearpage
+
+\begingroup 
+\let\clearpage\relax
+\let\cleardoublepage\relax
+\let\cleardoublepage\relax
+
+%----------------------------------------------------------------------------------------
+%	List of Figures
+%----------------------------------------------------------------------------------------
+
+\refstepcounter{dummy}
+%\addcontentsline{toc}{chapter}{\listfigurename} % Uncomment if you would like the list of figures to appear in the table of contents
+\pdfbookmark[1]{\listfigurename}{lof} % Bookmark name visible in a PDF viewer
+
+\listoffigures
+
+\vspace*{8ex}
+\newpage
+
+%----------------------------------------------------------------------------------------
+%	List of Tables
+%----------------------------------------------------------------------------------------
+
+\refstepcounter{dummy}
+%\addcontentsline{toc}{chapter}{\listtablename} % Uncomment if you would like the list of tables to appear in the table of contents
+\pdfbookmark[1]{\listtablename}{lot} % Bookmark name visible in a PDF viewer
+
+\listoftables
+        
+\vspace*{8ex}
+\newpage
+    
+%----------------------------------------------------------------------------------------
+%	List of Listings
+%---------------------------------------------------------------------------------------- 
+
+\refstepcounter{dummy}
+%\addcontentsline{toc}{chapter}{\lstlistlistingname} % Uncomment if you would like the list of listings to appear in the table of contents
+\pdfbookmark[1]{\lstlistlistingname}{lol} % Bookmark name visible in a PDF viewer
+
+\lstlistoflistings 
+
+\vspace*{8ex}
+\newpage
+       
+%----------------------------------------------------------------------------------------
+%	Acronyms
+%----------------------------------------------------------------------------------------
+
+\refstepcounter{dummy}
+%\addcontentsline{toc}{chapter}{Acronyms} % Uncomment if you would like the acronyms to appear in the table of contents
+\pdfbookmark[1]{Acronyms}{acronyms} % Bookmark name visible in a PDF viewer
+
+\markboth{\spacedlowsmallcaps{Acronyms}}{\spacedlowsmallcaps{Acronyms}}
+
+\chapter*{Acronyms}
+
+\begin{acronym}[UML]
+\acro{DRY}{Don't Repeat Yourself}
+\acro{API}{Application Programming Interface}
+\acro{UML}{Unified Modeling Language}
+\end{acronym}  
+                   
+\endgroup
+
+\cleardoublepage
+\pagenumbering{arabic} % Arabic page numbering for thesis content (1, 2, 3, etc)
+%\setcounter{page}{90} % Uncomment to manually start the page counter at an arbitrary value (for example if you wish to count the pre-content pages in the page count)
+
+\cleardoublepage % Avoids problems with pdfbookmark
+
+%----------------------------------------------------------------------------------------
+%	THESIS CONTENT - CHAPTERS
+%----------------------------------------------------------------------------------------
+
+% \ctparttext{You can put some informational part preamble text here. Illo principalmente su nos. Non message \emph{occidental} angloromanic da. Debitas effortio simplificate sia se, auxiliar summarios da que, se avantiate publicationes via. Pan in terra summarios, capital interlingua se que. Al via multo esser specimen, campo responder que da. Le usate medical addresses pro, europa origine sanctificate nos se.} % Text on the Part 1 page describing  the content in Part 1
+
+
 \hypertarget{part-front-matter}{%
 \part*{Front Matter}\label{part-front-matter}}
-\addcontentsline{toc}{part}{Front Matter}
+
 
 \hypertarget{welcome-to-my-syllabi}{%
 \chapter*{Welcome to my Syllabi!}\label{welcome-to-my-syllabi}}
-\addcontentsline{toc}{chapter}{Welcome to my Syllabi!}
+
 
 Welcome to all my syllabi! This website is designed to accompany all of Mason Garrison's courses at Wake Forest University.
 Over the semesters, I have found that my syllabi keep growing longer and longer as my career has progressed.
@@ -143,7 +523,7 @@ That way, I can have a neat and tidy syllabi, while still making my expectations
 
 \hypertarget{how-to-use-these-notes}{%
 \section*{How to use these notes}\label{how-to-use-these-notes}}
-\addcontentsline{toc}{section}{How to use these notes}
+
 
 This website is constantly changing. If you catch typos, errors, please issue a pull request with the fixes.
 
@@ -151,13 +531,13 @@ This document is broken down into multiple chapters. Use the table of contents o
 
 \hypertarget{attribution}{%
 \chapter*{Attribution}\label{attribution}}
-\addcontentsline{toc}{chapter}{Attribution}
+
 
 This mega syllabus leans on other peoples' materials and ideas. I have done my best to document the origin of the materials and ideas. In particular, I have noted those people whose work has been a major contribution as well as those who have additional contributions. You can see specific changes by examining the \href{https://github.com/smasongarrison/Syllabi/commits/main}{edit history on the git repo}
 
 \hypertarget{major-attributions}{%
 \section*{Major Attributions}\label{major-attributions}}
-\addcontentsline{toc}{section}{Major Attributions}
+
 
 \begin{itemize}
 \tightlist
@@ -167,7 +547,7 @@ This mega syllabus leans on other peoples' materials and ideas. I have done my b
 
 \hypertarget{additional-attributions}{%
 \section*{Additional Attributions}\label{additional-attributions}}
-\addcontentsline{toc}{section}{Additional Attributions}
+
 
 ** Numerous Icons from the Noun Project by: **
 * Adrien Coquet
@@ -190,7 +570,7 @@ This mega syllabus leans on other peoples' materials and ideas. I have done my b
 
 \hypertarget{license}{%
 \chapter*{License}\label{license}}
-\addcontentsline{toc}{chapter}{License}
+
 
 This work is licensed under a \href{https://creativecommons.org/licenses/by-sa/4.0/}{Creative Commons Attribution-ShareAlike 4.0 International License}.
 
@@ -244,9 +624,9 @@ material.
 
 \hypertarget{colophon}{%
 \chapter*{Colophon}\label{colophon}}
-\addcontentsline{toc}{chapter}{Colophon}
 
-These notes was written in \href{http://bookdown.org/}{bookdown} inside \href{http://www.rstudio.com/ide/}{RStudio}. The {[}website{]}{[}ds4p-web{]} is hosted with \href{https://www.github.com}{github}, The complete source is available from \href{https://github.com/smasongarrison/syllabi}{github}.
+
+These notes was written in \href{http://bookdown.org/}{bookdown} inside \href{http://www.rstudio.com/ide/}{RStudio}. The \href{https://smasongarrison.github.io/syllabi}{website} is hosted with \href{https://www.github.com}{github}, The complete source is available from \href{https://github.com/smasongarrison/syllabi}{github}.
 
 The book style adapted from \href{https://desiree.rbind.io/}{Desirée De Leon}.
 
@@ -269,7 +649,199 @@ This version of the notes was built with:
 
 Along with these packages:
 
-\includegraphics{0000a_front_files/figure-latex/unnamed-chunk-4-1.pdf}
+\begin{tabular}{lllll}
+\toprule
+  & package & loadedversion & date & source\\
+\midrule
+askpass & askpass & NA & 2019-01-13 & CRAN (R 4.0.3)\\
+assertthat & assertthat & 0.2.1 & 2019-03-21 & CRAN (R 4.0.3)\\
+backports & backports & 1.4.1 & 2021-12-13 & CRAN (R 4.0.5)\\
+base64enc & base64enc & NA & 2015-07-28 & CRAN (R 4.0.3)\\
+bit & bit & NA & 2020-08-04 & CRAN (R 4.0.3)\\
+\addlinespace
+bit64 & bit64 & NA & 2020-08-30 & CRAN (R 4.0.3)\\
+bitops & bitops & NA & 2021-04-24 & CRAN (R 4.0.5)\\
+blob & blob & NA & 2021-07-23 & CRAN (R 4.0.5)\\
+bookdown & bookdown & 0.24 & 2021-09-02 & CRAN (R 4.0.5)\\
+brew & brew & NA & 2011-04-13 & CRAN (R 4.0.3)\\
+\addlinespace
+brio & brio & NA & 2021-11-30 & CRAN (R 4.0.5)\\
+broom & broom & 0.7.10 & 2021-10-31 & CRAN (R 4.0.5)\\
+cachem & cachem & 1.0.6 & 2021-08-19 & CRAN (R 4.0.5)\\
+callr & callr & 3.7.0 & 2021-04-20 & CRAN (R 4.0.5)\\
+cellranger & cellranger & 1.1.0 & 2016-07-27 & CRAN (R 4.0.3)\\
+\addlinespace
+checkmate & checkmate & NA & 2020-02-06 & CRAN (R 4.0.3)\\
+cli & cli & 3.1.0 & 2021-10-27 & CRAN (R 4.0.5)\\
+clipr & clipr & NA & 2020-10-08 & CRAN (R 4.0.3)\\
+colorspace & colorspace & 2.0-2 & 2021-06-24 & CRAN (R 4.0.5)\\
+commonmark & commonmark & NA & 2018-12-01 & CRAN (R 4.0.3)\\
+\addlinespace
+conflicted & conflicted & NA & 2021-11-26 & CRAN (R 4.0.5)\\
+cpp11 & cpp11 & NA & 2021-11-30 & CRAN (R 4.0.5)\\
+crayon & crayon & 1.4.2 & 2021-10-29 & CRAN (R 4.0.5)\\
+credentials & credentials & NA & 2021-11-29 & CRAN (R 4.0.5)\\
+crosstalk & crosstalk & NA & 2021-11-04 & CRAN (R 4.0.5)\\
+\addlinespace
+crul & crul & NA & 2021-11-22 & CRAN (R 4.0.5)\\
+curl & curl & NA & 2021-06-23 & CRAN (R 4.0.5)\\
+data.table & data.table & NA & 2021-09-27 & CRAN (R 4.0.5)\\
+DBI & DBI & 1.1.2 & 2021-12-20 & CRAN (R 4.0.5)\\
+dbplyr & dbplyr & 2.1.1 & 2021-04-06 & CRAN (R 4.0.5)\\
+\addlinespace
+desc & desc & 1.4.0 & 2021-09-28 & CRAN (R 4.0.5)\\
+devtools & devtools & 2.4.3 & 2021-11-30 & CRAN (R 4.0.5)\\
+dichromat & dichromat & NA & NA & NA\\
+diffobj & diffobj & NA & 2021-10-05 & CRAN (R 4.0.5)\\
+digest & digest & 0.6.27 & 2020-10-24 & CRAN (R 4.0.3)\\
+\addlinespace
+dplyr & dplyr & 1.0.7 & 2021-06-18 & CRAN (R 4.0.5)\\
+DT & DT & 0.20 & 2021-11-15 & CRAN (R 4.0.5)\\
+dtplyr & dtplyr & NA & 2021-12-05 & CRAN (R 4.0.5)\\
+ellipsis & ellipsis & 0.3.2 & 2021-04-29 & CRAN (R 4.0.5)\\
+evaluate & evaluate & 0.14 & 2019-05-28 & CRAN (R 4.0.3)\\
+\addlinespace
+fansi & fansi & 0.5.0 & 2021-05-25 & CRAN (R 4.0.5)\\
+farver & farver & NA & 2021-02-28 & CRAN (R 4.0.4)\\
+fastmap & fastmap & 1.1.0 & 2021-01-25 & CRAN (R 4.0.3)\\
+forcats & forcats & 0.5.1 & 2021-01-27 & CRAN (R 4.0.3)\\
+fs & fs & 1.5.2 & 2021-12-08 & CRAN (R 4.0.5)\\
+\addlinespace
+gapminder & gapminder & NA & 2017-10-31 & CRAN (R 4.0.3)\\
+gargle & gargle & NA & 2021-07-02 & CRAN (R 4.0.5)\\
+gender & gender & NA & 2021-10-13 & CRAN (R 4.0.5)\\
+genderdata & genderdata & NA & NA & NA\\
+generics & generics & 0.1.1 & 2021-10-25 & CRAN (R 4.0.5)\\
+\addlinespace
+geonames & geonames & NA & 2019-02-19 & CRAN (R 4.0.3)\\
+gert & gert & NA & 2021-11-10 & CRAN (R 4.0.5)\\
+ggplot2 & ggplot2 & 3.3.5 & 2021-06-25 & CRAN (R 4.0.5)\\
+gh & gh & NA & 2021-04-30 & CRAN (R 4.0.5)\\
+gitcreds & gitcreds & NA & 2020-12-04 & CRAN (R 4.0.3)\\
+\addlinespace
+glue & glue & 1.6.0 & 2021-12-17 & CRAN (R 4.0.5)\\
+googledrive & googledrive & NA & 2021-07-08 & CRAN (R 4.0.5)\\
+googlesheets4 & googlesheets4 & NA & 2021-07-21 & CRAN (R 4.0.5)\\
+gridExtra & gridExtra & NA & 2017-09-09 & CRAN (R 4.0.3)\\
+gt & gt & NA & 2021-08-07 & CRAN (R 4.0.5)\\
+\addlinespace
+gtable & gtable & 0.3.0 & 2019-03-25 & CRAN (R 4.0.3)\\
+haven & haven & 2.4.3 & 2021-08-04 & CRAN (R 4.0.5)\\
+highr & highr & NA & 2021-04-16 & CRAN (R 4.0.5)\\
+hms & hms & 1.1.1 & 2021-09-26 & CRAN (R 4.0.5)\\
+htmltools & htmltools & 0.5.2 & 2021-08-25 & CRAN (R 4.0.5)\\
+\addlinespace
+htmlwidgets & htmlwidgets & 1.5.4 & 2021-09-08 & CRAN (R 4.0.5)\\
+httpcode & httpcode & NA & 2020-04-10 & CRAN (R 4.0.4)\\
+httr & httr & 1.4.2 & 2020-07-20 & CRAN (R 4.0.3)\\
+ids & ids & NA & 2017-05-31 & CRAN (R 4.0.5)\\
+ini & ini & NA & 2018-05-20 & CRAN (R 4.0.3)\\
+\addlinespace
+isoband & isoband & NA & 2021-07-13 & CRAN (R 4.0.5)\\
+jquerylib & jquerylib & NA & 2021-04-26 & CRAN (R 4.0.5)\\
+jsonlite & jsonlite & 1.7.2 & 2020-12-09 & CRAN (R 4.0.3)\\
+knitr & knitr & 1.37 & 2021-12-16 & CRAN (R 4.0.5)\\
+labeling & labeling & NA & 2020-10-20 & CRAN (R 4.0.3)\\
+\addlinespace
+later & later & NA & 2021-08-18 & CRAN (R 4.0.5)\\
+lattice & lattice & NA & 2020-04-02 & CRAN (R 4.0.5)\\
+lazyeval & lazyeval & NA & 2019-03-15 & CRAN (R 4.0.3)\\
+lifecycle & lifecycle & 1.0.1 & 2021-09-24 & CRAN (R 4.0.5)\\
+lubridate & lubridate & 1.8.0 & 2021-10-07 & CRAN (R 4.0.5)\\
+\addlinespace
+magrittr & magrittr & 2.0.1 & 2020-11-17 & CRAN (R 4.0.3)\\
+MASS & MASS & NA & 2021-02-12 & CRAN (R 4.0.5)\\
+Matrix & Matrix & NA & 2021-01-06 & CRAN (R 4.0.5)\\
+memoise & memoise & 2.0.1 & 2021-11-26 & CRAN (R 4.0.5)\\
+mgcv & mgcv & NA & 2021-02-16 & CRAN (R 4.0.5)\\
+\addlinespace
+mime & mime & NA & 2021-09-28 & CRAN (R 4.0.5)\\
+modelr & modelr & 0.1.8 & 2020-05-19 & CRAN (R 4.0.3)\\
+munsell & munsell & 0.5.0 & 2018-06-12 & CRAN (R 4.0.3)\\
+nlme & nlme & NA & 2021-02-04 & CRAN (R 4.0.5)\\
+openssl & openssl & NA & 2021-12-19 & CRAN (R 4.0.5)\\
+\addlinespace
+pillar & pillar & 1.6.4 & 2021-10-18 & CRAN (R 4.0.5)\\
+pkgbuild & pkgbuild & 1.3.1 & 2021-12-20 & CRAN (R 4.0.5)\\
+pkgconfig & pkgconfig & 2.0.3 & 2019-09-22 & CRAN (R 4.0.3)\\
+pkgload & pkgload & 1.2.4 & 2021-11-30 & CRAN (R 4.0.5)\\
+plyr & plyr & NA & 2020-03-03 & CRAN (R 4.0.3)\\
+\addlinespace
+praise & praise & NA & 2015-08-11 & CRAN (R 4.0.3)\\
+prettyunits & prettyunits & 1.1.1 & 2020-01-24 & CRAN (R 4.0.3)\\
+processx & processx & 3.5.2 & 2021-04-30 & CRAN (R 4.0.5)\\
+progress & progress & NA & 2019-05-16 & CRAN (R 4.0.3)\\
+promises & promises & NA & 2021-02-11 & CRAN (R 4.0.3)\\
+\addlinespace
+ps & ps & 1.6.0 & 2021-02-28 & CRAN (R 4.0.4)\\
+purrr & purrr & 0.3.4 & 2020-04-17 & CRAN (R 4.0.3)\\
+R6 & R6 & 2.5.1 & 2021-08-19 & CRAN (R 4.0.5)\\
+rappdirs & rappdirs & NA & 2021-01-31 & CRAN (R 4.0.3)\\
+rcmdcheck & rcmdcheck & NA & 2021-09-27 & CRAN (R 4.0.5)\\
+\addlinespace
+RColorBrewer & RColorBrewer & NA & 2014-12-07 & CRAN (R 4.0.3)\\
+Rcpp & Rcpp & 1.0.7 & 2021-07-07 & CRAN (R 4.0.5)\\
+readr & readr & 2.1.1 & 2021-11-30 & CRAN (R 4.0.5)\\
+readxl & readxl & 1.3.1 & 2019-03-13 & CRAN (R 4.0.3)\\
+rebird & rebird & NA & 2021-09-20 & CRAN (R 4.0.5)\\
+\addlinespace
+rematch & rematch & NA & 2016-04-21 & CRAN (R 4.0.3)\\
+rematch2 & rematch2 & NA & 2020-05-01 & CRAN (R 4.0.3)\\
+remotes & remotes & 2.4.2 & 2021-11-30 & CRAN (R 4.0.5)\\
+reprex & reprex & 2.0.1 & 2021-08-05 & CRAN (R 4.0.5)\\
+reshape2 & reshape2 & NA & 2020-04-09 & CRAN (R 4.0.3)\\
+\addlinespace
+rjson & rjson & NA & 2018-06-08 & CRAN (R 4.0.3)\\
+rlang & rlang & 0.4.11 & 2021-04-30 & CRAN (R 4.0.5)\\
+rmarkdown & rmarkdown & 2.11 & 2021-09-14 & CRAN (R 4.0.5)\\
+roxygen2 & roxygen2 & NA & 2021-09-08 & CRAN (R 4.0.5)\\
+rplos & rplos & NA & 2021-02-23 & CRAN (R 4.0.4)\\
+\addlinespace
+rprojroot & rprojroot & 2.0.2 & 2020-11-15 & CRAN (R 4.0.3)\\
+rstudioapi & rstudioapi & 0.13 & 2020-11-12 & CRAN (R 4.0.3)\\
+rversions & rversions & NA & 2021-05-31 & CRAN (R 4.0.5)\\
+rvest & rvest & 1.0.2 & 2021-10-16 & CRAN (R 4.0.5)\\
+sass & sass & NA & 2021-05-12 & CRAN (R 4.0.5)\\
+\addlinespace
+scales & scales & 1.1.1 & 2020-05-11 & CRAN (R 4.0.3)\\
+selectr & selectr & NA & 2019-11-20 & CRAN (R 4.0.3)\\
+sessioninfo & sessioninfo & 1.2.2 & 2021-12-06 & CRAN (R 4.0.5)\\
+solrium & solrium & NA & 2021-05-19 & CRAN (R 4.0.5)\\
+stringi & stringi & 1.7.6 & 2021-11-29 & CRAN (R 4.0.5)\\
+\addlinespace
+stringr & stringr & 1.4.0 & 2019-02-10 & CRAN (R 4.0.3)\\
+sys & sys & NA & 2020-07-23 & CRAN (R 4.0.3)\\
+testthat & testthat & 3.1.1 & 2021-12-03 & CRAN (R 4.0.5)\\
+tibble & tibble & 3.1.6 & 2021-11-07 & CRAN (R 4.0.5)\\
+tidyr & tidyr & 1.1.4 & 2021-09-27 & CRAN (R 4.0.5)\\
+\addlinespace
+tidyselect & tidyselect & 1.1.1 & 2021-04-30 & CRAN (R 4.0.5)\\
+tidyverse & tidyverse & 1.3.1 & 2021-04-15 & CRAN (R 4.0.5)\\
+tinytex & tinytex & NA & 2021-12-19 & CRAN (R 4.0.5)\\
+triebeard & triebeard & NA & 2016-08-04 & CRAN (R 4.0.4)\\
+tzdb & tzdb & 0.2.0 & 2021-10-27 & CRAN (R 4.0.5)\\
+\addlinespace
+urltools & urltools & NA & 2019-04-14 & CRAN (R 4.0.4)\\
+usethis & usethis & 2.1.5 & 2021-12-09 & CRAN (R 4.0.5)\\
+utf8 & utf8 & 1.2.2 & 2021-07-24 & CRAN (R 4.0.5)\\
+uuid & uuid & NA & 2021-11-01 & CRAN (R 4.0.5)\\
+vctrs & vctrs & 0.3.8 & 2021-04-29 & CRAN (R 4.0.5)\\
+\addlinespace
+viridis & viridis & NA & 2021-10-13 & CRAN (R 4.0.5)\\
+viridisLite & viridisLite & NA & 2021-04-13 & CRAN (R 4.0.5)\\
+vroom & vroom & NA & 2021-11-30 & CRAN (R 4.0.5)\\
+waldo & waldo & NA & 2021-09-14 & CRAN (R 4.0.5)\\
+whisker & whisker & NA & 2019-08-28 & CRAN (R 4.0.3)\\
+\addlinespace
+withr & withr & 2.4.3 & 2021-11-30 & CRAN (R 4.0.5)\\
+xfun & xfun & 0.29 & 2021-12-14 & CRAN (R 4.0.5)\\
+xml2 & xml2 & 1.3.3 & 2021-11-30 & CRAN (R 4.0.5)\\
+xopen & xopen & NA & 2018-09-17 & CRAN (R 4.0.3)\\
+yaml & yaml & 2.2.1 & 2020-02-01 & CRAN (R 4.0.3)\\
+\addlinespace
+zip & zip & NA & 2021-05-31 & CRAN (R 4.0.5)\\
+\bottomrule
+\end{tabular}
 
 The R session information when compiling this book is shown below:
 
@@ -307,11 +879,11 @@ The R session information when compiling this book is shown below:
 
 \hypertarget{part-syllabi}{%
 \part*{Syllabi}\label{part-syllabi}}
-\addcontentsline{toc}{part}{Syllabi}
+
 
 \hypertarget{general-information}{%
 \chapter*{General information}\label{general-information}}
-\addcontentsline{toc}{chapter}{General information}
+
 
 Welcome! This section includes general syllabus information. The next sections include information specific to your class.
 
@@ -367,7 +939,7 @@ Github is a free IDE and hosting service for Git. As a Wake Forest student, you 
 
 \hypertarget{part-policies}{%
 \part*{Policies}\label{part-policies}}
-\addcontentsline{toc}{part}{Policies}
+
 
 \hypertarget{policy-overview}{%
 \chapter{Policy Overview}\label{policy-overview}}
@@ -487,8 +1059,8 @@ BE"\\
 Disabled students deserve success regardless of how well they can
 navigate the system and cajole/plead/argue with profs for access.
 
---- The ADHD Academic (@theADHDacademic) \href{https://twitter.com/theADHDacademic/status/1458876178580881410}{November 11,
-2021}
+\begin{flushright}--- The ADHD Academic (@theADHDacademic) \href{https://twitter.com/theADHDacademic/status/1458876178580881410}{November 11,
+2021}\end{flushright}
 \end{quote}
 
 As a student, you may not know what accommodations work best for you. Or you may find that your current accommodations don't work like they used to.
@@ -709,11 +1281,11 @@ If you do not comply, I will ask you to leave the class for that day.
 
 \hypertarget{part-specific-courses}{%
 \part*{Specific Courses}\label{part-specific-courses}}
-\addcontentsline{toc}{part}{Specific Courses}
+
 
 \hypertarget{personality}{%
 \chapter*{255: Personality}\label{personality}}
-\addcontentsline{toc}{chapter}{255: Personality}
+
 
 \hypertarget{course-description}{%
 \section{Course Description}\label{course-description}}
@@ -880,67 +1452,67 @@ Trust me, you do not want me to curve by assignment.
 
 \hypertarget{week-01-0823---0827-what-is-personality}{%
 \section*{Week 01, 08/23 - 08/27 : What is Personality}\label{week-01-0823---0827-what-is-personality}}
-\addcontentsline{toc}{section}{Week 01, 08/23 - 08/27 : What is Personality}
+
 
 \hypertarget{week-02-0830---0903-personality-research-methods}{%
 \section*{Week 02, 08/30 - 09/03 : Personality Research Methods}\label{week-02-0830---0903-personality-research-methods}}
-\addcontentsline{toc}{section}{Week 02, 08/30 - 09/03 : Personality Research Methods}
+
 
 \hypertarget{week-03-0906---0910-assessment-evaluation-and-ethics}{%
 \section*{Week 03, 09/06 - 09/10 : Assessment, Evaluation, and Ethics}\label{week-03-0906---0910-assessment-evaluation-and-ethics}}
-\addcontentsline{toc}{section}{Week 03, 09/06 - 09/10 : Assessment, Evaluation, and Ethics}
+
 
 \hypertarget{week-04-0913---0917-trait-approach-and-personality-judgment}{%
 \section*{Week 04, 09/13 - 09/17 : Trait Approach and Personality Judgment}\label{week-04-0913---0917-trait-approach-and-personality-judgment}}
-\addcontentsline{toc}{section}{Week 04, 09/13 - 09/17 : Trait Approach and Personality Judgment}
+
 
 \hypertarget{week-05-0920---0924-big-five}{%
 \section*{Week 05, 09/20 - 09/24 : Big Five}\label{week-05-0920---0924-big-five}}
-\addcontentsline{toc}{section}{Week 05, 09/20 - 09/24 : Big Five}
+
 
 \hypertarget{week-06-0927---1001-personality-over-the-lifespan}{%
 \section*{Week 06, 09/27 - 10/01 : Personality over the Lifespan}\label{week-06-0927---1001-personality-over-the-lifespan}}
-\addcontentsline{toc}{section}{Week 06, 09/27 - 10/01 : Personality over the Lifespan}
+
 
 \hypertarget{week-07-1004---1008-biological-approaches-to-psychology}{%
 \section*{Week 07, 10/04 - 10/08 : Biological Approaches to Psychology}\label{week-07-1004---1008-biological-approaches-to-psychology}}
-\addcontentsline{toc}{section}{Week 07, 10/04 - 10/08 : Biological Approaches to Psychology}
+
 
 \hypertarget{week-08-1011---1015-behavior-genetics}{%
 \section*{Week 08, 10/11 - 10/15 : Behavior Genetics}\label{week-08-1011---1015-behavior-genetics}}
-\addcontentsline{toc}{section}{Week 08, 10/11 - 10/15 : Behavior Genetics}
+
 
 \hypertarget{week-09-1018---1022-evolutionary-psychology}{%
 \section*{Week 09, 10/18 - 10/22 : Evolutionary Psychology}\label{week-09-1018---1022-evolutionary-psychology}}
-\addcontentsline{toc}{section}{Week 09, 10/18 - 10/22 : Evolutionary Psychology}
+
 
 \hypertarget{week-10-1025---1029-cross-cultural-psychology}{%
 \section*{Week 10, 10/25 - 10/29 : Cross-Cultural Psychology}\label{week-10-1025---1029-cross-cultural-psychology}}
-\addcontentsline{toc}{section}{Week 10, 10/25 - 10/29 : Cross-Cultural Psychology}
+
 
 \hypertarget{week-11-1101---1105-freud}{%
 \section*{Week 11, 11/01 - 11/05 : Freud}\label{week-11-1101---1105-freud}}
-\addcontentsline{toc}{section}{Week 11, 11/01 - 11/05 : Freud}
+
 
 \hypertarget{week-12-1108---1112-psychoanalysis-after-freud}{%
 \section*{Week 12, 11/08 - 11/12 : Psychoanalysis After Freud}\label{week-12-1108---1112-psychoanalysis-after-freud}}
-\addcontentsline{toc}{section}{Week 12, 11/08 - 11/12 : Psychoanalysis After Freud}
+
 
 \hypertarget{week-13-1115---1119-personality-processes-and-positive-psych}{%
 \section*{Week 13, 11/15 - 11/19 : Personality Processes and Positive Psych}\label{week-13-1115---1119-personality-processes-and-positive-psych}}
-\addcontentsline{toc}{section}{Week 13, 11/15 - 11/19 : Personality Processes and Positive Psych}
+
 
 \hypertarget{week-14-1122---1126-thanksgiving-break}{%
 \section*{Week 14, 11/22 - 11/26 : Thanksgiving Break!}\label{week-14-1122---1126-thanksgiving-break}}
-\addcontentsline{toc}{section}{Week 14, 11/22 - 11/26 : Thanksgiving Break!}
+
 
 \hypertarget{week-15-1129---1203-personality-and-health}{%
 \section*{Week 15, 11/29 - 12/03 : Personality and Health}\label{week-15-1129---1203-personality-and-health}}
-\addcontentsline{toc}{section}{Week 15, 11/29 - 12/03 : Personality and Health}
+
 
 \hypertarget{final-exam}{%
 \section*{Final Exam}\label{final-exam}}
-\addcontentsline{toc}{section}{Final Exam}
+
 
 \begin{itemize}
 \tightlist
@@ -950,7 +1522,7 @@ Trust me, you do not want me to curve by assignment.
 
 \hypertarget{statsminor}{%
 \chapter*{310: Methods in Psychological Research}\label{statsminor}}
-\addcontentsline{toc}{chapter}{310: Methods in Psychological Research}
+
 
 \hypertarget{course-description-1}{%
 \section{Course Description}\label{course-description-1}}
@@ -1038,7 +1610,7 @@ Wickham and Grolemund's R for Data Science text (\url{http://r4ds.had.co.nz/})
 
 \hypertarget{testing}{%
 \chapter*{362: Psychological Testing}\label{testing}}
-\addcontentsline{toc}{chapter}{362: Psychological Testing}
+
 
 \hypertarget{course-description-2}{%
 \section{Course Description}\label{course-description-2}}
@@ -1250,7 +1822,7 @@ See Syllabus Website
 
 \hypertarget{data-science}{%
 \chapter*{703: Data Science}\label{data-science}}
-\addcontentsline{toc}{chapter}{703: Data Science}
+
 
 \hypertarget{course-description-3}{%
 \section{Course Description}\label{course-description-3}}
@@ -1474,7 +2046,7 @@ To contract for an ``C'' in this course, you agree to:
 
 \hypertarget{part-for-your-information}{%
 \part*{For Your Information}\label{part-for-your-information}}
-\addcontentsline{toc}{part}{For Your Information}
+
 
 \hypertarget{frequently-asked-questions}{%
 \chapter{Frequently Asked Questions}\label{frequently-asked-questions}}
@@ -1489,9 +2061,9 @@ Frequently Asked Questions\\
 Q: "Can you -"\\
 A: I cannot.
 
---- Alison Ledgerwood isn't here right now (@AlisonLedg) \href{https://twitter.com/AlisonLedg/status/1441181845706579969}{September
+\begin{flushright}--- Alison Ledgerwood isn't here right now (@AlisonLedg) \href{https://twitter.com/AlisonLedg/status/1441181845706579969}{September
 23,
-2021}
+2021}\end{flushright}
 \end{quote}
 
 \hypertarget{how-can-i-get-ahold-of-you}{%
@@ -1596,8 +2168,8 @@ Once again, I DO NOT recommend students go to libgen (dot) rs and
 download books for their upcoming courses. I am NOT advocating for
 getting and sharing free pdfs of required texts. DON'T DO IT.
 
---- itsgalo (@GaloAndStuff) \href{https://twitter.com/GaloAndStuff/status/1424818560417902604}{August 9,
-2021}
+\begin{flushright}--- itsgalo (@GaloAndStuff) \href{https://twitter.com/GaloAndStuff/status/1424818560417902604}{August 9,
+2021}\end{flushright}
 \end{quote}
 
 \hypertarget{can}{%
@@ -1715,8 +2287,8 @@ their learning, some don't.\\
 Sharing info so everyone has access to the same tools. A thread.
 \href{https://twitter.com/OpenAcademics}{@OpenAcademics}
 
---- Betty Lai, PhD (@BettySLai) \href{https://twitter.com/BettySLai/status/1455555111397117954}{November 2,
-2021}
+\begin{flushright}--- Betty Lai, PhD (@BettySLai) \href{https://twitter.com/BettySLai/status/1455555111397117954}{November 2,
+2021}\end{flushright}
 \end{quote}
 
 \hypertarget{online-learning}{%
@@ -2336,8 +2908,23 @@ You can search the Canvas Guides or contact the Canvas Support Helpline by click
 
 \hypertarget{part-back-matter}{%
 \part*{Back Matter}\label{part-back-matter}}
-\addcontentsline{toc}{part}{Back Matter}
 
-  \bibliography{book.bib,packages.bib}
 
+% Bibliography
+
+\label{app:bibliography} % Reference the bibliography elsewhere with \autoref{app:bibliography}
+
+\manualmark
+\markboth{\spacedlowsmallcaps{\bibname}}{\spacedlowsmallcaps{\bibname}} 
+\refstepcounter{dummy}
+
+\addtocontents{toc}{\protect\vspace{\beforebibskip}} % Place the bibliography slightly below the rest of the document content in the table of contents
+
+
+\bibliographystyle{plainnat}
+
+%\bibliography{bib/bib}
+\bibliography{book.bib,packages.bib,bib/bib.bib}
+
+%\end{CJK*}
 \end{document}

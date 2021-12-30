@@ -138,11 +138,11 @@ Along with these packages:
 ```{r message = FALSE,error=TRUE, warning = FALSE, echo = FALSE}
 
 if (knitr::is_latex_output()) {
-
 session$packages %>% 
   select(package, loadedversion, date, source) %>% 
   knitr::kable(booktabs = TRUE)
-}else{
+  }else{
+    
 session$packages %>% 
   select(package, loadedversion, date, source) %>% 
   DT::datatable(rownames = FALSE,

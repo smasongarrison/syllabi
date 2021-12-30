@@ -18,7 +18,7 @@ bookdown::gitbook:
             <i class = "fab fa-creative-commons-sa fa-2x"></i>
           </a>
         </li></center>
-    download: ["rmd", "pdf"]
+    download: ["rmd","md","pdf"]
     edit: https://github.com/smasongarrison/Syllabi/edit/main/%s
     sharing:
       github: yes
@@ -28,14 +28,15 @@ bookdown::pdf_book:
   includes:
     in_header: preamble.tex
   citation_package: natbib
-#  documentclass: book
-#  geometry: margin=1in
   keep_tex: yes
   latex_engine: pdflatex
   quote_footer: ["\\begin{flushright}", "\\end{flushright}"]
   split_bib: FALSE
   template: tex/template_thesis_classic.tex
   toc_appendix: yes
-  toc_depth: 3
+  toc_depth: 1
   toc_unnumbered: no
+
 #  pandoc_args:  --top-level-division=chapter
+#  documentclass: book
+#  geometry: margin=1in
