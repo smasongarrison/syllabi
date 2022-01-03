@@ -69,9 +69,7 @@ statistics
 
 ## Required Materials
 
-Wickham and Grolemund's R for Data Science text (http://r4ds.had.co.nz/)
-
-
+Morling, Research Methods in Psychology https://wwnorton.com/books/9780393893724
 
 
 ## Course Assignments
