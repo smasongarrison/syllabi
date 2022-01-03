@@ -17,9 +17,9 @@ library(webshot)
 ```{r links, child="links.md"}
 ```
 
-Welcome! This section includes general syllabus information. The next sections include information specific to your class.
+Welcome! This section includes general syllabus information. The next sections include information specific to your class. (Now, before I forget, any matter not explicitly covered by the syllabus or institution-wide policy is left to my sole discretion as the instructor.)
 
-Remember: This course is for you, not for me.
+Remember: This course is for you, not for me. 
 
 
 ```{r, echo=FALSE, cache = TRUE}
