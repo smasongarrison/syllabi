@@ -3,7 +3,7 @@
 ```{r setup, include=FALSE}
 source("scheduler.R")
 knitr::opts_chunk$set(cache=FALSE, dev='pdf')
-mon <- as.Date("2022-01-10")
+dayone <- as.Date("2022-01-10")
 cache=F
 number_of_classes=29
 number_of_weeks=15
@@ -129,19 +129,19 @@ This experiential course requires active engagement. There will be few lectures 
 Schedule
 -->
 
-## `r advdate(mon, 1, topic)`
+## `r advdate(dayone, 1, topic)`
 <!---
 - Monday: First Day of Class / Introduction
 - Wednesday: What is personality? (Chapter 1)
 - Friday: Research in Personality: Sources of Data (Chapter 2)
 -->
-## `r advdate(mon, 2, topic)`
+## `r advdate(dayone, 2, topic)`
 <!---
 - Monday: NO CLASS MLK Day
 - Wednesday: Research Design: Validity (Chapter 2)
 - Friday: Research Design: Generalizability (Chapter 2; Short Assignment 1 Handed Out)
 -->
-##  `r advdate(mon, 3, topic)` 
+##  `r advdate(dayone, 3, topic)` 
 <!---
 - Monday: Personality Assessment (Chapter 3)
 - Tuesday: "Last day to add full-term class"
@@ -149,80 +149,80 @@ Schedule
 - Friday: Person versus Situation (Chapter 4)
 -->
 
-##  `r advdate(mon, 4, topic)`
+##  `r advdate(dayone, 4, topic)`
 <!---
 - Monday: What are traits? What are the basic traits? (Chapter 4)
 - Wednesday: Personality Judgement (Chapter 5)
 - Friday: Using Personality Traits to Understand Behavior (Chapter 6; Assignment 1 Due)
 -->
-##  `r advdate(mon, 5, topic)`
+##  `r advdate(dayone, 5, topic)`
 <!---
 - Monday: Big Five (Chapter 6)
 - Wednesday: Review
 - Friday: Test 1
 -->
-##  `r advdate(mon, 6, topic)`
+##  `r advdate(dayone, 6, topic)`
 <!---
 - Monday: Brains (Chapter 8)
 - Wednesday: More Brains (Chapter 8)
 - Friday: Behavior Genetics (Chapter 9)
 -->
-##  `r advdate(mon, 7, topic)` 
+##  `r advdate(dayone, 7, topic)` 
 <!---
 - Monday: Behavior Genetics (Chapter 9)
 - Wednesday: Evolutionary Psychology (Chapter 9)
 - Friday: Evolutionary Psychology (Chapter 9)
 -->
-##  `r advdate(mon, 8, topic)`
+##  `r advdate(dayone, 8, topic)`
 <!---
 - Monday: Personality over the Lifespan (Chapter 7)
 - Wednesday: Personality over the Lifespan (Chapter 7)
 - Friday: Personality Processes (Chapter 15)
 -->
-##  `r advdate(mon, 9, topic)`
+##  `r advdate(dayone, 9, topic)`
 <!---
 - Monday: No Class
 - Wednesday: No Class
 - Friday: No Class
 -->
-##  `r advdate(mon, 10, topic)`
+##  `r advdate(dayone, 10, topic)`
 <!---
 - Monday: Personality Processes (Chapter 15)
 - Wednesday: Review
 - Friday: Test 2
 -->
-##  `r advdate(mon, 11, topic)`
+##  `r advdate(dayone, 11, topic)`
 <!---
 - Monday: The Self (Chapter 16) Last day to drop with a grade of "W"
 - Wednesday: The Self (Chapter 16)
 - Friday:  Freud (Chapter 10) 
 -->
-##  `r advdate(mon, 12, topic)`
+##  `r advdate(dayone, 12, topic)`
 <!---
 - Monday: Freud (Chapter 10)
 - Wednesday: Freud (Chapter 10)
 - Friday: Neo-Freud (Chapter 11; Assignment 2 Due)
 -->
-## `r advdate(mon, 13, topic)`
+## `r advdate(dayone, 13, topic)`
 <!---
 - Monday:  Neo-Freud (Chapter 11) 
 - Wednesday: Positive Psychology
 - Friday: Positive Psychology
 -->
-##  `r advdate(mon, 14, topic)`
+##  `r advdate(dayone, 14, topic)`
 <!---
 - Monday: Cross-Cultural Psychology
 - Wednesday: Cross-Cultural Psychology
 - Friday: Cross-Cultural Psychology
 -->
 
-##  `r advdate(mon, 15, topic)`
+##  `r advdate(dayone, 15, topic)`
 <!---
 - Monday: Personality and Physical Health
 - Wednesday: Personality and Mental Health
 - Friday: Personality Disorders
 
-##  `r advdate(mon, 16, topic)` 
+##  `r advdate(dayone, 16, topic)` 
 
 - Monday: Special Topics
 - Wednesday: Review; Assignment 3 Due; Last Day of Class
