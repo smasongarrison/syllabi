@@ -28,7 +28,7 @@ That way, I can have a neat and tidy syllabi, while still making my expectations
 
 This website is constantly changing. If you catch typos, errors, please issue a pull request with the fixes. 
 
-This document is broken down into multiple chapters. Use the table of contents on the left side of the screen to navigate, and use the hamburger icon (horizontal bars) at the top of the document to open or close the table of contents. At the top of the document, you'll see additional icons which you can click to search the document, change the size, font or color scheme of the page. The document will be updated (unpredictably) throughout the semester; however, students aren't bound to policies added once they've signed their syllabus. Instead, they are bound to the version of this "book" that was in place when they signed their syllabus. I have archived versions of this book [here](https://github.com/smasongarrison/syllabi/tree/main/Previous%20Semesters).
+This document is broken down into multiple chapters. Use the table of contents on the left side of the screen to navigate, and use the hamburger icon (horizontal bars) at the top of the document to open or close the table of contents. At the top of the document, you'll see additional icons which you can click to search the document, change the size, font or color scheme of the page. The document will be updated (unpredictably) throughout the semester; however, students aren't bound to policies added once they've signed their syllabus. Instead, they are bound to the version of this "book" that was in place when they signed their syllabus. I have archived versions of this book [here](https://github.com/smasongarrison/syllabi/blob/main/docs/megasyllabus.pdf).
 
 
 

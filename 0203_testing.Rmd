@@ -2,7 +2,7 @@
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(cache=FALSE, dev='pdf')
-mon <- as.Date("2021-01-25")
+dayone <- as.Date("2021-01-25")
 cache=F
 number_of_classes=29
 number_of_weeks=15
@@ -43,17 +43,20 @@ topic=c(
   )
   
   
-
+classschedule <- data.frame(module = 1:number_of_weeks)
+classschedule$start <- advdate(dayone,classschedule$module,assignment = "m")
+classschedule$topic <- topic[1:number_of_weeks]
+classschedule$week <- advdate(dayone,classschedule$module)
 
 
 ```
 
-## Course Description
+## Course Description   {-}
 
 This course provides an overview of the development and nature of psychological tests with applications to school counseling, business, and clinical practice. The purpose of the course is to provide students with an understanding of the principles of measurement as applied to group standardized measures of achievement, special aptitude, intelligence, personality, interests and distress for use in counseling.  Format will consist primarily of lectures along with group participation activities. 
 
 
-### Course Objectives:
+### Course Objectives:   {-}
 - To acquaint you with the fundamental vocabulary and logic of psychological measurement and behavioral assessment.
 - To develop your capacity for critical judgment of the adequacy of measures purported to assess behavior in the role of theory development.
 - To acquaint you with some of the relevant literature in personality assessment, psychometric theory and practice, and methods of observing and measuring behavior.
@@ -61,161 +64,86 @@ This course provides an overview of the development and nature of psychological 
 - This course is not designed to make you into an accomplished psychometrist (one who gives tests) nor is it designed to make you a skilled psychometrician (one who constructs tests), nor will it give you "hands on" experience with psychometric computer programs. Rather it is aimed to allow you to understand the fundamental theoretical issues concerning both the psychometrist and the psychometrician.
 - Because modern psychometrics and statistics may be done using open source software such as R, examples will be presented in R.
 
-## Materials
-### Texts
-#### Required
+## Materials   {-}
+### Texts   {-}
+#### Required   {-}
 
 ```{r, echo = FALSE, results="asis"} 
 bib[sort(c("anastasi1997"))]
 ``` 
 
 
-##### How to use the required text:
+##### How to use the required text:   {-}
 
 The text [@anastasi1997] is intended to supplement the lectures. The lectures don't follow the order of chapters in the text and the text covers some material that won't be covered in the lectures, i.e., not all the information in each chapter is perfectly pertinent to the course requirements.
 
 
-## Course Assignments 
-## Grading Policy
+## Course Assignments    {-}
+## Grading Policy   {-}
 
 ```{r child = './common/content/grading.Xmd'}
 ```
 
-### Quizzes
+### Quizzes   {-}
 There will be 6 quizzes in this course. These will be approximately every three weeks. The best 5 out of 6 quiz grades will be used to determine your total quiz grade.  You can drop 1 of the quizzes for any reason.
 
 
-#### Quiz Dates
+#### Quiz Dates   {-}
 
-- Quiz 1: Friday, `r advdate(mon, 3, assignment="f")`
+- Quiz 1: Friday, `r advdate(dayone, 3, assignment="f")`
 
-- Quiz 2: Friday, `r advdate(mon, 6, assignment="f")`
+- Quiz 2: Friday, `r advdate(dayone, 6, assignment="f")`
 
-- Quiz 3: Friday, `r advdate(mon, 10, assignment="f")`
+- Quiz 3: Friday, `r advdate(dayone, 10, assignment="f")`
 
-- Quiz 4: Friday, `r advdate(mon, 13, assignment="f")`
+- Quiz 4: Friday, `r advdate(dayone, 13, assignment="f")`
 
-- Quiz 5: Friday, `r advdate(mon, 15, assignment="f")`
+- Quiz 5: Friday, `r advdate(dayone, 15, assignment="f")`
 
-- Quiz 6: During Finals, `r advdate(mon, 16, assignment="f")`
+- Quiz 6: During Finals, `r advdate(dayone, 16, assignment="f")`
 
 
-### Take Home Assignments
+### Take Home Assignments   {-}
 There are four large take-home assignments. Two are qualitative and two are quantitative. 
 
 
 I will provide more specific written guidelines at least two weeks before each assignment is due. You have to submit assignment 1 because I give extensive feedback that will help you on later assignments. However, you may skip assignment 2 or 3.
 
 
-#### Assignment Dates
+#### Assignment Dates   {-}
 
-- Assignment 1: Friday, `r advdate(mon, 7, assignment="f")`: Set 1 and Critique of an online test.
+- Assignment 1: Friday, `r advdate(dayone, 7, assignment="f")`: Set 1 and Critique of an online test.
 
-- Assignment 2: Friday, `r advdate(mon, 13, assignment="f")`: Set 2 and Critique of a testing-related popular media article.
+- Assignment 2: Friday, `r advdate(dayone, 13, assignment="f")`: Set 2 and Critique of a testing-related popular media article.
 
-- Assignment 3: Friday, `r advdate(mon, 15, assignment="f")`: Set 3 and Critique of a testing-related YouTube video.
+- Assignment 3: Friday, `r advdate(dayone, 15, assignment="f")`: Set 3 and Critique of a testing-related YouTube video.
 
 
 
-## Engagement Activities
+## Engagement Activities   {-}
 
 There will be multiple engagement activities in this course. These activities will allow you engage with the material for each module. Details about the specific activities will be provided on canvas. Students must complete two activities per module.
 
 
-## Grading Weighting
+## Grading Weighting   {-}
 
 - 150 points of your grade will be determined by your best five (5) quizzes.
 - 150 points of your grade will be determined by your best three (3) take-home assignments.
 - 50 points of your grade will be determined by your engagement.
 
 
-## Course Policies
 
-See Syllabus Website
+## Schedule {-}
 
-## Schedule
+```{r message = FALSE, warning = FALSE, echo = FALSE}
 
-###  `r advdate(mon, 1, topic)`
-<!---
-- Tuesday: Chapter 1
-- Thursday: Chapter 2
--->
-###  `r advdate(mon, 2, topic)`
-<!---
-- Tuesday: Chapter 18
-- Thursday: Chapter 18
--->
-###  `r advdate(mon, 3, topic)` 
-<!---
-- Tuesday: Chapter 3 "Last day to add full-term class"
-- Thursday: Chapter 3
--->
-###  `r advdate(mon, 4, topic)`
-<!---
-- Tuesday: Chapter 4
-- Thursday: Chapter 4
--->
-###  `r advdate(mon, 5, topic)`
-<!---
-- Tuesday: Chapter 5 + 6
-- Thursday: Chapter 5 + 6 
--->
-###  `r advdate(mon, 6, topic)`
-<!---
-- Tuesday: Chapter 6  "Last day to drop full-term class"
-- Thursday: Chapter 9 
--->
-###  `r advdate(mon, 7, topic)` 
-<!---
-- Tuesday: Chapter 7 (Assignment 1 Due)
-- Thursday: Chapter 7
--->
-###  `r advdate(mon, 8, topic)`
-<!---
-- Tuesday: Review 
-- Thursday: Exam 1
--->
-###  `r advdate(mon, 9, topic)`
-<!---
-- Tuesday: No class
-- Thursday: No class 
--->
-###  `r advdate(mon, 10, topic)`
-<!---
-- Tuesday: Selected readings
-- Thursday: Chapter 10
--->
-###  `r advdate(mon, 11, topic)`
-<!---
-- Monday: Last day to drop with a grade of "W"
-- Tuesday: Chapter 11
-- Thursday: Chapter 12
--->
-###  `r advdate(mon, 12, topic)`
-<!---
-- Tuesday: Chapter 13
-- Thursday: Chapter 13 
--->
-### `r advdate(mon, 13, topic)`
-<!---
-- Tuesday: Chapter 14
-- Thursday: Chapter 14 (Assignment 2 Due)
--->
-###  `r advdate(mon, 14, topic)`
-<!---
-- Tuesday: Chapter 15
-- Thursday: Chapter 16
--->
-###  `r advdate(mon, 15, topic)`
-<!---
-- Tuesday: Supplemental reading
-- Thursday: Supplemental reading
+classschedule %>% 
+  DT::datatable(rownames = FALSE,
+                class = 'cell-border stripe',
+                #filter = list(position = 'top'),
+                options = list(pageLength = nrow(classschedule$module), 
+                           autoWidth = FALSE,
+                           bInfo = FALSE,
+                           paging = FALSE))
+```
 
-###  `r advdate(mon, 16, topic)` 
-
-- Tuesday: Review
-
-## Final Exam 
-
-- TBD
--->

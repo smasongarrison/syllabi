@@ -32,8 +32,8 @@
                 footinclude=true,cleardoublepage=empty,
                 BCOR=5mm,paper=b5,fontsize=11pt, % Binding correction, paper type and font size
                 ngerman,american, % Languages
-                ]{scrreprt} 
-%\usepackage{CJK}                
+                ]{scrreprt}
+%\usepackage{CJK}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Thesis Configuration File
 %
@@ -74,7 +74,7 @@
 \newcommand{\ie}{i.\,e.}
 \newcommand{\Ie}{I.\,e.}
 \newcommand{\eg}{e.\,g.}
-\newcommand{\Eg}{E.\,g.} 
+\newcommand{\Eg}{E.\,g.}
 
 \newcounter{dummy} % Necessary for correct hyperlinks (to index, bib, etc.)
 \providecommand{\mLyX}{L\kern-.1667em\lower.25em\hbox{Y}\kern-.125emX\@}
@@ -86,10 +86,10 @@
 \usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
 
 %------------------------------------------------
- 
+
 \PassOptionsToPackage{latin9}{inputenc} % latin9 (ISO-8859-9) = latin1+"Euro sign"
 \usepackage{inputenc}
- 
+
  %------------------------------------------------
 
 %\PassOptionsToPackage{ngerman,american}{babel}  % Change this to your language(s)
@@ -97,16 +97,16 @@
 %\PassOptionsToPackage{spanish,es-lcroman}{babel}
 \usepackage{babel}
 
-%------------------------------------------------			
+%------------------------------------------------
 
 \PassOptionsToPackage{square,numbers}{natbib}
  \usepackage{natbib}
- 
+
  %------------------------------------------------
 
-\PassOptionsToPackage{fleqn}{amsmath} % Math environments and more by the AMS 
+\PassOptionsToPackage{fleqn}{amsmath} % Math environments and more by the AMS
  \usepackage{amsmath}
- 
+
  %------------------------------------------------
 
 \PassOptionsToPackage{T1}{fontenc} % T2A for cyrillics
@@ -122,7 +122,7 @@
 
 %------------------------------------------------
 
-\usepackage{fixltx2e} % Fixes some LaTeX stuff 
+\usepackage{fixltx2e} % Fixes some LaTeX stuff
 
 %------------------------------------------------
 
@@ -137,7 +137,7 @@
 %------------------------------------------------
 
 \PassOptionsToPackage{pdftex}{graphicx}
-\usepackage{graphicx} 
+\usepackage{graphicx}
 
 %----------------------------------------------------------------------------------------
 %	FLOATS: TABLES, FIGURES AND CAPTIONS SETUP
@@ -149,7 +149,7 @@
 \newcommand{\myfloatalign}{\centering} % To be used with each float for alignment
 \usepackage{caption}
 \captionsetup{format=hang,font=small}
-\usepackage{subfig}  
+\usepackage{subfig}
 
 \usepackage{longtable,booktabs}
 
@@ -158,7 +158,7 @@
 %	CODE LISTINGS SETUP
 %----------------------------------------------------------------------------------------
 
-\usepackage{listings} 
+\usepackage{listings}
 %\lstset{emph={trueIndex,root},emphstyle=\color{BlueViolet}}%\underbar} % for special keywords
 \lstset{language=[LaTeX]Tex, % Specify the language for listings here
 keywordstyle=\color{RoyalBlue}, % Add \bfseries for bold
@@ -188,10 +188,10 @@ belowcaptionskip=.75\baselineskip % Space after the "Listing #: Desciption" text
 
 \hypersetup{
 % Uncomment the line below to remove all links (to references, figures, tables, etc)
-%draft, 
+%draft,
 colorlinks=true, linktocpage=true, pdfstartpage=3, pdfstartview=FitV,
 % Uncomment the line below if you want to have black links (e.g. for printing black and white)
-%colorlinks=false, linktocpage=false, pdfborder={0 0 0}, pdfstartpage=3, pdfstartview=FitV, 
+%colorlinks=false, linktocpage=false, pdfborder={0 0 0}, pdfstartpage=3, pdfstartview=FitV,
 breaklinks=true, pdfpagemode=UseNone, pageanchor=true, pdfpagemode=UseOutlines,
 plainpages=false, bookmarksnumbered, bookmarksopen=true, bookmarksopenlevel=1,
 hypertexnames=true, pdfhighlight=/O, urlcolor=webbrown, linkcolor=RoyalBlue, citecolor=webgreen,
@@ -204,7 +204,7 @@ pdfkeywords={},
 pdfcreator={pdfLaTeX},
 pdfproducer={LaTeX with hyperref and classicthesis}
 %------------------------------------------------
-}   
+}
 
 %----------------------------------------------------------------------------------------
 %	BACKREFERENCES
@@ -220,23 +220,23 @@ pdfproducer={LaTeX with hyperref and classicthesis}
 \ifthenelse{\boolean{enable-backrefs}} % If backrefs were enabled
 {
 \PassOptionsToPackage{hyperpageref}{backref}
-\usepackage{backref} % to be loaded after hyperref package 
+\usepackage{backref} % to be loaded after hyperref package
 \renewcommand{\backreftwosep}{ and~} % separate 2 pages
 \renewcommand{\backreflastsep}{, and~} % separate last of longer list
 \renewcommand*{\backref}[1]{}  % disable standard
 \renewcommand*{\backrefalt}[4]{% detailed backref
-\ifcase #1 
+\ifcase #1
 \backrefnotcitedstring
 \or
 \backrefcitedsinglestring{#2}
 \else
 \backrefcitedmultistring{#2}
 \fi}
-}{\relax} 
+}{\relax}
 
 %----------------------------------------------------------------------------------------
 %	AUTOREFERENCES SETUP
-%	Redefines how references in text are prefaced for different 
+%	Redefines how references in text are prefaced for different
 %	languages (e.g. "Section 1.2" or "section 1.2")
 %----------------------------------------------------------------------------------------
 
@@ -268,10 +268,10 @@ pdfproducer={LaTeX with hyperref and classicthesis}
 
 %----------------------------------------------------------------------------------------
 
-\usepackage{style/classicthesis} 
+\usepackage{classicthesis}
 
 %----------------------------------------------------------------------------------------
-%	CHANGING TEXT AREA 
+%	CHANGING TEXT AREA
 %----------------------------------------------------------------------------------------
 
 %\linespread{1.05} % a bit more for Palatino
@@ -338,7 +338,7 @@ pdfproducer={LaTeX with hyperref and classicthesis}
   \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 
 \begin{document}
-%\begin{CJK*}{GBK}{song} 
+%\begin{CJK*}{GBK}{song}
 
 \frenchspacing % Reduces space after periods to make text more compact
 
@@ -422,14 +422,14 @@ pdfproducer={LaTeX with hyperref and classicthesis}
 
 \manualmark
 \markboth{\spacedlowsmallcaps{\contentsname}}{\spacedlowsmallcaps{\contentsname}}
-\tableofcontents 
+\tableofcontents
 \automark[section]{chapter}
 \renewcommand{\chaptermark}[1]{\markboth{\spacedlowsmallcaps{#1}}{\spacedlowsmallcaps{#1}}}
 \renewcommand{\sectionmark}[1]{\markright{\thesection\enspace\spacedlowsmallcaps{#1}}}
 
 \clearpage
 
-\begingroup 
+\begingroup
 \let\clearpage\relax
 \let\cleardoublepage\relax
 \let\cleardoublepage\relax
@@ -456,23 +456,23 @@ pdfproducer={LaTeX with hyperref and classicthesis}
 \pdfbookmark[1]{\listtablename}{lot} % Bookmark name visible in a PDF viewer
 
 \listoftables
-        
+
 \vspace*{8ex}
 \newpage
-    
+
 %----------------------------------------------------------------------------------------
 %	List of Listings
-%---------------------------------------------------------------------------------------- 
+%----------------------------------------------------------------------------------------
 
 \refstepcounter{dummy}
 %\addcontentsline{toc}{chapter}{\lstlistlistingname} % Uncomment if you would like the list of listings to appear in the table of contents
 \pdfbookmark[1]{\lstlistlistingname}{lol} % Bookmark name visible in a PDF viewer
 
-\lstlistoflistings 
+\lstlistoflistings
 
 \vspace*{8ex}
 \newpage
-       
+
 %----------------------------------------------------------------------------------------
 %	Acronyms
 %----------------------------------------------------------------------------------------
@@ -489,8 +489,8 @@ pdfproducer={LaTeX with hyperref and classicthesis}
 \acro{DRY}{Don't Repeat Yourself}
 \acro{API}{Application Programming Interface}
 \acro{UML}{Unified Modeling Language}
-\end{acronym}  
-                   
+\end{acronym}
+
 \endgroup
 
 \cleardoublepage
@@ -643,7 +643,7 @@ This version of the notes was built with:
 #>  collate  English_United States.1252
 #>  ctype    English_United States.1252
 #>  tz       America/New_York
-#>  date     2021-12-30
+#>  date     2022-01-05
 #>  pandoc   2.11.4 @ C:/Program Files/RStudio/bin/pandoc/ (via rmarkdown)
 \end{verbatim}
 
@@ -666,7 +666,7 @@ bookdown & bookdown & 0.24 & 2021-09-02 & CRAN (R 4.0.5)\\
 brew & brew & NA & 2011-04-13 & CRAN (R 4.0.3)\\
 \addlinespace
 brio & brio & NA & 2021-11-30 & CRAN (R 4.0.5)\\
-broom & broom & 0.7.10 & 2021-10-31 & CRAN (R 4.0.5)\\
+broom & broom & 0.7.11 & 2022-01-03 & CRAN (R 4.0.5)\\
 cachem & cachem & 1.0.6 & 2021-08-19 & CRAN (R 4.0.5)\\
 callr & callr & 3.7.0 & 2021-04-20 & CRAN (R 4.0.5)\\
 cellranger & cellranger & 1.1.0 & 2016-07-27 & CRAN (R 4.0.3)\\
@@ -714,7 +714,7 @@ genderdata & genderdata & NA & NA & NA\\
 generics & generics & 0.1.1 & 2021-10-25 & CRAN (R 4.0.5)\\
 \addlinespace
 geonames & geonames & NA & 2019-02-19 & CRAN (R 4.0.3)\\
-gert & gert & NA & 2021-11-10 & CRAN (R 4.0.5)\\
+gert & gert & NA & 2022-01-03 & CRAN (R 4.0.5)\\
 ggplot2 & ggplot2 & 3.3.5 & 2021-06-25 & CRAN (R 4.0.5)\\
 gh & gh & NA & 2021-04-30 & CRAN (R 4.0.5)\\
 gitcreds & gitcreds & NA & 2020-12-04 & CRAN (R 4.0.3)\\
@@ -885,7 +885,7 @@ The R session information when compiling this book is shown below:
 \chapter*{General information}\label{general-information}}
 
 
-Welcome! This section includes general syllabus information. The next sections include information specific to your class.
+Welcome! This section includes general syllabus information. The next sections include information specific to your class. (Now, before I forget, any matter not explicitly covered by the syllabus or institution-wide policy is left to my sole discretion as the instructor.)
 
 Remember: This course is for you, not for me.
 
@@ -1288,12 +1288,14 @@ If you do not comply, I will ask you to leave the class for that day.
 
 
 \hypertarget{course-description}{%
-\section{Course Description}\label{course-description}}
+\section*{Course Description}\label{course-description}}
+
 
 This class provides a survey of theory and research on the structure and function of human personality, with attention to the relationship to cognition, emotion, motivation, and behavior. It requires P-PSY 151. In addition, we will discuss other individual differences, such as intelligence.
 
 \hypertarget{broad-goals-for-the-course}{%
-\subsection{Broad goals for the course:}\label{broad-goals-for-the-course}}
+\subsection*{Broad goals for the course:}\label{broad-goals-for-the-course}}
+
 
 \begin{itemize}
 \item
@@ -1322,21 +1324,25 @@ This class provides a survey of theory and research on the structure and functio
 \end{itemize}
 
 \hypertarget{required-materials}{%
-\section{Required Materials}\label{required-materials}}
+\section*{Required Materials}\label{required-materials}}
+
 
 {[}1{]} D. C. Funder. \emph{The personality puzzle}. Seventh. OCLC: 935283402.
 New York: W.W. Norton \& Co., 2016. ISBN: 978-0-393-60042-1.
 
 \hypertarget{course-assignments}{%
-\section{Course Assignments}\label{course-assignments}}
+\section*{Course Assignments}\label{course-assignments}}
+
 
 \hypertarget{quizzes}{%
-\subsection{Quizzes}\label{quizzes}}
+\subsection*{Quizzes}\label{quizzes}}
+
 
 There will be 6 quizzes in this course. The best 5 out of 6 quizzes grades will be used to determine your total quiz grade. You can drop any of the quizzes for any reason BUT YOU MUST PASS THE LAST Quiz (held at TBD on Dec TBD). If you do not pass the final quiz, your score on that quiz will count as one of your 5 grades. If you do pass the final quiz, then the best 5 grades will be used (irrespective of your score on the final quiz).
 
 \hypertarget{quiz-dates}{%
-\subsubsection{Quiz Dates}\label{quiz-dates}}
+\subsubsection*{Quiz Dates}\label{quiz-dates}}
+
 
 \begin{itemize}
 \item
@@ -1354,14 +1360,16 @@ There will be 6 quizzes in this course. The best 5 out of 6 quizzes grades will 
 \end{itemize}
 
 \hypertarget{short-assignments}{%
-\subsection{Short Assignments}\label{short-assignments}}
+\subsection*{Short Assignments}\label{short-assignments}}
+
 
 There will be three (3) short assignments in this course. These assignments will allow you to incorporate some of your own interests into the course. Such interests could be related to your career, another class you're taking, a hobby you're exploring, or some other random fancy. They will typically be approximately two (2) pages. I will provide more specific written guidelines at least two weeks before each assignment is due.
 
 The best two (2) out of three (3) short assignments will be used to determine your total short assignments. You can skip one of the assignments for any reason.
 
 \hypertarget{short-assignment-dates}{%
-\subsubsection{Short Assignment Dates}\label{short-assignment-dates}}
+\subsubsection*{Short Assignment Dates}\label{short-assignment-dates}}
+
 
 \begin{itemize}
 \item
@@ -1373,12 +1381,14 @@ The best two (2) out of three (3) short assignments will be used to determine yo
 \end{itemize}
 
 \hypertarget{engagement-activities}{%
-\subsection{Engagement Activities}\label{engagement-activities}}
+\subsection*{Engagement Activities}\label{engagement-activities}}
+
 
 There will be multiple engagement activities in this course. These activities will allow you engage with the material for each module. Details about the specific activities will be provided on canvas. Students must complete two activities per module. For students in the blended section, they can attend their weekly in-person session and count it as an engagement activity.
 
 \hypertarget{grading-policy}{%
-\section{Grading Policy}\label{grading-policy}}
+\section*{Grading Policy}\label{grading-policy}}
+
 
 Typically, an A- is defined as 90\% of the highest point total in the class, B- as 80\% of that total, C- as 70 and D- as 60\%.
 I may shift these values down to provide a better fit to the actual point distribution.
@@ -1389,7 +1399,7 @@ The full table is provided below:
 
 \begin{table}
 
-\caption{\label{tab:unnamed-chunk-3}Full Table}
+\caption{\label{tab:unnamed-chunk-4}Full Table}
 \centering
 \begin{tabular}[t]{l|r}
 \hline
@@ -1421,7 +1431,8 @@ D- & 0.60\\
 \end{table}
 
 \hypertarget{curve-projections}{%
-\subsection{Curve Projections}\label{curve-projections}}
+\subsection*{Curve Projections}\label{curve-projections}}
+
 
 Unsurprisingly, students have many questions about the curve in this class. For tests and other assignments, I try to provide a projected letter grade.
 This projected letter grade is there to give you a sense of what your score \emph{would} be if I implemented the class curve on this particular assignment.
@@ -1429,7 +1440,8 @@ It is a projection. It is not a guarantee. These projected letter grades are not
 Trust me, you do not want me to curve by assignment.
 
 \hypertarget{weighting}{%
-\subsection{Weighting}\label{weighting}}
+\subsection*{Weighting}\label{weighting}}
+
 
 \begin{itemize}
 \tightlist
@@ -1448,93 +1460,26 @@ Trust me, you do not want me to curve by assignment.
 \end{itemize}
 
 \hypertarget{schedule}{%
-\section{Schedule}\label{schedule}}
-
-\hypertarget{week-01-0823---0827-what-is-personality}{%
-\section*{Week 01, 08/23 - 08/27 : What is Personality}\label{week-01-0823---0827-what-is-personality}}
+\section*{Schedule}\label{schedule}}
 
 
-\hypertarget{week-02-0830---0903-personality-research-methods}{%
-\section*{Week 02, 08/30 - 09/03 : Personality Research Methods}\label{week-02-0830---0903-personality-research-methods}}
-
-
-\hypertarget{week-03-0906---0910-assessment-evaluation-and-ethics}{%
-\section*{Week 03, 09/06 - 09/10 : Assessment, Evaluation, and Ethics}\label{week-03-0906---0910-assessment-evaluation-and-ethics}}
-
-
-\hypertarget{week-04-0913---0917-trait-approach-and-personality-judgment}{%
-\section*{Week 04, 09/13 - 09/17 : Trait Approach and Personality Judgment}\label{week-04-0913---0917-trait-approach-and-personality-judgment}}
-
-
-\hypertarget{week-05-0920---0924-big-five}{%
-\section*{Week 05, 09/20 - 09/24 : Big Five}\label{week-05-0920---0924-big-five}}
-
-
-\hypertarget{week-06-0927---1001-personality-over-the-lifespan}{%
-\section*{Week 06, 09/27 - 10/01 : Personality over the Lifespan}\label{week-06-0927---1001-personality-over-the-lifespan}}
-
-
-\hypertarget{week-07-1004---1008-biological-approaches-to-psychology}{%
-\section*{Week 07, 10/04 - 10/08 : Biological Approaches to Psychology}\label{week-07-1004---1008-biological-approaches-to-psychology}}
-
-
-\hypertarget{week-08-1011---1015-behavior-genetics}{%
-\section*{Week 08, 10/11 - 10/15 : Behavior Genetics}\label{week-08-1011---1015-behavior-genetics}}
-
-
-\hypertarget{week-09-1018---1022-evolutionary-psychology}{%
-\section*{Week 09, 10/18 - 10/22 : Evolutionary Psychology}\label{week-09-1018---1022-evolutionary-psychology}}
-
-
-\hypertarget{week-10-1025---1029-cross-cultural-psychology}{%
-\section*{Week 10, 10/25 - 10/29 : Cross-Cultural Psychology}\label{week-10-1025---1029-cross-cultural-psychology}}
-
-
-\hypertarget{week-11-1101---1105-freud}{%
-\section*{Week 11, 11/01 - 11/05 : Freud}\label{week-11-1101---1105-freud}}
-
-
-\hypertarget{week-12-1108---1112-psychoanalysis-after-freud}{%
-\section*{Week 12, 11/08 - 11/12 : Psychoanalysis After Freud}\label{week-12-1108---1112-psychoanalysis-after-freud}}
-
-
-\hypertarget{week-13-1115---1119-personality-processes-and-positive-psych}{%
-\section*{Week 13, 11/15 - 11/19 : Personality Processes and Positive Psych}\label{week-13-1115---1119-personality-processes-and-positive-psych}}
-
-
-\hypertarget{week-14-1122---1126-thanksgiving-break}{%
-\section*{Week 14, 11/22 - 11/26 : Thanksgiving Break!}\label{week-14-1122---1126-thanksgiving-break}}
-
-
-\hypertarget{week-15-1129---1203-personality-and-health}{%
-\section*{Week 15, 11/29 - 12/03 : Personality and Health}\label{week-15-1129---1203-personality-and-health}}
-
-
-\hypertarget{final-exam}{%
-\section*{Final Exam}\label{final-exam}}
-
-
-\begin{itemize}
-\tightlist
-\item
-  TBD on DEC TBD
-\end{itemize}
+\includegraphics{0201_personality_files/figure-latex/unnamed-chunk-3-1.pdf}
 
 \hypertarget{statsminor}{%
 \chapter*{310: Methods in Psychological Research}\label{statsminor}}
 
 
 \hypertarget{course-description-1}{%
-\section{Course Description}\label{course-description-1}}
+\section*{Course Description}\label{course-description-1}}
+
 
 Methods in Psychological Research introduces statistics and research design for students minoring in psychology. Prereq: P---PSY 151 (D, QR)
 
 This course is designed to help students develop the conceptual background and practical skills necessary to evaluate the statistics encountered in their coursework and in everyday life. It emphasizes selection, application, and interpretation. Topics to be covered include statistical inference, probability distributions, sampling, hypothesis testing, and correlation. The goal will be to go beyond rote memorization of abstract formulas and for students to develop an appreciation for the critical role that statistics plays in psychological science.
 
-Selected Course Objectives:
-
 \hypertarget{broad-goals-for-the-course-1}{%
-\subsection{Broad goals for the course:}\label{broad-goals-for-the-course-1}}
+\subsection*{Broad goals for the course:}\label{broad-goals-for-the-course-1}}
+
 
 \begin{itemize}
 \item
@@ -1556,69 +1501,34 @@ Selected Course Objectives:
 \end{itemize}
 
 \hypertarget{required-materials-1}{%
-\section{Required Materials}\label{required-materials-1}}
+\section*{Required Materials}\label{required-materials-1}}
 
-Wickham and Grolemund's R for Data Science text (\url{http://r4ds.had.co.nz/})
+
+Morling, Research Methods in Psychology \url{https://wwnorton.com/books/9780393893724}
 
 \hypertarget{course-assignments-1}{%
-\section{Course Assignments}\label{course-assignments-1}}
+\section*{Course Assignments}\label{course-assignments-1}}
 
-\hypertarget{week-01-0110---0114-introduction}{%
-\section{Week 01, 01/10 - 01/14 : Introduction}\label{week-01-0110---0114-introduction}}
 
-\hypertarget{week-02-0117---0121-getting-ready-to-do-statistical-analysis}{%
-\section{Week 02, 01/17 - 01/21 : Getting Ready to Do Statistical Analysis}\label{week-02-0117---0121-getting-ready-to-do-statistical-analysis}}
+\hypertarget{schedule-1}{%
+\section*{Schedule}\label{schedule-1}}
 
-\hypertarget{week-03-0124---0128-describing-data-with-r}{%
-\section{Week 03, 01/24 - 01/28 : Describing Data with R}\label{week-03-0124---0128-describing-data-with-r}}
 
-\hypertarget{week-04-0131---0204-univariate-distributions}{%
-\section{Week 04, 01/31 - 02/04 : Univariate Distributions}\label{week-04-0131---0204-univariate-distributions}}
-
-\hypertarget{week-05-0207---0211-test-1}{%
-\section{Week 05, 02/07 - 02/11 : Test 1}\label{week-05-0207---0211-test-1}}
-
-\hypertarget{week-06-0214---0218-bivariate-distributions}{%
-\section{Week 06, 02/14 - 02/18 : Bivariate Distributions}\label{week-06-0214---0218-bivariate-distributions}}
-
-\hypertarget{week-07-0221---0225-probability-theory}{%
-\section{Week 07, 02/21 - 02/25 : Probability Theory}\label{week-07-0221---0225-probability-theory}}
-
-\hypertarget{week-08-0228---0304-binomials-and-other-sampling-distributions}{%
-\section{Week 08, 02/28 - 03/04 : Binomials and other sampling distributions}\label{week-08-0228---0304-binomials-and-other-sampling-distributions}}
-
-\hypertarget{week-09-0307---0311-test-2}{%
-\section{Week 09, 03/07 - 03/11 : Test 2}\label{week-09-0307---0311-test-2}}
-
-\hypertarget{week-10-0314---0318-hypothesis-testing}{%
-\section{Week 10, 03/14 - 03/18 : Hypothesis Testing}\label{week-10-0314---0318-hypothesis-testing}}
-
-\hypertarget{week-11-0321---0325-inferences-about-means}{%
-\section{Week 11, 03/21 - 03/25 : Inferences about means}\label{week-11-0321---0325-inferences-about-means}}
-
-\hypertarget{week-12-0328---0401-special-topics}{%
-\section{Week 12, 03/28 - 04/01 : Special Topics}\label{week-12-0328---0401-special-topics}}
-
-\hypertarget{week-13-0404---0408-test-3}{%
-\section{Week 13, 04/04 - 04/08 : Test 3}\label{week-13-0404---0408-test-3}}
-
-\hypertarget{week-14-0411---0415-applications-in-r}{%
-\section{Week 14, 04/11 - 04/15 : Applications in R}\label{week-14-0411---0415-applications-in-r}}
-
-\hypertarget{week-15-0418---0422-applications-in-r}{%
-\section{Week 15, 04/18 - 04/22 : Applications in R}\label{week-15-0418---0422-applications-in-r}}
+\includegraphics{0202_stats_files/figure-latex/unnamed-chunk-1-1.pdf}
 
 \hypertarget{testing}{%
 \chapter*{362: Psychological Testing}\label{testing}}
 
 
 \hypertarget{course-description-2}{%
-\section{Course Description}\label{course-description-2}}
+\section*{Course Description}\label{course-description-2}}
+
 
 This course provides an overview of the development and nature of psychological tests with applications to school counseling, business, and clinical practice. The purpose of the course is to provide students with an understanding of the principles of measurement as applied to group standardized measures of achievement, special aptitude, intelligence, personality, interests and distress for use in counseling. Format will consist primarily of lectures along with group participation activities.
 
 \hypertarget{course-objectives}{%
-\subsection{Course Objectives:}\label{course-objectives}}
+\subsection*{Course Objectives:}\label{course-objectives}}
+
 
 \begin{itemize}
 \tightlist
@@ -1637,27 +1547,33 @@ This course provides an overview of the development and nature of psychological 
 \end{itemize}
 
 \hypertarget{materials-1}{%
-\section{Materials}\label{materials-1}}
+\section*{Materials}\label{materials-1}}
+
 
 \hypertarget{texts}{%
-\subsection{Texts}\label{texts}}
+\subsection*{Texts}\label{texts}}
+
 
 \hypertarget{required}{%
-\subsubsection{Required}\label{required}}
+\subsubsection*{Required}\label{required}}
+
 
 {[}1{]} A. Anastasi and A. Urbina. \emph{Psychological testing}. Upper Saddle
 River, New Jersey: Prentice-Hall, 1997. ISBN: 0-02-303020-8.
 
 \hypertarget{how-to-use-the-required-text}{%
-\paragraph{How to use the required text:}\label{how-to-use-the-required-text}}
+\paragraph*{How to use the required text:}\label{how-to-use-the-required-text}}
+\addcontentsline{toc}{paragraph}{How to use the required text:}
 
 The text \citep{anastasi1997} is intended to supplement the lectures. The lectures don't follow the order of chapters in the text and the text covers some material that won't be covered in the lectures, i.e., not all the information in each chapter is perfectly pertinent to the course requirements.
 
 \hypertarget{course-assignments-2}{%
-\section{Course Assignments}\label{course-assignments-2}}
+\section*{Course Assignments}\label{course-assignments-2}}
+
 
 \hypertarget{grading-policy-1}{%
-\section{Grading Policy}\label{grading-policy-1}}
+\section*{Grading Policy}\label{grading-policy-1}}
+
 
 Typically, an A- is defined as 90\% of the highest point total in the class, B- as 80\% of that total, C- as 70 and D- as 60\%.
 I may shift these values down to provide a better fit to the actual point distribution.
@@ -1668,7 +1584,7 @@ The full table is provided below:
 
 \begin{table}
 
-\caption{\label{tab:unnamed-chunk-3}Full Table}
+\caption{\label{tab:unnamed-chunk-4}Full Table}
 \centering
 \begin{tabular}[t]{l|r}
 \hline
@@ -1700,7 +1616,8 @@ D- & 0.60\\
 \end{table}
 
 \hypertarget{curve-projections-1}{%
-\subsection{Curve Projections}\label{curve-projections-1}}
+\subsection*{Curve Projections}\label{curve-projections-1}}
+
 
 Unsurprisingly, students have many questions about the curve in this class. For tests and other assignments, I try to provide a projected letter grade.
 This projected letter grade is there to give you a sense of what your score \emph{would} be if I implemented the class curve on this particular assignment.
@@ -1708,12 +1625,14 @@ It is a projection. It is not a guarantee. These projected letter grades are not
 Trust me, you do not want me to curve by assignment.
 
 \hypertarget{quizzes-1}{%
-\subsection{Quizzes}\label{quizzes-1}}
+\subsection*{Quizzes}\label{quizzes-1}}
+
 
 There will be 6 quizzes in this course. These will be approximately every three weeks. The best 5 out of 6 quiz grades will be used to determine your total quiz grade. You can drop 1 of the quizzes for any reason.
 
 \hypertarget{quiz-dates-1}{%
-\subsubsection{Quiz Dates}\label{quiz-dates-1}}
+\subsubsection*{Quiz Dates}\label{quiz-dates-1}}
+
 
 \begin{itemize}
 \item
@@ -1731,14 +1650,16 @@ There will be 6 quizzes in this course. These will be approximately every three 
 \end{itemize}
 
 \hypertarget{take-home-assignments}{%
-\subsection{Take Home Assignments}\label{take-home-assignments}}
+\subsection*{Take Home Assignments}\label{take-home-assignments}}
+
 
 There are four large take-home assignments. Two are qualitative and two are quantitative.
 
 I will provide more specific written guidelines at least two weeks before each assignment is due. You have to submit assignment 1 because I give extensive feedback that will help you on later assignments. However, you may skip assignment 2 or 3.
 
 \hypertarget{assignment-dates}{%
-\subsubsection{Assignment Dates}\label{assignment-dates}}
+\subsubsection*{Assignment Dates}\label{assignment-dates}}
+
 
 \begin{itemize}
 \item
@@ -1750,12 +1671,14 @@ I will provide more specific written guidelines at least two weeks before each a
 \end{itemize}
 
 \hypertarget{engagement-activities-1}{%
-\section{Engagement Activities}\label{engagement-activities-1}}
+\section*{Engagement Activities}\label{engagement-activities-1}}
+
 
 There will be multiple engagement activities in this course. These activities will allow you engage with the material for each module. Details about the specific activities will be provided on canvas. Students must complete two activities per module.
 
 \hypertarget{grading-weighting}{%
-\section{Grading Weighting}\label{grading-weighting}}
+\section*{Grading Weighting}\label{grading-weighting}}
+
 
 \begin{itemize}
 \tightlist
@@ -1767,70 +1690,25 @@ There will be multiple engagement activities in this course. These activities wi
   50 points of your grade will be determined by your engagement.
 \end{itemize}
 
-\hypertarget{course-policies}{%
-\section{Course Policies}\label{course-policies}}
+\hypertarget{schedule-2}{%
+\section*{Schedule}\label{schedule-2}}
 
-See Syllabus Website
 
-\hypertarget{schedule-1}{%
-\section{Schedule}\label{schedule-1}}
-
-\hypertarget{week-01-0125---0129-foundations-and-nature-of-testing}{%
-\subsection{Week 01, 01/25 - 01/29 : Foundations and Nature of Testing}\label{week-01-0125---0129-foundations-and-nature-of-testing}}
-
-\hypertarget{week-02-0201---0205-history-of-testing}{%
-\subsection{Week 02, 02/01 - 02/05 : History of Testing}\label{week-02-0201---0205-history-of-testing}}
-
-\hypertarget{week-03-0208---0212-ethical-and-social-considerations-in-testing}{%
-\subsection{Week 03, 02/08 - 02/12 : Ethical and Social Considerations in Testing}\label{week-03-0208---0212-ethical-and-social-considerations-in-testing}}
-
-\hypertarget{week-04-0215---0219-norms-and-the-meaning-of-test-scores}{%
-\subsection{Week 04, 02/15 - 02/19 : Norms and the Meaning of Test Scores}\label{week-04-0215---0219-norms-and-the-meaning-of-test-scores}}
-
-\hypertarget{week-05-0222---0226-classical-test-theory}{%
-\subsection{Week 05, 02/22 - 02/26 : Classical Test Theory}\label{week-05-0222---0226-classical-test-theory}}
-
-\hypertarget{week-06-0301---0305-reliability}{%
-\subsection{Week 06, 03/01 - 03/05 : Reliability}\label{week-06-0301---0305-reliability}}
-
-\hypertarget{week-07-0308---0312-catch-up-week}{%
-\subsection{Week 07, 03/08 - 03/12 : Catch Up Week}\label{week-07-0308---0312-catch-up-week}}
-
-\hypertarget{week-08-0315---0319-validity}{%
-\subsection{Week 08, 03/15 - 03/19 : Validity}\label{week-08-0315---0319-validity}}
-
-\hypertarget{week-09-0322---0326-item-analysis}{%
-\subsection{Week 09, 03/22 - 03/26 : Item Analysis}\label{week-09-0322---0326-item-analysis}}
-
-\hypertarget{week-10-0329---0402-factor-analysis}{%
-\subsection{Week 10, 03/29 - 04/02 : Factor Analysis}\label{week-10-0329---0402-factor-analysis}}
-
-\hypertarget{week-11-0405---0409-item-response-theory}{%
-\subsection{Week 11, 04/05 - 04/09 : Item Response Theory}\label{week-11-0405---0409-item-response-theory}}
-
-\hypertarget{week-12-0412---0416-practical-testing-things}{%
-\subsection{Week 12, 04/12 - 04/16 : Practical Testing Things}\label{week-12-0412---0416-practical-testing-things}}
-
-\hypertarget{week-13-0419---0423-ability-testing}{%
-\subsection{Week 13, 04/19 - 04/23 : Ability Testing}\label{week-13-0419---0423-ability-testing}}
-
-\hypertarget{week-14-0426---0430-personality-testing}{%
-\subsection{Week 14, 04/26 - 04/30 : Personality Testing}\label{week-14-0426---0430-personality-testing}}
-
-\hypertarget{week-15-0503---0507-review}{%
-\subsection{Week 15, 05/03 - 05/07 : Review}\label{week-15-0503---0507-review}}
+\includegraphics{0203_testing_files/figure-latex/unnamed-chunk-3-1.pdf}
 
 \hypertarget{data-science}{%
 \chapter*{703: Data Science}\label{data-science}}
 
 
 \hypertarget{course-description-3}{%
-\section{Course Description}\label{course-description-3}}
+\section*{Course Description}\label{course-description-3}}
+
 
 Data Science for Psychologists (DSP) introduces on the principles of data science, including data wrangling, modeling, visualization, and communication. In this class, we link those principles to psychological methods and open science practices by emphasizing exploratory analyses and description, rather than confirmatory analyses and prediction. We'll work our way thru Wickham and Grolemund's R for Data Science text (\url{http://r4ds.had.co.nz/}) and develop expertise in tidyverse (\url{https://www.tidyverse.org/}). This class emphasizes replication and reproducibility. DSP is a practical skilled-based class and should be useful to students aiming for academia as well as those interested in industry. Applications of these methods can be applied to a full range of psychological areas, including perception (e.g, eye-tracking data), neuroscience (e.g., visualizing neural networks), and individual differences (e.g., valence analysis).
 
 \hypertarget{broad-goals-for-the-course-2}{%
-\subsection{Broad goals for the course:}\label{broad-goals-for-the-course-2}}
+\subsection*{Broad goals for the course:}\label{broad-goals-for-the-course-2}}
+
 
 \begin{itemize}
 \item
@@ -1868,46 +1746,49 @@ Data Science for Psychologists (DSP) introduces on the principles of data scienc
   \begin{enumerate}
   \def\labelenumi{\arabic{enumi}.}
   \setcounter{enumi}{4}
+  \tightlist
   \item
-    \begin{enumerate}
-    \def\labelenumii{\Alph{enumii}.}
-    \setcounter{enumii}{17}
-    \tightlist
-    \item
-    \end{enumerate}
+    R
   \end{enumerate}
 \end{itemize}
 
 \hypertarget{required-materials-2}{%
-\section{Required Materials}\label{required-materials-2}}
+\section*{Required Materials}\label{required-materials-2}}
+
 
 Wickham and Grolemund's R for Data Science text (\url{http://r4ds.had.co.nz/})
 
 \hypertarget{course-assignments-3}{%
-\section{Course Assignments}\label{course-assignments-3}}
+\section*{Course Assignments}\label{course-assignments-3}}
+
 
 You will be formally evaluated in three different ways.
 
 \hypertarget{presentation}{%
-\subsection{Presentation}\label{presentation}}
+\subsection*{Presentation}\label{presentation}}
+
 
 You will give one asynchronous presentation. approximately 10- minutes. This presentation is chance to practice a formal presentation in a relatively pressure-free setting).
 
 \hypertarget{labs}{%
-\subsection{Labs}\label{labs}}
+\subsection*{Labs}\label{labs}}
+
 
 \hypertarget{portfolio}{%
-\subsection{Portfolio}\label{portfolio}}
+\subsection*{Portfolio}\label{portfolio}}
+
 
 The major semester projects (described on the data science website) is a set of EDA Projects, which you will summarize in an EDA Portfolio to be handed in on the last day of class.
 
 \hypertarget{engagement}{%
-\subsection{Engagement}\label{engagement}}
+\subsection*{Engagement}\label{engagement}}
+
 
 This experiential course requires active engagement. There will be few lectures and we will not be building toward an exam. Instead, we will work together to build our facilities for thinking critically about data. You should come to every class having read all of the required reading, watched the required videos, browsed the suggested resources, and so forth. You should enter the classroom prepared to discuss these materials with colleagues and complete both individual and group in-class assignments.
 
 \hypertarget{grading-policy-2}{%
-\section{Grading Policy}\label{grading-policy-2}}
+\section*{Grading Policy}\label{grading-policy-2}}
+
 
 In this course, you will determine the grade you receive by fulfilling a contract you will submit for my approval on 01/21.
 
@@ -1943,22 +1824,26 @@ To fulfill any grade contract a student must do the following, which should none
 The professor reserves the right to award a grade of D or F to anyone who fails to meet a contractual obligation in a systematic way. A ``D'' grade denotes some minimal fulfilling of the contract. An ``F'' is absence of enough satisfactory work, as contracted, to warrant passing of the course. Both a ``D'' and ``F'' denote a breakdown of the contractual relationship implied by signing any of the contracts described above.
 
 \hypertarget{what-about-exceptional-or-mediocre-work}{%
-\section{What About Exceptional (or Mediocre) Work?}\label{what-about-exceptional-or-mediocre-work}}
+\section*{What About Exceptional (or Mediocre) Work?}\label{what-about-exceptional-or-mediocre-work}}
+
 
 I also reserve the right to reward exceptional work throughout the semester using the full range of Wake Forest's grading scale. If you contract for a ``B,'' for instance, and submit particularly strong pieces to fulfill that contract, I may elect to raise your contracted grade to a ``B+.''
 
 Likewise, if you consistently submit mediocre work in fulfillment of your contract, I reserve the right to adjust your grade one half-step down (e.g.~from ``A'' to ``A-``) or even, in extreme cases, a full step.
 
 \hypertarget{contract-adjustments}{%
-\section{Contract Adjustments}\label{contract-adjustments}}
+\section*{Contract Adjustments}\label{contract-adjustments}}
+
 
 Periodically during the semester I will ask you to evaluate your work thus far and compare it against what you agreed in your grade contract. In these moments you can also take the opportunity to request an adjustment to your contract in either direction. If you find that you will be unable to meet the obligations of your contract, you may request to move to the next lowest grade and its requirements. Contrariwise, if you find that you've been performing above the obligations of your contract, you may request to fulfill the requirements for the next higher grade. Important Note: In order to effectively evaluate your own progress, you must keep track of your work, including days missed, and so forth.
 
 \hypertarget{contract-grades}{%
-\subsection{Contract Grades}\label{contract-grades}}
+\subsection*{Contract Grades}\label{contract-grades}}
+
 
 \hypertarget{a-contract}{%
-\subsection{``A'' Contract}\label{a-contract}}
+\subsection*{``A'' Contract}\label{a-contract}}
+
 
 To contract for an ``A'' in this course, you agree to:
 
@@ -1972,23 +1857,10 @@ To contract for an ``A'' in this course, you agree to:
 \end{itemize}
 
 \hypertarget{b-contract}{%
-\subsection{``B+'' Contract}\label{b-contract}}
+\subsection*{``B'' Contract}\label{b-contract}}
 
-To contract for an ``B'' in this course, you agree to:
 
-\begin{itemize}
-\item
-  Earn ``Satisfactory'' on 10 self-paced lab assignments on a schedule you will specify in your contract.
-\item
-  Produce at least 8 ``Satisfactory'' portfolio pieces over the course of the semester.
-\item
-  Complete one ``Satisfactory'' Unessay on a schedule you will specify in your contract and present it during the last week of class
-\end{itemize}
-
-\hypertarget{c-contract}{%
-\subsection{``C'' Contract}\label{c-contract}}
-
-To contract for an ``C'' in this course, you agree to:
+To contract for a ``B'' in this course, you agree to:
 
 \begin{itemize}
 \item
@@ -1999,50 +1871,26 @@ To contract for an ``C'' in this course, you agree to:
   Complete one ``Satisfactory'' Unessay on a schedule you will specify in your contract and present it during the last week of class
 \end{itemize}
 
-\hypertarget{week-01-0110---0114-what-is-data-science-and-meet-the-toolkit}{%
-\section{Week 01, 01/10 - 01/14 : What is Data Science and Meet the Toolkit}\label{week-01-0110---0114-what-is-data-science-and-meet-the-toolkit}}
+\hypertarget{p-contract}{%
+\subsection*{``P'' Contract}\label{p-contract}}
 
-\hypertarget{week-02-0117---0121-data-and-visualization}{%
-\section{Week 02, 01/17 - 01/21 : Data and Visualization}\label{week-02-0117---0121-data-and-visualization}}
 
-\hypertarget{week-03-0124---0128-grammar-of-data-wrangling}{%
-\section{Week 03, 01/24 - 01/28 : Grammar of data wrangling}\label{week-03-0124---0128-grammar-of-data-wrangling}}
+To contract for a ``P'' or Pass in this course, you agree to:
 
-\hypertarget{week-04-0131---0204-data-types-and-data-transformations}{%
-\section{Week 04, 01/31 - 02/04 : Data types and Data Transformations}\label{week-04-0131---0204-data-types-and-data-transformations}}
+\begin{itemize}
+\item
+  Earn ``Satisfactory'' on 8 self-paced lab assignments on a schedule you will specify in your contract.
+\item
+  Produce at least 4 ``Satisfactory'' portfolio pieces over the course of the semester.
+\item
+  Complete one ``Satisfactory'' Unessay on a schedule you will specify in your contract and present it during the last week of class
+\end{itemize}
 
-\hypertarget{week-05-0207---0211-tips-for-effective-data-visualization}{%
-\section{Week 05, 02/07 - 02/11 : Tips for effective data visualization}\label{week-05-0207---0211-tips-for-effective-data-visualization}}
+\hypertarget{schedule-3}{%
+\section*{Schedule}\label{schedule-3}}
 
-\hypertarget{week-06-0214---0218-scientific-studies-and-confounding}{%
-\section{Week 06, 02/14 - 02/18 : Scientific studies and confounding}\label{week-06-0214---0218-scientific-studies-and-confounding}}
 
-\hypertarget{week-07-0221---0225-web-scraping}{%
-\section{Week 07, 02/21 - 02/25 : Web scraping}\label{week-07-0221---0225-web-scraping}}
-
-\hypertarget{week-08-0228---0304-functions}{%
-\section{Week 08, 02/28 - 03/04 : Functions}\label{week-08-0228---0304-functions}}
-
-\hypertarget{week-09-0307---0311-data-and-ethics}{%
-\section{Week 09, 03/07 - 03/11 : Data and Ethics}\label{week-09-0307---0311-data-and-ethics}}
-
-\hypertarget{week-10-0314---0318-fitting-and-interpreting-models}{%
-\section{Week 10, 03/14 - 03/18 : Fitting and interpreting models}\label{week-10-0314---0318-fitting-and-interpreting-models}}
-
-\hypertarget{week-11-0321---0325-prediction-and-overfitting}{%
-\section{Week 11, 03/21 - 03/25 : Prediction and overfitting}\label{week-11-0321---0325-prediction-and-overfitting}}
-
-\hypertarget{week-12-0328---0401-cross-validation}{%
-\section{Week 12, 03/28 - 04/01 : Cross validation}\label{week-12-0328---0401-cross-validation}}
-
-\hypertarget{week-13-0404---0408-quantifying-uncertainty}{%
-\section{Week 13, 04/04 - 04/08 : Quantifying uncertainty}\label{week-13-0404---0408-quantifying-uncertainty}}
-
-\hypertarget{week-14-0411---0415-interactive-web-apps}{%
-\section{Week 14, 04/11 - 04/15 : Interactive web apps}\label{week-14-0411---0415-interactive-web-apps}}
-
-\hypertarget{week-15-0418---0422-special-topics-like-text-analysis-machine-learning-bayesian-inference}{%
-\section{Week 15, 04/18 - 04/22 : Special Topics (like: Text analysis; Machine learning; Bayesian inference)}\label{week-15-0418---0422-special-topics-like-text-analysis-machine-learning-bayesian-inference}}
+\includegraphics{0204_datascience_files/figure-latex/unnamed-chunk-3-1.pdf}
 
 \hypertarget{part-for-your-information}{%
 \part*{For Your Information}\label{part-for-your-information}}
@@ -2061,8 +1909,7 @@ Frequently Asked Questions\\
 Q: "Can you -"\\
 A: I cannot.
 
-\begin{flushright}--- Alison Ledgerwood isn't here right now (@AlisonLedg) \href{https://twitter.com/AlisonLedg/status/1441181845706579969}{September
-23,
+\begin{flushright}--- Alison Ledgerwood (@AlisonLedg) \href{https://twitter.com/AlisonLedg/status/1441181845706579969}{September 23,
 2021}\end{flushright}
 \end{quote}
 
@@ -2915,7 +2762,7 @@ You can search the Canvas Guides or contact the Canvas Support Helpline by click
 \label{app:bibliography} % Reference the bibliography elsewhere with \autoref{app:bibliography}
 
 \manualmark
-\markboth{\spacedlowsmallcaps{\bibname}}{\spacedlowsmallcaps{\bibname}} 
+\markboth{\spacedlowsmallcaps{\bibname}}{\spacedlowsmallcaps{\bibname}}
 \refstepcounter{dummy}
 
 \addtocontents{toc}{\protect\vspace{\beforebibskip}} % Place the bibliography slightly below the rest of the document content in the table of contents

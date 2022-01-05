@@ -1,219 +1,126 @@
 \babel@toc {american}{}\relax 
 \vspace {-\cftbeforepartskip }
 \babel@toc {american}{}\relax 
-\contentsline {part}{Front Matter}{1}{chapter*.5}%
-\contentsline {part}{Syllabi}{13}{chapter*.9}%
-\contentsline {section}{\numberline {0.1}Materials}{19}{section.0.1}%
-\contentsline {subsection}{\numberline {0.1.1}Required Texts}{19}{subsection.0.1.1}%
-\contentsline {subsection}{\numberline {0.1.2}Hardware}{19}{subsection.0.1.2}%
-\contentsline {subsection}{\numberline {0.1.3}Software}{19}{subsection.0.1.3}%
-\contentsline {subsubsection}{\numberline {0.1.3.1}R and RStudio}{19}{subsubsection.0.1.3.1}%
-\contentsline {subsubsection}{\numberline {0.1.3.2}Git and Github}{19}{subsubsection.0.1.3.2}%
-\contentsline {part}{Policies}{21}{subsubsection.0.1.3.2}%
-\contentsline {chapter}{\numberline {1}\spacedlowsmallcaps {Policy Overview}}{23}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Changes}{23}{section.1.1}%
-\contentsline {chapter}{\numberline {2}\spacedlowsmallcaps {Class Engagement}}{25}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Life Happens}{25}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Extensions, Absences, Incompletes}{25}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Excused absences}{25}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Late Work}{26}{subsection.2.2.2}%
-\contentsline {subsubsection}{\numberline {2.2.2.1}Submissions}{26}{subsubsection.2.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.3}Incomplete Grades}{26}{subsection.2.2.3}%
-\contentsline {chapter}{\numberline {3}\spacedlowsmallcaps {Accommodations Policy}}{29}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Self-Advocacy}{29}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Resources}{30}{section.3.2}%
-\contentsline {chapter}{\numberline {4}\spacedlowsmallcaps {Classroom Climate}}{31}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Psychology Department Statement on Diversity, Equity, and Inclusion}{31}{section.4.1}%
-\contentsline {chapter}{\numberline {5}\spacedlowsmallcaps {Academic Honesty Policy}}{33}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Common Sense}{33}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Violations}{33}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Things that I thought didn't need to be said, but apparently did need to be said.}{34}{section.5.3}%
-\contentsline {subsection}{\numberline {5.3.1}It is \emph {ALWAYS} academic dishonesty\ldots {}}{34}{subsection.5.3.1}%
-\contentsline {chapter}{\numberline {6}\spacedlowsmallcaps {Communication}}{35}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Minimums}{35}{section.6.1}%
-\contentsline {subsection}{\numberline {6.1.1}Self Advocacy}{35}{subsection.6.1.1}%
-\contentsline {subsection}{\numberline {6.1.2}Grading Questions}{35}{subsection.6.1.2}%
-\contentsline {section}{\numberline {6.2}Instructor Availability}{36}{section.6.2}%
-\contentsline {subsection}{\numberline {6.2.1}Is it an true emergency?}{36}{subsection.6.2.1}%
-\contentsline {section}{\numberline {6.3}Recordings}{36}{section.6.3}%
-\contentsline {subsection}{\numberline {6.3.1}Recording of Class Sessions.}{36}{subsection.6.3.1}%
-\contentsline {subsection}{\numberline {6.3.2}Recording Tails in our Synchronous Classes.}{37}{subsection.6.3.2}%
-\contentsline {subsection}{\numberline {6.3.3}Access to Recordings.}{37}{subsection.6.3.3}%
-\contentsline {subsection}{\numberline {6.3.4}Copyright Notice.}{37}{subsection.6.3.4}%
-\contentsline {chapter}{\numberline {7}\spacedlowsmallcaps {Public Health in the age of COVID-19}}{39}{chapter.7}%
-\contentsline {part}{Specific Courses}{41}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Course Description}{43}{section.7.1}%
-\contentsline {subsection}{\numberline {7.1.1}Broad goals for the course:}{43}{subsection.7.1.1}%
-\contentsline {section}{\numberline {7.2}Required Materials}{43}{section.7.2}%
-\contentsline {section}{\numberline {7.3}Course Assignments}{43}{section.7.3}%
-\contentsline {subsection}{\numberline {7.3.1}Quizzes}{43}{subsection.7.3.1}%
-\contentsline {subsubsection}{\numberline {7.3.1.1}Quiz Dates}{44}{subsubsection.7.3.1.1}%
-\contentsline {subsection}{\numberline {7.3.2}Short Assignments}{44}{subsection.7.3.2}%
-\contentsline {subsubsection}{\numberline {7.3.2.1}Short Assignment Dates}{44}{subsubsection.7.3.2.1}%
-\contentsline {subsection}{\numberline {7.3.3}Engagement Activities}{44}{subsection.7.3.3}%
-\contentsline {section}{\numberline {7.4}Grading Policy}{45}{section.7.4}%
-\contentsline {subsection}{\numberline {7.4.1}Curve Projections}{45}{subsection.7.4.1}%
-\contentsline {subsection}{\numberline {7.4.2}Weighting}{45}{subsection.7.4.2}%
-\contentsline {section}{\numberline {7.5}Schedule}{46}{section.7.5}%
-\contentsline {section}{\numberline {7.6}Course Description}{47}{section.7.6}%
-\contentsline {subsection}{\numberline {7.6.1}Broad goals for the course:}{47}{subsection.7.6.1}%
-\contentsline {section}{\numberline {7.7}Required Materials}{47}{section.7.7}%
-\contentsline {section}{\numberline {7.8}Course Assignments}{48}{section.7.8}%
-\contentsline {section}{\numberline {7.9}Week 01, 01/10 - 01/14 : Introduction}{48}{section.7.9}%
-\contentsline {section}{\numberline {7.10}Week 02, 01/17 - 01/21 : Getting Ready to Do Statistical Analysis}{48}{section.7.10}%
-\contentsline {section}{\numberline {7.11}Week 03, 01/24 - 01/28 : Describing Data with R}{48}{section.7.11}%
-\contentsline {section}{\numberline {7.12}Week 04, 01/31 - 02/04 : Univariate Distributions}{48}{section.7.12}%
-\contentsline {section}{\numberline {7.13}Week 05, 02/07 - 02/11 : Test 1}{48}{section.7.13}%
-\contentsline {section}{\numberline {7.14}Week 06, 02/14 - 02/18 : Bivariate Distributions}{48}{section.7.14}%
-\contentsline {section}{\numberline {7.15}Week 07, 02/21 - 02/25 : Probability Theory}{48}{section.7.15}%
-\contentsline {section}{\numberline {7.16}Week 08, 02/28 - 03/04 : Binomials and other sampling distributions}{48}{section.7.16}%
-\contentsline {section}{\numberline {7.17}Week 09, 03/07 - 03/11 : Test 2}{48}{section.7.17}%
-\contentsline {section}{\numberline {7.18}Week 10, 03/14 - 03/18 : Hypothesis Testing}{48}{section.7.18}%
-\contentsline {section}{\numberline {7.19}Week 11, 03/21 - 03/25 : Inferences about means}{48}{section.7.19}%
-\contentsline {section}{\numberline {7.20}Week 12, 03/28 - 04/01 : Special Topics}{48}{section.7.20}%
-\contentsline {section}{\numberline {7.21}Week 13, 04/04 - 04/08 : Test 3}{48}{section.7.21}%
-\contentsline {section}{\numberline {7.22}Week 14, 04/11 - 04/15 : Applications in R}{48}{section.7.22}%
-\contentsline {section}{\numberline {7.23}Week 15, 04/18 - 04/22 : Applications in R}{48}{section.7.23}%
-\contentsline {section}{\numberline {7.24}Course Description}{49}{section.7.24}%
-\contentsline {subsection}{\numberline {7.24.1}Course Objectives:}{49}{subsection.7.24.1}%
-\contentsline {section}{\numberline {7.25}Materials}{50}{section.7.25}%
-\contentsline {subsection}{\numberline {7.25.1}Texts}{50}{subsection.7.25.1}%
-\contentsline {subsubsection}{\numberline {7.25.1.1}Required}{50}{subsubsection.7.25.1.1}%
-\contentsline {paragraph}{How to use the required text:}{50}{subsubsection.7.25.1.1}%
-\contentsline {section}{\numberline {7.26}Course Assignments}{50}{section.7.26}%
-\contentsline {section}{\numberline {7.27}Grading Policy}{50}{section.7.27}%
-\contentsline {subsection}{\numberline {7.27.1}Curve Projections}{51}{subsection.7.27.1}%
-\contentsline {subsection}{\numberline {7.27.2}Quizzes}{51}{subsection.7.27.2}%
-\contentsline {subsubsection}{\numberline {7.27.2.1}Quiz Dates}{51}{subsubsection.7.27.2.1}%
-\contentsline {subsection}{\numberline {7.27.3}Take Home Assignments}{51}{subsection.7.27.3}%
-\contentsline {subsubsection}{\numberline {7.27.3.1}Assignment Dates}{51}{subsubsection.7.27.3.1}%
-\contentsline {section}{\numberline {7.28}Engagement Activities}{52}{section.7.28}%
-\contentsline {section}{\numberline {7.29}Grading Weighting}{52}{section.7.29}%
-\contentsline {section}{\numberline {7.30}Course Policies}{52}{section.7.30}%
-\contentsline {section}{\numberline {7.31}Schedule}{53}{section.7.31}%
-\contentsline {subsection}{\numberline {7.31.1}Week 01, 01/25 - 01/29 : Foundations and Nature of Testing}{53}{subsection.7.31.1}%
-\contentsline {subsection}{\numberline {7.31.2}Week 02, 02/01 - 02/05 : History of Testing}{53}{subsection.7.31.2}%
-\contentsline {subsection}{\numberline {7.31.3}Week 03, 02/08 - 02/12 : Ethical and Social Considerations in Testing}{53}{subsection.7.31.3}%
-\contentsline {subsection}{\numberline {7.31.4}Week 04, 02/15 - 02/19 : Norms and the Meaning of Test Scores}{53}{subsection.7.31.4}%
-\contentsline {subsection}{\numberline {7.31.5}Week 05, 02/22 - 02/26 : Classical Test Theory}{53}{subsection.7.31.5}%
-\contentsline {subsection}{\numberline {7.31.6}Week 06, 03/01 - 03/05 : Reliability}{53}{subsection.7.31.6}%
-\contentsline {subsection}{\numberline {7.31.7}Week 07, 03/08 - 03/12 : Catch Up Week}{53}{subsection.7.31.7}%
-\contentsline {subsection}{\numberline {7.31.8}Week 08, 03/15 - 03/19 : Validity}{53}{subsection.7.31.8}%
-\contentsline {subsection}{\numberline {7.31.9}Week 09, 03/22 - 03/26 : Item Analysis}{53}{subsection.7.31.9}%
-\contentsline {subsection}{\numberline {7.31.10}Week 10, 03/29 - 04/02 : Factor Analysis}{53}{subsection.7.31.10}%
-\contentsline {subsection}{\numberline {7.31.11}Week 11, 04/05 - 04/09 : Item Response Theory}{53}{subsection.7.31.11}%
-\contentsline {subsection}{\numberline {7.31.12}Week 12, 04/12 - 04/16 : Practical Testing Things}{53}{subsection.7.31.12}%
-\contentsline {subsection}{\numberline {7.31.13}Week 13, 04/19 - 04/23 : Ability Testing}{53}{subsection.7.31.13}%
-\contentsline {subsection}{\numberline {7.31.14}Week 14, 04/26 - 04/30 : Personality Testing}{53}{subsection.7.31.14}%
-\contentsline {subsection}{\numberline {7.31.15}Week 15, 05/03 - 05/07 : Review}{53}{subsection.7.31.15}%
-\contentsline {section}{\numberline {7.32}Course Description}{55}{section.7.32}%
-\contentsline {subsection}{\numberline {7.32.1}Broad goals for the course:}{55}{subsection.7.32.1}%
-\contentsline {section}{\numberline {7.33}Required Materials}{55}{section.7.33}%
-\contentsline {section}{\numberline {7.34}Course Assignments}{55}{section.7.34}%
-\contentsline {subsection}{\numberline {7.34.1}Presentation}{56}{subsection.7.34.1}%
-\contentsline {subsection}{\numberline {7.34.2}Labs}{56}{subsection.7.34.2}%
-\contentsline {subsection}{\numberline {7.34.3}Portfolio}{56}{subsection.7.34.3}%
-\contentsline {subsection}{\numberline {7.34.4}Engagement}{56}{subsection.7.34.4}%
-\contentsline {section}{\numberline {7.35}Grading Policy}{56}{section.7.35}%
-\contentsline {section}{\numberline {7.36}Contract Details}{56}{section.7.36}%
-\contentsline {section}{\numberline {7.37}What About Exceptional (or Mediocre) Work?}{57}{section.7.37}%
-\contentsline {section}{\numberline {7.38}Contract Adjustments}{57}{section.7.38}%
-\contentsline {subsection}{\numberline {7.38.1}Contract Grades}{58}{subsection.7.38.1}%
-\contentsline {subsection}{\numberline {7.38.2}``A'' Contract}{58}{subsection.7.38.2}%
-\contentsline {subsection}{\numberline {7.38.3}``B+'' Contract}{58}{subsection.7.38.3}%
-\contentsline {subsection}{\numberline {7.38.4}``C'' Contract}{58}{subsection.7.38.4}%
-\contentsline {section}{\numberline {7.39}Week 01, 01/10 - 01/14 : What is Data Science and Meet the Toolkit}{59}{section.7.39}%
-\contentsline {section}{\numberline {7.40}Week 02, 01/17 - 01/21 : Data and Visualization}{59}{section.7.40}%
-\contentsline {section}{\numberline {7.41}Week 03, 01/24 - 01/28 : Grammar of data wrangling}{59}{section.7.41}%
-\contentsline {section}{\numberline {7.42}Week 04, 01/31 - 02/04 : Data types and Data Transformations}{59}{section.7.42}%
-\contentsline {section}{\numberline {7.43}Week 05, 02/07 - 02/11 : Tips for effective data visualization}{59}{section.7.43}%
-\contentsline {section}{\numberline {7.44}Week 06, 02/14 - 02/18 : Scientific studies and confounding}{59}{section.7.44}%
-\contentsline {section}{\numberline {7.45}Week 07, 02/21 - 02/25 : Web scraping}{59}{section.7.45}%
-\contentsline {section}{\numberline {7.46}Week 08, 02/28 - 03/04 : Functions}{59}{section.7.46}%
-\contentsline {section}{\numberline {7.47}Week 09, 03/07 - 03/11 : Data and Ethics}{59}{section.7.47}%
-\contentsline {section}{\numberline {7.48}Week 10, 03/14 - 03/18 : Fitting and interpreting models}{59}{section.7.48}%
-\contentsline {section}{\numberline {7.49}Week 11, 03/21 - 03/25 : Prediction and overfitting}{59}{section.7.49}%
-\contentsline {section}{\numberline {7.50}Week 12, 03/28 - 04/01 : Cross validation}{59}{section.7.50}%
-\contentsline {section}{\numberline {7.51}Week 13, 04/04 - 04/08 : Quantifying uncertainty}{59}{section.7.51}%
-\contentsline {section}{\numberline {7.52}Week 14, 04/11 - 04/15 : Interactive web apps}{59}{section.7.52}%
-\contentsline {section}{\numberline {7.53}Week 15, 04/18 - 04/22 : Special Topics (like: Text analysis; Machine learning; Bayesian inference)}{59}{section.7.53}%
-\contentsline {part}{For Your Information}{61}{section.7.53}%
-\contentsline {chapter}{\numberline {8}\spacedlowsmallcaps {Frequently Asked Questions}}{63}{chapter.8}%
-\contentsline {section}{\numberline {8.1}How can I get ahold of you?}{63}{section.8.1}%
-\contentsline {section}{\numberline {8.2}General Course Questions}{64}{section.8.2}%
-\contentsline {subsection}{\numberline {8.2.1}Where\ldots {}}{64}{subsection.8.2.1}%
-\contentsline {subsubsection}{\numberline {8.2.1.1}Where can I find the reading list for the entire semester?}{64}{subsubsection.8.2.1.1}%
-\contentsline {subsubsection}{\numberline {8.2.1.2}Where can I find when assignments are due?}{64}{subsubsection.8.2.1.2}%
-\contentsline {subsubsection}{\numberline {8.2.1.3}Where can I check the closing time of assessments?}{64}{subsubsection.8.2.1.3}%
-\contentsline {subsubsection}{\numberline {8.2.1.4}Where are my grades?}{64}{subsubsection.8.2.1.4}%
-\contentsline {subsubsection}{\numberline {8.2.1.5}Where can I find more information about\ldots {}}{64}{subsubsection.8.2.1.5}%
-\contentsline {subsubsection}{\numberline {8.2.1.6}Where can I find help for canvas?}{64}{subsubsection.8.2.1.6}%
-\contentsline {subsection}{\numberline {8.2.2}Where can I find textbooks and course materials?}{65}{subsection.8.2.2}%
-\contentsline {subsection}{\numberline {8.2.3}Can\ldots {}}{65}{subsection.8.2.3}%
-\contentsline {subsubsection}{\numberline {8.2.3.1}Can you bump up my grade?}{65}{subsubsection.8.2.3.1}%
-\contentsline {subsubsection}{\numberline {8.2.3.2}Can I rent the textbook for this course from somewhere (Amazon, bookstores, etc.)?}{65}{subsubsection.8.2.3.2}%
-\contentsline {subsubsection}{\numberline {8.2.3.3}Can you calculate my grade for me?}{65}{subsubsection.8.2.3.3}%
-\contentsline {subsubsection}{\numberline {8.2.3.4}Can my parents email you about my class performance?}{66}{subsubsection.8.2.3.4}%
-\contentsline {paragraph}{Should my parents email you about my class performance?}{66}{subsubsection.8.2.3.4}%
-\contentsline {subsubsection}{\numberline {8.2.3.5}Can't you just tell me my letter grade? Your curve is confusing.}{66}{subsubsection.8.2.3.5}%
-\contentsline {subsection}{\numberline {8.2.4}What\ldots {}}{66}{subsection.8.2.4}%
-\contentsline {subsubsection}{\numberline {8.2.4.1}What can I do to get a better grade?}{66}{subsubsection.8.2.4.1}%
-\contentsline {subsection}{\numberline {8.2.5}Why\ldots {}}{68}{subsection.8.2.5}%
-\contentsline {subsubsection}{\numberline {8.2.5.1}Why is the locked?}{68}{subsubsection.8.2.5.1}%
-\contentsline {subsubsection}{\numberline {8.2.5.2}Why do I have to meet with you if I want to see my test again? Why can't you just release them?}{68}{subsubsection.8.2.5.2}%
-\contentsline {subsubsection}{\numberline {8.2.5.3}Why is your speaking style so weird?}{68}{subsubsection.8.2.5.3}%
-\contentsline {subsection}{\numberline {8.2.6}How \ldots {}}{68}{subsection.8.2.6}%
-\contentsline {subsubsection}{\numberline {8.2.6.1}How much time should I spend on one class every week?}{68}{subsubsection.8.2.6.1}%
-\contentsline {subsection}{\numberline {8.2.7}How do I ask professors for extensions?}{69}{subsection.8.2.7}%
-\contentsline {section}{\numberline {8.3}Online Learning}{69}{section.8.3}%
-\contentsline {subsection}{\numberline {8.3.1}How long are the videos?}{69}{subsection.8.3.1}%
-\contentsline {subsection}{\numberline {8.3.2}Why are there so many videos?}{69}{subsection.8.3.2}%
-\contentsline {subsection}{\numberline {8.3.3}Why is this so much more work compared to face-to-face classes?}{69}{subsection.8.3.3}%
-\contentsline {subsection}{\numberline {8.3.4}I'm having a trouble with a specific problem, can you fix it for me?}{70}{subsection.8.3.4}%
-\contentsline {section}{\numberline {8.4}Canvas \{canvas\}}{70}{section.8.4}%
-\contentsline {subsubsection}{\numberline {8.4.0.1}How do I use Canvas for class?}{70}{subsubsection.8.4.0.1}%
-\contentsline {subsection}{\numberline {8.4.1}I'm having trouble with Canvas -- help!}{70}{subsection.8.4.1}%
-\contentsline {subsubsection}{\numberline {8.4.1.1}How do I contact the Canvas Help Desk?}{70}{subsubsection.8.4.1.1}%
-\contentsline {subsection}{\numberline {8.4.2}How do I\ldots {} ?}{70}{subsection.8.4.2}%
-\contentsline {subsubsection}{\numberline {8.4.2.1}How do I set my notifications on Canvas for my classes?}{70}{subsubsection.8.4.2.1}%
-\contentsline {subsubsection}{\numberline {8.4.2.2}How do I submit an assignment on Canvas?}{70}{subsubsection.8.4.2.2}%
-\contentsline {subsubsection}{\numberline {8.4.2.3}How do I know when an assignment has been submitted?}{71}{subsubsection.8.4.2.3}%
-\contentsline {subsubsection}{\numberline {8.4.2.4}How do I use the Calendar feature in Canvas?}{71}{subsubsection.8.4.2.4}%
-\contentsline {subsubsection}{\numberline {8.4.2.5}How do I see feedback on my assignments submitted on Canvas?}{71}{subsubsection.8.4.2.5}%
-\contentsline {subsubsection}{\numberline {8.4.2.6}How do I accurately check my grades in Canvas?}{71}{subsubsection.8.4.2.6}%
-\contentsline {subsubsection}{\numberline {8.4.2.7}How do I do this specific thing in Canvas?}{71}{subsubsection.8.4.2.7}%
-\contentsline {subsection}{\numberline {8.4.3}Why is\ldots {}}{72}{subsection.8.4.3}%
-\contentsline {subsubsection}{\numberline {8.4.3.1}Why is the assignment/activity/quiz locked?}{72}{subsubsection.8.4.3.1}%
-\contentsline {section}{\numberline {8.5}Resources}{72}{section.8.5}%
-\contentsline {section}{\numberline {8.6}Still have questions?}{72}{section.8.6}%
-\contentsline {subsection}{\numberline {8.6.1}Why did a question I asked via email show up on the discussion board?}{72}{subsection.8.6.1}%
-\contentsline {chapter}{\numberline {9}\spacedlowsmallcaps {How to do well in my classes}}{73}{chapter.9}%
-\contentsline {section}{\numberline {9.1}Successful Asynchronous Learning}{73}{section.9.1}%
-\contentsline {chapter}{\numberline {10}\spacedlowsmallcaps {Student Support \& Resources}}{77}{chapter.10}%
-\contentsline {section}{\numberline {10.1}Prof.~Mason FAQ}{77}{section.10.1}%
-\contentsline {section}{\numberline {10.2}Canvas}{77}{section.10.2}%
-\contentsline {subsection}{\numberline {10.2.1}Canvas: Helpful Tips}{77}{subsection.10.2.1}%
-\contentsline {subsubsection}{\numberline {10.2.1.1}Canvas Student Guide}{77}{subsubsection.10.2.1.1}%
-\contentsline {subsubsection}{\numberline {10.2.1.2}Getting Organized}{77}{subsubsection.10.2.1.2}%
-\contentsline {subsection}{\numberline {10.2.2}Canvas: Quick Links}{78}{subsection.10.2.2}%
-\contentsline {subsubsection}{\numberline {10.2.2.1}Your Canvas Profile}{78}{subsubsection.10.2.2.1}%
-\contentsline {subsubsection}{\numberline {10.2.2.2}Notifications}{78}{subsubsection.10.2.2.2}%
-\contentsline {subsubsection}{\numberline {10.2.2.3}Other Helpful Canvas Guides Links}{78}{subsubsection.10.2.2.3}%
-\contentsline {subsection}{\numberline {10.2.3}Accurately Calculating Grades in Canvas}{78}{subsection.10.2.3}%
-\contentsline {section}{\numberline {10.3}Resource Collections}{79}{section.10.3}%
-\contentsline {subsection}{\numberline {10.3.1}Student Support Services}{79}{subsection.10.3.1}%
-\contentsline {subsubsection}{\numberline {10.3.1.1}\href {https://www.youtube.com/watch?v=E7CwqNHn_Ns\&list=PL8dPuuaLjXtNcAJRf3bE1IJU6nMfHj86W}{Crash Course: Study Skills}}{80}{subsubsection.10.3.1.1}%
-\contentsline {subsubsection}{\numberline {10.3.1.2}\href {https://vimeo.com/270014784?embedded=true\&source=vimeo_logo\&owner=2248721}{What are Office Hours?}}{80}{subsubsection.10.3.1.2}%
-\contentsline {subsubsection}{\numberline {10.3.1.3}\href {https://www.youtube.com/watch?v=5zkAOpx8Qk8}{What Are Course Evals and Why Should You Submit Them}}{80}{subsubsection.10.3.1.3}%
-\contentsline {subsubsection}{\numberline {10.3.1.4}WFU Honor Code Definitions}{80}{subsubsection.10.3.1.4}%
-\contentsline {subsection}{\numberline {10.3.2}Discussion Board Etiquette}{82}{subsection.10.3.2}%
-\contentsline {subsubsection}{\numberline {10.3.2.1}\href {https://www.loc.gov/programs/poetry-and-literature/poet-laureate/poet-laureate-projects/poetry-180/all-poems/item/poetry-180-013/did-i-miss-anything/}{Poem 013: Did I Miss Anything?}}{82}{subsubsection.10.3.2.1}%
-\contentsline {subsubsection}{\numberline {10.3.2.2}\href {https://www.insidehighered.com/views/2015/04/16/advice-students-so-they-dont-sound-silly-emails-essay}{Advice for students so they don't sound silly in emails (essay)}}{82}{subsubsection.10.3.2.2}%
-\contentsline {subsection}{\numberline {10.3.3}Online Learning Resources}{82}{subsection.10.3.3}%
-\contentsline {subsubsection}{\numberline {10.3.3.1}\href {https://www.northeastern.edu/graduate/blog/tips-for-taking-online-classes/}{Tips for Taking Online Classes: 8 Strategies for Success Links to an external site.}}{82}{subsubsection.10.3.3.1}%
-\contentsline {subsubsection}{\numberline {10.3.3.2}\href {https://www.youtube.com/watch?v=pLlv2o6UfTU\&list=PL8dPuuaLjXtN07XYqqWSKpPrtNDiCHTzU}{Navigating Digital Information}}{82}{subsubsection.10.3.3.2}%
-\contentsline {subsection}{\numberline {10.3.4}Tech Services \& Computer Resources}{82}{subsection.10.3.4}%
-\contentsline {section}{\numberline {10.4}Public Health}{85}{section.10.4}%
-\contentsline {part}{Back Matter}{87}{section.10.4}%
+\contentsline {part}{{Front Matter}}{1}{dummy.5}%
+\contentsline {part}{{Syllabi}}{13}{dummy.5}%
+\contentsline {section}{\numberline {0.1}{Materials}}{19}{section.0.1}%
+\contentsline {subsection}{\numberline {0.1.1}{Required Texts}}{19}{subsection.0.1.1}%
+\contentsline {subsection}{\numberline {0.1.2}{Hardware}}{19}{subsection.0.1.2}%
+\contentsline {subsection}{\numberline {0.1.3}{Software}}{19}{subsection.0.1.3}%
+\contentsline {subsubsection}{\numberline {0.1.3.1}{R and RStudio}}{19}{subsubsection.0.1.3.1}%
+\contentsline {subsubsection}{\numberline {0.1.3.2}{Git and Github}}{19}{subsubsection.0.1.3.2}%
+\contentsline {part}{{Policies}}{21}{subsubsection.0.1.3.2}%
+\contentsline {chapter}{\numberline {1}{Policy Overview}}{23}{chapter.1}%
+\contentsline {section}{\numberline {1.1}{Changes}}{23}{section.1.1}%
+\contentsline {chapter}{\numberline {2}{Class Engagement}}{25}{chapter.2}%
+\contentsline {section}{\numberline {2.1}{Life Happens}}{25}{section.2.1}%
+\contentsline {section}{\numberline {2.2}{Extensions, Absences, Incompletes}}{26}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}{Excused absences}}{26}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}{Late Work}}{26}{subsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.2.1}{Submissions}}{27}{subsubsection.2.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.3}{Incomplete Grades}}{27}{subsection.2.2.3}%
+\contentsline {chapter}{\numberline {3}{Accommodations Policy}}{29}{chapter.3}%
+\contentsline {section}{\numberline {3.1}{Self-Advocacy}}{29}{section.3.1}%
+\contentsline {section}{\numberline {3.2}{Resources}}{30}{section.3.2}%
+\contentsline {chapter}{\numberline {4}{Classroom Climate}}{31}{chapter.4}%
+\contentsline {section}{\numberline {4.1}{Psychology Department Statement on Diversity, Equity, and Inclusion}}{31}{section.4.1}%
+\contentsline {chapter}{\numberline {5}{Academic Honesty Policy}}{33}{chapter.5}%
+\contentsline {section}{\numberline {5.1}{Common Sense}}{33}{section.5.1}%
+\contentsline {section}{\numberline {5.2}{Violations}}{33}{section.5.2}%
+\contentsline {section}{\numberline {5.3}{Things that I thought didn't need to be said, but apparently did need to be said.}}{34}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}{It is \emph {ALWAYS} academic dishonesty\ldots {}}}{34}{subsection.5.3.1}%
+\contentsline {chapter}{\numberline {6}{Communication}}{35}{chapter.6}%
+\contentsline {section}{\numberline {6.1}{Minimums}}{35}{section.6.1}%
+\contentsline {subsection}{\numberline {6.1.1}{Self Advocacy}}{36}{subsection.6.1.1}%
+\contentsline {subsection}{\numberline {6.1.2}{Grading Questions}}{36}{subsection.6.1.2}%
+\contentsline {section}{\numberline {6.2}{Instructor Availability}}{36}{section.6.2}%
+\contentsline {subsection}{\numberline {6.2.1}{Is it an true emergency?}}{36}{subsection.6.2.1}%
+\contentsline {section}{\numberline {6.3}{Recordings}}{37}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}{Recording of Class Sessions.}}{37}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.2}{Recording Tails in our Synchronous Classes.}}{37}{subsection.6.3.2}%
+\contentsline {subsection}{\numberline {6.3.3}{Access to Recordings.}}{37}{subsection.6.3.3}%
+\contentsline {subsection}{\numberline {6.3.4}{Copyright Notice.}}{38}{subsection.6.3.4}%
+\contentsline {chapter}{\numberline {7}{Public Health in the age of COVID-19}}{39}{chapter.7}%
+\contentsline {part}{{Specific Courses}}{41}{chapter.7}%
+\contentsline {paragraph}{How to use the required text:}{52}{Item.5}%
+\contentsline {section}{\numberline {7.1}{Contract Details}}{59}{section.7.1}%
+\contentsline {part}{{For Your Information}}{63}{section.7.1}%
+\contentsline {chapter}{\numberline {8}{Frequently Asked Questions}}{65}{chapter.8}%
+\contentsline {section}{\numberline {8.1}{How can I get ahold of you?}}{65}{section.8.1}%
+\contentsline {section}{\numberline {8.2}{General Course Questions}}{66}{section.8.2}%
+\contentsline {subsection}{\numberline {8.2.1}{Where\ldots {}}}{66}{subsection.8.2.1}%
+\contentsline {subsubsection}{\numberline {8.2.1.1}{Where can I find the reading list for the entire semester?}}{66}{subsubsection.8.2.1.1}%
+\contentsline {subsubsection}{\numberline {8.2.1.2}{Where can I find when assignments are due?}}{66}{subsubsection.8.2.1.2}%
+\contentsline {subsubsection}{\numberline {8.2.1.3}{Where can I check the closing time of assessments?}}{66}{subsubsection.8.2.1.3}%
+\contentsline {subsubsection}{\numberline {8.2.1.4}{Where are my grades?}}{66}{subsubsection.8.2.1.4}%
+\contentsline {subsubsection}{\numberline {8.2.1.5}{Where can I find more information about\ldots {}}}{67}{subsubsection.8.2.1.5}%
+\contentsline {subsubsection}{\numberline {8.2.1.6}{Where can I find help for canvas?}}{67}{subsubsection.8.2.1.6}%
+\contentsline {subsection}{\numberline {8.2.2}{Where can I find textbooks and course materials?}}{67}{subsection.8.2.2}%
+\contentsline {subsection}{\numberline {8.2.3}{Can\ldots {}}}{68}{subsection.8.2.3}%
+\contentsline {subsubsection}{\numberline {8.2.3.1}{Can you bump up my grade?}}{68}{subsubsection.8.2.3.1}%
+\contentsline {subsubsection}{\numberline {8.2.3.2}{Can I rent the textbook for this course from somewhere (Amazon, bookstores, etc.)?}}{68}{subsubsection.8.2.3.2}%
+\contentsline {subsubsection}{\numberline {8.2.3.3}{Can you calculate my grade for me?}}{68}{subsubsection.8.2.3.3}%
+\contentsline {subsubsection}{\numberline {8.2.3.4}{Can my parents email you about my class performance?}}{68}{subsubsection.8.2.3.4}%
+\contentsline {paragraph}{{Should my parents email you about my class performance?}}{68}{subsubsection.8.2.3.4}%
+\contentsline {subsubsection}{\numberline {8.2.3.5}{Can't you just tell me my letter grade? Your curve is confusing.}}{69}{subsubsection.8.2.3.5}%
+\contentsline {subsection}{\numberline {8.2.4}{What\ldots {}}}{69}{subsection.8.2.4}%
+\contentsline {subsubsection}{\numberline {8.2.4.1}{What can I do to get a better grade?}}{69}{subsubsection.8.2.4.1}%
+\contentsline {subsection}{\numberline {8.2.5}{Why\ldots {}}}{71}{subsection.8.2.5}%
+\contentsline {subsubsection}{\numberline {8.2.5.1}{Why is the locked?}}{71}{subsubsection.8.2.5.1}%
+\contentsline {subsubsection}{\numberline {8.2.5.2}{Why do I have to meet with you if I want to see my test again? Why can't you just release them?}}{71}{subsubsection.8.2.5.2}%
+\contentsline {subsubsection}{\numberline {8.2.5.3}{Why is your speaking style so weird?}}{71}{subsubsection.8.2.5.3}%
+\contentsline {subsection}{\numberline {8.2.6}{How \ldots {}}}{72}{subsection.8.2.6}%
+\contentsline {subsubsection}{\numberline {8.2.6.1}{How much time should I spend on one class every week?}}{72}{subsubsection.8.2.6.1}%
+\contentsline {subsection}{\numberline {8.2.7}{How do I ask professors for extensions?}}{72}{subsection.8.2.7}%
+\contentsline {section}{\numberline {8.3}{Online Learning}}{72}{section.8.3}%
+\contentsline {subsection}{\numberline {8.3.1}{How long are the videos?}}{72}{subsection.8.3.1}%
+\contentsline {subsection}{\numberline {8.3.2}{Why are there so many videos?}}{73}{subsection.8.3.2}%
+\contentsline {subsection}{\numberline {8.3.3}{Why is this so much more work compared to face-to-face classes?}}{73}{subsection.8.3.3}%
+\contentsline {subsection}{\numberline {8.3.4}{I'm having a trouble with a specific problem, can you fix it for me?}}{73}{subsection.8.3.4}%
+\contentsline {section}{\numberline {8.4}{Canvas \{canvas\}}}{73}{section.8.4}%
+\contentsline {subsubsection}{\numberline {8.4.0.1}{How do I use Canvas for class?}}{73}{subsubsection.8.4.0.1}%
+\contentsline {subsection}{\numberline {8.4.1}{I'm having trouble with Canvas -- help!}}{74}{subsection.8.4.1}%
+\contentsline {subsubsection}{\numberline {8.4.1.1}{How do I contact the Canvas Help Desk?}}{74}{subsubsection.8.4.1.1}%
+\contentsline {subsection}{\numberline {8.4.2}{How do I\ldots {} ?}}{74}{subsection.8.4.2}%
+\contentsline {subsubsection}{\numberline {8.4.2.1}{How do I set my notifications on Canvas for my classes?}}{74}{subsubsection.8.4.2.1}%
+\contentsline {subsubsection}{\numberline {8.4.2.2}{How do I submit an assignment on Canvas?}}{74}{subsubsection.8.4.2.2}%
+\contentsline {subsubsection}{\numberline {8.4.2.3}{How do I know when an assignment has been submitted?}}{74}{subsubsection.8.4.2.3}%
+\contentsline {subsubsection}{\numberline {8.4.2.4}{How do I use the Calendar feature in Canvas?}}{74}{subsubsection.8.4.2.4}%
+\contentsline {subsubsection}{\numberline {8.4.2.5}{How do I see feedback on my assignments submitted on Canvas?}}{75}{subsubsection.8.4.2.5}%
+\contentsline {subsubsection}{\numberline {8.4.2.6}{How do I accurately check my grades in Canvas?}}{75}{subsubsection.8.4.2.6}%
+\contentsline {subsubsection}{\numberline {8.4.2.7}{How do I do this specific thing in Canvas?}}{75}{subsubsection.8.4.2.7}%
+\contentsline {subsection}{\numberline {8.4.3}{Why is\ldots {}}}{76}{subsection.8.4.3}%
+\contentsline {subsubsection}{\numberline {8.4.3.1}{Why is the assignment/activity/quiz locked?}}{76}{subsubsection.8.4.3.1}%
+\contentsline {section}{\numberline {8.5}{Resources}}{76}{section.8.5}%
+\contentsline {section}{\numberline {8.6}{Still have questions?}}{76}{section.8.6}%
+\contentsline {subsection}{\numberline {8.6.1}{Why did a question I asked via email show up on the discussion board?}}{76}{subsection.8.6.1}%
+\contentsline {chapter}{\numberline {9}{How to do well in my classes}}{77}{chapter.9}%
+\contentsline {section}{\numberline {9.1}{Successful Asynchronous Learning}}{77}{section.9.1}%
+\contentsline {chapter}{\numberline {10}{Student Support \& Resources}}{81}{chapter.10}%
+\contentsline {section}{\numberline {10.1}{Prof.~Mason FAQ}}{81}{section.10.1}%
+\contentsline {section}{\numberline {10.2}{Canvas}}{81}{section.10.2}%
+\contentsline {subsection}{\numberline {10.2.1}{Canvas: Helpful Tips}}{81}{subsection.10.2.1}%
+\contentsline {subsubsection}{\numberline {10.2.1.1}{Canvas Student Guide}}{81}{subsubsection.10.2.1.1}%
+\contentsline {subsubsection}{\numberline {10.2.1.2}{Getting Organized}}{81}{subsubsection.10.2.1.2}%
+\contentsline {subsection}{\numberline {10.2.2}{Canvas: Quick Links}}{82}{subsection.10.2.2}%
+\contentsline {subsubsection}{\numberline {10.2.2.1}{Your Canvas Profile}}{82}{subsubsection.10.2.2.1}%
+\contentsline {subsubsection}{\numberline {10.2.2.2}{Notifications}}{82}{subsubsection.10.2.2.2}%
+\contentsline {subsubsection}{\numberline {10.2.2.3}{Other Helpful Canvas Guides Links}}{82}{subsubsection.10.2.2.3}%
+\contentsline {subsection}{\numberline {10.2.3}{Accurately Calculating Grades in Canvas}}{83}{subsection.10.2.3}%
+\contentsline {section}{\numberline {10.3}{Resource Collections}}{83}{section.10.3}%
+\contentsline {subsection}{\numberline {10.3.1}{Student Support Services}}{83}{subsection.10.3.1}%
+\contentsline {subsubsection}{\numberline {10.3.1.1}{\href {https://www.youtube.com/watch?v=E7CwqNHn_Ns\&list=PL8dPuuaLjXtNcAJRf3bE1IJU6nMfHj86W}{Crash Course: Study Skills}}}{84}{subsubsection.10.3.1.1}%
+\contentsline {subsubsection}{\numberline {10.3.1.2}{\href {https://vimeo.com/270014784?embedded=true\&source=vimeo_logo\&owner=2248721}{What are Office Hours?}}}{84}{subsubsection.10.3.1.2}%
+\contentsline {subsubsection}{\numberline {10.3.1.3}{\href {https://www.youtube.com/watch?v=5zkAOpx8Qk8}{What Are Course Evals and Why Should You Submit Them}}}{84}{subsubsection.10.3.1.3}%
+\contentsline {subsubsection}{\numberline {10.3.1.4}{WFU Honor Code Definitions}}{84}{subsubsection.10.3.1.4}%
+\contentsline {subsection}{\numberline {10.3.2}{Discussion Board Etiquette}}{87}{subsection.10.3.2}%
+\contentsline {subsubsection}{\numberline {10.3.2.1}{\href {https://www.loc.gov/programs/poetry-and-literature/poet-laureate/poet-laureate-projects/poetry-180/all-poems/item/poetry-180-013/did-i-miss-anything/}{Poem 013: Did I Miss Anything?}}}{87}{subsubsection.10.3.2.1}%
+\contentsline {subsubsection}{\numberline {10.3.2.2}{\href {https://www.insidehighered.com/views/2015/04/16/advice-students-so-they-dont-sound-silly-emails-essay}{Advice for students so they don't sound silly in emails (essay)}}}{87}{subsubsection.10.3.2.2}%
+\contentsline {subsection}{\numberline {10.3.3}{Online Learning Resources}}{87}{subsection.10.3.3}%
+\contentsline {subsubsection}{\numberline {10.3.3.1}{\href {https://www.northeastern.edu/graduate/blog/tips-for-taking-online-classes/}{Tips for Taking Online Classes: 8 Strategies for Success Links to an external site.}}}{87}{subsubsection.10.3.3.1}%
+\contentsline {subsubsection}{\numberline {10.3.3.2}{\href {https://www.youtube.com/watch?v=pLlv2o6UfTU\&list=PL8dPuuaLjXtN07XYqqWSKpPrtNDiCHTzU}{Navigating Digital Information}}}{87}{subsubsection.10.3.3.2}%
+\contentsline {subsection}{\numberline {10.3.4}{Tech Services \& Computer Resources}}{87}{subsection.10.3.4}%
+\contentsline {section}{\numberline {10.4}{Public Health}}{90}{section.10.4}%
+\contentsline {part}{{Back Matter}}{91}{section.10.4}%
 \vspace {\beforebibskip }
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

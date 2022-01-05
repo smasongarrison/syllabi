@@ -1,7 +1,7 @@
 --- 
 title: "Prof. Mason's Syllabi"
 author: S. Mason Garrison
-date: "2021-12-30"
+date: "2022-01-05"
 knit: "bookdown::render_book"
 site: bookdown::bookdown_site
 url: 'https\://github.com/smasongarrison/syllabi'
@@ -147,7 +147,7 @@ This version of the notes was built with:
 #>  collate  English_United States.1252
 #>  ctype    English_United States.1252
 #>  tz       America/New_York
-#>  date     2021-12-30
+#>  date     2022-01-05
 #>  pandoc   2.11.4 @ C:/Program Files/RStudio/bin/pandoc/ (via rmarkdown)
 ```
 
@@ -172,7 +172,7 @@ bookdown & bookdown & 0.24 & 2021-09-02 & CRAN (R 4.0.5)\\
 brew & brew & NA & 2011-04-13 & CRAN (R 4.0.3)\\
 \addlinespace
 brio & brio & NA & 2021-11-30 & CRAN (R 4.0.5)\\
-broom & broom & 0.7.10 & 2021-10-31 & CRAN (R 4.0.5)\\
+broom & broom & 0.7.11 & 2022-01-03 & CRAN (R 4.0.5)\\
 cachem & cachem & 1.0.6 & 2021-08-19 & CRAN (R 4.0.5)\\
 callr & callr & 3.7.0 & 2021-04-20 & CRAN (R 4.0.5)\\
 cellranger & cellranger & 1.1.0 & 2016-07-27 & CRAN (R 4.0.3)\\
@@ -220,7 +220,7 @@ genderdata & genderdata & NA & NA & NA\\
 generics & generics & 0.1.1 & 2021-10-25 & CRAN (R 4.0.5)\\
 \addlinespace
 geonames & geonames & NA & 2019-02-19 & CRAN (R 4.0.3)\\
-gert & gert & NA & 2021-11-10 & CRAN (R 4.0.5)\\
+gert & gert & NA & 2022-01-03 & CRAN (R 4.0.5)\\
 ggplot2 & ggplot2 & 3.3.5 & 2021-06-25 & CRAN (R 4.0.5)\\
 gh & gh & NA & 2021-04-30 & CRAN (R 4.0.5)\\
 gitcreds & gitcreds & NA & 2020-12-04 & CRAN (R 4.0.3)\\
@@ -405,11 +405,6 @@ sessionInfo()
 
 <!--chapter:end:0000_front.Rmd-->
 
----
-output:
-  pdf_document: default
-  html_document: default
----
 # (PART\*) Syllabi {-}
 
 # General information {-}
@@ -432,9 +427,9 @@ output:
 [noba]: https://nobaproject.com/
 [ytplaylist]: https://ytplaylist-len.herokuapp.com/
 
-Welcome! This section includes general syllabus information. The next sections include information specific to your class.
+Welcome! This section includes general syllabus information. The next sections include information specific to your class. (Now, before I forget, any matter not explicitly covered by the syllabus or institution-wide policy is left to my sole discretion as the instructor.)
 
-Remember: This course is for you, not for me.
+Remember: This course is for you, not for me. 
 
 
 
@@ -822,30 +817,30 @@ At the request of my university, I have included the following information relat
 
 
 
-## Course Description
+## Course Description   {-}
 
 This class provides a survey of theory and research on the structure and function of human personality, with attention to the relationship to cognition, emotion, motivation, and behavior. It requires P-PSY 151. In addition, we will discuss other individual differences, such as intelligence.
 
-### Broad goals for the course:
+### Broad goals for the course:   {-}
 - 1. The first is for you to understand what personality psychologists think. We will cover classic and current theories, research, and applications of Personality psychology.
 - 2. The second is for you to learn how personality psychologists study their field scientifically. We will discuss the procedures used to test theories and to study issues related to personality.
 - 3. The third is to (hopefully) recognize some relevance of personality psychology for your personal and/or professional life.
 
 
-## Required Materials
+## Required Materials   {-}
 
 [1] D. C. Funder. _The personality puzzle_. Seventh. OCLC: 935283402.
 New York: W.W. Norton & Co., 2016. ISBN: 978-0-393-60042-1.
 
 
-## Course Assignments
+## Course Assignments   {-}
 
-### Quizzes 
+### Quizzes    {-}
 There will be 6 quizzes in this course. The best 5 out of 6 quizzes grades will be used to determine your total quiz grade.  You can drop any of the quizzes for any reason BUT YOU MUST PASS THE LAST Quiz (held at TBD on Dec TBD).  If you do not pass the final quiz, your score on that quiz will count as one of your 5 grades. If you do pass the final quiz, then the best 5 grades will be used (irrespective of your score on the final quiz).
 
 
 
-#### Quiz Dates
+#### Quiz Dates   {-}
 
 - Quiz 1: Friday, 09/10
 
@@ -860,7 +855,7 @@ There will be 6 quizzes in this course. The best 5 out of 6 quizzes grades will 
 - Quiz 6: During Finals, 12/10
 
 
-### Short Assignments
+### Short Assignments   {-}
 
 There will be three (3) short assignments in this course. These assignments will allow you to incorporate some of your own interests into the course. Such interests could be related to your career, another class you're taking, a hobby you're exploring, or some other random fancy. They will typically be approximately two (2) pages. I will provide more specific written guidelines at least two weeks before each assignment is due.
 
@@ -868,7 +863,7 @@ There will be three (3) short assignments in this course. These assignments will
 The best two (2) out of three (3) short assignments will be used to determine your total short assignments.  You can skip one of the assignments for any reason.
 
 
-#### Short Assignment Dates
+#### Short Assignment Dates   {-}
 
 - Assignment 1: Friday, 10/08: Critique of an online personality test.
 
@@ -876,24 +871,24 @@ The best two (2) out of three (3) short assignments will be used to determine yo
 
 - Assignment 3: Friday, 12/03: Critique of a personality-related YouTube video.
 
-### Engagement Activities
+### Engagement Activities   {-}
 
 There will be multiple engagement activities in this course. These activities will allow you engage with the material for each module. Details about the specific activities will be provided on canvas. Students must complete two activities per module. For students in the blended section, they can attend their weekly in-person session and count it as an engagement activity.
 
 
-## Grading Policy
+## Grading Policy   {-}
 
 
 
-Typically, an A- is defined as 90% of the highest point total in the class, B- as 80% of that total, C- as 70 and D- as 60%. 
-I may shift these values down to provide a better fit to the actual point distribution. 
-By scaling to a percentage of the highest point total in the class, each student has a much better chance of receiving higher grades than if no re-scaling were done. 
-This curve can only help your grade. 
+Typically, an A- is defined as 90% of the highest point total in the class, B- as 80% of that total, C- as 70 and D- as 60%.
+I may shift these values down to provide a better fit to the actual point distribution.
+By scaling to a percentage of the highest point total in the class, each student has a much better chance of receiving higher grades than if no re-scaling were done.
+This curve can only help your grade.
 
 The full table is provided below:
 \begin{table}
 
-\caption{(\#tab:unnamed-chunk-3)Full Table}
+\caption{(\#tab:unnamed-chunk-4)Full Table}
 \centering
 \begin{tabular}[t]{l|r}
 \hline
@@ -924,16 +919,16 @@ D- & 0.60\\
 \end{tabular}
 \end{table}
 
-### Curve Projections
+### Curve Projections    {-}
 
-Unsurprisingly, students have many questions about the curve in this class. For tests and other assignments, I try to provide a projected letter grade. 
-This projected letter grade is there to give you a sense of what your score *would* be if I implemented the class curve on this particular assignment. 
-It is a projection. It is not a guarantee. These projected letter grades are not incorporated into your final grade. 
+Unsurprisingly, students have many questions about the curve in this class. For tests and other assignments, I try to provide a projected letter grade.
+This projected letter grade is there to give you a sense of what your score *would* be if I implemented the class curve on this particular assignment.
+It is a projection. It is not a guarantee. These projected letter grades are not incorporated into your final grade.
 Trust me, you do not want me to curve by assignment.
 
 
 
-### Weighting
+### Weighting   {-}
 
 - 150 points of your grade will be determined by your best 5 quizzes
     - The final is not optional.
@@ -942,110 +937,12 @@ Trust me, you do not want me to curve by assignment.
 
 
 
-## Schedule
+## Schedule {-}
+
+![](0201_personality_files/figure-latex/unnamed-chunk-3-1.pdf)<!-- --> 
 
 
-## Week 01, 08/23 - 08/27 : What is Personality  {-}
-<!---
-- Monday: First Day of Class / Introduction
-- Wednesday: What is personality? (Chapter 1)
-- Friday: Research in Personality: Sources of Data (Chapter 2)
--->
-## Week 02, 08/30 - 09/03 : Personality Research Methods  {-}
-<!---
-- Monday: NO CLASS MLK Day
-- Wednesday: Research Design: Validity (Chapter 2)
-- Friday: Research Design: Generalizability (Chapter 2; Short Assignment 1 Handed Out)
--->
-##  Week 03, 09/06 - 09/10 : Assessment, Evaluation, and Ethics   {-}
-<!---
-- Monday: Personality Assessment (Chapter 3)
-- Tuesday: "Last day to add full-term class"
-- Wednesday: Evaluation and Ethics (Chapter 3)
-- Friday: Person versus Situation (Chapter 4)
--->
 
-##  Week 04, 09/13 - 09/17 : Trait Approach and Personality Judgment {-}
-<!---
-- Monday: What are traits? What are the basic traits? (Chapter 4)
-- Wednesday: Personality Judgement (Chapter 5)
-- Friday: Using Personality Traits to Understand Behavior (Chapter 6; Assignment 1 Due)
--->
-##  Week 05, 09/20 - 09/24 : Big Five {-}
-<!---
-- Monday: Big Five (Chapter 6)
-- Wednesday: Review
-- Friday: Test 1
--->
-##  Week 06, 09/27 - 10/01 : Personality over the Lifespan  {-}
-<!---
-- Monday: Brains (Chapter 8)
-- Wednesday: More Brains (Chapter 8)
-- Friday: Behavior Genetics (Chapter 9)
--->
-##  Week 07, 10/04 - 10/08 : Biological Approaches to Psychology  {-}
-<!---
-- Monday: Behavior Genetics (Chapter 9)
-- Wednesday: Evolutionary Psychology (Chapter 9)
-- Friday: Evolutionary Psychology (Chapter 9)
--->
-##  Week 08, 10/11 - 10/15 : Behavior Genetics  {-}
-<!---
-- Monday: Personality over the Lifespan (Chapter 7)
-- Wednesday: Personality over the Lifespan (Chapter 7)
-- Friday: Personality Processes (Chapter 15)
--->
-##  Week 09, 10/18 - 10/22 : Evolutionary Psychology  {-}
-<!---
-- Monday: No Class
-- Wednesday: No Class
-- Friday: No Class
--->
-##  Week 10, 10/25 - 10/29 : Cross-Cultural Psychology  {-}
-<!---
-- Monday: Personality Processes (Chapter 15)
-- Wednesday: Review
-- Friday: Test 2
--->
-##  Week 11, 11/01 - 11/05 : Freud  {-}
-<!---
-- Monday: The Self (Chapter 16) Last day to drop with a grade of "W"
-- Wednesday: The Self (Chapter 16)
-- Friday:  Freud (Chapter 10) 
--->
-##  Week 12, 11/08 - 11/12 : Psychoanalysis After Freud  {-}
-<!---
-- Monday: Freud (Chapter 10)
-- Wednesday: Freud (Chapter 10)
-- Friday: Neo-Freud (Chapter 11; Assignment 2 Due)
--->
-## Week 13, 11/15 - 11/19 : Personality Processes and Positive Psych  {-}
-<!---
-- Monday:  Neo-Freud (Chapter 11) 
-- Wednesday: Positive Psychology
-- Friday: Positive Psychology
--->
-##  Week 14, 11/22 - 11/26 : Thanksgiving Break!  {-}
-<!---
-- Monday: Cross-Cultural Psychology
-- Wednesday: Cross-Cultural Psychology
-- Friday: Cross-Cultural Psychology
--->
-
-##  Week 15, 11/29 - 12/03 : Personality and Health  {-}
-<!---
-- Monday: Personality and Physical Health
-- Wednesday: Personality and Mental Health
-- Friday: Personality Disorders
-
-##  Week 16, 12/06 - 12/10 : NA 
-
-- Monday: Special Topics
-- Wednesday: Review; Assignment 3 Due; Last Day of Class
--->
-## Final Exam   {-}
-
-- TBD on DEC TBD
 
 
 
@@ -1057,49 +954,51 @@ Trust me, you do not want me to curve by assignment.
 
 
 
-## Course Description
+## Course Description  {-}
 
 Methods in Psychological Research introduces statistics and research design for students minoring in psychology. Prereq: P—PSY 151 (D, QR)
 
 This course is designed to help students develop the conceptual background and practical skills necessary to evaluate the statistics encountered in their coursework and in everyday life. It emphasizes selection, application, and interpretation. Topics to be covered include statistical inference, probability distributions, sampling, hypothesis testing, and correlation. The goal will be to go beyond rote memorization of abstract formulas and for students to develop an appreciation for the critical role that statistics plays in psychological science.
 
-Selected Course Objectives:
 
-
-### Broad goals for the course:
+### Broad goals for the course:  {-}
 - 1. To understand the selection, computation, and interpretation of descriptive and inferential
 statistics
 - 2. To learn how to use and interpret R (R Core Team 2018).
 
 
-## Required Materials
+## Required Materials  {-}
 
-Wickham and Grolemund's R for Data Science text (http://r4ds.had.co.nz/)
-
-
+Morling, Research Methods in Psychology https://wwnorton.com/books/9780393893724
 
 
-## Course Assignments
+## Course Assignments  {-}
 
+
+## Schedule  {-}
+
+
+
+![](0202_stats_files/figure-latex/unnamed-chunk-1-1.pdf)<!-- --> 
 
 
 <!---
 Schedule
 -->
-
-## Week 01, 01/10 - 01/14 : Introduction
 <!---
+## Week 01, 01/10 - 01/14 : Introduction
+
 - Monday: First Day of Class / Introduction
 - Thursday: First Day of Class
--->
+
 ## Week 02, 01/17 - 01/21 : Getting Ready to Do Statistical Analysis
-<!---
+
 - Tuesday: Research Design (Chapter 9)
 - Thursday: Sampling Theory (Chapter 8) / Measurement in the Social/Behavioral Sciences 
 
--->
+
 ##  Week 03, 01/24 - 01/28 : Describing Data with R 
-<!---
+
 - Tuesday: Describing Data Graphically with R
 
 - Wednesday (Sep 05, 2018)
@@ -1107,79 +1006,79 @@ Schedule
     - Last day to add a class & register for pass/fail status using paper forms 
 - Thursday: Describing Data Numerically with R
 
--->
+
 
 ##  Week 04, 01/31 - 02/04 : Univariate Distributions
-<!---
+
 - Tuesday: Univariate Distributions (Chapter 1/2)
 - Thursday: Standardization, z-scores, and the normal distribution	(Chapter 3)
--->
+
 ##  Week 05, 02/07 - 02/11 : Test 1
-<!---
+
 - Tuesday: Test 1 Review
 
 - Thursday: Test 1
--->
+
 ##  Week 06, 02/14 - 02/18 : Bivariate Distributions
-<!---
+
 - Tuesday: Bivariate Distributions (Chapter 4)
 
 - Thursday: Correlation	(Chapter 5)
--->
+
 ##  Week 07, 02/21 - 02/25 : Probability Theory 
-<!---
+
 - Thursday: Probability Theory (Chapter 12) 
--->
+
 ##  Week 08, 02/28 - 03/04 : Binomials and other sampling distributions
-<!---
+
 - Tuesday: More Probability Theory (Chapter 13) 
 
 - Thursday: Review
--->
+
 ##  Week 09, 03/07 - 03/11 : Test 2
-<!---
+
 - Tuesday: Test 2
 
 - Thursday No Class (Fall Break Oct 18-19)
 - Friday (Oct 19, 2018)
     - Last day undergraduate students may withdraw from fall semester classes
     - Last day to change from pass/fail to graded status in a fall semester class
--->
+
 ##  Week 10, 03/14 - 03/18 : Hypothesis Testing
-<!---
+
 - Tuesday: The Logic of Hypothesis Testing Hypotheses, Errors (Chapters 16-19)
 
 - Thursday: t-tests
--->
+
 ##  Week 11, 03/21 - 03/25 : Inferences about means
-<!---
+
 - Tuesday: Applying t-tests and ANOVA (Chapters 20 & 21)
 
 - Thursday: More Analysis of Variance	(Chapters 24 & 27)
--->
+
 ##  Week 12, 03/28 - 04/01 : Special Topics
-<!---
+
 - Tuesday: Subverting the Research Process
 
 - Thursday: Causal Inference
--->
+
 ## Week 13, 04/04 - 04/08 : Test 3
-<!---
+
 - Tuesday: Review
 
 - Wednesday: Alternative Test Date
 
 - Thursday: Test 3
--->
+
 ##  Week 14, 04/11 - 04/15 : Applications in R
-<!---
+
 - Monday: Cross-Cultural Psychology
 - Wednesday: Cross-Cultural Psychology
 - Friday: Cross-Cultural Psychology
--->
+
 
 ##  Week 15, 04/18 - 04/22 : Applications in R
-<!---
+
 - Tuesday: Translating Research Questions into R
 
 - Thursday: Addressing Statistical Questions in R
@@ -1205,12 +1104,12 @@ Schedule
 
 
 
-## Course Description
+## Course Description   {-}
 
 This course provides an overview of the development and nature of psychological tests with applications to school counseling, business, and clinical practice. The purpose of the course is to provide students with an understanding of the principles of measurement as applied to group standardized measures of achievement, special aptitude, intelligence, personality, interests and distress for use in counseling.  Format will consist primarily of lectures along with group participation activities. 
 
 
-### Course Objectives:
+### Course Objectives:   {-}
 - To acquaint you with the fundamental vocabulary and logic of psychological measurement and behavioral assessment.
 - To develop your capacity for critical judgment of the adequacy of measures purported to assess behavior in the role of theory development.
 - To acquaint you with some of the relevant literature in personality assessment, psychometric theory and practice, and methods of observing and measuring behavior.
@@ -1218,33 +1117,33 @@ This course provides an overview of the development and nature of psychological 
 - This course is not designed to make you into an accomplished psychometrist (one who gives tests) nor is it designed to make you a skilled psychometrician (one who constructs tests), nor will it give you "hands on" experience with psychometric computer programs. Rather it is aimed to allow you to understand the fundamental theoretical issues concerning both the psychometrist and the psychometrician.
 - Because modern psychometrics and statistics may be done using open source software such as R, examples will be presented in R.
 
-## Materials
-### Texts
-#### Required
+## Materials   {-}
+### Texts   {-}
+#### Required   {-}
 
 [1] A. Anastasi and A. Urbina. _Psychological testing_. Upper Saddle
 River, New Jersey: Prentice-Hall, 1997. ISBN: 0-02-303020-8.
 
 
-##### How to use the required text:
+##### How to use the required text:   {-}
 
 The text [@anastasi1997] is intended to supplement the lectures. The lectures don't follow the order of chapters in the text and the text covers some material that won't be covered in the lectures, i.e., not all the information in each chapter is perfectly pertinent to the course requirements.
 
 
-## Course Assignments 
-## Grading Policy
+## Course Assignments    {-}
+## Grading Policy   {-}
 
 
 
-Typically, an A- is defined as 90% of the highest point total in the class, B- as 80% of that total, C- as 70 and D- as 60%. 
-I may shift these values down to provide a better fit to the actual point distribution. 
-By scaling to a percentage of the highest point total in the class, each student has a much better chance of receiving higher grades than if no re-scaling were done. 
-This curve can only help your grade. 
+Typically, an A- is defined as 90% of the highest point total in the class, B- as 80% of that total, C- as 70 and D- as 60%.
+I may shift these values down to provide a better fit to the actual point distribution.
+By scaling to a percentage of the highest point total in the class, each student has a much better chance of receiving higher grades than if no re-scaling were done.
+This curve can only help your grade.
 
 The full table is provided below:
 \begin{table}
 
-\caption{(\#tab:unnamed-chunk-3)Full Table}
+\caption{(\#tab:unnamed-chunk-4)Full Table}
 \centering
 \begin{tabular}[t]{l|r}
 \hline
@@ -1275,20 +1174,20 @@ D- & 0.60\\
 \end{tabular}
 \end{table}
 
-### Curve Projections
+### Curve Projections    {-}
 
-Unsurprisingly, students have many questions about the curve in this class. For tests and other assignments, I try to provide a projected letter grade. 
-This projected letter grade is there to give you a sense of what your score *would* be if I implemented the class curve on this particular assignment. 
-It is a projection. It is not a guarantee. These projected letter grades are not incorporated into your final grade. 
+Unsurprisingly, students have many questions about the curve in this class. For tests and other assignments, I try to provide a projected letter grade.
+This projected letter grade is there to give you a sense of what your score *would* be if I implemented the class curve on this particular assignment.
+It is a projection. It is not a guarantee. These projected letter grades are not incorporated into your final grade.
 Trust me, you do not want me to curve by assignment.
 
 
 
-### Quizzes
+### Quizzes   {-}
 There will be 6 quizzes in this course. These will be approximately every three weeks. The best 5 out of 6 quiz grades will be used to determine your total quiz grade.  You can drop 1 of the quizzes for any reason.
 
 
-#### Quiz Dates
+#### Quiz Dates   {-}
 
 - Quiz 1: Friday, 02/12
 
@@ -1303,14 +1202,14 @@ There will be 6 quizzes in this course. These will be approximately every three 
 - Quiz 6: During Finals, 05/14
 
 
-### Take Home Assignments
+### Take Home Assignments   {-}
 There are four large take-home assignments. Two are qualitative and two are quantitative. 
 
 
 I will provide more specific written guidelines at least two weeks before each assignment is due. You have to submit assignment 1 because I give extensive feedback that will help you on later assignments. However, you may skip assignment 2 or 3.
 
 
-#### Assignment Dates
+#### Assignment Dates   {-}
 
 - Assignment 1: Friday, 03/12: Set 1 and Critique of an online test.
 
@@ -1320,108 +1219,23 @@ I will provide more specific written guidelines at least two weeks before each a
 
 
 
-## Engagement Activities
+## Engagement Activities   {-}
 
 There will be multiple engagement activities in this course. These activities will allow you engage with the material for each module. Details about the specific activities will be provided on canvas. Students must complete two activities per module.
 
 
-## Grading Weighting
+## Grading Weighting   {-}
 
 - 150 points of your grade will be determined by your best five (5) quizzes.
 - 150 points of your grade will be determined by your best three (3) take-home assignments.
 - 50 points of your grade will be determined by your engagement.
 
 
-## Course Policies
 
-See Syllabus Website
+## Schedule {-}
 
-## Schedule
+![](0203_testing_files/figure-latex/unnamed-chunk-3-1.pdf)<!-- --> 
 
-###  Week 01, 01/25 - 01/29 : Foundations and Nature of Testing
-<!---
-- Tuesday: Chapter 1
-- Thursday: Chapter 2
--->
-###  Week 02, 02/01 - 02/05 : History of Testing
-<!---
-- Tuesday: Chapter 18
-- Thursday: Chapter 18
--->
-###  Week 03, 02/08 - 02/12 : Ethical and Social Considerations in Testing 
-<!---
-- Tuesday: Chapter 3 "Last day to add full-term class"
-- Thursday: Chapter 3
--->
-###  Week 04, 02/15 - 02/19 : Norms and the Meaning of Test Scores
-<!---
-- Tuesday: Chapter 4
-- Thursday: Chapter 4
--->
-###  Week 05, 02/22 - 02/26 : Classical Test Theory
-<!---
-- Tuesday: Chapter 5 + 6
-- Thursday: Chapter 5 + 6 
--->
-###  Week 06, 03/01 - 03/05 : Reliability
-<!---
-- Tuesday: Chapter 6  "Last day to drop full-term class"
-- Thursday: Chapter 9 
--->
-###  Week 07, 03/08 - 03/12 : Catch Up Week 
-<!---
-- Tuesday: Chapter 7 (Assignment 1 Due)
-- Thursday: Chapter 7
--->
-###  Week 08, 03/15 - 03/19 : Validity
-<!---
-- Tuesday: Review 
-- Thursday: Exam 1
--->
-###  Week 09, 03/22 - 03/26 : Item Analysis
-<!---
-- Tuesday: No class
-- Thursday: No class 
--->
-###  Week 10, 03/29 - 04/02 : Factor Analysis
-<!---
-- Tuesday: Selected readings
-- Thursday: Chapter 10
--->
-###  Week 11, 04/05 - 04/09 : Item Response Theory
-<!---
-- Monday: Last day to drop with a grade of "W"
-- Tuesday: Chapter 11
-- Thursday: Chapter 12
--->
-###  Week 12, 04/12 - 04/16 : Practical Testing Things
-<!---
-- Tuesday: Chapter 13
-- Thursday: Chapter 13 
--->
-### Week 13, 04/19 - 04/23 : Ability Testing
-<!---
-- Tuesday: Chapter 14
-- Thursday: Chapter 14 (Assignment 2 Due)
--->
-###  Week 14, 04/26 - 04/30 : Personality Testing
-<!---
-- Tuesday: Chapter 15
-- Thursday: Chapter 16
--->
-###  Week 15, 05/03 - 05/07 : Review
-<!---
-- Tuesday: Supplemental reading
-- Thursday: Supplemental reading
-
-###  Week 16, 05/10 - 05/14 : Other Assessment Techniques 
-
-- Tuesday: Review
-
-## Final Exam 
-
-- TBD
--->
 
 <!--chapter:end:0203_testing.Rmd-->
 
@@ -1431,65 +1245,65 @@ See Syllabus Website
 
 
 
-## Course Description
+## Course Description {-}
 
 Data Science for Psychologists (DSP) introduces on the principles of data science, including data wrangling, modeling, visualization, and communication. In this class, we link those principles to psychological methods and open science practices by emphasizing exploratory analyses and description, rather than confirmatory analyses and prediction. We'll work our way thru Wickham and Grolemund's R for Data Science text (http://r4ds.had.co.nz/) and develop expertise in tidyverse (https://www.tidyverse.org/). This class emphasizes replication and reproducibility. DSP is a practical skilled-based class and should be useful to students aiming for academia as well as those interested in industry. Applications of these methods can be applied to a full range of psychological areas, including perception (e.g, eye-tracking data), neuroscience (e.g., visualizing neural networks), and individual differences (e.g., valence analysis).
 
 
-### Broad goals for the course:
+### Broad goals for the course:  {-}
 - 1. Reproducibility;
 - 2. Replication;
 - 3. Robust Methods;
 - 4. Really Nice Visualization; and
-- 5. R.
+- 5. R
 
-## Required Materials
+## Required Materials  {-}
 
 Wickham and Grolemund's R for Data Science text (http://r4ds.had.co.nz/)
 
 
 
 
-## Course Assignments
+## Course Assignments  {-}
 
 You will be formally evaluated in three different ways.
 
 
 
-### Presentation
+### Presentation {-}
 
-You will give one asynchronous presentation. approximately 10- minutes.  This presentation is chance to practice a formal presentation in a relatively pressure-free setting).
-
-
-### Labs
+You will give one asynchronous presentation. approximately 10- minutes. This presentation is chance to practice a formal presentation in a relatively pressure-free setting).
 
 
+### Labs  {-}
 
-### Portfolio
+
+
+### Portfolio  {-}
 
 The major semester projects (described on the data science website) is a set of EDA Projects, which you will summarize in an EDA Portfolio to be handed in on the last day of class.
 
 
 
 
-### Engagement
+### Engagement  {-}
 
 This experiential course requires active engagement. There will be few lectures and we will not be building toward an exam.  Instead, we will work together to build our facilities for thinking critically about data. You should come to every class having read all of the required reading, watched the required videos, browsed the suggested resources, and so forth. You should enter the classroom prepared to discuss these materials with colleagues and complete both individual and group in-class assignments.
 
 
 
-## Grading Policy
+## Grading Policy  {-}
 
 
 In this course, you will determine the grade you receive by fulfilling a contract you will submit for my approval on 01/21.
 
 Your written contract will detail:
 
-- The requirements you will meet in order to receive the grade for which you've contracted, 
+- The requirements you will meet in order to receive the grade for which you've contracted,
 
 - the penalties you will incur for not meeting those requirements,
 
-- a calendar you will follow for meeting the requirements you have outlined. 
+- a calendar you will follow for meeting the requirements you have outlined.
 
 Many aspects of this calendar will be determined by windows outlined on the course schedule, but your contract will take ownership of these deadlines while committing to specific due dates for the course’s more flexible assignments.
 
@@ -1509,165 +1323,61 @@ To fulfill any grade contract a student must do the following, which should none
 
 The professor reserves the right to award a grade of D or F to anyone who fails to meet a contractual obligation in a systematic way. A "D" grade denotes some minimal fulfilling of the contract. An “F” is absence of enough satisfactory work, as contracted, to warrant passing of the course. Both a "D" and "F" denote a breakdown of the contractual relationship implied by signing any of the contracts described above.
 
-## What About Exceptional (or Mediocre) Work?
+## What About Exceptional (or Mediocre) Work?  {-}
 I also reserve the right to reward exceptional work throughout the semester using the full range of Wake Forest's grading scale. If you contract for a “B,” for instance, and submit particularly strong pieces to fulfill that contract, I may elect to raise your contracted grade to a “B+.”
 
 Likewise, if you consistently submit mediocre work in fulfillment of your contract, I reserve the right to adjust your grade one half-step down (e.g. from “A” to “A-“) or even, in extreme cases, a full step.
 
-## Contract Adjustments
+## Contract Adjustments  {-}
 Periodically during the semester I will ask you to evaluate your work thus far and compare it against what you agreed in your grade contract. In these moments you can also take the opportunity to request an adjustment to your contract in either direction. If you find that you will be unable to meet the obligations of your contract, you may request to move to the next lowest grade and its requirements. Contrariwise, if you find that you've been performing above the obligations of your contract, you may request to fulfill the requirements for the next higher grade. Important Note: In order to effectively evaluate your own progress, you must keep track of your work, including days missed, and so forth.
 
 
 
-### Contract Grades
+### Contract Grades  {-}
 
 
 
-### "A" Contract
+### "A" Contract  {-}
 
 To contract for an "A" in this course, you agree to:
 
 - Earn "Satisfactory" on 11 self-paced lab assignments on a schedule you will specify in your contract.
 
-- Produce at least 10 "Satisfactory" portfolio pieces over the course of the semester. 
+- Produce at least 10 "Satisfactory" portfolio pieces over the course of the semester.
 
 - Complete two "Satisfactory" Unessays on a schedule you will specify in your contract and present the strongest as an asynchronous presentation.
 
 
-### "B+" Contract
+### "B" Contract  {-}
 
-To contract for an "B" in this course, you agree to:
-
-- Earn "Satisfactory" on 10 self-paced lab assignments on a schedule you will specify in your contract.
-
-- Produce at least 8 "Satisfactory" portfolio pieces over the course of the semester. 
-
-- Complete one "Satisfactory" Unessay on a schedule you will specify in your contract and present it during the last week of class
-
-
-### "C" Contract
-
-To contract for an "C" in this course, you agree to:
+To contract for a "B" in this course, you agree to:
 
 - Earn "Satisfactory" on 8 self-paced lab assignments on a schedule you will specify in your contract.
-
 
 - Produce at least 6 "Satisfactory" portfolio pieces over the course of the semester.
 
 - Complete one "Satisfactory" Unessay on a schedule you will specify in your contract and present it during the last week of class
 
 
+### "P" Contract  {-}
+
+To contract for a "P" or Pass in this course, you agree to:
+
+- Earn "Satisfactory" on 8 self-paced lab assignments on a schedule you will specify in your contract.
+
+- Produce at least 4 "Satisfactory" portfolio pieces over the course of the semester.
+
+- Complete one "Satisfactory" Unessay on a schedule you will specify in your contract and present it during the last week of class
 
 
-<!---
-Schedule
--->
 
-## Week 01, 01/10 - 01/14 : What is Data Science and Meet the Toolkit
-<!---
-- Monday: First Day of Class / Introduction
-- Wednesday: What is personality? (Chapter 1)
-- Friday: Research in Personality: Sources of Data (Chapter 2)
--->
-## Week 02, 01/17 - 01/21 : Data and Visualization
-<!---
-- Monday: NO CLASS MLK Day
-- Wednesday: Research Design: Validity (Chapter 2)
-- Friday: Research Design: Generalizability (Chapter 2; Short Assignment 1 Handed Out)
--->
-##  Week 03, 01/24 - 01/28 : Grammar of data wrangling 
-<!---
-- Monday: Personality Assessment (Chapter 3)
-- Tuesday: "Last day to add full-term class"
-- Wednesday: Evaluation and Ethics (Chapter 3)
-- Friday: Person versus Situation (Chapter 4)
--->
 
-##  Week 04, 01/31 - 02/04 : Data types and Data Transformations
-<!---
-- Monday: What are traits? What are the basic traits? (Chapter 4)
-- Wednesday: Personality Judgement (Chapter 5)
-- Friday: Using Personality Traits to Understand Behavior (Chapter 6; Assignment 1 Due)
--->
-##  Week 05, 02/07 - 02/11 : Tips for effective data visualization
-<!---
-- Monday: Big Five (Chapter 6)
-- Wednesday: Review
-- Friday: Test 1
--->
-##  Week 06, 02/14 - 02/18 : Scientific studies and confounding
-<!---
-- Monday: Brains (Chapter 8)
-- Wednesday: More Brains (Chapter 8)
-- Friday: Behavior Genetics (Chapter 9)
--->
-##  Week 07, 02/21 - 02/25 : Web scraping 
-<!---
-- Monday: Behavior Genetics (Chapter 9)
-- Wednesday: Evolutionary Psychology (Chapter 9)
-- Friday: Evolutionary Psychology (Chapter 9)
--->
-##  Week 08, 02/28 - 03/04 : Functions
-<!---
-- Monday: Personality over the Lifespan (Chapter 7)
-- Wednesday: Personality over the Lifespan (Chapter 7)
-- Friday: Personality Processes (Chapter 15)
--->
-##  Week 09, 03/07 - 03/11 : Data and Ethics
-<!---
-- Monday: No Class
-- Wednesday: No Class
-- Friday: No Class
--->
-##  Week 10, 03/14 - 03/18 : Fitting and interpreting models
-<!---
-- Monday: Personality Processes (Chapter 15)
-- Wednesday: Review
-- Friday: Test 2
--->
-##  Week 11, 03/21 - 03/25 : Prediction and overfitting
-<!---
-- Monday: The Self (Chapter 16) Last day to drop with a grade of "W"
-- Wednesday: The Self (Chapter 16)
-- Friday:  Freud (Chapter 10) 
--->
-##  Week 12, 03/28 - 04/01 : Cross validation
-<!---
-- Monday: Freud (Chapter 10)
-- Wednesday: Freud (Chapter 10)
-- Friday: Neo-Freud (Chapter 11; Assignment 2 Due)
--->
-## Week 13, 04/04 - 04/08 : Quantifying uncertainty
-<!---
-- Monday:  Neo-Freud (Chapter 11) 
-- Wednesday: Positive Psychology
-- Friday: Positive Psychology
--->
-##  Week 14, 04/11 - 04/15 : Interactive web apps
-<!---
-- Monday: Cross-Cultural Psychology
-- Wednesday: Cross-Cultural Psychology
-- Friday: Cross-Cultural Psychology
--->
 
-##  Week 15, 04/18 - 04/22 : Special Topics (like: Text analysis; Machine learning; Bayesian inference)
-<!---
-- Monday: Personality and Physical Health
-- Wednesday: Personality and Mental Health
-- Friday: Personality Disorders
+## Schedule {-}
 
-##  Week 16, 04/25 - 04/29 : NA 
+![](0204_datascience_files/figure-latex/unnamed-chunk-3-1.pdf)<!-- --> 
 
-- Monday: Special Topics
-- Wednesday: Review; Assignment 3 Due; Last Day of Class
 
-## Final Exam 
-
-- TBD on DEC TBD
-
-# References
-
--->
 
 <!--chapter:end:0204_datascience.Rmd-->
 
@@ -1689,8 +1399,7 @@ I don't want to discourage you from asking questions. However, asking me is not 
 > Q: \"Can you -\"\
 > A: I cannot.
 >
-> --- Alison Ledgerwood isn\'t here right now (\@AlisonLedg) [September
-> 23,
+> --- Alison Ledgerwood (\@AlisonLedg) [September 23,
 > 2021](https://twitter.com/AlisonLedg/status/1441181845706579969)
 
 ## How can I get ahold of you?

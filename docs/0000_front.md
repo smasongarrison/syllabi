@@ -120,7 +120,7 @@ This version of the notes was built with:
 #>  collate  English_United States.1252
 #>  ctype    English_United States.1252
 #>  tz       America/New_York
-#>  date     2021-12-30
+#>  date     2022-01-05
 #>  pandoc   2.11.4 @ C:/Program Files/RStudio/bin/pandoc/ (via rmarkdown)
 ```
 
@@ -145,7 +145,7 @@ bookdown & bookdown & 0.24 & 2021-09-02 & CRAN (R 4.0.5)\\
 brew & brew & NA & 2011-04-13 & CRAN (R 4.0.3)\\
 \addlinespace
 brio & brio & NA & 2021-11-30 & CRAN (R 4.0.5)\\
-broom & broom & 0.7.10 & 2021-10-31 & CRAN (R 4.0.5)\\
+broom & broom & 0.7.11 & 2022-01-03 & CRAN (R 4.0.5)\\
 cachem & cachem & 1.0.6 & 2021-08-19 & CRAN (R 4.0.5)\\
 callr & callr & 3.7.0 & 2021-04-20 & CRAN (R 4.0.5)\\
 cellranger & cellranger & 1.1.0 & 2016-07-27 & CRAN (R 4.0.3)\\
@@ -193,7 +193,7 @@ genderdata & genderdata & NA & NA & NA\\
 generics & generics & 0.1.1 & 2021-10-25 & CRAN (R 4.0.5)\\
 \addlinespace
 geonames & geonames & NA & 2019-02-19 & CRAN (R 4.0.3)\\
-gert & gert & NA & 2021-11-10 & CRAN (R 4.0.5)\\
+gert & gert & NA & 2022-01-03 & CRAN (R 4.0.5)\\
 ggplot2 & ggplot2 & 3.3.5 & 2021-06-25 & CRAN (R 4.0.5)\\
 gh & gh & NA & 2021-04-30 & CRAN (R 4.0.5)\\
 gitcreds & gitcreds & NA & 2020-12-04 & CRAN (R 4.0.3)\\

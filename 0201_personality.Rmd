@@ -17,7 +17,7 @@ bib <- ReadBib("book.bib")
 bib <- c(bib, as.BibEntry(citation()))
 bib[length(bib)]$key = "Rcite"
 
-topic=c(
+topic = c(
   "What is Personality", 
   "Personality Research Methods",
   "Assessment, Evaluation, and Ethics",
@@ -34,35 +34,43 @@ topic=c(
   "Thanksgiving Break!",
   "Personality and Health"
   )
+
+
+
+classschedule <- data.frame(module = 1:number_of_weeks)
+classschedule$start <- advdate(dayone,classschedule$module,assignment = "m")
+classschedule$topic <- topic[1:number_of_weeks]
+classschedule$week <- advdate(dayone,classschedule$module)
+
 ```
 
 
 
-## Course Description
+## Course Description   {-}
 
 This class provides a survey of theory and research on the structure and function of human personality, with attention to the relationship to cognition, emotion, motivation, and behavior. It requires P-PSY 151. In addition, we will discuss other individual differences, such as intelligence.
 
-### Broad goals for the course:
+### Broad goals for the course:   {-}
 - 1. The first is for you to understand what personality psychologists think. We will cover classic and current theories, research, and applications of Personality psychology.
 - 2. The second is for you to learn how personality psychologists study their field scientifically. We will discuss the procedures used to test theories and to study issues related to personality.
 - 3. The third is to (hopefully) recognize some relevance of personality psychology for your personal and/or professional life.
 
 
-## Required Materials
+## Required Materials   {-}
 
 ```{r, echo = FALSE, results="asis"} 
 bib[sort(c("funder_personality_2016"))]
 ``` 
 
 
-## Course Assignments
+## Course Assignments   {-}
 
-### Quizzes 
+### Quizzes    {-}
 There will be 6 quizzes in this course. The best 5 out of 6 quizzes grades will be used to determine your total quiz grade.  You can drop any of the quizzes for any reason BUT YOU MUST PASS THE LAST Quiz (held at TBD on Dec TBD).  If you do not pass the final quiz, your score on that quiz will count as one of your 5 grades. If you do pass the final quiz, then the best 5 grades will be used (irrespective of your score on the final quiz).
 
 
 
-#### Quiz Dates
+#### Quiz Dates   {-}
 
 - Quiz 1: Friday, `r advdate(dayone, 3, assignment="f")`
 
@@ -77,7 +85,7 @@ There will be 6 quizzes in this course. The best 5 out of 6 quizzes grades will 
 - Quiz 6: During Finals, `r advdate(dayone, 16, assignment="f")`
 
 
-### Short Assignments
+### Short Assignments   {-}
 
 There will be three (3) short assignments in this course. These assignments will allow you to incorporate some of your own interests into the course. Such interests could be related to your career, another class you're taking, a hobby you're exploring, or some other random fancy. They will typically be approximately two (2) pages. I will provide more specific written guidelines at least two weeks before each assignment is due.
 
@@ -85,7 +93,7 @@ There will be three (3) short assignments in this course. These assignments will
 The best two (2) out of three (3) short assignments will be used to determine your total short assignments.  You can skip one of the assignments for any reason.
 
 
-#### Short Assignment Dates
+#### Short Assignment Dates   {-}
 
 - Assignment 1: Friday, `r advdate(dayone, 7, assignment="f")`: Critique of an online personality test.
 
@@ -93,17 +101,17 @@ The best two (2) out of three (3) short assignments will be used to determine yo
 
 - Assignment 3: Friday, `r advdate(dayone, 15, assignment="f")`: Critique of a personality-related YouTube video.
 
-### Engagement Activities
+### Engagement Activities   {-}
 
 There will be multiple engagement activities in this course. These activities will allow you engage with the material for each module. Details about the specific activities will be provided on canvas. Students must complete two activities per module. For students in the blended section, they can attend their weekly in-person session and count it as an engagement activity.
 
 
-## Grading Policy
+## Grading Policy   {-}
 
 ```{r child = './common/content/grading.Xmd'}
 ```
 
-### Weighting
+### Weighting   {-}
 
 - 150 points of your grade will be determined by your best 5 quizzes
     - The final is not optional.
@@ -112,109 +120,21 @@ There will be multiple engagement activities in this course. These activities wi
 
 
 
-## Schedule
+## Schedule {-}
+
+```{r message = FALSE, warning = FALSE, echo = FALSE}
+
+classschedule %>% 
+  DT::datatable(rownames = FALSE,
+                class = 'cell-border stripe',
+                #filter = list(position = 'top'),
+                options = list(pageLength = nrow(classschedule$module), 
+                           autoWidth = FALSE,
+                           bInfo = FALSE,
+                           paging = FALSE))
+```
 
 
-## `r advdate(dayone, 1, topic)`  {-}
-<!---
-- Monday: First Day of Class / Introduction
-- Wednesday: What is personality? (Chapter 1)
-- Friday: Research in Personality: Sources of Data (Chapter 2)
--->
-## `r advdate(dayone, 2, topic)`  {-}
-<!---
-- Monday: NO CLASS MLK Day
-- Wednesday: Research Design: Validity (Chapter 2)
-- Friday: Research Design: Generalizability (Chapter 2; Short Assignment 1 Handed Out)
--->
-##  `r advdate(dayone, 3, topic)`   {-}
-<!---
-- Monday: Personality Assessment (Chapter 3)
-- Tuesday: "Last day to add full-term class"
-- Wednesday: Evaluation and Ethics (Chapter 3)
-- Friday: Person versus Situation (Chapter 4)
--->
 
-##  `r advdate(dayone, 4, topic)` {-}
-<!---
-- Monday: What are traits? What are the basic traits? (Chapter 4)
-- Wednesday: Personality Judgement (Chapter 5)
-- Friday: Using Personality Traits to Understand Behavior (Chapter 6; Assignment 1 Due)
--->
-##  `r advdate(dayone, 5, topic)` {-}
-<!---
-- Monday: Big Five (Chapter 6)
-- Wednesday: Review
-- Friday: Test 1
--->
-##  `r advdate(dayone, 6, topic)`  {-}
-<!---
-- Monday: Brains (Chapter 8)
-- Wednesday: More Brains (Chapter 8)
-- Friday: Behavior Genetics (Chapter 9)
--->
-##  `r advdate(dayone, 7, topic)`  {-}
-<!---
-- Monday: Behavior Genetics (Chapter 9)
-- Wednesday: Evolutionary Psychology (Chapter 9)
-- Friday: Evolutionary Psychology (Chapter 9)
--->
-##  `r advdate(dayone, 8, topic)`  {-}
-<!---
-- Monday: Personality over the Lifespan (Chapter 7)
-- Wednesday: Personality over the Lifespan (Chapter 7)
-- Friday: Personality Processes (Chapter 15)
--->
-##  `r advdate(dayone, 9, topic)`  {-}
-<!---
-- Monday: No Class
-- Wednesday: No Class
-- Friday: No Class
--->
-##  `r advdate(dayone, 10, topic)`  {-}
-<!---
-- Monday: Personality Processes (Chapter 15)
-- Wednesday: Review
-- Friday: Test 2
--->
-##  `r advdate(dayone, 11, topic)`  {-}
-<!---
-- Monday: The Self (Chapter 16) Last day to drop with a grade of "W"
-- Wednesday: The Self (Chapter 16)
-- Friday:  Freud (Chapter 10) 
--->
-##  `r advdate(dayone, 12, topic)`  {-}
-<!---
-- Monday: Freud (Chapter 10)
-- Wednesday: Freud (Chapter 10)
-- Friday: Neo-Freud (Chapter 11; Assignment 2 Due)
--->
-## `r advdate(dayone, 13, topic)`  {-}
-<!---
-- Monday:  Neo-Freud (Chapter 11) 
-- Wednesday: Positive Psychology
-- Friday: Positive Psychology
--->
-##  `r advdate(dayone, 14, topic)`  {-}
-<!---
-- Monday: Cross-Cultural Psychology
-- Wednesday: Cross-Cultural Psychology
-- Friday: Cross-Cultural Psychology
--->
-
-##  `r advdate(dayone, 15, topic)`  {-}
-<!---
-- Monday: Personality and Physical Health
-- Wednesday: Personality and Mental Health
-- Friday: Personality Disorders
-
-##  `r advdate(dayone, 16, topic)` 
-
-- Monday: Special Topics
-- Wednesday: Review; Assignment 3 Due; Last Day of Class
--->
-## Final Exam   {-}
-
-- TBD on DEC TBD
 
 

@@ -1,8 +1,8 @@
 
-Typically, an A- is defined as 90% of the highest point total in the class, B- as 80% of that total, C- as 70 and D- as 60%. 
-I may shift these values down to provide a better fit to the actual point distribution. 
-By scaling to a percentage of the highest point total in the class, each student has a much better chance of receiving higher grades than if no re-scaling were done. 
-This curve can only help your grade. 
+Typically, an A- is defined as 90% of the highest point total in the class, B- as 80% of that total, C- as 70 and D- as 60%.
+I may shift these values down to provide a better fit to the actual point distribution.
+By scaling to a percentage of the highest point total in the class, each student has a much better chance of receiving higher grades than if no re-scaling were done.
+This curve can only help your grade.
 
 The full table is provided below:
 ```{r echo=FALSE}
@@ -16,11 +16,11 @@ knitr::kable(
 )
 ```
 
-### Curve Projections
+### Curve Projections    {-}
 
-Unsurprisingly, students have many questions about the curve in this class. For tests and other assignments, I try to provide a projected letter grade. 
-This projected letter grade is there to give you a sense of what your score *would* be if I implemented the class curve on this particular assignment. 
-It is a projection. It is not a guarantee. These projected letter grades are not incorporated into your final grade. 
+Unsurprisingly, students have many questions about the curve in this class. For tests and other assignments, I try to provide a projected letter grade.
+This projected letter grade is there to give you a sense of what your score *would* be if I implemented the class curve on this particular assignment.
+It is a projection. It is not a guarantee. These projected letter grades are not incorporated into your final grade.
 Trust me, you do not want me to curve by assignment.
 
 

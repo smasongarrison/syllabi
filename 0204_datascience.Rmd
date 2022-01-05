@@ -59,178 +59,89 @@ topic=c(
   "Special Topics (like: Text analysis; Machine learning; Bayesian inference)" 
   )
 
-
+  
+classschedule <- data.frame(module = 1:number_of_weeks)
+classschedule$start <- advdate(dayone,classschedule$module,assignment = "m")
+classschedule$topic <- topic[1:number_of_weeks]
+classschedule$week <- advdate(dayone,classschedule$module)
 
 ```
 
 
 
-## Course Description
+## Course Description {-}
 
 Data Science for Psychologists (DSP) introduces on the principles of data science, including data wrangling, modeling, visualization, and communication. In this class, we link those principles to psychological methods and open science practices by emphasizing exploratory analyses and description, rather than confirmatory analyses and prediction. We'll work our way thru Wickham and Grolemund's R for Data Science text (http://r4ds.had.co.nz/) and develop expertise in tidyverse (https://www.tidyverse.org/). This class emphasizes replication and reproducibility. DSP is a practical skilled-based class and should be useful to students aiming for academia as well as those interested in industry. Applications of these methods can be applied to a full range of psychological areas, including perception (e.g, eye-tracking data), neuroscience (e.g., visualizing neural networks), and individual differences (e.g., valence analysis).
 
 
-### Broad goals for the course:
+### Broad goals for the course:  {-}
 - 1. Reproducibility;
 - 2. Replication;
 - 3. Robust Methods;
 - 4. Really Nice Visualization; and
-- 5. R.
+- 5. R
 
-## Required Materials
+## Required Materials  {-}
 
 Wickham and Grolemund's R for Data Science text (http://r4ds.had.co.nz/)
 
 
 
 
-## Course Assignments
+## Course Assignments  {-}
 
 You will be formally evaluated in three different ways.
 
 
 
-### Presentation
+### Presentation {-}
 
-You will give one asynchronous presentation. approximately 10- minutes.  This presentation is chance to practice a formal presentation in a relatively pressure-free setting).
-
-
-### Labs
+You will give one asynchronous presentation. approximately 10- minutes. This presentation is chance to practice a formal presentation in a relatively pressure-free setting).
 
 
+### Labs  {-}
 
-### Portfolio
+
+
+### Portfolio  {-}
 
 The major semester projects (described on the data science website) is a set of EDA Projects, which you will summarize in an EDA Portfolio to be handed in on the last day of class.
 
 
 
 
-### Engagement
+### Engagement  {-}
 
 This experiential course requires active engagement. There will be few lectures and we will not be building toward an exam.  Instead, we will work together to build our facilities for thinking critically about data. You should come to every class having read all of the required reading, watched the required videos, browsed the suggested resources, and so forth. You should enter the classroom prepared to discuss these materials with colleagues and complete both individual and group in-class assignments.
 
 
 
-## Grading Policy
+## Grading Policy  {-}
 
 ```{r child = './common/content/contract.Xmd'}
 ```
 
 
-### Contract Grades
+### Contract Grades  {-}
 
 
 ```{r child = './common/content/contract_grades_ds4p.Xmd'}
 ```
 
 
-<!---
-Schedule
--->
 
-## `r advdate(dayone, 1, topic)`
-<!---
-- Monday: First Day of Class / Introduction
-- Wednesday: What is personality? (Chapter 1)
-- Friday: Research in Personality: Sources of Data (Chapter 2)
--->
-## `r advdate(dayone, 2, topic)`
-<!---
-- Monday: NO CLASS MLK Day
-- Wednesday: Research Design: Validity (Chapter 2)
-- Friday: Research Design: Generalizability (Chapter 2; Short Assignment 1 Handed Out)
--->
-##  `r advdate(dayone, 3, topic)` 
-<!---
-- Monday: Personality Assessment (Chapter 3)
-- Tuesday: "Last day to add full-term class"
-- Wednesday: Evaluation and Ethics (Chapter 3)
-- Friday: Person versus Situation (Chapter 4)
--->
+## Schedule {-}
 
-##  `r advdate(dayone, 4, topic)`
-<!---
-- Monday: What are traits? What are the basic traits? (Chapter 4)
-- Wednesday: Personality Judgement (Chapter 5)
-- Friday: Using Personality Traits to Understand Behavior (Chapter 6; Assignment 1 Due)
--->
-##  `r advdate(dayone, 5, topic)`
-<!---
-- Monday: Big Five (Chapter 6)
-- Wednesday: Review
-- Friday: Test 1
--->
-##  `r advdate(dayone, 6, topic)`
-<!---
-- Monday: Brains (Chapter 8)
-- Wednesday: More Brains (Chapter 8)
-- Friday: Behavior Genetics (Chapter 9)
--->
-##  `r advdate(dayone, 7, topic)` 
-<!---
-- Monday: Behavior Genetics (Chapter 9)
-- Wednesday: Evolutionary Psychology (Chapter 9)
-- Friday: Evolutionary Psychology (Chapter 9)
--->
-##  `r advdate(dayone, 8, topic)`
-<!---
-- Monday: Personality over the Lifespan (Chapter 7)
-- Wednesday: Personality over the Lifespan (Chapter 7)
-- Friday: Personality Processes (Chapter 15)
--->
-##  `r advdate(dayone, 9, topic)`
-<!---
-- Monday: No Class
-- Wednesday: No Class
-- Friday: No Class
--->
-##  `r advdate(dayone, 10, topic)`
-<!---
-- Monday: Personality Processes (Chapter 15)
-- Wednesday: Review
-- Friday: Test 2
--->
-##  `r advdate(dayone, 11, topic)`
-<!---
-- Monday: The Self (Chapter 16) Last day to drop with a grade of "W"
-- Wednesday: The Self (Chapter 16)
-- Friday:  Freud (Chapter 10) 
--->
-##  `r advdate(dayone, 12, topic)`
-<!---
-- Monday: Freud (Chapter 10)
-- Wednesday: Freud (Chapter 10)
-- Friday: Neo-Freud (Chapter 11; Assignment 2 Due)
--->
-## `r advdate(dayone, 13, topic)`
-<!---
-- Monday:  Neo-Freud (Chapter 11) 
-- Wednesday: Positive Psychology
-- Friday: Positive Psychology
--->
-##  `r advdate(dayone, 14, topic)`
-<!---
-- Monday: Cross-Cultural Psychology
-- Wednesday: Cross-Cultural Psychology
-- Friday: Cross-Cultural Psychology
--->
+```{r message = FALSE, warning = FALSE, echo = FALSE}
 
-##  `r advdate(dayone, 15, topic)`
-<!---
-- Monday: Personality and Physical Health
-- Wednesday: Personality and Mental Health
-- Friday: Personality Disorders
+classschedule %>% 
+  DT::datatable(rownames = FALSE,
+                class = 'cell-border stripe',
+                #filter = list(position = 'top'),
+                options = list(pageLength = nrow(classschedule$module), 
+                           autoWidth = FALSE,
+                           bInfo = FALSE,
+                           paging = FALSE))
+```
 
-##  `r advdate(dayone, 16, topic)` 
 
-- Monday: Special Topics
-- Wednesday: Review; Assignment 3 Due; Last Day of Class
-
-## Final Exam 
-
-- TBD on DEC TBD
-
-# References
-
--->
