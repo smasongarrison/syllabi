@@ -31,12 +31,12 @@ You will be formally evaluated in three different ways.
 
 ### Presentation {-}
 
-You will give one asynchronous presentation. approximately 10- minutes. This presentation is chance to practice a formal presentation in a relatively pressure-free setting).
+You will give one presentation. This presentation will be approximately 10-minutes. This presentation is chance to practice a formal presentation in a relatively pressure-free setting).
 
 
 ### Labs  {-}
 
-
+There is (at least) one lab available per module.
 
 ### Portfolio  {-}
 
@@ -132,7 +132,7 @@ To contract for a "P" or Pass in this course, you agree to:
 
 
 
-## Schedule {-}
+## Tentative Module Finalization {-}
 
 ![](0204_datascience_files/figure-latex/unnamed-chunk-3-1.pdf)<!-- --> 
 
