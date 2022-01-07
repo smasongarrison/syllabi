@@ -1382,8 +1382,6 @@ There is (at least) one lab available per module.
 The major semester projects (described on the data science website) is a set of EDA Projects, which you will summarize in an EDA Portfolio to be handed in on the last day of class.
 
 
-
-
 ### Engagement  {-}
 
 This experiential course requires active engagement. There will be few lectures and we will not be building toward an exam.  Instead, we will work together to build our facilities for thinking critically about data. You should come to every class having read all of the required reading, watched the required videos, browsed the suggested resources, and so forth. You should enter the classroom prepared to discuss these materials with colleagues and complete both individual and group in-class assignments.
@@ -1471,7 +1469,9 @@ To contract for a "P" or Pass in this course, you agree to:
 
 
 
-## Tentative Module Finalization {-}
+## Tentative Module Release Schedule {-}
+
+Note that I'll be using your contracts to guide my tinkering.
 
 ![](0204_datascience_files/figure-latex/unnamed-chunk-3-1.pdf)<!-- --> 
 
