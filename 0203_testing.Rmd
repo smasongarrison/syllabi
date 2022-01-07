@@ -79,7 +79,7 @@ The text [@anastasi1997] is intended to supplement the lectures. The lectures do
 
 
 ## Course Assignments    {-}
-## Grading Policy   {-}
+### Grading Policy   {-}
 
 ```{r child = './common/content/grading.Xmd'}
 ```

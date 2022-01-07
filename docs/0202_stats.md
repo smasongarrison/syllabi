@@ -14,7 +14,7 @@ This course is designed to help students develop the conceptual background and p
 ### Broad goals for the course:  {-}
 - 1. To understand the selection, computation, and interpretation of descriptive and inferential
 statistics
-- 2. To learn how to use and interpret R (R Core Team 2018).
+- 2. To learn how to use and interpret R.
 
 
 ## Required Materials  {-}
@@ -23,13 +23,96 @@ Morling, Research Methods in Psychology https://wwnorton.com/books/9780393893724
 
 
 ## Course Assignments  {-}
+### Grading Policy   {-}
+
+
+
+Typically, an A- is defined as 90% of the highest point total in the class, B- as 80% of that total, C- as 70 and D- as 60%.
+I may shift these values down to provide a better fit to the actual point distribution.
+By scaling to a percentage of the highest point total in the class, each student has a much better chance of receiving higher grades than if no re-scaling were done.
+This curve can only help your grade.
+
+The full table is provided below:
+
+Table: (\#tab:unnamed-chunk-3)Full Table
+
+|Letter | Cutoff|
+|:------|------:|
+|A      |   0.95|
+|A-     |   0.90|
+|B+     |   0.87|
+|B      |   0.83|
+|B-     |   0.80|
+|C+     |   0.77|
+|C      |   0.73|
+|C-     |   0.70|
+|D+     |   0.67|
+|D      |   0.63|
+|D-     |   0.60|
+
+### Curve Projections    {-}
+
+Unsurprisingly, students have many questions about the curve in this class. For tests and other assignments, I try to provide a projected letter grade.
+This projected letter grade is there to give you a sense of what your score *would* be if I implemented the class curve on this particular assignment.
+It is a projection. It is not a guarantee. These projected letter grades are not incorporated into your final grade.
+Trust me, you do not want me to curve by assignment.
+
+
+
+### Quizzes   {-}
+There will be 5 quizzes in this course. These will be approximately every three weeks. The best 4 out of 5 quiz grades will be used to determine your total quiz grade.  You can drop 1 of the quizzes for any reason.
+
+
+#### Quiz Dates   {-}
+
+- Quiz 1: Friday, 02/04
+
+- Quiz 2: Friday, 02/25
+
+- Quiz 3: Friday, 03/25
+
+- Quiz 4: Friday, 04/15
+
+- Quiz 5: During Finals, 05/06
+
+
+### Take Home Assignments   {-}
+There are two sets of take-home assignments. Each set contains a qualitative part and a quantitative part. (In other words you have four parts).
+
+
+I will provide more specific written guidelines at least two weeks before each assignment is due. You have to submit both parts of assignment 1 because I give extensive feedback that will help you on later assignments. However, you may skip part of assignment 2.
+
+
+#### Assignment Dates   {-}
+
+- Assignment 1: Friday, 03/04: Problem Set 1 and Qualitative Critique 1
+
+- Assignment 2: Friday, 04/22: Problem Set 2 and Qualitative Critique 2
+
+
+
+## Engagement Activities   {-}
+
+There will be multiple engagement activities in this course. These activities will allow you engage with the material for each module. Details about the specific activities will be provided on canvas. Students must complete two activities per module.
+
+
+## Grading Weighting   {-}
+
+- 200 points of your grade will be determined by your best four (4) quizzes.
+- 150 points of your grade will be determined by your best three (3) parts of take-home assignments.
+- 50 points of your grade will be determined by your engagement.
+
 
 
 ## Schedule  {-}
 
 
 
-![](0202_stats_files/figure-latex/unnamed-chunk-1-1.pdf)<!-- --> 
+
+```{=html}
+<div id="htmlwidget-3715c22911b110c9afbe" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-3715c22911b110c9afbe">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17],["01/10","01/17","01/24","01/31","02/07","02/14","02/21","02/28","03/07","03/14","03/21","03/28","04/04","04/11","04/18","04/25","05/02"],["Introduction","Getting Ready to Do Statistical Analysis","The Scientific Process, Types of StudiesDescribing Data with R","Univariate Distributions","Test 1","Bivariate Distributions","Probability Theory","Binomials and other sampling distributions","Spring Break","Hypothesis Testing","Inferences about means","Special Topics","Test 3","Applications in R","Applications in R","Applications in R","NA"],["Week 01, 01/10 - 01/14","Week 02, 01/17 - 01/21","Week 03, 01/24 - 01/28","Week 04, 01/31 - 02/04","Week 05, 02/07 - 02/11","Week 06, 02/14 - 02/18","Week 07, 02/21 - 02/25","Week 08, 02/28 - 03/04","Week 09, 03/07 - 03/11","Week 10, 03/14 - 03/18","Week 11, 03/21 - 03/25","Week 12, 03/28 - 04/01","Week 13, 04/04 - 04/08","Week 14, 04/11 - 04/15","Week 15, 04/18 - 04/22","Week 16, 04/25 - 04/29","Week 17, 05/02 - 05/06"],[null,null,null,"Quiz",null,null,"Quiz","Assignment",null,null,"Quiz",null,null,"Quiz","Assignment",null,"Quiz"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n      <th>milestones<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0}],"order":[],"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+```
 
 
 <!---
@@ -47,7 +130,7 @@ Schedule
 - Thursday: Sampling Theory (Chapter 8) / Measurement in the Social/Behavioral Sciences 
 
 
-##  Week 03, 01/24 - 01/28 : Describing Data with R 
+##  Week 03, 01/24 - 01/28 : The Scientific Process, Types of StudiesDescribing Data with R 
 
 - Tuesday: Describing Data Graphically with R
 
@@ -85,7 +168,7 @@ Schedule
 
 - Thursday: Review
 
-##  Week 09, 03/07 - 03/11 : Test 2
+##  Week 09, 03/07 - 03/11 : Spring Break
 
 - Tuesday: Test 2
 
