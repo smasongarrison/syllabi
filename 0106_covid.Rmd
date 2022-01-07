@@ -1,6 +1,12 @@
 # Public Health in the age of COVID-19
 
-At the request of my university, I have included the following information related to public health.
+Here's the deal. I'm *probably* at increased risk of complications. In this class, mask compliance is essential for us (and me) making it through the semester. At present, I am in the position where I have to put my health in your hands. I have many thoughts as to why, how, and who has led to me being in this present position. I don't fault students. However, I need you to understand that the stakes are high.
+
+Regardless of any changes to university policy or mask mandates, we will be masked for the entire semester. You will put your mask on *before* you enter my class. Your mask will cover your nose and mouth. I will pause class if I see your nose. If your struggle with this, I am very happy to show you how to properly secure your mask. Truly. I would love to show you how, so that we can all be a little safer. If you feel sick or are exposed, please don't come to class. I will happily meet with you (remotely) to fill you in. 
+
+
+
+## As required by Wake Forest Univeristy, I have included the following information related to public health. It is reproduced verbatim. Dead links and all. 
 
 > We share responsibility for the health and safety of each other in a learning space. Maintaining a consistent six feet of distance; wearing face coverings that cover our mouths and noses; limiting our gathering sizes; and isolating or quarantining when ill or exposed to someone with the virus are Wake Forest University directives and policies we all must follow. Students are encouraged to visit [Our Way Forward](https://ourwayforward.wfu.edu/) to stay informed about the latest guidance and review the [Public Health Emergency Addendum to the Student Code of Conduct](https://studentconduct.wfu.edu/undergraduate-student-handbook/public-health-emergency-addendum/).  
 >
@@ -15,4 +21,5 @@ At the request of my university, I have included the following information relat
 > 
 > If you do not comply, I will ask you to leave the class for that day. 
 >
-> [I will also refer the matter to the COVID-19 compliance reporting system](https://cm.maxient.com/reportingform.php?WakeForestUniv&layout_id=40). Possible disciplinary actions may follow as described in the Wake Forest University Undergraduate Student Conduct Code Public Health Emergency Addendum.
+> [I will also refer the matter to the COVID-19 compliance reporting system](https://cm.maxient.com/reportingform.php?WakeForestUniv&layout_id=40). Possible disciplinary actions may follow as described in the Wake Forest University Student Conduct Code Public Health Emergency Addendum.
+
