@@ -81,7 +81,8 @@ On mobile devices, Canvas is designed to be used within Canvas mobile applicatio
 * In order to get an accurate view of your final grade towards the end of the semester, make sure to uncheck the Calculate based only on graded assignments checkbox:
 
 
-<img src="img/grades.png" width="50%" style="display: block; margin: auto;" />
+
+\begin{center}\includegraphics[width=0.5\linewidth]{img/grades} \end{center}
 
 
 * You may also be seeing icons and colors when you view your grades. [Learn what these grade icons and colors mean](https://community.canvaslms.com/t5/Student-Guide/How-do-I-use-the-icons-and-colors-in-the-Grades-page/ta-p/476)
@@ -217,7 +218,8 @@ You can search the Canvas Guides or contact the Canvas Support Helpline by click
 
 **Tech Support Cheat Sheet**
 
-![](https://imgs.xkcd.com/comics/tech_support_cheat_sheet.png)<!-- -->
+
+\includegraphics[width=10.17in]{img/tech_support_cheat_sheet} 
 
 ## Public Health
 

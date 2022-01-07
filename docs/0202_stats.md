@@ -11,12 +11,6 @@ Methods in Psychological Research introduces statistics and research design for 
 This course is designed to help students develop the conceptual background and practical skills necessary to evaluate the statistics encountered in their coursework and in everyday life. It emphasizes selection, application, and interpretation. Topics to be covered include statistical inference, probability distributions, sampling, hypothesis testing, and correlation. The goal will be to go beyond rote memorization of abstract formulas and for students to develop an appreciation for the critical role that statistics plays in psychological science.
 
 
-### Broad goals for the course:  {-}
-- 1. To understand the selection, computation, and interpretation of descriptive and inferential
-statistics
-- 2. To learn how to use and interpret R.
-
-
 ## Required Materials  {-}
 
 Morling, Research Methods in Psychology https://wwnorton.com/books/9780393893724
@@ -33,22 +27,38 @@ By scaling to a percentage of the highest point total in the class, each student
 This curve can only help your grade.
 
 The full table is provided below:
+\begin{table}
 
-Table: (\#tab:unnamed-chunk-3)Full Table
-
-|Letter | Cutoff|
-|:------|------:|
-|A      |   0.95|
-|A-     |   0.90|
-|B+     |   0.87|
-|B      |   0.83|
-|B-     |   0.80|
-|C+     |   0.77|
-|C      |   0.73|
-|C-     |   0.70|
-|D+     |   0.67|
-|D      |   0.63|
-|D-     |   0.60|
+\caption{(\#tab:unnamed-chunk-3)Full Table}
+\centering
+\begin{tabular}[t]{l|r}
+\hline
+Letter & Cutoff\\
+\hline
+A & 0.95\\
+\hline
+A- & 0.90\\
+\hline
+B+ & 0.87\\
+\hline
+B & 0.83\\
+\hline
+B- & 0.80\\
+\hline
+C+ & 0.77\\
+\hline
+C & 0.73\\
+\hline
+C- & 0.70\\
+\hline
+D+ & 0.67\\
+\hline
+D & 0.63\\
+\hline
+D- & 0.60\\
+\hline
+\end{tabular}
+\end{table}
 
 ### Curve Projections    {-}
 
@@ -60,34 +70,36 @@ Trust me, you do not want me to curve by assignment.
 
 
 ### Quizzes   {-}
-There will be 5 quizzes in this course. These will be approximately every three weeks. The best 4 out of 5 quiz grades will be used to determine your total quiz grade.  You can drop 1 of the quizzes for any reason.
+
+There will be 14 multiple-choice reading quizzes (effectively these are weekly). The best 10 out of 14 quiz grades will be used to determine your total quiz grade.  You can drop 4 of the quizzes for any reason.
+
+### Exams   {-}
+
+There will be 3 exams. The best 2 out of 3 exam grades will be used to determine your total exam grade.  You can drop 1 of the exams for any reason.
 
 
-#### Quiz Dates   {-}
+#### Exams Dates   {-}
 
-- Quiz 1: Friday, 02/04
+- Exam 1: Friday, 02/11
 
-- Quiz 2: Friday, 02/25
+- Exam 2: Friday, 04/01
 
-- Quiz 3: Friday, 03/25
-
-- Quiz 4: Friday, 04/15
-
-- Quiz 5: During Finals, 05/06
+- Exam 3: During Finals, 05/06
 
 
-### Take Home Assignments   {-}
-There are two sets of take-home assignments. Each set contains a qualitative part and a quantitative part. (In other words you have four parts).
+### Short Assignments   {-}
+
+There will be two (2) short assignments in this course. These assignments will allow you to incorporate some of your own interests into the course. Such interests could be related to your career, another class you're taking, a hobby you're exploring, or some other random fancy. They will typically be approximately two (2) pages. I will provide more specific written guidelines at least two weeks before each assignment is due.
 
 
-I will provide more specific written guidelines at least two weeks before each assignment is due. You have to submit both parts of assignment 1 because I give extensive feedback that will help you on later assignments. However, you may skip part of assignment 2.
+The best one (1) out of two (2) short assignments will be used to determine your total short assignments.  You can skip one of the assignments for any reason.
 
 
 #### Assignment Dates   {-}
 
-- Assignment 1: Friday, 03/04: Problem Set 1 and Qualitative Critique 1
+- Assignment 1: Friday, 03/04: Qualitative Critique 1
 
-- Assignment 2: Friday, 04/22: Problem Set 2 and Qualitative Critique 2
+- Assignment 2: Friday, 04/29: Qualitative Critique 2
 
 
 
@@ -98,21 +110,17 @@ There will be multiple engagement activities in this course. These activities wi
 
 ## Grading Weighting   {-}
 
-- 200 points of your grade will be determined by your best four (4) quizzes.
-- 150 points of your grade will be determined by your best three (3) parts of take-home assignments.
+- 200 points of your grade will be determined by your best two (2) exams.
+- 50 points of your grade will be determined by your best assignment.
 - 50 points of your grade will be determined by your engagement.
-
+- 100 points of your grade will be determined by your best 10 quizzes.
 
 
 ## Schedule  {-}
 
 
 
-
-```{=html}
-<div id="htmlwidget-3715c22911b110c9afbe" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-3715c22911b110c9afbe">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17],["01/10","01/17","01/24","01/31","02/07","02/14","02/21","02/28","03/07","03/14","03/21","03/28","04/04","04/11","04/18","04/25","05/02"],["Introduction","Getting Ready to Do Statistical Analysis","The Scientific Process, Types of StudiesDescribing Data with R","Univariate Distributions","Test 1","Bivariate Distributions","Probability Theory","Binomials and other sampling distributions","Spring Break","Hypothesis Testing","Inferences about means","Special Topics","Test 3","Applications in R","Applications in R","Applications in R","NA"],["Week 01, 01/10 - 01/14","Week 02, 01/17 - 01/21","Week 03, 01/24 - 01/28","Week 04, 01/31 - 02/04","Week 05, 02/07 - 02/11","Week 06, 02/14 - 02/18","Week 07, 02/21 - 02/25","Week 08, 02/28 - 03/04","Week 09, 03/07 - 03/11","Week 10, 03/14 - 03/18","Week 11, 03/21 - 03/25","Week 12, 03/28 - 04/01","Week 13, 04/04 - 04/08","Week 14, 04/11 - 04/15","Week 15, 04/18 - 04/22","Week 16, 04/25 - 04/29","Week 17, 05/02 - 05/06"],[null,null,null,"Quiz",null,null,"Quiz","Assignment",null,null,"Quiz",null,null,"Quiz","Assignment",null,"Quiz"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n      <th>milestones<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0}],"order":[],"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
-```
+![](0202_stats_files/figure-latex/unnamed-chunk-2-1.pdf)<!-- --> 
 
 
 <!---
@@ -130,7 +138,7 @@ Schedule
 - Thursday: Sampling Theory (Chapter 8) / Measurement in the Social/Behavioral Sciences 
 
 
-##  Week 03, 01/24 - 01/28 : The Scientific Process, Types of StudiesDescribing Data with R 
+##  Week 03, 01/24 - 01/28 : Describing Data with R 
 
 - Tuesday: Describing Data Graphically with R
 
@@ -146,23 +154,23 @@ Schedule
 - Tuesday: Univariate Distributions (Chapter 1/2)
 - Thursday: Standardization, z-scores, and the normal distribution	(Chapter 3)
 
-##  Week 05, 02/07 - 02/11 : Test 1
+##  Week 05, 02/07 - 02/11 : Bivariate Distributions
 
 - Tuesday: Test 1 Review
 
 - Thursday: Test 1
 
-##  Week 06, 02/14 - 02/18 : Bivariate Distributions
+##  Week 06, 02/14 - 02/18 : Probability Theory
 
 - Tuesday: Bivariate Distributions (Chapter 4)
 
 - Thursday: Correlation	(Chapter 5)
 
-##  Week 07, 02/21 - 02/25 : Probability Theory 
+##  Week 07, 02/21 - 02/25 : Binomials and other sampling distributions 
 
 - Thursday: Probability Theory (Chapter 12) 
 
-##  Week 08, 02/28 - 03/04 : Binomials and other sampling distributions
+##  Week 08, 02/28 - 03/04 : Hypothesis Testing
 
 - Tuesday: More Probability Theory (Chapter 13) 
 
@@ -177,25 +185,25 @@ Schedule
     - Last day undergraduate students may withdraw from fall semester classes
     - Last day to change from pass/fail to graded status in a fall semester class
 
-##  Week 10, 03/14 - 03/18 : Hypothesis Testing
+##  Week 10, 03/14 - 03/18 : T-Tests
 
 - Tuesday: The Logic of Hypothesis Testing Hypotheses, Errors (Chapters 16-19)
 
 - Thursday: t-tests
 
-##  Week 11, 03/21 - 03/25 : Inferences about means
+##  Week 11, 03/21 - 03/25 : Regression
 
 - Tuesday: Applying t-tests and ANOVA (Chapters 20 & 21)
 
 - Thursday: More Analysis of Variance	(Chapters 24 & 27)
 
-##  Week 12, 03/28 - 04/01 : Special Topics
+##  Week 12, 03/28 - 04/01 : Causal Inference
 
 - Tuesday: Subverting the Research Process
 
 - Thursday: Causal Inference
 
-## Week 13, 04/04 - 04/08 : Test 3
+## Week 13, 04/04 - 04/08 : ANOVA
 
 - Tuesday: Review
 
@@ -217,7 +225,7 @@ Schedule
 - Thursday: Addressing Statistical Questions in R
 
 
-##  Week 16, 04/25 - 04/29 : Applications in R 
+##  Week 16, 04/25 - 04/29 : Review 
 
 - Tuesday: Addressing Statistical Questions in R
 - Thursday: Last Day of Class 

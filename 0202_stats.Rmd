@@ -40,20 +40,20 @@ topicvanderbilt =c(
 topic =c(
   "Introduction", 
   "Getting Ready to Do Statistical Analysis",
-  "The Scientific Process, Types of StudiesDescribing Data with R",
+  "Describing Data with R",
   "Univariate Distributions",
-  "Test 1",
   "Bivariate Distributions",
-  "Probability Theory",#  "Spring Break",#  "",
-  "Binomials and other sampling distributions", 
+  "Probability Theory",
+  "Binomials and other sampling distributions",#  "Spring Break",#  "",
+  "Hypothesis Testing", 
   "Spring Break", 
-  "Hypothesis Testing",
-  "Inferences about means",
-  "Special Topics", 
-  "Test 3", 
+  "T-Tests",
+  "Regression",
+  "Causal Inference",
+  "ANOVA",
   "Applications in R",
   "Applications in R",
-  "Applications in R", 
+  "Review", 
   "NA",
   "NA"
   )
@@ -64,9 +64,9 @@ classschedule$topic <- topic[1:number_of_weeks]
 classschedule$week <- advdate(dayone,classschedule$module)
 classschedule$milestones <- as.character(NA)
 
-quizes<-c(4,7,11,14,17)
-assignments<-c(8,15)
-classschedule$milestones[quizes] <- "Quiz"
+exams<-c(5,12,17)
+assignments<-c(8,16)
+classschedule$milestones[exams] <- "Exam"
 classschedule$milestones[assignments] <- "Assignment"
 
 ```
@@ -78,12 +78,6 @@ classschedule$milestones[assignments] <- "Assignment"
 Methods in Psychological Research introduces statistics and research design for students minoring in psychology. Prereq: P—PSY 151 (D, QR)
 
 This course is designed to help students develop the conceptual background and practical skills necessary to evaluate the statistics encountered in their coursework and in everyday life. It emphasizes selection, application, and interpretation. Topics to be covered include statistical inference, probability distributions, sampling, hypothesis testing, and correlation. The goal will be to go beyond rote memorization of abstract formulas and for students to develop an appreciation for the critical role that statistics plays in psychological science.
-
-
-### Broad goals for the course:  {-}
-- 1. To understand the selection, computation, and interpretation of descriptive and inferential
-statistics
-- 2. To learn how to use and interpret R.
 
 
 ## Required Materials  {-}
@@ -98,34 +92,36 @@ Morling, Research Methods in Psychology https://wwnorton.com/books/9780393893724
 ```
 
 ### Quizzes   {-}
-There will be 5 quizzes in this course. These will be approximately every three weeks. The best 4 out of 5 quiz grades will be used to determine your total quiz grade.  You can drop 1 of the quizzes for any reason.
+
+There will be 14 multiple-choice reading quizzes (effectively these are weekly). The best 10 out of 14 quiz grades will be used to determine your total quiz grade.  You can drop 4 of the quizzes for any reason.
+
+### Exams   {-}
+
+There will be 3 exams. The best 2 out of 3 exam grades will be used to determine your total exam grade.  You can drop 1 of the exams for any reason.
 
 
-#### Quiz Dates   {-}
+#### Exams Dates   {-}
 
-- Quiz 1: Friday, `r advdate(dayone, quizes[1], assignment="f")`
+- Exam 1: Friday, `r advdate(dayone, exams[1], assignment="f")`
 
-- Quiz 2: Friday, `r advdate(dayone, quizes[2], assignment="f")`
+- Exam 2: Friday, `r advdate(dayone, exams[2], assignment="f")`
 
-- Quiz 3: Friday, `r advdate(dayone, quizes[3], assignment="f")`
-
-- Quiz 4: Friday, `r advdate(dayone, quizes[4], assignment="f")`
-
-- Quiz 5: During Finals, `r advdate(dayone, quizes[5], assignment="f")`
+- Exam 3: During Finals, `r advdate(dayone, exams[3], assignment="f")`
 
 
-### Take Home Assignments   {-}
-There are two sets of take-home assignments. Each set contains a qualitative part and a quantitative part. (In other words you have four parts).
+### Short Assignments   {-}
+
+There will be two (2) short assignments in this course. These assignments will allow you to incorporate some of your own interests into the course. Such interests could be related to your career, another class you're taking, a hobby you're exploring, or some other random fancy. They will typically be approximately two (2) pages. I will provide more specific written guidelines at least two weeks before each assignment is due.
 
 
-I will provide more specific written guidelines at least two weeks before each assignment is due. You have to submit both parts of assignment 1 because I give extensive feedback that will help you on later assignments. However, you may skip part of assignment 2.
+The best one (1) out of two (2) short assignments will be used to determine your total short assignments.  You can skip one of the assignments for any reason.
 
 
 #### Assignment Dates   {-}
 
-- Assignment 1: Friday, `r advdate(dayone, assignments[1], assignment="f")`: Problem Set 1 and Qualitative Critique 1
+- Assignment 1: Friday, `r advdate(dayone, assignments[1], assignment="f")`: Qualitative Critique 1
 
-- Assignment 2: Friday, `r advdate(dayone, assignments[2], assignment="f")`: Problem Set 2 and Qualitative Critique 2
+- Assignment 2: Friday, `r advdate(dayone, assignments[2], assignment="f")`: Qualitative Critique 2
 
 
 
@@ -136,10 +132,10 @@ There will be multiple engagement activities in this course. These activities wi
 
 ## Grading Weighting   {-}
 
-- 200 points of your grade will be determined by your best four (4) quizzes.
-- 150 points of your grade will be determined by your best three (3) parts of take-home assignments.
+- 200 points of your grade will be determined by your best two (2) exams.
+- 50 points of your grade will be determined by your best assignment.
 - 50 points of your grade will be determined by your engagement.
-
+- 100 points of your grade will be determined by your best 10 quizzes.
 
 
 ## Schedule  {-}
