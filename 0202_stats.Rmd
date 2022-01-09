@@ -39,7 +39,7 @@ topicvanderbilt =c(
   )
 topic =c(
   "Introduction", 
-  "Getting Ready to Do Statistical Analysis",
+  "Statistical Foundations",
   "Describing Data with R",
   "Univariate Distributions",
   "Bivariate Distributions",
