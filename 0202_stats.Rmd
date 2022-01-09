@@ -38,8 +38,8 @@ topicvanderbilt =c(
   "NA"
   )
 topic =c(
-  "Introduction", 
-  "Statistical Foundations",
+  "Introduction", # intro, science process
+  "Statistical Foundations", # Variability Variability
   "Describing Data with R",
   "Univariate Distributions",
   "Bivariate Distributions",
