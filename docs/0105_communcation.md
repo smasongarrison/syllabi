@@ -1,6 +1,6 @@
 # Communication
 
-I ask that you provide me with the respect that I should spend my time engaging with students in meaningful ways, not pointing you to material you can find on your own. Be sure to check the syllabus, course website, course content, and classmates before emailing me. This is important training for life after college – when you have a question, the first thing you do should not be to email your boss. I do not want to discourage you from engaging with me. I love teaching because I love interacting with students.  However, I do not want to engage with you in ways that nurture your inability to critically think and prevents me from engaging with other students.
+Please be intentional with your emails and recognize that my time in finite. It is in everyone's best interest that I spend my time engaging with students in meaningful ways, not pointing you to material you can find on your own. Be sure to check the syllabus, course website, course content, and classmates before emailing me. This practice is important training for life after college – when you have a question, the first thing you do should not be to email your boss. I do not want to discourage you from engaging with me. I love teaching because I love interacting with students.  However, I do not want to engage with you in ways that nurture your inability to critically think and prevents me from engaging with other students.
 
 If you are ever uncertain about the purpose of an assignment, the learning objectives of an activity, or how an assessment will be graded, please reach out. My goal is to be  organized, thoughtful, and transparent. All my assignments were thoughtfully chosen. There is no busy work or unnecessary required course material. If I have done a poor job explaining the motivation for any aspect of my course, please let me know so I can be more clear. 
 
@@ -39,7 +39,7 @@ How do you know if it is a true emergency?
 
 ### Recording of Class Sessions. 
 
-All or some in-person and synchronous classes may be recorded.  Student images and voices may be captured in these recordings.  Recordings will be available for viewing only by students enrolled in the class via Canvas or an alternative platform. The recordings are not available for download. No other recording, including by students, is permitted.
+All or some in-person and synchronous classes may be recorded.  Student images and voices may be captured in these recordings. I will do my best to protect that information from being shared outside the confines of the class. Recordings with students in them will be available for viewing only by students enrolled in the class via Canvas or an alternative platform. The recordings are intended to improve access course content. No other recording, including by students, is permitted without explicit permission. (Recordings for notetaking or accommodations are typically permitted. Just chat with me about it.)
 
 ### Recording Tails in our Synchronous Classes. 
 

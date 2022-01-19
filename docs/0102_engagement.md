@@ -3,7 +3,7 @@
 # Class Engagement
 
 In previous semesters, I have had a deliberately hardline attendance policy. 
-In the light of the public health crisis, I have done away with the this policy, as it doesn't align with my general philosophy of treating students as junior colleagues. 
+In the light of the public health crisis, I have done away with the this policy, as it doesn't align with my general philosophy of treating students as junior colleagues. (It also doesn't align with my goal of making it through the pandemic without getting COVID... yay, high risk of complications)
 
 Class engagement points are given to encourage your active engagement with the material. 
 Specific instructions for engagement, can be found on the class website. In general, you will be rewarded with a perfect score as long as you engage meaningfully, intentionally, and professionally with the material and your peers. As a reminder, you are still responsible for any assignments and/or announcements made if you miss a class.

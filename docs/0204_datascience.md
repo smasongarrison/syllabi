@@ -64,7 +64,7 @@ Your written contract will detail:
 
 Many aspects of this calendar will be determined by windows outlined on the course schedule, but your contract will take ownership of these deadlines while committing to specific due dates for the course’s more flexible assignments.
 
-## Contract Details
+## Contract Details   {-}
 
 To fulfill any grade contract a student must do the following, which should nonetheless be specified in the contract submitted for approval. When writing self-assessments students must describe how they have met these requirements in addition to the grade-specific requirements:
 
@@ -134,6 +134,10 @@ To contract for a "P" or Pass in this course, you agree to:
 
 Note that I'll be using your contracts to guide my tinkering.
 
-![](0204_datascience_files/figure-latex/unnamed-chunk-3-1.pdf)<!-- --> 
+
+```{=html}
+<div id="htmlwidget-7c958a853efb61220ef5" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-7c958a853efb61220ef5">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15],["01/10","01/17","01/24","01/31","02/07","02/14","02/21","02/28","03/07","03/14","03/21","03/28","04/04","04/11","04/18"],["What is Data Science and Meet the Toolkit","Data and Visualization","Welcome to the Tidyverse","Data types and Data Transformations","Effective data visualization","Scientific Communication and confounding","Functions and Automation","Webscraping","Spring Break","Ethics","Tidy Models","Overfitting and Cross validation","Quantifying uncertainty","Rshiny","Machine Learning"],["Week 01, 01/10 - 01/14","Week 02, 01/17 - 01/21","Week 03, 01/24 - 01/28","Week 04, 01/31 - 02/04","Week 05, 02/07 - 02/11","Week 06, 02/14 - 02/18","Week 07, 02/21 - 02/25","Week 08, 02/28 - 03/04","Week 09, 03/07 - 03/11","Week 10, 03/14 - 03/18","Week 11, 03/21 - 03/25","Week 12, 03/28 - 04/01","Week 13, 04/04 - 04/08","Week 14, 04/11 - 04/15","Week 15, 04/18 - 04/22"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0}],"order":[],"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+```
 
 
