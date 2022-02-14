@@ -65,7 +65,10 @@ classschedule$week <- advdate(dayone,classschedule$module)
 classschedule$milestones <- as.character(NA)
 
 exams<-c(5,12,17)
+# factory fire
+exams[1:2]<-c(6,13)
 assignments<-c(8,16)
+assignments[1]<-c(9)
 classschedule$milestones[exams] <- "Exam"
 classschedule$milestones[assignments] <- "Assignment"
 
