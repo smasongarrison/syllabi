@@ -23,7 +23,9 @@
 \contentsline {section}{\numberline {3.1}{Self-Advocacy}}{29}{section.3.1}%
 \contentsline {section}{\numberline {3.2}{Resources}}{30}{section.3.2}%
 \contentsline {chapter}{\numberline {4}{Classroom Climate}}{31}{chapter.4}%
-\contentsline {section}{\numberline {4.1}{Psychology Department Statement on Diversity, Equity, and Inclusion}}{31}{section.4.1}%
+\contentsline {section}{\numberline {4.1}{Statements}}{31}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}{From the psychology department}}{31}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}{How I'd expand it}}{32}{subsection.4.1.2}%
 \contentsline {chapter}{\numberline {5}{Academic Honesty Policy}}{33}{chapter.5}%
 \contentsline {section}{\numberline {5.1}{Common Sense}}{33}{section.5.1}%
 \contentsline {section}{\numberline {5.2}{Violations}}{33}{section.5.2}%
@@ -40,88 +42,87 @@
 \contentsline {subsection}{\numberline {6.3.2}{Recording Tails in our Synchronous Classes.}}{37}{subsection.6.3.2}%
 \contentsline {subsection}{\numberline {6.3.3}{Access to Recordings.}}{37}{subsection.6.3.3}%
 \contentsline {subsection}{\numberline {6.3.4}{Copyright Notice.}}{38}{subsection.6.3.4}%
-\contentsline {chapter}{\numberline {7}{Public Health in the age of COVID-19}}{39}{chapter.7}%
-\contentsline {section}{\numberline {7.1}{As required by Wake Forest Univeristy, I have included the following information related to public health. It is reproduced verbatim. Dead links and all.}}{39}{section.7.1}%
-\contentsline {part}{{Specific Courses}}{41}{section.7.1}%
-\contentsline {paragraph}{How to use the required text:}{56}{table.caption.2}%
-\contentsline {section}{\numberline {7.2}{Contract Details}}{63}{section.7.2}%
-\contentsline {part}{{For Your Information}}{69}{section.7.2}%
-\contentsline {chapter}{\numberline {8}{Frequently Asked Questions}}{71}{chapter.8}%
-\contentsline {section}{\numberline {8.1}{How can I get ahold of you?}}{71}{section.8.1}%
-\contentsline {section}{\numberline {8.2}{General Course Questions}}{72}{section.8.2}%
-\contentsline {subsection}{\numberline {8.2.1}{Where\ldots {}}}{72}{subsection.8.2.1}%
-\contentsline {subsubsection}{\numberline {8.2.1.1}{Where can I find the reading list for the entire semester?}}{72}{subsubsection.8.2.1.1}%
-\contentsline {subsubsection}{\numberline {8.2.1.2}{Where can I find when assignments are due?}}{72}{subsubsection.8.2.1.2}%
-\contentsline {subsubsection}{\numberline {8.2.1.3}{Where can I check the closing time of assessments?}}{72}{subsubsection.8.2.1.3}%
-\contentsline {subsubsection}{\numberline {8.2.1.4}{Where are my grades?}}{72}{subsubsection.8.2.1.4}%
-\contentsline {subsubsection}{\numberline {8.2.1.5}{Where can I find more information about\ldots {}}}{73}{subsubsection.8.2.1.5}%
-\contentsline {subsubsection}{\numberline {8.2.1.6}{Where can I find help for canvas?}}{73}{subsubsection.8.2.1.6}%
-\contentsline {subsection}{\numberline {8.2.2}{Where can I find textbooks and course materials?}}{73}{subsection.8.2.2}%
-\contentsline {subsection}{\numberline {8.2.3}{Can\ldots {}}}{74}{subsection.8.2.3}%
-\contentsline {subsubsection}{\numberline {8.2.3.1}{Can you bump up my grade?}}{74}{subsubsection.8.2.3.1}%
-\contentsline {subsubsection}{\numberline {8.2.3.2}{Can I rent the textbook for this course from somewhere (Amazon, bookstores, etc.)?}}{74}{subsubsection.8.2.3.2}%
-\contentsline {subsubsection}{\numberline {8.2.3.3}{Can you calculate my grade for me?}}{74}{subsubsection.8.2.3.3}%
-\contentsline {subsubsection}{\numberline {8.2.3.4}{Can my parents email you about my class performance?}}{74}{subsubsection.8.2.3.4}%
-\contentsline {paragraph}{{Should my parents email you about my class performance?}}{74}{subsubsection.8.2.3.4}%
-\contentsline {subsubsection}{\numberline {8.2.3.5}{Can't you just tell me my letter grade? Your curve is confusing.}}{75}{subsubsection.8.2.3.5}%
-\contentsline {subsection}{\numberline {8.2.4}{What\ldots {}}}{75}{subsection.8.2.4}%
-\contentsline {subsubsection}{\numberline {8.2.4.1}{What can I do to get a better grade?}}{75}{subsubsection.8.2.4.1}%
-\contentsline {subsection}{\numberline {8.2.5}{Why\ldots {}}}{77}{subsection.8.2.5}%
-\contentsline {subsubsection}{\numberline {8.2.5.1}{Why is the locked?}}{77}{subsubsection.8.2.5.1}%
-\contentsline {subsubsection}{\numberline {8.2.5.2}{Why do I have to meet with you if I want to see my test again? Why can't you just release them?}}{77}{subsubsection.8.2.5.2}%
-\contentsline {subsubsection}{\numberline {8.2.5.3}{Why is your speaking style so weird?}}{77}{subsubsection.8.2.5.3}%
-\contentsline {subsection}{\numberline {8.2.6}{How \ldots {}}}{78}{subsection.8.2.6}%
-\contentsline {subsubsection}{\numberline {8.2.6.1}{How much time should I spend on one class every week?}}{78}{subsubsection.8.2.6.1}%
-\contentsline {subsection}{\numberline {8.2.7}{How do I ask professors for extensions?}}{78}{subsection.8.2.7}%
-\contentsline {section}{\numberline {8.3}{Online Learning}}{78}{section.8.3}%
-\contentsline {subsection}{\numberline {8.3.1}{How long are the videos?}}{78}{subsection.8.3.1}%
-\contentsline {subsection}{\numberline {8.3.2}{Why are there so many videos?}}{79}{subsection.8.3.2}%
-\contentsline {subsection}{\numberline {8.3.3}{Why is this so much more work compared to face-to-face classes?}}{79}{subsection.8.3.3}%
-\contentsline {subsection}{\numberline {8.3.4}{I'm having a trouble with a specific problem, can you fix it for me?}}{79}{subsection.8.3.4}%
-\contentsline {section}{\numberline {8.4}{Canvas \{canvas\}}}{79}{section.8.4}%
-\contentsline {subsubsection}{\numberline {8.4.0.1}{How do I use Canvas for class?}}{79}{subsubsection.8.4.0.1}%
-\contentsline {subsection}{\numberline {8.4.1}{I'm having trouble with Canvas -- help!}}{80}{subsection.8.4.1}%
-\contentsline {subsubsection}{\numberline {8.4.1.1}{How do I contact the Canvas Help Desk?}}{80}{subsubsection.8.4.1.1}%
-\contentsline {subsection}{\numberline {8.4.2}{How do I\ldots {} ?}}{80}{subsection.8.4.2}%
-\contentsline {subsubsection}{\numberline {8.4.2.1}{How do I set my notifications on Canvas for my classes?}}{80}{subsubsection.8.4.2.1}%
-\contentsline {subsubsection}{\numberline {8.4.2.2}{How do I submit an assignment on Canvas?}}{80}{subsubsection.8.4.2.2}%
-\contentsline {subsubsection}{\numberline {8.4.2.3}{How do I know when an assignment has been submitted?}}{80}{subsubsection.8.4.2.3}%
-\contentsline {subsubsection}{\numberline {8.4.2.4}{How do I use the Calendar feature in Canvas?}}{80}{subsubsection.8.4.2.4}%
-\contentsline {subsubsection}{\numberline {8.4.2.5}{How do I see feedback on my assignments submitted on Canvas?}}{81}{subsubsection.8.4.2.5}%
-\contentsline {subsubsection}{\numberline {8.4.2.6}{How do I accurately check my grades in Canvas?}}{81}{subsubsection.8.4.2.6}%
-\contentsline {subsubsection}{\numberline {8.4.2.7}{How do I do this specific thing in Canvas?}}{81}{subsubsection.8.4.2.7}%
-\contentsline {subsection}{\numberline {8.4.3}{Why is\ldots {}}}{82}{subsection.8.4.3}%
-\contentsline {subsubsection}{\numberline {8.4.3.1}{Why is the assignment/activity/quiz locked?}}{82}{subsubsection.8.4.3.1}%
-\contentsline {section}{\numberline {8.5}{Resources}}{82}{section.8.5}%
-\contentsline {section}{\numberline {8.6}{Still have questions?}}{82}{section.8.6}%
-\contentsline {subsection}{\numberline {8.6.1}{Why did a question I asked via email show up on the discussion board?}}{82}{subsection.8.6.1}%
-\contentsline {chapter}{\numberline {9}{How to do well in my classes}}{83}{chapter.9}%
-\contentsline {section}{\numberline {9.1}{Successful Asynchronous Learning}}{83}{section.9.1}%
-\contentsline {chapter}{\numberline {10}{Student Support \& Resources}}{87}{chapter.10}%
-\contentsline {section}{\numberline {10.1}{Prof.~Mason FAQ}}{87}{section.10.1}%
-\contentsline {section}{\numberline {10.2}{Canvas}}{87}{section.10.2}%
-\contentsline {subsection}{\numberline {10.2.1}{Canvas: Helpful Tips}}{87}{subsection.10.2.1}%
-\contentsline {subsubsection}{\numberline {10.2.1.1}{Canvas Student Guide}}{87}{subsubsection.10.2.1.1}%
-\contentsline {subsubsection}{\numberline {10.2.1.2}{Getting Organized}}{87}{subsubsection.10.2.1.2}%
-\contentsline {subsection}{\numberline {10.2.2}{Canvas: Quick Links}}{88}{subsection.10.2.2}%
-\contentsline {subsubsection}{\numberline {10.2.2.1}{Your Canvas Profile}}{88}{subsubsection.10.2.2.1}%
-\contentsline {subsubsection}{\numberline {10.2.2.2}{Notifications}}{88}{subsubsection.10.2.2.2}%
-\contentsline {subsubsection}{\numberline {10.2.2.3}{Other Helpful Canvas Guides Links}}{88}{subsubsection.10.2.2.3}%
-\contentsline {subsection}{\numberline {10.2.3}{Accurately Calculating Grades in Canvas}}{89}{subsection.10.2.3}%
-\contentsline {section}{\numberline {10.3}{Resource Collections}}{89}{section.10.3}%
-\contentsline {subsection}{\numberline {10.3.1}{Student Support Services}}{89}{subsection.10.3.1}%
-\contentsline {subsubsection}{\numberline {10.3.1.1}{\href {https://www.youtube.com/watch?v=E7CwqNHn_Ns\&list=PL8dPuuaLjXtNcAJRf3bE1IJU6nMfHj86W}{Crash Course: Study Skills}}}{90}{subsubsection.10.3.1.1}%
-\contentsline {subsubsection}{\numberline {10.3.1.2}{\href {https://vimeo.com/270014784?embedded=true\&source=vimeo_logo\&owner=2248721}{What are Office Hours?}}}{90}{subsubsection.10.3.1.2}%
-\contentsline {subsubsection}{\numberline {10.3.1.3}{\href {https://www.youtube.com/watch?v=5zkAOpx8Qk8}{What Are Course Evals and Why Should You Submit Them}}}{90}{subsubsection.10.3.1.3}%
-\contentsline {subsubsection}{\numberline {10.3.1.4}{WFU Honor Code Definitions}}{90}{subsubsection.10.3.1.4}%
-\contentsline {subsection}{\numberline {10.3.2}{Discussion Board Etiquette}}{93}{subsection.10.3.2}%
-\contentsline {subsubsection}{\numberline {10.3.2.1}{\href {https://www.loc.gov/programs/poetry-and-literature/poet-laureate/poet-laureate-projects/poetry-180/all-poems/item/poetry-180-013/did-i-miss-anything/}{Poem 013: Did I Miss Anything?}}}{93}{subsubsection.10.3.2.1}%
-\contentsline {subsubsection}{\numberline {10.3.2.2}{\href {https://www.insidehighered.com/views/2015/04/16/advice-students-so-they-dont-sound-silly-emails-essay}{Advice for students so they don't sound silly in emails (essay)}}}{93}{subsubsection.10.3.2.2}%
-\contentsline {subsection}{\numberline {10.3.3}{Online Learning Resources}}{93}{subsection.10.3.3}%
-\contentsline {subsubsection}{\numberline {10.3.3.1}{\href {https://www.northeastern.edu/graduate/blog/tips-for-taking-online-classes/}{Tips for Taking Online Classes: 8 Strategies for Success Links to an external site.}}}{93}{subsubsection.10.3.3.1}%
-\contentsline {subsubsection}{\numberline {10.3.3.2}{\href {https://www.youtube.com/watch?v=pLlv2o6UfTU\&list=PL8dPuuaLjXtN07XYqqWSKpPrtNDiCHTzU}{Navigating Digital Information}}}{93}{subsubsection.10.3.3.2}%
-\contentsline {subsection}{\numberline {10.3.4}{Tech Services \& Computer Resources}}{93}{subsection.10.3.4}%
-\contentsline {section}{\numberline {10.4}{Public Health}}{96}{section.10.4}%
-\contentsline {part}{{Back Matter}}{97}{section.10.4}%
+\contentsline {chapter}{\numberline {7}{Public Health in the Age of COVID-19}}{39}{chapter.7}%
+\contentsline {section}{\numberline {7.1}{As required by Wake Forest Univeristy, I have included the following information related to public health. It is reproduced verbatim. Dead links and all.}}{40}{section.7.1}%
+\contentsline {part}{{Specific Courses}}{43}{section.7.1}%
+\contentsline {paragraph}{How to use the required text:}{58}{table.caption.2}%
+\contentsline {part}{{For Your Information}}{71}{Item.8}%
+\contentsline {chapter}{\numberline {8}{Frequently Asked Questions}}{73}{chapter.8}%
+\contentsline {section}{\numberline {8.1}{How can I get ahold of you?}}{73}{section.8.1}%
+\contentsline {section}{\numberline {8.2}{General Course Questions}}{74}{section.8.2}%
+\contentsline {subsection}{\numberline {8.2.1}{Where\ldots {}}}{74}{subsection.8.2.1}%
+\contentsline {subsubsection}{\numberline {8.2.1.1}{Where can I find the reading list for the entire semester?}}{74}{subsubsection.8.2.1.1}%
+\contentsline {subsubsection}{\numberline {8.2.1.2}{Where can I find when assignments are due?}}{74}{subsubsection.8.2.1.2}%
+\contentsline {subsubsection}{\numberline {8.2.1.3}{Where can I check the closing time of assessments?}}{74}{subsubsection.8.2.1.3}%
+\contentsline {subsubsection}{\numberline {8.2.1.4}{Where are my grades?}}{74}{subsubsection.8.2.1.4}%
+\contentsline {subsubsection}{\numberline {8.2.1.5}{Where can I find more information about\ldots {}}}{75}{subsubsection.8.2.1.5}%
+\contentsline {subsubsection}{\numberline {8.2.1.6}{Where can I find help for canvas?}}{75}{subsubsection.8.2.1.6}%
+\contentsline {subsection}{\numberline {8.2.2}{Where can I find textbooks and course materials?}}{75}{subsection.8.2.2}%
+\contentsline {subsection}{\numberline {8.2.3}{Can\ldots {}}}{76}{subsection.8.2.3}%
+\contentsline {subsubsection}{\numberline {8.2.3.1}{Can you bump up my grade?}}{76}{subsubsection.8.2.3.1}%
+\contentsline {subsubsection}{\numberline {8.2.3.2}{Can I rent the textbook for this course from somewhere (Amazon, bookstores, etc.)?}}{76}{subsubsection.8.2.3.2}%
+\contentsline {subsubsection}{\numberline {8.2.3.3}{Can you calculate my grade for me?}}{76}{subsubsection.8.2.3.3}%
+\contentsline {subsubsection}{\numberline {8.2.3.4}{Can my parents email you about my class performance?}}{76}{subsubsection.8.2.3.4}%
+\contentsline {paragraph}{{Should my parents email you about my class performance?}}{76}{subsubsection.8.2.3.4}%
+\contentsline {subsubsection}{\numberline {8.2.3.5}{Can't you just tell me my letter grade? Your curve is confusing.}}{77}{subsubsection.8.2.3.5}%
+\contentsline {subsection}{\numberline {8.2.4}{What\ldots {}}}{77}{subsection.8.2.4}%
+\contentsline {subsubsection}{\numberline {8.2.4.1}{What can I do to get a better grade?}}{77}{subsubsection.8.2.4.1}%
+\contentsline {subsection}{\numberline {8.2.5}{Why\ldots {}}}{79}{subsection.8.2.5}%
+\contentsline {subsubsection}{\numberline {8.2.5.1}{Why is the locked?}}{79}{subsubsection.8.2.5.1}%
+\contentsline {subsubsection}{\numberline {8.2.5.2}{Why do I have to meet with you if I want to see my test again? Why can't you just release them?}}{79}{subsubsection.8.2.5.2}%
+\contentsline {subsubsection}{\numberline {8.2.5.3}{Why is your speaking style so weird?}}{79}{subsubsection.8.2.5.3}%
+\contentsline {subsection}{\numberline {8.2.6}{How \ldots {}}}{80}{subsection.8.2.6}%
+\contentsline {subsubsection}{\numberline {8.2.6.1}{How much time should I spend on one class every week?}}{80}{subsubsection.8.2.6.1}%
+\contentsline {subsection}{\numberline {8.2.7}{How do I ask professors for extensions?}}{80}{subsection.8.2.7}%
+\contentsline {section}{\numberline {8.3}{Online Learning}}{80}{section.8.3}%
+\contentsline {subsection}{\numberline {8.3.1}{How long are the videos?}}{80}{subsection.8.3.1}%
+\contentsline {subsection}{\numberline {8.3.2}{Why are there so many videos?}}{81}{subsection.8.3.2}%
+\contentsline {subsection}{\numberline {8.3.3}{Why is this so much more work compared to face-to-face classes?}}{81}{subsection.8.3.3}%
+\contentsline {subsection}{\numberline {8.3.4}{I'm having a trouble with a specific problem, can you fix it for me?}}{81}{subsection.8.3.4}%
+\contentsline {section}{\numberline {8.4}{Canvas \{canvas\}}}{81}{section.8.4}%
+\contentsline {subsubsection}{\numberline {8.4.0.1}{How do I use Canvas for class?}}{81}{subsubsection.8.4.0.1}%
+\contentsline {subsection}{\numberline {8.4.1}{I'm having trouble with Canvas -- help!}}{82}{subsection.8.4.1}%
+\contentsline {subsubsection}{\numberline {8.4.1.1}{How do I contact the Canvas Help Desk?}}{82}{subsubsection.8.4.1.1}%
+\contentsline {subsection}{\numberline {8.4.2}{How do I\ldots {} ?}}{82}{subsection.8.4.2}%
+\contentsline {subsubsection}{\numberline {8.4.2.1}{How do I set my notifications on Canvas for my classes?}}{82}{subsubsection.8.4.2.1}%
+\contentsline {subsubsection}{\numberline {8.4.2.2}{How do I submit an assignment on Canvas?}}{82}{subsubsection.8.4.2.2}%
+\contentsline {subsubsection}{\numberline {8.4.2.3}{How do I know when an assignment has been submitted?}}{82}{subsubsection.8.4.2.3}%
+\contentsline {subsubsection}{\numberline {8.4.2.4}{How do I use the Calendar feature in Canvas?}}{82}{subsubsection.8.4.2.4}%
+\contentsline {subsubsection}{\numberline {8.4.2.5}{How do I see feedback on my assignments submitted on Canvas?}}{83}{subsubsection.8.4.2.5}%
+\contentsline {subsubsection}{\numberline {8.4.2.6}{How do I accurately check my grades in Canvas?}}{83}{subsubsection.8.4.2.6}%
+\contentsline {subsubsection}{\numberline {8.4.2.7}{How do I do this specific thing in Canvas?}}{83}{subsubsection.8.4.2.7}%
+\contentsline {subsection}{\numberline {8.4.3}{Why is\ldots {}}}{84}{subsection.8.4.3}%
+\contentsline {subsubsection}{\numberline {8.4.3.1}{Why is the assignment/activity/quiz locked?}}{84}{subsubsection.8.4.3.1}%
+\contentsline {section}{\numberline {8.5}{Resources}}{84}{section.8.5}%
+\contentsline {section}{\numberline {8.6}{Still have questions?}}{84}{section.8.6}%
+\contentsline {subsection}{\numberline {8.6.1}{Why did a question I asked via email show up on the discussion board?}}{84}{subsection.8.6.1}%
+\contentsline {chapter}{\numberline {9}{How to do well in my classes}}{85}{chapter.9}%
+\contentsline {section}{\numberline {9.1}{Successful Asynchronous Learning}}{85}{section.9.1}%
+\contentsline {chapter}{\numberline {10}{Student Support \& Resources}}{89}{chapter.10}%
+\contentsline {section}{\numberline {10.1}{Prof.~Mason FAQ}}{89}{section.10.1}%
+\contentsline {section}{\numberline {10.2}{Canvas}}{89}{section.10.2}%
+\contentsline {subsection}{\numberline {10.2.1}{Canvas: Helpful Tips}}{89}{subsection.10.2.1}%
+\contentsline {subsubsection}{\numberline {10.2.1.1}{Canvas Student Guide}}{89}{subsubsection.10.2.1.1}%
+\contentsline {subsubsection}{\numberline {10.2.1.2}{Getting Organized}}{89}{subsubsection.10.2.1.2}%
+\contentsline {subsection}{\numberline {10.2.2}{Canvas: Quick Links}}{90}{subsection.10.2.2}%
+\contentsline {subsubsection}{\numberline {10.2.2.1}{Your Canvas Profile}}{90}{subsubsection.10.2.2.1}%
+\contentsline {subsubsection}{\numberline {10.2.2.2}{Notifications}}{90}{subsubsection.10.2.2.2}%
+\contentsline {subsubsection}{\numberline {10.2.2.3}{Other Helpful Canvas Guides Links}}{90}{subsubsection.10.2.2.3}%
+\contentsline {subsection}{\numberline {10.2.3}{Accurately Calculating Grades in Canvas}}{91}{subsection.10.2.3}%
+\contentsline {section}{\numberline {10.3}{Resource Collections}}{91}{section.10.3}%
+\contentsline {subsection}{\numberline {10.3.1}{Student Support Services}}{91}{subsection.10.3.1}%
+\contentsline {subsubsection}{\numberline {10.3.1.1}{\href {https://www.youtube.com/watch?v=E7CwqNHn_Ns\&list=PL8dPuuaLjXtNcAJRf3bE1IJU6nMfHj86W}{Crash Course: Study Skills}}}{92}{subsubsection.10.3.1.1}%
+\contentsline {subsubsection}{\numberline {10.3.1.2}{\href {https://vimeo.com/270014784?embedded=true\&source=vimeo_logo\&owner=2248721}{What are Office Hours?}}}{92}{subsubsection.10.3.1.2}%
+\contentsline {subsubsection}{\numberline {10.3.1.3}{\href {https://www.youtube.com/watch?v=5zkAOpx8Qk8}{What Are Course Evals and Why Should You Submit Them}}}{92}{subsubsection.10.3.1.3}%
+\contentsline {subsubsection}{\numberline {10.3.1.4}{WFU Honor Code Definitions}}{92}{subsubsection.10.3.1.4}%
+\contentsline {subsection}{\numberline {10.3.2}{Discussion Board Etiquette}}{95}{subsection.10.3.2}%
+\contentsline {subsubsection}{\numberline {10.3.2.1}{\href {https://www.loc.gov/programs/poetry-and-literature/poet-laureate/poet-laureate-projects/poetry-180/all-poems/item/poetry-180-013/did-i-miss-anything/}{Poem 013: Did I Miss Anything?}}}{95}{subsubsection.10.3.2.1}%
+\contentsline {subsubsection}{\numberline {10.3.2.2}{\href {https://www.insidehighered.com/views/2015/04/16/advice-students-so-they-dont-sound-silly-emails-essay}{Advice for students so they don't sound silly in emails (essay)}}}{95}{subsubsection.10.3.2.2}%
+\contentsline {subsection}{\numberline {10.3.3}{Online Learning Resources}}{95}{subsection.10.3.3}%
+\contentsline {subsubsection}{\numberline {10.3.3.1}{\href {https://www.northeastern.edu/graduate/blog/tips-for-taking-online-classes/}{Tips for Taking Online Classes: 8 Strategies for Success Links to an external site.}}}{95}{subsubsection.10.3.3.1}%
+\contentsline {subsubsection}{\numberline {10.3.3.2}{\href {https://www.youtube.com/watch?v=pLlv2o6UfTU\&list=PL8dPuuaLjXtN07XYqqWSKpPrtNDiCHTzU}{Navigating Digital Information}}}{95}{subsubsection.10.3.3.2}%
+\contentsline {subsection}{\numberline {10.3.4}{Tech Services \& Computer Resources}}{95}{subsection.10.3.4}%
+\contentsline {section}{\numberline {10.4}{Public Health}}{98}{section.10.4}%
+\contentsline {part}{{Back Matter}}{99}{section.10.4}%
 \vspace {\beforebibskip }
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

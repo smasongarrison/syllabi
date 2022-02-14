@@ -1,10 +1,36 @@
-# Public Health in the age of COVID-19
+# Public Health in the Age of COVID-19
 
 Here's the deal. I'm *probably* at increased risk of complications. In this class, mask compliance is essential for us (and me) making it through the semester. At present, I am in the position where I have to put my health in your hands. I have many thoughts as to why, how, and who has led to me being in this present position. I don't fault students. However, I need you to understand that the stakes are high.
 
-Regardless of any changes to university policy or mask mandates, we will be masked for the entire semester. You will put your mask on *before* you enter my class. Your mask will cover your nose and mouth. I will pause class if I see your nose. If your struggle with this, I am very happy to show you how to properly secure your mask. Truly. I would love to show you how, so that we can all be a little safer. If you feel sick or are exposed, please don't come to class. I will happily meet with you (remotely) to fill you in. 
+Regardless of any changes to university policy or mask mandates, we will be masked for the entire semester. You will put your mask on *before* you enter my class. Your mask will cover your nose and mouth. I will stop class if I see your nose. If your struggle with this, I am very happy to show you how to properly secure your mask. Truly. I would love to show you how, so that we can all be a little safer. If you feel sick or are exposed, please don't come to class. I will happily meet with you (remotely) to fill you in. 
 
 
+```
+## -- Attaching packages --------------------------------------- tidyverse 1.3.1 --
+```
+
+```
+## v ggplot2 3.3.5     v purrr   0.3.4
+## v tibble  3.1.6     v dplyr   1.0.8
+## v tidyr   1.2.0     v stringr 1.4.0
+## v readr   2.1.2     v forcats 0.5.1
+```
+
+```
+## -- Conflicts ------------------------------------------ tidyverse_conflicts() --
+## x dplyr::filter() masks stats::filter()
+## x dplyr::lag()    masks stats::lag()
+```
+
+> Just posting this infographic on masking for all people who say \"one
+> way masking is sufficient, I shouldn\'t have to protect you.\" The
+> data overwhelming proves that one-way masking is insufficient.
+> [pic.twitter.com/RHvyp3ZxFc](https://t.co/RHvyp3ZxFc)
+>
+> --- Nicole Lee Schroeder, PhD (\@Nicole_Lee_Sch) [February 10,
+> 2022](https://twitter.com/Nicole_Lee_Sch/status/1491793104348712965)
+
+However, if you refuse, you need to leave. If you refuse to leave, I will leave. And if I leave, there is no class.
 
 ## As required by Wake Forest Univeristy, I have included the following information related to public health. It is reproduced verbatim. Dead links and all. 
 

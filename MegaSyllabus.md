@@ -1,7 +1,7 @@
 --- 
 title: "Prof. Mason's Syllabi"
 author: S. Mason Garrison
-date: "2022-01-18"
+date: "2022-02-14"
 knit: "bookdown::render_book"
 site: bookdown::bookdown_site
 url: 'https\://github.com/smasongarrison/syllabi'
@@ -62,10 +62,10 @@ This mega syllabus leans on other peoples' materials and ideas. I have done my b
 ## Additional Attributions  {-}
 
 
-** Numerous Icons from the Noun Project by: **
-* Adrien Coquet
-* Corpus Delicti
-* Suhyeon Jung
+- Numerous Icons from the Noun Project by:
+  - Adrien Coquet
+  - Corpus Delicti
+  - Suhyeon Jung
 
 **Select lecture notes from:**
 
@@ -139,7 +139,7 @@ This version of the notes was built with:
 ```
 #> Finding R package dependencies ... Done!
 #>  setting  value
-#>  version  R version 4.0.5 (2021-03-31)
+#>  version  R version 4.1.2 (2021-11-01)
 #>  os       Windows 10 x64 (build 19044)
 #>  system   x86_64, mingw32
 #>  ui       RTerm
@@ -147,7 +147,7 @@ This version of the notes was built with:
 #>  collate  English_United States.1252
 #>  ctype    English_United States.1252
 #>  tz       America/New_York
-#>  date     2022-01-18
+#>  date     2022-02-14
 #>  pandoc   2.11.4 @ C:/Program Files/RStudio/bin/pandoc/ (via rmarkdown)
 ```
 
@@ -155,10 +155,185 @@ Along with these packages:
 
 
 
-```{=html}
-<div id="htmlwidget-6432bab14b7c70fdb850" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-6432bab14b7c70fdb850">{"x":{"filter":"top","vertical":false,"filterHTML":"<tr>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n<\/tr>","data":[["askpass","assertthat","backports","base64enc","bit","bit64","bitops","blob","bookdown","brew","brio","broom","cachem","callr","cellranger","checkmate","cli","clipr","colorspace","commonmark","conflicted","cpp11","crayon","credentials","crosstalk","crul","curl","data.table","DBI","dbplyr","desc","devtools","dichromat","diffobj","digest","dplyr","DT","dtplyr","ellipsis","evaluate","fansi","farver","fastmap","forcats","fs","gapminder","gargle","gender","genderdata","generics","geonames","gert","ggplot2","gh","gitcreds","glue","googledrive","googlesheets4","gridExtra","gt","gtable","haven","highr","hms","htmltools","htmlwidgets","httpcode","httr","ids","ini","isoband","jquerylib","jsonlite","knitr","labeling","later","lattice","lazyeval","lifecycle","lubridate","magrittr","MASS","Matrix","memoise","mgcv","mime","modelr","munsell","nlme","openssl","pillar","pkgbuild","pkgconfig","pkgload","plyr","praise","prettyunits","processx","progress","promises","ps","purrr","R6","rappdirs","rcmdcheck","RColorBrewer","Rcpp","readr","readxl","rebird","rematch","rematch2","remotes","reprex","reshape2","rjson","rlang","rmarkdown","roxygen2","rplos","rprojroot","rstudioapi","rversions","rvest","sass","scales","selectr","sessioninfo","solrium","stringi","stringr","sys","testthat","tibble","tidyr","tidyselect","tidyverse","tinytex","triebeard","tzdb","urltools","usethis","utf8","uuid","vctrs","viridis","viridisLite","vroom","waldo","whisker","withr","xfun","xml2","xopen","yaml","zip"],[null,"0.2.1","1.3.0",null,null,null,null,null,"0.24",null,null,"0.7.10","1.0.6","3.7.0","1.1.0",null,"3.1.0",null,"2.0-2",null,null,null,"1.4.2",null,null,null,null,null,"1.1.1","2.1.1","1.4.0","2.4.3",null,null,"0.6.28","1.0.7","0.20",null,"0.3.2","0.14","0.5.0",null,"1.1.0","0.5.1","1.5.0",null,null,null,null,"0.1.1",null,null,"3.3.5",null,null,"1.5.0",null,null,null,null,"0.3.0","2.4.3",null,"1.1.1","0.5.2","1.5.4",null,"1.4.2",null,null,null,"0.1.4","1.7.2","1.36",null,null,null,null,"1.0.1","1.8.0","2.0.1",null,null,"2.0.1",null,null,"0.1.8","0.5.0",null,null,"1.6.4","1.2.1","2.0.3","1.2.4",null,null,"1.1.1","3.5.2",null,null,"1.6.0","0.3.4","2.5.1",null,null,null,"1.0.7","2.1.1","1.3.1",null,null,null,"2.4.2","2.0.1",null,null,"0.4.12","2.11",null,null,"2.0.2","0.13",null,"1.0.2","0.4.0","1.1.1",null,"1.2.2",null,"1.7.6","1.4.0",null,"3.1.1","3.1.6","1.1.4","1.1.1","1.3.1",null,null,"0.2.0",null,"2.1.3","1.2.2",null,"0.3.8",null,null,null,null,null,"2.4.3","0.28","1.3.3",null,"2.2.1",null],["2019-01-13","2019-03-21","2021-10-27","2015-07-28","2020-08-04","2020-08-30","2021-04-24","2021-07-23","2021-09-02","2011-04-13","2021-11-30","2021-10-31","2021-08-19","2021-04-20","2016-07-27","2020-02-06","2021-10-27","2020-10-08","2021-06-24","2018-12-01","2021-11-26","2021-11-30","2021-10-29","2021-11-29","2021-11-04","2021-11-22","2021-06-23","2021-09-27","2021-01-15","2021-04-06","2021-09-28","2021-11-30","2013-01-24","2021-10-05","2021-09-23","2021-06-18","2021-11-15","2021-12-05","2021-04-29","2019-05-28","2021-05-25","2021-02-28","2021-01-25","2021-01-27","2020-07-31","2017-10-31","2021-07-02","2021-10-13","2020-11-17","2021-10-25","2019-02-19","2021-11-10","2021-06-25","2021-04-30","2020-12-04","2021-11-07","2021-07-08","2021-07-21","2017-09-09","2021-08-07","2019-03-25","2021-08-04","2021-04-16","2021-09-26","2021-08-25","2021-09-08","2020-04-10","2020-07-20","2017-05-31","2018-05-20","2021-07-13","2021-04-26","2020-12-09","2021-09-29","2020-10-20","2021-08-18","2020-04-02","2019-03-15","2021-09-24","2021-10-07","2020-11-17","2021-02-12","2021-01-06","2021-11-26","2021-02-16","2021-09-28","2020-05-19","2018-06-12","2021-02-04","2021-09-02","2021-10-18","2021-11-30","2019-09-22","2021-11-30","2020-03-03","2015-08-11","2020-01-24","2021-04-30","2019-05-16","2021-02-11","2021-02-28","2020-04-17","2021-08-19","2021-01-31","2021-09-27","2014-12-07","2021-07-07","2021-11-30","2019-03-13","2021-09-20","2016-04-21","2020-05-01","2021-11-30","2021-08-05","2020-04-09","2018-06-08","2021-10-18","2021-09-14","2021-09-08","2021-02-23","2020-11-15","2020-11-12","2021-05-31","2021-10-16","2021-05-12","2020-05-11","2019-11-20","2021-12-06","2021-05-19","2021-11-29","2019-02-10","2020-07-23","2021-12-03","2021-11-07","2021-09-27","2021-04-30","2021-04-15","2021-11-04","2016-08-04","2021-10-27","2019-04-14","2021-10-27","2021-07-24","2021-11-01","2021-04-29","2021-10-13","2021-04-13","2021-11-30","2021-09-14","2019-08-28","2021-11-30","2021-11-04","2021-11-30","2018-09-17","2020-02-01","2021-05-31"],["CRAN (R 4.0.0)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.2)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","local","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.2)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.0)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.3)","CRAN (R 4.0.4)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.4)","CRAN (R 4.0.3)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.2)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.3)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.0)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.5)","CRAN (R 4.0.2)","CRAN (R 4.0.0)","CRAN (R 4.0.5)"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>package<\/th>\n      <th>loadedversion<\/th>\n      <th>date<\/th>\n      <th>source<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":156,"autoWidth":true,"bInfo":false,"paging":false,"order":[],"orderClasses":false,"orderCellsTop":true,"lengthMenu":[10,25,50,100,156]}},"evals":[],"jsHooks":[]}</script>
-```
+\begin{tabular}{lllll}
+\toprule
+  & package & loadedversion & date & source\\
+\midrule
+askpass & askpass & NA & 2019-01-13 & CRAN (R 4.1.2)\\
+assertthat & assertthat & 0.2.1 & 2019-03-21 & CRAN (R 4.1.2)\\
+backports & backports & 1.4.1 & 2021-12-13 & CRAN (R 4.1.2)\\
+base64enc & base64enc & NA & 2015-07-28 & CRAN (R 4.1.1)\\
+bit & bit & NA & 2020-08-04 & CRAN (R 4.1.2)\\
+\addlinespace
+bit64 & bit64 & NA & 2020-08-30 & CRAN (R 4.1.2)\\
+blob & blob & NA & 2021-07-23 & CRAN (R 4.1.2)\\
+bookdown & bookdown & 0.24 & 2021-09-02 & CRAN (R 4.1.2)\\
+brew & brew & NA & 2022-02-04 & CRAN (R 4.1.2)\\
+brio & brio & 1.1.3 & 2021-11-30 & CRAN (R 4.1.2)\\
+\addlinespace
+broom & broom & 0.7.12 & 2022-01-28 & CRAN (R 4.1.2)\\
+cachem & cachem & 1.0.6 & 2021-08-19 & CRAN (R 4.1.2)\\
+callr & callr & 3.7.0 & 2021-04-20 & CRAN (R 4.1.2)\\
+cellranger & cellranger & 1.1.0 & 2016-07-27 & CRAN (R 4.1.2)\\
+cli & cli & 3.1.1 & 2022-01-20 & CRAN (R 4.1.2)\\
+\addlinespace
+clipr & clipr & NA & 2020-10-08 & CRAN (R 4.1.2)\\
+colorspace & colorspace & 2.0-2 & 2021-06-24 & CRAN (R 4.1.2)\\
+commonmark & commonmark & NA & 2018-12-01 & CRAN (R 4.1.2)\\
+conflicted & conflicted & NA & 2021-11-26 & CRAN (R 4.1.2)\\
+cpp11 & cpp11 & NA & 2021-11-30 & CRAN (R 4.1.2)\\
+\addlinespace
+crayon & crayon & 1.5.0 & 2022-02-14 & CRAN (R 4.1.2)\\
+credentials & credentials & NA & 2021-11-29 & CRAN (R 4.1.2)\\
+crosstalk & crosstalk & NA & 2021-11-04 & CRAN (R 4.1.2)\\
+curl & curl & NA & 2021-06-23 & CRAN (R 4.1.2)\\
+data.table & data.table & NA & 2021-09-27 & CRAN (R 4.1.2)\\
+\addlinespace
+DBI & DBI & 1.1.2 & 2021-12-20 & CRAN (R 4.1.2)\\
+dbplyr & dbplyr & 2.1.1 & 2021-04-06 & CRAN (R 4.1.2)\\
+desc & desc & 1.4.0 & 2021-09-28 & CRAN (R 4.1.2)\\
+devtools & devtools & 2.4.3 & 2021-11-30 & CRAN (R 4.1.2)\\
+dichromat & dichromat & NA & NA & NA\\
+\addlinespace
+diffobj & diffobj & NA & 2021-10-05 & CRAN (R 4.1.2)\\
+digest & digest & 0.6.29 & 2021-12-01 & CRAN (R 4.1.2)\\
+dplyr & dplyr & 1.0.8 & 2022-02-08 & CRAN (R 4.1.2)\\
+DT & DT & 0.20 & 2021-11-15 & CRAN (R 4.1.2)\\
+dtplyr & dtplyr & NA & 2022-01-19 & CRAN (R 4.1.2)\\
+\addlinespace
+ellipsis & ellipsis & 0.3.2 & 2021-04-29 & CRAN (R 4.1.2)\\
+evaluate & evaluate & 0.14 & 2019-05-28 & CRAN (R 4.1.2)\\
+fansi & fansi & 1.0.2 & 2022-01-14 & CRAN (R 4.1.2)\\
+farver & farver & NA & 2021-02-28 & CRAN (R 4.1.2)\\
+fastmap & fastmap & 1.1.0 & 2021-01-25 & CRAN (R 4.1.2)\\
+\addlinespace
+forcats & forcats & 0.5.1 & 2021-01-27 & CRAN (R 4.1.2)\\
+fs & fs & 1.5.2 & 2021-12-08 & CRAN (R 4.1.2)\\
+gapminder & gapminder & NA & 2017-10-31 & CRAN (R 4.1.2)\\
+gargle & gargle & NA & 2021-07-02 & CRAN (R 4.1.2)\\
+gender & gender & NA & NA & NA\\
+\addlinespace
+genderdata & genderdata & NA & NA & NA\\
+generics & generics & 0.1.2 & 2022-01-31 & CRAN (R 4.1.2)\\
+geonames & geonames & NA & NA & NA\\
+gert & gert & NA & 2022-01-03 & CRAN (R 4.1.2)\\
+ggplot2 & ggplot2 & 3.3.5 & 2021-06-25 & CRAN (R 4.1.2)\\
+\addlinespace
+gh & gh & NA & 2021-04-30 & CRAN (R 4.1.2)\\
+gitcreds & gitcreds & NA & 2020-12-04 & CRAN (R 4.1.2)\\
+glue & glue & 1.6.1 & 2022-01-22 & CRAN (R 4.1.2)\\
+googledrive & googledrive & NA & 2021-07-08 & CRAN (R 4.1.2)\\
+googlesheets4 & googlesheets4 & NA & 2021-07-21 & CRAN (R 4.1.2)\\
+\addlinespace
+gridExtra & gridExtra & NA & 2017-09-09 & CRAN (R 4.1.2)\\
+gt & gt & NA & NA & NA\\
+gtable & gtable & 0.3.0 & 2019-03-25 & CRAN (R 4.1.2)\\
+haven & haven & 2.4.3 & 2021-08-04 & CRAN (R 4.1.2)\\
+highr & highr & NA & 2021-04-16 & CRAN (R 4.1.2)\\
+\addlinespace
+hms & hms & 1.1.1 & 2021-09-26 & CRAN (R 4.1.2)\\
+htmltools & htmltools & 0.5.2 & 2021-08-25 & CRAN (R 4.1.2)\\
+htmlwidgets & htmlwidgets & 1.5.4 & 2021-09-08 & CRAN (R 4.1.2)\\
+httr & httr & 1.4.2 & 2020-07-20 & CRAN (R 4.1.2)\\
+ids & ids & NA & 2017-05-31 & CRAN (R 4.1.2)\\
+\addlinespace
+ini & ini & NA & 2018-05-20 & CRAN (R 4.1.2)\\
+isoband & isoband & NA & 2021-07-13 & CRAN (R 4.1.2)\\
+jquerylib & jquerylib & NA & 2021-04-26 & CRAN (R 4.1.2)\\
+jsonlite & jsonlite & 1.7.3 & 2022-01-17 & CRAN (R 4.1.2)\\
+knitr & knitr & 1.37 & 2021-12-16 & CRAN (R 4.1.2)\\
+\addlinespace
+labeling & labeling & NA & 2020-10-20 & CRAN (R 4.1.1)\\
+later & later & NA & 2021-08-18 & CRAN (R 4.1.2)\\
+lattice & lattice & NA & 2021-09-22 & CRAN (R 4.1.2)\\
+lazyeval & lazyeval & NA & 2019-03-15 & CRAN (R 4.1.2)\\
+lifecycle & lifecycle & 1.0.1 & 2021-09-24 & CRAN (R 4.1.2)\\
+\addlinespace
+lubridate & lubridate & 1.8.0 & 2021-10-07 & CRAN (R 4.1.2)\\
+magrittr & magrittr & 2.0.2 & 2022-01-26 & CRAN (R 4.1.2)\\
+MASS & MASS & NA & 2021-05-03 & CRAN (R 4.1.2)\\
+Matrix & Matrix & NA & 2021-06-01 & CRAN (R 4.1.2)\\
+memoise & memoise & 2.0.1 & 2021-11-26 & CRAN (R 4.1.2)\\
+\addlinespace
+mgcv & mgcv & NA & 2021-10-06 & CRAN (R 4.1.2)\\
+mime & mime & NA & 2021-09-28 & CRAN (R 4.1.1)\\
+modelr & modelr & 0.1.8 & 2020-05-19 & CRAN (R 4.1.2)\\
+munsell & munsell & 0.5.0 & 2018-06-12 & CRAN (R 4.1.2)\\
+nlme & nlme & NA & 2021-09-07 & CRAN (R 4.1.2)\\
+\addlinespace
+openssl & openssl & NA & 2021-12-19 & CRAN (R 4.1.2)\\
+pillar & pillar & 1.7.0 & 2022-02-01 & CRAN (R 4.1.2)\\
+pkgbuild & pkgbuild & 1.3.1 & 2021-12-20 & CRAN (R 4.1.2)\\
+pkgconfig & pkgconfig & 2.0.3 & 2019-09-22 & CRAN (R 4.1.2)\\
+pkgload & pkgload & 1.2.4 & 2021-11-30 & CRAN (R 4.1.2)\\
+\addlinespace
+praise & praise & NA & 2015-08-11 & CRAN (R 4.1.2)\\
+prettyunits & prettyunits & 1.1.1 & 2020-01-24 & CRAN (R 4.1.2)\\
+processx & processx & 3.5.2 & 2021-04-30 & CRAN (R 4.1.2)\\
+progress & progress & NA & 2019-05-16 & CRAN (R 4.1.2)\\
+promises & promises & NA & 2021-02-11 & CRAN (R 4.1.2)\\
+\addlinespace
+ps & ps & 1.6.0 & 2021-02-28 & CRAN (R 4.1.2)\\
+purrr & purrr & 0.3.4 & 2020-04-17 & CRAN (R 4.1.2)\\
+R6 & R6 & 2.5.1 & 2021-08-19 & CRAN (R 4.1.2)\\
+rappdirs & rappdirs & NA & 2021-01-31 & CRAN (R 4.1.2)\\
+rcmdcheck & rcmdcheck & NA & 2021-09-27 & CRAN (R 4.1.2)\\
+\addlinespace
+RColorBrewer & RColorBrewer & NA & 2014-12-07 & CRAN (R 4.1.1)\\
+Rcpp & Rcpp & 1.0.8 & 2022-01-13 & CRAN (R 4.1.2)\\
+readr & readr & 2.1.2 & 2022-01-30 & CRAN (R 4.1.2)\\
+readxl & readxl & 1.3.1 & 2019-03-13 & CRAN (R 4.1.2)\\
+rebird & rebird & NA & NA & NA\\
+\addlinespace
+rematch & rematch & NA & 2016-04-21 & CRAN (R 4.1.2)\\
+rematch2 & rematch2 & NA & 2020-05-01 & CRAN (R 4.1.2)\\
+remotes & remotes & 2.4.2 & 2021-11-30 & CRAN (R 4.1.2)\\
+reprex & reprex & 2.0.1 & 2021-08-05 & CRAN (R 4.1.2)\\
+rlang & rlang & 1.0.1 & 2022-02-03 & CRAN (R 4.1.2)\\
+\addlinespace
+rmarkdown & rmarkdown & 2.11 & 2021-09-14 & CRAN (R 4.1.2)\\
+roxygen2 & roxygen2 & NA & 2021-09-08 & CRAN (R 4.1.2)\\
+rplos & rplos & NA & NA & NA\\
+rprojroot & rprojroot & 2.0.2 & 2020-11-15 & CRAN (R 4.1.2)\\
+rstudioapi & rstudioapi & 0.13 & 2020-11-12 & CRAN (R 4.1.2)\\
+\addlinespace
+rversions & rversions & NA & 2021-05-31 & CRAN (R 4.1.2)\\
+rvest & rvest & 1.0.2 & 2021-10-16 & CRAN (R 4.1.2)\\
+scales & scales & 1.1.1 & 2020-05-11 & CRAN (R 4.1.2)\\
+selectr & selectr & NA & 2019-11-20 & CRAN (R 4.1.2)\\
+sessioninfo & sessioninfo & 1.2.2 & 2021-12-06 & CRAN (R 4.1.2)\\
+\addlinespace
+stringi & stringi & 1.7.6 & 2021-11-29 & CRAN (R 4.1.2)\\
+stringr & stringr & 1.4.0 & 2019-02-10 & CRAN (R 4.1.2)\\
+sys & sys & NA & 2020-07-23 & CRAN (R 4.1.2)\\
+testthat & testthat & 3.1.2 & 2022-01-20 & CRAN (R 4.1.2)\\
+tibble & tibble & 3.1.6 & 2021-11-07 & CRAN (R 4.1.2)\\
+\addlinespace
+tidyr & tidyr & 1.2.0 & 2022-02-01 & CRAN (R 4.1.2)\\
+tidyselect & tidyselect & 1.1.1 & 2021-04-30 & CRAN (R 4.1.2)\\
+tidyverse & tidyverse & 1.3.1 & 2021-04-15 & CRAN (R 4.1.2)\\
+tinytex & tinytex & NA & 2021-12-19 & CRAN (R 4.1.2)\\
+tzdb & tzdb & 0.2.0 & 2021-10-27 & CRAN (R 4.1.2)\\
+\addlinespace
+usethis & usethis & 2.1.5 & 2021-12-09 & CRAN (R 4.1.2)\\
+utf8 & utf8 & 1.2.2 & 2021-07-24 & CRAN (R 4.1.2)\\
+uuid & uuid & NA & 2021-11-01 & CRAN (R 4.1.2)\\
+vctrs & vctrs & 0.3.8 & 2021-04-29 & CRAN (R 4.1.2)\\
+viridis & viridis & NA & 2021-10-13 & CRAN (R 4.1.2)\\
+\addlinespace
+viridisLite & viridisLite & NA & 2021-04-13 & CRAN (R 4.1.2)\\
+vroom & vroom & NA & 2021-11-30 & CRAN (R 4.1.2)\\
+waldo & waldo & NA & 2021-09-14 & CRAN (R 4.1.2)\\
+whisker & whisker & NA & 2019-08-28 & CRAN (R 4.1.2)\\
+withr & withr & 2.4.3 & 2021-11-30 & CRAN (R 4.1.2)\\
+\addlinespace
+xfun & xfun & 0.29 & 2021-12-14 & CRAN (R 4.1.2)\\
+xml2 & xml2 & 1.3.3 & 2021-11-30 & CRAN (R 4.1.2)\\
+xopen & xopen & NA & 2018-09-17 & CRAN (R 4.1.2)\\
+yaml & yaml & 2.2.2 & 2022-01-25 & CRAN (R 4.1.2)\\
+zip & zip & NA & 2021-05-31 & CRAN (R 4.1.2)\\
+\bottomrule
+\end{tabular}
 
 
 
@@ -170,7 +345,7 @@ The R session information when compiling this book is shown below:
 
 ```r
 sessionInfo()
-#> R version 4.0.5 (2021-03-31)
+#> R version 4.1.2 (2021-11-01)
 #> Platform: x86_64-w64-mingw32/x64 (64-bit)
 #> Running under: Windows 10 x64 (build 19044)
 #> 
@@ -184,16 +359,17 @@ sessionInfo()
 #> [5] LC_TIME=English_United States.1252    
 #> 
 #> attached base packages:
-#> [1] stats     graphics  grDevices utils     datasets  methods   base     
+#> [1] stats     graphics  grDevices utils     datasets  methods  
+#> [7] base     
 #> 
 #> other attached packages:
-#>  [1] DT_0.20         devtools_2.4.3  usethis_2.1.3   forcats_0.5.1  
-#>  [5] stringr_1.4.0   dplyr_1.0.7     purrr_0.3.4     readr_2.1.1    
-#>  [9] tidyr_1.1.4     tibble_3.1.6    ggplot2_3.3.5   tidyverse_1.3.1
-#> [13] webshot_0.5.2   knitr_1.36      vembedr_0.1.4   tweetrmd_0.0.8 
+#>  [1] DT_0.20         devtools_2.4.3  usethis_2.1.5   forcats_0.5.1  
+#>  [5] stringr_1.4.0   dplyr_1.0.8     purrr_0.3.4     readr_2.1.2    
+#>  [9] tidyr_1.2.0     tibble_3.1.6    ggplot2_3.3.5   tidyverse_1.3.1
+#> [13] webshot_0.5.2   knitr_1.37      vembedr_0.1.5   tweetrmd_0.0.9 
 #> 
 #> loaded via a namespace (and not attached):
-#> [1] tools_4.0.5     bookdown_0.24   rmarkdown_2.11  htmltools_0.5.2
+#> [1] tools_4.1.2     bookdown_0.24   rmarkdown_2.11  htmltools_0.5.2
 #> [5] shiny_1.7.1     miniUI_0.1.1.1
 ```
 
@@ -243,21 +419,12 @@ Remember: This course is for you, not for me.
 
 
 
-```{=html}
-<div class="vembedr" align="center">
-<div>
-<iframe src="https://www.youtube.com/embed/aL_fP5axQV4" width="533" height="300" frameborder="0" allowfullscreen="" data-external="1"></iframe>
-</div>
-</div>
-```
+\includegraphics[width=29.86in]{img/snoop} 
 
 Credit: 
 
 
-```{=html}
-<blockquote class="twitter-tweet" data-width="550" data-lang="en" data-dnt="true" data-theme="light"><p lang="en" dir="ltr">“Read the syllabus” - <a href="https://twitter.com/SnoopDogg?ref_src=twsrc%5Etfw">@SnoopDogg</a> <a href="https://t.co/RXHvAB5ryO">https://t.co/RXHvAB5ryO</a></p>&mdash; Shit Academics Say (@AcademicsSay) <a href="https://twitter.com/AcademicsSay/status/1293621452684644355?ref_src=twsrc%5Etfw">August 12, 2020</a></blockquote>
-
-```
+\includegraphics[width=19.31in]{img/AcademicsSaystatus} 
 
 
 
@@ -285,12 +452,8 @@ Most of my classes require that you have a computer that can run R and stream vi
 #### R and RStudio
 
 
-```{=html}
-<div class="vembedr" align="center">
-<div>
-<iframe src="https://www.youtube.com/embed/kVIZGCT5p9U" width="533" height="300" frameborder="0" allowfullscreen=""></iframe>
-</div>
-</div>
+```
+#> NULL
 ```
 
 R is a free software environment for statistical computing and graphics. It compiles and runs on a wide variety of UNIX platforms, Windows, and MacOS.
@@ -400,7 +563,7 @@ Incompletes can only be granted IF a student fails to complete the work of a cou
 # Accommodations Policy
 
 If you are (or become) disabled (in any capacity, permanently, or temporarily), and need accommodations in class, reading, or any other work in this course, please contact me to discuss your specific needs as soon as possible. 
-Under the [Americans with Disabilities Act (ADA) of 1990](https://www.dol.gov/general/topic/disability/ada) and [ADA Amendments Act (ADAAA) of 2008](https://en.wikipedia.org/wiki/ADA_Amendments_Act_of_2008), you are legally entitled to reasonable accommodations for disabilities. 
+Under the [Americans with Disabilities Act (ADA) of 1990](https://beta.ada.gov/) and [ADA Amendments Act (ADAAA) of 2008](https://en.wikipedia.org/wiki/ADA_Amendments_Act_of_2008), you are legally entitled to reasonable accommodations for disabilities. 
 I will do everything in my capacity as your professor to ensure that you receive those accommodations. 
 
 Students who need reasonable accommodations for disabilities also should contact the Learning Assistance Center \& Disability Services  (118 Reynolda Hall, 336-758-5929,  [lac.wfu.edu](https://lac.wfu.edu/)). You can request accommodations through the student portal here: https://olympic.accessiblelearning.com/WFU/. These accommodations are not retroactive.  Therefore, I strongly encourage you to use those accommodations. 
@@ -419,11 +582,15 @@ At Wake Forest and at many other places, the expectation is that you will self-a
 
 
 
-
-```{=html}
-<blockquote class="twitter-tweet" data-width="550" data-lang="en" data-dnt="true" data-theme="light"><p lang="en" dir="ltr">Every time we write that self-advocacy is key to disabled students&#39; success, we need to include an asterisk and note, &quot;BUT IT SHOULDN&#39;T BE&quot; <br><br>Disabled students deserve success regardless of how well they can navigate the system and cajole/plead/argue with profs for access.</p>&mdash; The ADHD Academic (@theADHDacademic) <a href="https://twitter.com/theADHDacademic/status/1458876178580881410?ref_src=twsrc%5Etfw">November 11, 2021</a></blockquote>
-
-```
+> Every time we write that self-advocacy is key to disabled students\'
+> success, we need to include an asterisk and note, \"BUT IT SHOULDN\'T
+> BE\"\
+> \
+> Disabled students deserve success regardless of how well they can
+> navigate the system and cajole/plead/argue with profs for access.
+>
+> --- The ADHD Academic (\@theADHDacademic) [November 11,
+> 2021](https://twitter.com/theADHDacademic/status/1458876178580881410)
 
 As a student, you may not know what accommodations work best for you. Or you may find that your current accommodations don't work like they used to. 
 
@@ -457,10 +624,13 @@ I aim to create a learning environment for my students that supports a diversity
 
 - If you reached here in the syllabus, e-mail me a picture of a cat. If you do it before the end of the first week, you get a small bonus. (And even if its after the first week, feel free to still send me a cat picture.)
 
-## Psychology Department Statement on Diversity, Equity, and Inclusion
+## Statements
 
+### From the psychology department
 The Psychology Department values, respects, and celebrates the experiences, beliefs, and practices stemming from varied cultures and circumstances (emphasizing, but not limited to, those from historically underrepresented groups),and our deep commitment to diversity, equity, and inclusion plays out through coursework, programming by majors, and research. 
 
+### How I'd expand it
+The Psychology Department values, respects, and celebrates the experiences, beliefs, and practices stemming from varied cultures and circumstances ( emphasizing, but not limited to, those from marginalized groups, including those historically underrepresented). We center our department around our deep commitment to diversity, equity, inclusion, and access. That deep commitment plays out through coursework, programming by majors, service, outreach, and research. 
 
 <!--chapter:end:0103_idea.Rmd-->
 
@@ -528,7 +698,7 @@ I literally wrote a R program that checks for working together on tests. )
 
 # Communication
 
-Please be intentional with your emails and recognize that my time in finite. It is in everyone's best interest that I spend my time engaging with students in meaningful ways, not pointing you to material you can find on your own. Be sure to check the syllabus, course website, course content, and classmates before emailing me. This practice is important training for life after college – when you have a question, the first thing you do should not be to email your boss. I do not want to discourage you from engaging with me. I love teaching because I love interacting with students.  However, I do not want to engage with you in ways that nurture your inability to critically think and prevents me from engaging with other students.
+Be mindful that there is a person on the other end of your request -- me. I'm a person. So please be intentional with your emails and recognize that my time in finite. It is in everyone's best interest that I spend my time engaging with students in meaningful ways, not pointing you to material you can find on your own. Be sure to check the syllabus, course website, course content, and classmates before emailing me. This practice is important training for life after college – when you have a question, the first thing you do should not be to email your boss. I do not want to discourage you from engaging with me. I love teaching because I love interacting with students.  However, I do not want to engage with you in ways that nurture your inability to critically think and prevents me from engaging with other students. 
 
 If you are ever uncertain about the purpose of an assignment, the learning objectives of an activity, or how an assessment will be graded, please reach out. My goal is to be  organized, thoughtful, and transparent. All my assignments were thoughtfully chosen. There is no busy work or unnecessary required course material. If I have done a poor job explaining the motivation for any aspect of my course, please let me know so I can be more clear. 
 
@@ -583,13 +753,39 @@ Students are advised that Wake Forest University faculty members hold the copyri
 
 <!--chapter:end:0105_communcation.Rmd-->
 
-# Public Health in the age of COVID-19
+# Public Health in the Age of COVID-19
 
 Here's the deal. I'm *probably* at increased risk of complications. In this class, mask compliance is essential for us (and me) making it through the semester. At present, I am in the position where I have to put my health in your hands. I have many thoughts as to why, how, and who has led to me being in this present position. I don't fault students. However, I need you to understand that the stakes are high.
 
-Regardless of any changes to university policy or mask mandates, we will be masked for the entire semester. You will put your mask on *before* you enter my class. Your mask will cover your nose and mouth. I will pause class if I see your nose. If your struggle with this, I am very happy to show you how to properly secure your mask. Truly. I would love to show you how, so that we can all be a little safer. If you feel sick or are exposed, please don't come to class. I will happily meet with you (remotely) to fill you in. 
+Regardless of any changes to university policy or mask mandates, we will be masked for the entire semester. You will put your mask on *before* you enter my class. Your mask will cover your nose and mouth. I will stop class if I see your nose. If your struggle with this, I am very happy to show you how to properly secure your mask. Truly. I would love to show you how, so that we can all be a little safer. If you feel sick or are exposed, please don't come to class. I will happily meet with you (remotely) to fill you in. 
 
 
+```
+## -- Attaching packages --------------------------------------- tidyverse 1.3.1 --
+```
+
+```
+## v ggplot2 3.3.5     v purrr   0.3.4
+## v tibble  3.1.6     v dplyr   1.0.8
+## v tidyr   1.2.0     v stringr 1.4.0
+## v readr   2.1.2     v forcats 0.5.1
+```
+
+```
+## -- Conflicts ------------------------------------------ tidyverse_conflicts() --
+## x dplyr::filter() masks stats::filter()
+## x dplyr::lag()    masks stats::lag()
+```
+
+> Just posting this infographic on masking for all people who say \"one
+> way masking is sufficient, I shouldn\'t have to protect you.\" The
+> data overwhelming proves that one-way masking is insufficient.
+> [pic.twitter.com/RHvyp3ZxFc](https://t.co/RHvyp3ZxFc)
+>
+> --- Nicole Lee Schroeder, PhD (\@Nicole_Lee_Sch) [February 10,
+> 2022](https://twitter.com/Nicole_Lee_Sch/status/1491793104348712965)
+
+However, if you refuse, you need to leave. If you refuse to leave, I will leave. And if I leave, there is no class.
 
 ## As required by Wake Forest Univeristy, I have included the following information related to public health. It is reproduced verbatim. Dead links and all. 
 
@@ -712,22 +908,38 @@ By scaling to a percentage of the highest point total in the class, each student
 This curve can only help your grade.
 
 The full table is provided below:
+\begin{table}
 
-Table: (\#tab:unnamed-chunk-4)Full Table
-
-|Letter | Cutoff|
-|:------|------:|
-|A      |   0.95|
-|A-     |   0.90|
-|B+     |   0.87|
-|B      |   0.83|
-|B-     |   0.80|
-|C+     |   0.77|
-|C      |   0.73|
-|C-     |   0.70|
-|D+     |   0.67|
-|D      |   0.63|
-|D-     |   0.60|
+\caption{(\#tab:unnamed-chunk-4)Full Table}
+\centering
+\begin{tabular}[t]{l|r}
+\hline
+Letter & Cutoff\\
+\hline
+A & 0.95\\
+\hline
+A- & 0.90\\
+\hline
+B+ & 0.87\\
+\hline
+B & 0.83\\
+\hline
+B- & 0.80\\
+\hline
+C+ & 0.77\\
+\hline
+C & 0.73\\
+\hline
+C- & 0.70\\
+\hline
+D+ & 0.67\\
+\hline
+D & 0.63\\
+\hline
+D- & 0.60\\
+\hline
+\end{tabular}
+\end{table}
 
 ### Curve Projections    {-}
 
@@ -749,11 +961,7 @@ Trust me, you do not want me to curve by assignment.
 
 ## Schedule {-}
 
-
-```{=html}
-<div id="htmlwidget-9918dd9de91fd3e44860" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-9918dd9de91fd3e44860">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15],["08/23","08/30","09/06","09/13","09/20","09/27","10/04","10/11","10/18","10/25","11/01","11/08","11/15","11/22","11/29"],["What is Personality","Personality Research Methods","Assessment, Evaluation, and Ethics","Trait Approach and Personality Judgment","Big Five","Personality over the Lifespan","Biological Approaches to Psychology","Behavior Genetics","Evolutionary Psychology","Cross-Cultural Psychology","Freud","Psychoanalysis After Freud","Personality Processes and Positive Psych","Thanksgiving Break!","Personality and Health"],["Week 01, 08/23 - 08/27","Week 02, 08/30 - 09/03","Week 03, 09/06 - 09/10","Week 04, 09/13 - 09/17","Week 05, 09/20 - 09/24","Week 06, 09/27 - 10/01","Week 07, 10/04 - 10/08","Week 08, 10/11 - 10/15","Week 09, 10/18 - 10/22","Week 10, 10/25 - 10/29","Week 11, 11/01 - 11/05","Week 12, 11/08 - 11/12","Week 13, 11/15 - 11/19","Week 14, 11/22 - 11/26","Week 15, 11/29 - 12/03"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0}],"order":[],"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
-```
+![](0201_personality_files/figure-latex/unnamed-chunk-3-1.pdf)<!-- --> 
 
 
 
@@ -791,22 +999,38 @@ By scaling to a percentage of the highest point total in the class, each student
 This curve can only help your grade.
 
 The full table is provided below:
+\begin{table}
 
-Table: (\#tab:unnamed-chunk-3)Full Table
-
-|Letter | Cutoff|
-|:------|------:|
-|A      |   0.95|
-|A-     |   0.90|
-|B+     |   0.87|
-|B      |   0.83|
-|B-     |   0.80|
-|C+     |   0.77|
-|C      |   0.73|
-|C-     |   0.70|
-|D+     |   0.67|
-|D      |   0.63|
-|D-     |   0.60|
+\caption{(\#tab:unnamed-chunk-3)Full Table}
+\centering
+\begin{tabular}[t]{l|r}
+\hline
+Letter & Cutoff\\
+\hline
+A & 0.95\\
+\hline
+A- & 0.90\\
+\hline
+B+ & 0.87\\
+\hline
+B & 0.83\\
+\hline
+B- & 0.80\\
+\hline
+C+ & 0.77\\
+\hline
+C & 0.73\\
+\hline
+C- & 0.70\\
+\hline
+D+ & 0.67\\
+\hline
+D & 0.63\\
+\hline
+D- & 0.60\\
+\hline
+\end{tabular}
+\end{table}
 
 ### Curve Projections    {-}
 
@@ -828,9 +1052,9 @@ There will be 3 exams. The best 2 out of 3 exam grades will be used to determine
 
 #### Exams Dates   {-}
 
-- Exam 1: Friday, 02/11
+- Exam 1: Friday, 02/18
 
-- Exam 2: Friday, 04/01
+- Exam 2: Friday, 04/08
 
 - Exam 3: During Finals, 05/06
 
@@ -845,7 +1069,7 @@ The best one (1) out of two (2) short assignments will be used to determine your
 
 #### Assignment Dates   {-}
 
-- Assignment 1: Friday, 03/04: Qualitative Critique 1
+- Assignment 1: Friday, 03/11: Qualitative Critique 1
 
 - Assignment 2: Friday, 04/29: Qualitative Critique 2
 
@@ -868,11 +1092,7 @@ There will be multiple engagement activities in this course. These activities wi
 
 
 
-
-```{=html}
-<div id="htmlwidget-39c6b933a9f658d7c460" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-39c6b933a9f658d7c460">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17],["01/10","01/17","01/24","01/31","02/07","02/14","02/21","02/28","03/07","03/14","03/21","03/28","04/04","04/11","04/18","04/25","05/02"],["Introduction","Statistical Foundations","Describing Data with R","Univariate Distributions","Bivariate Distributions","Probability Theory","Binomials and other sampling distributions","Hypothesis Testing","Spring Break","T-Tests","Regression","Causal Inference","ANOVA","Applications in R","Applications in R","Review","NA"],["Week 01, 01/10 - 01/14","Week 02, 01/17 - 01/21","Week 03, 01/24 - 01/28","Week 04, 01/31 - 02/04","Week 05, 02/07 - 02/11","Week 06, 02/14 - 02/18","Week 07, 02/21 - 02/25","Week 08, 02/28 - 03/04","Week 09, 03/07 - 03/11","Week 10, 03/14 - 03/18","Week 11, 03/21 - 03/25","Week 12, 03/28 - 04/01","Week 13, 04/04 - 04/08","Week 14, 04/11 - 04/15","Week 15, 04/18 - 04/22","Week 16, 04/25 - 04/29","Week 17, 05/02 - 05/06"],[null,null,null,null,"Exam",null,null,"Assignment",null,null,null,"Exam",null,null,null,"Assignment","Exam"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n      <th>milestones<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0}],"order":[],"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
-```
+![](0202_stats_files/figure-latex/unnamed-chunk-2-1.pdf)<!-- --> 
 
 
 <!---
@@ -1034,22 +1254,38 @@ By scaling to a percentage of the highest point total in the class, each student
 This curve can only help your grade.
 
 The full table is provided below:
+\begin{table}
 
-Table: (\#tab:unnamed-chunk-4)Full Table
-
-|Letter | Cutoff|
-|:------|------:|
-|A      |   0.95|
-|A-     |   0.90|
-|B+     |   0.87|
-|B      |   0.83|
-|B-     |   0.80|
-|C+     |   0.77|
-|C      |   0.73|
-|C-     |   0.70|
-|D+     |   0.67|
-|D      |   0.63|
-|D-     |   0.60|
+\caption{(\#tab:unnamed-chunk-4)Full Table}
+\centering
+\begin{tabular}[t]{l|r}
+\hline
+Letter & Cutoff\\
+\hline
+A & 0.95\\
+\hline
+A- & 0.90\\
+\hline
+B+ & 0.87\\
+\hline
+B & 0.83\\
+\hline
+B- & 0.80\\
+\hline
+C+ & 0.77\\
+\hline
+C & 0.73\\
+\hline
+C- & 0.70\\
+\hline
+D+ & 0.67\\
+\hline
+D & 0.63\\
+\hline
+D- & 0.60\\
+\hline
+\end{tabular}
+\end{table}
 
 ### Curve Projections    {-}
 
@@ -1111,11 +1347,7 @@ There will be multiple engagement activities in this course. These activities wi
 
 ## Schedule {-}
 
-
-```{=html}
-<div id="htmlwidget-46f02cc0a09303475168" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-46f02cc0a09303475168">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15],["01/25","02/01","02/08","02/15","02/22","03/01","03/08","03/15","03/22","03/29","04/05","04/12","04/19","04/26","05/03"],["Foundations and Nature of Testing","History of Testing","Ethical and Social Considerations in Testing","Norms and the Meaning of Test Scores","Classical Test Theory","Reliability","Catch Up Week","Validity","Item Analysis","Factor Analysis","Item Response Theory","Practical Testing Things","Ability Testing","Personality Testing","Review"],["Week 01, 01/25 - 01/29","Week 02, 02/01 - 02/05","Week 03, 02/08 - 02/12","Week 04, 02/15 - 02/19","Week 05, 02/22 - 02/26","Week 06, 03/01 - 03/05","Week 07, 03/08 - 03/12","Week 08, 03/15 - 03/19","Week 09, 03/22 - 03/26","Week 10, 03/29 - 04/02","Week 11, 04/05 - 04/09","Week 12, 04/12 - 04/16","Week 13, 04/19 - 04/23","Week 14, 04/26 - 04/30","Week 15, 05/03 - 05/07"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0}],"order":[],"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
-```
+![](0203_testing_files/figure-latex/unnamed-chunk-3-1.pdf)<!-- --> 
 
 
 <!--chapter:end:0203_testing.Rmd-->
@@ -1256,11 +1488,7 @@ To contract for a "P" or Pass in this course, you agree to:
 
 Note that I'll be using your contracts to guide my tinkering.
 
-
-```{=html}
-<div id="htmlwidget-7c958a853efb61220ef5" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-7c958a853efb61220ef5">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15],["01/10","01/17","01/24","01/31","02/07","02/14","02/21","02/28","03/07","03/14","03/21","03/28","04/04","04/11","04/18"],["What is Data Science and Meet the Toolkit","Data and Visualization","Welcome to the Tidyverse","Data types and Data Transformations","Effective data visualization","Scientific Communication and confounding","Functions and Automation","Webscraping","Spring Break","Ethics","Tidy Models","Overfitting and Cross validation","Quantifying uncertainty","Rshiny","Machine Learning"],["Week 01, 01/10 - 01/14","Week 02, 01/17 - 01/21","Week 03, 01/24 - 01/28","Week 04, 01/31 - 02/04","Week 05, 02/07 - 02/11","Week 06, 02/14 - 02/18","Week 07, 02/21 - 02/25","Week 08, 02/28 - 03/04","Week 09, 03/07 - 03/11","Week 10, 03/14 - 03/18","Week 11, 03/21 - 03/25","Week 12, 03/28 - 04/01","Week 13, 04/04 - 04/08","Week 14, 04/11 - 04/15","Week 15, 04/18 - 04/22"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0}],"order":[],"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
-```
+![](0204_datascience_files/figure-latex/unnamed-chunk-3-1.pdf)<!-- --> 
 
 
 
@@ -1279,11 +1507,13 @@ Below you'll find answers to the questions that I get asked the most by students
 
 I don't want to discourage you from asking questions. However, asking me is not an efficient method for finding facts and searchable information...
 
-
-```{=html}
-<blockquote class="twitter-tweet" data-width="550" data-lang="en" data-dnt="true" data-theme="light"><p lang="en" dir="ltr">Considering launching the following autoreply:<br>Frequently Asked Questions<br>Q: &quot;Can you -&quot;<br>A: I cannot.</p>&mdash; Alison Ledgerwood (@AlisonLedg) <a href="https://twitter.com/AlisonLedg/status/1441181845706579969?ref_src=twsrc%5Etfw">September 23, 2021</a></blockquote>
-
-```
+> Considering launching the following autoreply:\
+> Frequently Asked Questions\
+> Q: \"Can you -\"\
+> A: I cannot.
+>
+> --- Alison Ledgerwood (\@AlisonLedg) [September 23,
+> 2021](https://twitter.com/AlisonLedg/status/1441181845706579969)
 
 ## How can I get ahold of you?
 
@@ -1301,7 +1531,8 @@ I don't want to discourage you from asking questions. However, asking me is not 
 
 * Phone Call: ...
 
-<img src="img/why-this-millennial-didnt-answer-your-call.jpeg" width="50%" style="display: block; margin: auto;" />
+
+\begin{center}\includegraphics[width=0.5\linewidth]{img/why-this-millennial-didnt-answer-your-call} \end{center}
 
 Credit: [Kiki Schirr](https://kikischirr.medium.com/) at [Tech Doodles](https://medium.com/tech-doodles) on ["Why this millennial didn't answer your call"](https://medium.com/tech-doodles/why-this-millennial-didnt-answer-your-call-d5abccf06cfc)
 
@@ -1350,11 +1581,12 @@ Although I am not Canvas tech support, I have provided some answers and resource
 - If you'd like to get materials for free, you can borrow the materials from someone who'se already taken the course.
 - **Obviously**, I can't recommend finding the materials online... 
 
-
-```{=html}
-<blockquote class="twitter-tweet" data-width="550" data-lang="en" data-dnt="true" data-theme="light"><p lang="en" dir="ltr">Once again, I DO NOT recommend students go to libgen (dot) rs and download books for their upcoming courses. I am NOT advocating for getting and sharing free pdfs of required texts. DON&#39;T DO IT.</p>&mdash; itsgalo 🗯 (@GaloAndStuff) <a href="https://twitter.com/GaloAndStuff/status/1424818560417902604?ref_src=twsrc%5Etfw">August 9, 2021</a></blockquote>
-
-```
+> Once again, I DO NOT recommend students go to libgen (dot) rs and
+> download books for their upcoming courses. I am NOT advocating for
+> getting and sharing free pdfs of required texts. DON\'T DO IT.
+>
+> --- itsgalo (\@GaloAndStuff) [August 9,
+> 2021](https://twitter.com/GaloAndStuff/status/1424818560417902604)
 
 ### Can...
 
@@ -1407,13 +1639,8 @@ embed_url() %>%
 }
 ```
 
-```{=html}
-<div class="vembedr" align="center">
-<div>
-<iframe src="https://www.youtube.com/embed/WVvKnq5XT-g" width="533" height="300" frameborder="0" allowfullscreen=""></iframe>
-</div>
-</div>
-```
+
+\includegraphics[width=18.14in]{img/worriedgrade} 
 
 
 ### Why...
@@ -1443,11 +1670,17 @@ If you find yourself spending a lot more or a lot less than 9 hours per week on 
 
 ### How do I ask professors for extensions?
 
-
-```{=html}
-<blockquote class="twitter-tweet" data-width="550" data-lang="en" data-dnt="true" data-theme="light"><p lang="en" dir="ltr">Until I became a professor, I didn&#39;t realize that students can (and do) regularly ask for extensions. <br><br>This means some students know how to use this strategy to support their learning, some don&#39;t.<br><br>Sharing info so everyone has access to the same tools. A thread. <a href="https://twitter.com/OpenAcademics?ref_src=twsrc%5Etfw">@OpenAcademics</a></p>&mdash; Betty Lai, PhD (@BettySLai) <a href="https://twitter.com/BettySLai/status/1455555111397117954?ref_src=twsrc%5Etfw">November 2, 2021</a></blockquote>
-
-```
+> Until I became a professor, I didn\'t realize that students can (and
+> do) regularly ask for extensions.\
+> \
+> This means some students know how to use this strategy to support
+> their learning, some don\'t.\
+> \
+> Sharing info so everyone has access to the same tools. A thread.
+> [\@OpenAcademics](https://twitter.com/OpenAcademics)
+>
+> --- Betty Lai, PhD (\@BettySLai) [November 2,
+> 2021](https://twitter.com/BettySLai/status/1455555111397117954)
 
 
 ## Online Learning
@@ -1531,7 +1764,8 @@ You're probably familiar with checking your grades for a [current course in Canv
 
 In order to get an accurate view of your final grade towards the end of the semester,
 
-<img src="img/grades.png" width="50%" style="display: block; margin: auto;" />
+
+\begin{center}\includegraphics[width=0.5\linewidth]{img/grades} \end{center}
 
 You may also be seeing icons and colors when you view your grades. [Learn what these grade icons and colors mean](https://community.canvaslms.com/docs/DOC-16533-4212829283).
 
@@ -1561,7 +1795,8 @@ Check out the canvas [basic guides](https://community.canvaslms.com/t5/Canvas-Ba
 
 Because some of the requirements to unlock it the activity are not met. To unlock the activity/module, you need to do whatever is listed.
 
-<img src="img/requirements.png" width="50%" style="display: block; margin: auto;" />
+
+\begin{center}\includegraphics[width=0.5\linewidth]{img/requirements} \end{center}
 
 ## Resources
 
@@ -1596,13 +1831,7 @@ Thus, if you miss one lecture or zip through a video, you run the risk of being 
 I've created a [video](https://youtu.be/dc3D2tbl8G0) highlighting how to be a successful asynchronous learner. 
 
 
-```{=html}
-<div class="vembedr" align="center">
-<div>
-<iframe src="https://www.youtube.com/embed/dc3D2tbl8G0" width="533" height="300" frameborder="0" allowfullscreen=""></iframe>
-</div>
-</div>
-```
+\includegraphics[width=30.76in]{img/learngood} 
 
 Much of this information comes from Northeastern University's [Tips for Taking Online Classes](https://www.northeastern.edu/graduate/blog/tips-for-taking-online-classes/)
 
@@ -1727,7 +1956,8 @@ On mobile devices, Canvas is designed to be used within Canvas mobile applicatio
 * In order to get an accurate view of your final grade towards the end of the semester, make sure to uncheck the Calculate based only on graded assignments checkbox:
 
 
-<img src="img/grades.png" width="50%" style="display: block; margin: auto;" />
+
+\begin{center}\includegraphics[width=0.5\linewidth]{img/grades} \end{center}
 
 
 * You may also be seeing icons and colors when you view your grades. [Learn what these grade icons and colors mean](https://community.canvaslms.com/t5/Student-Guide/How-do-I-use-the-icons-and-colors-in-the-Grades-page/ta-p/476)
@@ -1863,7 +2093,8 @@ You can search the Canvas Guides or contact the Canvas Support Helpline by click
 
 **Tech Support Cheat Sheet**
 
-![](https://imgs.xkcd.com/comics/tech_support_cheat_sheet.png)<!-- -->
+
+\includegraphics[width=10.17in]{img/tech_support_cheat_sheet} 
 
 ## Public Health
 
@@ -1876,8 +2107,6 @@ You can search the Canvas Guides or contact the Canvas Support Helpline by click
 
 # (PART\*) Back Matter {-}
 
-
-# References {-}
 
 
 <!--chapter:end:9999_references.Rmd-->

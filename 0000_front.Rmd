@@ -44,10 +44,10 @@ This mega syllabus leans on other peoples' materials and ideas. I have done my b
 ## Additional Attributions  {-}
 
 
-** Numerous Icons from the Noun Project by: **
-* Adrien Coquet
-* Corpus Delicti
-* Suhyeon Jung
+- Numerous Icons from the Noun Project by:
+  - Adrien Coquet
+  - Corpus Delicti
+  - Suhyeon Jung
 
 **Select lecture notes from:**
 
