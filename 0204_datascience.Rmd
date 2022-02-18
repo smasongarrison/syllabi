@@ -83,29 +83,33 @@ Data Science for Psychologists (DSP) introduces on the principles of data scienc
 
 ## Required Materials  {-}
 
-Wickham and Grolemund's R for Data Science text (http://r4ds.had.co.nz/)
+All materials for this course are open source, including the multimedia course notes. 
+
+- Garrison's Data Science for Psychologists (https://datascience4psych.github.io/DataScience4Psych/)
+- Wickham and Grolemund's R for Data Science text (http://r4ds.had.co.nz/)
 
 
 
 
 ## Course Assignments  {-}
 
-You will be formally evaluated in three different ways.
+You will be formally evaluated in three different ways. Instructions for the assignments can be found in the [course notes](https://datascience4psych.github.io/DataScience4Psych/).
 
 
 
 ### Presentation {-}
 
-You will give one presentation. This presentation will be approximately 10-minutes. This presentation is chance to practice a formal presentation in a relatively pressure-free setting).
+You will give one presentation. This presentation will be approximately 10-minutes. This presentation is chance to practice a formal presentation in a relatively pressure-free setting). 
 
 
 ### Labs  {-}
 
-There is (at least) one lab available per module.
+There is (at least) one lab available per module. You can find the modules in the [course notes](https://datascience4psych.github.io/DataScience4Psych/).
 
 ### Portfolio  {-}
 
-The major semester projects (described on the data science website) is a set of EDA Projects, which you will summarize in an EDA Portfolio to be handed in on the last day of class.
+The major semester projects (described on the data science website) is a set of EDA Projects, which you will summarize in an EDA Portfolio to be handed in on the last day of class. Instructions for the portfolio can be found in the [course notes](https://datascience4psych.github.io/DataScience4Psych/).
+
 
 
 ### Engagement  {-}
