@@ -1,34 +1,17 @@
 # Public Health in the Age of COVID-19
 
-Here's the deal. I'm *probably* at increased risk of complications. In this class, mask compliance is essential for us (and me) making it through the semester. At present, I am in the position where I have to put my health in your hands. I have many thoughts as to why, how, and who has led to me being in this present position. I don't fault students. However, I need you to understand that the stakes are high.
+Here's the deal. I'm *definitely* at increased risk of complications, and FINALLY on the list of at risk conditions^[https://www.cdc.gov/coronavirus/2019-ncov/hcp/clinical-care/underlyingconditions.html#anchor_1618433687270]. In this class, mask compliance is essential for us (and me) making it through the semester. At present, I am in the position where I have to put my health in your hands. I have many thoughts as to why, how, and who has led to me being in this present position. I don't fault students. However, I need you to understand that the stakes are high.
 
-Regardless of any changes to university policy or mask mandates, we will be masked for the entire semester. You will put your mask on *before* you enter my class. Your mask will cover your nose and mouth. I will stop class if I see your nose. If your struggle with this, I am very happy to show you how to properly secure your mask. Truly. I would love to show you how, so that we can all be a little safer. If you feel sick or are exposed, please don't come to class. I will happily meet with you (remotely) to fill you in. 
+Regardless of any changes to university policy or mask mandates, we will be masked for the entire semester. You will put your mask on *before* you enter my class. Your mask will cover your nose and mouth. I will stop class if I see your nose. If your struggle with this, I am very happy to show you how to properly secure your mask^[https://www.youtube.com/watch?v=GzTAZDsNBe0]. Truly. I would love to show you how, so that we can all be a little safer. If you feel sick or are exposed, please don't come to class. I will happily meet with you (remotely) to fill you in. 
 
 
-```
-## -- Attaching packages --------------------------------------- tidyverse 1.3.1 --
-```
 
-```
-## v ggplot2 3.3.5     v purrr   0.3.4
-## v tibble  3.1.6     v dplyr   1.0.8
-## v tidyr   1.2.0     v stringr 1.4.0
-## v readr   2.1.2     v forcats 0.5.1
-```
+
+
+```{=html}
+<blockquote class="twitter-tweet" data-width="550" data-lang="en" data-dnt="true" data-theme="light"><p lang="en" dir="ltr">Just posting this infographic on masking for all people who say &quot;one way masking is sufficient, I shouldn&#39;t have to protect you.&quot; The data overwhelming proves that one-way masking is insufficient. <a href="https://t.co/RHvyp3ZxFc">pic.twitter.com/RHvyp3ZxFc</a></p>&mdash; Nicole Lee Schroeder, PhD (@Nicole_Lee_Sch) <a href="https://twitter.com/Nicole_Lee_Sch/status/1491793104348712965?ref_src=twsrc%5Etfw">February 10, 2022</a></blockquote>
 
 ```
-## -- Conflicts ------------------------------------------ tidyverse_conflicts() --
-## x dplyr::filter() masks stats::filter()
-## x dplyr::lag()    masks stats::lag()
-```
-
-> Just posting this infographic on masking for all people who say \"one
-> way masking is sufficient, I shouldn\'t have to protect you.\" The
-> data overwhelming proves that one-way masking is insufficient.
-> [pic.twitter.com/RHvyp3ZxFc](https://t.co/RHvyp3ZxFc)
->
-> --- Nicole Lee Schroeder, PhD (\@Nicole_Lee_Sch) [February 10,
-> 2022](https://twitter.com/Nicole_Lee_Sch/status/1491793104348712965)
 
 However, if you refuse, you need to leave. If you refuse to leave, I will leave. And if I leave, there is no class.
 
@@ -37,8 +20,11 @@ However, if you refuse, you need to leave. If you refuse to leave, I will leave.
 > We share responsibility for the health and safety of each other in a learning space. Maintaining a consistent six feet of distance; wearing face coverings that cover our mouths and noses; limiting our gathering sizes; and isolating or quarantining when ill or exposed to someone with the virus are Wake Forest University directives and policies we all must follow. Students are encouraged to visit [Our Way Forward](https://ourwayforward.wfu.edu/) to stay informed about the latest guidance and review the [Public Health Emergency Addendum to the Student Code of Conduct](https://studentconduct.wfu.edu/undergraduate-student-handbook/public-health-emergency-addendum/).  
 >
 > Specifically, in this room, we will mitigate the risks of virus transfer and take care of our community by abiding by the following safety directives: 
+>
 > - maintain six feet of distance at all times when feasible. 
+>
 > - wear a face covering for the entirety of class indoors and out (unless there is exemption via an approved safety plan for specific coursework). This face covering should cover your mouth and your nose, and adhere to our [University face covering policy](https://drive.google.com/file/d/1Tqo-by1sjmc-kWUTwAqeNdaHq8OBsU9B/view) (no face shields without masks; no neck gaiters; no bandanas; and no masks, including N95, with a one-way valve). 
+>
 > - stay out of class when sick or after being exposed to someone who is sick.
 >
 > In this class, any student who does not follow these requirements will be asked once to follow the safety directives. 
@@ -48,4 +34,6 @@ However, if you refuse, you need to leave. If you refuse to leave, I will leave.
 > If you do not comply, I will ask you to leave the class for that day. 
 >
 > [I will also refer the matter to the COVID-19 compliance reporting system](https://cm.maxient.com/reportingform.php?WakeForestUniv&layout_id=40). Possible disciplinary actions may follow as described in the Wake Forest University Student Conduct Code Public Health Emergency Addendum.
+>
+> .
 
