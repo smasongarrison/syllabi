@@ -125,7 +125,7 @@ Your best approach is to pretend that there is no curve.
 
 The work...
 
-```{r}
+```{r,echo = FALSE}
 if (knitr::is_latex_output()) {
 include_graphics("img/worriedgrade.png")
 }else{
