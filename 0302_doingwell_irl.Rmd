@@ -27,7 +27,8 @@ if (knitr::is_latex_output()) {
 include_graphics("img/learngood.png")
   }else{
 
-embed_url("https://www.youtube.com/watch?v=dc3D2tbl8G0") %>%
+"https://www.youtube.com/watch?v=dc3D2tbl8G0" %>%
+ embed_url() %>%
   use_align("center")
 }
 ```
