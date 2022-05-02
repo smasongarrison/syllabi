@@ -2,17 +2,15 @@
 
 # General information {-}
 
-
 ```{r include = FALSE}
 source("common.R")
 library(webshot)
-
 ```
 
 ```{r links, child="links.md"}
 ```
 
-Welcome! This section includes general syllabus information. The next sections include information specific to your class. (Now, before I forget, any matter not explicitly covered by the syllabus or institution-wide policy is left to my sole discretion as the instructor.)
+Welcome! This section includes general information on the syllabus. The following sections include information specific to your class. (Now, before I forget, any matter not explicitly covered by the syllabus or institution-wide policy is left to my sole discretion as the instructor.)
 
 Remember: This course is for you, not for me. 
 
@@ -46,17 +44,14 @@ If you chose to use alternative materials, such as an older edition of the book,
 
 ### Required Texts
 
-For all my classes, the textbook is intended to supplement the course. 
-The lectures don't follow the order of chapters in the text and the text covers some material that won't be covered in the lectures, i.e., not all the information in each chapter is perfectly pertinent to the course requirements. 
+For all of my classes, the textbook is intended to supplement the course. The lectures do not follow the order of chapters in the text and the text covers some material that will not be covered in the lectures, i.e., not all the information in each chapter is perfectly pertinent to the course requirements. 
 
 It is one of many resources you'll consume. 
-You probably need to consume all of the resources I provide in order to be successful in this class. 
-If you'd like to make the most of your tuition, I strongly encourage you to consume them all. 
-The course-specific resources can be found on the specific course page.
+You probably need to consume all of the resources that I provide in order to be successful in this class. If you'd like to make the most of your tuition, I strongly encourage you to consume them all. Course-specific resources can be found on the specific course page.
 
 ### Hardware
 
-Most of my classes require that you have a computer that can run R and stream videos from youtube.
+Most of my classes require you to have a computer that can run R and stream YouTube videos.
 
 ### Software
 
@@ -80,8 +75,6 @@ RStudio is a free _integrated development environment_ (IDE), a powerful user in
 
 #### Git and Github
 
-Git is a version control system. Its original purpose was to help groups of developers work collaboratively on big software projects. Git manages the evolution of a set of files – called a repository – in a structured way. Think of it like the "Track Changes" features from Microsoft Word.
+Git is a version control system. Its original purpose was to help developers work collaboratively on big software projects. Git manages the evolution of a set of files – called a repository – in a structured way. Think of it like the "Track Changes" feature from Microsoft Word.
 
 Github is a free IDE and hosting service for Git. As a Wake Forest student, you should be able to access the [GitHub Student Developer Pack for free](https://education.github.com/benefits?type=student). It includes a free PRO upgrade for your github account.
-
-
