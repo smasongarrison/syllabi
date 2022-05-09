@@ -10,7 +10,7 @@ library(webshot)
 ```{r links, child="links.md"}
 ```
 
-Welcome! This section includes general information on the syllabus. The following sections include information specific to your class. (Now, before I forget, any matter not explicitly covered by the syllabus or institution-wide policy is left to my sole discretion as the instructor.)
+Welcome! This section includes general information on the syllabus. The following sections include information specific to your class. (Now, before I forget, any matter not explicitly covered by the syllabus or institution-wide policy is left to my sole discretion as the instructor. See [policy-overview])
 
 Remember: This course is for you, not for me. 
 
@@ -35,12 +35,9 @@ include_tweet("https://twitter.com/AcademicsSay/status/1293621452684644355")
 }
 ```
 
-
-
 ## Materials
 
 If you chose to use alternative materials, such as an older edition of the book, it is your responsibility to ensure that those materials are equivalent.
-
 
 ### Required Texts
 
