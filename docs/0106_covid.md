@@ -15,7 +15,9 @@ Regardless of any changes to university policy or mask mandates, we will be mask
 
 However, if you refuse, you need to leave. If you refuse to leave, I will leave. And if I leave, there is no class.
 
-## As required by Wake Forest Univeristy, I have included the following information related to public health. It is reproduced verbatim. Dead links and all. 
+## WFU-Required Statement
+
+As required by Wake Forest University, I have included the following information related to public health. It is reproduced verbatim. Dead links and all. 
 
 > We share responsibility for the health and safety of each other in a learning space. Maintaining a consistent six feet of distance; wearing face coverings that cover our mouths and noses; limiting our gathering sizes; and isolating or quarantining when ill or exposed to someone with the virus are Wake Forest University directives and policies we all must follow. Students are encouraged to visit [Our Way Forward](https://ourwayforward.wfu.edu/) to stay informed about the latest guidance and review the [Public Health Emergency Addendum to the Student Code of Conduct](https://studentconduct.wfu.edu/undergraduate-student-handbook/public-health-emergency-addendum/).  
 >

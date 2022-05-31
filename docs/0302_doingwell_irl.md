@@ -15,7 +15,13 @@ Thus, if you miss one lecture or zip through a video, you run the risk of being 
 I've created a [video](https://youtu.be/dc3D2tbl8G0) highlighting how to be a successful asynchronous learner. 
 
 
-\includegraphics[width=30.76in]{img/learngood} 
+```{=html}
+<div class="vembedr" align="center">
+<div>
+<iframe src="https://www.youtube.com/embed/dc3D2tbl8G0" width="533" height="300" frameborder="0" allowfullscreen="" data-external="1"></iframe>
+</div>
+</div>
+```
 
 Much of this information comes from Northeastern University's [Tips for Taking Online Classes](https://www.northeastern.edu/graduate/blog/tips-for-taking-online-classes/)
 

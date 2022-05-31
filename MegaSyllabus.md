@@ -1,7 +1,7 @@
 --- 
 title: "Prof. Mason's Syllabi"
 author: S. Mason Garrison
-date: "2022-02-14"
+date: "2022-05-31"
 knit: "bookdown::render_book"
 site: bookdown::bookdown_site
 url: 'https\://github.com/smasongarrison/syllabi'
@@ -33,11 +33,8 @@ logo: assets/logo.png
 
 
 
-Welcome to all my syllabi! This website is designed to accompany all of Mason Garrison's courses at Wake Forest University. 
-Over the semesters, I have found that my syllabi keep growing longer and longer as my career has progressed. 
-I know that no one likes reading 8 page syllabi. 
-However, I want to make sure that all my students know what my expectations are. 
-So in that spirit, I've created a website to contain all of my policies in one place. 
+Welcome to all my syllabi! This website is designed to accompany all of Mason Garrison's courses at Wake Forest University. Over the semesters, I have found that my syllabi keep growing longer and longer as my career has progressed. 
+I know that no one likes reading 8 page syllabi. However, I want to make sure that all my students know what my expectations are. So in that spirit, I've created a website to contain all of my policies in one place. 
 That way, I can have a neat and tidy syllabi, while still making my expectations clear.
 
 
@@ -60,7 +57,6 @@ This mega syllabus leans on other peoples' materials and ideas. I have done my b
 
 
 ## Additional Attributions  {-}
-
 
 - Numerous Icons from the Noun Project by:
   - Adrien Coquet
@@ -139,7 +135,7 @@ This version of the notes was built with:
 ```
 #> Finding R package dependencies ... Done!
 #>  setting  value
-#>  version  R version 4.1.2 (2021-11-01)
+#>  version  R version 4.1.3 (2022-03-10)
 #>  os       Windows 10 x64 (build 19044)
 #>  system   x86_64, mingw32
 #>  ui       RTerm
@@ -147,196 +143,18 @@ This version of the notes was built with:
 #>  collate  English_United States.1252
 #>  ctype    English_United States.1252
 #>  tz       America/New_York
-#>  date     2022-02-14
-#>  pandoc   2.11.4 @ C:/Program Files/RStudio/bin/pandoc/ (via rmarkdown)
+#>  date     2022-05-31
+#>  pandoc   2.17.1.1 @ C:/PROGRA~1/Pandoc/ (via rmarkdown)
 ```
 
 Along with these packages:
 
 
 
-\begin{tabular}{lllll}
-\toprule
-  & package & loadedversion & date & source\\
-\midrule
-askpass & askpass & NA & 2019-01-13 & CRAN (R 4.1.2)\\
-assertthat & assertthat & 0.2.1 & 2019-03-21 & CRAN (R 4.1.2)\\
-backports & backports & 1.4.1 & 2021-12-13 & CRAN (R 4.1.2)\\
-base64enc & base64enc & NA & 2015-07-28 & CRAN (R 4.1.1)\\
-bit & bit & NA & 2020-08-04 & CRAN (R 4.1.2)\\
-\addlinespace
-bit64 & bit64 & NA & 2020-08-30 & CRAN (R 4.1.2)\\
-blob & blob & NA & 2021-07-23 & CRAN (R 4.1.2)\\
-bookdown & bookdown & 0.24 & 2021-09-02 & CRAN (R 4.1.2)\\
-brew & brew & NA & 2022-02-04 & CRAN (R 4.1.2)\\
-brio & brio & 1.1.3 & 2021-11-30 & CRAN (R 4.1.2)\\
-\addlinespace
-broom & broom & 0.7.12 & 2022-01-28 & CRAN (R 4.1.2)\\
-cachem & cachem & 1.0.6 & 2021-08-19 & CRAN (R 4.1.2)\\
-callr & callr & 3.7.0 & 2021-04-20 & CRAN (R 4.1.2)\\
-cellranger & cellranger & 1.1.0 & 2016-07-27 & CRAN (R 4.1.2)\\
-cli & cli & 3.1.1 & 2022-01-20 & CRAN (R 4.1.2)\\
-\addlinespace
-clipr & clipr & NA & 2020-10-08 & CRAN (R 4.1.2)\\
-colorspace & colorspace & 2.0-2 & 2021-06-24 & CRAN (R 4.1.2)\\
-commonmark & commonmark & NA & 2018-12-01 & CRAN (R 4.1.2)\\
-conflicted & conflicted & NA & 2021-11-26 & CRAN (R 4.1.2)\\
-cpp11 & cpp11 & NA & 2021-11-30 & CRAN (R 4.1.2)\\
-\addlinespace
-crayon & crayon & 1.5.0 & 2022-02-14 & CRAN (R 4.1.2)\\
-credentials & credentials & NA & 2021-11-29 & CRAN (R 4.1.2)\\
-crosstalk & crosstalk & NA & 2021-11-04 & CRAN (R 4.1.2)\\
-curl & curl & NA & 2021-06-23 & CRAN (R 4.1.2)\\
-data.table & data.table & NA & 2021-09-27 & CRAN (R 4.1.2)\\
-\addlinespace
-DBI & DBI & 1.1.2 & 2021-12-20 & CRAN (R 4.1.2)\\
-dbplyr & dbplyr & 2.1.1 & 2021-04-06 & CRAN (R 4.1.2)\\
-desc & desc & 1.4.0 & 2021-09-28 & CRAN (R 4.1.2)\\
-devtools & devtools & 2.4.3 & 2021-11-30 & CRAN (R 4.1.2)\\
-dichromat & dichromat & NA & NA & NA\\
-\addlinespace
-diffobj & diffobj & NA & 2021-10-05 & CRAN (R 4.1.2)\\
-digest & digest & 0.6.29 & 2021-12-01 & CRAN (R 4.1.2)\\
-dplyr & dplyr & 1.0.8 & 2022-02-08 & CRAN (R 4.1.2)\\
-DT & DT & 0.20 & 2021-11-15 & CRAN (R 4.1.2)\\
-dtplyr & dtplyr & NA & 2022-01-19 & CRAN (R 4.1.2)\\
-\addlinespace
-ellipsis & ellipsis & 0.3.2 & 2021-04-29 & CRAN (R 4.1.2)\\
-evaluate & evaluate & 0.14 & 2019-05-28 & CRAN (R 4.1.2)\\
-fansi & fansi & 1.0.2 & 2022-01-14 & CRAN (R 4.1.2)\\
-farver & farver & NA & 2021-02-28 & CRAN (R 4.1.2)\\
-fastmap & fastmap & 1.1.0 & 2021-01-25 & CRAN (R 4.1.2)\\
-\addlinespace
-forcats & forcats & 0.5.1 & 2021-01-27 & CRAN (R 4.1.2)\\
-fs & fs & 1.5.2 & 2021-12-08 & CRAN (R 4.1.2)\\
-gapminder & gapminder & NA & 2017-10-31 & CRAN (R 4.1.2)\\
-gargle & gargle & NA & 2021-07-02 & CRAN (R 4.1.2)\\
-gender & gender & NA & NA & NA\\
-\addlinespace
-genderdata & genderdata & NA & NA & NA\\
-generics & generics & 0.1.2 & 2022-01-31 & CRAN (R 4.1.2)\\
-geonames & geonames & NA & NA & NA\\
-gert & gert & NA & 2022-01-03 & CRAN (R 4.1.2)\\
-ggplot2 & ggplot2 & 3.3.5 & 2021-06-25 & CRAN (R 4.1.2)\\
-\addlinespace
-gh & gh & NA & 2021-04-30 & CRAN (R 4.1.2)\\
-gitcreds & gitcreds & NA & 2020-12-04 & CRAN (R 4.1.2)\\
-glue & glue & 1.6.1 & 2022-01-22 & CRAN (R 4.1.2)\\
-googledrive & googledrive & NA & 2021-07-08 & CRAN (R 4.1.2)\\
-googlesheets4 & googlesheets4 & NA & 2021-07-21 & CRAN (R 4.1.2)\\
-\addlinespace
-gridExtra & gridExtra & NA & 2017-09-09 & CRAN (R 4.1.2)\\
-gt & gt & NA & NA & NA\\
-gtable & gtable & 0.3.0 & 2019-03-25 & CRAN (R 4.1.2)\\
-haven & haven & 2.4.3 & 2021-08-04 & CRAN (R 4.1.2)\\
-highr & highr & NA & 2021-04-16 & CRAN (R 4.1.2)\\
-\addlinespace
-hms & hms & 1.1.1 & 2021-09-26 & CRAN (R 4.1.2)\\
-htmltools & htmltools & 0.5.2 & 2021-08-25 & CRAN (R 4.1.2)\\
-htmlwidgets & htmlwidgets & 1.5.4 & 2021-09-08 & CRAN (R 4.1.2)\\
-httr & httr & 1.4.2 & 2020-07-20 & CRAN (R 4.1.2)\\
-ids & ids & NA & 2017-05-31 & CRAN (R 4.1.2)\\
-\addlinespace
-ini & ini & NA & 2018-05-20 & CRAN (R 4.1.2)\\
-isoband & isoband & NA & 2021-07-13 & CRAN (R 4.1.2)\\
-jquerylib & jquerylib & NA & 2021-04-26 & CRAN (R 4.1.2)\\
-jsonlite & jsonlite & 1.7.3 & 2022-01-17 & CRAN (R 4.1.2)\\
-knitr & knitr & 1.37 & 2021-12-16 & CRAN (R 4.1.2)\\
-\addlinespace
-labeling & labeling & NA & 2020-10-20 & CRAN (R 4.1.1)\\
-later & later & NA & 2021-08-18 & CRAN (R 4.1.2)\\
-lattice & lattice & NA & 2021-09-22 & CRAN (R 4.1.2)\\
-lazyeval & lazyeval & NA & 2019-03-15 & CRAN (R 4.1.2)\\
-lifecycle & lifecycle & 1.0.1 & 2021-09-24 & CRAN (R 4.1.2)\\
-\addlinespace
-lubridate & lubridate & 1.8.0 & 2021-10-07 & CRAN (R 4.1.2)\\
-magrittr & magrittr & 2.0.2 & 2022-01-26 & CRAN (R 4.1.2)\\
-MASS & MASS & NA & 2021-05-03 & CRAN (R 4.1.2)\\
-Matrix & Matrix & NA & 2021-06-01 & CRAN (R 4.1.2)\\
-memoise & memoise & 2.0.1 & 2021-11-26 & CRAN (R 4.1.2)\\
-\addlinespace
-mgcv & mgcv & NA & 2021-10-06 & CRAN (R 4.1.2)\\
-mime & mime & NA & 2021-09-28 & CRAN (R 4.1.1)\\
-modelr & modelr & 0.1.8 & 2020-05-19 & CRAN (R 4.1.2)\\
-munsell & munsell & 0.5.0 & 2018-06-12 & CRAN (R 4.1.2)\\
-nlme & nlme & NA & 2021-09-07 & CRAN (R 4.1.2)\\
-\addlinespace
-openssl & openssl & NA & 2021-12-19 & CRAN (R 4.1.2)\\
-pillar & pillar & 1.7.0 & 2022-02-01 & CRAN (R 4.1.2)\\
-pkgbuild & pkgbuild & 1.3.1 & 2021-12-20 & CRAN (R 4.1.2)\\
-pkgconfig & pkgconfig & 2.0.3 & 2019-09-22 & CRAN (R 4.1.2)\\
-pkgload & pkgload & 1.2.4 & 2021-11-30 & CRAN (R 4.1.2)\\
-\addlinespace
-praise & praise & NA & 2015-08-11 & CRAN (R 4.1.2)\\
-prettyunits & prettyunits & 1.1.1 & 2020-01-24 & CRAN (R 4.1.2)\\
-processx & processx & 3.5.2 & 2021-04-30 & CRAN (R 4.1.2)\\
-progress & progress & NA & 2019-05-16 & CRAN (R 4.1.2)\\
-promises & promises & NA & 2021-02-11 & CRAN (R 4.1.2)\\
-\addlinespace
-ps & ps & 1.6.0 & 2021-02-28 & CRAN (R 4.1.2)\\
-purrr & purrr & 0.3.4 & 2020-04-17 & CRAN (R 4.1.2)\\
-R6 & R6 & 2.5.1 & 2021-08-19 & CRAN (R 4.1.2)\\
-rappdirs & rappdirs & NA & 2021-01-31 & CRAN (R 4.1.2)\\
-rcmdcheck & rcmdcheck & NA & 2021-09-27 & CRAN (R 4.1.2)\\
-\addlinespace
-RColorBrewer & RColorBrewer & NA & 2014-12-07 & CRAN (R 4.1.1)\\
-Rcpp & Rcpp & 1.0.8 & 2022-01-13 & CRAN (R 4.1.2)\\
-readr & readr & 2.1.2 & 2022-01-30 & CRAN (R 4.1.2)\\
-readxl & readxl & 1.3.1 & 2019-03-13 & CRAN (R 4.1.2)\\
-rebird & rebird & NA & NA & NA\\
-\addlinespace
-rematch & rematch & NA & 2016-04-21 & CRAN (R 4.1.2)\\
-rematch2 & rematch2 & NA & 2020-05-01 & CRAN (R 4.1.2)\\
-remotes & remotes & 2.4.2 & 2021-11-30 & CRAN (R 4.1.2)\\
-reprex & reprex & 2.0.1 & 2021-08-05 & CRAN (R 4.1.2)\\
-rlang & rlang & 1.0.1 & 2022-02-03 & CRAN (R 4.1.2)\\
-\addlinespace
-rmarkdown & rmarkdown & 2.11 & 2021-09-14 & CRAN (R 4.1.2)\\
-roxygen2 & roxygen2 & NA & 2021-09-08 & CRAN (R 4.1.2)\\
-rplos & rplos & NA & NA & NA\\
-rprojroot & rprojroot & 2.0.2 & 2020-11-15 & CRAN (R 4.1.2)\\
-rstudioapi & rstudioapi & 0.13 & 2020-11-12 & CRAN (R 4.1.2)\\
-\addlinespace
-rversions & rversions & NA & 2021-05-31 & CRAN (R 4.1.2)\\
-rvest & rvest & 1.0.2 & 2021-10-16 & CRAN (R 4.1.2)\\
-scales & scales & 1.1.1 & 2020-05-11 & CRAN (R 4.1.2)\\
-selectr & selectr & NA & 2019-11-20 & CRAN (R 4.1.2)\\
-sessioninfo & sessioninfo & 1.2.2 & 2021-12-06 & CRAN (R 4.1.2)\\
-\addlinespace
-stringi & stringi & 1.7.6 & 2021-11-29 & CRAN (R 4.1.2)\\
-stringr & stringr & 1.4.0 & 2019-02-10 & CRAN (R 4.1.2)\\
-sys & sys & NA & 2020-07-23 & CRAN (R 4.1.2)\\
-testthat & testthat & 3.1.2 & 2022-01-20 & CRAN (R 4.1.2)\\
-tibble & tibble & 3.1.6 & 2021-11-07 & CRAN (R 4.1.2)\\
-\addlinespace
-tidyr & tidyr & 1.2.0 & 2022-02-01 & CRAN (R 4.1.2)\\
-tidyselect & tidyselect & 1.1.1 & 2021-04-30 & CRAN (R 4.1.2)\\
-tidyverse & tidyverse & 1.3.1 & 2021-04-15 & CRAN (R 4.1.2)\\
-tinytex & tinytex & NA & 2021-12-19 & CRAN (R 4.1.2)\\
-tzdb & tzdb & 0.2.0 & 2021-10-27 & CRAN (R 4.1.2)\\
-\addlinespace
-usethis & usethis & 2.1.5 & 2021-12-09 & CRAN (R 4.1.2)\\
-utf8 & utf8 & 1.2.2 & 2021-07-24 & CRAN (R 4.1.2)\\
-uuid & uuid & NA & 2021-11-01 & CRAN (R 4.1.2)\\
-vctrs & vctrs & 0.3.8 & 2021-04-29 & CRAN (R 4.1.2)\\
-viridis & viridis & NA & 2021-10-13 & CRAN (R 4.1.2)\\
-\addlinespace
-viridisLite & viridisLite & NA & 2021-04-13 & CRAN (R 4.1.2)\\
-vroom & vroom & NA & 2021-11-30 & CRAN (R 4.1.2)\\
-waldo & waldo & NA & 2021-09-14 & CRAN (R 4.1.2)\\
-whisker & whisker & NA & 2019-08-28 & CRAN (R 4.1.2)\\
-withr & withr & 2.4.3 & 2021-11-30 & CRAN (R 4.1.2)\\
-\addlinespace
-xfun & xfun & 0.29 & 2021-12-14 & CRAN (R 4.1.2)\\
-xml2 & xml2 & 1.3.3 & 2021-11-30 & CRAN (R 4.1.2)\\
-xopen & xopen & NA & 2018-09-17 & CRAN (R 4.1.2)\\
-yaml & yaml & 2.2.2 & 2022-01-25 & CRAN (R 4.1.2)\\
-zip & zip & NA & 2021-05-31 & CRAN (R 4.1.2)\\
-\bottomrule
-\end{tabular}
-
-
-
+```{=html}
+<div id="htmlwidget-9e761b5c7af90f2cc83a" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-9e761b5c7af90f2cc83a">{"x":{"filter":"top","vertical":false,"filterHTML":"<tr>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n<\/tr>","data":[["askpass","assertthat","backports","base64enc","bit","bit64","bitops","blob","bookdown","brew","brio","broom","bslib","cachem","callr","cellranger","checkmate","cli","clipr","colorspace","commonmark","conflicted","cpp11","crayon","credentials","crosstalk","curl","data.table","DBI","dbplyr","desc","devtools","dichromat","diffobj","digest","dplyr","DT","dtplyr","ellipsis","evaluate","fansi","farver","fastmap","forcats","fs","gapminder","gargle","gender","genderdata","generics","geonames","gert","ggplot2","gh","gitcreds","glue","googledrive","googlesheets4","gridExtra","gt","gtable","haven","highr","hms","htmltools","htmlwidgets","httr","ids","ini","isoband","jquerylib","jsonlite","knitr","labeling","later","lattice","lazyeval","lifecycle","lubridate","magrittr","MASS","Matrix","memoise","mgcv","mime","modelr","munsell","nlme","openssl","pillar","pkgbuild","pkgconfig","pkgload","praise","prettyunits","processx","progress","promises","ps","purrr","R6","rappdirs","rcmdcheck","RColorBrewer","Rcpp","readr","readxl","rebird","rematch","rematch2","remotes","reprex","rlang","rmarkdown","roxygen2","rplos","rprojroot","rstudioapi","rversions","rvest","sass","scales","selectr","sessioninfo","stringi","stringr","sys","testthat","tibble","tidyr","tidyselect","tidyverse","tinytex","tzdb","usethis","utf8","uuid","vctrs","viridis","viridisLite","vroom","waldo","whisker","withr","xfun","xml2","xopen","yaml","zip"],[null,"0.2.1","1.4.1",null,null,null,null,null,"0.26",null,"1.1.3","0.8.0","0.3.1","1.0.6","3.7.0","1.1.0",null,"3.2.0",null,"2.0-3",null,null,null,"1.5.1",null,null,null,null,"1.1.2","2.1.1","1.4.1","2.4.3",null,null,"0.6.29","1.0.8","0.22",null,"0.3.2","0.15","1.0.3",null,"1.1.0","0.5.1","1.5.2",null,null,null,null,"0.1.2",null,null,"3.3.5",null,null,"1.6.2",null,null,null,null,"0.3.0","2.5.0",null,"1.1.1","0.5.2","1.5.4","1.4.3",null,null,null,"0.1.4","1.8.0","1.38",null,null,null,null,"1.0.1","1.8.0","2.0.3",null,null,"2.0.1",null,null,"0.1.8","0.5.0",null,null,"1.7.0","1.3.1","2.0.3","1.2.4",null,"1.1.1","3.5.3",null,null,"1.6.0","0.3.4","2.5.1",null,null,null,null,"2.1.2","1.4.0",null,null,null,"2.4.2","2.0.1","1.0.2","2.13",null,null,"2.0.3","0.13",null,"1.0.2","0.4.1","1.2.0",null,"1.2.2","1.7.6","1.4.0",null,"3.1.3","3.1.6","1.2.0","1.1.2","1.3.1",null,"0.3.0","2.1.5","1.2.2",null,"0.4.1",null,null,null,null,null,"2.5.0","0.30","1.3.3",null,"2.3.5",null],["2019-01-13","2019-03-21","2021-12-13","2015-07-28","2020-08-04","2020-08-30","2021-04-24","2022-04-10","2022-04-15","2022-02-04","2021-11-30","2022-04-13","2021-10-06","2021-08-19","2021-04-20","2016-07-27","2020-02-06","2022-02-14","2022-02-22","2022-02-21","2022-03-09","2021-11-26","2021-11-30","2022-03-26","2021-11-29","2021-11-04","2021-06-23","2021-09-27","2021-12-20","2021-04-06","2022-03-06","2021-11-30",null,"2021-10-05","2021-12-01","2022-02-08","2022-03-28","2022-01-19","2021-04-29","2022-02-18","2022-03-24","2021-02-28","2021-01-25","2021-01-27","2021-12-08","2017-10-31","2021-07-02",null,null,"2022-01-31",null,"2022-03-29","2021-06-25","2021-04-30","2020-12-04","2022-02-24","2021-07-08","2021-07-21","2017-09-09","2022-02-15","2019-03-25","2022-04-15","2021-04-16","2021-09-26","2021-08-25","2021-09-08","2022-05-04","2017-05-31","2018-05-20","2021-07-13","2021-04-26","2022-02-22","2022-03-25","2020-10-20","2021-08-18","2021-09-22","2019-03-15","2021-09-24","2021-10-07","2022-03-30","2022-01-16","2021-12-08","2021-11-26","2022-02-24","2021-09-28","2020-05-19","2018-06-12","2022-01-16","2022-05-24","2022-02-01","2021-12-20","2019-09-22","2021-11-30","2015-08-11","2020-01-24","2022-03-25","2019-05-16","2021-02-11","2021-02-28","2020-04-17","2021-08-19","2021-01-31","2021-09-27","2022-04-03","2022-03-17","2022-01-30","2022-03-28",null,"2016-04-21","2020-05-01","2021-11-30","2021-08-05","2022-03-04","2022-03-10","2022-04-11",null,"2022-04-02","2020-11-12","2021-05-31","2021-10-16","2022-03-23","2022-04-13","2019-11-20","2021-12-06","2021-11-29","2019-02-10","2020-07-23","2022-03-29","2021-11-07","2022-02-01","2022-02-21","2021-04-15","2022-03-29","2022-03-28","2021-12-09","2021-07-24","2022-04-19","2022-04-13","2021-10-13","2021-04-13","2021-11-30","2022-03-16","2019-08-28","2022-03-03","2022-03-02","2021-11-30","2018-09-17","2022-02-21","2021-05-31"],["CRAN (R 4.1.2)","CRAN (R 4.1.2)","CRAN (R 4.1.2)","CRAN (R 4.1.1)","CRAN (R 4.1.2)","CRAN (R 4.1.2)","CRAN (R 4.1.1)","CRAN (R 4.1.3)","CRAN (R 4.1.3)","CRAN (R 4.1.2)","CRAN (R 4.1.2)","CRAN (R 4.1.3)","CRAN (R 4.1.2)","CRAN (R 4.1.2)","CRAN (R 4.1.2)","CRAN (R 4.1.2)","CRAN (R 4.1.2)","CRAN (R 4.1.2)","CRAN (R 4.1.2)","CRAN (R 4.1.2)","CRAN (R 4.1.3)","CRAN (R 4.1.2)","CRAN (R 4.1.2)","CRAN (R 4.1.3)","CRAN (R 4.1.2)","CRAN (R 4.1.2)","CRAN (R 4.1.2)","CRAN (R 4.1.2)","CRAN (R 4.1.2)","CRAN (R 4.1.2)","CRAN (R 4.1.2)","CRAN (R 4.1.2)",null,"CRAN (R 4.1.2)","CRAN (R 4.1.2)","CRAN (R 4.1.2)","CRAN (R 4.1.3)","CRAN (R 4.1.2)","CRAN (R 4.1.2)","CRAN (R 4.1.2)","CRAN (R 4.1.3)","CRAN (R 4.1.2)","CRAN (R 4.1.2)","CRAN (R 4.1.2)","CRAN (R 4.1.2)","CRAN (R 4.1.2)","CRAN (R 4.1.2)",null,null,"CRAN (R 4.1.2)",null,"CRAN (R 4.1.3)","CRAN (R 4.1.2)","CRAN (R 4.1.2)","CRAN (R 4.1.2)","CRAN (R 4.1.2)","CRAN (R 4.1.2)","CRAN (R 4.1.2)","CRAN (R 4.1.2)","CRAN (R 4.1.2)","CRAN (R 4.1.2)","CRAN (R 4.1.3)","CRAN (R 4.1.2)","CRAN (R 4.1.2)","CRAN (R 4.1.2)","CRAN (R 4.1.2)","CRAN (R 4.1.3)","CRAN (R 4.1.2)","CRAN (R 4.1.2)","CRAN (R 4.1.2)","CRAN (R 4.1.2)","CRAN (R 4.1.2)","CRAN (R 4.1.3)","CRAN (R 4.1.1)","CRAN (R 4.1.2)","CRAN (R 4.1.3)","CRAN (R 4.1.2)","CRAN (R 4.1.2)","CRAN (R 4.1.2)","CRAN (R 4.1.3)","CRAN (R 4.1.3)","CRAN (R 4.1.3)","CRAN (R 4.1.2)","CRAN (R 4.1.3)","CRAN (R 4.1.1)","CRAN (R 4.1.2)","CRAN (R 4.1.2)","CRAN (R 4.1.3)","CRAN (R 4.1.3)","CRAN (R 4.1.2)","CRAN (R 4.1.2)","CRAN (R 4.1.2)","CRAN (R 4.1.2)","CRAN (R 4.1.2)","CRAN (R 4.1.2)","CRAN (R 4.1.3)","CRAN (R 4.1.2)","CRAN (R 4.1.2)","CRAN (R 4.1.2)","CRAN (R 4.1.2)","CRAN (R 4.1.2)","CRAN (R 4.1.2)","CRAN (R 4.1.2)","CRAN (R 4.1.3)","CRAN (R 4.1.3)","CRAN (R 4.1.2)","CRAN (R 4.1.3)",null,"CRAN (R 4.1.2)","CRAN (R 4.1.2)","CRAN (R 4.1.2)","CRAN (R 4.1.2)","CRAN (R 4.1.2)","CRAN (R 4.1.3)","Github (klutometis/roxygen@ba655d47d7ab0acfd8da1c52f082a1c9450a3d2f)",null,"CRAN (R 4.1.3)","CRAN (R 4.1.2)","CRAN (R 4.1.2)","CRAN (R 4.1.2)","CRAN (R 4.1.3)","CRAN (R 4.1.3)","CRAN (R 4.1.2)","CRAN (R 4.1.2)","CRAN (R 4.1.2)","CRAN (R 4.1.2)","CRAN (R 4.1.2)","CRAN (R 4.1.3)","CRAN (R 4.1.2)","CRAN (R 4.1.2)","CRAN (R 4.1.2)","CRAN (R 4.1.2)","CRAN (R 4.1.3)","CRAN (R 4.1.3)","CRAN (R 4.1.2)","CRAN (R 4.1.2)","CRAN (R 4.1.3)","CRAN (R 4.1.3)","CRAN (R 4.1.2)","CRAN (R 4.1.2)","CRAN (R 4.1.2)","CRAN (R 4.1.3)","CRAN (R 4.1.2)","CRAN (R 4.1.2)","CRAN (R 4.1.2)","CRAN (R 4.1.2)","CRAN (R 4.1.2)","CRAN (R 4.1.2)","CRAN (R 4.1.2)"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>package<\/th>\n      <th>loadedversion<\/th>\n      <th>date<\/th>\n      <th>source<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":149,"autoWidth":true,"bInfo":false,"paging":false,"columnDefs":[],"order":[],"orderClasses":false,"orderCellsTop":true,"lengthMenu":[10,25,50,100,149]}},"evals":[],"jsHooks":[]}</script>
+```
 
 The R session information when compiling this book is shown below:
 
@@ -345,7 +163,7 @@ The R session information when compiling this book is shown below:
 
 ```r
 sessionInfo()
-#> R version 4.1.2 (2021-11-01)
+#> R version 4.1.3 (2022-03-10)
 #> Platform: x86_64-w64-mingw32/x64 (64-bit)
 #> Running under: Windows 10 x64 (build 19044)
 #> 
@@ -359,20 +177,18 @@ sessionInfo()
 #> [5] LC_TIME=English_United States.1252    
 #> 
 #> attached base packages:
-#> [1] stats     graphics  grDevices utils     datasets  methods  
-#> [7] base     
+#> [1] stats     graphics  grDevices utils     datasets  methods   base     
 #> 
 #> other attached packages:
-#>  [1] DT_0.20         devtools_2.4.3  usethis_2.1.5   forcats_0.5.1  
+#>  [1] DT_0.22         devtools_2.4.3  usethis_2.1.5   forcats_0.5.1  
 #>  [5] stringr_1.4.0   dplyr_1.0.8     purrr_0.3.4     readr_2.1.2    
 #>  [9] tidyr_1.2.0     tibble_3.1.6    ggplot2_3.3.5   tidyverse_1.3.1
-#> [13] webshot_0.5.2   knitr_1.37      vembedr_0.1.5   tweetrmd_0.0.9 
+#> [13] webshot_0.5.3   knitr_1.38      vembedr_0.1.5   tweetrmd_0.0.9 
 #> 
 #> loaded via a namespace (and not attached):
-#> [1] tools_4.1.2     bookdown_0.24   rmarkdown_2.11  htmltools_0.5.2
+#> [1] tools_4.1.3     bookdown_0.26   rmarkdown_2.13  htmltools_0.5.2
 #> [5] shiny_1.7.1     miniUI_0.1.1.1
 ```
-
 
 
 <!--class Links-->
@@ -398,7 +214,6 @@ sessionInfo()
 
 
 
-
 <!--class Links-->
 [web]: https://smasongarrison.github.io/syllabi
 [git]: https://github.com/smasongarrison/syllabi
@@ -413,47 +228,54 @@ sessionInfo()
 [noba]: https://nobaproject.com/
 [ytplaylist]: https://ytplaylist-len.herokuapp.com/
 
-Welcome! This section includes general syllabus information. The next sections include information specific to your class. (Now, before I forget, any matter not explicitly covered by the syllabus or institution-wide policy is left to my sole discretion as the instructor.)
+Welcome! This section includes general information on the syllabus. The following sections include information specific to your class. (Now, before I forget, any matter not explicitly covered by the syllabus or institution-wide policy is left to my sole discretion as the instructor. See [policy-overview])
 
 Remember: This course is for you, not for me. 
 
 
 
-\includegraphics[width=29.86in]{img/snoop} 
+```{=html}
+<div class="vembedr" align="center">
+<div>
+<iframe src="https://www.youtube.com/embed/aL_fP5axQV4" width="533" height="300" frameborder="0" allowfullscreen="" data-external="1"></iframe>
+</div>
+</div>
+```
 
 Credit: 
 
 
-\includegraphics[width=19.31in]{img/AcademicsSaystatus} 
+```{=html}
+<blockquote class="twitter-tweet" data-width="550" data-lang="en" data-dnt="true" data-theme="light"><p lang="en" dir="ltr">“Read the syllabus” - <a href="https://twitter.com/SnoopDogg?ref_src=twsrc%5Etfw">@SnoopDogg</a> <a href="https://t.co/RXHvAB5ryO">https://t.co/RXHvAB5ryO</a></p>&mdash; Shit Academics Say (@AcademicsSay) <a href="https://twitter.com/AcademicsSay/status/1293621452684644355?ref_src=twsrc%5Etfw">August 12, 2020</a></blockquote>
 
-
+```
 
 ## Materials
 
 If you chose to use alternative materials, such as an older edition of the book, it is your responsibility to ensure that those materials are equivalent.
 
-
 ### Required Texts
 
-For all my classes, the textbook is intended to supplement the course. 
-The lectures don't follow the order of chapters in the text and the text covers some material that won't be covered in the lectures, i.e., not all the information in each chapter is perfectly pertinent to the course requirements. 
+For all of my classes, the textbook is intended to supplement the course. The lectures do not follow the order of chapters in the text and the text covers some material that will not be covered in the lectures, i.e., not all the information in each chapter is perfectly pertinent to the course requirements. 
 
 It is one of many resources you'll consume. 
-You probably need to consume all of the resources I provide in order to be successful in this class. 
-If you'd like to make the most of your tuition, I strongly encourage you to consume them all. 
-The course-specific resources can be found on the specific course page.
+You probably need to consume all of the resources that I provide in order to be successful in this class. If you'd like to make the most of your tuition, I strongly encourage you to consume them all. Course-specific resources can be found on the specific course page.
 
 ### Hardware
 
-Most of my classes require that you have a computer that can run R and stream videos from youtube.
+Most of my classes require you to have a computer that can run R and stream YouTube videos.
 
 ### Software
 
 #### R and RStudio
 
 
-```
-#> NULL
+```{=html}
+<div class="vembedr" align="center">
+<div>
+<iframe src="https://www.youtube.com/embed/kVIZGCT5p9U" width="533" height="300" frameborder="0" allowfullscreen="" data-external="1"></iframe>
+</div>
+</div>
 ```
 
 R is a free software environment for statistical computing and graphics. It compiles and runs on a wide variety of UNIX platforms, Windows, and MacOS.
@@ -462,11 +284,9 @@ RStudio is a free _integrated development environment_ (IDE), a powerful user in
 
 #### Git and Github
 
-Git is a version control system. Its original purpose was to help groups of developers work collaboratively on big software projects. Git manages the evolution of a set of files – called a repository – in a structured way. Think of it like the "Track Changes" features from Microsoft Word.
+Git is a version control system. Its original purpose was to help developers work collaboratively on big software projects. Git manages the evolution of a set of files – called a repository – in a structured way. Think of it like the "Track Changes" feature from Microsoft Word.
 
 Github is a free IDE and hosting service for Git. As a Wake Forest student, you should be able to access the [GitHub Student Developer Pack for free](https://education.github.com/benefits?type=student). It includes a free PRO upgrade for your github account.
-
-
 
 <!--chapter:end:0100_syllabus.Rmd-->
 
@@ -475,16 +295,17 @@ Github is a free IDE and hosting service for Git. As a Wake Forest student, you 
 
 # Policy Overview
 
-In this section, I provide specific language for all my course policies. These policies are in addition to those policies and procedures outlined in the university [bulletin](https://bulletin.wfu.edu). There are slight differences between the [undergraduate college](https://bulletin.wfu.edu/undergraduate/) and the [graduate school](https://bulletin.wfu.edu/graduate/). 
+In this section, I provide specific language for all of my course policies. These policies are in addition to the policies and procedures outlined in the university [bulletin](https://bulletin.wfu.edu). There are slight differences between the [undergraduate college](https://bulletin.wfu.edu/undergraduate/) and the [graduate school](https://bulletin.wfu.edu/graduate/). 
+
+
 
 ## Changes
 
-This syllabus is intended to give the student guidance in what may be covered during the semester and will be followed as closely as possible. 
-Dates for tests and assignments won't change, barring extraordinary events. 
-However, I reserve the right to modify, supplement, and make changes as the course needs arise. 
-I try to avoid changes to the syllabus. 
-Nevertheless, if changes occur, I will only make changes that are less burdensome and more advantageous to the students. 
-(If I make a change that increases your burden, please talk to me so that we can find a solution.)
+This syllabus is intended to provide the student with guidance on what may be covered during the semester and will be followed as closely as possible. The dates for tests and assignments will not change except for extraordinary events. I reserve the right to modify, supplement, and make changes as the course needs arise. I try to avoid making changes to the syllabus. However, if substantive changes occur, I will only make changes that are less burdensome and more advantageous to the students. (If I make a change that increases your burden, please talk to me so that we can find a solution.)
+
+### Interpretation
+
+If any policies in this syllabus require interpretation, the instructor's determination is final. That determination will be consistent with the original intent of the policy. Clarifications and interpretations will be committed to the syllabus github repo to codify the document's intent.
 
 <!--chapter:end:0101_policies.Rmd-->
 
@@ -492,25 +313,17 @@ Nevertheless, if changes occur, I will only make changes that are less burdensom
 
 # Class Engagement
 
-In previous semesters, I have had a deliberately hardline attendance policy. 
-In the light of the public health crisis, I have done away with the this policy, as it doesn't align with my general philosophy of treating students as junior colleagues. (It also doesn't align with my goal of making it through the pandemic without getting COVID... yay, high risk of complications)
+In previous semesters, I have had a deliberately hard-line attendance policy. 
+In light of the public health crisis, I have done away with this policy, as it does not align with my general philosophy of treating students as junior colleagues. (It also does not align with my goal of making it through the pandemic without getting COVID... yay, high risk of complications)
 
 Class engagement points are given to encourage your active engagement with the material. 
-Specific instructions for engagement, can be found on the class website. In general, you will be rewarded with a perfect score as long as you engage meaningfully, intentionally, and professionally with the material and your peers. As a reminder, you are still responsible for any assignments and/or announcements made if you miss a class.
+Specific instructions for engagement can be found on the class website. In general, you will be rewarded with a perfect score as long as you engage meaningfully, intentionally, and professionally with the material and your peers. As a reminder, you are still responsible for any assignments and/or announcements made if you miss a class.
 
 
 ## Life Happens
 
-As a reasonable and empathetic human, I recognize that life happens. 
-There will be times when your outside life conflicts with scheduled class events. 
-These life events can be any of the obvious things (sports, religious holidays, illness, interviews, etc), but they can also be the less obvious, like spending the entire night looking for your lost pet. 
-My general approach is to work with you. You just need to let me know *ahead* of time. 
-These late policies value discussion and communication over deductions and punishment. 
-It is difficult for me as an instructor to know your situation and reason for lateness (e.g. are you sick? did you lose wifi? struggling with mental health? or just forgot?). 
-Without communication, I will assume that students are choosing not to submit work and do not plan on submitting work. 
-An email will help me better understand your needs and focus on coursework. 
-I'm more than happy to give extensions and accommodations, so don't be afraid to email me. 
-You don't need to disclose personal details (your privacy is important to me), so a heads up or request for assistance is enough.
+As a reasonable and empathetic human, I recognize that life happens. There will be times when your outside life conflicts with scheduled class events. These life events can be any of the obvious things (sports, religious holidays, illness, interviews, etc.), but they can also be the less obvious things, like spending the entire night looking for your lost pet. My general approach is to work with you. You just need to let me know *ahead* of time. These late policies value discussion and communication over deductions and punishment. 
+It is difficult for me as an instructor to know your situation and reason for lateness (e.g. are you sick? did you lose WiFi? struggling with mental health? or just forgot?). Without communication, I will assume that you are choosing not to submit work and do not plan on submitting work. An email will help me better understand your needs and focus on coursework. I am more than happy to give extensions and accommodations, so don't be afraid to email me. You don't need to disclose personal details (your privacy is important to me), so a heads up or request for assistance is enough.
 
 
 ##  Extensions, Absences, Incompletes
@@ -520,7 +333,7 @@ You don't need to disclose personal details (your privacy is important to me), s
 Except in the case of *true* emergencies, a possible excused absence should be discussed with me as far in advance as possible and *must* occur beforehand. 
 You should not assume that an excused absence will automatically be granted -- but you may assume that I am a reasonable, empathetic person. 
 This discussion should occur via email so that we have a record of it.
-If you also discuss your situation verbally, please send a summary of the discussion via email to me. 
+If you also discuss your situation verbally, send me a summary of the discussion by email. 
 An unexcused absence will result in a zero for any graded work that should have been performed for or during the missed class. 
 
 
@@ -528,11 +341,11 @@ An unexcused absence will result in a zero for any graded work that should have 
 
 + Be sure to pay close attention to deadlines. 
 + If an assignment is not submitted by the deadline (i.e., is late), the student must email the instructor and provide a new deadline, ask for an alternative, or explain concerns *within 36 hours* of the missed deadline. 
-+ Ideally, you will have communicated with me in advance of the deadline, but on occasion life happens. 
-+ As long as you've communicated *within 36 hours*, I will do my best to work with you to come up with a new deadline or modification, so that you can earn full credit. + Any modifiation or change of deadline must be confirmed in writing. And must be done for each modification.
++ Ideally, you will have communicated with me before the deadline, but sometimes life happens. 
++ As long as you have communicated *within 36 hours*, I will do my best to work with you to come up with a new deadline or modification, so that you can earn full credit. + Any modification or change of deadline must be confirmed in writing. And must be done for each modification.
 + This late policy does not apply to exams, tests, or quizzes. 
 
-If contact is not made *within 36 hours* of the missed deadline, the missing assignment will receive a 0 and can not be made up. 
+If contact is not made *within 36 hours* of the missed deadline, the missing assignment will receive a 0 and cannot be made up. 
 
 Alternative deadlines will be within one week of the original deadline. 
 
@@ -546,27 +359,25 @@ It is your responsibility to ensure that the instructor has received the assignm
 
 Unless otherwise explicitly specified, all work must be submitted through Canvas.
 
-Unless you have communicated with me in advance, there will be no make-up quizzes or tests.
+Unless you have communicated with me in advance, there will be no makeup quizzes or tests.
 
 
 ### Incomplete Grades
 
-I did not make this policy. 
+I did not make this policy. However, I must abide by it.
 
-Although the language surrounding incompletes differs slightly across the bulletins ( [undergraduate](https://bulletin.wfu.edu/undergraduate/procedures/exams-grading/#:~:text=Incomplete%20Grade); [graduate](https://bulletin.wfu.edu/graduate/procedures/grading/#:~:text=Grade%20of%20I)), and office of [academic advising]( https://advising.wfu.edu/academic-challenges/incompletes/), the intent is consistent. 
-Incompletes can only be granted IF a student fails to complete the work of a course because of something outside of the student's control, such as an illness, emergency, or extenuating circumstances. The window for completing the work is narrow, typically 30 days into the next semester. If the work isn't completed after that point, the grade is automatically changed to an F. 
-
-
+Although the language surrounding incomplete grades differs slightly across the bulletins ( [undergraduate](https://bulletin.wfu.edu/undergraduate/procedures/exams-grading/#:~:text=Incomplete%20Grade); [graduate](https://bulletin.wfu.edu/graduate/procedures/grading/#:~:text=Grade%20of%20I)), and office of [academic advising]( https://advising.wfu.edu/academic-challenges/incompletes/), the intent is consistent. 
+Incompletes can only be granted IF a student fails to complete the work of a course because of something outside of the student's control, such as an illness, emergency, or extenuating circumstances. The window to complete the work is narrow, typically 30 days into the next semester. If the work is not completed after that point, the grade is automatically changed to an F. 
 
 <!--chapter:end:0102_engagement.Rmd-->
 
 # Accommodations Policy
 
 If you are (or become) disabled (in any capacity, permanently, or temporarily), and need accommodations in class, reading, or any other work in this course, please contact me to discuss your specific needs as soon as possible. 
-Under the [Americans with Disabilities Act (ADA) of 1990](https://beta.ada.gov/) and [ADA Amendments Act (ADAAA) of 2008](https://en.wikipedia.org/wiki/ADA_Amendments_Act_of_2008), you are legally entitled to reasonable accommodations for disabilities. 
+Under my favorite civil rights legislation, the Americans with Disabilities Act as amended you are legally entitled to reasonable accommodations for disabilities. These laws include the [Americans with Disabilities Act (ADA) of 1990](https://beta.ada.gov/) and [ADA Amendments Act (ADAAA) of 2008](https://en.wikipedia.org/wiki/ADA_Amendments_Act_of_2008). 
 I will do everything in my capacity as your professor to ensure that you receive those accommodations. 
 
-Students who need reasonable accommodations for disabilities also should contact the Learning Assistance Center \& Disability Services  (118 Reynolda Hall, 336-758-5929,  [lac.wfu.edu](https://lac.wfu.edu/)). You can request accommodations through the student portal here: https://olympic.accessiblelearning.com/WFU/. These accommodations are not retroactive.  Therefore, I strongly encourage you to use those accommodations. 
+Students who need reasonable accommodations for disabilities also should contact the Learning Assistance Center \& Disability Services  (118 Reynolda Hall, 336-758-5929,  [lac.wfu.edu](https://lac.wfu.edu/)). You can request accommodations through the student portal here: https://olympic.accessiblelearning.com/WFU/. These accommodations are not retroactive. Therefore, I strongly encourage you to use those accommodations. 
 
 Do not feel guilty about using them. 
 You rightfully deserve them, in the legal, moral, and ethical sense. 
@@ -581,16 +392,10 @@ At Wake Forest and at many other places, the expectation is that you will self-a
 
 
 
+```{=html}
+<blockquote class="twitter-tweet" data-width="550" data-lang="en" data-dnt="true" data-theme="light"><p lang="en" dir="ltr">Every time we write that self-advocacy is key to disabled students&#39; success, we need to include an asterisk and note, &quot;BUT IT SHOULDN&#39;T BE&quot; <br><br>Disabled students deserve success regardless of how well they can navigate the system and cajole/plead/argue with profs for access.</p>&mdash; The ADHD Academic (@theADHDacademic) <a href="https://twitter.com/theADHDacademic/status/1458876178580881410?ref_src=twsrc%5Etfw">November 11, 2021</a></blockquote>
 
-> Every time we write that self-advocacy is key to disabled students\'
-> success, we need to include an asterisk and note, \"BUT IT SHOULDN\'T
-> BE\"\
-> \
-> Disabled students deserve success regardless of how well they can
-> navigate the system and cajole/plead/argue with profs for access.
->
-> --- The ADHD Academic (\@theADHDacademic) [November 11,
-> 2021](https://twitter.com/theADHDacademic/status/1458876178580881410)
+```
 
 As a student, you may not know what accommodations work best for you. Or you may find that your current accommodations don't work like they used to. 
 
@@ -614,11 +419,11 @@ You can [search for accommodation ideas](https://askjan.org/soar.cfm) by [specif
 
 # Classroom Climate
 
-I aim to create a learning environment for my students that supports a diversity of thoughts, perspectives, and experiences, and honors your identities (including but not limited to race, ethnicity, sex, gender, gender-identity, class, sexual orientation, religion, ability, political affiliation). To help accomplish this:
+I aim to create a learning environment for my students that supports a diversity of thoughts, perspectives, and experiences, and honors your identities (including but not limited to race, ethnicity, sex, gender, gender-identity, class, sexual orientation, religion, disability, political affiliation). To help accomplish this:
 
 - If you have a name and/or set of pronouns that differ from those that appear in your official records, please let me know!
 
-- If you feel like your performance in the class is being impacted by your experiences outside of class, please don't hesitate to come and talk with me. I want to be a resource for you. 
+- If you feel like your performance in the class is being impacted by your experiences outside of class, please don't hesitate to come and talk with me. I can direct you to resources
 
 - I (like many people) am still in the process of learning about diverse perspectives and identities. If something was said in class (by anyone) that made you feel uncomfortable, please talk to me about it. 
 
@@ -698,14 +503,14 @@ I literally wrote a R program that checks for working together on tests. )
 
 # Communication
 
-Be mindful that there is a person on the other end of your request -- me. I'm a person. So please be intentional with your emails and recognize that my time in finite. It is in everyone's best interest that I spend my time engaging with students in meaningful ways, not pointing you to material you can find on your own. Be sure to check the syllabus, course website, course content, and classmates before emailing me. This practice is important training for life after college – when you have a question, the first thing you do should not be to email your boss. I do not want to discourage you from engaging with me. I love teaching because I love interacting with students.  However, I do not want to engage with you in ways that nurture your inability to critically think and prevents me from engaging with other students. 
+Be mindful that there is a person on the other end of your request -- me. I'm a person. So please be intentional with your emails and recognize that my time in finite. It is in everyone's best interest that I spend my time engaging with students in meaningful ways, not pointing you to material you can find on your own. Be sure to check the syllabus, course website, course content, and classmates before emailing me. This practice is important training for life after college – when you have a question, the first thing you do should not be to email your boss. I do not want to discourage you from engaging with me. I love teaching because I love interacting with students. However, I do not want to engage with you in ways that nurture your inability to critically think and prevents me from engaging with other students. 
 
-If you are ever uncertain about the purpose of an assignment, the learning objectives of an activity, or how an assessment will be graded, please reach out. My goal is to be  organized, thoughtful, and transparent. All my assignments were thoughtfully chosen. There is no busy work or unnecessary required course material. If I have done a poor job explaining the motivation for any aspect of my course, please let me know so I can be more clear. 
+If you are ever uncertain about the purpose of an assignment, the learning objectives of an activity, or how an assessment will be graded, please reach out. My goal is to be  organized, thoughtful, and transparent. All my assignments were thoughtfully chosen. There is no busy work or unnecessary required course material^[even the engagement activities serve a clear purpose]. If I have done a poor job explaining the motivation for any aspect of my course, please let me know so I can be more clear. 
 
 
 ## Minimums
 
-You are expected to read every LMS announcement, message, and email; as well as view the media embedded within those communications. Students are expected to check e-mail on a frequent and regular basis in order to stay current with University-related communications, recognizing that certain communications may be time-critical. At minimum, you should be checking your communications within 24 hours. Ignorance of a class communication is not grounds for an excused absence or extension. 
+You are expected to read every LMS announcement, message, and email, as well as view the media embedded within those communications. Students are expected to check e-mail on a frequent and regular basis in order to stay current with University-related communications. Please recognize that certain communications may be time-critical. At minimum, you should be checking your communications within 24 hours. Ignorance of a class communication is not grounds for an excused absence or extension. 
 
 
 ### Self Advocacy
@@ -755,45 +560,33 @@ Students are advised that Wake Forest University faculty members hold the copyri
 
 # Public Health in the Age of COVID-19
 
-Here's the deal. I'm *probably* at increased risk of complications. In this class, mask compliance is essential for us (and me) making it through the semester. At present, I am in the position where I have to put my health in your hands. I have many thoughts as to why, how, and who has led to me being in this present position. I don't fault students. However, I need you to understand that the stakes are high.
+Here's the deal. I'm *definitely* at increased risk of complications, and FINALLY on the list of at risk conditions^[https://www.cdc.gov/coronavirus/2019-ncov/hcp/clinical-care/underlyingconditions.html#anchor_1618433687270]. In this class, mask compliance is essential for us (and me) making it through the semester. At present, I am in the position where I have to put my health in your hands. I have many thoughts as to why, how, and who has led to me being in this present position. I don't fault students. However, I need you to understand that the stakes are high.
 
-Regardless of any changes to university policy or mask mandates, we will be masked for the entire semester. You will put your mask on *before* you enter my class. Your mask will cover your nose and mouth. I will stop class if I see your nose. If your struggle with this, I am very happy to show you how to properly secure your mask. Truly. I would love to show you how, so that we can all be a little safer. If you feel sick or are exposed, please don't come to class. I will happily meet with you (remotely) to fill you in. 
+Regardless of any changes to university policy or mask mandates, we will be masked for the entire semester. You will put your mask on *before* you enter my class. Your mask will cover your nose and mouth. I will stop class if I see your nose. If your struggle with this, I am very happy to show you how to properly secure your mask^[https://www.youtube.com/watch?v=GzTAZDsNBe0]. Truly. I would love to show you how, so that we can all be a little safer. If you feel sick or are exposed, please don't come to class. I will happily meet with you (remotely) to fill you in. 
 
 
-```
-## -- Attaching packages --------------------------------------- tidyverse 1.3.1 --
-```
 
-```
-## v ggplot2 3.3.5     v purrr   0.3.4
-## v tibble  3.1.6     v dplyr   1.0.8
-## v tidyr   1.2.0     v stringr 1.4.0
-## v readr   2.1.2     v forcats 0.5.1
-```
+
+
+```{=html}
+<blockquote class="twitter-tweet" data-width="550" data-lang="en" data-dnt="true" data-theme="light"><p lang="en" dir="ltr">Just posting this infographic on masking for all people who say &quot;one way masking is sufficient, I shouldn&#39;t have to protect you.&quot; The data overwhelming proves that one-way masking is insufficient. <a href="https://t.co/RHvyp3ZxFc">pic.twitter.com/RHvyp3ZxFc</a></p>&mdash; Nicole Lee Schroeder, PhD (@Nicole_Lee_Sch) <a href="https://twitter.com/Nicole_Lee_Sch/status/1491793104348712965?ref_src=twsrc%5Etfw">February 10, 2022</a></blockquote>
 
 ```
-## -- Conflicts ------------------------------------------ tidyverse_conflicts() --
-## x dplyr::filter() masks stats::filter()
-## x dplyr::lag()    masks stats::lag()
-```
-
-> Just posting this infographic on masking for all people who say \"one
-> way masking is sufficient, I shouldn\'t have to protect you.\" The
-> data overwhelming proves that one-way masking is insufficient.
-> [pic.twitter.com/RHvyp3ZxFc](https://t.co/RHvyp3ZxFc)
->
-> --- Nicole Lee Schroeder, PhD (\@Nicole_Lee_Sch) [February 10,
-> 2022](https://twitter.com/Nicole_Lee_Sch/status/1491793104348712965)
 
 However, if you refuse, you need to leave. If you refuse to leave, I will leave. And if I leave, there is no class.
 
-## As required by Wake Forest Univeristy, I have included the following information related to public health. It is reproduced verbatim. Dead links and all. 
+## WFU-Required Statement
+
+As required by Wake Forest University, I have included the following information related to public health. It is reproduced verbatim. Dead links and all. 
 
 > We share responsibility for the health and safety of each other in a learning space. Maintaining a consistent six feet of distance; wearing face coverings that cover our mouths and noses; limiting our gathering sizes; and isolating or quarantining when ill or exposed to someone with the virus are Wake Forest University directives and policies we all must follow. Students are encouraged to visit [Our Way Forward](https://ourwayforward.wfu.edu/) to stay informed about the latest guidance and review the [Public Health Emergency Addendum to the Student Code of Conduct](https://studentconduct.wfu.edu/undergraduate-student-handbook/public-health-emergency-addendum/).  
 >
 > Specifically, in this room, we will mitigate the risks of virus transfer and take care of our community by abiding by the following safety directives: 
+>
 > - maintain six feet of distance at all times when feasible. 
+>
 > - wear a face covering for the entirety of class indoors and out (unless there is exemption via an approved safety plan for specific coursework). This face covering should cover your mouth and your nose, and adhere to our [University face covering policy](https://drive.google.com/file/d/1Tqo-by1sjmc-kWUTwAqeNdaHq8OBsU9B/view) (no face shields without masks; no neck gaiters; no bandanas; and no masks, including N95, with a one-way valve). 
+>
 > - stay out of class when sick or after being exposed to someone who is sick.
 >
 > In this class, any student who does not follow these requirements will be asked once to follow the safety directives. 
@@ -803,6 +596,8 @@ However, if you refuse, you need to leave. If you refuse to leave, I will leave.
 > If you do not comply, I will ask you to leave the class for that day. 
 >
 > [I will also refer the matter to the COVID-19 compliance reporting system](https://cm.maxient.com/reportingform.php?WakeForestUniv&layout_id=40). Possible disciplinary actions may follow as described in the Wake Forest University Student Conduct Code Public Health Emergency Addendum.
+>
+> .
 
 
 <!--chapter:end:0106_covid.Rmd-->
@@ -908,38 +703,22 @@ By scaling to a percentage of the highest point total in the class, each student
 This curve can only help your grade.
 
 The full table is provided below:
-\begin{table}
 
-\caption{(\#tab:unnamed-chunk-4)Full Table}
-\centering
-\begin{tabular}[t]{l|r}
-\hline
-Letter & Cutoff\\
-\hline
-A & 0.95\\
-\hline
-A- & 0.90\\
-\hline
-B+ & 0.87\\
-\hline
-B & 0.83\\
-\hline
-B- & 0.80\\
-\hline
-C+ & 0.77\\
-\hline
-C & 0.73\\
-\hline
-C- & 0.70\\
-\hline
-D+ & 0.67\\
-\hline
-D & 0.63\\
-\hline
-D- & 0.60\\
-\hline
-\end{tabular}
-\end{table}
+Table: (\#tab:unnamed-chunk-4)Full Table
+
+|Letter | Cutoff|
+|:------|------:|
+|A      |   0.95|
+|A-     |   0.90|
+|B+     |   0.87|
+|B      |   0.83|
+|B-     |   0.80|
+|C+     |   0.77|
+|C      |   0.73|
+|C-     |   0.70|
+|D+     |   0.67|
+|D      |   0.63|
+|D-     |   0.60|
 
 ### Curve Projections    {-}
 
@@ -961,7 +740,11 @@ Trust me, you do not want me to curve by assignment.
 
 ## Schedule {-}
 
-![](0201_personality_files/figure-latex/unnamed-chunk-3-1.pdf)<!-- --> 
+
+```{=html}
+<div id="htmlwidget-40dc5612c256bf0d38e7" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-40dc5612c256bf0d38e7">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15],["08/23","08/30","09/06","09/13","09/20","09/27","10/04","10/11","10/18","10/25","11/01","11/08","11/15","11/22","11/29"],["What is Personality","Personality Research Methods","Assessment, Evaluation, and Ethics","Trait Approach and Personality Judgment","Big Five","Personality over the Lifespan","Biological Approaches to Psychology","Behavior Genetics","Evolutionary Psychology","Cross-Cultural Psychology","Freud","Psychoanalysis After Freud","Personality Processes and Positive Psych","Thanksgiving Break!","Personality and Health"],["Week 01, 08/23 - 08/27","Week 02, 08/30 - 09/03","Week 03, 09/06 - 09/10","Week 04, 09/13 - 09/17","Week 05, 09/20 - 09/24","Week 06, 09/27 - 10/01","Week 07, 10/04 - 10/08","Week 08, 10/11 - 10/15","Week 09, 10/18 - 10/22","Week 10, 10/25 - 10/29","Week 11, 11/01 - 11/05","Week 12, 11/08 - 11/12","Week 13, 11/15 - 11/19","Week 14, 11/22 - 11/26","Week 15, 11/29 - 12/03"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0}],"order":[],"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+```
 
 
 
@@ -999,38 +782,22 @@ By scaling to a percentage of the highest point total in the class, each student
 This curve can only help your grade.
 
 The full table is provided below:
-\begin{table}
 
-\caption{(\#tab:unnamed-chunk-3)Full Table}
-\centering
-\begin{tabular}[t]{l|r}
-\hline
-Letter & Cutoff\\
-\hline
-A & 0.95\\
-\hline
-A- & 0.90\\
-\hline
-B+ & 0.87\\
-\hline
-B & 0.83\\
-\hline
-B- & 0.80\\
-\hline
-C+ & 0.77\\
-\hline
-C & 0.73\\
-\hline
-C- & 0.70\\
-\hline
-D+ & 0.67\\
-\hline
-D & 0.63\\
-\hline
-D- & 0.60\\
-\hline
-\end{tabular}
-\end{table}
+Table: (\#tab:unnamed-chunk-3)Full Table
+
+|Letter | Cutoff|
+|:------|------:|
+|A      |   0.95|
+|A-     |   0.90|
+|B+     |   0.87|
+|B      |   0.83|
+|B-     |   0.80|
+|C+     |   0.77|
+|C      |   0.73|
+|C-     |   0.70|
+|D+     |   0.67|
+|D      |   0.63|
+|D-     |   0.60|
 
 ### Curve Projections    {-}
 
@@ -1092,7 +859,11 @@ There will be multiple engagement activities in this course. These activities wi
 
 
 
-![](0202_stats_files/figure-latex/unnamed-chunk-2-1.pdf)<!-- --> 
+
+```{=html}
+<div id="htmlwidget-b64041aef9bb2fe389cc" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-b64041aef9bb2fe389cc">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17],["01/10","01/17","01/24","01/31","02/07","02/14","02/21","02/28","03/07","03/14","03/21","03/28","04/04","04/11","04/18","04/25","05/02"],["Introduction","Statistical Foundations","Describing Data with R","Univariate Distributions","Bivariate Distributions","Probability Theory","Binomials and other sampling distributions","Hypothesis Testing","Spring Break","T-Tests","Regression","Causal Inference","ANOVA","Applications in R","Applications in R","Review","NA"],["Week 01, 01/10 - 01/14","Week 02, 01/17 - 01/21","Week 03, 01/24 - 01/28","Week 04, 01/31 - 02/04","Week 05, 02/07 - 02/11","Week 06, 02/14 - 02/18","Week 07, 02/21 - 02/25","Week 08, 02/28 - 03/04","Week 09, 03/07 - 03/11","Week 10, 03/14 - 03/18","Week 11, 03/21 - 03/25","Week 12, 03/28 - 04/01","Week 13, 04/04 - 04/08","Week 14, 04/11 - 04/15","Week 15, 04/18 - 04/22","Week 16, 04/25 - 04/29","Week 17, 05/02 - 05/06"],[null,null,null,null,null,"Exam",null,null,"Assignment",null,null,null,"Exam",null,null,"Assignment","Exam"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n      <th>milestones<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0}],"order":[],"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+```
 
 
 <!---
@@ -1254,38 +1025,22 @@ By scaling to a percentage of the highest point total in the class, each student
 This curve can only help your grade.
 
 The full table is provided below:
-\begin{table}
 
-\caption{(\#tab:unnamed-chunk-4)Full Table}
-\centering
-\begin{tabular}[t]{l|r}
-\hline
-Letter & Cutoff\\
-\hline
-A & 0.95\\
-\hline
-A- & 0.90\\
-\hline
-B+ & 0.87\\
-\hline
-B & 0.83\\
-\hline
-B- & 0.80\\
-\hline
-C+ & 0.77\\
-\hline
-C & 0.73\\
-\hline
-C- & 0.70\\
-\hline
-D+ & 0.67\\
-\hline
-D & 0.63\\
-\hline
-D- & 0.60\\
-\hline
-\end{tabular}
-\end{table}
+Table: (\#tab:unnamed-chunk-4)Full Table
+
+|Letter | Cutoff|
+|:------|------:|
+|A      |   0.95|
+|A-     |   0.90|
+|B+     |   0.87|
+|B      |   0.83|
+|B-     |   0.80|
+|C+     |   0.77|
+|C      |   0.73|
+|C-     |   0.70|
+|D+     |   0.67|
+|D      |   0.63|
+|D-     |   0.60|
 
 ### Curve Projections    {-}
 
@@ -1347,7 +1102,11 @@ There will be multiple engagement activities in this course. These activities wi
 
 ## Schedule {-}
 
-![](0203_testing_files/figure-latex/unnamed-chunk-3-1.pdf)<!-- --> 
+
+```{=html}
+<div id="htmlwidget-da0304d54fb73fb0b265" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-da0304d54fb73fb0b265">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15],["01/25","02/01","02/08","02/15","02/22","03/01","03/08","03/15","03/22","03/29","04/05","04/12","04/19","04/26","05/03"],["Foundations and Nature of Testing","History of Testing","Ethical and Social Considerations in Testing","Norms and the Meaning of Test Scores","Classical Test Theory","Reliability","Catch Up Week","Validity","Item Analysis","Factor Analysis","Item Response Theory","Practical Testing Things","Ability Testing","Personality Testing","Review"],["Week 01, 01/25 - 01/29","Week 02, 02/01 - 02/05","Week 03, 02/08 - 02/12","Week 04, 02/15 - 02/19","Week 05, 02/22 - 02/26","Week 06, 03/01 - 03/05","Week 07, 03/08 - 03/12","Week 08, 03/15 - 03/19","Week 09, 03/22 - 03/26","Week 10, 03/29 - 04/02","Week 11, 04/05 - 04/09","Week 12, 04/12 - 04/16","Week 13, 04/19 - 04/23","Week 14, 04/26 - 04/30","Week 15, 05/03 - 05/07"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0}],"order":[],"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+```
 
 
 <!--chapter:end:0203_testing.Rmd-->
@@ -1372,29 +1131,33 @@ Data Science for Psychologists (DSP) introduces on the principles of data scienc
 
 ## Required Materials  {-}
 
-Wickham and Grolemund's R for Data Science text (http://r4ds.had.co.nz/)
+All materials for this course are open source, including the multimedia course notes. 
+
+- Garrison's Data Science for Psychologists (https://datascience4psych.github.io/DataScience4Psych/)
+- Wickham and Grolemund's R for Data Science text (http://r4ds.had.co.nz/)
 
 
 
 
 ## Course Assignments  {-}
 
-You will be formally evaluated in three different ways.
+You will be formally evaluated in three different ways. Instructions for the assignments can be found in the [course notes](https://datascience4psych.github.io/DataScience4Psych/).
 
 
 
 ### Presentation {-}
 
-You will give one presentation. This presentation will be approximately 10-minutes. This presentation is chance to practice a formal presentation in a relatively pressure-free setting).
+You will give one presentation. This presentation will be approximately 10-minutes. This presentation is chance to practice a formal presentation in a relatively pressure-free setting). 
 
 
 ### Labs  {-}
 
-There is (at least) one lab available per module.
+There is (at least) one lab available per module. You can find the modules in the [course notes](https://datascience4psych.github.io/DataScience4Psych/).
 
 ### Portfolio  {-}
 
-The major semester projects (described on the data science website) is a set of EDA Projects, which you will summarize in an EDA Portfolio to be handed in on the last day of class.
+The major semester projects (described on the data science website) is a set of EDA Projects, which you will summarize in an EDA Portfolio to be handed in on the last day of class. Instructions for the portfolio can be found in the [course notes](https://datascience4psych.github.io/DataScience4Psych/).
+
 
 
 ### Engagement  {-}
@@ -1488,7 +1251,11 @@ To contract for a "P" or Pass in this course, you agree to:
 
 Note that I'll be using your contracts to guide my tinkering.
 
-![](0204_datascience_files/figure-latex/unnamed-chunk-3-1.pdf)<!-- --> 
+
+```{=html}
+<div id="htmlwidget-0fe7f5a0cb6e3d037eb1" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-0fe7f5a0cb6e3d037eb1">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15],["01/10","01/17","01/24","01/31","02/07","02/14","02/21","02/28","03/07","03/14","03/21","03/28","04/04","04/11","04/18"],["What is Data Science and Meet the Toolkit","Data and Visualization","Welcome to the Tidyverse","Data types and Data Transformations","Effective data visualization","Scientific Communication and confounding","Functions and Automation","Webscraping","Spring Break","Ethics","Tidy Models","Overfitting and Cross validation","Quantifying uncertainty","Rshiny","Machine Learning"],["Week 01, 01/10 - 01/14","Week 02, 01/17 - 01/21","Week 03, 01/24 - 01/28","Week 04, 01/31 - 02/04","Week 05, 02/07 - 02/11","Week 06, 02/14 - 02/18","Week 07, 02/21 - 02/25","Week 08, 02/28 - 03/04","Week 09, 03/07 - 03/11","Week 10, 03/14 - 03/18","Week 11, 03/21 - 03/25","Week 12, 03/28 - 04/01","Week 13, 04/04 - 04/08","Week 14, 04/11 - 04/15","Week 15, 04/18 - 04/22"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0}],"order":[],"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+```
 
 
 
@@ -1507,13 +1274,11 @@ Below you'll find answers to the questions that I get asked the most by students
 
 I don't want to discourage you from asking questions. However, asking me is not an efficient method for finding facts and searchable information...
 
-> Considering launching the following autoreply:\
-> Frequently Asked Questions\
-> Q: \"Can you -\"\
-> A: I cannot.
->
-> --- Alison Ledgerwood (\@AlisonLedg) [September 23,
-> 2021](https://twitter.com/AlisonLedg/status/1441181845706579969)
+
+```{=html}
+<blockquote class="twitter-tweet" data-width="550" data-lang="en" data-dnt="true" data-theme="light"><p lang="en" dir="ltr">Considering launching the following autoreply:<br>Frequently Asked Questions<br>Q: &quot;Can you -&quot;<br>A: I cannot.</p>&mdash; Alison Ledgerwood (@AlisonLedg) <a href="https://twitter.com/AlisonLedg/status/1441181845706579969?ref_src=twsrc%5Etfw">September 23, 2021</a></blockquote>
+
+```
 
 ## How can I get ahold of you?
 
@@ -1531,8 +1296,7 @@ I don't want to discourage you from asking questions. However, asking me is not 
 
 * Phone Call: ...
 
-
-\begin{center}\includegraphics[width=0.5\linewidth]{img/why-this-millennial-didnt-answer-your-call} \end{center}
+<img src="img/why-this-millennial-didnt-answer-your-call.jpeg" width="50%" style="display: block; margin: auto;" />
 
 Credit: [Kiki Schirr](https://kikischirr.medium.com/) at [Tech Doodles](https://medium.com/tech-doodles) on ["Why this millennial didn't answer your call"](https://medium.com/tech-doodles/why-this-millennial-didnt-answer-your-call-d5abccf06cfc)
 
@@ -1581,12 +1345,11 @@ Although I am not Canvas tech support, I have provided some answers and resource
 - If you'd like to get materials for free, you can borrow the materials from someone who'se already taken the course.
 - **Obviously**, I can't recommend finding the materials online... 
 
-> Once again, I DO NOT recommend students go to libgen (dot) rs and
-> download books for their upcoming courses. I am NOT advocating for
-> getting and sharing free pdfs of required texts. DON\'T DO IT.
->
-> --- itsgalo (\@GaloAndStuff) [August 9,
-> 2021](https://twitter.com/GaloAndStuff/status/1424818560417902604)
+
+```{=html}
+<blockquote class="twitter-tweet" data-width="550" data-lang="en" data-dnt="true" data-theme="light"><p lang="en" dir="ltr">Once again, I DO NOT recommend students go to libgen (dot) rs and download books for their upcoming courses. I am NOT advocating for getting and sharing free pdfs of required texts. DON&#39;T DO IT.</p>&mdash; itsgalo 🗯 (@GaloAndStuff) <a href="https://twitter.com/GaloAndStuff/status/1424818560417902604?ref_src=twsrc%5Etfw">August 9, 2021</a></blockquote>
+
+```
 
 ### Can...
 
@@ -1629,18 +1392,13 @@ Your best approach is to pretend that there is no curve.
 The work...
 
 
-```r
-if (knitr::is_latex_output()) {
-include_graphics("img/worriedgrade.png")
-}else{
-"https://www.youtube.com/watch?v=WVvKnq5XT-g" %>%
-embed_url() %>%
-  use_align("center")
-}
+```{=html}
+<div class="vembedr" align="center">
+<div>
+<iframe src="https://www.youtube.com/embed/WVvKnq5XT-g" width="533" height="300" frameborder="0" allowfullscreen="" data-external="1"></iframe>
+</div>
+</div>
 ```
-
-
-\includegraphics[width=18.14in]{img/worriedgrade} 
 
 
 ### Why...
@@ -1670,17 +1428,11 @@ If you find yourself spending a lot more or a lot less than 9 hours per week on 
 
 ### How do I ask professors for extensions?
 
-> Until I became a professor, I didn\'t realize that students can (and
-> do) regularly ask for extensions.\
-> \
-> This means some students know how to use this strategy to support
-> their learning, some don\'t.\
-> \
-> Sharing info so everyone has access to the same tools. A thread.
-> [\@OpenAcademics](https://twitter.com/OpenAcademics)
->
-> --- Betty Lai, PhD (\@BettySLai) [November 2,
-> 2021](https://twitter.com/BettySLai/status/1455555111397117954)
+
+```{=html}
+<blockquote class="twitter-tweet" data-width="550" data-lang="en" data-dnt="true" data-theme="light"><p lang="en" dir="ltr">Until I became a professor, I didn&#39;t realize that students can (and do) regularly ask for extensions. <br><br>This means some students know how to use this strategy to support their learning, some don&#39;t.<br><br>Sharing info so everyone has access to the same tools. A thread. <a href="https://twitter.com/OpenAcademics?ref_src=twsrc%5Etfw">@OpenAcademics</a></p>&mdash; Betty S. Lai, PhD (@BettySLai) <a href="https://twitter.com/BettySLai/status/1455555111397117954?ref_src=twsrc%5Etfw">November 2, 2021</a></blockquote>
+
+```
 
 
 ## Online Learning
@@ -1764,8 +1516,7 @@ You're probably familiar with checking your grades for a [current course in Canv
 
 In order to get an accurate view of your final grade towards the end of the semester,
 
-
-\begin{center}\includegraphics[width=0.5\linewidth]{img/grades} \end{center}
+<img src="img/grades.png" width="50%" style="display: block; margin: auto;" />
 
 You may also be seeing icons and colors when you view your grades. [Learn what these grade icons and colors mean](https://community.canvaslms.com/docs/DOC-16533-4212829283).
 
@@ -1795,8 +1546,7 @@ Check out the canvas [basic guides](https://community.canvaslms.com/t5/Canvas-Ba
 
 Because some of the requirements to unlock it the activity are not met. To unlock the activity/module, you need to do whatever is listed.
 
-
-\begin{center}\includegraphics[width=0.5\linewidth]{img/requirements} \end{center}
+<img src="img/requirements.png" width="50%" style="display: block; margin: auto;" />
 
 ## Resources
 
@@ -1831,7 +1581,13 @@ Thus, if you miss one lecture or zip through a video, you run the risk of being 
 I've created a [video](https://youtu.be/dc3D2tbl8G0) highlighting how to be a successful asynchronous learner. 
 
 
-\includegraphics[width=30.76in]{img/learngood} 
+```{=html}
+<div class="vembedr" align="center">
+<div>
+<iframe src="https://www.youtube.com/embed/dc3D2tbl8G0" width="533" height="300" frameborder="0" allowfullscreen="" data-external="1"></iframe>
+</div>
+</div>
+```
 
 Much of this information comes from Northeastern University's [Tips for Taking Online Classes](https://www.northeastern.edu/graduate/blog/tips-for-taking-online-classes/)
 
@@ -1956,8 +1712,7 @@ On mobile devices, Canvas is designed to be used within Canvas mobile applicatio
 * In order to get an accurate view of your final grade towards the end of the semester, make sure to uncheck the Calculate based only on graded assignments checkbox:
 
 
-
-\begin{center}\includegraphics[width=0.5\linewidth]{img/grades} \end{center}
+<img src="img/grades.png" width="50%" style="display: block; margin: auto;" />
 
 
 * You may also be seeing icons and colors when you view your grades. [Learn what these grade icons and colors mean](https://community.canvaslms.com/t5/Student-Guide/How-do-I-use-the-icons-and-colors-in-the-Grades-page/ta-p/476)
@@ -2093,8 +1848,7 @@ You can search the Canvas Guides or contact the Canvas Support Helpline by click
 
 **Tech Support Cheat Sheet**
 
-
-\includegraphics[width=10.17in]{img/tech_support_cheat_sheet} 
+![](https://imgs.xkcd.com/comics/tech_support_cheat_sheet.png)<!-- -->
 
 ## Public Health
 
@@ -2107,6 +1861,8 @@ You can search the Canvas Guides or contact the Canvas Support Helpline by click
 
 # (PART\*) Back Matter {-}
 
+
+# References {-}
 
 
 <!--chapter:end:9999_references.Rmd-->
