@@ -26,6 +26,8 @@ At Wake Forest and at many other places, the expectation is that you will self-a
 
 
 ```{r, echo=FALSE}
+
+include_tweet("https://twitter.com/Rasheeradiara/status/1532760383500472326")
 include_tweet("https://twitter.com/theADHDacademic/status/1458876178580881410")
 ```
 
