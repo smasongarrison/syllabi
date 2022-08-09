@@ -23,6 +23,14 @@ include_tweet()
 ```
 
 
+```{r, echo=FALSE}
+
+"https://twitter.com/Nicole_Lee_Sch/status/1491793104348712965" %>%
+include_tweet()
+
+```
+
+
 ## WFU-Required Statement
 
 As required by Wake Forest University, I have included the following information related to public health. It is reproduced verbatim. Dead links and all. 
@@ -49,9 +57,3 @@ As required by Wake Forest University, I have included the following information
 
 
 
-```{r, echo=FALSE}
-
-"https://twitter.com/Nicole_Lee_Sch/status/1491793104348712965" %>%
-include_tweet()
-
-```
