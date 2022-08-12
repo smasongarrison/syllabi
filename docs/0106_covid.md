@@ -1,10 +1,24 @@
 # Public Health in the Age of COVID-19
 
+
+
 Here's the deal. I'm *definitely* at increased risk of complications, and FINALLY on the list of at risk conditions^[https://www.cdc.gov/coronavirus/2019-ncov/hcp/clinical-care/underlyingconditions.html#anchor_1618433687270]. In this class, mask compliance is essential for us (and me) making it through the semester. At present, I am in the position where I have to put my health in your hands. I have many thoughts as to why, how, and who has led to me being in this present position. I don't fault students. However, I need you to understand that the stakes are high.
 
 Regardless of any changes to university policy or mask mandates, we will be masked for the entire semester. You will put your mask on *before* you enter my class. Your mask will cover your nose and mouth. I will stop class if I see your nose. If your struggle with this, I am very happy to show you how to properly secure your mask^[https://www.youtube.com/watch?v=GzTAZDsNBe0]. Truly. I would love to show you how, so that we can all be a little safer. If you feel sick or are exposed, please don't come to class. I will happily meet with you (remotely) to fill you in. 
 
 
+However, if you refuse, you need to leave. If you refuse to leave, I will leave. And if I leave, there is no class.
+
+## Masks and Equity
+<!--
+Although university policy states that we can request masks instead of requiring them (barring specific circumstances), we can not provide an equitable and just atmosphere for learning if we are not protecting one another from COVID by masking. Refusing to mask indoors is a manifestation of ableism and racism, an exercise of individual privilege that tells the most vulnerable that their health does not matter. To practice community care, we will mask to protect those of us with compromised immune systems, those of us with family members unable to get vaccinated, those of us who do not want to transmit the virus to others, and those of us who want to avoid re/infection.
+-->
+
+
+```{=html}
+<blockquote class="twitter-tweet" data-width="550" data-lang="en" data-dnt="true" data-theme="light"><p lang="en" dir="ltr">Building <a href="https://twitter.com/hashtag/mask?src=hash&amp;ref_src=twsrc%5Etfw">#mask</a> wearing into my syllabi—tied right to the learning outcomes. (Wording not finalized!) <a href="https://twitter.com/hashtag/AcademicTwitter?src=hash&amp;ref_src=twsrc%5Etfw">#AcademicTwitter</a> <a href="https://t.co/iT9MEjKXaV">pic.twitter.com/iT9MEjKXaV</a></p>&mdash; Pro-Mask Pro-Abortion Jessica N. Pabón (she/ella) (@justjess_PhD) <a href="https://twitter.com/justjess_PhD/status/1556790562711281666?ref_src=twsrc%5Etfw">August 8, 2022</a></blockquote>
+
+```
 
 
 
@@ -13,7 +27,6 @@ Regardless of any changes to university policy or mask mandates, we will be mask
 
 ```
 
-However, if you refuse, you need to leave. If you refuse to leave, I will leave. And if I leave, there is no class.
 
 ## WFU-Required Statement
 
@@ -38,4 +51,6 @@ As required by Wake Forest University, I have included the following information
 > [I will also refer the matter to the COVID-19 compliance reporting system](https://cm.maxient.com/reportingform.php?WakeForestUniv&layout_id=40). Possible disciplinary actions may follow as described in the Wake Forest University Student Conduct Code Public Health Emergency Addendum.
 >
 > .
+
+
 

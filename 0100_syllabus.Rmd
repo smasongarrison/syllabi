@@ -10,7 +10,7 @@ library(webshot)
 ```{r links, child="links.md"}
 ```
 
-Welcome! This section includes general information on the syllabus. The following sections include information specific to your class. (Now, before I forget, any matter not explicitly covered by the syllabus or institution-wide policy is left to my sole discretion as the instructor. See [policy-overview])
+Welcome! This section includes general information on the syllabus. The following sections include information specific to your class. (Now, before I forget, any matter not explicitly covered by the syllabus or institution-wide policy is left to my sole discretion as the instructor. See [policy overview](#policy-overview)
 
 Remember: This course is for you, not for me. 
 

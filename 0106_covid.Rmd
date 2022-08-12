@@ -24,11 +24,10 @@ include_tweet()
 
 
 ```{r, echo=FALSE}
-
 "https://twitter.com/Nicole_Lee_Sch/status/1491793104348712965" %>%
 include_tweet()
-
 ```
+
 
 
 ## WFU-Required Statement
@@ -54,6 +53,4 @@ As required by Wake Forest University, I have included the following information
 > [I will also refer the matter to the COVID-19 compliance reporting system](https://cm.maxient.com/reportingform.php?WakeForestUniv&layout_id=40). Possible disciplinary actions may follow as described in the Wake Forest University Student Conduct Code Public Health Emergency Addendum.
 >
 > .
-
-
 

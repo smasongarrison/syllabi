@@ -1,7 +1,7 @@
 --- 
 title: "Prof. Mason's Syllabi"
 author: S. Mason Garrison
-date: "2022-05-31"
+date: "2022-08-12"
 knit: "bookdown::render_book"
 site: bookdown::bookdown_site
 url: 'https\://github.com/smasongarrison/syllabi'
@@ -22,7 +22,7 @@ logo: assets/logo.png
 --- 
 title: "Prof. Mason's Syllabi"
 author: S. Mason Garrison
-date: "2022-05-31"
+date: "2022-08-12"
 knit: "bookdown::render_book"
 site: bookdown::bookdown_site
 url: 'https\://github.com/smasongarrison/syllabi'
@@ -109,71 +109,17 @@ Placeholder
 
 <!--chapter:end:0102_engagement.Rmd-->
 
+
 # Accommodations Policy
 
-If you are (or become) disabled (in any capacity, permanently, or temporarily), and need accommodations in class, reading, or any other work in this course, please contact me to discuss your specific needs as soon as possible. 
-Under my favorite civil rights legislation, the Americans with Disabilities Act as amended you are legally entitled to reasonable accommodations for disabilities. These laws include the [Americans with Disabilities Act (ADA) of 1990](https://beta.ada.gov/) and [ADA Amendments Act (ADAAA) of 2008](https://en.wikipedia.org/wiki/ADA_Amendments_Act_of_2008). 
-I will do everything in my capacity as your professor to ensure that you receive those accommodations. 
-
-Students who need reasonable accommodations for disabilities also should contact the Center for Learning, Access, and Student Success  (118 Reynolda Hall, 336-758-5929,  [class.wfu.edu](https://class.wfu.edu/)). You can request accommodations through the [student portal (olympic.accessiblelearning.com/WFU/)](https://olympic.accessiblelearning.com/WFU/) These accommodations are not retroactive. Therefore, I strongly encourage you to use those accommodations. 
-
-Do not feel guilty about using them. 
-You rightfully deserve them, in the legal, moral, and ethical sense. 
-These accommodations are there so that you can be your best possible self. 
-
-
+Placeholder
 
 
 ## Self-Advocacy
-
-At Wake Forest and at many other places, the expectation is that you will self-advocate for yourselves and know exactly what you need. Is that a good expectation? Is that a good model? Is that equitable? I have thoughts... regardless, that is the current state of the world. Accordingly, you will have to advocate for what you need. If this process seems daunting, please talk to me! Regardless, I am happy to talk with you about this process and to share my own experiences.
-
-
-
-```{=html}
-<blockquote class="twitter-tweet" data-width="550" data-lang="en" data-dnt="true" data-theme="light"><p lang="en" dir="ltr">Every time we write that self-advocacy is key to disabled students&#39; success, we need to include an asterisk and note, &quot;BUT IT SHOULDN&#39;T BE&quot; <br><br>Disabled students deserve success regardless of how well they can navigate the system and cajole/plead/argue with profs for access.</p>&mdash; The ADHD Academic (@theADHDacademic) <a href="https://twitter.com/theADHDacademic/status/1458876178580881410?ref_src=twsrc%5Etfw">November 11, 2021</a></blockquote>
-
-```
-
-As a student, you may not know what accommodations work best for you. Or you may find that your current accommodations don't work like they used to. 
-
-As you journey thru your career, you may find that you need different kinds of accommodations. Or at least that has been my experience... There are numerous resources for ideas. 
-My personal favorite is [JAN](https://askjan.org/). Technically, JAN (Job Accommodation Network) is focused on employment and jobs. 
-However, I still have found this to be a wonderful resource for ideas. 
-You can [search for accommodation ideas](https://askjan.org/soar.cfm) by [specific](https://askjan.org/a-to-z.cfm):
-
-  - disability,
-  - limitation,
-  - task,
-  - topic, or
-  - accommodation.
-
 ## Resources
-
-* [Frequently Asked Questions from WFU CLASS](https://class.wfu.edu/frequently-asked-questions-about-lac-ds/)
-* [JAN](https://askjan.org/)
-* [WFU Self-advocacy handout](https://docs.google.com/document/d/1X44zJyTz8-s9t6IXw0bII2DCFiOk1NR2MRfTi8wBiIc/)
-
-
-# Classroom Climate
-
-I aim to create a learning environment for my students that supports a diversity of thoughts, perspectives, and experiences, and honors your identities (including but not limited to race, ethnicity, sex, gender, gender-identity, class, sexual orientation, religion, disability, political affiliation). To help accomplish this:
-
-- If you have a name and/or set of pronouns that differ from those that appear in your official records, please let me know!
-
-- If you feel like your performance in the class is being impacted by your experiences outside of class, please don't hesitate to come and talk with me. I can direct you to resources
-
-- I (like many people) am still in the process of learning about diverse perspectives and identities. If something was said in class (by anyone) that made you feel uncomfortable, please talk to me about it. 
-
-- If you reached here in the syllabus, e-mail me a picture of a cat. If you do it before the end of the first week, you get a small bonus. (And even if its after the first week, feel free to still send me a cat picture.)
-
 ## Statements
-
 ### From the psychology department
-The Psychology Department values, respects, and celebrates the experiences, beliefs, and practices stemming from varied cultures and circumstances (emphasizing, but not limited to, those from historically underrepresented groups),and our deep commitment to diversity, equity, and inclusion plays out through coursework, programming by majors, and research. 
-
 ### How I'd expand it
-The Psychology Department values, respects, and celebrates the experiences, beliefs, and practices stemming from varied cultures and circumstances ( emphasizing, but not limited to, those from marginalized groups, including those historically underrepresented). We center our department around our deep commitment to diversity, equity, inclusion, and access. That deep commitment plays out through coursework, programming by majors, service, outreach, and research. 
 
 <!--chapter:end:0103_idea.Rmd-->
 
@@ -215,6 +161,7 @@ Placeholder
 Placeholder
 
 
+## Masks and Equity
 ## WFU-Required Statement
 
 <!--chapter:end:0106_covid.Rmd-->
@@ -245,25 +192,130 @@ Placeholder
 
 <!--chapter:end:0200_specificcourses.Rmd-->
 
-
 # 255: Personality {-#personality}
 
-Placeholder
+
+
 
 
 ## Course Description   {-}
+
+This class provides a survey of theory and research on the structure and function of human personality, with attention to the relationship to cognition, emotion, motivation, and behavior. It requires P-PSY 151. In addition, we will discuss other individual differences, such as intelligence.
+
 ### Broad goals for the course:   {-}
+- 1. The first is for you to understand what personality psychologists think. We will cover classic and current theories, research, and applications of Personality psychology.
+- 2. The second is for you to learn how personality psychologists study their field scientifically. We will discuss the procedures used to test theories and to study issues related to personality.
+- 3. The third is to (hopefully) recognize some relevance of personality psychology for your personal and/or professional life.
+
+
 ## Required Materials   {-}
+
+[1] D. C. Funder. _The personality puzzle_. Seventh. OCLC: 935283402.
+New York: W.W. Norton & Co., 2016. ISBN: 978-0-393-60042-1.
+
+
 ## Course Assignments   {-}
-### Quizzes    {-}
-#### Quiz Dates   {-}
+
+### Quizzes   {-}
+
+There will be 15 multiple-choice reading quizzes (effectively these are weekly). The best 12 out of 15 quiz grades will be used to determine your total quiz grade.  You can drop 3 of the quizzes for any reason.
+
+### Exams   {-}
+
+There will be 3 exams. The best 2 out of 3 exam grades will be used to determine your total exam grade.  You can drop 1 of the exams for any reason.
+
+
+#### Exams Dates   {-}
+
+- Exam 1: Friday, 09/23
+
+- Exam 2: Friday, 11/11
+
+- Exam 3: During Finals, 12/16
+
+
 ### Short Assignments   {-}
+
+There will be three (3) short assignments in this course. These assignments will allow you to incorporate some of your own interests into the course. Such interests could be related to your career, another class you're taking, a hobby you're exploring, or some other random fancy. They will typically be approximately two (2) pages. I will provide more specific written guidelines at least two weeks before each assignment is due.
+
+
+The best two (2) out of three (3) short assignments will be used to determine your total short assignments.  You can skip one of the assignments for any reason.
+
+
 #### Short Assignment Dates   {-}
+
+- Assignment 1: Friday, 10/14: Critique of an online personality test.
+
+- Assignment 2: Friday, 12/09: Critique of a personality-related media article.
+
+- Assignment 3: Friday, NA: Critique of a personality-related YouTube video.
+
+
+
 ### Engagement Activities   {-}
+
+There will be multiple engagement activities in this course. These activities will allow you engage with the material for each module. Details about the specific activities will be provided on canvas. Students must complete two activities per module. For students in the blended section, they can attend their weekly in-person session and count it as an engagement activity.
+
+
 ## Grading Policy   {-}
+
+
+
+Typically, an A- is defined as 90% of the highest point total in the class, B- as 80% of that total, C- as 70 and D- as 60%.
+I may shift these values down to provide a better fit to the actual point distribution.
+By scaling to a percentage of the highest point total in the class, each student has a much better chance of receiving higher grades than if no re-scaling were done.
+This curve can only help your grade.
+
+The full table is provided below:
+
+Table: (\#tab:unnamed-chunk-4)Full Table
+
+|Letter | Cutoff|
+|:------|------:|
+|A      |   0.95|
+|A-     |   0.90|
+|B+     |   0.87|
+|B      |   0.83|
+|B-     |   0.80|
+|C+     |   0.77|
+|C      |   0.73|
+|C-     |   0.70|
+|D+     |   0.67|
+|D      |   0.63|
+|D-     |   0.60|
+
 ### Curve Projections    {-}
+
+Unsurprisingly, students have many questions about the curve in this class. For tests and other assignments, I try to provide a projected letter grade.
+This projected letter grade is there to give you a sense of what your score *would* be if I implemented the class curve on this particular assignment.
+It is a projection. It is not a guarantee. These projected letter grades are not incorporated into your final grade.
+Trust me, you do not want me to curve by assignment.
+
+
+
 ### Weighting   {-}
+
+- 200 points of your grade will be determined by your best two (2) exams.
+- 100 points of your grade will be determined by your best two short assignments.
+- 30 points of your grade will be determined by your engagement.
+- 120 points of your grade will be determined by your best 12 quizzes
+
+
+
+
+
 ## Schedule {-}
+
+
+```{=html}
+<div id="htmlwidget-d68fdfbdd7d97aa113af" style="width:100%;height:auto;" class="datatables html-widget"></div>
+<script type="application/json" data-for="htmlwidget-d68fdfbdd7d97aa113af">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17],["08/22","08/29","09/05","09/12","09/19","09/26","10/03","10/10","10/17","10/24","10/31","11/07","11/14","11/21","11/28","12/05","12/12"],["What is Personality","Personality Research Methods","Assessment, Evaluation, and Ethics","Trait Approach and Personality Judgment","Big Five","Personality over the Lifespan","Biological Approaches to Psychology","Behavior Genetics","Evolutionary Psychology","Cross-Cultural Psychology","Freud","Psychoanalysis After Freud","Personality Processes and Positive Psych","Thanksgiving Break!","Personality and Health",null,null],["Week 01, 08/22 - 08/26","Week 02, 08/29 - 09/02","Week 03, 09/05 - 09/09","Week 04, 09/12 - 09/16","Week 05, 09/19 - 09/23","Week 06, 09/26 - 09/30","Week 07, 10/03 - 10/07","Week 08, 10/10 - 10/14","Week 09, 10/17 - 10/21","Week 10, 10/24 - 10/28","Week 11, 10/31 - 11/04","Week 12, 11/07 - 11/11","Week 13, 11/14 - 11/18","Week 14, 11/21 - 11/25","Week 15, 11/28 - 12/02","Week 16, 12/05 - 12/09","Week 17, 12/12 - 12/16"],[null,null,null,null,"Exam",null,null,"Assignment",null,null,null,"Exam",null,null,null,"Assignment","Exam"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n      <th>milestones<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0}],"order":[],"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+```
+
+
+
+
+
 
 <!--chapter:end:0201_personality.Rmd-->
 
