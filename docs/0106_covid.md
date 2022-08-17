@@ -28,6 +28,7 @@ Although university policy states that we can request masks instead of requiring
 ```
 
 
+
 ## WFU-Required Statement
 
 As required by Wake Forest University, I have included the following information related to public health. It is reproduced verbatim. Dead links and all. 
@@ -51,6 +52,4 @@ As required by Wake Forest University, I have included the following information
 > [I will also refer the matter to the COVID-19 compliance reporting system](https://cm.maxient.com/reportingform.php?WakeForestUniv&layout_id=40). Possible disciplinary actions may follow as described in the Wake Forest University Student Conduct Code Public Health Emergency Addendum.
 >
 > .
-
-
 
