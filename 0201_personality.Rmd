@@ -4,7 +4,7 @@
 dayone <- as.Date("2022-08-22")
 cache=F
 number_of_classes=29
-number_of_weeks=15
+number_of_weeks=16
 
 source("scheduler.R")
 ####
@@ -41,8 +41,24 @@ classschedule <- data.frame(module = 1:number_of_weeks)
 classschedule$start <- advdate(dayone,classschedule$module,assignment = "m")
 classschedule$topic <- topic[1:number_of_weeks]
 classschedule$week <- advdate(dayone,classschedule$module)
+classschedule$milestones <- as.character(NA)
 
+classschedule <- data.frame(module = 1:number_of_weeks)
+classschedule$start <- advdate(dayone,classschedule$module,assignment = "m")
+classschedule$topic <- topic[1:number_of_weeks]
+classschedule$week <- advdate(dayone,classschedule$module)
+
+classschedule$milestones <- as.character(NA)
+
+exams<-c(3,6,10,13,15,16)
+
+assignments<-c(7,12,16)
+
+classschedule$milestones[exams] <- "Quiz"
+classschedule$milestones[assignments] <- "Assignment"
 ```
+
+
 
 
 
@@ -72,17 +88,17 @@ There will be 6 quizzes in this course. The best 5 out of 6 quizzes grades will 
 
 #### Quiz Dates   {-}
 
-- Quiz 1: Friday, `r advdate(dayone, 3, assignment="f")`
+- Quiz 1: Friday, `r advdate(dayone, exams[1], assignment="f")`
 
-- Quiz 2: Friday, `r advdate(dayone, 6, assignment="f")`
+- Quiz 2: Friday, `r advdate(dayone, exams[2], assignment="f")`
 
-- Quiz 3: Friday, `r advdate(dayone, 10, assignment="f")`
+- Quiz 3: Friday, `r advdate(dayone, exams[3], assignment="f")`
 
-- Quiz 4: Friday, `r advdate(dayone, 13, assignment="f")`
+- Quiz 4: Friday, `r advdate(dayone, exams[4], assignment="f")`
 
-- Quiz 5: Friday, `r advdate(dayone, 15, assignment="f")`
+- Quiz 5: Friday, `r advdate(dayone, exams[5], assignment="f")`
 
-- Quiz 6: During Finals, `r advdate(dayone, 16, assignment="f")`
+- Quiz 6: During Finals, `r advdate(dayone, exams[6], assignment="f")`
 
 
 ### Short Assignments   {-}
@@ -95,11 +111,11 @@ The best two (2) out of three (3) short assignments will be used to determine yo
 
 #### Short Assignment Dates   {-}
 
-- Assignment 1: Friday, `r advdate(dayone, 7, assignment="f")`: Critique of an online personality test.
+- Assignment 1: Friday, `r advdate(dayone, assignments[1], assignment="f")`: Critique of an online personality test.
 
-- Assignment 2: Friday, `r advdate(dayone, 12, assignment="f")`: Critique of a personality-related media article.
+- Assignment 2: Friday, `r advdate(dayone, assignments[2], assignment="f")`: Critique of a personality-related media article.
 
-- Assignment 3: Friday, `r advdate(dayone, 15, assignment="f")`: Critique of a personality-related YouTube video.
+- Assignment 3: Friday, `r advdate(dayone, assignments[3], assignment="f")`: Critique of a personality-related YouTube video.
 
 ### Engagement Activities   {-}
 
@@ -129,11 +145,8 @@ classschedule %>%
                 class = 'cell-border stripe',
                 #filter = list(position = 'top'),
                 options = list(pageLength = nrow(classschedule$module), 
-                           autoWidth = FALSE,
-                           bInfo = FALSE,
-                           paging = FALSE))
+                               autoWidth = FALSE,
+                               bInfo = FALSE,
+                               paging = FALSE))
 ```
-
-
-
 
