@@ -15,7 +15,7 @@ library(tweetrmd) #... embedding tweets
 # Error in tweet_blockquote(tweet_url = tweet_url, maxwidth = maxwidth,  : 
 #  Forbidden (HTTP 403).
 if(FALSE){
-include_tweet("https://twitter.com/bluntshovels/status/1463275576337129480")
+try(include_tweet("https://twitter.com/bluntshovels/status/1463275576337129480"))
 }
 ```
 
@@ -27,8 +27,8 @@ At Wake Forest and at many other places, the expectation is that you will self-a
 
 ```{r, echo=FALSE}
 
-include_tweet("https://twitter.com/Rasheeradiara/status/1532760383500472326")
-include_tweet("https://twitter.com/theADHDacademic/status/1458876178580881410")
+try(include_tweet("https://twitter.com/Rasheeradiara/status/1532760383500472326"))
+try(include_tweet("https://twitter.com/theADHDacademic/status/1458876178580881410"))
 ```
 
 As a student, you may not know what accommodations work best for you. Or you may find that your current accommodations don't work like they used to. 
