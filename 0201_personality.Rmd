@@ -1,7 +1,7 @@
 # 255: Personality {-#personality}
 
 ```{r setup, include=FALSE}
-dayone <- as.Date("2022-08-22")
+first_day <- as.Date("2022-08-22")
 cache=F
 number_of_classes=29
 number_of_weeks=16
@@ -38,17 +38,11 @@ topic = c(
 
 
 classschedule <- data.frame(module = 1:number_of_weeks)
-classschedule$start <- advdate(dayone,classschedule$module,assignment = "m")
+classschedule$start <- advdate(first_day,classschedule$module,weekday_due= "m")
 classschedule$topic <- topic[1:number_of_weeks]
-classschedule$week <- advdate(dayone,classschedule$module)
+classschedule$week <- advdate(first_day,classschedule$module)
 classschedule$milestones <- as.character(NA)
 
-classschedule <- data.frame(module = 1:number_of_weeks)
-classschedule$start <- advdate(dayone,classschedule$module,assignment = "m")
-classschedule$topic <- topic[1:number_of_weeks]
-classschedule$week <- advdate(dayone,classschedule$module)
-
-classschedule$milestones <- as.character(NA)
 
 exams<-c(3,6,10,13,15,16)
 
@@ -88,17 +82,17 @@ There will be 6 quizzes in this course. The best 5 out of 6 quizzes grades will 
 
 #### Quiz Dates   {-}
 
-- Quiz 1: Friday, `r advdate(dayone, exams[1], assignment="f")`
+- Quiz 1: Friday, `r advdate(first_day, exams[1], weekday_due="f")`
 
-- Quiz 2: Friday, `r advdate(dayone, exams[2], assignment="f")`
+- Quiz 2: Friday, `r advdate(first_day, exams[2], weekday_due="f")`
 
-- Quiz 3: Friday, `r advdate(dayone, exams[3], assignment="f")`
+- Quiz 3: Friday, `r advdate(first_day, exams[3], weekday_due="f")`
 
-- Quiz 4: Friday, `r advdate(dayone, exams[4], assignment="f")`
+- Quiz 4: Friday, `r advdate(first_day, exams[4], weekday_due="f")`
 
-- Quiz 5: Friday, `r advdate(dayone, exams[5], assignment="f")`
+- Quiz 5: Friday, `r advdate(first_day, exams[5], weekday_due="f")`
 
-- Quiz 6: During Finals, `r advdate(dayone, exams[6], assignment="f")`
+- Quiz 6: During Finals, `r advdate(first_day, exams[6], weekday_due="f")`
 
 
 ### Short Assignments   {-}
@@ -111,11 +105,11 @@ The best two (2) out of three (3) short assignments will be used to determine yo
 
 #### Short Assignment Dates   {-}
 
-- Assignment 1: Friday, `r advdate(dayone, assignments[1], assignment="f")`: Critique of an online personality test.
+- Assignment 1: Friday, `r advdate(first_day, assignments[1], weekday_due="f")`: Critique of an online personality test.
 
-- Assignment 2: Friday, `r advdate(dayone, assignments[2], assignment="f")`: Critique of a personality-related media article.
+- Assignment 2: Friday, `r advdate(first_day, assignments[2], weekday_due="f")`: Critique of a personality-related media article.
 
-- Assignment 3: Friday, `r advdate(dayone, assignments[3], assignment="f")`: Critique of a personality-related YouTube video.
+- Assignment 3: Friday, `r advdate(first_day, assignments[3], weekday_due="f")`: Critique of a personality-related YouTube video.
 
 ### Engagement Activities   {-}
 

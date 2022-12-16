@@ -2,7 +2,7 @@
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(cache=FALSE, dev='pdf')
-dayone <- as.Date("2021-01-25")
+first_day <- as.Date("2021-01-25")
 cache=F
 number_of_classes=29
 number_of_weeks=15
@@ -44,9 +44,9 @@ topic=c(
   
   
 classschedule <- data.frame(module = 1:number_of_weeks)
-classschedule$start <- advdate(dayone,classschedule$module,assignment = "m")
+classschedule$start <- advdate(first_day,classschedule$module,weekday_due= "m")
 classschedule$topic <- topic[1:number_of_weeks]
-classschedule$week <- advdate(dayone,classschedule$module)
+classschedule$week <- advdate(first_day,classschedule$module)
 
 
 ```
@@ -90,17 +90,17 @@ There will be 6 quizzes in this course. These will be approximately every three 
 
 #### Quiz Dates   {-}
 
-- Quiz 1: Friday, `r advdate(dayone, 3, assignment="f")`
+- Quiz 1: Friday, `r advdate(first_day, 3, weekday_due="f")`
 
-- Quiz 2: Friday, `r advdate(dayone, 6, assignment="f")`
+- Quiz 2: Friday, `r advdate(first_day, 6, weekday_due="f")`
 
-- Quiz 3: Friday, `r advdate(dayone, 10, assignment="f")`
+- Quiz 3: Friday, `r advdate(first_day, 10, weekday_due="f")`
 
-- Quiz 4: Friday, `r advdate(dayone, 13, assignment="f")`
+- Quiz 4: Friday, `r advdate(first_day, 13, weekday_due="f")`
 
-- Quiz 5: Friday, `r advdate(dayone, 15, assignment="f")`
+- Quiz 5: Friday, `r advdate(first_day, 15, weekday_due="f")`
 
-- Quiz 6: During Finals, `r advdate(dayone, 16, assignment="f")`
+- Quiz 6: During Finals, `r advdate(first_day, 16, weekday_due="f")`
 
 
 ### Take Home Assignments   {-}
@@ -112,11 +112,11 @@ I will provide more specific written guidelines at least two weeks before each a
 
 #### Assignment Dates   {-}
 
-- Assignment 1: Friday, `r advdate(dayone, 7, assignment="f")`: Set 1 and Critique of an online test.
+- Assignment 1: Friday, `r advdate(first_day, 7, weekday_due="f")`: Set 1 and Critique of an online test.
 
-- Assignment 2: Friday, `r advdate(dayone, 13, assignment="f")`: Set 2 and Critique of a testing-related popular media article.
+- Assignment 2: Friday, `r advdate(first_day, 13, weekday_due="f")`: Set 2 and Critique of a testing-related popular media article.
 
-- Assignment 3: Friday, `r advdate(dayone, 15, assignment="f")`: Set 3 and Critique of a testing-related YouTube video.
+- Assignment 3: Friday, `r advdate(first_day, 15, weekday_due="f")`: Set 3 and Critique of a testing-related YouTube video.
 
 
 

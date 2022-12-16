@@ -3,7 +3,7 @@
 ```{r setup, include=FALSE}
 source("scheduler.R")
 knitr::opts_chunk$set(cache=FALSE, dev='pdf')
-dayone <- as.Date("2022-01-10")
+first_day <- as.Date("2022-01-10")
 cache=F
 number_of_classes=29
 number_of_weeks=17
@@ -59,9 +59,9 @@ topic =c(
   )
 #topic=topicvanderbilt 
 classschedule <- data.frame(module = 1:number_of_weeks)
-classschedule$start <- advdate(dayone,classschedule$module,assignment = "m")
+classschedule$start <- advdate(first_day,classschedule$module,weekday_due= "m")
 classschedule$topic <- topic[1:number_of_weeks]
-classschedule$week <- advdate(dayone,classschedule$module)
+classschedule$week <- advdate(first_day,classschedule$module)
 classschedule$milestones <- as.character(NA)
 
 exams<-c(5,12,17)
@@ -105,11 +105,11 @@ There will be 3 exams. The best 2 out of 3 exam grades will be used to determine
 
 #### Exams Dates   {-}
 
-- Exam 1: Friday, `r advdate(dayone, exams[1], assignment="f")`
+- Exam 1: Friday, `r advdate(first_day, exams[1], weekday_due="f")`
 
-- Exam 2: Friday, `r advdate(dayone, exams[2], assignment="f")`
+- Exam 2: Friday, `r advdate(first_day, exams[2], weekday_due="f")`
 
-- Exam 3: During Finals, `r advdate(dayone, exams[3], assignment="f")`
+- Exam 3: During Finals, `r advdate(first_day, exams[3], weekday_due="f")`
 
 
 ### Short Assignments   {-}
@@ -122,9 +122,9 @@ The best one (1) out of two (2) short assignments will be used to determine your
 
 #### Assignment Dates   {-}
 
-- Assignment 1: Friday, `r advdate(dayone, assignments[1], assignment="f")`: Qualitative Critique 1
+- Assignment 1: Friday, `r advdate(first_day, assignments[1], weekday_due="f")`: Qualitative Critique 1
 
-- Assignment 2: Friday, `r advdate(dayone, assignments[2], assignment="f")`: Qualitative Critique 2
+- Assignment 2: Friday, `r advdate(first_day, assignments[2], weekday_due="f")`: Qualitative Critique 2
 
 
 
@@ -162,18 +162,18 @@ classschedule %>%
 Schedule
 -->
 <!---
-## `r advdate(dayone, 1, topic)`
+## `r advdate(first_day, 1, topic)`
 
 - Monday: First Day of Class / Introduction
 - Thursday: First Day of Class
 
-## `r advdate(dayone, 2, topic)`
+## `r advdate(first_day, 2, topic)`
 
 - Tuesday: Research Design (Chapter 9)
 - Thursday: Sampling Theory (Chapter 8) / Measurement in the Social/Behavioral Sciences 
 
 
-##  `r advdate(dayone, 3, topic)` 
+##  `r advdate(first_day, 3, topic)` 
 
 - Tuesday: Describing Data Graphically with R
 
@@ -184,34 +184,34 @@ Schedule
 
 
 
-##  `r advdate(dayone, 4, topic)`
+##  `r advdate(first_day, 4, topic)`
 
 - Tuesday: Univariate Distributions (Chapter 1/2)
 - Thursday: Standardization, z-scores, and the normal distribution	(Chapter 3)
 
-##  `r advdate(dayone, 5, topic)`
+##  `r advdate(first_day, 5, topic)`
 
 - Tuesday: Test 1 Review
 
 - Thursday: Test 1
 
-##  `r advdate(dayone, 6, topic)`
+##  `r advdate(first_day, 6, topic)`
 
 - Tuesday: Bivariate Distributions (Chapter 4)
 
 - Thursday: Correlation	(Chapter 5)
 
-##  `r advdate(dayone, 7, topic)` 
+##  `r advdate(first_day, 7, topic)` 
 
 - Thursday: Probability Theory (Chapter 12) 
 
-##  `r advdate(dayone, 8, topic)`
+##  `r advdate(first_day, 8, topic)`
 
 - Tuesday: More Probability Theory (Chapter 13) 
 
 - Thursday: Review
 
-##  `r advdate(dayone, 9, topic)`
+##  `r advdate(first_day, 9, topic)`
 
 - Tuesday: Test 2
 
@@ -220,25 +220,25 @@ Schedule
     - Last day undergraduate students may withdraw from fall semester classes
     - Last day to change from pass/fail to graded status in a fall semester class
 
-##  `r advdate(dayone, 10, topic)`
+##  `r advdate(first_day, 10, topic)`
 
 - Tuesday: The Logic of Hypothesis Testing Hypotheses, Errors (Chapters 16-19)
 
 - Thursday: t-tests
 
-##  `r advdate(dayone, 11, topic)`
+##  `r advdate(first_day, 11, topic)`
 
 - Tuesday: Applying t-tests and ANOVA (Chapters 20 & 21)
 
 - Thursday: More Analysis of Variance	(Chapters 24 & 27)
 
-##  `r advdate(dayone, 12, topic)`
+##  `r advdate(first_day, 12, topic)`
 
 - Tuesday: Subverting the Research Process
 
 - Thursday: Causal Inference
 
-## `r advdate(dayone, 13, topic)`
+## `r advdate(first_day, 13, topic)`
 
 - Tuesday: Review
 
@@ -246,21 +246,21 @@ Schedule
 
 - Thursday: Test 3
 
-##  `r advdate(dayone, 14, topic)`
+##  `r advdate(first_day, 14, topic)`
 
 - Monday: Cross-Cultural Psychology
 - Wednesday: Cross-Cultural Psychology
 - Friday: Cross-Cultural Psychology
 
 
-##  `r advdate(dayone, 15, topic)`
+##  `r advdate(first_day, 15, topic)`
 
 - Tuesday: Translating Research Questions into R
 
 - Thursday: Addressing Statistical Questions in R
 
 
-##  `r advdate(dayone, 16, topic)` 
+##  `r advdate(first_day, 16, topic)` 
 
 - Tuesday: Addressing Statistical Questions in R
 - Thursday: Last Day of Class 
