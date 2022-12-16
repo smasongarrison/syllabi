@@ -1,16 +1,16 @@
 # R Syllabus Scheduler
 ## advances the data
-advdate <- function(dayone,
+advdate <- function(first_day,
                     adv,
                     topic =  NULL,
                     weekday_due = NULL,
                     unit="Week ",
                     format = "%m/%d") {
 
-  tmon <- (dayone + 0 + 7*(adv - 1)) %>%
+  tmon <- (first_day + 0 + 7*(adv - 1)) %>%
     format(format = format)
 
-  tfri <- (dayone + 4 + 7*(adv - 1)) %>%
+  tfri <- (first_day + 4 + 7*(adv - 1)) %>%
     format(format = format)
 
   zadv <- sprintf("%02d", adv)
@@ -20,11 +20,11 @@ advdate <- function(dayone,
 
     } else if (!is.null(weekday_due)) {
 
-      ttue <- (dayone + 1 + 7*(adv - 1)) %>%
+      ttue <- (first_day + 1 + 7*(adv - 1)) %>%
         format(format = format)
-      twed <- (dayone + 2 + 7*(adv - 1)) %>%
+      twed <- (first_day + 2 + 7*(adv - 1)) %>%
         format(format = format)
-      tthu <- (dayone + 3 + 7*(adv - 1)) %>%
+      tthu <- (first_day + 3 + 7*(adv - 1)) %>%
         format(format = format)
 
       if (weekday_due %in%
@@ -73,32 +73,45 @@ advdate <- function(dayone,
 
 
 create_classschedule <- function(number_of_weeks,
-                                 dayone,
+                                 first_day,
                                  weekday_due = "m",
                                  topic,
-                                 exams_week= c(3,6,10,13,15,16),
-                                 assignments_week= c(7,12,16),
+                                 exams_week= NULL ,
+                                 assignments_week= NULL,
                                  exams_name = "Quiz",
                                  assignments_name = "Assignment"){
 
 classschedule <- data.frame(module = 1:number_of_weeks)
 
-classschedule$start <- advdate(dayone,
+classschedule$start <- advdate(first_day,
                                classschedule$module,
                                weekday_due = weekday_due)
 classschedule$topic <- topic[1:number_of_weeks]
 
-classschedule$week <- advdate(dayone,
+classschedule$week <- advdate(first_day,
                               classschedule$module)
 
 classschedule$milestones <- as.character(NA)
 
-
+if(!is.null(exams_week)){
 classschedule$milestones[exams_week] <-  exams_name
-classschedule$milestones[assignments_week] <- assignments_name
+}
 
-classschedule$milestones[exams_week==assignments_week] <-  paste0(exams_name," and ",
-                                                                  assignments_name)
+if(!is.null(assignments_week)){
+  classschedule$milestones[assignments_week] <- assignments_name
+}
+
+
+
+if(!is.null(assignments_week)&!is.null(exams_week)){
+  dups <- exams_week[exams_week %in% assignments_week]
+
+
+  classschedule$milestones[dups] <-  paste0(exams_name,
+                                            " and ",
+                                            assignments_name)
+}
+
 
 
 return(classschedule)

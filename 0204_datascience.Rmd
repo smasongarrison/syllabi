@@ -3,10 +3,10 @@
 ```{r setup, include=FALSE}
 source("scheduler.R")
 knitr::opts_chunk$set(cache=FALSE, dev='pdf')
-first_day <- as.Date("2022-01-10")
+first_day <- as.Date("2023-01-09")
 cache=F
 number_of_classes=29
-number_of_weeks=15
+number_of_weeks=16
 
 ####
 #devtools::install_github("crsh/citr")
@@ -59,11 +59,16 @@ topic =c(
   )
 
 
+classschedule <- create_classschedule(first_day = first_day,
+                     number_of_weeks = number_of_weeks,
+                     weekday_due = "m",
+                     topic = topic,
+                     exams_week= 2,
+                     assignments_week= 16,
+                     exams_name = "Contract",
+                     assignments_name = "Presentation")
   
-classschedule <- data.frame(module = 1:number_of_weeks)
-classschedule$start <- advdate(first_day,classschedule$module,weekday_due= "m")
-classschedule$topic <- topic[1:number_of_weeks]
-classschedule$week <- advdate(first_day,classschedule$module)
+
 
 ```
 
@@ -71,7 +76,7 @@ classschedule$week <- advdate(first_day,classschedule$module)
 
 ## Course Description {-}
 
-Data Science for Psychologists (DSP) introduces on the principles of data science, including data wrangling, modeling, visualization, and communication. In this class, we link those principles to psychological methods and open science practices by emphasizing exploratory analyses and description, rather than confirmatory analyses and prediction. We'll work our way thru Wickham and Grolemund's R for Data Science text (http://r4ds.had.co.nz/) and develop expertise in tidyverse (https://www.tidyverse.org/). This class emphasizes replication and reproducibility. DSP is a practical skilled-based class and should be useful to students aiming for academia as well as those interested in industry. Applications of these methods can be applied to a full range of psychological areas, including perception (e.g, eye-tracking data), neuroscience (e.g., visualizing neural networks), and individual differences (e.g., valence analysis).
+Data Science for Psychologists (DS4P) introduces on the principles of data science, including data wrangling, modeling, visualization, and communication. In this class, we link those principles to psychological methods and open science practices by emphasizing exploratory analyses and description, rather than confirmatory analyses and prediction. We'll work our way thru Wickham and Grolemund's R for Data Science text (http://r4ds.had.co.nz/) and develop expertise in tidyverse (https://www.tidyverse.org/). This class emphasizes replication and reproducibility. DSP is a practical skilled-based class and should be useful to students aiming for academia as well as those interested in industry. Applications of these methods can be applied to a full range of psychological areas, including perception (e.g, eye-tracking data), neuroscience (e.g., visualizing neural networks), and individual differences (e.g., valence analysis).
 
 
 ### Broad goals for the course:  {-}
@@ -88,6 +93,10 @@ All materials for this course are open source, including the multimedia course n
 - Garrison's Data Science for Psychologists (https://datascience4psych.github.io/DataScience4Psych/)
 - Wickham and Grolemund's R for Data Science text (http://r4ds.had.co.nz/)
 
+
+## Course Modality {-}
+
+This course is designated as a blended course. This designation is because this course's modality changes based on the level of COVID-19 transmission in the community. When COVID-19 community transmission is low or medium, this class will be in-person. However, if COVID-19 transmission is high in the community, this course may be moved entirely online in order to protect the health and safety of students and instructor. In the case that we move online, the in-person sessions will become synchronous online sessions. Any changes will be clearly and promptly communicated via email.
 
 
 
@@ -108,7 +117,7 @@ There is (at least) one lab available per module. You can find the modules in th
 
 ### Portfolio  {-}
 
-The major semester projects (described on the data science website) is a set of EDA Projects, which you will summarize in an EDA Portfolio to be handed in on the last day of class. Instructions for the portfolio can be found in the [course notes](https://datascience4psych.github.io/DataScience4Psych/).
+The major semester projects (described on the data science website) is a set of DS4P Projects, which you will summarize in a DS4P Portfolio to be handed in on the last day of class. Instructions for the portfolio can be found in the [course notes](https://datascience4psych.github.io/DataScience4Psych/).
 
 
 

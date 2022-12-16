@@ -1,4 +1,4 @@
-In this course, you will determine the grade you receive by fulfilling a contract you will submit for my approval on `r advdate(dayone, 2, assignment="f")`.
+In this course, you will determine the grade you receive by fulfilling a contract you will submit for my approval on `r advdate(first_day, 2, weekday_due="f")`.
 
 Your written contract will detail:
 
@@ -16,7 +16,7 @@ To fulfill any grade contract a student must do the following, which should none
 
 - Come to class prepared to discuss any assigned readings, videos, or other media. Participate actively in class activities and discussions, making observations and asking questions that help the class think together.
 
-- Meet with me synchronously —during office hours or another scheduled time—at least once around midterm—roughly between weeks 5-8 to ensure you are on-track to meet your contract requirements, discuss any questions or concerns you have about the course or your progress, and decide on any necessary contract amendments.
+- Meet with me synchronously — during office hours or another scheduled time — at least once around midterm—roughly between weeks 5-8 to ensure you are on-track to meet your contract requirements, discuss any questions or concerns you have about the course or your progress, and decide on any necessary contract amendments.
 
 - Revise contractual assignments as necessary until both you and I consider them "Satisfactory."
 

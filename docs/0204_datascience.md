@@ -6,7 +6,7 @@
 
 ## Course Description {-}
 
-Data Science for Psychologists (DSP) introduces on the principles of data science, including data wrangling, modeling, visualization, and communication. In this class, we link those principles to psychological methods and open science practices by emphasizing exploratory analyses and description, rather than confirmatory analyses and prediction. We'll work our way thru Wickham and Grolemund's R for Data Science text (http://r4ds.had.co.nz/) and develop expertise in tidyverse (https://www.tidyverse.org/). This class emphasizes replication and reproducibility. DSP is a practical skilled-based class and should be useful to students aiming for academia as well as those interested in industry. Applications of these methods can be applied to a full range of psychological areas, including perception (e.g, eye-tracking data), neuroscience (e.g., visualizing neural networks), and individual differences (e.g., valence analysis).
+Data Science for Psychologists (DS4P) introduces on the principles of data science, including data wrangling, modeling, visualization, and communication. In this class, we link those principles to psychological methods and open science practices by emphasizing exploratory analyses and description, rather than confirmatory analyses and prediction. We'll work our way thru Wickham and Grolemund's R for Data Science text (http://r4ds.had.co.nz/) and develop expertise in tidyverse (https://www.tidyverse.org/). This class emphasizes replication and reproducibility. DSP is a practical skilled-based class and should be useful to students aiming for academia as well as those interested in industry. Applications of these methods can be applied to a full range of psychological areas, including perception (e.g, eye-tracking data), neuroscience (e.g., visualizing neural networks), and individual differences (e.g., valence analysis).
 
 
 ### Broad goals for the course:  {-}
@@ -23,6 +23,10 @@ All materials for this course are open source, including the multimedia course n
 - Garrison's Data Science for Psychologists (https://datascience4psych.github.io/DataScience4Psych/)
 - Wickham and Grolemund's R for Data Science text (http://r4ds.had.co.nz/)
 
+
+## Course Modality {-}
+
+This course is designated as a blended course. This designation is because this course's modality changes based on the level of COVID-19 transmission in the community. When COVID-19 community transmission is low or medium, this class will be in-person. However, if COVID-19 transmission is high in the community, this course may be moved entirely online in order to protect the health and safety of students and instructor. In the case that we move online, the in-person sessions will become synchronous online sessions. Any changes will be clearly and promptly communicated via email.
 
 
 
@@ -43,7 +47,7 @@ There is (at least) one lab available per module. You can find the modules in th
 
 ### Portfolio  {-}
 
-The major semester projects (described on the data science website) is a set of EDA Projects, which you will summarize in an EDA Portfolio to be handed in on the last day of class. Instructions for the portfolio can be found in the [course notes](https://datascience4psych.github.io/DataScience4Psych/).
+The major semester projects (described on the data science website) is a set of DS4P Projects, which you will summarize in a DS4P Portfolio to be handed in on the last day of class. Instructions for the portfolio can be found in the [course notes](https://datascience4psych.github.io/DataScience4Psych/).
 
 
 
@@ -56,7 +60,7 @@ This experiential course requires active engagement. There will be few lectures 
 ## Grading Policy  {-}
 
 
-In this course, you will determine the grade you receive by fulfilling a contract you will submit for my approval on 01/21.
+In this course, you will determine the grade you receive by fulfilling a contract you will submit for my approval on 01/20.
 
 Your written contract will detail:
 
@@ -74,7 +78,7 @@ To fulfill any grade contract a student must do the following, which should none
 
 - Come to class prepared to discuss any assigned readings, videos, or other media. Participate actively in class activities and discussions, making observations and asking questions that help the class think together.
 
-- Meet with me synchronously —during office hours or another scheduled time—at least once around midterm—roughly between weeks 5-8 to ensure you are on-track to meet your contract requirements, discuss any questions or concerns you have about the course or your progress, and decide on any necessary contract amendments.
+- Meet with me synchronously — during office hours or another scheduled time — at least once around midterm—roughly between weeks 5-8 to ensure you are on-track to meet your contract requirements, discuss any questions or concerns you have about the course or your progress, and decide on any necessary contract amendments.
 
 - Revise contractual assignments as necessary until both you and I consider them "Satisfactory."
 
@@ -105,8 +109,7 @@ To contract for an "A" in this course, you agree to:
 
 - Produce at least 10 "Satisfactory" portfolio pieces over the course of the semester.
 
-- Complete two "Satisfactory" Unessays on a schedule you will specify in your contract and present the strongest as an asynchronous presentation.
-
+- Compile those portfolio pieces into a "Satisfactory" Unessay and present it during the last week of class
 
 ### "B" Contract  {-}
 
@@ -116,7 +119,7 @@ To contract for a "B" in this course, you agree to:
 
 - Produce at least 6 "Satisfactory" portfolio pieces over the course of the semester.
 
-- Complete one "Satisfactory" Unessay on a schedule you will specify in your contract and present it during the last week of class
+- Compile those portfolio pieces into a "Satisfactory" Unessay and present it during the last week of class
 
 
 ### "P" Contract  {-}
@@ -127,7 +130,7 @@ To contract for a "P" or Pass in this course, you agree to:
 
 - Produce at least 4 "Satisfactory" portfolio pieces over the course of the semester.
 
-- Complete one "Satisfactory" Unessay on a schedule you will specify in your contract and present it during the last week of class
+- Compile those portfolio pieces into a "Satisfactory" Unessay and present it during the last week of class
 
 
 
@@ -139,8 +142,8 @@ Note that I'll be using your contracts to guide my tinkering.
 
 
 ```{=html}
-<div id="htmlwidget-b9dc3ae0052863ac7759" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-b9dc3ae0052863ac7759">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15],["01/10","01/17","01/24","01/31","02/07","02/14","02/21","02/28","03/07","03/14","03/21","03/28","04/04","04/11","04/18"],["What is Data Science and Meet the Toolkit","Data and Visualization","Welcome to the Tidyverse","Data types and Data Transformations","Effective data visualization","Scientific Communication and confounding","Functions and Automation","Webscraping","Spring Break","Ethics","Tidy Models","Overfitting and Cross validation","Quantifying uncertainty","Rshiny","Machine Learning"],["Week 01, 01/10 - 01/14","Week 02, 01/17 - 01/21","Week 03, 01/24 - 01/28","Week 04, 01/31 - 02/04","Week 05, 02/07 - 02/11","Week 06, 02/14 - 02/18","Week 07, 02/21 - 02/25","Week 08, 02/28 - 03/04","Week 09, 03/07 - 03/11","Week 10, 03/14 - 03/18","Week 11, 03/21 - 03/25","Week 12, 03/28 - 04/01","Week 13, 04/04 - 04/08","Week 14, 04/11 - 04/15","Week 15, 04/18 - 04/22"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0}],"order":[],"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+<div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-95f6f62db5cd9ebc6f8d" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-95f6f62db5cd9ebc6f8d">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],["01/09","01/16","01/23","01/30","02/06","02/13","02/20","02/27","03/06","03/13","03/20","03/27","04/03","04/10","04/17","04/24"],["What is Data Science and Meet the Toolkit","Data and Visualization","Welcome to the Tidyverse","Data types and Data Transformations","Effective data visualization","Scientific Communication and confounding","Functions and Automation","Webscraping","Spring Break","Ethics","Tidy Models","Overfitting and Cross validation","Quantifying uncertainty","Rshiny","Machine Learning","Presentations"],["Week 01, 01/09 - 01/13","Week 02, 01/16 - 01/20","Week 03, 01/23 - 01/27","Week 04, 01/30 - 02/03","Week 05, 02/06 - 02/10","Week 06, 02/13 - 02/17","Week 07, 02/20 - 02/24","Week 08, 02/27 - 03/03","Week 09, 03/06 - 03/10","Week 10, 03/13 - 03/17","Week 11, 03/20 - 03/24","Week 12, 03/27 - 03/31","Week 13, 04/03 - 04/07","Week 14, 04/10 - 04/14","Week 15, 04/17 - 04/21","Week 16, 04/24 - 04/28"],[null,"Contract",null,null,null,null,null,null,null,null,null,null,null,null,null,"Presentation"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n      <th>milestones<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0}],"order":[],"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
 ```
 
 

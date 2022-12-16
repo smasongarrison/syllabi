@@ -34,22 +34,16 @@ topic = c(
   "Thanksgiving Break!",
   "Personality and Health"
   )
+exams_week <- c(3,6,10,13,15,16)
+assignments_week <- c(7,12,16)
+classschedule <- create_classschedule(first_day = first_day,
+                     number_of_weeks = number_of_weeks,
+                     weekday_due = "m",
+                     topic = topic,
+                     exams_week= exams_week,
+                     assignments_week= assignments_week)
 
 
-
-classschedule <- data.frame(module = 1:number_of_weeks)
-classschedule$start <- advdate(first_day,classschedule$module,weekday_due= "m")
-classschedule$topic <- topic[1:number_of_weeks]
-classschedule$week <- advdate(first_day,classschedule$module)
-classschedule$milestones <- as.character(NA)
-
-
-exams<-c(3,6,10,13,15,16)
-
-assignments<-c(7,12,16)
-
-classschedule$milestones[exams] <- "Quiz"
-classschedule$milestones[assignments] <- "Assignment"
 ```
 
 
@@ -63,7 +57,7 @@ This class provides a survey of theory and research on the structure and functio
 ### Broad goals for the course:   {-}
 - 1. The first is for you to understand what personality psychologists think. We will cover classic and current theories, research, and applications of Personality psychology.
 - 2. The second is for you to learn how personality psychologists study their field scientifically. We will discuss the procedures used to test theories and to study issues related to personality.
-- 3. The third is to (hopefully) recognize some relevance of personality psychology for your personal and/or professional life.
+- 3. The third is to (hopefully) recognize some relevance of personality psychology for your personal and professional life.
 
 
 ## Required Materials   {-}
@@ -82,17 +76,17 @@ There will be 6 quizzes in this course. The best 5 out of 6 quizzes grades will 
 
 #### Quiz Dates   {-}
 
-- Quiz 1: Friday, `r advdate(first_day, exams[1], weekday_due="f")`
+- Quiz 1: Friday, `r advdate(first_day, exams_week[1], weekday_due="f")`
 
-- Quiz 2: Friday, `r advdate(first_day, exams[2], weekday_due="f")`
+- Quiz 2: Friday, `r advdate(first_day, exams_week[2], weekday_due="f")`
 
-- Quiz 3: Friday, `r advdate(first_day, exams[3], weekday_due="f")`
+- Quiz 3: Friday, `r advdate(first_day, exams_week[3], weekday_due="f")`
 
-- Quiz 4: Friday, `r advdate(first_day, exams[4], weekday_due="f")`
+- Quiz 4: Friday, `r advdate(first_day, exams_week[4], weekday_due="f")`
 
-- Quiz 5: Friday, `r advdate(first_day, exams[5], weekday_due="f")`
+- Quiz 5: Friday, `r advdate(first_day, exams_week[5], weekday_due="f")`
 
-- Quiz 6: During Finals, `r advdate(first_day, exams[6], weekday_due="f")`
+- Quiz 6: During Finals, `r advdate(first_day, exams_week[6], weekday_due="f")`
 
 
 ### Short Assignments   {-}
@@ -105,11 +99,11 @@ The best two (2) out of three (3) short assignments will be used to determine yo
 
 #### Short Assignment Dates   {-}
 
-- Assignment 1: Friday, `r advdate(first_day, assignments[1], weekday_due="f")`: Critique of an online personality test.
+- Assignment 1: Friday, `r advdate(first_day, assignments_week[1], weekday_due="f")`: Critique of an online personality test.
 
-- Assignment 2: Friday, `r advdate(first_day, assignments[2], weekday_due="f")`: Critique of a personality-related media article.
+- Assignment 2: Friday, `r advdate(first_day, assignments_week[2], weekday_due="f")`: Critique of a personality-related media article.
 
-- Assignment 3: Friday, `r advdate(first_day, assignments[3], weekday_due="f")`: Critique of a personality-related YouTube video.
+- Assignment 3: Friday, `r advdate(first_day, assignments_week[3], weekday_due="f")`: Critique of a personality-related YouTube video.
 
 ### Engagement Activities   {-}
 
@@ -138,7 +132,7 @@ classschedule %>%
   DT::datatable(rownames = FALSE,
                 class = 'cell-border stripe',
                 #filter = list(position = 'top'),
-                options = list(pageLength = nrow(classschedule$module), 
+                options = list(pageLength = nrow(classschedule$module),
                                autoWidth = FALSE,
                                bInfo = FALSE,
                                paging = FALSE))

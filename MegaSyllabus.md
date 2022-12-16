@@ -1,7 +1,7 @@
 --- 
 title: "Prof. Mason's Syllabi"
 author: S. Mason Garrison
-date: "2022-11-20"
+date: "2022-12-16"
 knit: "bookdown::render_book"
 site: bookdown::bookdown_site
 url: 'https\://github.com/smasongarrison/syllabi'
@@ -23,10 +23,8 @@ logo: assets/logo.png
 
 
 
-<!--chapter:end:index.Rmd-->
 
 # (PART\*) Front Matter {-}
-
 # Welcome to my Syllabi! {-}
 
 
@@ -36,6 +34,12 @@ logo: assets/logo.png
 Welcome to all my syllabi! This website is designed to accompany all of Mason Garrison's courses at Wake Forest University. Over the semesters, I have found that my syllabi keep growing longer and longer as my career has progressed. 
 I know that no one likes reading 8 page syllabi. However, I want to make sure that all my students know what my expectations are. So in that spirit, I've created a website to contain all of my policies in one place. 
 That way, I can have a neat and tidy syllabi, while still making my expectations clear.
+
+<!--chapter:end:index.Rmd-->
+
+
+
+
 
 
 ## How to use these notes {-}
@@ -133,27 +137,23 @@ This version of the notes was built with:
 
 
 ```
-#> Finding R package dependencies ... Done!
-#>  setting  value
-#>  version  R version 4.2.2 (2022-10-31 ucrt)
-#>  os       Windows 10 x64 (build 22621)
-#>  system   x86_64, mingw32
-#>  ui       RTerm
-#>  language (EN)
-#>  collate  English_United States.utf8
-#>  ctype    English_United States.utf8
-#>  tz       America/New_York
-#>  date     2022-11-20
-#>  pandoc   2.19.2 @ C:/Program Files/RStudio/bin/quarto/bin/tools/ (via rmarkdown)
+## Error in renv::dependencies(path = "DESCRIPTION") %>% pull(Package): could not find function "%>%"
+```
+
+```
+## Error in "reticulate" %in% pkgs: object 'all_pkgs' not found
+```
+
+```
+## Error in eval(expr, envir, enclos): object 'session' not found
 ```
 
 Along with these packages:
 
 
 
-```{=html}
-<div id="htmlwidget-fa589f8f698dfa8657c6" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-fa589f8f698dfa8657c6">{"x":{"filter":"top","vertical":false,"filterHTML":"<tr>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n<\/tr>","data":[["askpass","assertthat","backports","base64enc","bigD","bit","bit64","bitops","blob","bookdown","brew","brio","broom","bslib","cachem","callr","cellranger","cli","clipr","colorspace","commonmark","conflicted","cpp11","crayon","credentials","crosstalk","curl","data.table","DBI","dbplyr","desc","devtools","dichromat","diffobj","digest","downlit","dplyr","DT","dtplyr","ellipsis","evaluate","fansi","farver","fastmap","fontawesome","forcats","fs","gapminder","gargle","gender","genderdata","generics","geonames","gert","ggplot2","gh","gitcreds","glue","googledrive","googlesheets4","gridExtra","gt","gtable","haven","highr","hms","htmltools","htmlwidgets","httpuv","httr","ids","ini","isoband","jquerylib","jsonlite","juicyjuice","knitr","labeling","later","lattice","lazyeval","lifecycle","lubridate","magrittr","MASS","Matrix","memoise","mgcv","mime","miniUI","modelr","munsell","nlme","openssl","pillar","pkgbuild","pkgconfig","pkgdown","pkgload","praise","prettyunits","processx","profvis","progress","promises","ps","purrr","R6","ragg","rappdirs","rcmdcheck","RColorBrewer","Rcpp","readr","readxl","rebird","rematch","rematch2","remotes","reprex","rlang","rmarkdown","roxygen2","rplos","rprojroot","rstudioapi","rversions","rvest","sass","scales","selectr","sessioninfo","shiny","sourcetools","stringi","stringr","sys","systemfonts","testthat","textshaping","tibble","tidyr","tidyselect","tidyverse","timechange","tinytex","tzdb","urlchecker","usethis","utf8","uuid","V8","vctrs","viridis","viridisLite","vroom","waldo","whisker","withr","xfun","xml2","xopen","xtable","yaml","zip"],[null,"0.2.1","1.4.1",null,null,null,null,null,null,"0.30",null,null,"1.0.1","0.4.1","1.0.6","3.7.3","1.1.0","3.4.1",null,"2.0-3",null,null,null,"1.5.2",null,null,null,null,"1.1.3","2.2.1",null,"2.4.5",null,null,"0.6.30",null,"1.0.10","0.26",null,"0.3.2","0.18","1.0.3",null,"1.1.0",null,"0.5.2","1.5.2",null,"1.2.1",null,null,"0.1.3",null,null,"3.4.0",null,null,"1.6.2","2.0.0","1.0.1",null,null,"0.3.1","2.5.1",null,"1.1.2","0.5.3","1.5.4","1.6.6","1.4.4",null,null,null,"0.1.4","1.8.3",null,"1.41",null,"1.3.0",null,null,"1.0.3","1.9.0","2.0.3",null,null,"2.0.1",null,"0.12","0.1.1.1","0.1.10","0.5.0",null,null,"1.8.1","1.3.1","2.0.3",null,"1.3.2",null,"1.1.1","3.8.0","0.3.7",null,"1.2.0.1","1.7.2","0.3.5","2.5.1",null,null,null,null,"1.0.9","2.1.3","1.4.1",null,null,null,"2.4.2","2.0.2","1.0.6","2.18",null,null,null,"0.14",null,"1.0.3","0.4.3","1.2.1",null,"1.2.2","1.7.3",null,"1.7.8","1.4.1",null,null,null,null,"3.1.8","1.2.1","1.2.0","1.3.2","0.1.1",null,"0.3.0","1.0.1","2.1.6","1.2.2",null,null,"0.5.1",null,null,null,null,null,"2.5.0","0.35","1.3.3",null,"1.8-4","2.3.6",null],["2019-01-13","2019-03-21","2021-12-13","2015-07-28","2022-09-05","2022-11-15","2020-08-30","2021-04-24","2022-04-10","2022-11-09","2022-09-29","2021-11-30","2022-08-29","2022-11-02","2021-08-19","2022-11-02","2016-07-27","2022-09-23","2022-02-22","2022-02-21","2022-10-14","2021-11-26","2022-10-12","2022-09-29","2021-11-29","2021-11-04","2022-10-06","2022-11-16","2022-06-18","2022-06-27","2022-09-08","2022-10-11",null,"2021-10-05","2022-10-18","2022-07-05","2022-09-01","2022-10-19","2022-08-20","2021-04-29","2022-11-07","2022-03-24","2022-07-06","2021-01-25","2022-10-25","2022-08-19","2021-12-08","2017-10-31","2022-09-08",null,null,"2022-07-05",null,"2022-10-05","2022-11-04","2022-09-08","2022-09-08","2022-02-24","2021-07-08","2022-08-13","2017-09-09","2022-11-16","2022-09-01","2022-08-22","2021-04-16","2022-08-19","2022-07-18","2021-09-08","2022-09-08","2022-08-17","2017-05-31","2018-05-20","2022-10-06","2021-04-26","2022-10-21","2022-11-10","2022-11-18","2020-10-20","2021-08-18","2021-09-22","2019-03-15","2022-10-07","2022-11-06","2022-03-30","2022-08-03","2022-09-13","2021-11-26","2022-10-21","2021-09-28","2018-05-18","2022-11-11","2018-06-12","2022-10-10","2022-10-17","2022-08-19","2021-12-20","2019-09-22","2022-07-16","2022-11-16","2015-08-11","2020-01-24","2022-10-26","2020-11-02","2019-05-16","2021-02-11","2022-10-26","2022-10-06","2021-08-19","2022-10-24","2021-01-31","2021-09-27","2022-04-03","2022-07-08","2022-10-01","2022-08-17",null,"2016-04-21","2020-05-01","2021-11-30","2022-08-17","2022-09-24","2022-11-09","2022-11-11",null,"2022-04-02","2022-08-22","2022-08-31","2022-08-19","2022-11-19","2022-08-20","2019-11-20","2021-12-06","2022-10-25","2018-04-25","2022-07-11","2022-08-20","2022-10-18","2022-02-11","2022-10-08","2021-10-13","2022-07-22","2022-09-08","2022-10-10","2022-07-18","2022-11-04","2022-09-27","2022-03-28","2021-11-30","2022-05-25","2021-07-24","2022-04-19","2022-11-03","2022-11-16","2021-10-13","2022-08-22","2022-09-30","2022-03-16","2019-08-28","2022-03-03","2022-11-16","2021-11-30","2018-09-17","2019-04-21","2022-10-18","2022-10-26"],["CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.0)","CRAN (R 4.2.0)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.0)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)",null,"CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)",null,null,"CRAN (R 4.2.2)",null,"CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.0)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.0)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.0)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)",null,"CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)",null,"CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.1)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.0)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.1)","CRAN (R 4.2.2)"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>package<\/th>\n      <th>loadedversion<\/th>\n      <th>date<\/th>\n      <th>source<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":165,"autoWidth":true,"bInfo":false,"paging":false,"columnDefs":[],"order":[],"orderClasses":false,"orderCellsTop":true,"lengthMenu":[10,25,50,100,165]}},"evals":[],"jsHooks":[]}</script>
+```
+## Error in session$packages %>% select(package, loadedversion, date, source) %>% : could not find function "%>%"
 ```
 
 The R session information when compiling this book is shown below:
@@ -163,31 +163,28 @@ The R session information when compiling this book is shown below:
 
 ```r
 sessionInfo()
-#> R version 4.2.2 (2022-10-31 ucrt)
-#> Platform: x86_64-w64-mingw32/x64 (64-bit)
-#> Running under: Windows 10 x64 (build 22621)
-#> 
-#> Matrix products: default
-#> 
-#> locale:
-#> [1] LC_COLLATE=English_United States.utf8 
-#> [2] LC_CTYPE=English_United States.utf8   
-#> [3] LC_MONETARY=English_United States.utf8
-#> [4] LC_NUMERIC=C                          
-#> [5] LC_TIME=English_United States.utf8    
-#> 
-#> attached base packages:
-#> [1] stats     graphics  grDevices utils     datasets  methods   base     
-#> 
-#> other attached packages:
-#>  [1] DT_0.26         devtools_2.4.5  usethis_2.1.6   forcats_0.5.2  
-#>  [5] stringr_1.4.1   dplyr_1.0.10    purrr_0.3.5     readr_2.1.3    
-#>  [9] tidyr_1.2.1     tibble_3.1.8    ggplot2_3.4.0   tidyverse_1.3.2
-#> [13] webshot_0.5.4   knitr_1.41      vembedr_0.1.5   tweetrmd_0.0.9 
-#> 
-#> loaded via a namespace (and not attached):
-#> [1] tools_4.2.2     bookdown_0.30   rmarkdown_2.18  htmltools_0.5.3
-#> [5] shiny_1.7.3     miniUI_0.1.1.1
+```
+
+```
+## R version 4.2.2 (2022-10-31 ucrt)
+## Platform: x86_64-w64-mingw32/x64 (64-bit)
+## Running under: Windows 10 x64 (build 22623)
+## 
+## Matrix products: default
+## 
+## locale:
+## [1] LC_COLLATE=English_United States.utf8 
+## [2] LC_CTYPE=English_United States.utf8   
+## [3] LC_MONETARY=English_United States.utf8
+## [4] LC_NUMERIC=C                          
+## [5] LC_TIME=English_United States.utf8    
+## 
+## attached base packages:
+## [1] stats     graphics  grDevices utils     datasets  methods   base     
+## 
+## loaded via a namespace (and not attached):
+## [1] tools_4.2.2     shiny_1.7.4     knitr_1.41      rmarkdown_2.19 
+## [5] bookdown_0.31   htmltools_0.5.4 miniUI_0.1.1.1
 ```
 
 
@@ -573,7 +570,7 @@ Here's the deal. I'm *definitely* at increased risk of developing complications 
 
 Regardless of any changes to university policy or mask mandates, we will be masked for the entire semester. You will put your mask on *before* you enter my class. Your mask will cover your nose and mouth. I will stop class if I see your nose. 
 If you feel sick or are exposed, please don't come to class. I will happily meet with you (remotely) to fill you in. 
-- If you struggle with securing your mask, I am very happy to show you how to properly secure your mask^[https://www.youtube.com/watch?v=GzTAZDsNBe0]. 
+- If you struggle with securing your mask, I am very happy to show you how to properly secure your mask^[https://www.youtube.com/watch?v=GzTAZDsNBe0]. The CDC provides plain language guidance that you may find helpful.^[https://www.cdc.gov/coronavirus/2019-ncov/easy-to-read/diy-cloth-face-coverings.html]
 - If your struggle with masks is due to your own disability, I am happy to connect you with student disability services. We can go through the interactive process with CLASS and your health care provider. Through that interactive process we can determine if your disability can be accommodated without fundamentally altering the course. These alternative accommodations could include providing you with differ styles of masks, or additional training on how to properly secure your mask.
 
 However, if you refuse to wear a mask, you need to leave. If you refuse to leave, I will leave. And if I leave, there is no class.
@@ -667,7 +664,7 @@ This class provides a survey of theory and research on the structure and functio
 ### Broad goals for the course:   {-}
 - 1. The first is for you to understand what personality psychologists think. We will cover classic and current theories, research, and applications of Personality psychology.
 - 2. The second is for you to learn how personality psychologists study their field scientifically. We will discuss the procedures used to test theories and to study issues related to personality.
-- 3. The third is to (hopefully) recognize some relevance of personality psychology for your personal and/or professional life.
+- 3. The third is to (hopefully) recognize some relevance of personality psychology for your personal and professional life.
 
 
 ## Required Materials   {-}
@@ -768,8 +765,8 @@ Trust me, you do not want me to curve by assignment.
 
 
 ```{=html}
-<div id="htmlwidget-ae52ea7f56f97feacaa2" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-ae52ea7f56f97feacaa2">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],["08/22","08/29","09/05","09/12","09/19","09/26","10/03","10/10","10/17","10/24","10/31","11/07","11/14","11/21","11/28","12/05"],["What is Personality","Personality Research Methods","Assessment, Evaluation, and Ethics","Trait Approach and Personality Judgment","Big Five","Personality over the Lifespan","Biological Approaches to Psychology","Behavior Genetics","Evolutionary Psychology","Cross-Cultural Psychology","Freud","Psychoanalysis After Freud","Personality Processes and Positive Psych","Thanksgiving Break!","Personality and Health",null],["Week 01, 08/22 - 08/26","Week 02, 08/29 - 09/02","Week 03, 09/05 - 09/09","Week 04, 09/12 - 09/16","Week 05, 09/19 - 09/23","Week 06, 09/26 - 09/30","Week 07, 10/03 - 10/07","Week 08, 10/10 - 10/14","Week 09, 10/17 - 10/21","Week 10, 10/24 - 10/28","Week 11, 10/31 - 11/04","Week 12, 11/07 - 11/11","Week 13, 11/14 - 11/18","Week 14, 11/21 - 11/25","Week 15, 11/28 - 12/02","Week 16, 12/05 - 12/09"],[null,null,"Quiz",null,null,"Quiz","Assignment",null,null,"Quiz",null,"Assignment","Quiz",null,"Quiz","Assignment"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n      <th>milestones<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0}],"order":[],"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+<div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-a06f2d431b1e9e93e0fb" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-a06f2d431b1e9e93e0fb">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],["08/22","08/29","09/05","09/12","09/19","09/26","10/03","10/10","10/17","10/24","10/31","11/07","11/14","11/21","11/28","12/05"],["What is Personality","Personality Research Methods","Assessment, Evaluation, and Ethics","Trait Approach and Personality Judgment","Big Five","Personality over the Lifespan","Biological Approaches to Psychology","Behavior Genetics","Evolutionary Psychology","Cross-Cultural Psychology","Freud","Psychoanalysis After Freud","Personality Processes and Positive Psych","Thanksgiving Break!","Personality and Health",null],["Week 01, 08/22 - 08/26","Week 02, 08/29 - 09/02","Week 03, 09/05 - 09/09","Week 04, 09/12 - 09/16","Week 05, 09/19 - 09/23","Week 06, 09/26 - 09/30","Week 07, 10/03 - 10/07","Week 08, 10/10 - 10/14","Week 09, 10/17 - 10/21","Week 10, 10/24 - 10/28","Week 11, 10/31 - 11/04","Week 12, 11/07 - 11/11","Week 13, 11/14 - 11/18","Week 14, 11/21 - 11/25","Week 15, 11/28 - 12/02","Week 16, 12/05 - 12/09"],[null,null,"Quiz",null,null,"Quiz","Assignment",null,null,"Quiz",null,"Assignment","Quiz",null,"Quiz","Quiz and Assignment"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n      <th>milestones<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0}],"order":[],"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
 ```
 
 
@@ -883,8 +880,8 @@ There will be multiple engagement activities in this course. These activities wi
 
 
 ```{=html}
-<div id="htmlwidget-fb9c563aa541b3d17ef3" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-fb9c563aa541b3d17ef3">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17],["01/10","01/17","01/24","01/31","02/07","02/14","02/21","02/28","03/07","03/14","03/21","03/28","04/04","04/11","04/18","04/25","05/02"],["Introduction","Statistical Foundations","Describing Data with R","Univariate Distributions","Bivariate Distributions","Probability Theory","Binomials and other sampling distributions","Hypothesis Testing","Spring Break","T-Tests","Regression","Causal Inference","ANOVA","Applications in R","Applications in R","Review","NA"],["Week 01, 01/10 - 01/14","Week 02, 01/17 - 01/21","Week 03, 01/24 - 01/28","Week 04, 01/31 - 02/04","Week 05, 02/07 - 02/11","Week 06, 02/14 - 02/18","Week 07, 02/21 - 02/25","Week 08, 02/28 - 03/04","Week 09, 03/07 - 03/11","Week 10, 03/14 - 03/18","Week 11, 03/21 - 03/25","Week 12, 03/28 - 04/01","Week 13, 04/04 - 04/08","Week 14, 04/11 - 04/15","Week 15, 04/18 - 04/22","Week 16, 04/25 - 04/29","Week 17, 05/02 - 05/06"],[null,null,null,null,null,"Exam",null,null,"Assignment",null,null,null,"Exam",null,null,"Assignment","Exam"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n      <th>milestones<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0}],"order":[],"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+<div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-20bb8957761f6418b098" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-20bb8957761f6418b098">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17],["01/10","01/17","01/24","01/31","02/07","02/14","02/21","02/28","03/07","03/14","03/21","03/28","04/04","04/11","04/18","04/25","05/02"],["Introduction","Statistical Foundations","Describing Data with R","Univariate Distributions","Bivariate Distributions","Probability Theory","Binomials and other sampling distributions","Hypothesis Testing","Spring Break","T-Tests","Regression","Causal Inference","ANOVA","Applications in R","Applications in R","Review","NA"],["Week 01, 01/10 - 01/14","Week 02, 01/17 - 01/21","Week 03, 01/24 - 01/28","Week 04, 01/31 - 02/04","Week 05, 02/07 - 02/11","Week 06, 02/14 - 02/18","Week 07, 02/21 - 02/25","Week 08, 02/28 - 03/04","Week 09, 03/07 - 03/11","Week 10, 03/14 - 03/18","Week 11, 03/21 - 03/25","Week 12, 03/28 - 04/01","Week 13, 04/04 - 04/08","Week 14, 04/11 - 04/15","Week 15, 04/18 - 04/22","Week 16, 04/25 - 04/29","Week 17, 05/02 - 05/06"],[null,null,null,null,null,"Exam",null,null,"Assignment",null,null,null,"Exam",null,null,"Assignment","Exam"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n      <th>milestones<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0}],"order":[],"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
 ```
 
 
@@ -1126,8 +1123,8 @@ There will be multiple engagement activities in this course. These activities wi
 
 
 ```{=html}
-<div id="htmlwidget-7f28f71a4fa627724984" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-7f28f71a4fa627724984">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15],["01/25","02/01","02/08","02/15","02/22","03/01","03/08","03/15","03/22","03/29","04/05","04/12","04/19","04/26","05/03"],["Foundations and Nature of Testing","History of Testing","Ethical and Social Considerations in Testing","Norms and the Meaning of Test Scores","Classical Test Theory","Reliability","Catch Up Week","Validity","Item Analysis","Factor Analysis","Item Response Theory","Practical Testing Things","Ability Testing","Personality Testing","Review"],["Week 01, 01/25 - 01/29","Week 02, 02/01 - 02/05","Week 03, 02/08 - 02/12","Week 04, 02/15 - 02/19","Week 05, 02/22 - 02/26","Week 06, 03/01 - 03/05","Week 07, 03/08 - 03/12","Week 08, 03/15 - 03/19","Week 09, 03/22 - 03/26","Week 10, 03/29 - 04/02","Week 11, 04/05 - 04/09","Week 12, 04/12 - 04/16","Week 13, 04/19 - 04/23","Week 14, 04/26 - 04/30","Week 15, 05/03 - 05/07"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0}],"order":[],"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+<div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-a4ca6b920d089da78c61" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-a4ca6b920d089da78c61">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15],["01/25","02/01","02/08","02/15","02/22","03/01","03/08","03/15","03/22","03/29","04/05","04/12","04/19","04/26","05/03"],["Foundations and Nature of Testing","History of Testing","Ethical and Social Considerations in Testing","Norms and the Meaning of Test Scores","Classical Test Theory","Reliability","Catch Up Week","Validity","Item Analysis","Factor Analysis","Item Response Theory","Practical Testing Things","Ability Testing","Personality Testing","Review"],["Week 01, 01/25 - 01/29","Week 02, 02/01 - 02/05","Week 03, 02/08 - 02/12","Week 04, 02/15 - 02/19","Week 05, 02/22 - 02/26","Week 06, 03/01 - 03/05","Week 07, 03/08 - 03/12","Week 08, 03/15 - 03/19","Week 09, 03/22 - 03/26","Week 10, 03/29 - 04/02","Week 11, 04/05 - 04/09","Week 12, 04/12 - 04/16","Week 13, 04/19 - 04/23","Week 14, 04/26 - 04/30","Week 15, 05/03 - 05/07"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0}],"order":[],"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
 ```
 
 
@@ -1141,7 +1138,7 @@ There will be multiple engagement activities in this course. These activities wi
 
 ## Course Description {-}
 
-Data Science for Psychologists (DSP) introduces on the principles of data science, including data wrangling, modeling, visualization, and communication. In this class, we link those principles to psychological methods and open science practices by emphasizing exploratory analyses and description, rather than confirmatory analyses and prediction. We'll work our way thru Wickham and Grolemund's R for Data Science text (http://r4ds.had.co.nz/) and develop expertise in tidyverse (https://www.tidyverse.org/). This class emphasizes replication and reproducibility. DSP is a practical skilled-based class and should be useful to students aiming for academia as well as those interested in industry. Applications of these methods can be applied to a full range of psychological areas, including perception (e.g, eye-tracking data), neuroscience (e.g., visualizing neural networks), and individual differences (e.g., valence analysis).
+Data Science for Psychologists (DS4P) introduces on the principles of data science, including data wrangling, modeling, visualization, and communication. In this class, we link those principles to psychological methods and open science practices by emphasizing exploratory analyses and description, rather than confirmatory analyses and prediction. We'll work our way thru Wickham and Grolemund's R for Data Science text (http://r4ds.had.co.nz/) and develop expertise in tidyverse (https://www.tidyverse.org/). This class emphasizes replication and reproducibility. DSP is a practical skilled-based class and should be useful to students aiming for academia as well as those interested in industry. Applications of these methods can be applied to a full range of psychological areas, including perception (e.g, eye-tracking data), neuroscience (e.g., visualizing neural networks), and individual differences (e.g., valence analysis).
 
 
 ### Broad goals for the course:  {-}
@@ -1158,6 +1155,10 @@ All materials for this course are open source, including the multimedia course n
 - Garrison's Data Science for Psychologists (https://datascience4psych.github.io/DataScience4Psych/)
 - Wickham and Grolemund's R for Data Science text (http://r4ds.had.co.nz/)
 
+
+## Course Modality {-}
+
+This course is designated as a blended course. This designation is because this course's modality changes based on the level of COVID-19 transmission in the community. When COVID-19 community transmission is low or medium, this class will be in-person. However, if COVID-19 transmission is high in the community, this course may be moved entirely online in order to protect the health and safety of students and instructor. In the case that we move online, the in-person sessions will become synchronous online sessions. Any changes will be clearly and promptly communicated via email.
 
 
 
@@ -1178,7 +1179,7 @@ There is (at least) one lab available per module. You can find the modules in th
 
 ### Portfolio  {-}
 
-The major semester projects (described on the data science website) is a set of EDA Projects, which you will summarize in an EDA Portfolio to be handed in on the last day of class. Instructions for the portfolio can be found in the [course notes](https://datascience4psych.github.io/DataScience4Psych/).
+The major semester projects (described on the data science website) is a set of DS4P Projects, which you will summarize in a DS4P Portfolio to be handed in on the last day of class. Instructions for the portfolio can be found in the [course notes](https://datascience4psych.github.io/DataScience4Psych/).
 
 
 
@@ -1191,7 +1192,7 @@ This experiential course requires active engagement. There will be few lectures 
 ## Grading Policy  {-}
 
 
-In this course, you will determine the grade you receive by fulfilling a contract you will submit for my approval on 01/21.
+In this course, you will determine the grade you receive by fulfilling a contract you will submit for my approval on 01/20.
 
 Your written contract will detail:
 
@@ -1209,7 +1210,7 @@ To fulfill any grade contract a student must do the following, which should none
 
 - Come to class prepared to discuss any assigned readings, videos, or other media. Participate actively in class activities and discussions, making observations and asking questions that help the class think together.
 
-- Meet with me synchronously —during office hours or another scheduled time—at least once around midterm—roughly between weeks 5-8 to ensure you are on-track to meet your contract requirements, discuss any questions or concerns you have about the course or your progress, and decide on any necessary contract amendments.
+- Meet with me synchronously — during office hours or another scheduled time — at least once around midterm—roughly between weeks 5-8 to ensure you are on-track to meet your contract requirements, discuss any questions or concerns you have about the course or your progress, and decide on any necessary contract amendments.
 
 - Revise contractual assignments as necessary until both you and I consider them "Satisfactory."
 
@@ -1240,8 +1241,7 @@ To contract for an "A" in this course, you agree to:
 
 - Produce at least 10 "Satisfactory" portfolio pieces over the course of the semester.
 
-- Complete two "Satisfactory" Unessays on a schedule you will specify in your contract and present the strongest as an asynchronous presentation.
-
+- Compile those portfolio pieces into a "Satisfactory" Unessay and present it during the last week of class
 
 ### "B" Contract  {-}
 
@@ -1251,7 +1251,7 @@ To contract for a "B" in this course, you agree to:
 
 - Produce at least 6 "Satisfactory" portfolio pieces over the course of the semester.
 
-- Complete one "Satisfactory" Unessay on a schedule you will specify in your contract and present it during the last week of class
+- Compile those portfolio pieces into a "Satisfactory" Unessay and present it during the last week of class
 
 
 ### "P" Contract  {-}
@@ -1262,7 +1262,7 @@ To contract for a "P" or Pass in this course, you agree to:
 
 - Produce at least 4 "Satisfactory" portfolio pieces over the course of the semester.
 
-- Complete one "Satisfactory" Unessay on a schedule you will specify in your contract and present it during the last week of class
+- Compile those portfolio pieces into a "Satisfactory" Unessay and present it during the last week of class
 
 
 
@@ -1274,8 +1274,8 @@ Note that I'll be using your contracts to guide my tinkering.
 
 
 ```{=html}
-<div id="htmlwidget-b9dc3ae0052863ac7759" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-b9dc3ae0052863ac7759">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15],["01/10","01/17","01/24","01/31","02/07","02/14","02/21","02/28","03/07","03/14","03/21","03/28","04/04","04/11","04/18"],["What is Data Science and Meet the Toolkit","Data and Visualization","Welcome to the Tidyverse","Data types and Data Transformations","Effective data visualization","Scientific Communication and confounding","Functions and Automation","Webscraping","Spring Break","Ethics","Tidy Models","Overfitting and Cross validation","Quantifying uncertainty","Rshiny","Machine Learning"],["Week 01, 01/10 - 01/14","Week 02, 01/17 - 01/21","Week 03, 01/24 - 01/28","Week 04, 01/31 - 02/04","Week 05, 02/07 - 02/11","Week 06, 02/14 - 02/18","Week 07, 02/21 - 02/25","Week 08, 02/28 - 03/04","Week 09, 03/07 - 03/11","Week 10, 03/14 - 03/18","Week 11, 03/21 - 03/25","Week 12, 03/28 - 04/01","Week 13, 04/04 - 04/08","Week 14, 04/11 - 04/15","Week 15, 04/18 - 04/22"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0}],"order":[],"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+<div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-95f6f62db5cd9ebc6f8d" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-95f6f62db5cd9ebc6f8d">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],["01/09","01/16","01/23","01/30","02/06","02/13","02/20","02/27","03/06","03/13","03/20","03/27","04/03","04/10","04/17","04/24"],["What is Data Science and Meet the Toolkit","Data and Visualization","Welcome to the Tidyverse","Data types and Data Transformations","Effective data visualization","Scientific Communication and confounding","Functions and Automation","Webscraping","Spring Break","Ethics","Tidy Models","Overfitting and Cross validation","Quantifying uncertainty","Rshiny","Machine Learning","Presentations"],["Week 01, 01/09 - 01/13","Week 02, 01/16 - 01/20","Week 03, 01/23 - 01/27","Week 04, 01/30 - 02/03","Week 05, 02/06 - 02/10","Week 06, 02/13 - 02/17","Week 07, 02/20 - 02/24","Week 08, 02/27 - 03/03","Week 09, 03/06 - 03/10","Week 10, 03/13 - 03/17","Week 11, 03/20 - 03/24","Week 12, 03/27 - 03/31","Week 13, 04/03 - 04/07","Week 14, 04/10 - 04/14","Week 15, 04/17 - 04/21","Week 16, 04/24 - 04/28"],[null,"Contract",null,null,null,null,null,null,null,null,null,null,null,null,null,"Presentation"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n      <th>milestones<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0}],"order":[],"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
 ```
 
 
@@ -1296,9 +1296,9 @@ Below you'll find answers to the questions that I get asked the most by students
 I don't want to discourage you from asking questions. However, asking me is not an efficient method for finding facts and searchable information...
 
 
-```{=html}
-<blockquote class="twitter-tweet" data-width="550" data-lang="en" data-dnt="true" data-theme="light"><p lang="en" dir="ltr">Considering launching the following autoreply:<br>Frequently Asked Questions<br>Q: &quot;Can you -&quot;<br>A: I cannot.</p>&mdash; Alison Ledgerwood (@AlisonLedg) <a href="https://twitter.com/AlisonLedg/status/1441181845706579969?ref_src=twsrc%5Etfw">September 23, 2021</a></blockquote>
-
+```
+#> Error in tweet_blockquote(tweet_url = tweet_url, maxwidth = maxwidth,  : 
+#>   Forbidden (HTTP 403).
 ```
 
 ## How can I get ahold of you?
