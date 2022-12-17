@@ -3,12 +3,12 @@
 
 
 
-## How to use these notes {-}
+## How to use this syllabus {-}
 
 
-This website is dynamic. If you catch typos, errors, please issue a pull request with the fixes. 
+This syllabus website is dynamic. If you catch typos, errors, please issue a pull request with the fixes. Unless otherwise indicidated, all the policies apply to all of my courses.
 
-This document is broken down into multiple chapters. Use the table of contents on the left side of the screen to navigate, and use the hamburger icon (horizontal bars) at the top of the document to open or close the table of contents. At the top of the document, you'll see additional icons which you can click to search the document, change the size, font or color scheme of the page. The document will be updated (unpredictably) throughout the semester; however, students aren't bound to policies added once they've signed their syllabus. Instead, they are bound to the version of this "book" that was in place when they signed their syllabus. <!--I have archived versions of this book [here](https://github.com/smasongarrison/syllabi/blob/main/docs/megasyllabus.pdf). -->
+This syllabus is broken down into multiple chapters. Use the table of contents on the left side of the screen to navigate, and use the hamburger icon (horizontal bars) at the top of the document to open or close the table of contents. At the top of the document, you'll see additional icons which you can click to search the document, change the size, font or color scheme of the page. The syllabus will be updated (unpredictably) throughout the semester; however, students aren't bound to policies added once they've signed their syllabus. Instead, they are bound to the version of this "book" that was in place when they signed their syllabus. <!--I have archived versions of this book [here](https://github.com/smasongarrison/syllabi/blob/main/docs/megasyllabus.pdf). -->
 
 
 
@@ -30,9 +30,9 @@ This mega syllabus leans on other peoples' materials and ideas. I have done my b
 
 **Select lecture notes from:**
 
-* Jenny Bryan’s ([jennybryan.org](https://jennybryan.org/)) [STAT 545](https://stat545.com/)
-* [David Funder’s Personality Puzzle](https://wwnorton.com/books/The-Personality-Puzzle/)
-* Anthony Albano's [Course Notes on “Introduction to Educational and Psychological Measurement”](https://www.thetaminusb.com/intro-measurement-r/)
+* Jenny Bryan's ([jennybryan.org](https://jennybryan.org/)) [STAT 545](https://stat545.com/)
+* [David Funder's Personality Puzzle](https://wwnorton.com/books/The-Personality-Puzzle/)
+* Anthony Albano's [Course Notes on "Introduction to Educational and Psychological Measurement"](https://www.thetaminusb.com/intro-measurement-r/)
 * R. Biswas-Diener & E. Diener (Eds), Noba textbook series: Psychology. Champaign, IL: DEF publishers. Retrieved from [noba](https://nobaproject.com/)
 
 # License {-#license}
@@ -89,11 +89,11 @@ material.
 
 # Colophon {-}
 
-These notes was written in [bookdown](http://bookdown.org/) inside [RStudio](http://www.rstudio.com/ide/). The [website][web] is hosted with [github](https://www.github.com), The complete source is available from [github][git].
+This syllabus was written in [bookdown](http://bookdown.org/) inside [RStudio](http://www.rstudio.com/ide/). The [website][web] is hosted with [github](https://www.github.com), The complete source is available from [github][git].
 
 The book style adapted from [Desirée De Leon](https://desiree.rbind.io/).
 
-This version of the notes was built with:
+This version of the syllabus was built with:
 
 
 

@@ -31,12 +31,11 @@ Although university policy states that we can request masks instead of requiring
 <blockquote class="twitter-tweet" data-width="550" data-lang="en" data-dnt="true" data-theme="light"><p lang="en" dir="ltr">Just posting this infographic on masking for all people who say &quot;one way masking is sufficient, I shouldn&#39;t have to protect you.&quot; The data overwhelming proves that one-way masking is insufficient. <a href="https://t.co/RHvyp3ZxFc">pic.twitter.com/RHvyp3ZxFc</a></p>&mdash; Nicole Lee Schroeder, PhD (@Nicole_Lee_Sch) <a href="https://twitter.com/Nicole_Lee_Sch/status/1491793104348712965?ref_src=twsrc%5Etfw">February 10, 2022</a></blockquote>
 
 ```
-
 -->
 
-## WFU-Required Statement
+## WFU Statement
 
-As once required by Wake Forest University, I have included the following information related to public health. It is reproduced verbatim. Dead links and all. 
+As once required by Wake Forest University, I have included the following information related to public health. It is reproduced verbatim. 
 
 > We share responsibility for the health and safety of each other in a learning space. Maintaining a consistent six feet of distance; wearing face coverings that cover our mouths and noses; limiting our gathering sizes; and isolating or quarantining when ill or exposed to someone with the virus are Wake Forest University directives and policies we all must follow. Students are encouraged to visit [Our Way Forward](https://ourwayforward.wfu.edu/) to stay informed about the latest guidance and review the [Public Health Emergency Addendum to the Student Code of Conduct](https://studentconduct.wfu.edu/undergraduate-student-handbook/public-health-emergency-addendum/).  
 >
@@ -58,4 +57,4 @@ As once required by Wake Forest University, I have included the following inform
 >
 > .
 
--->
+

@@ -37,10 +37,11 @@ recording-tails-in-our-synchronous-classes.
 access-to-recordings.
 copyright-notice.
 public-health-in-the-age-of-covid-19
-wfu-required-statement
+wfu-statement
 frequently-asked-questions
 how-can-i-get-ahold-of-you
 general-course-questions
+does-it-hurt-to-ask
 where
 where-can-i-find-the-reading-list-for-the-entire-semester
 where-can-i-find-when-assignments-are-due

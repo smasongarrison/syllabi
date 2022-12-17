@@ -1,7 +1,7 @@
 --- 
 title: "Prof. Mason's Syllabi"
 author: S. Mason Garrison
-date: "2022-12-16"
+date: "2022-12-17"
 knit: "bookdown::render_book"
 site: bookdown::bookdown_site
 url: 'https\://github.com/smasongarrison/syllabi'
@@ -42,12 +42,12 @@ That way, I can have a neat and tidy syllabi, while still making my expectations
 
 
 
-## How to use these notes {-}
+## How to use this syllabus {-}
 
 
-This website is dynamic. If you catch typos, errors, please issue a pull request with the fixes. 
+This syllabus website is dynamic. If you catch typos, errors, please issue a pull request with the fixes. Unless otherwise indicidated, all the policies apply to all of my courses.
 
-This document is broken down into multiple chapters. Use the table of contents on the left side of the screen to navigate, and use the hamburger icon (horizontal bars) at the top of the document to open or close the table of contents. At the top of the document, you'll see additional icons which you can click to search the document, change the size, font or color scheme of the page. The document will be updated (unpredictably) throughout the semester; however, students aren't bound to policies added once they've signed their syllabus. Instead, they are bound to the version of this "book" that was in place when they signed their syllabus. <!--I have archived versions of this book [here](https://github.com/smasongarrison/syllabi/blob/main/docs/megasyllabus.pdf). -->
+This syllabus is broken down into multiple chapters. Use the table of contents on the left side of the screen to navigate, and use the hamburger icon (horizontal bars) at the top of the document to open or close the table of contents. At the top of the document, you'll see additional icons which you can click to search the document, change the size, font or color scheme of the page. The syllabus will be updated (unpredictably) throughout the semester; however, students aren't bound to policies added once they've signed their syllabus. Instead, they are bound to the version of this "book" that was in place when they signed their syllabus. <!--I have archived versions of this book [here](https://github.com/smasongarrison/syllabi/blob/main/docs/megasyllabus.pdf). -->
 
 
 
@@ -69,9 +69,9 @@ This mega syllabus leans on other peoples' materials and ideas. I have done my b
 
 **Select lecture notes from:**
 
-* Jenny Bryan’s ([jennybryan.org](https://jennybryan.org/)) [STAT 545](https://stat545.com/)
-* [David Funder’s Personality Puzzle](https://wwnorton.com/books/The-Personality-Puzzle/)
-* Anthony Albano's [Course Notes on “Introduction to Educational and Psychological Measurement”](https://www.thetaminusb.com/intro-measurement-r/)
+* Jenny Bryan's ([jennybryan.org](https://jennybryan.org/)) [STAT 545](https://stat545.com/)
+* [David Funder's Personality Puzzle](https://wwnorton.com/books/The-Personality-Puzzle/)
+* Anthony Albano's [Course Notes on "Introduction to Educational and Psychological Measurement"](https://www.thetaminusb.com/intro-measurement-r/)
 * R. Biswas-Diener & E. Diener (Eds), Noba textbook series: Psychology. Champaign, IL: DEF publishers. Retrieved from [noba](https://nobaproject.com/)
 
 # License {-#license}
@@ -128,11 +128,11 @@ material.
 
 # Colophon {-}
 
-These notes was written in [bookdown](http://bookdown.org/) inside [RStudio](http://www.rstudio.com/ide/). The [website][web] is hosted with [github](https://www.github.com), The complete source is available from [github][git].
+This syllabus was written in [bookdown](http://bookdown.org/) inside [RStudio](http://www.rstudio.com/ide/). The [website][web] is hosted with [github](https://www.github.com), The complete source is available from [github][git].
 
 The book style adapted from [Desirée De Leon](https://desiree.rbind.io/).
 
-This version of the notes was built with:
+This version of the syllabus was built with:
 
 
 
@@ -595,12 +595,11 @@ Although university policy states that we can request masks instead of requiring
 <blockquote class="twitter-tweet" data-width="550" data-lang="en" data-dnt="true" data-theme="light"><p lang="en" dir="ltr">Just posting this infographic on masking for all people who say &quot;one way masking is sufficient, I shouldn&#39;t have to protect you.&quot; The data overwhelming proves that one-way masking is insufficient. <a href="https://t.co/RHvyp3ZxFc">pic.twitter.com/RHvyp3ZxFc</a></p>&mdash; Nicole Lee Schroeder, PhD (@Nicole_Lee_Sch) <a href="https://twitter.com/Nicole_Lee_Sch/status/1491793104348712965?ref_src=twsrc%5Etfw">February 10, 2022</a></blockquote>
 
 ```
-
 -->
 
-## WFU-Required Statement
+## WFU Statement
 
-As once required by Wake Forest University, I have included the following information related to public health. It is reproduced verbatim. Dead links and all. 
+As once required by Wake Forest University, I have included the following information related to public health. It is reproduced verbatim. 
 
 > We share responsibility for the health and safety of each other in a learning space. Maintaining a consistent six feet of distance; wearing face coverings that cover our mouths and noses; limiting our gathering sizes; and isolating or quarantining when ill or exposed to someone with the virus are Wake Forest University directives and policies we all must follow. Students are encouraged to visit [Our Way Forward](https://ourwayforward.wfu.edu/) to stay informed about the latest guidance and review the [Public Health Emergency Addendum to the Student Code of Conduct](https://studentconduct.wfu.edu/undergraduate-student-handbook/public-health-emergency-addendum/).  
 >
@@ -622,7 +621,7 @@ As once required by Wake Forest University, I have included the following inform
 >
 > .
 
--->
+
 
 <!--chapter:end:0106_covid.Rmd-->
 
@@ -768,8 +767,8 @@ Trust me, you do not want me to curve by assignment.
 
 
 ```{=html}
-<div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-718fd497cfd61042c3a5" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-718fd497cfd61042c3a5">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],["08/22","08/29","09/05","09/12","09/19","09/26","10/03","10/10","10/17","10/24","10/31","11/07","11/14","11/21","11/28","12/05"],["What is Personality","Personality Research Methods","Assessment, Evaluation, and Ethics","Trait Approach and Personality Judgment","Big Five","Personality over the Lifespan","Biological Approaches to Psychology","Behavior Genetics","Evolutionary Psychology","Cross-Cultural Psychology","Freud","Psychoanalysis After Freud","Personality Processes and Positive Psych","Thanksgiving Break!","Personality and Health",null],["Week 01, 08/22 - 08/26","Week 02, 08/29 - 09/02","Week 03, 09/05 - 09/09","Week 04, 09/12 - 09/16","Week 05, 09/19 - 09/23","Week 06, 09/26 - 09/30","Week 07, 10/03 - 10/07","Week 08, 10/10 - 10/14","Week 09, 10/17 - 10/21","Week 10, 10/24 - 10/28","Week 11, 10/31 - 11/04","Week 12, 11/07 - 11/11","Week 13, 11/14 - 11/18","Week 14, 11/21 - 11/25","Week 15, 11/28 - 12/02","Week 16, 12/05 - 12/09"],[null,null,"Quiz",null,null,"Quiz","Assignment",null,null,"Quiz",null,"Assignment","Quiz",null,"Quiz","Quiz and Assignment"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n      <th>milestones<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0}],"order":[],"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+<div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-c39277215c70a1061426" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-c39277215c70a1061426">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],["08/22","08/29","09/05","09/12","09/19","09/26","10/03","10/10","10/17","10/24","10/31","11/07","11/14","11/21","11/28","12/05"],["What is Personality","Personality Research Methods","Assessment, Evaluation, and Ethics","Trait Approach and Personality Judgment","Big Five","Personality over the Lifespan","Biological Approaches to Psychology","Behavior Genetics","Evolutionary Psychology","Cross-Cultural Psychology","Freud","Psychoanalysis After Freud","Personality Processes and Positive Psych","Thanksgiving Break!","Personality and Health",null],["Week 01, 08/22 - 08/26","Week 02, 08/29 - 09/02","Week 03, 09/05 - 09/09","Week 04, 09/12 - 09/16","Week 05, 09/19 - 09/23","Week 06, 09/26 - 09/30","Week 07, 10/03 - 10/07","Week 08, 10/10 - 10/14","Week 09, 10/17 - 10/21","Week 10, 10/24 - 10/28","Week 11, 10/31 - 11/04","Week 12, 11/07 - 11/11","Week 13, 11/14 - 11/18","Week 14, 11/21 - 11/25","Week 15, 11/28 - 12/02","Week 16, 12/05 - 12/09"],[null,null,"Quiz",null,null,"Quiz","Assignment",null,null,"Quiz",null,"Assignment","Quiz",null,"Quiz","Quiz and Assignment"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n      <th>milestones<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0}],"order":[],"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
 ```
 
 
@@ -883,8 +882,8 @@ There will be multiple engagement activities in this course. These activities wi
 
 
 ```{=html}
-<div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-0cbe7d39e76b89b78414" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-0cbe7d39e76b89b78414">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17],["01/10","01/17","01/24","01/31","02/07","02/14","02/21","02/28","03/07","03/14","03/21","03/28","04/04","04/11","04/18","04/25","05/02"],["Introduction","Statistical Foundations","Describing Data with R","Univariate Distributions","Bivariate Distributions","Probability Theory","Binomials and other sampling distributions","Hypothesis Testing","Spring Break","T-Tests","Regression","Causal Inference","ANOVA","Applications in R","Applications in R","Review","NA"],["Week 01, 01/10 - 01/14","Week 02, 01/17 - 01/21","Week 03, 01/24 - 01/28","Week 04, 01/31 - 02/04","Week 05, 02/07 - 02/11","Week 06, 02/14 - 02/18","Week 07, 02/21 - 02/25","Week 08, 02/28 - 03/04","Week 09, 03/07 - 03/11","Week 10, 03/14 - 03/18","Week 11, 03/21 - 03/25","Week 12, 03/28 - 04/01","Week 13, 04/04 - 04/08","Week 14, 04/11 - 04/15","Week 15, 04/18 - 04/22","Week 16, 04/25 - 04/29","Week 17, 05/02 - 05/06"],[null,null,null,null,null,"Exam",null,null,"Assignment",null,null,null,"Exam",null,null,"Assignment","Exam"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n      <th>milestones<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0}],"order":[],"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+<div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-1e05bda85f9c3585e19a" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-1e05bda85f9c3585e19a">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17],["01/10","01/17","01/24","01/31","02/07","02/14","02/21","02/28","03/07","03/14","03/21","03/28","04/04","04/11","04/18","04/25","05/02"],["Introduction","Statistical Foundations","Describing Data with R","Univariate Distributions","Bivariate Distributions","Probability Theory","Binomials and other sampling distributions","Hypothesis Testing","Spring Break","T-Tests","Regression","Causal Inference","ANOVA","Applications in R","Applications in R","Review","NA"],["Week 01, 01/10 - 01/14","Week 02, 01/17 - 01/21","Week 03, 01/24 - 01/28","Week 04, 01/31 - 02/04","Week 05, 02/07 - 02/11","Week 06, 02/14 - 02/18","Week 07, 02/21 - 02/25","Week 08, 02/28 - 03/04","Week 09, 03/07 - 03/11","Week 10, 03/14 - 03/18","Week 11, 03/21 - 03/25","Week 12, 03/28 - 04/01","Week 13, 04/04 - 04/08","Week 14, 04/11 - 04/15","Week 15, 04/18 - 04/22","Week 16, 04/25 - 04/29","Week 17, 05/02 - 05/06"],[null,null,null,null,null,"Exam",null,null,"Assignment",null,null,null,"Exam",null,null,"Assignment","Exam"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n      <th>milestones<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0}],"order":[],"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
 ```
 
 
@@ -1126,8 +1125,8 @@ There will be multiple engagement activities in this course. These activities wi
 
 
 ```{=html}
-<div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-069238eb928516b56377" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-069238eb928516b56377">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15],["01/25","02/01","02/08","02/15","02/22","03/01","03/08","03/15","03/22","03/29","04/05","04/12","04/19","04/26","05/03"],["Foundations and Nature of Testing","History of Testing","Ethical and Social Considerations in Testing","Norms and the Meaning of Test Scores","Classical Test Theory","Reliability","Catch Up Week","Validity","Item Analysis","Factor Analysis","Item Response Theory","Practical Testing Things","Ability Testing","Personality Testing","Review"],["Week 01, 01/25 - 01/29","Week 02, 02/01 - 02/05","Week 03, 02/08 - 02/12","Week 04, 02/15 - 02/19","Week 05, 02/22 - 02/26","Week 06, 03/01 - 03/05","Week 07, 03/08 - 03/12","Week 08, 03/15 - 03/19","Week 09, 03/22 - 03/26","Week 10, 03/29 - 04/02","Week 11, 04/05 - 04/09","Week 12, 04/12 - 04/16","Week 13, 04/19 - 04/23","Week 14, 04/26 - 04/30","Week 15, 05/03 - 05/07"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0}],"order":[],"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+<div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-17bb37fd6f8ba00ff854" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-17bb37fd6f8ba00ff854">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15],["01/25","02/01","02/08","02/15","02/22","03/01","03/08","03/15","03/22","03/29","04/05","04/12","04/19","04/26","05/03"],["Foundations and Nature of Testing","History of Testing","Ethical and Social Considerations in Testing","Norms and the Meaning of Test Scores","Classical Test Theory","Reliability","Catch Up Week","Validity","Item Analysis","Factor Analysis","Item Response Theory","Practical Testing Things","Ability Testing","Personality Testing","Review"],["Week 01, 01/25 - 01/29","Week 02, 02/01 - 02/05","Week 03, 02/08 - 02/12","Week 04, 02/15 - 02/19","Week 05, 02/22 - 02/26","Week 06, 03/01 - 03/05","Week 07, 03/08 - 03/12","Week 08, 03/15 - 03/19","Week 09, 03/22 - 03/26","Week 10, 03/29 - 04/02","Week 11, 04/05 - 04/09","Week 12, 04/12 - 04/16","Week 13, 04/19 - 04/23","Week 14, 04/26 - 04/30","Week 15, 05/03 - 05/07"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0}],"order":[],"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
 ```
 
 
@@ -1161,7 +1160,7 @@ All materials for this course are open source, including the multimedia course n
 
 ## Course Modality {-}
 
-This course is designated as a blended course. This designation is because this course's modality changes based on the level of COVID-19 transmission in the community. When COVID-19 community transmission is low or medium, this class will be in-person and masking will be required. However, if COVID-19 transmission is high in the community, this course may be moved entirely online in order to protect the health and safety of students and instructor. In the case that we move online, the in-person sessions will become synchronous online sessions. Any changes will be clearly and promptly communicated via email.
+This course is designated as a blended course. This designation is because this course's modality changes based on the level of COVID-19 transmission in the community. When COVID-19 community transmission is low or medium, this class will be in-person and masking will be required. However, if COVID-19 transmission is high in the community, this course may be moved entirely online in order to protect the health and safety of students and instructor. In the case that we move online, the in-person sessions will become synchronous online sessions. Any changes will be clearly and promptly communicated via email. More specifics on the mask requirement can be found under my public health policies ( [Public Health in the Age of COVID-19] )
 
 
 
@@ -1277,8 +1276,8 @@ Note that I'll be using your contracts to guide my tinkering.
 
 
 ```{=html}
-<div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-e3a266374fc1ccaaa868" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-e3a266374fc1ccaaa868">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],["01/09","01/16","01/23","01/30","02/06","02/13","02/20","02/27","03/06","03/13","03/20","03/27","04/03","04/10","04/17","04/24"],["What is Data Science and Meet the Toolkit","Data and Visualization","Welcome to the Tidyverse","Data types and Data Transformations","Effective data visualization","Scientific Communication and confounding","Functions and Automation","Webscraping","Spring Break","Ethics","Tidy Models","Overfitting and Cross validation","Quantifying uncertainty","Rshiny","Machine Learning","Presentations"],["Week 01, 01/09 - 01/13","Week 02, 01/16 - 01/20","Week 03, 01/23 - 01/27","Week 04, 01/30 - 02/03","Week 05, 02/06 - 02/10","Week 06, 02/13 - 02/17","Week 07, 02/20 - 02/24","Week 08, 02/27 - 03/03","Week 09, 03/06 - 03/10","Week 10, 03/13 - 03/17","Week 11, 03/20 - 03/24","Week 12, 03/27 - 03/31","Week 13, 04/03 - 04/07","Week 14, 04/10 - 04/14","Week 15, 04/17 - 04/21","Week 16, 04/24 - 04/28"],[null,"Contract",null,null,null,null,null,null,null,null,null,null,null,null,null,"Presentation"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n      <th>milestones<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0}],"order":[],"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+<div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-1075e1806c53f3654df3" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-1075e1806c53f3654df3">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],["01/09","01/16","01/23","01/30","02/06","02/13","02/20","02/27","03/06","03/13","03/20","03/27","04/03","04/10","04/17","04/24"],["What is Data Science and Meet the Toolkit","Data and Visualization","Welcome to the Tidyverse","Data types and Data Transformations","Effective data visualization","Scientific Communication and confounding","Functions and Automation","Webscraping","Spring Break","Ethics","Tidy Models","Overfitting and Cross validation","Quantifying uncertainty","Rshiny","Machine Learning","Presentations"],["Week 01, 01/09 - 01/13","Week 02, 01/16 - 01/20","Week 03, 01/23 - 01/27","Week 04, 01/30 - 02/03","Week 05, 02/06 - 02/10","Week 06, 02/13 - 02/17","Week 07, 02/20 - 02/24","Week 08, 02/27 - 03/03","Week 09, 03/06 - 03/10","Week 10, 03/13 - 03/17","Week 11, 03/20 - 03/24","Week 12, 03/27 - 03/31","Week 13, 04/03 - 04/07","Week 14, 04/10 - 04/14","Week 15, 04/17 - 04/21","Week 16, 04/24 - 04/28"],[null,"Contract",null,null,null,null,null,null,null,null,null,null,null,null,null,"Presentation"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n      <th>milestones<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0}],"order":[],"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
 ```
 
 
@@ -1329,6 +1328,12 @@ Credit: [Kiki Schirr](https://kikischirr.medium.com/) at [Tech Doodles](https://
 
 If you have a question about the course AND can't find your answer elsewhere (or you find conflicting answers), please post them on the class discussion board. (Depending on the class, this board will either be on canvas or github)
 
+### Does it hurt to ask...
+
+Yes, it actually DOES hurt to ask. If you know your Prof or the syllabus has a specific policy on something, but you ask for a special exception to be made for you anyway under the idea, “it doesn’t hurt to ask,” let me just tell you, yes—it really does. It can make you look bad, it can burn bridges, my goodwill & grace, and connections you may need later. Please don't ask your profs for special treatment or to disregard syllabus policies they are required to adhere to.
+
+
+
 ### Where...
 
 #### Where can I find the reading list for the entire semester?
@@ -1339,7 +1344,7 @@ You can find due dates in the syllabus and on canvas.
 
 #### Where can I check the closing time of assessments?
 
-You can check the due time and closing time of assessments by clicking the corresponding page in "Modules". .
+You can check the due time and closing time of assessments by clicking the corresponding page in "Modules".
 
 #### Where are my grades?
 
