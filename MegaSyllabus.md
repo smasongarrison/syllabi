@@ -566,12 +566,14 @@ Students are advised that Wake Forest University faculty members hold the copyri
 
 
 
-Here's the deal. I'm *definitely* at increased risk of developing complications from a COVID-19 infection. My disability is FINALLY on the CDC list of at risk conditions^[https://www.cdc.gov/coronavirus/2019-ncov/hcp/clinical-care/underlyingconditions.html#anchor_1618433687270]. To mitigate those risks, I require masks in my classroom. This disability accommodation has been authorized and approved by the university, as a reasonable accommodation. In this class, mask compliance is essential for us (and me) making it through the semester. At present, I am in the position where I have to put my health in your hands. I have many thoughts as to why, how, and who has led to me being in this present position. I don't fault students. However, I need you to understand that the stakes are high. 
+Here's the deal. I'm *definitely* at increased risk of developing complications from a COVID-19 infection. My disability is FINALLY on the CDC list of at risk-conditions^[https://www.cdc.gov/coronavirus/2019-ncov/hcp/clinical-care/underlyingconditions.html#anchor_1618433687270]. To mitigate those higher risks, I require masks in my classroom. This disability accommodation has been authorized and approved by the university, as a reasonable accommodation. In this class, mask compliance is essential for us (and me) making it through the semester. <!-- At present, I am in the position where I have to put my health in your hands. I have many thoughts as to why, how, and who has led to me being in this present position. I don't fault students. However, I need you to understand that the stakes are high. -->
 
 Regardless of any changes to university policy or mask mandates, we will be masked for the entire semester. You will put your mask on *before* you enter my class. Your mask will cover your nose and mouth. I will stop class if I see your nose. 
 If you feel sick or are exposed, please don't come to class. I will happily meet with you (remotely) to fill you in. 
+
 - If you struggle with securing your mask, I am very happy to show you how to properly secure your mask^[https://www.youtube.com/watch?v=GzTAZDsNBe0]. The CDC provides plain language guidance that you may find helpful.^[https://www.cdc.gov/coronavirus/2019-ncov/easy-to-read/diy-cloth-face-coverings.html]
-- If your struggle with masks is due to your own disability, I am happy to connect you with student disability services. We can go through the interactive process with CLASS and your health care provider. Through that interactive process we can determine if your disability can be accommodated without fundamentally altering the course. These alternative accommodations could include providing you with differ styles of masks, or additional training on how to properly secure your mask.
+
+- If your struggle with masks is due to your own disability, I am happy to connect you with student disability services. We can go through the interactive process with CLASS. Through that interactive process we can determine if your disability can be accommodated without fundamentally altering the course. These alternative accommodations could include providing you with differ styles of masks, or additional training on how to properly secure your mask.
 
 However, if you refuse to wear a mask, you need to leave. If you refuse to leave, I will leave. And if I leave, there is no class.
 
@@ -620,6 +622,7 @@ As once required by Wake Forest University, I have included the following inform
 >
 > .
 
+-->
 
 <!--chapter:end:0106_covid.Rmd-->
 
@@ -765,8 +768,8 @@ Trust me, you do not want me to curve by assignment.
 
 
 ```{=html}
-<div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-a06f2d431b1e9e93e0fb" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-a06f2d431b1e9e93e0fb">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],["08/22","08/29","09/05","09/12","09/19","09/26","10/03","10/10","10/17","10/24","10/31","11/07","11/14","11/21","11/28","12/05"],["What is Personality","Personality Research Methods","Assessment, Evaluation, and Ethics","Trait Approach and Personality Judgment","Big Five","Personality over the Lifespan","Biological Approaches to Psychology","Behavior Genetics","Evolutionary Psychology","Cross-Cultural Psychology","Freud","Psychoanalysis After Freud","Personality Processes and Positive Psych","Thanksgiving Break!","Personality and Health",null],["Week 01, 08/22 - 08/26","Week 02, 08/29 - 09/02","Week 03, 09/05 - 09/09","Week 04, 09/12 - 09/16","Week 05, 09/19 - 09/23","Week 06, 09/26 - 09/30","Week 07, 10/03 - 10/07","Week 08, 10/10 - 10/14","Week 09, 10/17 - 10/21","Week 10, 10/24 - 10/28","Week 11, 10/31 - 11/04","Week 12, 11/07 - 11/11","Week 13, 11/14 - 11/18","Week 14, 11/21 - 11/25","Week 15, 11/28 - 12/02","Week 16, 12/05 - 12/09"],[null,null,"Quiz",null,null,"Quiz","Assignment",null,null,"Quiz",null,"Assignment","Quiz",null,"Quiz","Quiz and Assignment"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n      <th>milestones<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0}],"order":[],"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+<div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-181c12c3b429b270f125" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-181c12c3b429b270f125">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],["08/22","08/29","09/05","09/12","09/19","09/26","10/03","10/10","10/17","10/24","10/31","11/07","11/14","11/21","11/28","12/05"],["What is Personality","Personality Research Methods","Assessment, Evaluation, and Ethics","Trait Approach and Personality Judgment","Big Five","Personality over the Lifespan","Biological Approaches to Psychology","Behavior Genetics","Evolutionary Psychology","Cross-Cultural Psychology","Freud","Psychoanalysis After Freud","Personality Processes and Positive Psych","Thanksgiving Break!","Personality and Health",null],["Week 01, 08/22 - 08/26","Week 02, 08/29 - 09/02","Week 03, 09/05 - 09/09","Week 04, 09/12 - 09/16","Week 05, 09/19 - 09/23","Week 06, 09/26 - 09/30","Week 07, 10/03 - 10/07","Week 08, 10/10 - 10/14","Week 09, 10/17 - 10/21","Week 10, 10/24 - 10/28","Week 11, 10/31 - 11/04","Week 12, 11/07 - 11/11","Week 13, 11/14 - 11/18","Week 14, 11/21 - 11/25","Week 15, 11/28 - 12/02","Week 16, 12/05 - 12/09"],[null,null,"Quiz",null,null,"Quiz","Assignment",null,null,"Quiz",null,"Assignment","Quiz",null,"Quiz","Quiz and Assignment"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n      <th>milestones<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0}],"order":[],"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
 ```
 
 
@@ -880,8 +883,8 @@ There will be multiple engagement activities in this course. These activities wi
 
 
 ```{=html}
-<div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-20bb8957761f6418b098" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-20bb8957761f6418b098">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17],["01/10","01/17","01/24","01/31","02/07","02/14","02/21","02/28","03/07","03/14","03/21","03/28","04/04","04/11","04/18","04/25","05/02"],["Introduction","Statistical Foundations","Describing Data with R","Univariate Distributions","Bivariate Distributions","Probability Theory","Binomials and other sampling distributions","Hypothesis Testing","Spring Break","T-Tests","Regression","Causal Inference","ANOVA","Applications in R","Applications in R","Review","NA"],["Week 01, 01/10 - 01/14","Week 02, 01/17 - 01/21","Week 03, 01/24 - 01/28","Week 04, 01/31 - 02/04","Week 05, 02/07 - 02/11","Week 06, 02/14 - 02/18","Week 07, 02/21 - 02/25","Week 08, 02/28 - 03/04","Week 09, 03/07 - 03/11","Week 10, 03/14 - 03/18","Week 11, 03/21 - 03/25","Week 12, 03/28 - 04/01","Week 13, 04/04 - 04/08","Week 14, 04/11 - 04/15","Week 15, 04/18 - 04/22","Week 16, 04/25 - 04/29","Week 17, 05/02 - 05/06"],[null,null,null,null,null,"Exam",null,null,"Assignment",null,null,null,"Exam",null,null,"Assignment","Exam"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n      <th>milestones<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0}],"order":[],"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+<div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-46e9bcb2cfe0b704a79e" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-46e9bcb2cfe0b704a79e">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17],["01/10","01/17","01/24","01/31","02/07","02/14","02/21","02/28","03/07","03/14","03/21","03/28","04/04","04/11","04/18","04/25","05/02"],["Introduction","Statistical Foundations","Describing Data with R","Univariate Distributions","Bivariate Distributions","Probability Theory","Binomials and other sampling distributions","Hypothesis Testing","Spring Break","T-Tests","Regression","Causal Inference","ANOVA","Applications in R","Applications in R","Review","NA"],["Week 01, 01/10 - 01/14","Week 02, 01/17 - 01/21","Week 03, 01/24 - 01/28","Week 04, 01/31 - 02/04","Week 05, 02/07 - 02/11","Week 06, 02/14 - 02/18","Week 07, 02/21 - 02/25","Week 08, 02/28 - 03/04","Week 09, 03/07 - 03/11","Week 10, 03/14 - 03/18","Week 11, 03/21 - 03/25","Week 12, 03/28 - 04/01","Week 13, 04/04 - 04/08","Week 14, 04/11 - 04/15","Week 15, 04/18 - 04/22","Week 16, 04/25 - 04/29","Week 17, 05/02 - 05/06"],[null,null,null,null,null,"Exam",null,null,"Assignment",null,null,null,"Exam",null,null,"Assignment","Exam"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n      <th>milestones<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0}],"order":[],"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
 ```
 
 
@@ -1123,8 +1126,8 @@ There will be multiple engagement activities in this course. These activities wi
 
 
 ```{=html}
-<div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-a4ca6b920d089da78c61" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-a4ca6b920d089da78c61">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15],["01/25","02/01","02/08","02/15","02/22","03/01","03/08","03/15","03/22","03/29","04/05","04/12","04/19","04/26","05/03"],["Foundations and Nature of Testing","History of Testing","Ethical and Social Considerations in Testing","Norms and the Meaning of Test Scores","Classical Test Theory","Reliability","Catch Up Week","Validity","Item Analysis","Factor Analysis","Item Response Theory","Practical Testing Things","Ability Testing","Personality Testing","Review"],["Week 01, 01/25 - 01/29","Week 02, 02/01 - 02/05","Week 03, 02/08 - 02/12","Week 04, 02/15 - 02/19","Week 05, 02/22 - 02/26","Week 06, 03/01 - 03/05","Week 07, 03/08 - 03/12","Week 08, 03/15 - 03/19","Week 09, 03/22 - 03/26","Week 10, 03/29 - 04/02","Week 11, 04/05 - 04/09","Week 12, 04/12 - 04/16","Week 13, 04/19 - 04/23","Week 14, 04/26 - 04/30","Week 15, 05/03 - 05/07"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0}],"order":[],"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+<div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-cb0ff9a64085521401f9" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-cb0ff9a64085521401f9">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15],["01/25","02/01","02/08","02/15","02/22","03/01","03/08","03/15","03/22","03/29","04/05","04/12","04/19","04/26","05/03"],["Foundations and Nature of Testing","History of Testing","Ethical and Social Considerations in Testing","Norms and the Meaning of Test Scores","Classical Test Theory","Reliability","Catch Up Week","Validity","Item Analysis","Factor Analysis","Item Response Theory","Practical Testing Things","Ability Testing","Personality Testing","Review"],["Week 01, 01/25 - 01/29","Week 02, 02/01 - 02/05","Week 03, 02/08 - 02/12","Week 04, 02/15 - 02/19","Week 05, 02/22 - 02/26","Week 06, 03/01 - 03/05","Week 07, 03/08 - 03/12","Week 08, 03/15 - 03/19","Week 09, 03/22 - 03/26","Week 10, 03/29 - 04/02","Week 11, 04/05 - 04/09","Week 12, 04/12 - 04/16","Week 13, 04/19 - 04/23","Week 14, 04/26 - 04/30","Week 15, 05/03 - 05/07"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0}],"order":[],"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
 ```
 
 
@@ -1158,7 +1161,7 @@ All materials for this course are open source, including the multimedia course n
 
 ## Course Modality {-}
 
-This course is designated as a blended course. This designation is because this course's modality changes based on the level of COVID-19 transmission in the community. When COVID-19 community transmission is low or medium, this class will be in-person. However, if COVID-19 transmission is high in the community, this course may be moved entirely online in order to protect the health and safety of students and instructor. In the case that we move online, the in-person sessions will become synchronous online sessions. Any changes will be clearly and promptly communicated via email.
+This course is designated as a blended course. This designation is because this course's modality changes based on the level of COVID-19 transmission in the community. When COVID-19 community transmission is low or medium, this class will be in-person and masking will be required. However, if COVID-19 transmission is high in the community, this course may be moved entirely online in order to protect the health and safety of students and instructor. In the case that we move online, the in-person sessions will become synchronous online sessions. Any changes will be clearly and promptly communicated via email.
 
 
 
@@ -1192,7 +1195,7 @@ This experiential course requires active engagement. There will be few lectures 
 ## Grading Policy  {-}
 
 
-In this course, you will determine the grade you receive by fulfilling a contract you will submit for my approval on 01/20.
+In this course, you will determine the grade you receive by fulfilling a contract you will submit for my approval by 01/20 (a.k.a the end of the 2nd week of class).
 
 Your written contract will detail:
 
@@ -1202,7 +1205,7 @@ Your written contract will detail:
 
 - a calendar you will follow for meeting the requirements you have outlined.
 
-Many aspects of this calendar will be determined by windows outlined on the course schedule, but your contract will take ownership of these deadlines while committing to specific due dates for the course’s more flexible assignments.
+Many aspects of this calendar will be determined by milestones outlined on the course schedule, but your contract will take ownership of these deadlines while committing to specific due dates for the course’s more flexible assignments.
 
 ## Contract Details   {-}
 
@@ -1214,17 +1217,17 @@ To fulfill any grade contract a student must do the following, which should none
 
 - Revise contractual assignments as necessary until both you and I consider them "Satisfactory."
 
-- Complete a final self-assessment demonstrating that your work has met the agreed requirements, submitting it to me by 5pm on the last day of class.
+<!-- - Complete a final self-assessment demonstrating that your work has met the agreed requirements, submitting it to me by 5pm on the last day of class. -->
 
 
 The professor reserves the right to award a grade of D or F to anyone who fails to meet a contractual obligation in a systematic way. A "D" grade denotes some minimal fulfilling of the contract. An “F” is absence of enough satisfactory work, as contracted, to warrant passing of the course. Both a "D" and "F" denote a breakdown of the contractual relationship implied by signing any of the contracts described above.
 
-## What About Exceptional (or Mediocre) Work?  {-}
+### What About Exceptional (or Mediocre) Work?  {-}
 I also reserve the right to reward exceptional work throughout the semester using the full range of Wake Forest's grading scale. If you contract for a “B,” for instance, and submit particularly strong pieces to fulfill that contract, I may elect to raise your contracted grade to a “B+.”
 
 Likewise, if you consistently submit mediocre work in fulfillment of your contract, I reserve the right to adjust your grade one half-step down (e.g. from “A” to “A-“) or even, in extreme cases, a full step.
 
-## Contract Adjustments  {-}
+### Contract Adjustments  {-}
 Periodically during the semester I will ask you to evaluate your work thus far and compare it against what you agreed in your grade contract. In these moments you can also take the opportunity to request an adjustment to your contract in either direction. If you find that you will be unable to meet the obligations of your contract, you may request to move to the next lowest grade and its requirements. Contrariwise, if you find that you've been performing above the obligations of your contract, you may request to fulfill the requirements for the next higher grade. Important Note: In order to effectively evaluate your own progress, you must keep track of your work, including days missed, and so forth.
 
 
@@ -1274,8 +1277,8 @@ Note that I'll be using your contracts to guide my tinkering.
 
 
 ```{=html}
-<div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-95f6f62db5cd9ebc6f8d" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-95f6f62db5cd9ebc6f8d">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],["01/09","01/16","01/23","01/30","02/06","02/13","02/20","02/27","03/06","03/13","03/20","03/27","04/03","04/10","04/17","04/24"],["What is Data Science and Meet the Toolkit","Data and Visualization","Welcome to the Tidyverse","Data types and Data Transformations","Effective data visualization","Scientific Communication and confounding","Functions and Automation","Webscraping","Spring Break","Ethics","Tidy Models","Overfitting and Cross validation","Quantifying uncertainty","Rshiny","Machine Learning","Presentations"],["Week 01, 01/09 - 01/13","Week 02, 01/16 - 01/20","Week 03, 01/23 - 01/27","Week 04, 01/30 - 02/03","Week 05, 02/06 - 02/10","Week 06, 02/13 - 02/17","Week 07, 02/20 - 02/24","Week 08, 02/27 - 03/03","Week 09, 03/06 - 03/10","Week 10, 03/13 - 03/17","Week 11, 03/20 - 03/24","Week 12, 03/27 - 03/31","Week 13, 04/03 - 04/07","Week 14, 04/10 - 04/14","Week 15, 04/17 - 04/21","Week 16, 04/24 - 04/28"],[null,"Contract",null,null,null,null,null,null,null,null,null,null,null,null,null,"Presentation"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n      <th>milestones<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0}],"order":[],"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+<div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-f2ce26c72267dc33b4c4" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-f2ce26c72267dc33b4c4">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],["01/09","01/16","01/23","01/30","02/06","02/13","02/20","02/27","03/06","03/13","03/20","03/27","04/03","04/10","04/17","04/24"],["What is Data Science and Meet the Toolkit","Data and Visualization","Welcome to the Tidyverse","Data types and Data Transformations","Effective data visualization","Scientific Communication and confounding","Functions and Automation","Webscraping","Spring Break","Ethics","Tidy Models","Overfitting and Cross validation","Quantifying uncertainty","Rshiny","Machine Learning","Presentations"],["Week 01, 01/09 - 01/13","Week 02, 01/16 - 01/20","Week 03, 01/23 - 01/27","Week 04, 01/30 - 02/03","Week 05, 02/06 - 02/10","Week 06, 02/13 - 02/17","Week 07, 02/20 - 02/24","Week 08, 02/27 - 03/03","Week 09, 03/06 - 03/10","Week 10, 03/13 - 03/17","Week 11, 03/20 - 03/24","Week 12, 03/27 - 03/31","Week 13, 04/03 - 04/07","Week 14, 04/10 - 04/14","Week 15, 04/17 - 04/21","Week 16, 04/24 - 04/28"],[null,"Contract",null,null,null,null,null,null,null,null,null,null,null,null,null,"Presentation"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n      <th>milestones<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0}],"order":[],"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
 ```
 
 
