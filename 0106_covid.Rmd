@@ -33,7 +33,6 @@ include_tweet()
 include_tweet()
 ```
 
--->
 
 ## WFU-Required Statement
 
