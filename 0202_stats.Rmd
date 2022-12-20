@@ -1,4 +1,4 @@
-# 310: Methods in Psychological Research {-#statsminor}
+# 310: Methods in Psych Research {-#statsminor}
 
 ```{r setup, include=FALSE}
 source("scheduler.R")
