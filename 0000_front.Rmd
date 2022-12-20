@@ -8,13 +8,16 @@
 
 This syllabus website is dynamic. If you catch typos, errors, please issue a pull request with the fixes. Unless otherwise indicidated, all the policies apply to all of my courses.
 
-This syllabus is broken down into multiple chapters. Use the table of contents on the left side of the screen to navigate, and use the hamburger icon (horizontal bars) at the top of the document to open or close the table of contents. At the top of the document, you'll see additional icons which you can click to search the document, change the size, font or color scheme of the page. The syllabus will be updated (unpredictably) throughout the semester; however, students aren't bound to policies added once they've signed their syllabus. Instead, they are bound to the version of this "book" that was in place when they signed their syllabus. <!--I have archived versions of this book [here](https://github.com/smasongarrison/syllabi/blob/main/docs/megasyllabus.pdf). -->
 
 
 
-# Attribution {-}
+To navigate this syllabus collection, use the table of contents on the left side of the screen. You can open or close the table of contents using the hamburger icon (horizontal bars) at the top of the document. There are also additional icons at the top of the document that allow you to search the document, change the size, font, or color scheme of the page. Please note that the syllabus may be updated throughout the semester, but students are only bound to the policies in place when they signed their syllabus.
 
-This mega syllabus leans on other peoples' materials and ideas. I have done my best to document the origin of the materials and ideas. In particular, I have noted those people whose work has been a major contribution as well as those who have additional contributions. You can see specific changes by examining the [edit history on the git repo](https://github.com/smasongarrison/Syllabi/commits/main)
+
+
+# Attributions {-}
+
+This collection of syllabii leans on the work and ideas of other people. I have done my best to document the origin of the materials and ideas. In particular, I have noted those people whose work has been a major contribution as well as those who have additional contributions. You can view a record of any changes made to the syllabus by checking the [edit history in the git repository.](https://github.com/smasongarrison/Syllabi/commits/main)
 
 ## Major Attributions  {-}
 
@@ -22,11 +25,6 @@ This mega syllabus leans on other peoples' materials and ideas. I have done my b
 
 
 ## Additional Attributions  {-}
-
-- Numerous Icons from the Noun Project by:
-  - Adrien Coquet
-  - Corpus Delicti
-  - Suhyeon Jung
 
 **Select lecture notes from:**
 
