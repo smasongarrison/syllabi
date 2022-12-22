@@ -101,6 +101,7 @@ This version of the syllabus was built with:
 
 ```{r message = FALSE,error=TRUE, warning = FALSE, echo = FALSE}
 # needed because new_session is set to true in _bookdown.yml
+library(tidyverse)
 all_pkgs <- renv::dependencies(path = "DESCRIPTION") %>% 
   pull(Package) 
 

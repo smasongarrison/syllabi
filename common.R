@@ -10,6 +10,7 @@ library(tweetrmd) #... embedding tweets
 library(vembedr)  #... embedding youtube videos
 library(knitr)
 library(webshot)
+library(tidyverse)
 
 ## Options
 knitr::opts_chunk$set(
@@ -54,7 +55,8 @@ if (knitr::is_latex_output()) {
 knitr::knit_hooks$set(chunk_envvar = function(before, options, envir) {
   envvar <- options$chunk_envvar
   if (before && !is.null(envvar)) {
-    old_envvar <<- Sys.getenv(names(envvar), names = TRUE, unset = NA)
+    old_envvar <<- Sys.getenv(names(envvar),
+                              names = TRUE, unset = NA)
     do.call("Sys.setenv", as.list(envvar))
     #print(str(options))
   } else {
@@ -89,7 +91,10 @@ sample_no_surprises <- function(x) {
 }
 
 
-slide_url=function(df_url,title,slide=NULL){
-  var_url=paste0(df_url$link[df_url$title==title],slide)
+slide_url <- function(df_url,
+                   title,
+                   slide=NULL){
+  var_url <- paste0(df_url$link[df_url$title==title],
+                 slide)
   return(var_url)
 }
