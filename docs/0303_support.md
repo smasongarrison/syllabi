@@ -94,7 +94,7 @@ On mobile devices, Canvas is designed to be used within Canvas mobile applicatio
 
 The follow list is a non-exhaustive list of services that Wake Forest offers to students.
 
-**[Learning Assistance Center](https://class.wfu.edu/)**
+**[Center for Learning, Access and Student Success](https://class.wfu.edu/)**
 
 * [Academic Coaching](https://class.wfu.edu/): encourages students to strengthen a wide range of study skills including time management, note-taking, study skills, planning and organizing, test preparation, and test anxiety.
 
