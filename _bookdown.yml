@@ -2,6 +2,9 @@ book_filename: "megasyllabus"
 delete_merged_file: false
 new_session: true
 output_dir: "docs"
+view: https://github.com/smasongarrison/syllabi/blob/main/%s
+edit: https://github.com/smasongarrison/syllabi/edit/main/%s
+history: https://github.com/smasongarrison/syllabi/commits/main/%s
 language:
   label:
     fig: "Figure "
