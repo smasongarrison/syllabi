@@ -76,7 +76,7 @@ You can find it on canvas, under grades. I will not look up this grade for you. 
 
 #### Where can I find help for canvas?
 
-Although I am not Canvas tech support, I have provided some answers and resources to commonly asked questions 
+If you're having trouble with Canvas, you should first search the [Canvas Guides](https://community.canvaslms.com/t5/Canvas-Basics-Guide/tkb-p/basics) and then reach out to canvas support. Although I am not Canvas tech support, I have provided some answers and resources to commonly asked questions in a later [section][canvas]. 
 
 ### Where can I find textbooks and course materials?
 
@@ -202,7 +202,8 @@ If you still have trouble after troubleshooting, post the problem to the discuss
 
 ## Canvas {canvas}
 
-#### How do I use Canvas for class?
+
+### How do I use Canvas for class?
 
 Students will use Canvas to access course content.
 All work/assignments/projects will be distributed and collected through Canvas.
@@ -290,12 +291,6 @@ Because some of the requirements to unlock it the activity are not met. To unloc
 ```{r echo = FALSE,out.width='50%', fig.align='center'}
 include_graphics("img/requirements.png")
 ```
-
-## Resources
-
-
-
-
 
 
 ## Still have questions? 
