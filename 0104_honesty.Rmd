@@ -18,12 +18,15 @@ Violations of this policy result in a zero for the assignment, my perpetual disa
 - forfeiting all extra credit, and
 - being excluded from the course curve, drop policy, late policy, and extra credit.
 
+
 ## Ethical Use of Artificial Intelligence
 Note: This policy's language was adapted from this [reddit post](https://www.reddit.com/r/Professors/comments/11mmz8k/the_ethical_use_of_artificial_intelligence/)
 
 As artificial intelligence becomes more prevalent in our daily lives, it is crucial for students to understand the ethical considerations surrounding its use in academic settings. In my courses, I expect students to use AI in a manner that aligns with the values of academic integrity. In general, the use of AI should never compromise development in critical thinking, research, and analysis. Along that line, the use of AI to generate content, manipulate the tone of work, create data, or summarize another author's work for quicker consumption is considered academic dishonesty and strictly prohibited.
 
+<!--
 However, students are encouraged towards using AI to assist in research and writing process in ways which encourage the learning process, mitigate menial tasks, or accommodate disabilties. For example, I use AI to enhance my speech recognition software and [other assistive software that I have written](https://github.com/smasongarrison/AutoHotKey_Scripts). In that spirit, I think students may use AI to develop personalized learning and reading plans. I consider receiving AI assistance with grammar and spelling errors is akin to using Grammarly, a tool that helps users improve their writing skills.
+-->
 
 Please note that any unethical use of AI in my courses will be considered academic dishonesty and may result in disciplinary action. Students are responsible for ensuring that their use of AI is in compliance with the course policies on academic integrity.
 
