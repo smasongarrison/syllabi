@@ -21,11 +21,11 @@ self-advocacy
 resources
 classroom-climate
 academic-honesty-policy
+violations
+ethical-use-of-artificial-intelligence
 common-sense
 things-that-i-thought-didnt-need-to-be-said-but-apparently-did-need-to-be-said.
 it-is-always-academic-dishonesty
-ethical-use-of-artificial-intelligence
-violations
 communication
 minimums
 self-advocacy-1
