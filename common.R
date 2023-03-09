@@ -11,10 +11,12 @@ library(vembedr)  #... embedding youtube videos
 library(knitr)
 library(webshot)
 library(tidyverse)
+library(htmlwidgets)					
 
 ## Options
 knitr::opts_chunk$set(
   comment = "#>",
+  error = TRUE,
   collapse = TRUE
   # cache = TRUE,
   # fig.retina = 0.8, # figures are either vectors or 300 dpi diagrams
@@ -55,8 +57,7 @@ if (knitr::is_latex_output()) {
 knitr::knit_hooks$set(chunk_envvar = function(before, options, envir) {
   envvar <- options$chunk_envvar
   if (before && !is.null(envvar)) {
-    old_envvar <<- Sys.getenv(names(envvar),
-                              names = TRUE, unset = NA)
+    old_envvar <<- Sys.getenv(names(envvar), names = TRUE, unset = NA)
     do.call("Sys.setenv", as.list(envvar))
     #print(str(options))
   } else {
@@ -90,11 +91,18 @@ sample_no_surprises <- function(x) {
   }
 }
 
-
+# show slides better
 slide_url <- function(df_url,
-                   title,
-                   slide=NULL){
-  var_url <- paste0(df_url$link[df_url$title==title],
-                 slide)
+                      title,
+                      slide=NULL){
+  var_url <- paste0(df_url$link[df_url$title==title],slide)
+					   
   return(var_url)
+}
+
+# try include_tweet
+try_include_tweet <- function(tweet_url,
+                              plain = FALSE, ...){
+  return(try(tweetrmd::include_tweet(tweet_url = tweet_url, plain = plain, ...),
+             silent = TRUE))
 }
