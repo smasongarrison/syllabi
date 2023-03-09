@@ -9,7 +9,7 @@ Below you'll find answers to the questions that I get asked the most by students
 I don't want to discourage you from asking questions. However, asking me is not an efficient method for finding facts and searchable information...
 
 ```{r, echo=FALSE}
-try(include_tweet("https://twitter.com/AlisonLedg/status/1441181845706579969"))
+try_include_tweet("https://twitter.com/AlisonLedg/status/1441181845706579969")
 ```
 
 ## How can I get ahold of you?
@@ -88,7 +88,7 @@ If you're having trouble with Canvas, you should first search the [Canvas Guides
 
 ```{r, echo=FALSE}
 "https://twitter.com/GaloAndStuff/status/1424818560417902604" %>%
-include_tweet()
+try_include_tweet(omit_script = FALSE)
 ```
 
 ### Can...
@@ -170,7 +170,7 @@ If you find yourself spending a lot more or a lot less than 9 hours per week on 
 ### How do I ask professors for extensions?
 
 ```{r, echo=FALSE}
-try(include_tweet("https://twitter.com/BettySLai/status/1455555111397117954"))
+try_include_tweet("https://twitter.com/BettySLai/status/1455555111397117954")
 ```
 
 

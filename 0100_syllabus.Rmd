@@ -31,7 +31,7 @@ Credit:
 if (knitr::is_latex_output()) {
 include_graphics("img/AcademicsSaystatus.png")
 }else{
-try(include_tweet("https://twitter.com/AcademicsSay/status/1293621452684644355"))
+try_include_tweet("https://twitter.com/AcademicsSay/status/1293621452684644355")
 }
 ```
 

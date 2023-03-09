@@ -14,8 +14,8 @@ These accommodations are there so that you can be your best possible self.
 library(tweetrmd) #... embedding tweets
 # Error in tweet_blockquote(tweet_url = tweet_url, maxwidth = maxwidth,  : 
 #  Forbidden (HTTP 403).
-if(FALSE){
-try(include_tweet("https://twitter.com/bluntshovels/status/1463275576337129480"))
+if(TRUE){
+try_include_tweet("https://twitter.com/bluntshovels/status/1463275576337129480")
 }
 ```
 
@@ -27,8 +27,8 @@ At Wake Forest and at many other places, the expectation is that you will self-a
 
 ```{r, echo=FALSE}
 
-try(include_tweet("https://twitter.com/Rasheeradiara/status/1532760383500472326"))
-try(include_tweet("https://twitter.com/theADHDacademic/status/1458876178580881410"))
+try_include_tweet("https://twitter.com/Rasheeradiara/status/1532760383500472326")
+try_include_tweet("https://twitter.com/theADHDacademic/status/1458876178580881410")
 ```
 
 As a student, you may not know what accommodations work best for you. Or you may find that your current accommodations don't work like they used to. 
@@ -55,7 +55,7 @@ You can [search for accommodation ideas](https://askjan.org/soar.cfm) by [specif
 
 I aim to create a learning environment for my students that supports a diversity of thoughts, perspectives, and experiences, and honors your identities (including but not limited to race, ethnicity, sex, gender, gender-identity, class, culture, sexual orientation, religion, disability, political affiliation). To help accomplish this:
 
-- If you have a name and/or set of pronouns that differ from those that appear in your official records, please let me know!
+- If you have a name or set of pronouns that differ from those that appear in your official records, please let me know!
 
 - If you feel like your performance in the class is being impacted by your experiences outside of class, please don't hesitate to come and talk with me. I can direct you to resources
 

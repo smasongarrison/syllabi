@@ -24,13 +24,13 @@ Although university policy states that we can request masks instead of requiring
 
 ```{r, echo=FALSE}
 "https://twitter.com/justjess_PhD/status/1556790562711281666" %>%
-include_tweet()
+try_include_tweet(omit_script = FALSE)
 ```
 
 
 ```{r, echo=FALSE}
 "https://twitter.com/Nicole_Lee_Sch/status/1491793104348712965" %>%
-include_tweet()
+try_include_tweet()
 ```
 -->
 
