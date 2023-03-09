@@ -6,28 +6,14 @@ That handbook outlines the University’s expectations for the integrity of your
 
 All submitted work must be your own. It is your responsibility to avoid even the appearance of cheating.
 
-Unless I have explicitly stated otherwise, every assessment is closed to outside resources (including, but not limited to books, notes, phones, people, Chegg, the internet). 
-Ignorance of the honor code and assignment instructions is not an acceptable explanation and/or defense. 
-
+Unless I have explicitly stated otherwise, every assessment is closed to outside resources (including, but not limited to books, notes, phones, people, Chegg, ChatGPT, the internet). 
+Ignorance of the honor code and assignment instructions is not an acceptable explanation or defense. 
 
 ## Common Sense
 
 To be clear, even if something is NOT explicitly forbidden in this document, that does not mean it is allowed. Please use your common sense here. If a reasonable person would consider it cheating, it's cheating. 
 
-## Violations
-
-Violations of this policy result in a zero for the assignment, my perpetual disappointment, and possible additional penalties, including, but not limited to:
-
-- a referral to honor council, 
-- failing the class,
-- a forensic regrading of all previous assessments,
-- forfeiting all extra credit, and
-- being excluded from the course curve, drop policy, late policy, and extra credit.
-
-
-
-
-## Things that I thought didn't need to be said, but apparently did need to be said.
+### Things that I thought didn't need to be said, but apparently did need to be said.
 
 Everything must be in your own words, regardless of any open-resource policy. 
 Open resources does not mean that you can copy and paste material from outside sources (or from course sources) directly into an assessment.
@@ -36,24 +22,43 @@ Assessments are a means for you to demonstrate your own understanding of the mat
 They are an opportunity to earn points through the demonstration of knowledge.
 
 
-### It is *ALWAYS* academic dishonesty...
+#### It is *ALWAYS* academic dishonesty...
 
-It is *ALWAYS* academic dishonesty to copy outside materials directly into a test or quiz. 
+- It is *ALWAYS* academic dishonesty to copy outside materials directly into a test or quiz. 
 
-It is *ALWAYS* academic dishonesty to copy lecture notes directly into a test or quiz.
+- It is *ALWAYS* academic dishonesty to copy lecture notes directly into a test or quiz.
 
-It is *ALWAYS* academic dishonesty to copy powerpoint slides directly into a test or quiz.
+- It is *ALWAYS* academic dishonesty to copy powerpoint slides directly into a test or quiz.
 
-It is still dishonest if you indirectly copy outside materials into a test or quiz.
+- It is *STILL* dishonest if you indirectly copy outside materials into a test or quiz.
 
-It is still dishonest if you then edit what you have copied. Frankly that is worse because you tried to hide that you did it.
+- It is *STILL* dishonest if you then edit what you have copied. Frankly that is worse because you tried to hide that you did it.
 
-It is *ALWAYS* academic dishonesty to share test questions.  
+- It is *ALWAYS* academic dishonesty to share test questions.  
 
-It is *ALWAYS* academic dishonesty to post course materials on any third-party websites. 
+- It is *ALWAYS* academic dishonesty to post course materials on any third-party websites. 
 
-It is *ALWAYS* academic dishonesty to misrepresent others work as your own.  
+- It is *ALWAYS* academic dishonesty to misrepresent others work as your own.  
 
-It is *ALWAYS* academic dishonesty to work together on tests or quizzes. 
-(And frankly, it is really obvious in Canvas when you work together. 
-I literally wrote a R program that checks for working together on tests. )
+- It is *ALWAYS* academic dishonesty to work together on tests or quizzes. (And frankly, it is really obvious in Canvas when you work together. I literally wrote a R program that checks for working together on tests. )
+
+
+## Ethical Use of Artificial Intelligence
+Note: This policy's language was adapted from this [reddit post](https://www.reddit.com/r/Professors/comments/11mmz8k/the_ethical_use_of_artificial_intelligence/)
+
+As artificial intelligence becomes more prevalent in our daily lives, it is crucial for students to understand the ethical considerations surrounding its use in academic settings. In my courses, students are expected to use AI in a manner which upholds the values of academic integrity. In general, the use of AI should never compromise development in critical thinking, research, and analysis. Along that line, the use of AI to generate content, manipulate the tone of work, create data, or summarize/shorten another author's work for quicker consumption is considered academic dishonesty and strictly prohibited.
+
+Alternatively, students are encouraged towards using AI to assist in research and writing process in ways which encourage the learning process and mitigate menial tasks. For example, students may use AI to create a table to help visualize complex data, develop personalized learning and reading plans, and assist in correcting grammar and spelling errors.
+
+Please note that any unethical use of AI in my courses will be considered academic dishonesty and may result in disciplinary action. Students are responsible for ensuring that their use of AI is in compliance with the course policies on academic integrity.
+
+
+## Violations
+
+Violations of this policy result in a zero for the assignment, my perpetual disappointment, and possible additional penalties and disciplinary actions, including, but not limited to:
+
+- a referral to honor council, 
+- failing the class,
+- a forensic regrading of all previous assessments,
+- forfeiting all extra credit, and
+- being excluded from the course curve, drop policy, late policy, and extra credit.

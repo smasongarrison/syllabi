@@ -1,7 +1,7 @@
 --- 
 title: "Prof. Mason's Syllabi"
 author: S. Mason Garrison
-date: "2022-12-22"
+date: "2023-03-09"
 knit: "bookdown::render_book"
 site: bookdown::bookdown_site
 url: 'https\://github.com/smasongarrison/syllabi'
@@ -37,17 +37,10 @@ That way, I can have a neat and tidy syllabi, while still making my expectations
 
 <!--chapter:end:index.Rmd-->
 
-
-
-
-
-
 ## How to use this syllabus {-}
 
 
 This syllabus website is dynamic. If you catch typos, errors, please issue a pull request with the fixes. Unless otherwise indicidated, all the policies apply to all of my courses.
-
-
 
 
 To navigate this syllabus collection, use the table of contents on the left side of the screen. You can open or close the table of contents using the hamburger icon (horizontal bars) at the top of the document. There are also additional icons at the top of the document that allow you to search the document, change the size, font, or color scheme of the page. Please note that the syllabus may be updated throughout the semester, but students are only bound to the policies in place when they signed their syllabus.
@@ -135,23 +128,30 @@ This version of the syllabus was built with:
 
 
 ```
-## Error in renv::dependencies(path = "DESCRIPTION") %>% pull(Package): could not find function "%>%"
+## Finding R package dependencies ... Done!
 ```
 
 ```
-## Error in "reticulate" %in% pkgs: object 'all_pkgs' not found
-```
-
-```
-## Error in eval(expr, envir, enclos): object 'session' not found
+##  setting  value
+##  version  R version 4.2.2 (2022-10-31 ucrt)
+##  os       Windows 10 x64 (build 22621)
+##  system   x86_64, mingw32
+##  ui       RTerm
+##  language (EN)
+##  collate  English_United States.utf8
+##  ctype    English_United States.utf8
+##  tz       America/New_York
+##  date     2023-03-09
+##  pandoc   2.19.2 @ C:/Program Files/RStudio/resources/app/bin/quarto/bin/tools/ (via rmarkdown)
 ```
 
 Along with these packages:
 
 
 
-```
-## Error in session$packages %>% select(package, loadedversion, date, source) %>% : could not find function "%>%"
+```{=html}
+<div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-ece422ca63e7882cbc3b" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-ece422ca63e7882cbc3b">{"x":{"filter":"top","vertical":false,"filterHTML":"<tr>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n<\/tr>","data":[["askpass","backports","base64enc","bigD","bit","bit64","bitops","blob","bookdown","brew","brio","broom","bslib","cachem","callr","cellranger","cli","clipr","colorspace","commonmark","conflicted","cpp11","crayon","credentials","crosstalk","curl","data.table","DBI","dbplyr","desc","devtools","dichromat","diffobj","digest","downlit","dplyr","DT","dtplyr","ellipsis","evaluate","fansi","farver","fastmap","fontawesome","forcats","fs","gapminder","gargle","gender","genderdata","generics","geonames","gert","ggplot2","gh","gitcreds","glue","googledrive","googlesheets4","gridExtra","gt","gtable","haven","highr","hms","htmltools","htmlwidgets","httpuv","httr","httr2","ids","ini","isoband","jquerylib","jsonlite","juicyjuice","knitr","labeling","later","lattice","lazyeval","lifecycle","lubridate","magrittr","MASS","Matrix","memoise","mgcv","mime","miniUI","modelr","munsell","nlme","openssl","pillar","pkgbuild","pkgconfig","pkgdown","pkgload","praise","prettyunits","processx","profvis","progress","promises","ps","purrr","R6","ragg","rappdirs","rcmdcheck","RColorBrewer","Rcpp","readr","readxl","rebird","rematch","rematch2","remotes","reprex","rlang","rmarkdown","roxygen2","rplos","rprojroot","rstudioapi","rversions","rvest","sass","scales","selectr","sessioninfo","shiny","sourcetools","stringi","stringr","sys","systemfonts","testthat","textshaping","tibble","tidyr","tidyselect","tidyverse","timechange","tinytex","tzdb","urlchecker","usethis","utf8","uuid","V8","vctrs","viridis","viridisLite","vroom","waldo","whisker","withr","xfun","xml2","xopen","xtable","yaml","zip"],[null,null,null,null,null,null,null,null,"0.32",null,null,null,"0.4.2","1.0.7","3.7.3",null,"3.6.0",null,"2.1-0",null,null,null,"1.5.2",null,null,null,null,null,null,null,"2.4.5",null,null,"0.6.31",null,"1.1.0",null,null,"0.3.2","0.20","1.0.4",null,"1.1.1",null,"1.0.0","1.6.1",null,null,null,null,"0.1.3",null,null,"3.4.1",null,null,"1.6.2",null,null,null,null,"0.3.1",null,null,"1.1.2","0.5.4","1.6.1","1.6.9",null,null,null,null,null,"0.1.4","1.8.4",null,"1.42",null,"1.3.0",null,null,"1.0.3","1.9.2","2.0.3",null,null,"2.0.1",null,"0.12","0.1.1.1",null,"0.5.0",null,null,"1.8.1","1.4.0","2.0.3",null,"1.3.2",null,"1.1.1","3.8.0","0.3.7",null,"1.2.0.1","1.7.2","1.0.1","2.5.1",null,null,null,null,"1.0.10","2.1.4",null,null,null,null,"2.4.2",null,"1.0.6","2.20",null,null,null,"0.14",null,null,"0.4.5","1.2.1",null,"1.2.2","1.7.4",null,"1.7.12","1.5.0",null,null,null,null,"3.1.8","1.3.0","1.2.0","2.0.0","0.2.0",null,"0.3.0","1.0.1","2.1.6","1.2.3",null,null,"0.5.2",null,null,null,null,null,"2.5.0","0.37",null,null,"1.8-4","2.3.7",null],["2019-01-13","2021-12-13","2015-07-28","2022-09-05","2022-11-15","2020-08-30","2021-04-24","2022-04-10","2023-01-17","2022-09-29","2021-11-30","2023-01-25","2022-12-16","2023-02-24","2022-11-02","2016-07-27","2023-01-09","2022-02-22","2023-01-23","2022-10-14","2023-02-01","2022-10-12","2022-09-29","2021-11-29","2021-11-04","2023-01-12","2023-02-17","2022-06-18","2023-02-24","2022-09-08","2022-10-11",null,"2021-10-05","2022-12-11","2022-07-05","2023-01-29","2023-01-17","2023-02-24","2021-04-29","2023-01-17","2023-01-22","2022-07-06","2023-02-24","2023-01-25","2023-01-29","2023-02-06","2017-10-31","2023-01-30",null,null,"2022-07-05",null,"2022-12-05","2023-02-10","2023-02-22","2022-09-08","2022-02-24","2021-07-08","2022-08-13","2017-09-09","2022-11-16","2022-09-01","2023-02-28","2022-12-22","2022-08-19","2022-12-07","2023-01-07","2023-02-14","2023-02-24","2022-09-25","2017-05-31","2018-05-20","2022-12-20","2021-04-26","2022-12-06","2022-11-10","2023-01-25","2020-10-20","2021-08-18","2021-09-22","2019-03-15","2022-10-07","2023-02-10","2022-03-30","2022-08-03","2022-09-13","2021-11-26","2022-10-21","2021-09-28","2018-05-18","2022-11-11","2018-06-12","2022-10-10","2022-12-06","2022-08-19","2022-11-27","2019-09-22","2022-12-14","2022-11-16","2015-08-11","2020-01-24","2022-10-26","2020-11-02","2019-05-16","2021-02-11","2022-10-26","2023-01-10","2021-08-19","2023-01-12","2021-01-31","2021-09-27","2022-04-03","2023-01-22","2023-02-10","2023-02-09",null,"2016-04-21","2020-05-01","2021-11-30","2022-08-17","2022-09-24","2023-01-19","2022-12-08",null,"2022-04-02","2022-08-22","2022-08-31","2022-08-19","2023-01-24","2022-08-20","2019-11-20","2021-12-06","2022-12-15","2023-02-01","2023-01-11","2022-12-02","2022-10-18","2022-02-11","2022-12-09","2021-10-13","2022-07-22","2023-01-24","2022-10-10","2023-02-22","2023-01-11","2023-02-01","2022-03-28","2021-11-30","2022-05-25","2023-01-31","2022-04-19","2022-11-03","2023-01-23","2021-10-13","2022-08-22","2023-01-22","2022-03-16","2022-12-05","2022-03-03","2023-01-31","2021-11-30","2018-09-17","2019-04-21","2023-01-23","2022-10-26"],["CRAN (R 4.2.2)","CRAN (R 4.2.0)","CRAN (R 4.2.0)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.0)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)",null,"CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)",null,null,"CRAN (R 4.2.2)",null,"CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.0)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.0)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.0)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)",null,"CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)",null,"CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.0)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>package<\/th>\n      <th>loadedversion<\/th>\n      <th>date<\/th>\n      <th>source<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":165,"autoWidth":true,"bInfo":false,"paging":false,"columnDefs":[],"order":[],"orderClasses":false,"orderCellsTop":true,"lengthMenu":[10,25,50,100,165]},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":[],"jsHooks":[]}</script>
 ```
 
 The R session information when compiling this book is shown below:
@@ -166,7 +166,7 @@ sessionInfo()
 ```
 ## R version 4.2.2 (2022-10-31 ucrt)
 ## Platform: x86_64-w64-mingw32/x64 (64-bit)
-## Running under: Windows 10 x64 (build 22623)
+## Running under: Windows 10 x64 (build 22621)
 ## 
 ## Matrix products: default
 ## 
@@ -180,9 +180,14 @@ sessionInfo()
 ## attached base packages:
 ## [1] stats     graphics  grDevices utils     datasets  methods   base     
 ## 
+## other attached packages:
+##  [1] lubridate_1.9.2 forcats_1.0.0   stringr_1.5.0   dplyr_1.1.0    
+##  [5] purrr_1.0.1     readr_2.1.4     tidyr_1.3.0     tibble_3.1.8   
+##  [9] ggplot2_3.4.1   tidyverse_2.0.0
+## 
 ## loaded via a namespace (and not attached):
-## [1] tools_4.2.2     shiny_1.7.4     knitr_1.41      rmarkdown_2.19 
-## [5] bookdown_0.31   htmltools_0.5.4 miniUI_0.1.1.1
+## [1] miniUI_0.1.1.1  rmarkdown_2.20  shiny_1.7.4     htmltools_0.5.4
+## [5] bookdown_0.32   tools_4.2.2     knitr_1.42
 ```
 
 
@@ -366,19 +371,25 @@ Incompletes can only be granted IF a student fails to complete the work of a cou
 
 <!--chapter:end:0102_engagement.Rmd-->
 
+
+
 # Accommodations Policy
 
 If you are (or become) disabled (in any capacity, permanently, or temporarily), and need accommodations in class, reading, or any other work in this course, please contact me to discuss your specific needs as soon as possible. 
 Under my favorite civil rights legislation, the Americans with Disabilities Act as amended you are legally entitled to reasonable accommodations for disabilities. In fact, Section 504 of the Rehabilitation Act of 1973, the [Americans with Disabilities Act (ADA) of 1990](https://beta.ada.gov/), and the [ADA Amendments Act (ADAAA) of 2008](https://en.wikipedia.org/wiki/ADA_Amendments_Act_of_2008) all prohibit discrimination against individuals with disabilities.
 I will do everything in my capacity as your professor to ensure that you receive those accommodations. 
 
-Students who need reasonable accommodations for disabilities also should contact the Center for Learning, Access, and Student Success  (118 Reynolda Hall, 336-758-5929,  [class.wfu.edu](https://class.wfu.edu/)). You can request accommodations through the [student portal (olympic.accessiblelearning.com/WFU/)](https://olympic.accessiblelearning.com/WFU/) These accommodations are not retroactive. Therefore, I strongly encourage you to use those accommodations. 
+Students who need reasonable accommodations for disabilities also should contact the Center for Learning, Access, and Student Success  (118 Reynolda Hall, 336-758-5929,  [class.wfu.edu](https://class.wfu.edu/)). You can request accommodations through the [student portal (olympic.accessiblelearning.com/WFU/)](https://olympic.accessiblelearning.com/WFU/) These accommodations are not retroactive. Therefore, I strongly encourage you to use those accommodations.  As a member of CLASS's faculty advising board, I am happy to connect you with CLASS and talk to you more if you have questions. (However, please note that I am a quantitative Psychologist, not a clinical psychologist. My expertise stems from lived experience.)
 
 Do not feel guilty about using them. 
 You rightfully deserve them, in the legal, moral, and ethical sense. 
 These accommodations are there so that you can be your best possible self. 
 
 
+```{=html}
+<blockquote class="twitter-tweet" data-width="550" data-lang="en" data-dnt="true" data-theme="light"><p lang="en" dir="ltr">Instead of asking only disabled people to disclose their disability, when it might not be safe to do so, why don&#39;t employers ask EVERYONE what their access needs and workplace adjustments are.<br><br>Normalise that everyone needs flexibility and the tools to do their job. <a href="https://twitter.com/hashtag/DisabilityRC?src=hash&amp;ref_src=twsrc%5Etfw">#DisabilityRC</a></p>&mdash; El Gibbs (@bluntshovels) <a href="https://twitter.com/bluntshovels/status/1463275576337129480?ref_src=twsrc%5Etfw">November 23, 2021</a></blockquote>
+
+```
 
 
 ## Self-Advocacy
@@ -419,9 +430,9 @@ You can [search for accommodation ideas](https://askjan.org/soar.cfm) by [specif
 
 # Classroom Climate
 
-I aim to create a learning environment for my students that supports a diversity of thoughts, perspectives, and experiences, and honors your identities (including but not limited to race, ethnicity, sex, gender, gender-identity, class, culture, sexual orientation, religion, disability, political affiliation). To help accomplish this:
+I aim to create a learning environment for my students that supports a diversity of thoughts, perspectives, and experiences, and honors your identities (including but not limited to race, ethnicity, sex, gender, gender-identity, class, culture, sexual orientation, religion, disability, political affiliation, military status). To help accomplish this:
 
-- If you have a name and/or set of pronouns that differ from those that appear in your official records, please let me know!
+- If you have a name or set of pronouns that differ from those that appear in your official records, please let me know!
 
 - If you feel like your performance in the class is being impacted by your experiences outside of class, please don't hesitate to come and talk with me. I can direct you to resources
 
@@ -449,28 +460,14 @@ That handbook outlines the University’s expectations for the integrity of your
 
 All submitted work must be your own. It is your responsibility to avoid even the appearance of cheating.
 
-Unless I have explicitly stated otherwise, every assessment is closed to outside resources (including, but not limited to books, notes, phones, people, Chegg, the internet). 
-Ignorance of the honor code and assignment instructions is not an acceptable explanation and/or defense. 
-
+Unless I have explicitly stated otherwise, every assessment is closed to outside resources (including, but not limited to books, notes, phones, people, Chegg, ChatGPT, the internet). 
+Ignorance of the honor code and assignment instructions is not an acceptable explanation or defense. 
 
 ## Common Sense
 
 To be clear, even if something is NOT explicitly forbidden in this document, that does not mean it is allowed. Please use your common sense here. If a reasonable person would consider it cheating, it's cheating. 
 
-## Violations
-
-Violations of this policy result in a zero for the assignment, my perpetual disappointment, and possible additional penalties, including, but not limited to:
-
-- a referral to honor council, 
-- failing the class,
-- a forensic regrading of all previous assessments,
-- forfeiting all extra credit, and
-- being excluded from the course curve, drop policy, late policy, and extra credit.
-
-
-
-
-## Things that I thought didn't need to be said, but apparently did need to be said.
+### Things that I thought didn't need to be said, but apparently did need to be said.
 
 Everything must be in your own words, regardless of any open-resource policy. 
 Open resources does not mean that you can copy and paste material from outside sources (or from course sources) directly into an assessment.
@@ -479,27 +476,46 @@ Assessments are a means for you to demonstrate your own understanding of the mat
 They are an opportunity to earn points through the demonstration of knowledge.
 
 
-### It is *ALWAYS* academic dishonesty...
+#### It is *ALWAYS* academic dishonesty...
 
-It is *ALWAYS* academic dishonesty to copy outside materials directly into a test or quiz. 
+- It is *ALWAYS* academic dishonesty to copy outside materials directly into a test or quiz. 
 
-It is *ALWAYS* academic dishonesty to copy lecture notes directly into a test or quiz.
+- It is *ALWAYS* academic dishonesty to copy lecture notes directly into a test or quiz.
 
-It is *ALWAYS* academic dishonesty to copy powerpoint slides directly into a test or quiz.
+- It is *ALWAYS* academic dishonesty to copy powerpoint slides directly into a test or quiz.
 
-It is still dishonest if you indirectly copy outside materials into a test or quiz.
+- It is *STILL* dishonest if you indirectly copy outside materials into a test or quiz.
 
-It is still dishonest if you then edit what you have copied. Frankly that is worse because you tried to hide that you did it.
+- It is *STILL* dishonest if you then edit what you have copied. Frankly that is worse because you tried to hide that you did it.
 
-It is *ALWAYS* academic dishonesty to share test questions.  
+- It is *ALWAYS* academic dishonesty to share test questions.  
 
-It is *ALWAYS* academic dishonesty to post course materials on any third-party websites. 
+- It is *ALWAYS* academic dishonesty to post course materials on any third-party websites. 
 
-It is *ALWAYS* academic dishonesty to misrepresent others work as your own.  
+- It is *ALWAYS* academic dishonesty to misrepresent others work as your own.  
 
-It is *ALWAYS* academic dishonesty to work together on tests or quizzes. 
-(And frankly, it is really obvious in Canvas when you work together. 
-I literally wrote a R program that checks for working together on tests. )
+- It is *ALWAYS* academic dishonesty to work together on tests or quizzes. (And frankly, it is really obvious in Canvas when you work together. I literally wrote a R program that checks for working together on tests. )
+
+
+## Ethical Use of Artificial Intelligence
+Note: This policy's language was adapted from this [reddit post](https://www.reddit.com/r/Professors/comments/11mmz8k/the_ethical_use_of_artificial_intelligence/)
+
+As artificial intelligence becomes more prevalent in our daily lives, it is crucial for students to understand the ethical considerations surrounding its use in academic settings. In my courses, students are expected to use AI in a manner which upholds the values of academic integrity. In general, the use of AI should never compromise development in critical thinking, research, and analysis. Along that line, the use of AI to generate content, manipulate the tone of work, create data, or summarize/shorten another author's work for quicker consumption is considered academic dishonesty and strictly prohibited.
+
+Alternatively, students are encouraged towards using AI to assist in research and writing process in ways which encourage the learning process and mitigate menial tasks. For example, students may use AI to create a table to help visualize complex data, develop personalized learning and reading plans, and assist in correcting grammar and spelling errors.
+
+Please note that any unethical use of AI in my courses will be considered academic dishonesty and may result in disciplinary action. Students are responsible for ensuring that their use of AI is in compliance with the course policies on academic integrity.
+
+
+## Violations
+
+Violations of this policy result in a zero for the assignment, my perpetual disappointment, and possible additional penalties and disciplinary actions, including, but not limited to:
+
+- a referral to honor council, 
+- failing the class,
+- a forensic regrading of all previous assessments,
+- forfeiting all extra credit, and
+- being excluded from the course curve, drop policy, late policy, and extra credit.
 
 <!--chapter:end:0104_honesty.Rmd-->
 
@@ -564,14 +580,14 @@ Students are advised that Wake Forest University faculty members hold the copyri
 
 
 
-Here's the deal. I'm *definitely* at increased risk of developing complications from a COVID-19 infection. My disability is FINALLY on the CDC list of at risk-conditions^[https://www.cdc.gov/coronavirus/2019-ncov/hcp/clinical-care/underlyingconditions.html#anchor_1618433687270]. To mitigate those higher risks, I require masks in my classroom. This disability accommodation has been authorized and approved by the university, as a reasonable accommodation. In this class, mask compliance is essential for us (and me) making it through the semester. <!-- At present, I am in the position where I have to put my health in your hands. I have many thoughts as to why, how, and who has led to me being in this present position. I don't fault students. However, I need you to understand that the stakes are high. -->
+Here's the deal... I'm *definitely* at increased risk of developing complications from a COVID-19 infection. My disability is FINALLY on the CDC list of at risk-conditions^[https://www.cdc.gov/coronavirus/2019-ncov/hcp/clinical-care/underlyingconditions.html#anchor_1618433687270]. To mitigate those higher risks, I require masks in my classroom. This disability accommodation has been authorized and approved by the university, as a reasonable accommodation. In this class, mask compliance is essential for us (and me) making it through the semester. <!-- At present, I am in the position where I have to put my health in your hands. I have many thoughts as to why, how, and who has led to me being in this present position. I don't fault students. However, I need you to understand that the stakes are high. -->
 
 Regardless of any changes to university policy or mask mandates, we will be masked for the entire semester. You will put your mask on *before* you enter my class. Your mask will cover your nose and mouth. I will stop class if I see your nose. 
 If you feel sick or are exposed, please don't come to class. I will happily meet with you (remotely) to fill you in. 
 
-- If you struggle with securing your mask, I am very happy to show you how to properly secure your mask^[https://www.youtube.com/watch?v=GzTAZDsNBe0]. The CDC provides plain language guidance that you may find helpful.^[https://www.cdc.gov/coronavirus/2019-ncov/easy-to-read/diy-cloth-face-coverings.html]
+- If you struggle with securing your mask, I am very happy to show you how to properly secure your mask.^[https://www.youtube.com/watch?v=GzTAZDsNBe0] The CDC provides plain language guidance that you may find helpful.^[https://www.cdc.gov/coronavirus/2019-ncov/easy-to-read/diy-cloth-face-coverings.html]
 
-- If your struggle with masks is due to your own disability, I am happy to connect you with student disability services. We can go through the interactive process with CLASS. Through that interactive process we can determine if your disability can be accommodated without fundamentally altering the course. These alternative accommodations could include providing you with differ styles of masks, or additional training on how to properly secure your mask.
+- If your struggle with masks is due to your own disability, I am happy to connect you with student disability services. We can go through the interactive process with CLASS. Through that interactive process CLASS can determine if your disability can be accommodated without fundamentally altering the course. These alternative accommodations could include providing you with different styles of masks, or additional training on how to properly secure your mask.
 
 However, if you refuse to wear a mask, you need to leave. If you refuse to leave, I will leave. And if I leave, there is no class.
 
@@ -584,6 +600,7 @@ Although university policy states that we can request masks instead of requiring
 
 ```{=html}
 <blockquote class="twitter-tweet" data-width="550" data-lang="en" data-dnt="true" data-theme="light"><p lang="en" dir="ltr">Building <a href="https://twitter.com/hashtag/mask?src=hash&amp;ref_src=twsrc%5Etfw">#mask</a> wearing into my syllabi—tied right to the learning outcomes. (Wording not finalized!) <a href="https://twitter.com/hashtag/AcademicTwitter?src=hash&amp;ref_src=twsrc%5Etfw">#AcademicTwitter</a> <a href="https://t.co/iT9MEjKXaV">pic.twitter.com/iT9MEjKXaV</a></p>&mdash; @justjessphd@mstdn.social (@justjess_PhD) <a href="https://twitter.com/justjess_PhD/status/1556790562711281666?ref_src=twsrc%5Etfw">August 8, 2022</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ```
 
@@ -765,8 +782,8 @@ Trust me, you do not want me to curve by assignment.
 
 
 ```{=html}
-<div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-0f2aa9d324848bbb962f" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-0f2aa9d324848bbb962f">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],["08/22","08/29","09/05","09/12","09/19","09/26","10/03","10/10","10/17","10/24","10/31","11/07","11/14","11/21","11/28","12/05"],["What is Personality","Personality Research Methods","Assessment, Evaluation, and Ethics","Trait Approach and Personality Judgment","Big Five","Personality over the Lifespan","Biological Approaches to Psychology","Behavior Genetics","Evolutionary Psychology","Cross-Cultural Psychology","Freud","Psychoanalysis After Freud","Personality Processes and Positive Psych","Thanksgiving Break!","Personality and Health",null],["Week 01, 08/22 - 08/26","Week 02, 08/29 - 09/02","Week 03, 09/05 - 09/09","Week 04, 09/12 - 09/16","Week 05, 09/19 - 09/23","Week 06, 09/26 - 09/30","Week 07, 10/03 - 10/07","Week 08, 10/10 - 10/14","Week 09, 10/17 - 10/21","Week 10, 10/24 - 10/28","Week 11, 10/31 - 11/04","Week 12, 11/07 - 11/11","Week 13, 11/14 - 11/18","Week 14, 11/21 - 11/25","Week 15, 11/28 - 12/02","Week 16, 12/05 - 12/09"],[null,null,"Quiz",null,null,"Quiz","Assignment",null,null,"Quiz",null,"Assignment","Quiz",null,"Quiz","Quiz and Assignment"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n      <th>milestones<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0}],"order":[],"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+<div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-78cc964efcf95f64900b" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-78cc964efcf95f64900b">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],["08/22","08/29","09/05","09/12","09/19","09/26","10/03","10/10","10/17","10/24","10/31","11/07","11/14","11/21","11/28","12/05"],["What is Personality","Personality Research Methods","Assessment, Evaluation, and Ethics","Trait Approach and Personality Judgment","Big Five","Personality over the Lifespan","Biological Approaches to Psychology","Behavior Genetics","Evolutionary Psychology","Cross-Cultural Psychology","Freud","Psychoanalysis After Freud","Personality Processes and Positive Psych","Thanksgiving Break!","Personality and Health",null],["Week 01, 08/22 - 08/26","Week 02, 08/29 - 09/02","Week 03, 09/05 - 09/09","Week 04, 09/12 - 09/16","Week 05, 09/19 - 09/23","Week 06, 09/26 - 09/30","Week 07, 10/03 - 10/07","Week 08, 10/10 - 10/14","Week 09, 10/17 - 10/21","Week 10, 10/24 - 10/28","Week 11, 10/31 - 11/04","Week 12, 11/07 - 11/11","Week 13, 11/14 - 11/18","Week 14, 11/21 - 11/25","Week 15, 11/28 - 12/02","Week 16, 12/05 - 12/09"],[null,null,"Quiz",null,null,"Quiz","Assignment",null,null,"Quiz",null,"Assignment","Quiz",null,"Quiz","Quiz and Assignment"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n      <th>milestones<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0}],"order":[],"orderClasses":false},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":[],"jsHooks":[]}</script>
 ```
 
 
@@ -880,8 +897,8 @@ There will be multiple engagement activities in this course. These activities wi
 
 
 ```{=html}
-<div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-b11c0a0d162587d1ec11" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-b11c0a0d162587d1ec11">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17],["01/10","01/17","01/24","01/31","02/07","02/14","02/21","02/28","03/07","03/14","03/21","03/28","04/04","04/11","04/18","04/25","05/02"],["Introduction","Statistical Foundations","Describing Data with R","Univariate Distributions","Bivariate Distributions","Probability Theory","Binomials and other sampling distributions","Hypothesis Testing","Spring Break","T-Tests","Regression","Causal Inference","ANOVA","Applications in R","Applications in R","Review","NA"],["Week 01, 01/10 - 01/14","Week 02, 01/17 - 01/21","Week 03, 01/24 - 01/28","Week 04, 01/31 - 02/04","Week 05, 02/07 - 02/11","Week 06, 02/14 - 02/18","Week 07, 02/21 - 02/25","Week 08, 02/28 - 03/04","Week 09, 03/07 - 03/11","Week 10, 03/14 - 03/18","Week 11, 03/21 - 03/25","Week 12, 03/28 - 04/01","Week 13, 04/04 - 04/08","Week 14, 04/11 - 04/15","Week 15, 04/18 - 04/22","Week 16, 04/25 - 04/29","Week 17, 05/02 - 05/06"],[null,null,null,null,null,"Exam",null,null,"Assignment",null,null,null,"Exam",null,null,"Assignment","Exam"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n      <th>milestones<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0}],"order":[],"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+<div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-ea0125d122892fc8373b" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-ea0125d122892fc8373b">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17],["01/10","01/17","01/24","01/31","02/07","02/14","02/21","02/28","03/07","03/14","03/21","03/28","04/04","04/11","04/18","04/25","05/02"],["Introduction","Statistical Foundations","Describing Data with R","Univariate Distributions","Bivariate Distributions","Probability Theory","Binomials and other sampling distributions","Hypothesis Testing","Spring Break","T-Tests","Regression","Causal Inference","ANOVA","Applications in R","Applications in R","Review","NA"],["Week 01, 01/10 - 01/14","Week 02, 01/17 - 01/21","Week 03, 01/24 - 01/28","Week 04, 01/31 - 02/04","Week 05, 02/07 - 02/11","Week 06, 02/14 - 02/18","Week 07, 02/21 - 02/25","Week 08, 02/28 - 03/04","Week 09, 03/07 - 03/11","Week 10, 03/14 - 03/18","Week 11, 03/21 - 03/25","Week 12, 03/28 - 04/01","Week 13, 04/04 - 04/08","Week 14, 04/11 - 04/15","Week 15, 04/18 - 04/22","Week 16, 04/25 - 04/29","Week 17, 05/02 - 05/06"],[null,null,null,null,null,"Exam",null,null,"Assignment",null,null,null,"Exam",null,null,"Assignment","Exam"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n      <th>milestones<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0}],"order":[],"orderClasses":false},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":[],"jsHooks":[]}</script>
 ```
 
 
@@ -1123,8 +1140,8 @@ There will be multiple engagement activities in this course. These activities wi
 
 
 ```{=html}
-<div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-a18e8c0714ed31eb26b3" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-a18e8c0714ed31eb26b3">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15],["01/25","02/01","02/08","02/15","02/22","03/01","03/08","03/15","03/22","03/29","04/05","04/12","04/19","04/26","05/03"],["Foundations and Nature of Testing","History of Testing","Ethical and Social Considerations in Testing","Norms and the Meaning of Test Scores","Classical Test Theory","Reliability","Catch Up Week","Validity","Item Analysis","Factor Analysis","Item Response Theory","Practical Testing Things","Ability Testing","Personality Testing","Review"],["Week 01, 01/25 - 01/29","Week 02, 02/01 - 02/05","Week 03, 02/08 - 02/12","Week 04, 02/15 - 02/19","Week 05, 02/22 - 02/26","Week 06, 03/01 - 03/05","Week 07, 03/08 - 03/12","Week 08, 03/15 - 03/19","Week 09, 03/22 - 03/26","Week 10, 03/29 - 04/02","Week 11, 04/05 - 04/09","Week 12, 04/12 - 04/16","Week 13, 04/19 - 04/23","Week 14, 04/26 - 04/30","Week 15, 05/03 - 05/07"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0}],"order":[],"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+<div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-bf396b544e03c55f48df" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-bf396b544e03c55f48df">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15],["01/25","02/01","02/08","02/15","02/22","03/01","03/08","03/15","03/22","03/29","04/05","04/12","04/19","04/26","05/03"],["Foundations and Nature of Testing","History of Testing","Ethical and Social Considerations in Testing","Norms and the Meaning of Test Scores","Classical Test Theory","Reliability","Catch Up Week","Validity","Item Analysis","Factor Analysis","Item Response Theory","Practical Testing Things","Ability Testing","Personality Testing","Review"],["Week 01, 01/25 - 01/29","Week 02, 02/01 - 02/05","Week 03, 02/08 - 02/12","Week 04, 02/15 - 02/19","Week 05, 02/22 - 02/26","Week 06, 03/01 - 03/05","Week 07, 03/08 - 03/12","Week 08, 03/15 - 03/19","Week 09, 03/22 - 03/26","Week 10, 03/29 - 04/02","Week 11, 04/05 - 04/09","Week 12, 04/12 - 04/16","Week 13, 04/19 - 04/23","Week 14, 04/26 - 04/30","Week 15, 05/03 - 05/07"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0}],"order":[],"orderClasses":false},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":[],"jsHooks":[]}</script>
 ```
 
 
@@ -1138,7 +1155,7 @@ There will be multiple engagement activities in this course. These activities wi
 
 ## Course Description {-}
 
-Data Science for Psychologists (DS4P) introduces on the principles of data science, including data wrangling, modeling, visualization, and communication. In this class, we link those principles to psychological methods and open science practices by emphasizing exploratory analyses and description, rather than confirmatory analyses and prediction. We'll work our way thru Wickham and Grolemund's R for Data Science text (http://r4ds.had.co.nz/) and develop expertise in tidyverse (https://www.tidyverse.org/). This class emphasizes replication and reproducibility. DS4P is a practical skilled-based class and should be useful to students aiming for academia as well as those interested in industry. Applications of these methods can be applied to a full range of psychological areas, including perception (e.g, eye-tracking data), neuroscience (e.g., visualizing neural networks), and individual differences (e.g., valence analysis).
+Data Science for Psychologists (DS4P) introduces the principles of data science, including data wrangling, modeling, visualization, and communication. In this class, we link those principles to psychological methods and open science practices by emphasizing exploratory analyses and description, rather than confirmatory analyses and prediction. We'll work our way thru Wickham and Grolemund's R for Data Science text (http://r4ds.had.co.nz/) and develop expertise in tidyverse (https://www.tidyverse.org/). This class emphasizes replication and reproducibility. DS4P is a practical skilled-based class and should be useful to students aiming for academia as well as those interested in industry. Applications of these methods can be applied to a full range of psychological areas, including perception (e.g, eye-tracking data), neuroscience (e.g., visualizing neural networks), and individual differences (e.g., valence analysis).
 
 
 ### Broad goals for the course:  {-}
@@ -1274,8 +1291,8 @@ Note that I'll be using your contracts to guide my tinkering.
 
 
 ```{=html}
-<div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-5de0915ad979543b0ab9" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-5de0915ad979543b0ab9">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],["01/09","01/16","01/23","01/30","02/06","02/13","02/20","02/27","03/06","03/13","03/20","03/27","04/03","04/10","04/17","04/24"],["What is Data Science and Meet the Toolkit","Data and Visualization","Welcome to the Tidyverse","Data types and Data Transformations","Effective data visualization","Scientific Communication and confounding","Functions and Automation","Webscraping","Spring Break","Ethics","Tidy Models","Overfitting and Cross validation","Quantifying uncertainty","Rshiny","Machine Learning","Presentations"],["Week 01, 01/09 - 01/13","Week 02, 01/16 - 01/20","Week 03, 01/23 - 01/27","Week 04, 01/30 - 02/03","Week 05, 02/06 - 02/10","Week 06, 02/13 - 02/17","Week 07, 02/20 - 02/24","Week 08, 02/27 - 03/03","Week 09, 03/06 - 03/10","Week 10, 03/13 - 03/17","Week 11, 03/20 - 03/24","Week 12, 03/27 - 03/31","Week 13, 04/03 - 04/07","Week 14, 04/10 - 04/14","Week 15, 04/17 - 04/21","Week 16, 04/24 - 04/28"],[null,"Contract",null,null,null,null,null,null,null,null,null,null,null,null,null,"Presentation"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n      <th>milestones<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0}],"order":[],"orderClasses":false}},"evals":[],"jsHooks":[]}</script>
+<div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-c35526019efbd2120952" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-c35526019efbd2120952">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],["01/09","01/16","01/23","01/30","02/06","02/13","02/20","02/27","03/06","03/13","03/20","03/27","04/03","04/10","04/17","04/24"],["What is Data Science and Meet the Toolkit","Data and Visualization","Welcome to the Tidyverse","Data types and Data Transformations","Effective data visualization","Scientific Communication and confounding","Functions and Automation","Webscraping","Spring Break","Ethics","Tidy Models","Overfitting and Cross validation","Quantifying uncertainty","Rshiny","Machine Learning","Presentations"],["Week 01, 01/09 - 01/13","Week 02, 01/16 - 01/20","Week 03, 01/23 - 01/27","Week 04, 01/30 - 02/03","Week 05, 02/06 - 02/10","Week 06, 02/13 - 02/17","Week 07, 02/20 - 02/24","Week 08, 02/27 - 03/03","Week 09, 03/06 - 03/10","Week 10, 03/13 - 03/17","Week 11, 03/20 - 03/24","Week 12, 03/27 - 03/31","Week 13, 04/03 - 04/07","Week 14, 04/10 - 04/14","Week 15, 04/17 - 04/21","Week 16, 04/24 - 04/28"],[null,"Contract",null,null,null,null,null,null,null,null,null,null,null,null,null,"Presentation"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n      <th>milestones<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0}],"order":[],"orderClasses":false},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":[],"jsHooks":[]}</script>
 ```
 
 
@@ -1296,9 +1313,9 @@ Below you'll find answers to the questions that I get asked the most by students
 I don't want to discourage you from asking questions. However, asking me is not an efficient method for finding facts and searchable information...
 
 
-```
-#> Error in tweet_blockquote(tweet_url = tweet_url, maxwidth = maxwidth,  : 
-#>   Forbidden (HTTP 403).
+```{=html}
+<blockquote class="twitter-tweet" data-width="550" data-lang="en" data-dnt="true" data-theme="light"><p lang="en" dir="ltr">Considering launching the following autoreply:<br>Frequently Asked Questions<br>Q: &quot;Can you -&quot;<br>A: I cannot.</p>&mdash; Alison Ledgerwood (@AlisonLedg) <a href="https://twitter.com/AlisonLedg/status/1441181845706579969?ref_src=twsrc%5Etfw">September 23, 2021</a></blockquote>
+
 ```
 
 ## How can I get ahold of you?
@@ -1362,7 +1379,7 @@ You can find it on canvas, under grades. I will not look up this grade for you. 
 
 #### Where can I find help for canvas?
 
-Although I am not Canvas tech support, I have provided some answers and resources to commonly asked questions 
+If you're having trouble with Canvas, you should first search the [Canvas Guides](https://community.canvaslms.com/t5/Canvas-Basics-Guide/tkb-p/basics) and then reach out to canvas support. Although I am not Canvas tech support, I have provided some answers and resources to commonly asked questions in a later [section][canvas]. 
 
 ### Where can I find textbooks and course materials?
 
@@ -1375,6 +1392,7 @@ Although I am not Canvas tech support, I have provided some answers and resource
 
 ```{=html}
 <blockquote class="twitter-tweet" data-width="550" data-lang="en" data-dnt="true" data-theme="light"><p lang="en" dir="ltr">Once again, I DO NOT recommend students go to libgen (dot) rs and download books for their upcoming courses. I am NOT advocating for getting and sharing free pdfs of required texts. DON&#39;T DO IT.</p>&mdash; itsgalo 🗯 (@GaloAndStuff) <a href="https://twitter.com/GaloAndStuff/status/1424818560417902604?ref_src=twsrc%5Etfw">August 9, 2021</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ```
 
@@ -1490,7 +1508,8 @@ If you still have trouble after troubleshooting, post the problem to the discuss
 
 ## Canvas {canvas}
 
-#### How do I use Canvas for class?
+
+### How do I use Canvas for class?
 
 Students will use Canvas to access course content.
 All work/assignments/projects will be distributed and collected through Canvas.
@@ -1574,12 +1593,6 @@ Check out the canvas [basic guides](https://community.canvaslms.com/t5/Canvas-Ba
 Because some of the requirements to unlock it the activity are not met. To unlock the activity/module, you need to do whatever is listed.
 
 <img src="img/requirements.png" width="50%" style="display: block; margin: auto;" />
-
-## Resources
-
-
-
-
 
 
 ## Still have questions? 

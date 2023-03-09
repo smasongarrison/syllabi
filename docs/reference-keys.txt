@@ -22,9 +22,10 @@ resources
 classroom-climate
 academic-honesty-policy
 common-sense
-violations
 things-that-i-thought-didnt-need-to-be-said-but-apparently-did-need-to-be-said.
 it-is-always-academic-dishonesty
+ethical-use-of-artificial-intelligence
+violations
 communication
 minimums
 self-advocacy-1
@@ -85,7 +86,6 @@ how-do-i-accurately-check-my-grades-in-canvas
 how-do-i-do-this-specific-thing-in-canvas
 why-is
 why-is-the-assignmentactivityquiz-locked
-resources-1
 still-have-questions
 why-did-a-question-i-asked-via-email-show-up-on-the-discussion-board
 how-to-do-well-in-my-classes

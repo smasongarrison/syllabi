@@ -1,10 +1,15 @@
+```{r include = FALSE}
+source("common.R")
+library(webshot)
+```
+
 # Accommodations Policy
 
 If you are (or become) disabled (in any capacity, permanently, or temporarily), and need accommodations in class, reading, or any other work in this course, please contact me to discuss your specific needs as soon as possible. 
 Under my favorite civil rights legislation, the Americans with Disabilities Act as amended you are legally entitled to reasonable accommodations for disabilities. In fact, Section 504 of the Rehabilitation Act of 1973, the [Americans with Disabilities Act (ADA) of 1990](https://beta.ada.gov/), and the [ADA Amendments Act (ADAAA) of 2008](https://en.wikipedia.org/wiki/ADA_Amendments_Act_of_2008) all prohibit discrimination against individuals with disabilities.
 I will do everything in my capacity as your professor to ensure that you receive those accommodations. 
 
-Students who need reasonable accommodations for disabilities also should contact the Center for Learning, Access, and Student Success  (118 Reynolda Hall, 336-758-5929,  [class.wfu.edu](https://class.wfu.edu/)). You can request accommodations through the [student portal (olympic.accessiblelearning.com/WFU/)](https://olympic.accessiblelearning.com/WFU/) These accommodations are not retroactive. Therefore, I strongly encourage you to use those accommodations. 
+Students who need reasonable accommodations for disabilities also should contact the Center for Learning, Access, and Student Success  (118 Reynolda Hall, 336-758-5929,  [class.wfu.edu](https://class.wfu.edu/)). You can request accommodations through the [student portal (olympic.accessiblelearning.com/WFU/)](https://olympic.accessiblelearning.com/WFU/) These accommodations are not retroactive. Therefore, I strongly encourage you to use those accommodations.  As a member of CLASS's faculty advising board, I am happy to connect you with CLASS and talk to you more if you have questions. (However, please note that I am a quantitative Psychologist, not a clinical psychologist. My expertise stems from lived experience.)
 
 Do not feel guilty about using them. 
 You rightfully deserve them, in the legal, moral, and ethical sense. 
@@ -53,7 +58,7 @@ You can [search for accommodation ideas](https://askjan.org/soar.cfm) by [specif
 
 # Classroom Climate
 
-I aim to create a learning environment for my students that supports a diversity of thoughts, perspectives, and experiences, and honors your identities (including but not limited to race, ethnicity, sex, gender, gender-identity, class, culture, sexual orientation, religion, disability, political affiliation). To help accomplish this:
+I aim to create a learning environment for my students that supports a diversity of thoughts, perspectives, and experiences, and honors your identities (including but not limited to race, ethnicity, sex, gender, gender-identity, class, culture, sexual orientation, religion, disability, political affiliation, military status). To help accomplish this:
 
 - If you have a name or set of pronouns that differ from those that appear in your official records, please let me know!
 

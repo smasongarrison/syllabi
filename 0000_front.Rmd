@@ -1,14 +1,7 @@
-
-
-
-
-
 ## How to use this syllabus {-}
 
 
 This syllabus website is dynamic. If you catch typos, errors, please issue a pull request with the fixes. Unless otherwise indicidated, all the policies apply to all of my courses.
-
-
 
 
 To navigate this syllabus collection, use the table of contents on the left side of the screen. You can open or close the table of contents using the hamburger icon (horizontal bars) at the top of the document. There are also additional icons at the top of the document that allow you to search the document, change the size, font, or color scheme of the page. Please note that the syllabus may be updated throughout the semester, but students are only bound to the policies in place when they signed their syllabus.
