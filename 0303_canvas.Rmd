@@ -1,4 +1,6 @@
-## Canvas {canvas}
+# Canvas {canvas}
+
+## Canvas Questions
 
 ### How do I use Canvas for class?
 
@@ -87,9 +89,6 @@ Because some of the requirements to unlock it the activity are not met. To unloc
 ```{r echo = FALSE,out.width='50%', fig.align='center'}
 include_graphics("img/requirements.png")
 ```
-
-
-## Canvas
 
 ### Canvas: Helpful Tips
 
