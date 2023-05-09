@@ -1,0 +1,171 @@
+## Canvas {canvas}
+
+### How do I use Canvas for class?
+
+Students will use Canvas to access course content.
+All work/assignments/projects will be distributed and collected through Canvas.
+
+### I'm having trouble with Canvas -- help!
+
+If you're having trouble with Canvas, you should first search the [Canvas Guides](https://community.canvaslms.com/t5/Canvas-Basics-Guide/tkb-p/basics) and then reach out to canvas support.
+
+
+#### How do I contact the Canvas Help Desk?
+You can search the Canvas Guides or contact the Canvas Support Helpline by clicking the Help icon (circle with a question mark) in the Account menu.
+
+ 
+### How do I... ? 
+
+Although I am not Canvas tech support, here are some answers to commonly asked questions.
+
+
+#### How do I set my notifications on Canvas for my classes?
+You should navigate to your "Account" by pressing the icon in the top-left corner of this page, right under the Canvas Logo. Then you press "Notifications" and will be brought to a screen where you can change and adjust your notifications.
+
+
+#### How do I submit an assignment on Canvas?
+Navigate to your assignment and click this button
+Double check your work that it's complete and saved correctly.
+Upload or type your work and click submit assignment.
+
+
+#### How do I know when an assignment has been submitted?
+After you click "submit assignment," you will see "confetti" on your screen.
+
+
+#### How do I use the Calendar feature in Canvas?
+Your calendar will allow you to see assignments and important dates for all of your classes.
+Click the calendar icon to access your calendar.
+From here, you will see all of your classes on the right side of the page
+You can click to see specific class work, or color code your calendar.
+
+
+#### How do I see feedback on my assignments submitted on Canvas?
+Log into the course and click on the 'Grades' link.
+Find the assignment and click the assignment name.
+Click on 'View Feedback' to view all feedback, including comments and any additional annotated comments made on the submission.
+
+
+#### How do I accurately check my grades in Canvas?
+
+You're probably familiar with checking your grades for a [current course in Canvas](https://community.canvaslms.com/t5/Student-Guide/How-do-I-view-my-grades-in-a-current-course/ta-p/493), but did you know that you might not be seeing an accurate calculation of your final grade when you check your grades at the end of the semester?
+
+In order to get an accurate view of your final grade towards the end of the semester,
+
+```{r echo = FALSE,out.width='50%', fig.align='center'}
+include_graphics("img/grades.png")
+```
+
+You may also be seeing icons and colors when you view your grades. [Learn what these grade icons and colors mean](https://community.canvaslms.com/docs/DOC-16533-4212829283).
+
+[Note: Answer Adapted from Florida State University Canvas Support](https://support.canvas.fsu.edu/kb/article/1068-students-make-sure-you-are-seeing-the-right-grades-in-canvas/)
+
+#### How do I do this specific thing in Canvas?
+
+Check out the canvas [basic guides](https://community.canvaslms.com/t5/Canvas-Basics-Guide/tkb-p/basics)
+
+[How do I use the Global Navigation Menu?](https://community.canvaslms.com/docs/DOC-10603-4212710332)
+
+[How do I use the Dashboard?](https://community.canvaslms.com/docs/DOC-10587-4212710330)
+
+[How do I use the To Do list and sidebar in the Dashboard?](https://community.canvaslms.com/docs/DOC-10589-4212717407)
+
+[How do I edit my profile in my user account? ](https://community.canvaslms.com/docs/DOC-10628-4212710342)
+
+[How do I add a profile picture in my user account?](https://community.canvaslms.com/docs/DOC-10599-4212710334)
+
+[How do I set my Canvas notification preferences?](https://community.canvaslms.com/docs/DOC-10624-4212710344)
+
+
+### Why is...
+
+
+#### Why is the assignment/activity/quiz locked?
+
+Because some of the requirements to unlock it the activity are not met. To unlock the activity/module, you need to do whatever is listed.
+
+```{r echo = FALSE,out.width='50%', fig.align='center'}
+include_graphics("img/requirements.png")
+```
+
+
+## Canvas
+
+### Canvas: Helpful Tips
+
+#### Canvas Student Guide
+
+The Canvas Student Guide provides information and guidance related to all things Canvas! Below, you will find both the text and video versions of the Student Guide: 
+
+* [Canvas Student Guide - Table of Contents](https://community.canvaslms.com/t5/Student-Guide/tkb-p/student)
+ 
+* [Canvas Student Video Guide - Table of Contents](https://community.canvaslms.com/t5/Student-Guide/tkb-p/student)
+
+#### Getting Organized
+
+Global Navigation:
+
+* [How do I use the Global Navigation Menu? ](https://community.canvaslms.com/t5/Student-Guide/How-do-I-use-the-Global-Navigation-Menu-as-a-student/ta-p/522)
+
+* [How do I use the Dashboard?](https://community.canvaslms.com/t5/Student-Guide/How-do-I-use-the-Dashboard-as-a-student/ta-p/512)
+
+* [How do I use the To Do list and sidebar in the Dashboard?](https://community.canvaslms.com/t5/Student-Guide/How-do-I-use-the-To-Do-list-and-sidebar-in-the-Dashboard-as-a/ta-p/511)
+
+Profile and User Settings:
+
+* [How do I edit my profile in my user account? ](https://community.canvaslms.com/t5/Student-Guide/How-do-I-edit-my-profile-in-my-user-account-as-a-student/ta-p/421)
+
+* [How do I add a profile picture in my user account?](https://community.canvaslms.com/t5/Student-Guide/How-do-I-add-a-profile-picture-in-my-user-account-as-a-student/ta-p/518)
+
+* [How do I set my Canvas notification preferences?](https://community.canvaslms.com/t5/Student-Guide/How-do-I-manage-my-Canvas-notification-settings-as-a-student/ta-p/434)
+
+* [Calendar](https://vimeo.com/78015141)
+
+* [Files](https://vimeo.com/74772644)
+
+### Canvas: Quick Links
+
+#### Your Canvas Profile
+
+* [Profiles](https://community.canvaslms.com/t5/Student-Guide/How-do-I-edit-my-profile-in-my-user-account-as-a-student/ta-p/421) allow you to update your name, preferred contact methods, and any personal links for your account. Your profile information can be viewed by all users in your courses. In an online course, your profile is an important way of letting your instructor and classmates "see" you.
+
+
+#### Notifications
+
+* The [notification](https://community.canvaslms.com/t5/Student-Guide/How-do-I-manage-my-Canvas-notification-settings-as-a-student/ta-p/434) system is designed to help you keep track of the activity in your Canvas sites. It's important that you customize the default settings to fit the way you want to receive notifications. (You don't want to miss any important communications from your instructor!)
+
+
+#### Other Helpful Canvas Guides Links
+
+* [Student Guide Table of Contents](https://community.canvaslms.com/t5/Student-Guide/tkb-p/student)
+This will show you a list of all the topics within the Student Guides.
+
+* [View your grades](https://community.canvaslms.com/t5/Student-Guide/How-do-I-view-my-grades-in-a-current-course/ta-p/493)
+Learn how to view your grades, scoring details and instructor comments on assignments.
+
+* [Submitting an online assignment](https://community.canvaslms.com/t5/Student-Guide/How-do-I-submit-an-online-assignment/ta-p/503)
+Instructors can choose what kind of online submissions they want you to use. Learn how to submit your assignment online.
+
+* [Using the Inbox](https://community.canvaslms.com/t5/Student-Guide/How-do-I-use-the-Inbox-as-a-student/ta-p/532)
+Many instructors prefer (or even require) that you use the Canvas Inbox (also called "Conversations") rather than your regular email account.
+
+* [Using Canvas on your mobile device](https://community.canvaslms.com/t5/Student-Guide/How-can-I-use-Canvas-on-my-mobile-device-as-a-student/ta-p/282)
+On mobile devices, Canvas is designed to be used within Canvas mobile applications. Be aware that not all features are fully supported in the app. (It's recommended you do "sophisticated" tasks like taking quizzes and submitting assignments using a regular web browser.)
+
+### Accurately Calculating Grades in Canvas
+
+**Students: Make sure you are seeing the right grades in Canvas!**
+
+* You're probably familiar with [checking your grades for a current course in Canvas](https://community.canvaslms.com/t5/Student-Guide/How-do-I-view-my-grades-in-a-current-course/ta-p/493), but did you know that you might not be seeing an accurate calculation of your final grade when you check your grades at the end of the semester?
+
+* In order to get an accurate view of your final grade towards the end of the semester, make sure to uncheck the Calculate based only on graded assignments checkbox:
+
+
+```{r echo = FALSE,out.width='50%', fig.align='center'}
+include_graphics("img/grades.png")
+```
+
+
+* You may also be seeing icons and colors when you view your grades. [Learn what these grade icons and colors mean](https://community.canvaslms.com/t5/Student-Guide/How-do-I-use-the-icons-and-colors-in-the-Grades-page/ta-p/476)
+
+* Adapted from: [Florida State University Canvas Support](https://support.canvas.fsu.edu/kb/article/1068-students-make-sure-you-are-seeing-the-right-grades-in-canvas/)
