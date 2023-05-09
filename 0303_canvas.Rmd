@@ -1,3 +1,13 @@
+```{r include = FALSE}
+source("common.R")
+library(tidyverse)
+library(devtools)
+library(DT)
+library(vembedr)
+library(knitr)
+```
+
+
 # Canvas Guide {canvas}
 
 This consolidated guide provides information on how to use Canvas effectively for your class, manage your profile and settings, and access resources for additional assistance.
