@@ -161,13 +161,28 @@ Please, understand that there's not much more I can do at this point. And I have
 What you are experiencing is the result of years of speech therapy and is a massive improvement. If you *genuinely* struggle to understand me, please TALK to me about it. I can connect you with resources, including my scripts, previous recordings of lectures. If those don't help, we can work in the LAC to figure out an accommodation that works for both of us. PLEASE do not wait until after the course is over and complain after the fact. That is not helpful to anyone. 
 
 ### How ...
+
+
+#### How do I use Canvas for class?
+
+Students will use Canvas to access course content.
+All work/assignments/projects will be distributed and collected through Canvas.
+
+##### I'm having trouble with Canvas -- help!
+
+Although I am not Canvas tech support, I've provided a helpful collection of resources in the next section. If you're still having trouble with Canvas, you should search the [Canvas Guides](https://community.canvaslms.com/t5/Canvas-Basics-Guide/tkb-p/basics) and then reach out to canvas support.
+
+##### How do I contact the Canvas Help Desk?
+You can search the Canvas Guides or contact the Canvas Support Helpline by clicking the Help icon (circle with a question mark) in the Account menu.
+
+
 #### How much time should I spend on one class every week?
 The time you spend on a class can vary. No two instructors will format their classes exactly the same. Nevertheless, under the standard ["Carnegie Unit"]  (https://www.carnegiefoundation.org/faqs/carnegie-unit/), each credit hour corresponds to a *minimum* of 3 hours of student engagement per week for a traditional 15-week course. This time may be spent on discussions, readings, and lectures, study, and research, and assignments. See the WFU registrar for [more details](https://registrar.wfu.edu/semester-credit-hour/) if you'd like 
 
 
 If you find yourself spending a lot more or a lot less than 9 hours per week on this class, please let me know. That probably means that either you're doing too much or too little.
 
-### How do I ask professors for extensions?
+#### How do I ask professors for extensions?
 
 ```{r, echo=FALSE}
 try_include_tweet("https://twitter.com/BettySLai/status/1455555111397117954")
