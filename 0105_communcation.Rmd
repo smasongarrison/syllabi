@@ -14,23 +14,32 @@ You are expected to read every LMS announcement, message, and email, as well as 
 
 If you are struggling in this class, please talk to me. Do not assume that I know what is going on in your life. Talk to me and tell me what you need.
 
-### Grading Questions
+### Requests for Re-Assessment
 
-Please send any questions about grades in writing via email within *two* weeks after the assignment is returned. If I erred in scoring or in calculating the grade, I will happily update the record. Otherwise, I will be most receptive toward questions framed in terms of your learning (rather than simply your performance), as research has shown that focusing overly on extrinsic rewards (like grades) is likely to lead to all sorts of outcomes that I don't wish for you (lower interest in the course material, lower learning, lower enjoyment).
+Please send any questions about grades in writing via email within *one* week after the assignment is returned. If I erred in scoring or in calculating the grade, I will happily update the record. Otherwise, I will be most receptive toward questions framed in terms of your learning (rather than simply your performance), as research has shown that focusing overly on extrinsic rewards (like grades) is likely to lead to all sorts of outcomes that I don't wish for you (lower interest in the course material, lower learning, lower enjoyment).
 
+<!--
+You may request a re-assessment of any graded work in this course, subject to the following conditions:
 
+- The request for re-assessment must be made by email within one (1) working week of the grade being released to you.
+
+- You must provide a written rationale for requesting re-assessment, specifically referencing the learning outcomes, assessment rubric, qualitative grade descriptors, and any written feedback provided to you.
+
+- The item being re-assessed must have a material impact on your overall course grade. 
+- The full item being re-assessed will be completely re-assessed using the rubric and your grade may remain unchanged, increase, or decrease as a result of re-assessment.
+-->
 ## Instructor Availability
 
 I am readily accessible during business hours (9:00AM-5:30PM; Monday-Friday) via [email](garrissm@wfu.edu)/ LMS/ git/ zoom/ carrier pigeon/[calendly](https://calendly.com/smasongarrison/). Outside those hours, I do not typically respond to messages, in order to devote time to my family, rest, and living my life. Messages received during these times will receive attention once I am back online. Otherwise you can expect to receive a response to your message within 12 to 24 hours, often much sooner. If you do not hear back after 36 hours, please follow-up with me. 
 
 I have given out my cell-phone number, in the case of *true* emergencies. Please be mindful that poor planning on your part does not constitute an emergency for me. 
 
-### Is it an true emergency?
+### Is it a true emergency?
 
 How do you know if it is a true emergency? 
 
 * Ask yourself, would a reasonable person consider this situation an emergency? 
-* How would the situation change if you waited a until morning?
+* How would the situation change if you waited until morning?
 * Could this situation have been prevented by starting earlier?
 * Would Professor Mason really want to know about this situation *right* now? 
 * If you were in Professor Mason's shoes, would you consider this an emergency?
@@ -39,7 +48,7 @@ How do you know if it is a true emergency?
 
 ### Recording of Class Sessions. 
 
-All or some in-person and synchronous classes may be recorded.  Student images and voices may be captured in these recordings. I will do my best to protect that information from being shared outside the confines of the class. Recordings with students in them will be available for viewing only by students enrolled in the class via Canvas or an alternative platform. The recordings are intended to improve access course content. No other recording, including by students, is permitted without explicit permission. (Recordings for notetaking or accommodations are typically permitted. Just chat with me about it.)
+All or some in-person and synchronous classes may be recorded.  Student images and voices may be captured in these recordings. I will do my best to protect that information from being shared outside the confines of the class. Recordings with students in them will be available for viewing only by students enrolled in the class via Canvas or an alternative platform. The recordings are intended to improve access to course content. No other recording, including by students, is permitted without explicit permission. (Recordings for notetaking or accommodations are typically permitted. Just chat with me about it.)
 
 ### Recording Tails in our Synchronous Classes. 
 
