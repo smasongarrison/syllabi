@@ -6,6 +6,7 @@ library(webshot)
 library(tidyverse)
 library(tweetrmd)
 ```
+<!-- Note: This COVID-19 policy section should be reviewed and updated regularly to reflect current university and public health guidelines. Last reviewed: [INSERT DATE] -->
 
 Here's the deal... I'm *definitely* at increased risk of developing complications from a COVID-19 infection. My disability is FINALLY on the CDC list of at risk-conditions^[https://www.cdc.gov/coronavirus/2019-ncov/hcp/clinical-care/underlyingconditions.html#anchor_1618433687270]. To mitigate those higher risks, I require masks in my classroom. This disability accommodation has been authorized and approved by the university, as a reasonable accommodation. In this class, mask compliance is essential for us (and me) making it through the semester. <!-- At present, I am in the position where I have to put my health in your hands. I have many thoughts as to why, how, and who has led to me being in this present position. I don't fault students. However, I need you to understand that the stakes are high. -->
 

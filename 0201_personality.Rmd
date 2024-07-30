@@ -2,10 +2,13 @@
 
 ```{r setup, include=FALSE}
 first_day <- as.Date("2022-08-22")
-cache=F
-number_of_classes=29
-number_of_weeks=16
-
+cache <- F
+number_of_classes <- 29
+number_of_weeks <- 16
+num_quizzes <- 6
+num_counted_quizzes <- 5
+num_assignments <- 3
+num_counted_assignments <- 2
 source("scheduler.R")
 ####
 #devtools::install_github("crsh/citr")
@@ -43,7 +46,12 @@ classschedule <- create_classschedule(first_day = first_day,
                      exams_week= exams_week,
                      assignments_week= assignments_week)
 
-
+if(length(exams_week) != num_quizzes){
+  stop("The number of exams must match the number of quizzes")
+}
+if(length(assignments_week) != num_assignments){
+  stop("The number of assignments must match the number of assignments")
+}
 ```
 
 
@@ -70,7 +78,7 @@ bib[sort(c("funder_personality_2016"))]
 ## Course Assignments   {-}
 
 ### Quizzes    {-}
-There will be 6 quizzes in this course. The best 5 out of 6 quizzes grades will be used to determine your total quiz grade.  You can drop any of the quizzes for any reason BUT YOU MUST PASS THE LAST Quiz (held at TBD on Dec TBD).  If you do not pass the final quiz, your score on that quiz will count as one of your 5 grades. If you do pass the final quiz, then the best 5 grades will be used (irrespective of your score on the final quiz).
+There will be `r num_quizzes` quizzes in this course. The best `r num_counted_quizzes` out of `r num_quizzes` quizzes grades will be used to determine your total quiz grade.  You can drop any of the quizzes for any reason BUT YOU MUST PASS THE LAST Quiz ( that is held during the university scheduled final exam period).  If you do not pass the final quiz, your score on that quiz will count as one of your `r num_counted_quizzes` grades. If you do pass the final quiz, then the best `r num_counted_quizzes` grades will be used (irrespective of your score on the final quiz).
 
 
 
@@ -91,10 +99,10 @@ There will be 6 quizzes in this course. The best 5 out of 6 quizzes grades will 
 
 ### Short Assignments   {-}
 
-There will be three (3) short assignments in this course. These assignments will allow you to incorporate some of your own interests into the course. Such interests could be related to your career, another class you're taking, a hobby you're exploring, or some other random fancy. They will typically be approximately two (2) pages. I will provide more specific written guidelines at least two weeks before each assignment is due.
+There will be  `r num_assignments` short assignments in this course. These assignments will allow you to incorporate some of your own interests into the course. Such interests could be related to your career, another class you're taking, a hobby you're exploring, or some other random fancy. They will typically be approximately two (2) pages. I will provide more specific written guidelines at least two weeks before each assignment is due.
 
 
-The best two (2) out of three (3) short assignments will be used to determine your total short assignments.  You can skip one of the assignments for any reason.
+The best  `r num_count_assignments` out of  `r num_assignments` short assignments will be used to determine your total short assignments.  You can skip one of the assignments for any reason.
 
 
 #### Short Assignment Dates   {-}
@@ -117,10 +125,10 @@ There will be multiple engagement activities in this course. These activities wi
 
 ### Weighting   {-}
 
-- 150 points of your grade will be determined by your best 5 quizzes
+- `r num_counted_quizzes*30` points of your grade will be determined by your best `r num_counted_quizzes` quizzes
     - The final is not optional.
 - 25 points of your grade will be determined by completing engagement activities.
-- 100 points of your grade will be determined by your best two short assignments.
+- `r num_counted_assignments*50` points of your grade will be determined by your best two short assignments.
 
 
 
