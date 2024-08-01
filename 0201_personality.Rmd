@@ -34,7 +34,7 @@ topic = c(
   "Freud", 
   "Psychoanalysis After Freud", 
   "Personality Processes and Positive Psych",
-  "Thanksgiving Break!",
+  "MiniModule on Personality, Big Data, and AI (Also, Thanksgiving Break!)",
   "Personality and Health"
   )
 exams_week <- c(3,6,10,13,15,16)
