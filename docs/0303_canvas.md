@@ -1,0 +1,88 @@
+
+
+
+# Canvas Guide {canvas}
+
+This consolidated guide provides information on how to use Canvas effectively for your class, manage your profile and settings, and access resources for additional assistance.
+
+## Accessing Course Content and Submitting Assignments
+
+Students will use Canvas to access course content, and all work, assignments, and projects will be distributed and collected through Canvas. To submit an assignment on Canvas, follow these steps:
+
+1. Navigate to your assignment and click the "Submit Assignment" button.
+2. Double-check your work to ensure it's complete and saved correctly.
+3. Upload or type your work and click "Submit Assignment."
+
+After you submit your assignment, you will see confetti on your screen, indicating successful submission.
+
+## Viewing Feedback and Grades
+
+To view feedback on submitted assignments:
+
+1. Log into the course and click on the 'Grades' link.
+2. Find the assignment and click the assignment name.
+3. Click on 'View Feedback' to view all feedback, including comments and any additional annotated comments made on the submission.
+
+To accurately calculate your grades in Canvas:
+
+1. Uncheck the "Calculate based only on graded assignments" checkbox when viewing your grades.
+2. Familiarize yourself with [grade icons and colors](https://community.canvaslms.com/docs/DOC-16533-4212829283).
+
+<img src="img/grades.png" width="50%" style="display: block; margin: auto;" />
+
+## Canvas Features and Troubleshooting
+
+### Calendar
+
+The Calendar feature in Canvas allows you to see assignments and important dates for all your classes. Click the calendar icon to access your calendar, where you can view specific class work or color code your schedule.
+
+### Locked Assignments
+
+If an assignment, activity, or quiz is locked, it means some requirements for unlocking the activity have not been met. Check the listed requirements and complete them to unlock the activity.
+
+<img src="img/requirements.png" width="50%" style="display: block; margin: auto;" />
+
+### Canvas Support and Guides
+
+If you're having trouble with Canvas, first search the [Canvas Guides](https://community.canvaslms.com/t5/Canvas-Basics-Guide/tkb-p/basics) and then reach out to Canvas support by clicking the Help icon (circle with a question mark) in the Account menu.
+
+The [Canvas Student Video Guide](https://community.canvaslms.com/t5/Student-Guide/tkb-p/student) provide comprehensive information related to all aspects of Canvas.
+
+### Customizing Your Canvas Experience
+
+#### Profile and User Settings
+
+Update your profile with your name, preferred contact methods, and personal links. Your profile information can be viewed by all users in your courses, making it an essential part of online course participation. Edit your profile and add a profile picture in your user account using these guides:
+
+* [Canvas Student on Guide](https://community.canvaslms.com/t5/Student-Guide/How-do-I-edit-my-profile-in-my-user-account-as-a-student/ta-p/421)
+* [How do I edit my profile in my user account?](https://community.canvaslms.com/docs/DOC-10628-4212710342)
+* [How do I add a profile picture in my user account?](https://community.canvaslms.com/docs/DOC-10599-4212710334)
+
+#### Notifications
+
+The [notification](https://community.canvaslms.com/t5/Student-Guide/How-do-I-manage-my-Canvas-notification-settings-as-a-student/ta-p/434) system is designed to help you keep track of the activity in your Canvas sites. Customize your Canvas notification preferences to ensure you don't miss important communications from your instructor:
+
+* [How do I set my Canvas notification preferences?](https://community.canvaslms.com/docs/DOC-10624-4212710344)
+
+#### Other Helpful Canvas Guides Links
+
+* [Student Guide Table of Contents](https://community.canvaslms.com/t5/Student-Guide/tkb-p/student)
+* [View your grades](https://community.canvaslms.com/t5/Student-Guide/How-do-I-view-my-grades-in-a-current-course/ta-p/493)
+* [Submitting an online assignment](https://community.canvaslms.com/t5/Student-Guide/How-do-I-submit-an-online-assignment/ta-p/503)
+* [Using the Inbox](https://community.canvaslms.com/t5/Student-Guide/How-do-I-use-the-Inbox-as-a-student/ta-p/532)
+* [Using Canvas on your mobile device](https://community.canvaslms.com/t5/Student-Guide/How-can-I-use-Canvas-on-my-mobile-device-as-a-student/ta-p/282)
+
+### Getting Organized with Canvas Features
+
+#### Global Navigation
+
+* [How do I use the Global Navigation Menu?](https://community.canvaslms.com/t5/Student-Guide/How-do-I-use-the-Global-Navigation-Menu-as-a-student/ta-p/522)
+* [How do I use the Dashboard?](https://community.canvaslms.com/t5/Student-Guide/How-do-I-use-the-Dashboard-as-a-student/ta-p/512)
+* [How do I use the To-Do list and sidebar in the Dashboard?](https://community.canvaslms.com/t5/Student-Guide/How-do-I-use-the-To-Do-list-and-sidebar-in-the-Dashboard-as-a/ta-p/511)
+
+#### Additional Canvas Tutorials
+
+* [Calendar](https://vimeo.com/78015141)
+* [Files](https://vimeo.com/74772644)
+
+By following this consolidated guide, you'll be able to navigate and use Canvas effectively for your classes, manage your profile and settings, and access the necessary resources to get the most out of your Canvas experience.

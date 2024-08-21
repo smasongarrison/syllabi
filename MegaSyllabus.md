@@ -1,7 +1,7 @@
 --- 
 title: "Prof. Mason's Syllabi"
 author: S. Mason Garrison
-date: "2023-03-09"
+date: "2024-08-21"
 knit: "bookdown::render_book"
 site: bookdown::bookdown_site
 url: 'https\://github.com/smasongarrison/syllabi'
@@ -133,16 +133,16 @@ This version of the syllabus was built with:
 
 ```
 ##  setting  value
-##  version  R version 4.2.2 (2022-10-31 ucrt)
-##  os       Windows 10 x64 (build 22624)
+##  version  R version 4.4.1 (2024-06-14 ucrt)
+##  os       Windows 11 x64 (build 22635)
 ##  system   x86_64, mingw32
 ##  ui       RTerm
 ##  language (EN)
 ##  collate  English_United States.utf8
 ##  ctype    English_United States.utf8
 ##  tz       America/New_York
-##  date     2023-03-09
-##  pandoc   2.19.2 @ C:/Program Files/RStudio/resources/app/bin/quarto/bin/tools/ (via rmarkdown)
+##  date     2024-08-21
+##  pandoc   3.1.11 @ C:/Program Files/RStudio/resources/app/bin/quarto/bin/tools/ (via rmarkdown)
 ```
 
 Along with these packages:
@@ -150,8 +150,8 @@ Along with these packages:
 
 
 ```{=html}
-<div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-4aeee7afa109e85d9874" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-4aeee7afa109e85d9874">{"x":{"filter":"top","vertical":false,"filterHTML":"<tr>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n<\/tr>","data":[["askpass","assertthat","backports","base64enc","bigD","bit","bit64","bitops","blob","bookdown","brew","brio","broom","bslib","cachem","callr","cellranger","cli","clipr","colorspace","commonmark","conflicted","cpp11","crayon","credentials","crosstalk","crul","curl","data.table","DBI","dbplyr","desc","devtools","dichromat","diffobj","digest","downlit","dplyr","DT","dtplyr","ellipsis","evaluate","fansi","farver","fastmap","fontawesome","forcats","fs","gapminder","gargle","gender","genderdata","generics","geonames","gert","ggplot2","gh","gitcreds","glue","googledrive","googlesheets4","gridExtra","gt","gtable","haven","highr","hms","htmltools","htmlwidgets","httpcode","httpuv","httr","httr2","ids","ini","isoband","jquerylib","jsonlite","juicyjuice","knitr","labeling","later","lattice","lazyeval","lifecycle","lubridate","magrittr","MASS","Matrix","memoise","mgcv","mime","miniUI","modelr","munsell","nlme","openssl","pillar","pkgbuild","pkgconfig","pkgdown","pkgload","plyr","praise","prettyunits","processx","profvis","progress","promises","ps","purrr","R6","ragg","rappdirs","rcmdcheck","RColorBrewer","Rcpp","readr","readxl","rebird","rematch","rematch2","remotes","reprex","reshape2","rjson","rlang","rmarkdown","roxygen2","rplos","rprojroot","rstudioapi","rversions","rvest","sass","scales","selectr","sessioninfo","shiny","solrium","sourcetools","stringi","stringr","sys","systemfonts","testthat","textshaping","tibble","tidyr","tidyselect","tidyverse","timechange","tinytex","triebeard","tzdb","urlchecker","urltools","usethis","utf8","uuid","V8","vctrs","viridis","viridisLite","vroom","waldo","whisker","withr","xfun","xml2","xopen","xtable","yaml","zip"],[null,null,null,null,null,null,null,null,null,"0.33",null,null,null,"0.4.2","1.0.7","3.7.3",null,"3.6.0",null,"2.1-0",null,null,null,"1.5.2",null,null,null,null,null,null,null,null,"2.4.5",null,null,"0.6.31",null,"1.1.0",null,null,"0.3.2","0.20","1.0.4",null,"1.1.1",null,"1.0.0","1.6.1",null,null,null,null,"0.1.3",null,null,"3.4.1",null,null,"1.6.2",null,null,null,null,"0.3.1",null,null,"1.1.2","0.5.4","1.6.1",null,"1.6.9",null,null,null,null,null,"0.1.4","1.8.4",null,"1.42",null,"1.3.0",null,null,"1.0.3","1.9.2","2.0.3",null,null,"2.0.1",null,"0.12","0.1.1.1",null,"0.5.0",null,null,"1.8.1","1.4.0","2.0.3",null,"1.3.2",null,null,"1.1.1","3.8.0","0.3.7",null,"1.2.0.1","1.7.2","1.0.1","2.5.1",null,null,null,null,"1.0.10","2.1.4",null,null,null,null,"2.4.2",null,null,null,"1.0.6","2.20",null,null,null,"0.14",null,null,"0.4.5","1.2.1",null,"1.2.2","1.7.4",null,null,"1.7.12","1.5.0",null,null,null,null,"3.2.0","1.3.0","1.2.0","2.0.0","0.2.0",null,null,"0.3.0","1.0.1",null,"2.1.6","1.2.3",null,null,"0.5.2",null,null,null,null,null,"2.5.0","0.37",null,null,"1.8-4","2.3.7",null],["2019-01-13","2019-03-21","2021-12-13","2015-07-28","2022-09-05","2022-11-15","2020-08-30","2021-04-24","2022-04-10","2023-03-06","2022-09-29","2021-11-30","2023-01-25","2022-12-16","2023-02-24","2022-11-02","2016-07-27","2023-01-09","2022-02-22","2023-01-23","2022-10-14","2023-02-01","2022-10-12","2022-09-29","2021-11-29","2021-11-04","2022-09-03","2023-01-12","2023-02-17","2022-06-18","2023-02-24","2022-09-08","2022-10-11","2022-05-02","2021-10-05","2022-12-11","2022-07-05","2023-01-29","2023-01-17","2023-02-24","2021-04-29","2023-01-17","2023-01-22","2022-07-06","2023-02-24","2023-01-25","2023-01-29","2023-02-06","2017-10-31","2023-01-30","2021-10-13",null,"2022-07-05","2019-02-19","2022-12-05","2023-02-10","2023-02-22","2022-09-08","2022-02-24","2021-07-08","2022-08-13","2017-09-09","2022-11-16","2022-09-01","2023-02-28","2022-12-22","2022-08-19","2022-12-07","2023-01-07","2020-04-10","2023-02-14","2023-02-24","2022-09-25","2017-05-31","2018-05-20","2022-12-20","2021-04-26","2022-12-06","2022-11-10","2023-01-25","2020-10-20","2021-08-18","2021-09-22","2019-03-15","2022-10-07","2023-02-10","2022-03-30","2022-08-03","2022-09-13","2021-11-26","2022-10-21","2021-09-28","2018-05-18","2022-11-11","2018-06-12","2022-10-10","2022-12-06","2022-08-19","2022-11-27","2019-09-22","2022-12-14","2022-11-16","2022-11-11","2015-08-11","2020-01-24","2022-10-26","2020-11-02","2019-05-16","2021-02-11","2022-10-26","2023-01-10","2021-08-19","2023-01-12","2021-01-31","2021-09-27","2022-04-03","2023-01-22","2023-02-10","2023-02-09","2021-09-20","2016-04-21","2020-05-01","2021-11-30","2022-08-17","2020-04-09","2022-01-09","2022-09-24","2023-01-19","2022-12-08","2021-02-23","2022-04-02","2022-08-22","2022-08-31","2022-08-19","2023-01-24","2022-08-20","2019-11-20","2021-12-06","2022-12-15","2021-05-19","2023-02-01","2023-01-11","2022-12-02","2022-10-18","2022-02-11","2022-12-09","2021-10-13","2023-03-08","2023-01-24","2022-10-10","2023-02-22","2023-01-11","2023-02-01","2023-03-04","2022-03-28","2021-11-30","2019-04-14","2022-05-25","2023-01-31","2022-04-19","2022-11-03","2023-01-23","2021-10-13","2022-08-22","2023-01-22","2022-03-16","2022-12-05","2022-03-03","2023-01-31","2021-11-30","2018-09-17","2019-04-21","2023-01-23","2022-10-26"],["CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.0)","CRAN (R 4.2.0)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.0)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.0)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)",null,"CRAN (R 4.2.2)","CRAN (R 4.2.0)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.0)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.0)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.0)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.0)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.0)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)","CRAN (R 4.2.2)"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>package<\/th>\n      <th>loadedversion<\/th>\n      <th>date<\/th>\n      <th>source<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":174,"autoWidth":true,"bInfo":false,"paging":false,"columnDefs":[],"order":[],"orderClasses":false,"orderCellsTop":true,"lengthMenu":[10,25,50,100,174]},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":[],"jsHooks":[]}</script>
+<div class="datatables html-widget html-fill-item" id="htmlwidget-9af67efd23ef49862029" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-9af67efd23ef49862029">{"x":{"filter":"top","vertical":false,"filterHTML":"<tr>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n<\/tr>","data":[["askpass","backports","base64enc","bigD","bit","bit64","bitops","blob","bookdown","brew","brio","broom","bslib","cachem","callr","cellranger","cli","clipr","colorspace","commonmark","conflicted","cpp11","crayon","credentials","crosstalk","curl","data.table","DBI","dbplyr","desc","devtools","dichromat","diffobj","digest","downlit","dplyr","DT","dtplyr","ellipsis","evaluate","fansi","farver","fastmap","fontawesome","forcats","fs","gapminder","gargle","gender","genderdata","generics","geonames","gert","ggplot2","gh","gitcreds","glue","googledrive","googlesheets4","gridExtra","gt","gtable","haven","highr","hms","htmltools","htmlwidgets","httpuv","httr","httr2","ids","ini","isoband","jquerylib","jsonlite","juicyjuice","knitr","labeling","later","lattice","lazyeval","lifecycle","lubridate","magrittr","markdown","MASS","Matrix","memoise","mgcv","mime","miniUI","modelr","munsell","nlme","openssl","pillar","pkgbuild","pkgconfig","pkgdown","pkgload","praise","prettyunits","processx","profvis","progress","promises","ps","purrr","R6","ragg","rappdirs","rcmdcheck","RColorBrewer","Rcpp","reactable","reactR","readr","readxl","rebird","rematch","rematch2","remotes","reprex","rlang","rmarkdown","roxygen2","rplos","rprojroot","rstudioapi","rversions","rvest","sass","scales","selectr","sessioninfo","shiny","sourcetools","stringi","stringr","sys","systemfonts","testthat","textshaping","tibble","tidyr","tidyselect","tidyverse","timechange","tinytex","tzdb","urlchecker","usethis","utf8","uuid","V8","vctrs","viridis","viridisLite","vroom","waldo","whisker","withr","xfun","xml2","xopen","xtable","yaml","zip"],[null,null,null,null,null,null,null,null,"0.39",null,null,null,"0.7.0","1.1.0",null,null,"3.6.2",null,"2.1-0",null,null,null,null,null,null,null,null,null,null,null,"2.4.5",null,null,"0.6.35",null,"1.1.4",null,null,"0.3.2","0.23","1.0.6",null,"1.2.0",null,"1.0.0","1.6.4",null,null,null,null,"0.1.3",null,null,"3.5.1",null,null,"1.7.0",null,null,null,null,"0.3.5",null,null,"1.1.3","0.5.8.1","1.6.4","1.6.15",null,null,null,null,null,"0.1.4","1.8.8",null,"1.46",null,"1.3.2",null,null,"1.0.4","1.9.3","2.0.3",null,null,null,"2.0.1",null,"0.12","0.1.1.1",null,"0.5.1",null,null,"1.9.0","1.4.4","2.0.3",null,"1.3.4",null,null,null,"0.3.8",null,"1.3.0",null,"1.0.2","2.5.1",null,null,null,null,"1.0.12",null,null,"2.1.5",null,null,null,null,"2.5.0",null,"1.1.3","2.27",null,null,null,"0.16.0",null,null,"0.4.9","1.3.0",null,"1.2.2","1.8.1.1",null,"1.8.4","1.5.1",null,null,null,null,"3.2.1","1.3.1","1.2.1","2.0.0","0.3.0",null,"0.4.0","1.0.1","2.2.3","1.2.4",null,null,"0.6.5",null,null,null,null,null,"3.0.0","0.44",null,null,"1.8-4","2.3.8",null],["2023-09-03","2024-05-23","2015-07-28","2022-09-05","2022-11-15","2020-08-30","2021-04-24","2023-03-17","2024-04-15","2023-12-16","2024-04-24","2024-05-17","2024-03-29","2024-05-16","2024-03-25","2016-07-27","2023-12-11","2022-02-22","2023-01-23","2024-01-30","2023-02-01","2023-12-02","2022-09-29","2023-09-06","2023-11-23","2024-03-01","2024-03-30","2024-06-02","2024-03-19","2023-12-10","2022-10-11",null,"2021-10-05","2024-03-11","2023-06-29","2023-11-17","2024-04-04","2023-03-22","2021-04-29","2023-11-01","2023-12-08","2024-05-13","2024-05-15","2023-08-19","2023-01-29","2024-04-25","2023-03-10","2023-07-20",null,null,"2022-07-05",null,"2023-12-04","2024-04-23","2024-03-28","2022-09-08","2024-01-09","2023-06-11","2023-06-11","2017-09-09","2024-01-17","2024-04-22","2023-11-30","2024-05-26","2023-03-21","2024-04-04","2023-12-06","2024-03-26","2023-08-15","2024-04-01","2017-05-31","2018-05-20","2022-12-20","2021-04-26","2023-12-04","2022-11-10","2024-04-06","2023-08-29","2023-12-06","2024-03-20","2019-03-15","2023-11-07","2023-09-27","2022-03-30","2024-06-04","2024-04-26","2024-04-26","2021-11-26","2023-12-21","2021-09-28","2018-05-18","2023-03-22","2024-04-01","2023-11-27","2024-05-16","2023-03-22","2024-03-17","2019-09-22","2024-04-18","2024-01-16","2015-08-11","2023-09-24","2024-03-16","2023-05-02","2023-12-06","2024-04-05","2024-01-18","2023-08-10","2021-08-19","2024-05-15","2021-01-31","2021-09-27","2022-04-03","2024-01-09","2023-03-12","2023-10-11","2024-01-10","2023-07-06",null,"2023-08-30","2020-05-01","2024-03-17","2024-01-11","2024-01-10","2024-05-17","2024-01-22",null,"2023-11-05","2024-03-24","2022-08-31","2024-02-12","2024-03-15","2023-11-28","2019-11-20","2021-12-06","2024-04-02","2023-02-01","2024-05-06","2023-11-14","2023-05-23","2024-05-15","2024-04-14","2024-05-24","2023-03-20","2024-01-24","2024-03-11","2023-02-22","2024-01-18","2024-05-06","2023-05-12","2021-11-30","2024-02-19","2023-10-22","2024-01-14","2024-02-15","2023-12-01","2024-01-29","2023-05-02","2023-12-05","2023-11-02","2022-12-05","2024-01-16","2024-05-15","2023-12-04","2024-04-25","2019-04-21","2023-12-11","2024-01-27"],["CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)",null,"CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)",null,null,"CRAN (R 4.4.0)",null,"CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.1)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.1)","CRAN (R 4.4.1)","CRAN (R 4.4.0)","CRAN (R 4.4.1)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.1)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)",null,"CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)",null,"CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)","CRAN (R 4.4.0)"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>package<\/th>\n      <th>loadedversion<\/th>\n      <th>date<\/th>\n      <th>source<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":168,"autoWidth":true,"bInfo":false,"paging":false,"columnDefs":[{"name":"package","targets":0},{"name":"loadedversion","targets":1},{"name":"date","targets":2},{"name":"source","targets":3}],"order":[],"orderClasses":false,"orderCellsTop":true,"lengthMenu":[10,25,50,100,168]},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":[],"jsHooks":[]}</script>
 ```
 
 The R session information when compiling this book is shown below:
@@ -159,16 +159,17 @@ The R session information when compiling this book is shown below:
 
 
 
-```r
+``` r
 sessionInfo()
 ```
 
 ```
-## R version 4.2.2 (2022-10-31 ucrt)
-## Platform: x86_64-w64-mingw32/x64 (64-bit)
-## Running under: Windows 10 x64 (build 22624)
+## R version 4.4.1 (2024-06-14 ucrt)
+## Platform: x86_64-w64-mingw32/x64
+## Running under: Windows 11 x64 (build 22635)
 ## 
 ## Matrix products: default
+## 
 ## 
 ## locale:
 ## [1] LC_COLLATE=English_United States.utf8 
@@ -177,17 +178,20 @@ sessionInfo()
 ## [4] LC_NUMERIC=C                          
 ## [5] LC_TIME=English_United States.utf8    
 ## 
+## time zone: America/New_York
+## tzcode source: internal
+## 
 ## attached base packages:
 ## [1] stats     graphics  grDevices utils     datasets  methods   base     
 ## 
 ## other attached packages:
-##  [1] lubridate_1.9.2 forcats_1.0.0   stringr_1.5.0   dplyr_1.1.0    
-##  [5] purrr_1.0.1     readr_2.1.4     tidyr_1.3.0     tibble_3.2.0   
-##  [9] ggplot2_3.4.1   tidyverse_2.0.0
+##  [1] lubridate_1.9.3 forcats_1.0.0   stringr_1.5.1   dplyr_1.1.4    
+##  [5] purrr_1.0.2     readr_2.1.5     tidyr_1.3.1     tibble_3.2.1   
+##  [9] ggplot2_3.5.1   tidyverse_2.0.0
 ## 
 ## loaded via a namespace (and not attached):
-## [1] miniUI_0.1.1.1  rmarkdown_2.20  shiny_1.7.4     htmltools_0.5.4
-## [5] bookdown_0.33   tools_4.2.2     knitr_1.42
+## [1] tools_4.4.1       htmltools_0.5.8.1 bookdown_0.39     rmarkdown_2.27   
+## [5] shiny_1.8.1.1     knitr_1.46        miniUI_0.1.1.1
 ```
 
 
@@ -277,6 +281,7 @@ Most of my classes require you to have a computer that can run R and stream YouT
 </div>
 </div>
 ```
+
 
 R is a free software environment for statistical computing and graphics. It compiles and runs on a wide variety of UNIX platforms, Windows, and MacOS.
 
@@ -386,10 +391,6 @@ You rightfully deserve them, in the legal, moral, and ethical sense.
 These accommodations are there so that you can be your best possible self. 
 
 
-```{=html}
-<blockquote class="twitter-tweet" data-width="550" data-lang="en" data-dnt="true" data-theme="light"><p lang="en" dir="ltr">Instead of asking only disabled people to disclose their disability, when it might not be safe to do so, why don&#39;t employers ask EVERYONE what their access needs and workplace adjustments are.<br><br>Normalise that everyone needs flexibility and the tools to do their job. <a href="https://twitter.com/hashtag/DisabilityRC?src=hash&amp;ref_src=twsrc%5Etfw">#DisabilityRC</a></p>&mdash; El Gibbs (@bluntshovels) <a href="https://twitter.com/bluntshovels/status/1463275576337129480?ref_src=twsrc%5Etfw">November 23, 2021</a></blockquote>
-
-```
 
 
 ## Self-Advocacy
@@ -403,10 +404,6 @@ At Wake Forest and at many other places, the expectation is that you will self-a
 
 ```
 
-```{=html}
-<blockquote class="twitter-tweet" data-width="550" data-lang="en" data-dnt="true" data-theme="light"><p lang="en" dir="ltr">Every time we write that self-advocacy is key to disabled students&#39; success, we need to include an asterisk and note, &quot;BUT IT SHOULDN&#39;T BE&quot; <br><br>Disabled students deserve success regardless of how well they can navigate the system and cajole/plead/argue with profs for access.</p>&mdash; The ADHD Academic (@theADHDacademic) <a href="https://twitter.com/theADHDacademic/status/1458876178580881410?ref_src=twsrc%5Etfw">November 11, 2021</a></blockquote>
-
-```
 
 As a student, you may not know what accommodations work best for you. Or you may find that your current accommodations don't work like they used to. 
 
@@ -425,6 +422,7 @@ You can [search for accommodation ideas](https://askjan.org/soar.cfm) by [specif
 
 * [Frequently Asked Questions from WFU CLASS](https://class.wfu.edu/frequently-asked-questions-students/)
 * [JAN](https://askjan.org/)
+* [American Psychological Association's DisABILITY Resources Toolbox (DART)](https://www.apa.org/pi/disability/dart/)
 * [WFU Self-advocacy handout](https://docs.google.com/document/d/1X44zJyTz8-s9t6IXw0bII2DCFiOk1NR2MRfTi8wBiIc/)
 * [College Foundation of North Carolina's Know Your Rights](https://www.cfnc.org/plan-your-future/plan-for-college/students-with-disabilities/know-your-rights/)
 
@@ -476,10 +474,10 @@ Violations of this policy result in a zero for the assignment, my perpetual disa
 ## Ethical Use of Artificial Intelligence
 Note: This policy's language was adapted from this [reddit post](https://www.reddit.com/r/Professors/comments/11mmz8k/the_ethical_use_of_artificial_intelligence/)
 
-As artificial intelligence becomes more prevalent in our daily lives, it is crucial for students to understand the ethical considerations surrounding its use in academic settings. In my courses, I expect students to use AI in a manner that aligns with the values of academic integrity. In general, the use of AI should never compromise development in critical thinking, research, and analysis. Along that line, the use of AI to generate content, manipulate the tone of work, create data, or summarize another author's work for quicker consumption is considered academic dishonesty and strictly prohibited.
+As artificial intelligence becomes more prevalent in our daily lives, it is crucial for students to understand the ethical considerations surrounding its use in academic settings. In my courses, I expect students to use AI in a manner that aligns with the values of academic integrity. In general, the use of AI should never compromise development in critical thinking, research, and analysis. Along that line, the use of AI to generate content, manipulate the tone of work, or create data is considered academic dishonesty and strictly prohibited.
 
 <!--
-However, students are encouraged towards using AI to assist in research and writing process in ways which encourage the learning process, mitigate menial tasks, or accommodate disabilties. For example, I use AI to enhance my speech recognition software and [other assistive software that I have written](https://github.com/smasongarrison/AutoHotKey_Scripts). In that spirit, I think students may use AI to develop personalized learning and reading plans. I consider receiving AI assistance with grammar and spelling errors is akin to using Grammarly, a tool that helps users improve their writing skills.
+However, students are encouraged towards using AI to assist in the research and writing process in ways which encourage the learning process, mitigate menial tasks, or accommodate disabilities. For example, I use AI to enhance my speech recognition software and [other assistive software that I have written](https://github.com/smasongarrison/AutoHotKey_Scripts). In that spirit, I think students may use AI to develop personalized learning and reading plans. I consider receiving AI assistance with grammar and spelling errors is akin to using Grammarly, a tool that helps users improve their writing skills.
 -->
 
 Please note that any unethical use of AI in my courses will be considered academic dishonesty and may result in disciplinary action. Students are responsible for ensuring that their use of AI is in compliance with the course policies on academic integrity.
@@ -535,23 +533,32 @@ You are expected to read every LMS announcement, message, and email, as well as 
 
 If you are struggling in this class, please talk to me. Do not assume that I know what is going on in your life. Talk to me and tell me what you need.
 
-### Grading Questions
+### Requests for Re-Assessment
 
-Please send any questions about grades in writing via email within *two* weeks after the assignment is returned. If I erred in scoring or in calculating the grade, I will happily update the record. Otherwise, I will be most receptive toward questions framed in terms of your learning (rather than simply your performance), as research has shown that focusing overly on extrinsic rewards (like grades) is likely to lead to all sorts of outcomes that I don't wish for you (lower interest in the course material, lower learning, lower enjoyment).
+Please send any questions about grades in writing via email within *one* week after the assignment is returned. If I erred in scoring or in calculating the grade, I will happily update the record. Otherwise, I will be most receptive toward questions framed in terms of your learning (rather than simply your performance), as research has shown that focusing overly on extrinsic rewards (like grades) is likely to lead to all sorts of outcomes that I don't wish for you (lower interest in the course material, lower learning, lower enjoyment).
 
+<!--
+You may request a re-assessment of any graded work in this course, subject to the following conditions:
 
+- The request for re-assessment must be made by email within one (1) working week of the grade being released to you.
+
+- You must provide a written rationale for requesting re-assessment, specifically referencing the learning outcomes, assessment rubric, qualitative grade descriptors, and any written feedback provided to you.
+
+- The item being re-assessed must have a material impact on your overall course grade. 
+- The full item being re-assessed will be completely re-assessed using the rubric and your grade may remain unchanged, increase, or decrease as a result of re-assessment.
+-->
 ## Instructor Availability
 
 I am readily accessible during business hours (9:00AM-5:30PM; Monday-Friday) via [email](garrissm@wfu.edu)/ LMS/ git/ zoom/ carrier pigeon/[calendly](https://calendly.com/smasongarrison/). Outside those hours, I do not typically respond to messages, in order to devote time to my family, rest, and living my life. Messages received during these times will receive attention once I am back online. Otherwise you can expect to receive a response to your message within 12 to 24 hours, often much sooner. If you do not hear back after 36 hours, please follow-up with me. 
 
 I have given out my cell-phone number, in the case of *true* emergencies. Please be mindful that poor planning on your part does not constitute an emergency for me. 
 
-### Is it an true emergency?
+### Is it a true emergency?
 
 How do you know if it is a true emergency? 
 
 * Ask yourself, would a reasonable person consider this situation an emergency? 
-* How would the situation change if you waited a until morning?
+* How would the situation change if you waited until morning?
 * Could this situation have been prevented by starting earlier?
 * Would Professor Mason really want to know about this situation *right* now? 
 * If you were in Professor Mason's shoes, would you consider this an emergency?
@@ -560,7 +567,7 @@ How do you know if it is a true emergency?
 
 ### Recording of Class Sessions. 
 
-All or some in-person and synchronous classes may be recorded.  Student images and voices may be captured in these recordings. I will do my best to protect that information from being shared outside the confines of the class. Recordings with students in them will be available for viewing only by students enrolled in the class via Canvas or an alternative platform. The recordings are intended to improve access course content. No other recording, including by students, is permitted without explicit permission. (Recordings for notetaking or accommodations are typically permitted. Just chat with me about it.)
+All or some in-person and synchronous classes may be recorded.  Student images and voices may be captured in these recordings. I will do my best to protect that information from being shared outside the confines of the class. Recordings with students in them will be available for viewing only by students enrolled in the class via Canvas or an alternative platform. The recordings are intended to improve access to course content. No other recording, including by students, is permitted without explicit permission. (Recordings for notetaking or accommodations are typically permitted. Just chat with me about it.)
 
 ### Recording Tails in our Synchronous Classes. 
 
@@ -575,70 +582,6 @@ Students may access the class recordings made available to them solely for the p
 Students are advised that Wake Forest University faculty members hold the copyright in their course materials. The University and the faculty have legal rights in class recordings.
 
 <!--chapter:end:0105_communcation.Rmd-->
-
-# Public Health in the Age of COVID-19
-
-
-
-Here's the deal... I'm *definitely* at increased risk of developing complications from a COVID-19 infection. My disability is FINALLY on the CDC list of at risk-conditions^[https://www.cdc.gov/coronavirus/2019-ncov/hcp/clinical-care/underlyingconditions.html#anchor_1618433687270]. To mitigate those higher risks, I require masks in my classroom. This disability accommodation has been authorized and approved by the university, as a reasonable accommodation. In this class, mask compliance is essential for us (and me) making it through the semester. <!-- At present, I am in the position where I have to put my health in your hands. I have many thoughts as to why, how, and who has led to me being in this present position. I don't fault students. However, I need you to understand that the stakes are high. -->
-
-Regardless of any changes to university policy or mask mandates, we will be masked for the entire semester. You will put your mask on *before* you enter my class. Your mask will cover your nose and mouth. I will stop class if I see your nose. 
-If you feel sick or are exposed, please don't come to class. I will happily meet with you (remotely) to fill you in. 
-
-- If you struggle with securing your mask, I am very happy to show you how to properly secure your mask.^[https://www.youtube.com/watch?v=GzTAZDsNBe0] The CDC provides plain language guidance that you may find helpful.^[https://www.cdc.gov/coronavirus/2019-ncov/easy-to-read/diy-cloth-face-coverings.html]
-
-- If your struggle with masks is due to your own disability, I am happy to connect you with student disability services. We can go through the interactive process with CLASS. Through that interactive process CLASS can determine if your disability can be accommodated without fundamentally altering the course. These alternative accommodations could include providing you with different styles of masks, or additional training on how to properly secure your mask.
-
-However, if you refuse to wear a mask, you need to leave. If you refuse to leave, I will leave. And if I leave, there is no class.
-
-<!--
-## Masks and Equity
-
-Although university policy states that we can request masks instead of requiring them (barring specific circumstances), we can not provide an equitable and just atmosphere for learning if we are not protecting one another from COVID by masking. Refusing to mask indoors is a manifestation of ableism and racism, an exercise of individual privilege that tells the most vulnerable that their health does not matter. To practice community care, we will mask to protect those of us with compromised immune systems, those of us with family members unable to get vaccinated, those of us who do not want to transmit the virus to others, and those of us who want to avoid re/infection.
-
-
-
-```{=html}
-<blockquote class="twitter-tweet" data-width="550" data-lang="en" data-dnt="true" data-theme="light"><p lang="en" dir="ltr">Building <a href="https://twitter.com/hashtag/mask?src=hash&amp;ref_src=twsrc%5Etfw">#mask</a> wearing into my syllabi—tied right to the learning outcomes. (Wording not finalized!) <a href="https://twitter.com/hashtag/AcademicTwitter?src=hash&amp;ref_src=twsrc%5Etfw">#AcademicTwitter</a> <a href="https://t.co/iT9MEjKXaV">pic.twitter.com/iT9MEjKXaV</a></p>&mdash; @justjessphd@mstdn.social (@justjess_PhD) <a href="https://twitter.com/justjess_PhD/status/1556790562711281666?ref_src=twsrc%5Etfw">August 8, 2022</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-```
-
-
-
-```{=html}
-<blockquote class="twitter-tweet" data-width="550" data-lang="en" data-dnt="true" data-theme="light"><p lang="en" dir="ltr">Just posting this infographic on masking for all people who say &quot;one way masking is sufficient, I shouldn&#39;t have to protect you.&quot; The data overwhelming proves that one-way masking is insufficient. <a href="https://t.co/RHvyp3ZxFc">pic.twitter.com/RHvyp3ZxFc</a></p>&mdash; Nicole Lee Schroeder, PhD (@Nicole_Lee_Sch) <a href="https://twitter.com/Nicole_Lee_Sch/status/1491793104348712965?ref_src=twsrc%5Etfw">February 10, 2022</a></blockquote>
-
-```
--->
-
-## WFU Statement
-
-As once required by Wake Forest University, I have included the following information related to public health. It is reproduced verbatim. 
-
-> We share responsibility for the health and safety of each other in a learning space. Maintaining a consistent six feet of distance; wearing face coverings that cover our mouths and noses; limiting our gathering sizes; and isolating or quarantining when ill or exposed to someone with the virus are Wake Forest University directives and policies we all must follow. Students are encouraged to visit [Our Way Forward](https://ourwayforward.wfu.edu/) to stay informed about the latest guidance and review the [Public Health Emergency Addendum to the Student Code of Conduct](https://studentconduct.wfu.edu/undergraduate-student-handbook/public-health-emergency-addendum/).  
->
-> Specifically, in this room, we will mitigate the risks of virus transfer and take care of our community by abiding by the following safety directives: 
->
-> - maintain six feet of distance at all times when feasible. 
->
-> - wear a face covering for the entirety of class indoors and out (unless there is exemption via an approved safety plan for specific coursework). This face covering should cover your mouth and your nose, and adhere to our [University face covering policy](https://drive.google.com/file/d/1Tqo-by1sjmc-kWUTwAqeNdaHq8OBsU9B/view) (no face shields without masks; no neck gaiters; no bandanas; and no masks, including N95, with a one-way valve). 
->
-> - stay out of class when sick or after being exposed to someone who is sick.
->
-> In this class, any student who does not follow these requirements will be asked once to follow the safety directives. 
->
-> I will offer you a mask or ask you to find one. 
-> 
-> If you do not comply, I will ask you to leave the class for that day. 
->
-> [I will also refer the matter to the COVID-19 compliance reporting system](https://cm.maxient.com/reportingform.php?WakeForestUniv&layout_id=40). Possible disciplinary actions may follow as described in the Wake Forest University Student Conduct Code Public Health Emergency Addendum.
->
-> .
-
-
-
-<!--chapter:end:0106_covid.Rmd-->
 
 # (PART\*) Specific Courses {-}
 
@@ -693,7 +636,7 @@ New York: W.W. Norton & Co., 2016. ISBN: 978-0-393-60042-1.
 ## Course Assignments   {-}
 
 ### Quizzes    {-}
-There will be 6 quizzes in this course. The best 5 out of 6 quizzes grades will be used to determine your total quiz grade.  You can drop any of the quizzes for any reason BUT YOU MUST PASS THE LAST Quiz (held at TBD on Dec TBD).  If you do not pass the final quiz, your score on that quiz will count as one of your 5 grades. If you do pass the final quiz, then the best 5 grades will be used (irrespective of your score on the final quiz).
+There will be 6 quizzes in this course. The best 5 out of 6 quizzes grades will be used to determine your total quiz grade.  You can drop any of the quizzes for any reason BUT YOU MUST PASS THE LAST Quiz ( that is held during the university scheduled final exam period).  If you do not pass the final quiz, your score on that quiz will count as one of your 5 grades. If you do pass the final quiz, then the best 5 grades will be used (irrespective of your score on the final quiz).
 
 
 
@@ -714,10 +657,10 @@ There will be 6 quizzes in this course. The best 5 out of 6 quizzes grades will 
 
 ### Short Assignments   {-}
 
-There will be three (3) short assignments in this course. These assignments will allow you to incorporate some of your own interests into the course. Such interests could be related to your career, another class you're taking, a hobby you're exploring, or some other random fancy. They will typically be approximately two (2) pages. I will provide more specific written guidelines at least two weeks before each assignment is due.
+There will be  3 short assignments in this course. These assignments will allow you to incorporate some of your own interests into the course. Such interests could be related to your career, another class you're taking, a hobby you're exploring, or some other random fancy. They will typically be approximately two (2) pages. I will provide more specific written guidelines at least two weeks before each assignment is due.
 
 
-The best two (2) out of three (3) short assignments will be used to determine your total short assignments.  You can skip one of the assignments for any reason.
+The best  2 out of  3 short assignments will be used to determine your total short assignments.  You can skip one of the assignments for any reason.
 
 
 #### Short Assignment Dates   {-}
@@ -744,7 +687,7 @@ This curve can only help your grade.
 
 The full table is provided below:
 
-Table: (\#tab:unnamed-chunk-4)Full Table
+Table: (\#tab:unnamed-chunk-7)Full Table
 
 |Letter | Cutoff|
 |:------|------:|
@@ -782,8 +725,8 @@ Trust me, you do not want me to curve by assignment.
 
 
 ```{=html}
-<div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-5801def10727216bb3e2" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-5801def10727216bb3e2">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],["08/22","08/29","09/05","09/12","09/19","09/26","10/03","10/10","10/17","10/24","10/31","11/07","11/14","11/21","11/28","12/05"],["What is Personality","Personality Research Methods","Assessment, Evaluation, and Ethics","Trait Approach and Personality Judgment","Big Five","Personality over the Lifespan","Biological Approaches to Psychology","Behavior Genetics","Evolutionary Psychology","Cross-Cultural Psychology","Freud","Psychoanalysis After Freud","Personality Processes and Positive Psych","Thanksgiving Break!","Personality and Health",null],["Week 01, 08/22 - 08/26","Week 02, 08/29 - 09/02","Week 03, 09/05 - 09/09","Week 04, 09/12 - 09/16","Week 05, 09/19 - 09/23","Week 06, 09/26 - 09/30","Week 07, 10/03 - 10/07","Week 08, 10/10 - 10/14","Week 09, 10/17 - 10/21","Week 10, 10/24 - 10/28","Week 11, 10/31 - 11/04","Week 12, 11/07 - 11/11","Week 13, 11/14 - 11/18","Week 14, 11/21 - 11/25","Week 15, 11/28 - 12/02","Week 16, 12/05 - 12/09"],[null,null,"Quiz",null,null,"Quiz","Assignment",null,null,"Quiz",null,"Assignment","Quiz",null,"Quiz","Quiz and Assignment"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n      <th>milestones<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0}],"order":[],"orderClasses":false},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":[],"jsHooks":[]}</script>
+<div class="datatables html-widget html-fill-item" id="htmlwidget-e04276dc5f6bb01b4794" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-e04276dc5f6bb01b4794">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],["08/22","08/29","09/05","09/12","09/19","09/26","10/03","10/10","10/17","10/24","10/31","11/07","11/14","11/21","11/28","12/05"],["What is Personality","Personality Research Methods","Assessment, Evaluation, and Ethics","Trait Approach and Personality Judgment","Big Five","Personality over the Lifespan","Biological Approaches to Psychology","Behavior Genetics","Evolutionary Psychology","Cross-Cultural Psychology","Freud","Psychoanalysis After Freud","Personality Processes and Positive Psych","MiniModule on Personality, Big Data, and AI (Also, Thanksgiving Break!)","Personality and Health",null],["Week 01, 08/22 - 08/26","Week 02, 08/29 - 09/02","Week 03, 09/05 - 09/09","Week 04, 09/12 - 09/16","Week 05, 09/19 - 09/23","Week 06, 09/26 - 09/30","Week 07, 10/03 - 10/07","Week 08, 10/10 - 10/14","Week 09, 10/17 - 10/21","Week 10, 10/24 - 10/28","Week 11, 10/31 - 11/04","Week 12, 11/07 - 11/11","Week 13, 11/14 - 11/18","Week 14, 11/21 - 11/25","Week 15, 11/28 - 12/02","Week 16, 12/05 - 12/09"],[null,null,"Quiz",null,null,"Quiz","Assignment",null,null,"Quiz",null,"Assignment","Quiz",null,"Quiz","Quiz and Assignment"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n      <th>milestones<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0},{"name":"module","targets":0},{"name":"start","targets":1},{"name":"topic","targets":2},{"name":"week","targets":3},{"name":"milestones","targets":4}],"order":[],"orderClasses":false},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":[],"jsHooks":[]}</script>
 ```
 
 
@@ -819,7 +762,7 @@ This curve can only help your grade.
 
 The full table is provided below:
 
-Table: (\#tab:unnamed-chunk-3)Full Table
+Table: (\#tab:unnamed-chunk-5)Full Table
 
 |Letter | Cutoff|
 |:------|------:|
@@ -846,7 +789,7 @@ Trust me, you do not want me to curve by assignment.
 
 ### Quizzes   {-}
 
-There will be 14 multiple-choice reading quizzes (effectively these are weekly). The best 10 out of 14 quiz grades will be used to determine your total quiz grade.  You can drop 4 of the quizzes for any reason.
+There will be 14 multiple-choice reading quizzes (effectively these are weekly). The best 12 out of 14 quiz grades will be used to determine your total quiz grade.  You can drop 2 of the quizzes for any reason.
 
 ### Exams   {-}
 
@@ -855,26 +798,26 @@ There will be 3 exams. The best 2 out of 3 exam grades will be used to determine
 
 #### Exams Dates   {-}
 
-- Exam 1: Friday, 02/18
+- Exam 1: Friday, 09/27
 
-- Exam 2: Friday, 04/08
+- Exam 2: Friday, 11/15
 
-- Exam 3: During Finals, 05/06
+- Exam 3: During Finals, 12/20
 
 
 ### Short Assignments   {-}
 
-There will be two (2) short assignments in this course. These assignments will allow you to incorporate some of your own interests into the course. Such interests could be related to your career, another class you're taking, a hobby you're exploring, or some other random fancy. They will typically be approximately two (2) pages. I will provide more specific written guidelines at least two weeks before each assignment is due.
+There will be 2 short assignments in this course. These assignments will allow you to incorporate some of your own interests into the course. Such interests could be related to your career, another class you're taking, a hobby you're exploring, or some other random fancy. They will typically be approximately two (2) pages. I will provide more specific written guidelines at least two weeks before each assignment is due.
 
 
-The best one (1) out of two (2) short assignments will be used to determine your total short assignments.  You can skip one of the assignments for any reason.
+The best 1 out of 2 short assignments will be used to determine your total short assignments.  You can skip one of the assignments for any reason.
 
 
 #### Assignment Dates   {-}
 
-- Assignment 1: Friday, 03/11: Qualitative Critique 1
+- Assignment 1: Friday, 10/18: Qualitative Critique 1
 
-- Assignment 2: Friday, 04/29: Qualitative Critique 2
+- Assignment 2: Friday, 12/13: Qualitative Critique 2
 
 
 
@@ -885,10 +828,10 @@ There will be multiple engagement activities in this course. These activities wi
 
 ## Grading Weighting   {-}
 
-- 200 points of your grade will be determined by your best two (2) exams.
-- 50 points of your grade will be determined by your best assignment.
-- 50 points of your grade will be determined by your engagement.
-- 100 points of your grade will be determined by your best 10 quizzes.
+- 200 points of your grade will be determined by your best 2 exams.
+- 50 points of your grade will be determined by your best 1 assignment(s).
+- 25 points of your grade will be determined by your engagement.
+- 60 points of your grade will be determined by your best 12 quizzes.
 
 
 ## Schedule  {-}
@@ -897,8 +840,8 @@ There will be multiple engagement activities in this course. These activities wi
 
 
 ```{=html}
-<div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-8cf2eb38a521aef8b9cb" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-8cf2eb38a521aef8b9cb">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17],["01/10","01/17","01/24","01/31","02/07","02/14","02/21","02/28","03/07","03/14","03/21","03/28","04/04","04/11","04/18","04/25","05/02"],["Introduction","Statistical Foundations","Describing Data with R","Univariate Distributions","Bivariate Distributions","Probability Theory","Binomials and other sampling distributions","Hypothesis Testing","Spring Break","T-Tests","Regression","Causal Inference","ANOVA","Applications in R","Applications in R","Review","NA"],["Week 01, 01/10 - 01/14","Week 02, 01/17 - 01/21","Week 03, 01/24 - 01/28","Week 04, 01/31 - 02/04","Week 05, 02/07 - 02/11","Week 06, 02/14 - 02/18","Week 07, 02/21 - 02/25","Week 08, 02/28 - 03/04","Week 09, 03/07 - 03/11","Week 10, 03/14 - 03/18","Week 11, 03/21 - 03/25","Week 12, 03/28 - 04/01","Week 13, 04/04 - 04/08","Week 14, 04/11 - 04/15","Week 15, 04/18 - 04/22","Week 16, 04/25 - 04/29","Week 17, 05/02 - 05/06"],[null,null,null,null,null,"Exam",null,null,"Assignment",null,null,null,"Exam",null,null,"Assignment","Exam"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n      <th>milestones<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0}],"order":[],"orderClasses":false},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":[],"jsHooks":[]}</script>
+<div class="datatables html-widget html-fill-item" id="htmlwidget-2f9cf98f22e02559f55f" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-2f9cf98f22e02559f55f">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17],["08/26","09/02","09/09","09/16","09/23","09/30","10/07","10/14","10/21","10/28","11/04","11/11","11/18","11/25","12/02","12/09","12/16"],["Introduction","Statistical Foundations","Describing Data with R","Univariate Distributions","Bivariate Distributions","Probability Theory","Binomials and other sampling distributions","Hypothesis Testing","Spring Break","T-Tests","Regression","Causal Inference","ANOVA","Applications in R","Applications in R","Review","NA"],["Week 01, 08/26 - 08/30","Week 02, 09/02 - 09/06","Week 03, 09/09 - 09/13","Week 04, 09/16 - 09/20","Week 05, 09/23 - 09/27","Week 06, 09/30 - 10/04","Week 07, 10/07 - 10/11","Week 08, 10/14 - 10/18","Week 09, 10/21 - 10/25","Week 10, 10/28 - 11/01","Week 11, 11/04 - 11/08","Week 12, 11/11 - 11/15","Week 13, 11/18 - 11/22","Week 14, 11/25 - 11/29","Week 15, 12/02 - 12/06","Week 16, 12/09 - 12/13","Week 17, 12/16 - 12/20"],[null,null,null,null,"Exam",null,null,"Assignment",null,null,null,"Exam",null,null,null,"Assignment","Exam"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n      <th>milestones<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0},{"name":"module","targets":0},{"name":"start","targets":1},{"name":"topic","targets":2},{"name":"week","targets":3},{"name":"milestones","targets":4}],"order":[],"orderClasses":false},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":[],"jsHooks":[]}</script>
 ```
 
 
@@ -906,18 +849,18 @@ There will be multiple engagement activities in this course. These activities wi
 Schedule
 -->
 <!---
-## Week 01, 01/10 - 01/14 : Introduction
+## Week 01, 08/26 - 08/30 : Introduction
 
 - Monday: First Day of Class / Introduction
 - Thursday: First Day of Class
 
-## Week 02, 01/17 - 01/21 : Statistical Foundations
+## Week 02, 09/02 - 09/06 : Statistical Foundations
 
 - Tuesday: Research Design (Chapter 9)
 - Thursday: Sampling Theory (Chapter 8) / Measurement in the Social/Behavioral Sciences 
 
 
-##  Week 03, 01/24 - 01/28 : Describing Data with R 
+##  Week 03, 09/09 - 09/13 : Describing Data with R 
 
 - Tuesday: Describing Data Graphically with R
 
@@ -928,34 +871,34 @@ Schedule
 
 
 
-##  Week 04, 01/31 - 02/04 : Univariate Distributions
+##  Week 04, 09/16 - 09/20 : Univariate Distributions
 
 - Tuesday: Univariate Distributions (Chapter 1/2)
 - Thursday: Standardization, z-scores, and the normal distribution	(Chapter 3)
 
-##  Week 05, 02/07 - 02/11 : Bivariate Distributions
+##  Week 05, 09/23 - 09/27 : Bivariate Distributions
 
 - Tuesday: Test 1 Review
 
 - Thursday: Test 1
 
-##  Week 06, 02/14 - 02/18 : Probability Theory
+##  Week 06, 09/30 - 10/04 : Probability Theory
 
 - Tuesday: Bivariate Distributions (Chapter 4)
 
 - Thursday: Correlation	(Chapter 5)
 
-##  Week 07, 02/21 - 02/25 : Binomials and other sampling distributions 
+##  Week 07, 10/07 - 10/11 : Binomials and other sampling distributions 
 
 - Thursday: Probability Theory (Chapter 12) 
 
-##  Week 08, 02/28 - 03/04 : Hypothesis Testing
+##  Week 08, 10/14 - 10/18 : Hypothesis Testing
 
 - Tuesday: More Probability Theory (Chapter 13) 
 
 - Thursday: Review
 
-##  Week 09, 03/07 - 03/11 : Spring Break
+##  Week 09, 10/21 - 10/25 : Spring Break
 
 - Tuesday: Test 2
 
@@ -964,25 +907,25 @@ Schedule
     - Last day undergraduate students may withdraw from fall semester classes
     - Last day to change from pass/fail to graded status in a fall semester class
 
-##  Week 10, 03/14 - 03/18 : T-Tests
+##  Week 10, 10/28 - 11/01 : T-Tests
 
 - Tuesday: The Logic of Hypothesis Testing Hypotheses, Errors (Chapters 16-19)
 
 - Thursday: t-tests
 
-##  Week 11, 03/21 - 03/25 : Regression
+##  Week 11, 11/04 - 11/08 : Regression
 
 - Tuesday: Applying t-tests and ANOVA (Chapters 20 & 21)
 
 - Thursday: More Analysis of Variance	(Chapters 24 & 27)
 
-##  Week 12, 03/28 - 04/01 : Causal Inference
+##  Week 12, 11/11 - 11/15 : Causal Inference
 
 - Tuesday: Subverting the Research Process
 
 - Thursday: Causal Inference
 
-## Week 13, 04/04 - 04/08 : ANOVA
+## Week 13, 11/18 - 11/22 : ANOVA
 
 - Tuesday: Review
 
@@ -990,21 +933,21 @@ Schedule
 
 - Thursday: Test 3
 
-##  Week 14, 04/11 - 04/15 : Applications in R
+##  Week 14, 11/25 - 11/29 : Applications in R
 
 - Monday: Cross-Cultural Psychology
 - Wednesday: Cross-Cultural Psychology
 - Friday: Cross-Cultural Psychology
 
 
-##  Week 15, 04/18 - 04/22 : Applications in R
+##  Week 15, 12/02 - 12/06 : Applications in R
 
 - Tuesday: Translating Research Questions into R
 
 - Thursday: Addressing Statistical Questions in R
 
 
-##  Week 16, 04/25 - 04/29 : Review 
+##  Week 16, 12/09 - 12/13 : Review 
 
 - Tuesday: Addressing Statistical Questions in R
 - Thursday: Last Day of Class 
@@ -1062,7 +1005,7 @@ This curve can only help your grade.
 
 The full table is provided below:
 
-Table: (\#tab:unnamed-chunk-4)Full Table
+Table: (\#tab:unnamed-chunk-7)Full Table
 
 |Letter | Cutoff|
 |:------|------:|
@@ -1140,8 +1083,8 @@ There will be multiple engagement activities in this course. These activities wi
 
 
 ```{=html}
-<div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-d40ad750fa73281a7280" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-d40ad750fa73281a7280">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15],["01/25","02/01","02/08","02/15","02/22","03/01","03/08","03/15","03/22","03/29","04/05","04/12","04/19","04/26","05/03"],["Foundations and Nature of Testing","History of Testing","Ethical and Social Considerations in Testing","Norms and the Meaning of Test Scores","Classical Test Theory","Reliability","Catch Up Week","Validity","Item Analysis","Factor Analysis","Item Response Theory","Practical Testing Things","Ability Testing","Personality Testing","Review"],["Week 01, 01/25 - 01/29","Week 02, 02/01 - 02/05","Week 03, 02/08 - 02/12","Week 04, 02/15 - 02/19","Week 05, 02/22 - 02/26","Week 06, 03/01 - 03/05","Week 07, 03/08 - 03/12","Week 08, 03/15 - 03/19","Week 09, 03/22 - 03/26","Week 10, 03/29 - 04/02","Week 11, 04/05 - 04/09","Week 12, 04/12 - 04/16","Week 13, 04/19 - 04/23","Week 14, 04/26 - 04/30","Week 15, 05/03 - 05/07"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0}],"order":[],"orderClasses":false},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":[],"jsHooks":[]}</script>
+<div class="datatables html-widget html-fill-item" id="htmlwidget-89aaf561b91dc431607c" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-89aaf561b91dc431607c">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15],["01/25","02/01","02/08","02/15","02/22","03/01","03/08","03/15","03/22","03/29","04/05","04/12","04/19","04/26","05/03"],["Foundations and Nature of Testing","History of Testing","Ethical and Social Considerations in Testing","Norms and the Meaning of Test Scores","Classical Test Theory","Reliability","Catch Up Week","Validity","Item Analysis","Factor Analysis","Item Response Theory","Practical Testing Things","Ability Testing","Personality Testing","Review"],["Week 01, 01/25 - 01/29","Week 02, 02/01 - 02/05","Week 03, 02/08 - 02/12","Week 04, 02/15 - 02/19","Week 05, 02/22 - 02/26","Week 06, 03/01 - 03/05","Week 07, 03/08 - 03/12","Week 08, 03/15 - 03/19","Week 09, 03/22 - 03/26","Week 10, 03/29 - 04/02","Week 11, 04/05 - 04/09","Week 12, 04/12 - 04/16","Week 13, 04/19 - 04/23","Week 14, 04/26 - 04/30","Week 15, 05/03 - 05/07"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0},{"name":"module","targets":0},{"name":"start","targets":1},{"name":"topic","targets":2},{"name":"week","targets":3}],"order":[],"orderClasses":false},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":[],"jsHooks":[]}</script>
 ```
 
 
@@ -1291,8 +1234,8 @@ Note that I'll be using your contracts to guide my tinkering.
 
 
 ```{=html}
-<div class="datatables html-widget html-fill-item-overflow-hidden html-fill-item" id="htmlwidget-fce1142daf2a95daf67c" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-fce1142daf2a95daf67c">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],["01/09","01/16","01/23","01/30","02/06","02/13","02/20","02/27","03/06","03/13","03/20","03/27","04/03","04/10","04/17","04/24"],["What is Data Science and Meet the Toolkit","Data and Visualization","Welcome to the Tidyverse","Data types and Data Transformations","Effective data visualization","Scientific Communication and confounding","Functions and Automation","Webscraping","Spring Break","Ethics","Tidy Models","Overfitting and Cross validation","Quantifying uncertainty","Rshiny","Machine Learning","Presentations"],["Week 01, 01/09 - 01/13","Week 02, 01/16 - 01/20","Week 03, 01/23 - 01/27","Week 04, 01/30 - 02/03","Week 05, 02/06 - 02/10","Week 06, 02/13 - 02/17","Week 07, 02/20 - 02/24","Week 08, 02/27 - 03/03","Week 09, 03/06 - 03/10","Week 10, 03/13 - 03/17","Week 11, 03/20 - 03/24","Week 12, 03/27 - 03/31","Week 13, 04/03 - 04/07","Week 14, 04/10 - 04/14","Week 15, 04/17 - 04/21","Week 16, 04/24 - 04/28"],[null,"Contract",null,null,null,null,null,null,null,null,null,null,null,null,null,"Presentation"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n      <th>milestones<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0}],"order":[],"orderClasses":false},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":[],"jsHooks":[]}</script>
+<div class="datatables html-widget html-fill-item" id="htmlwidget-9ccd041cff6d2adeac33" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-9ccd041cff6d2adeac33">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],["01/09","01/16","01/23","01/30","02/06","02/13","02/20","02/27","03/06","03/13","03/20","03/27","04/03","04/10","04/17","04/24"],["What is Data Science and Meet the Toolkit","Data and Visualization","Welcome to the Tidyverse","Data types and Data Transformations","Effective data visualization","Scientific Communication and confounding","Functions and Automation","Webscraping","Spring Break","Ethics","Tidy Models","Overfitting and Cross validation","Quantifying uncertainty","Rshiny","Machine Learning","Presentations"],["Week 01, 01/09 - 01/13","Week 02, 01/16 - 01/20","Week 03, 01/23 - 01/27","Week 04, 01/30 - 02/03","Week 05, 02/06 - 02/10","Week 06, 02/13 - 02/17","Week 07, 02/20 - 02/24","Week 08, 02/27 - 03/03","Week 09, 03/06 - 03/10","Week 10, 03/13 - 03/17","Week 11, 03/20 - 03/24","Week 12, 03/27 - 03/31","Week 13, 04/03 - 04/07","Week 14, 04/10 - 04/14","Week 15, 04/17 - 04/21","Week 16, 04/24 - 04/28"],[null,"Contract",null,null,null,null,null,null,null,null,null,null,null,null,null,"Presentation"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n      <th>milestones<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0},{"name":"module","targets":0},{"name":"start","targets":1},{"name":"topic","targets":2},{"name":"week","targets":3},{"name":"milestones","targets":4}],"order":[],"orderClasses":false},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":[],"jsHooks":[]}</script>
 ```
 
 
@@ -1306,6 +1249,85 @@ Note that I'll be using your contracts to guide my tinkering.
 
 
 
+
+
+# How to do well in my classes
+
+To do well in the course, you should read the assigned material before class and re-read previously assigned material as the course progresses. 
+By reading the text before class, you will be better prepared to ask questions and integrate the content of lectures with what was presented in the text. 
+For synchronous classes, be sure to attend all lectures and arrive on time. 
+For asynchronous classes be sure to watch all the video lectures and don't leave them until the last minute. Each topic builds directly on the previous one. 
+Thus, if you miss one lecture or zip through a video, you run the risk of being completely lost in the next lecture.
+
+## College Workload
+
+[WFU on Credit Hours](https://registrar.wfu.edu/facultystaff-information/semester-credit-hour/)
+
+Wake Forest uses something called a "semester credit hour" to measure the amount of coursework you will be doing. This number reflects the outcomes we expect you to achieve, the mode of instruction, scheduled in-class time, and the amount of outside preparatory work expected for the class.
+
+At a general rule, you can expect to work an average of two hours outside of class for every hour spent in the classroom. So, for example, if you have a three-credit course that meets for three hours a week, you can expect to spend around six hours a week working on that course outside of class. This includes reading, homework, writing, research, and any other coursework required for the class.
+
+If you are taking a standard 15-hour course load, you can expect to spend approximately 15 hours in the classroom and around 30 hours outside of the classroom for an average total of 45 hours of classroom work, study, writing, research, etc. each week. Over the course of a 15-week semester, this adds up to 135 hours of work per semester per course and 675 hours per semester for a full course load.
+
+Remember, this is just an average. Some weeks you may have more work to do than others, and some classes may require more outside work than others. However, understanding the expected workload for each course can help you plan your time and stay on top of your coursework.
+
+## Successful Asynchronous Learning
+
+I've created a [video](https://youtu.be/dc3D2tbl8G0) highlighting how to be a successful asynchronous learner. 
+
+
+```{=html}
+<div class="vembedr" align="center">
+<div>
+<iframe src="https://www.youtube.com/embed/dc3D2tbl8G0" width="533" height="300" frameborder="0" allowfullscreen="" data-external="1"></iframe>
+</div>
+</div>
+```
+
+
+Much of this information comes from Northeastern University's [Tips for Taking Online Classes](https://www.northeastern.edu/graduate/blog/tips-for-taking-online-classes/)
+
+<!--
+
+## Important Information for College and This Course:
+
+In addition, many professors have implicit (*i.e.*, unspoken) expectations for college classes. 
+I'm going to explicitly state some of those unspoken expectations. I suspect that your other professors have similar expectations -- so this information will help you in your other classes.
+
+College courses put the onus on **YOU** to keep up with the work. You are not guaranteed any reminders throughout the semester. Go to the schedule included here and put it in your calendar. You should also:
+
+1. check course announcements on Canvas often, and 
+2. check your email tied to Canvas often. 
+  
+Email and canvas is how I communicate with you, and I will not continually repeat myself in emails after I have already posted or sent the information.
+
+High school and college are different. In high school, you may have been permitted to turn in work as late as you like, to redo assignments or quizzes until you were satisfied, and to complete extra credit work. This is not the case in this college-level course. Unless explicitly stated, there are no late assignments, make-up work, redoing of assignments, or extra credit. These are course policies; they are not opportunities for negotiation. Although I am always happy to explain the reasoning and calculus behind my policies, they are not negotiable. 
+
+There is also a prevalent attitude of, "it doesn't hurt to ask." Yes, it does. If I have already made clear my policies and expectations, asking me to violate them damages your credibility as a student. One day you may ask for something that is truly reasonable given an emergency situation, but by then your reputation will precede you. Do not be "the student who cried wolf;" it is not a respected position.
+
+Finally, you should understand that college is not a fee-for-service arrangement. You are not paying me. You are paying tuition to a University for all kinds of things, very little of which actually "pays my salary." Salaries are more commonly paid out of government funds, including grants. You start with a zero in college courses and earn your points from there. I am not "giving" you grades or "taking away" points. You have nothing to begin with and earn your own score based on what you do and how well you do it (not simply on effort). My role is to offer you an opportunity for education, not just a grade. 
+
+
+<!--- --->
+
+## Addition pieces of advice:
+
+- Read the syllabus.
+- Read all the class announcements.
+- Read the FAQ and post your questions about the class there.
+- Read and follow the instructions for each assignment. 
+- Read your professor's comments on your submissions -- especially if you did not get full credit on that submission.
+- Treat canvas messages like email.
+- Read and respond to canvas messages from your professor. 
+- Before you send email your professor, try to answer the question yourself by looking at the syllabus, reading the course FAQ, and reading the assignment instructions.
+- Know when assignment deadlines are.
+- If you need additional time or flexibility on an assignment, you communicate with your professor before the deadline passes.
+
+
+<!--chapter:end:0301_doingwell_irl.Rmd-->
+
+
+
 # Frequently Asked Questions
 
 Below you'll find answers to the questions that I get asked the most by students in my classes. I have been asked every single one of these questions.
@@ -1313,10 +1335,6 @@ Below you'll find answers to the questions that I get asked the most by students
 I don't want to discourage you from asking questions. However, asking me is not an efficient method for finding facts and searchable information...
 
 
-```{=html}
-<blockquote class="twitter-tweet" data-width="550" data-lang="en" data-dnt="true" data-theme="light"><p lang="en" dir="ltr">Considering launching the following autoreply:<br>Frequently Asked Questions<br>Q: &quot;Can you -&quot;<br>A: I cannot.</p>&mdash; Alison Ledgerwood (@AlisonLedg) <a href="https://twitter.com/AlisonLedg/status/1441181845706579969?ref_src=twsrc%5Etfw">September 23, 2021</a></blockquote>
-
-```
 
 ## How can I get ahold of you?
 
@@ -1396,6 +1414,7 @@ If you're having trouble with Canvas, you should first search the [Canvas Guides
 
 ```
 
+
 ### Can...
 
 #### Can you bump up my grade?
@@ -1446,6 +1465,7 @@ The work...
 ```
 
 
+
 ### Why...
 
 #### Why is the <assignment/activity/quiz> locked?
@@ -1465,19 +1485,35 @@ Please, understand that there's not much more I can do at this point. And I have
 What you are experiencing is the result of years of speech therapy and is a massive improvement. If you *genuinely* struggle to understand me, please TALK to me about it. I can connect you with resources, including my scripts, previous recordings of lectures. If those don't help, we can work in the LAC to figure out an accommodation that works for both of us. PLEASE do not wait until after the course is over and complain after the fact. That is not helpful to anyone. 
 
 ### How ...
+
+
+#### How do I use Canvas for class?
+
+Students will use Canvas to access course content.
+All work/assignments/projects will be distributed and collected through Canvas.
+
+##### I'm having trouble with Canvas -- help!
+
+Although I am not Canvas tech support, I've provided a helpful collection of resources in the next section. If you're still having trouble with Canvas, you should search the [Canvas Guides](https://community.canvaslms.com/t5/Canvas-Basics-Guide/tkb-p/basics) and then reach out to canvas support.
+
+##### How do I contact the Canvas Help Desk?
+You can search the Canvas Guides or contact the Canvas Support Helpline by clicking the Help icon (circle with a question mark) in the Account menu.
+
+
 #### How much time should I spend on one class every week?
 The time you spend on a class can vary. No two instructors will format their classes exactly the same. Nevertheless, under the standard ["Carnegie Unit"]  (https://www.carnegiefoundation.org/faqs/carnegie-unit/), each credit hour corresponds to a *minimum* of 3 hours of student engagement per week for a traditional 15-week course. This time may be spent on discussions, readings, and lectures, study, and research, and assignments. See the WFU registrar for [more details](https://registrar.wfu.edu/semester-credit-hour/) if you'd like 
 
 
 If you find yourself spending a lot more or a lot less than 9 hours per week on this class, please let me know. That probably means that either you're doing too much or too little.
 
-### How do I ask professors for extensions?
+#### How do I ask professors for extensions?
 
 
 ```{=html}
 <blockquote class="twitter-tweet" data-width="550" data-lang="en" data-dnt="true" data-theme="light"><p lang="en" dir="ltr">Until I became a professor, I didn&#39;t realize that students can (and do) regularly ask for extensions. <br><br>This means some students know how to use this strategy to support their learning, some don&#39;t.<br><br>Sharing info so everyone has access to the same tools. A thread. <a href="https://twitter.com/OpenAcademics?ref_src=twsrc%5Etfw">@OpenAcademics</a></p>&mdash; Betty S. Lai, PhD (@BettySLai) <a href="https://twitter.com/BettySLai/status/1455555111397117954?ref_src=twsrc%5Etfw">November 2, 2021</a></blockquote>
 
 ```
+
 
 
 ## Online Learning
@@ -1497,7 +1533,6 @@ It may feel like more work, but it actually isn't. This class covers the same co
 
 
 
-
 ### I'm having a trouble with a specific problem, can you fix it for me?
 If you are my grandmother, then yes. Otherwise... Troubleshooting or problem solving is an essential skill.  Like anything else related to technology, problems will occur with virtual learning. And it is part of your job as a student to troubleshoot your problem.
 
@@ -1505,94 +1540,6 @@ Please try basic troubleshooting to fix your problem.
 
 If you still have trouble after troubleshooting, post the problem to the discussion board and clearly describe what you have already tried.
 
-
-## Canvas {canvas}
-
-
-### How do I use Canvas for class?
-
-Students will use Canvas to access course content.
-All work/assignments/projects will be distributed and collected through Canvas.
-
-### I'm having trouble with Canvas -- help!
-
-If you're having trouble with Canvas, you should first search the [Canvas Guides](https://community.canvaslms.com/t5/Canvas-Basics-Guide/tkb-p/basics) and then reach out to canvas support.
-
-
-#### How do I contact the Canvas Help Desk?
-You can search the Canvas Guides or contact the Canvas Support Helpline by clicking the Help icon (circle with a question mark) in the Account menu.
-
-
- 
-### How do I... ? 
-
-Although I am not Canvas tech support, here are some answers to commonly asked questions.
-
-
-#### How do I set my notifications on Canvas for my classes?
-You should navigate to your "Account" by pressing the icon in the top-left corner of this page, right under the Canvas Logo. Then you press "Notifications" and will be brought to a screen where you can change and adjust your notifications.
-
-
-#### How do I submit an assignment on Canvas?
-Navigate to your assignment and click this button
-Double check your work that it's complete and saved correctly.
-Upload or type your work and click submit assignment.
-
-
-#### How do I know when an assignment has been submitted?
-After you click "submit assignment," you will see "confetti" on your screen.
-
-
-#### How do I use the Calendar feature in Canvas?
-Your calendar will allow you to see assignments and important dates for all of your classes.
-Click the calendar icon to access your calendar.
-From here, you will see all of your classes on the right side of the page
-You can click to see specific class work, or color code your calendar.
-
-
-#### How do I see feedback on my assignments submitted on Canvas?
-Log into the course and click on the 'Grades' link.
-Find the assignment and click the assignment name.
-Click on 'View Feedback' to view all feedback, including comments and any additional annotated comments made on the submission.
-
-
-#### How do I accurately check my grades in Canvas?
-
-You're probably familiar with checking your grades for a [current course in Canvas](https://community.canvaslms.com/t5/Student-Guide/How-do-I-view-my-grades-in-a-current-course/ta-p/493), but did you know that you might not be seeing an accurate calculation of your final grade when you check your grades at the end of the semester?
-
-In order to get an accurate view of your final grade towards the end of the semester,
-
-<img src="img/grades.png" width="50%" style="display: block; margin: auto;" />
-
-You may also be seeing icons and colors when you view your grades. [Learn what these grade icons and colors mean](https://community.canvaslms.com/docs/DOC-16533-4212829283).
-
-[Note: Answer Adapted from Florida State University Canvas Support](https://support.canvas.fsu.edu/kb/article/1068-students-make-sure-you-are-seeing-the-right-grades-in-canvas/)
-
-#### How do I do this specific thing in Canvas?
-
-Check out the canvas [basic guides](https://community.canvaslms.com/t5/Canvas-Basics-Guide/tkb-p/basics)
-
-[How do I use the Global Navigation Menu?](https://community.canvaslms.com/docs/DOC-10603-4212710332)
-
-[How do I use the Dashboard?](https://community.canvaslms.com/docs/DOC-10587-4212710330)
-
-[How do I use the To Do list and sidebar in the Dashboard?](https://community.canvaslms.com/docs/DOC-10589-4212717407)
-
-[How do I edit my profile in my user account? ](https://community.canvaslms.com/docs/DOC-10628-4212710342)
-
-[How do I add a profile picture in my user account?](https://community.canvaslms.com/docs/DOC-10599-4212710334)
-
-[How do I set my Canvas notification preferences?](https://community.canvaslms.com/docs/DOC-10624-4212710344)
-
-
-### Why is...
-
-
-#### Why is the assignment/activity/quiz locked?
-
-Because some of the requirements to unlock it the activity are not met. To unlock the activity/module, you need to do whatever is listed.
-
-<img src="img/requirements.png" width="50%" style="display: block; margin: auto;" />
 
 
 ## Still have questions? 
@@ -1602,72 +1549,98 @@ Post them in the Discussion Board! I can nearly guarantee, that somebody else wa
 ### Why did a question I asked via email show up on the discussion board?
 No one has asked me this question specifically, but... when students email me questions that *should* have been asked on the discussion board, I will forward the email chain to my TA and ask them to post it.
 
-<!--chapter:end:0301_FAQ.Rmd-->
+<!--chapter:end:0302_FAQ.Rmd-->
 
 
 
 
+# Canvas Guide {canvas}
 
-# How to do well in my classes
+This consolidated guide provides information on how to use Canvas effectively for your class, manage your profile and settings, and access resources for additional assistance.
 
-To do well in the course, you should read the assigned material before class and re-read previously assigned material as the course progresses. 
-By reading the text before class, you will be better prepared to ask questions and integrate the content of lectures with what was presented in the text. 
-For synchronous classes, be sure to attend all lectures and arrive on time. 
-For asynchronous classes be sure to watch all the video lectures and don't leave them until the last minute. Each topic builds directly on the previous one. 
-Thus, if you miss one lecture or zip through a video, you run the risk of being completely lost in the next lecture.
+## Accessing Course Content and Submitting Assignments
 
-## Successful Asynchronous Learning
+Students will use Canvas to access course content, and all work, assignments, and projects will be distributed and collected through Canvas. To submit an assignment on Canvas, follow these steps:
 
-I've created a [video](https://youtu.be/dc3D2tbl8G0) highlighting how to be a successful asynchronous learner. 
+1. Navigate to your assignment and click the "Submit Assignment" button.
+2. Double-check your work to ensure it's complete and saved correctly.
+3. Upload or type your work and click "Submit Assignment."
 
+After you submit your assignment, you will see confetti on your screen, indicating successful submission.
 
-```{=html}
-<div class="vembedr" align="center">
-<div>
-<iframe src="https://www.youtube.com/embed/dc3D2tbl8G0" width="533" height="300" frameborder="0" allowfullscreen="" data-external="1"></iframe>
-</div>
-</div>
-```
+## Viewing Feedback and Grades
 
-Much of this information comes from Northeastern University's [Tips for Taking Online Classes](https://www.northeastern.edu/graduate/blog/tips-for-taking-online-classes/)
+To view feedback on submitted assignments:
 
+1. Log into the course and click on the 'Grades' link.
+2. Find the assignment and click the assignment name.
+3. Click on 'View Feedback' to view all feedback, including comments and any additional annotated comments made on the submission.
 
+To accurately calculate your grades in Canvas:
 
-<!--- ## Important Information for College and This Course:
+1. Uncheck the "Calculate based only on graded assignments" checkbox when viewing your grades.
+2. Familiarize yourself with [grade icons and colors](https://community.canvaslms.com/docs/DOC-16533-4212829283).
 
-In addition, many professors have implicit (*i.e.*, unspoken) expectations for college classes. 
-I'm going to explicitly state some of those unspoken expectations. I suspect that your other professors have similar expectations -- so this information will help you in your other classes.
+<img src="img/grades.png" width="50%" style="display: block; margin: auto;" />
 
-Asynchronous courses put the onus on **YOU** to keep up with the work. You are not guaranteed any reminders throughout the semester. Go to the schedule included here and put it in your calendar. You should also:
+## Canvas Features and Troubleshooting
 
-1. check course announcements on Canvas often, and 
-2. check your email tied to Canvas often. 
-  
-Email and canvas is how I communicate with you, and I will not continually repeat myself in emails after I have already posted or sent the information.
+### Calendar
 
-High school and college are different. In high school, you may have been permitted to turn in work as late as you like, to redo assignments or quizzes until you were satisfied, and to complete extra credit work. This is not the case in this college-level course. Unless explicitly stated, there are no late assignments, make-up work, redoing of assignments, or extra credit. These are course policies; they are not opportunities for negotiation. Although I am always happy to explain the reasoning and calculus behind my policies, they are not negotiable. 
+The Calendar feature in Canvas allows you to see assignments and important dates for all your classes. Click the calendar icon to access your calendar, where you can view specific class work or color code your schedule.
 
-There is also a prevalent attitude of, "it doesn't hurt to ask." Yes, it does. If I have already made clear my policies and expectations, asking me to violate them damages your credibility as a student. One day you may ask for something that is truly reasonable given an emergency situation, but by then your reputation will precede you. Do not be "the student who cried wolf;" it is not a respected position.
+### Locked Assignments
 
-Finally, you should understand that college is not a fee-for-service arrangement. You are not paying me. You are paying tuition to a University for all kinds of things, very little of which actually "pays my salary." Salaries are more commonly paid out of government funds, including grants. You start with a zero in college courses and earn your points from there. I am not "giving" you grades or "taking away" points. You have nothing to begin with and earn your own score based on what you do and how well you do it (not simply on effort). What I offer you is an opportunity for education, not a grade.
---->
+If an assignment, activity, or quiz is locked, it means some requirements for unlocking the activity have not been met. Check the listed requirements and complete them to unlock the activity.
 
-<!--- ## Addition pieces of advice:
+<img src="img/requirements.png" width="50%" style="display: block; margin: auto;" />
 
-- Read the syllabus.
-- Read all the class announcements.
-- Read the FAQ and post your questions about the class there.
-- Read and follow the instructions for each assignment. 
-- Read your professor's comments on your submissions -- especially if you did not get full credit on that submission.
-- Treat canvas messages like email.
-- Read and respond to canvas messages from your professor. 
-- Before you send email your professor, try to answer the question yourself by looking at the syllabus, reading the course FAQ, and reading the assignment instructions.
-- Know when assignment deadlines are.
-- If you need additional time or flexibility on an assignment, you communicate with your professor before the deadline passes.
+### Canvas Support and Guides
 
---->
+If you're having trouble with Canvas, first search the [Canvas Guides](https://community.canvaslms.com/t5/Canvas-Basics-Guide/tkb-p/basics) and then reach out to Canvas support by clicking the Help icon (circle with a question mark) in the Account menu.
 
-<!--chapter:end:0302_doingwell_irl.Rmd-->
+The [Canvas Student Video Guide](https://community.canvaslms.com/t5/Student-Guide/tkb-p/student) provide comprehensive information related to all aspects of Canvas.
+
+### Customizing Your Canvas Experience
+
+#### Profile and User Settings
+
+Update your profile with your name, preferred contact methods, and personal links. Your profile information can be viewed by all users in your courses, making it an essential part of online course participation. Edit your profile and add a profile picture in your user account using these guides:
+
+* [Canvas Student on Guide](https://community.canvaslms.com/t5/Student-Guide/How-do-I-edit-my-profile-in-my-user-account-as-a-student/ta-p/421)
+* [How do I edit my profile in my user account?](https://community.canvaslms.com/docs/DOC-10628-4212710342)
+* [How do I add a profile picture in my user account?](https://community.canvaslms.com/docs/DOC-10599-4212710334)
+
+#### Notifications
+
+The [notification](https://community.canvaslms.com/t5/Student-Guide/How-do-I-manage-my-Canvas-notification-settings-as-a-student/ta-p/434) system is designed to help you keep track of the activity in your Canvas sites. Customize your Canvas notification preferences to ensure you don't miss important communications from your instructor:
+
+* [How do I set my Canvas notification preferences?](https://community.canvaslms.com/docs/DOC-10624-4212710344)
+
+#### Other Helpful Canvas Guides Links
+
+* [Student Guide Table of Contents](https://community.canvaslms.com/t5/Student-Guide/tkb-p/student)
+* [View your grades](https://community.canvaslms.com/t5/Student-Guide/How-do-I-view-my-grades-in-a-current-course/ta-p/493)
+* [Submitting an online assignment](https://community.canvaslms.com/t5/Student-Guide/How-do-I-submit-an-online-assignment/ta-p/503)
+* [Using the Inbox](https://community.canvaslms.com/t5/Student-Guide/How-do-I-use-the-Inbox-as-a-student/ta-p/532)
+* [Using Canvas on your mobile device](https://community.canvaslms.com/t5/Student-Guide/How-can-I-use-Canvas-on-my-mobile-device-as-a-student/ta-p/282)
+
+### Getting Organized with Canvas Features
+
+#### Global Navigation
+
+* [How do I use the Global Navigation Menu?](https://community.canvaslms.com/t5/Student-Guide/How-do-I-use-the-Global-Navigation-Menu-as-a-student/ta-p/522)
+* [How do I use the Dashboard?](https://community.canvaslms.com/t5/Student-Guide/How-do-I-use-the-Dashboard-as-a-student/ta-p/512)
+* [How do I use the To-Do list and sidebar in the Dashboard?](https://community.canvaslms.com/t5/Student-Guide/How-do-I-use-the-To-Do-list-and-sidebar-in-the-Dashboard-as-a/ta-p/511)
+
+#### Additional Canvas Tutorials
+
+* [Calendar](https://vimeo.com/78015141)
+* [Files](https://vimeo.com/74772644)
+
+By following this consolidated guide, you'll be able to navigate and use Canvas effectively for your classes, manage your profile and settings, and access the necessary resources to get the most out of your Canvas experience.
+
+<!--chapter:end:0303_canvas.Rmd-->
 
 
 
@@ -1678,86 +1651,8 @@ Below you'll find materials of available supports for this course.
 
 ## Prof. Mason FAQ
 
-https://smasongarrison.github.io/syllabi/frequently-asked-questions.html
+The FAQ can be found [here:](https://smasongarrison.github.io/syllabi/frequently-asked-questions.html)
 
-## Canvas
-
-### Canvas: Helpful Tips
-
-#### Canvas Student Guide
-
-The Canvas Student Guide provides information and guidance related to all things Canvas! Below, you will find both the text and video versions of the Student Guide: 
-
-* [Canvas Student Guide - Table of Contents](https://community.canvaslms.com/t5/Student-Guide/tkb-p/student)
- 
-* [Canvas Student Video Guide - Table of Contents](https://community.canvaslms.com/t5/Student-Guide/tkb-p/student)
-
-#### Getting Organized
-
-Global Navigation:
-
-* [How do I use the Global Navigation Menu? ](https://community.canvaslms.com/t5/Student-Guide/How-do-I-use-the-Global-Navigation-Menu-as-a-student/ta-p/522)
-
-* [How do I use the Dashboard?](https://community.canvaslms.com/t5/Student-Guide/How-do-I-use-the-Dashboard-as-a-student/ta-p/512)
-
-* [How do I use the To Do list and sidebar in the Dashboard?](https://community.canvaslms.com/t5/Student-Guide/How-do-I-use-the-To-Do-list-and-sidebar-in-the-Dashboard-as-a/ta-p/511)
-
-Profile and User Settings:
-
-* [How do I edit my profile in my user account? ](https://community.canvaslms.com/t5/Student-Guide/How-do-I-edit-my-profile-in-my-user-account-as-a-student/ta-p/421)
-
-* [How do I add a profile picture in my user account?](https://community.canvaslms.com/t5/Student-Guide/How-do-I-add-a-profile-picture-in-my-user-account-as-a-student/ta-p/518)
-
-* [How do I set my Canvas notification preferences?](https://community.canvaslms.com/t5/Student-Guide/How-do-I-manage-my-Canvas-notification-settings-as-a-student/ta-p/434)
-
-* [Calendar](https://vimeo.com/78015141)
-
-* [Files](https://vimeo.com/74772644)
-
-### Canvas: Quick Links
-
-#### Your Canvas Profile
-
-* [Profiles](https://community.canvaslms.com/t5/Student-Guide/How-do-I-edit-my-profile-in-my-user-account-as-a-student/ta-p/421) allow you to update your name, preferred contact methods, and any personal links for your account. Your profile information can be viewed by all users in your courses. In an online course, your profile is an important way of letting your instructor and classmates "see" you.
-
-
-#### Notifications
-
-* The [notification](https://community.canvaslms.com/t5/Student-Guide/How-do-I-manage-my-Canvas-notification-settings-as-a-student/ta-p/434) system is designed to help you keep track of the activity in your Canvas sites. It's important that you customize the default settings to fit the way you want to receive notifications. (You don't want to miss any important communications from your instructor!)
-
-
-#### Other Helpful Canvas Guides Links
-
-* [Student Guide Table of Contents](https://community.canvaslms.com/t5/Student-Guide/tkb-p/student)
-This will show you a list of all the topics within the Student Guides.
-
-* [View your grades](https://community.canvaslms.com/t5/Student-Guide/How-do-I-view-my-grades-in-a-current-course/ta-p/493)
-Learn how to view your grades, scoring details and instructor comments on assignments.
-
-* [Submitting an online assignment](https://community.canvaslms.com/t5/Student-Guide/How-do-I-submit-an-online-assignment/ta-p/503)
-Instructors can choose what kind of online submissions they want you to use. Learn how to submit your assignment online.
-
-* [Using the Inbox](https://community.canvaslms.com/t5/Student-Guide/How-do-I-use-the-Inbox-as-a-student/ta-p/532)
-Many instructors prefer (or even require) that you use the Canvas Inbox (also called "Conversations") rather than your regular email account.
-
-* [Using Canvas on your mobile device](https://community.canvaslms.com/t5/Student-Guide/How-can-I-use-Canvas-on-my-mobile-device-as-a-student/ta-p/282)
-On mobile devices, Canvas is designed to be used within Canvas mobile applications. Be aware that not all features are fully supported in the app. (It's recommended you do "sophisticated" tasks like taking quizzes and submitting assignments using a regular web browser.)
-
-### Accurately Calculating Grades in Canvas
-
-**Students: Make sure you are seeing the right grades in Canvas!**
-
-* You're probably familiar with [checking your grades for a current course in Canvas](https://community.canvaslms.com/t5/Student-Guide/How-do-I-view-my-grades-in-a-current-course/ta-p/493), but did you know that you might not be seeing an accurate calculation of your final grade when you check your grades at the end of the semester?
-
-* In order to get an accurate view of your final grade towards the end of the semester, make sure to uncheck the Calculate based only on graded assignments checkbox:
-
-
-<img src="img/grades.png" width="50%" style="display: block; margin: auto;" />
-
-
-* You may also be seeing icons and colors when you view your grades. [Learn what these grade icons and colors mean](https://community.canvaslms.com/t5/Student-Guide/How-do-I-use-the-icons-and-colors-in-the-Grades-page/ta-p/476)
-
-* Adapted from: [Florida State University Canvas Support](https://support.canvas.fsu.edu/kb/article/1068-students-make-sure-you-are-seeing-the-right-grades-in-canvas/)
 
 ## Resource Collections
 
@@ -1776,11 +1671,11 @@ The follow list is a non-exhaustive list of services that Wake Forest offers to 
 **[Thrive Remotely ](https://thrive.wfu.edu/thrive-remotely-2/)**
 * To support the students, faculty, and staff of Wake Forest University, the [Office of Wellbeing](https://thrive.wfu.edu/), Campus Recreation, and other colleagues at WFU have curated this hub of resources which encompass a variety of wellbeing topics to help our community as we transition to remote school and work.
 
-#### [Crash Course: Study Skills](https://www.youtube.com/watch?v=E7CwqNHn_Ns&list=PL8dPuuaLjXtNcAJRf3bE1IJU6nMfHj86W)
+- [Crash Course: Study Skills](https://www.youtube.com/watch?v=E7CwqNHn_Ns&list=PL8dPuuaLjXtNcAJRf3bE1IJU6nMfHj86W)
 
-#### [What are Office Hours?](https://vimeo.com/270014784?embedded=true&source=vimeo_logo&owner=2248721)
+- [What are Office Hours?](https://vimeo.com/270014784?embedded=true&source=vimeo_logo&owner=2248721)
 
-#### [What Are Course Evals and Why Should You Submit Them](https://www.youtube.com/watch?v=5zkAOpx8Qk8)
+- [What Are Course Evals and Why Should You Submit Them](https://www.youtube.com/watch?v=5zkAOpx8Qk8)
 
 #### WFU Honor Code Definitions
 
@@ -1848,16 +1743,16 @@ Here are a few websites that cover general guidelines for how to write discussio
 
 Here's a useful and quick video on [discussion boards](https://www.youtube.com/watch?v=tg3y2A9pdtI)
 
-#### [Poem 013: Did I Miss Anything? ](https://www.loc.gov/programs/poetry-and-literature/poet-laureate/poet-laureate-projects/poetry-180/all-poems/item/poetry-180-013/did-i-miss-anything/)
+- [Poem 013: Did I Miss Anything? ](https://www.loc.gov/programs/poetry-and-literature/poet-laureate/poet-laureate-projects/poetry-180/all-poems/item/poetry-180-013/did-i-miss-anything/)
 
-#### [Advice for students so they don't sound silly in emails (essay)](https://www.insidehighered.com/views/2015/04/16/advice-students-so-they-dont-sound-silly-emails-essay)
+- [Advice for students so they don't sound silly in emails (essay)](https://www.insidehighered.com/views/2015/04/16/advice-students-so-they-dont-sound-silly-emails-essay)
 
 ### Online Learning Resources
-(leaving blank)
 
-#### [Tips for Taking Online Classes: 8 Strategies for Success Links to an external site.](https://www.northeastern.edu/graduate/blog/tips-for-taking-online-classes/)
 
-#### [Navigating Digital Information](https://www.youtube.com/watch?v=pLlv2o6UfTU&list=PL8dPuuaLjXtN07XYqqWSKpPrtNDiCHTzU)
+- [Tips for Taking Online Classes: 8 Strategies for Success Links to an external site.](https://www.northeastern.edu/graduate/blog/tips-for-taking-online-classes/)
+
+- [Navigating Digital Information](https://www.youtube.com/watch?v=pLlv2o6UfTU&list=PL8dPuuaLjXtN07XYqqWSKpPrtNDiCHTzU)
 
 ### Tech Services \& Computer Resources
 
@@ -1897,7 +1792,7 @@ You can search the Canvas Guides or contact the Canvas Support Helpline by click
 **[NYT Covid Latest Map and Case Count Links to an external site.](https://www.nytimes.com/interactive/2021/us/north-carolina-covid-cases.html)**
 
 
-<!--chapter:end:0303_support.Rmd-->
+<!--chapter:end:0304_support.Rmd-->
 
 # (PART\*) Back Matter {-}
 
