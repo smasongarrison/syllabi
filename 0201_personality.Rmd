@@ -102,7 +102,7 @@ There will be `r num_quizzes` quizzes in this course. The best `r num_counted_qu
 There will be  `r num_assignments` short assignments in this course. These assignments will allow you to incorporate some of your own interests into the course. Such interests could be related to your career, another class you're taking, a hobby you're exploring, or some other random fancy. They will typically be approximately two (2) pages. I will provide more specific written guidelines at least two weeks before each assignment is due.
 
 
-The best  `r num_count_assignments` out of  `r num_assignments` short assignments will be used to determine your total short assignments.  You can skip one of the assignments for any reason.
+The best  `r num_counted_assignments` out of  `r num_assignments` short assignments will be used to determine your total short assignments.  You can skip one of the assignments for any reason.
 
 
 #### Short Assignment Dates   {-}
