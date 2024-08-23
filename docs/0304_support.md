@@ -5,10 +5,6 @@
 
 Below you'll find materials of available supports for this course.
 
-## Prof. Mason FAQ
-
-The FAQ can be found [here:](https://smasongarrison.github.io/syllabi/frequently-asked-questions.html)
-
 
 ## Resource Collections
 
@@ -93,6 +89,7 @@ Cheating, plagiarism, stealing, deception, academic misconduct, and contempt are
 *Note: Cheating, stealing, making false or deceiving statements, plagiarism, vandalism, and harassment are just as wrong when done in the context of computing as they are in all other aspects of University conduct.*
 
 ### Discussion Board Etiquette
+
 Here are a few websites that cover general guidelines for how to write discussion board posts.
 * [Discussion Board Etiquette by Kay Lehmann and Lisa Chamberlin](https://www2.uwstout.edu/content/profdev/rubrics/discuss_etiquette.html)
 * [Etiquette For Online Course Discussion Board Posts by Kelly Paul](http://learnmore.uncg.edu/blog/etiquette-for-online-course-discussion-boards)
@@ -132,18 +129,7 @@ There may be plug-ins and helper applications to download that support the Canva
 
 While Chrome is the preferred browser for most Canvas interactions, Canvas supports the latest versions of every browser release. It's highly recommended that you update to the newest version of whatever browser you are using as well as the most up-to-date Flash plug-in. Check out the Canvas Browser Support page (Links to an external site.) for the most recent information.
 
-**Contacting the Canvas Help Desk:**
-
-You can search the Canvas Guides or contact the Canvas Support Helpline by clicking the Help icon (circle with a question mark) in the Account menu.
-
 
 **Tech Support Cheat Sheet**
 
 ![](https://imgs.xkcd.com/comics/tech_support_cheat_sheet.png)<!-- -->
-
-## Public Health
-
-**[WFU Covid Dashboard](https://ourwayforward.wfu.edu/covid-19-dashboard/)**
-**[microCOVID Risk Calculator](https://www.microcovid.org/)**
-**[NYT Covid Latest Map and Case Count Links to an external site.](https://www.nytimes.com/interactive/2021/us/north-carolina-covid-cases.html)**
-

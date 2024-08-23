@@ -8,7 +8,7 @@ library(knitr)
 ```
 
 
-# Canvas Guide {canvas}
+# Canvas Guide {#canvas}
 
 This consolidated guide provides information on how to use Canvas effectively for your class, manage your profile and settings, and access resources for additional assistance.
 

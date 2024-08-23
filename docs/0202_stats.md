@@ -1,23 +1,20 @@
-# 310: Methods in Psych Research {-#statsminor}
+# 310: Methods in Psych Research {#statsminor .unnumbered}
 
 
 
-
-
-## Course Description  {-}
+## Course Description {.unnumbered}
 
 Methods in Psychological Research introduces statistics and research design for students minoring in psychology. Prereq: P—PSY 151 (D, QR)
 
 This course is designed to help students develop the conceptual background and practical skills necessary to evaluate the statistics encountered in their coursework and in everyday life. It emphasizes selection, application, and interpretation. Topics to be covered include statistical inference, probability distributions, sampling, hypothesis testing, and correlation. The goal will be to go beyond rote memorization of abstract formulas and for students to develop an appreciation for the critical role that statistics plays in psychological science.
 
+## Required Materials {.unnumbered}
 
-## Required Materials  {-}
+Morling, Research Methods in Psychology <https://wwnorton.com/books/9780393893724>
 
-Morling, Research Methods in Psychology https://wwnorton.com/books/9780393893724
+## Course Assignments {.unnumbered}
 
-
-## Course Assignments  {-}
-### Grading Policy   {-}
+### Grading Policy {.unnumbered}
 
 
 
@@ -53,74 +50,66 @@ Trust me, you do not want me to curve by assignment.
 
 
 
-### Quizzes   {-}
+### Quizzes {.unnumbered}
 
-There will be 14 multiple-choice reading quizzes (effectively these are weekly). The best 12 out of 14 quiz grades will be used to determine your total quiz grade.  You can drop 2 of the quizzes for any reason.
+There will be 14 multiple-choice reading quizzes (effectively these are weekly). The best 12 out of 14 quiz grades will be used to determine your total quiz grade. You can drop 2 of the quizzes for any reason.
 
-### Exams   {-}
+### Exams {.unnumbered}
 
-There will be 3 exams. The best 2 out of 3 exam grades will be used to determine your total exam grade.  You can drop 1 of the exams for any reason.
+There will be 3 exams. The best 2 out of 3 exam grades will be used to determine your total exam grade. You can drop 1 of the exams for any reason.
 
+#### Exams Dates {.unnumbered}
 
-#### Exams Dates   {-}
+-   Exam 1: Friday, 10/04
 
-- Exam 1: Friday, 09/27
+-   Exam 2: Friday, 11/15
 
-- Exam 2: Friday, 11/15
+-   Exam 3: During Finals, 12/13
 
-- Exam 3: During Finals, 12/20
-
-
-### Short Assignments   {-}
+### Short Assignments {.unnumbered}
 
 There will be 2 short assignments in this course. These assignments will allow you to incorporate some of your own interests into the course. Such interests could be related to your career, another class you're taking, a hobby you're exploring, or some other random fancy. They will typically be approximately two (2) pages. I will provide more specific written guidelines at least two weeks before each assignment is due.
 
+The best 1 out of 2 short assignments will be used to determine your total short assignments. You can skip one of the assignments for any reason.
 
-The best 1 out of 2 short assignments will be used to determine your total short assignments.  You can skip one of the assignments for any reason.
+#### Assignment Dates {.unnumbered}
 
+-   Assignment 1: Friday, 10/18: Qualitative Critique 1
 
-#### Assignment Dates   {-}
+-   Assignment 2: Friday, 12/06: Qualitative Critique 2
 
-- Assignment 1: Friday, 10/18: Qualitative Critique 1
-
-- Assignment 2: Friday, 12/13: Qualitative Critique 2
-
-
-
-## Engagement Activities   {-}
+## Engagement Activities {.unnumbered}
 
 There will be multiple engagement activities in this course. These activities will allow you engage with the material for each module. Details about the specific activities will be provided on canvas. Students must complete two activities per module.
 
+## Grading Weighting {.unnumbered}
 
-## Grading Weighting   {-}
+-   200 points of your grade will be determined by your best 2 exams.
+-   50 points of your grade will be determined by your best 1 assignment(s).
+-   25 points of your grade will be determined by your engagement.
+-   60 points of your grade will be determined by your best 12 quizzes.
 
-- 200 points of your grade will be determined by your best 2 exams.
-- 50 points of your grade will be determined by your best 1 assignment(s).
-- 25 points of your grade will be determined by your engagement.
-- 60 points of your grade will be determined by your best 12 quizzes.
-
-
-## Schedule  {-}
-
-
+## Schedule {.unnumbered}
 
 
 ```{=html}
-<div class="datatables html-widget html-fill-item" id="htmlwidget-2f9cf98f22e02559f55f" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-2f9cf98f22e02559f55f">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17],["08/26","09/02","09/09","09/16","09/23","09/30","10/07","10/14","10/21","10/28","11/04","11/11","11/18","11/25","12/02","12/09","12/16"],["Introduction","Statistical Foundations","Describing Data with R","Univariate Distributions","Bivariate Distributions","Probability Theory","Binomials and other sampling distributions","Hypothesis Testing","Spring Break","T-Tests","Regression","Causal Inference","ANOVA","Applications in R","Applications in R","Review","NA"],["Week 01, 08/26 - 08/30","Week 02, 09/02 - 09/06","Week 03, 09/09 - 09/13","Week 04, 09/16 - 09/20","Week 05, 09/23 - 09/27","Week 06, 09/30 - 10/04","Week 07, 10/07 - 10/11","Week 08, 10/14 - 10/18","Week 09, 10/21 - 10/25","Week 10, 10/28 - 11/01","Week 11, 11/04 - 11/08","Week 12, 11/11 - 11/15","Week 13, 11/18 - 11/22","Week 14, 11/25 - 11/29","Week 15, 12/02 - 12/06","Week 16, 12/09 - 12/13","Week 17, 12/16 - 12/20"],[null,null,null,null,"Exam",null,null,"Assignment",null,null,null,"Exam",null,null,null,"Assignment","Exam"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n      <th>milestones<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0},{"name":"module","targets":0},{"name":"start","targets":1},{"name":"topic","targets":2},{"name":"week","targets":3},{"name":"milestones","targets":4}],"order":[],"orderClasses":false},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":[],"jsHooks":[]}</script>
+<div class="datatables html-widget html-fill-item" id="htmlwidget-977f9f0c49a0d7997b1c" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-977f9f0c49a0d7997b1c">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],["08/26","09/02","09/09","09/16","09/23","09/30","10/07","10/14","10/21","10/28","11/04","11/11","11/18","11/25","12/02","12/09"],["What are Research Methods?","Getting Ready to Do Statistical Analysis","Describing Data with R","Univariate Distributions","Bivariate Distributions","Probability Theory","Binomials and Other Sampling Distributions","Hypothesis Testing","T-Tests","F-Tests and ANOVA","Causal Inference","Experimental Designs","Ethics and Reproducibility","Special Topics","Putting it all together","Finals"],["Week 01, 08/26 - 08/30","Week 02, 09/02 - 09/06","Week 03, 09/09 - 09/13","Week 04, 09/16 - 09/20","Week 05, 09/23 - 09/27","Week 06, 09/30 - 10/04","Week 07, 10/07 - 10/11","Week 08, 10/14 - 10/18","Week 09, 10/21 - 10/25","Week 10, 10/28 - 11/01","Week 11, 11/04 - 11/08","Week 12, 11/11 - 11/15","Week 13, 11/18 - 11/22","Week 14, 11/25 - 11/29","Week 15, 12/02 - 12/06","Week 16, 12/09 - 12/13"],[null,null,null,null,null,"Exam",null,"Assignment",null,null,null,"Exam",null,null,"Assignment","Exam"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n      <th>milestones<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0},{"name":"module","targets":0},{"name":"start","targets":1},{"name":"topic","targets":2},{"name":"week","targets":3},{"name":"milestones","targets":4}],"order":[],"orderClasses":false},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":[],"jsHooks":[]}</script>
 ```
 
-
+```{=html}
 <!---
 Schedule
 -->
+```
+```{=html}
 <!---
-## Week 01, 08/26 - 08/30 : Introduction
+## Week 01, 08/26 - 08/30 : What are Research Methods?
 
 - Monday: First Day of Class / Introduction
 - Thursday: First Day of Class
 
-## Week 02, 09/02 - 09/06 : Statistical Foundations
+## Week 02, 09/02 - 09/06 : Getting Ready to Do Statistical Analysis
 
 - Tuesday: Research Design (Chapter 9)
 - Thursday: Sampling Theory (Chapter 8) / Measurement in the Social/Behavioral Sciences 
@@ -140,7 +129,7 @@ Schedule
 ##  Week 04, 09/16 - 09/20 : Univariate Distributions
 
 - Tuesday: Univariate Distributions (Chapter 1/2)
-- Thursday: Standardization, z-scores, and the normal distribution	(Chapter 3)
+- Thursday: Standardization, z-scores, and the normal distribution  (Chapter 3)
 
 ##  Week 05, 09/23 - 09/27 : Bivariate Distributions
 
@@ -152,9 +141,9 @@ Schedule
 
 - Tuesday: Bivariate Distributions (Chapter 4)
 
-- Thursday: Correlation	(Chapter 5)
+- Thursday: Correlation (Chapter 5)
 
-##  Week 07, 10/07 - 10/11 : Binomials and other sampling distributions 
+##  Week 07, 10/07 - 10/11 : Binomials and Other Sampling Distributions 
 
 - Thursday: Probability Theory (Chapter 12) 
 
@@ -164,7 +153,7 @@ Schedule
 
 - Thursday: Review
 
-##  Week 09, 10/21 - 10/25 : Spring Break
+##  Week 09, 10/21 - 10/25 : T-Tests
 
 - Tuesday: Test 2
 
@@ -173,25 +162,25 @@ Schedule
     - Last day undergraduate students may withdraw from fall semester classes
     - Last day to change from pass/fail to graded status in a fall semester class
 
-##  Week 10, 10/28 - 11/01 : T-Tests
+##  Week 10, 10/28 - 11/01 : F-Tests and ANOVA
 
 - Tuesday: The Logic of Hypothesis Testing Hypotheses, Errors (Chapters 16-19)
 
 - Thursday: t-tests
 
-##  Week 11, 11/04 - 11/08 : Regression
+##  Week 11, 11/04 - 11/08 : Causal Inference
 
 - Tuesday: Applying t-tests and ANOVA (Chapters 20 & 21)
 
-- Thursday: More Analysis of Variance	(Chapters 24 & 27)
+- Thursday: More Analysis of Variance   (Chapters 24 & 27)
 
-##  Week 12, 11/11 - 11/15 : Causal Inference
+##  Week 12, 11/11 - 11/15 : Experimental Designs
 
 - Tuesday: Subverting the Research Process
 
 - Thursday: Causal Inference
 
-## Week 13, 11/18 - 11/22 : ANOVA
+## Week 13, 11/18 - 11/22 : Ethics and Reproducibility
 
 - Tuesday: Review
 
@@ -199,21 +188,21 @@ Schedule
 
 - Thursday: Test 3
 
-##  Week 14, 11/25 - 11/29 : Applications in R
+##  Week 14, 11/25 - 11/29 : Special Topics
 
 - Monday: Cross-Cultural Psychology
 - Wednesday: Cross-Cultural Psychology
 - Friday: Cross-Cultural Psychology
 
 
-##  Week 15, 12/02 - 12/06 : Applications in R
+##  Week 15, 12/02 - 12/06 : Putting it all together
 
 - Tuesday: Translating Research Questions into R
 
 - Thursday: Addressing Statistical Questions in R
 
 
-##  Week 16, 12/09 - 12/13 : Review 
+##  Week 16, 12/09 - 12/13 : Finals 
 
 - Tuesday: Addressing Statistical Questions in R
 - Thursday: Last Day of Class 
@@ -226,3 +215,4 @@ Schedule
 # References
 
 -->
+```
