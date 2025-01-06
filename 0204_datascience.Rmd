@@ -3,7 +3,7 @@
 ```{r setup, include=FALSE}
 source("scheduler.R")
 knitr::opts_chunk$set(cache=FALSE, dev='pdf')
-first_day <- as.Date("2023-01-09")
+first_day <- as.Date("2025-01-13")
 cache=F
 number_of_classes=29
 number_of_weeks=16
@@ -96,7 +96,7 @@ All materials for this course are open source, including the multimedia course n
 
 ## Course Modality {-}
 
-This course is designated as a blended course. This designation is because this course's modality changes based on the level of COVID-19 transmission in the community. When COVID-19 community transmission is low or medium, this class will be in-person and masking will be required. However, if COVID-19 transmission is high in the community, this course may be moved entirely online in order to protect the health and safety of students and instructor. In the case that we move online, the in-person sessions will become synchronous online sessions. Any changes will be clearly and promptly communicated via email. More specifics on the mask requirement can be found under my public health policies ( [Public Health in the Age of COVID-19] )
+This course is designated as a blended course. This designation is because this course's modality changes based on the level of COVID-19 transmission in the community. When COVID-19 community transmission is low or medium, this class will be in-person and masking will be required. However, if COVID-19 transmission is high in the community, this course may be moved entirely online in order to protect the health and safety of students and instructor. In the case that we move online, the in-person sessions will become synchronous online sessions. Any changes will be clearly and promptly communicated via email. More specifics on the mask requirement can be found under my public health policies.
 
 
 
@@ -105,11 +105,12 @@ This course is designated as a blended course. This designation is because this 
 You will be formally evaluated in three different ways. Instructions for the assignments can be found in the [course notes](https://datascience4psych.github.io/DataScience4Psych/).
 
 
+<!--
 
 ### Presentation {-}
 
 You will give one presentation. This presentation will be approximately 10-minutes. This presentation is chance to practice a formal presentation in a relatively pressure-free setting). 
-
+-->
 
 ### Labs  {-}
 
