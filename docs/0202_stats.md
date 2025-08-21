@@ -1,4 +1,4 @@
-# 310: Methods in Psych Research {#statsminor .unnumbered}
+# 210: Methods in Psych Research {#statsminor .unnumbered}
 
 
 
@@ -60,11 +60,11 @@ There will be 3 exams. The best 2 out of 3 exam grades will be used to determine
 
 #### Exams Dates {.unnumbered}
 
--   Exam 1: Friday, 10/04
+-   Exam 1: Friday, 10/03
 
--   Exam 2: Friday, 11/15
+-   Exam 2: Friday, 11/14
 
--   Exam 3: During Finals, 12/13
+-   Exam 3: During Finals, 12/12
 
 ### Short Assignments {.unnumbered}
 
@@ -74,9 +74,9 @@ The best 1 out of 2 short assignments will be used to determine your total short
 
 #### Assignment Dates {.unnumbered}
 
--   Assignment 1: Friday, 10/18: Qualitative Critique 1
+-   Assignment 1: Friday, 10/17: Qualitative Critique 1
 
--   Assignment 2: Friday, 12/06: Qualitative Critique 2
+-   Assignment 2: Friday, 12/05: Qualitative Critique 2
 
 ## Engagement Activities {.unnumbered}
 
@@ -86,15 +86,15 @@ There will be multiple engagement activities in this course. These activities wi
 
 -   200 points of your grade will be determined by your best 2 exams.
 -   50 points of your grade will be determined by your best 1 assignment(s).
--   25 points of your grade will be determined by your engagement.
--   60 points of your grade will be determined by your best 12 quizzes.
+-   20 points of your grade will be determined by your engagement.
+-   30 points of your grade will be determined by your best 12 quizzes.
 
 ## Schedule {.unnumbered}
 
 
 ```{=html}
-<div class="datatables html-widget html-fill-item" id="htmlwidget-efcec8500a73053c8f73" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-efcec8500a73053c8f73">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],["08/26","09/02","09/09","09/16","09/23","09/30","10/07","10/14","10/21","10/28","11/04","11/11","11/18","11/25","12/02","12/09"],["What are Research Methods?","Getting Ready to Do Statistical Analysis","Describing Data with R","Univariate Distributions","Bivariate Distributions","Probability Theory","Binomials and Other Sampling Distributions","Hypothesis Testing","T-Tests","F-Tests and ANOVA","Causal Inference","Experimental Designs","Ethics and Reproducibility","Special Topics","Putting it all together","Finals"],["Week 01, 08/26 - 08/30","Week 02, 09/02 - 09/06","Week 03, 09/09 - 09/13","Week 04, 09/16 - 09/20","Week 05, 09/23 - 09/27","Week 06, 09/30 - 10/04","Week 07, 10/07 - 10/11","Week 08, 10/14 - 10/18","Week 09, 10/21 - 10/25","Week 10, 10/28 - 11/01","Week 11, 11/04 - 11/08","Week 12, 11/11 - 11/15","Week 13, 11/18 - 11/22","Week 14, 11/25 - 11/29","Week 15, 12/02 - 12/06","Week 16, 12/09 - 12/13"],[null,null,null,null,null,"Exam",null,"Assignment",null,null,null,"Exam",null,null,"Assignment","Exam"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n      <th>milestones<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0},{"name":"module","targets":0},{"name":"start","targets":1},{"name":"topic","targets":2},{"name":"week","targets":3},{"name":"milestones","targets":4}],"order":[],"orderClasses":false},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":[],"jsHooks":[]}</script>
+<div class="datatables html-widget html-fill-item" id="htmlwidget-fd25b9337dedbda124d0" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-fd25b9337dedbda124d0">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],["08/25","09/01","09/08","09/15","09/22","09/29","10/06","10/13","10/20","10/27","11/03","11/10","11/17","11/24","12/01","12/08"],["What are Research Methods?","Getting Ready to Do Statistical Analysis","Describing Data with R","Univariate Distributions","Bivariate Distributions","Probability Theory","Binomials and Other Sampling Distributions","Hypothesis Testing","T-Tests","F-Tests and ANOVA","Causal Inference","Experimental Designs","Ethics and Reproducibility","Special Topics","Putting it all together","Finals"],["Week 01, 08/25 - 08/29","Week 02, 09/01 - 09/05","Week 03, 09/08 - 09/12","Week 04, 09/15 - 09/19","Week 05, 09/22 - 09/26","Week 06, 09/29 - 10/03","Week 07, 10/06 - 10/10","Week 08, 10/13 - 10/17","Week 09, 10/20 - 10/24","Week 10, 10/27 - 10/31","Week 11, 11/03 - 11/07","Week 12, 11/10 - 11/14","Week 13, 11/17 - 11/21","Week 14, 11/24 - 11/28","Week 15, 12/01 - 12/05","Week 16, 12/08 - 12/12"],[null,null,null,null,null,"Exam",null,"Assignment",null,null,null,"Exam",null,null,"Assignment","Exam"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n      <th>milestones<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0},{"name":"module","targets":0},{"name":"start","targets":1},{"name":"topic","targets":2},{"name":"week","targets":3},{"name":"milestones","targets":4}],"order":[],"orderClasses":false},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":[],"jsHooks":[]}</script>
 ```
 
 ```{=html}
@@ -104,18 +104,18 @@ Schedule
 ```
 ```{=html}
 <!---
-## Week 01, 08/26 - 08/30 : What are Research Methods?
+## Week 01, 08/25 - 08/29 : What are Research Methods?
 
 - Monday: First Day of Class / Introduction
 - Thursday: First Day of Class
 
-## Week 02, 09/02 - 09/06 : Getting Ready to Do Statistical Analysis
+## Week 02, 09/01 - 09/05 : Getting Ready to Do Statistical Analysis
 
 - Tuesday: Research Design (Chapter 9)
 - Thursday: Sampling Theory (Chapter 8) / Measurement in the Social/Behavioral Sciences 
 
 
-##  Week 03, 09/09 - 09/13 : Describing Data with R 
+##  Week 03, 09/08 - 09/12 : Describing Data with R 
 
 - Tuesday: Describing Data Graphically with R
 
@@ -126,34 +126,34 @@ Schedule
 
 
 
-##  Week 04, 09/16 - 09/20 : Univariate Distributions
+##  Week 04, 09/15 - 09/19 : Univariate Distributions
 
 - Tuesday: Univariate Distributions (Chapter 1/2)
 - Thursday: Standardization, z-scores, and the normal distribution  (Chapter 3)
 
-##  Week 05, 09/23 - 09/27 : Bivariate Distributions
+##  Week 05, 09/22 - 09/26 : Bivariate Distributions
 
 - Tuesday: Test 1 Review
 
 - Thursday: Test 1
 
-##  Week 06, 09/30 - 10/04 : Probability Theory
+##  Week 06, 09/29 - 10/03 : Probability Theory
 
 - Tuesday: Bivariate Distributions (Chapter 4)
 
 - Thursday: Correlation (Chapter 5)
 
-##  Week 07, 10/07 - 10/11 : Binomials and Other Sampling Distributions 
+##  Week 07, 10/06 - 10/10 : Binomials and Other Sampling Distributions 
 
 - Thursday: Probability Theory (Chapter 12) 
 
-##  Week 08, 10/14 - 10/18 : Hypothesis Testing
+##  Week 08, 10/13 - 10/17 : Hypothesis Testing
 
 - Tuesday: More Probability Theory (Chapter 13) 
 
 - Thursday: Review
 
-##  Week 09, 10/21 - 10/25 : T-Tests
+##  Week 09, 10/20 - 10/24 : T-Tests
 
 - Tuesday: Test 2
 
@@ -162,25 +162,25 @@ Schedule
     - Last day undergraduate students may withdraw from fall semester classes
     - Last day to change from pass/fail to graded status in a fall semester class
 
-##  Week 10, 10/28 - 11/01 : F-Tests and ANOVA
+##  Week 10, 10/27 - 10/31 : F-Tests and ANOVA
 
 - Tuesday: The Logic of Hypothesis Testing Hypotheses, Errors (Chapters 16-19)
 
 - Thursday: t-tests
 
-##  Week 11, 11/04 - 11/08 : Causal Inference
+##  Week 11, 11/03 - 11/07 : Causal Inference
 
 - Tuesday: Applying t-tests and ANOVA (Chapters 20 & 21)
 
 - Thursday: More Analysis of Variance   (Chapters 24 & 27)
 
-##  Week 12, 11/11 - 11/15 : Experimental Designs
+##  Week 12, 11/10 - 11/14 : Experimental Designs
 
 - Tuesday: Subverting the Research Process
 
 - Thursday: Causal Inference
 
-## Week 13, 11/18 - 11/22 : Ethics and Reproducibility
+## Week 13, 11/17 - 11/21 : Ethics and Reproducibility
 
 - Tuesday: Review
 
@@ -188,21 +188,21 @@ Schedule
 
 - Thursday: Test 3
 
-##  Week 14, 11/25 - 11/29 : Special Topics
+##  Week 14, 11/24 - 11/28 : Special Topics
 
 - Monday: Cross-Cultural Psychology
 - Wednesday: Cross-Cultural Psychology
 - Friday: Cross-Cultural Psychology
 
 
-##  Week 15, 12/02 - 12/06 : Putting it all together
+##  Week 15, 12/01 - 12/05 : Putting it all together
 
 - Tuesday: Translating Research Questions into R
 
 - Thursday: Addressing Statistical Questions in R
 
 
-##  Week 16, 12/09 - 12/13 : Finals 
+##  Week 16, 12/08 - 12/12 : Finals 
 
 - Tuesday: Addressing Statistical Questions in R
 - Thursday: Last Day of Class 

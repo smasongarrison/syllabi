@@ -1,9 +1,9 @@
-# 310: Methods in Psych Research {#statsminor .unnumbered}
+# 210: Methods in Psych Research {#statsminor .unnumbered}
 
 ```{r setup, include=FALSE}
 source("scheduler.R")
 knitr::opts_chunk$set(cache=FALSE, dev='pdf')
-first_day <- as.Date("2024-08-26")
+first_day <- as.Date("2025-08-25")
 cache <- F
 number_of_classes <- 29
 number_of_weeks <- 16
@@ -152,8 +152,8 @@ There will be multiple engagement activities in this course. These activities wi
 
 -   200 points of your grade will be determined by your best `r num_counted_exams` exams.
 -   50 points of your grade will be determined by your best `r num_counted_assignments` assignment(s).
--   25 points of your grade will be determined by your engagement.
--   60 points of your grade will be determined by your best 12 quizzes.
+-   20 points of your grade will be determined by your engagement.
+-   30 points of your grade will be determined by your best 12 quizzes.
 
 ## Schedule {.unnumbered}
 

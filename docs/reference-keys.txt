@@ -95,3 +95,7 @@ wfu-honor-code-definitions
 discussion-board-etiquette
 online-learning-resources
 tech-services-computer-resources
+statements
+from-the-psychology-department
+how-id-expand-it
+important-information-for-college-and-this-course
