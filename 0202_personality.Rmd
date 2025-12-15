@@ -120,7 +120,7 @@ There will be multiple engagement activities in this course. These activities wi
 
 ## Grading Policy   {-}
 
-```{r child = './common/content/grading.Xmd'}
+```{r child = './common/content/grading_curve.Xmd'}
 ```
 
 ### Weighting   {-}
