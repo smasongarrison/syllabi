@@ -1,12 +1,4 @@
-# 703: Data Science {-}
-
-```{r setup, include=FALSE}
-source("scheduler.R")
-knitr::opts_chunk$set(cache=FALSE, dev='pdf')
-first_day <- as.Date("2025-01-13")
-cache=F
-number_of_classes=29
-number_of_weeks=16
+```{r core, include=FALSE}
 
 ####
 #devtools::install_github("crsh/citr")
@@ -22,38 +14,38 @@ bib[length(bib)]$key = "Rcite"
 
 
 topic_vjoe=c(
-  "Introduction and What is Data Science", 
+  "Introduction and What is Data Science",
   "Graphical Data Analysis",
   "Graphical Masterpieces",
   "Scatterplots and Correlations",
   "Quiz 1",
   "Exploratory Data Analysis",#  "Spring Break",#  "",
-  "Data Transformations", 
-  "Robustness and Resistence", 
+  "Data Transformations",
+  "Robustness and Resistence",
   "Replication",
   "Quiz 2",
-  "Modern Data Science", 
-  "Archival Data", 
+  "Modern Data Science",
+  "Archival Data",
   "Data mining and CART",
   "Special Topics",
   "Special Topics" )
 topic =c(
-  "What is Data Science and Meet the Toolkit", 
+  "What is Data Science and Meet the Toolkit",
   "Data and Visualization",
   "Welcome to the Tidyverse",
   "Data types and Data Transformations",
   "Effective data visualization",
   "Scientific Communication and confounding",
   "Functions and Automation",#  "Spring Break",#  "",
-  "Webscraping", 
-  "Spring Break", 
+  "Webscraping",
+  "Spring Break",
   "Ethics",
   "Tidy Models",
   "Overfitting and Cross validation",
   "Quantifying uncertainty",
   "Rshiny",
   "Machine Learning",
-  "Presentations", 
+  "Presentations",
   "NA",
   "NA"
   )
@@ -67,7 +59,7 @@ classschedule <- create_classschedule(first_day = first_day,
                      assignments_week= 16,
                      exams_name = "Contract",
                      assignments_name = "Presentation")
-  
+
 
 
 ```
@@ -88,7 +80,7 @@ Data Science for Psychologists (DS4P) introduces the principles of data science,
 
 ## Required Materials  {-}
 
-All materials for this course are open source, including the multimedia course notes. 
+All materials for this course are open source, including the multimedia course notes.
 
 - Garrison's Data Science for Psychologists (https://datascience4psych.github.io/DataScience4Psych/)
 - Wickham and Grolemund's R for Data Science text (http://r4ds.had.co.nz/)
@@ -109,7 +101,7 @@ You will be formally evaluated in three different ways. Instructions for the ass
 
 ### Presentation {-}
 
-You will give one presentation. This presentation will be approximately 10-minutes. This presentation is chance to practice a formal presentation in a relatively pressure-free setting). 
+You will give one presentation. This presentation will be approximately 10-minutes. This presentation is chance to practice a formal presentation in a relatively pressure-free setting).
 -->
 
 ### Labs  {-}
@@ -130,14 +122,14 @@ This experiential course requires active engagement. There will be few lectures 
 
 ## Grading Policy  {-}
 
-```{r child = './common/content/contract.Xmd'}
+```{r child = 'contract.Xmd'}
 ```
 
 
 ### Contract Grades  {-}
 
 
-```{r child = './common/content/contract_grades_ds4p.Xmd'}
+```{r child = 'contract_grades_ds4p.Xmd'}
 ```
 
 
@@ -148,11 +140,11 @@ Note that I'll be using your contracts to guide my tinkering.
 
 ```{r message = FALSE, warning = FALSE, echo = FALSE}
 
-classschedule %>% 
+classschedule %>%
   DT::datatable(rownames = FALSE,
                 class = 'cell-border stripe',
                 #filter = list(position = 'top'),
-                options = list(pageLength = nrow(classschedule$module), 
+                options = list(pageLength = nrow(classschedule$module),
                            autoWidth = FALSE,
                            bInfo = FALSE,
                            paging = FALSE))
