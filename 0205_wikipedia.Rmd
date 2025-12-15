@@ -78,7 +78,7 @@ Through hands-on critique, research, and editorial contributions, students not o
 
 ## Course Modality {-}
 
-This is a half-semester course running from `r format(first_day - 2, "%B %d")` through `r format(first_day + 8*7, "%B %d, %Y")`. Classes meet on Tuesdays and Thursdays.
+This is a half-semester course running from `r format(first_day - 2, "%B %d")` through `r format(first_day + (number_of_weeks - 1)*7, "%B %d, %Y")`. Classes meet on Tuesdays and Thursdays.
 
 ## Wikipedia Assignment Timeline {-}
 
