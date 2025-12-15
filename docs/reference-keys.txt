@@ -1,5 +1,5 @@
-tab:unnamed-chunk-7
 tab:unnamed-chunk-5
+tab:unnamed-chunk-7
 materials
 required-texts
 hardware

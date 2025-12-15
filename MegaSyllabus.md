@@ -1,7 +1,7 @@
 --- 
 title: "Prof. Mason's Syllabi"
 author: S. Mason Garrison
-date: "2025-08-22"
+date: "2025-12-15"
 knit: "bookdown::render_book"
 site: bookdown::bookdown_site
 url: 'https\://github.com/smasongarrison/syllabi'
@@ -128,31 +128,23 @@ This version of the syllabus was built with:
 
 
 ```
-## Finding R package dependencies ... Done!
+## Error in loadNamespace(x): there is no package called 'renv'
 ```
 
 ```
-##  setting  value
-##  version  R version 4.5.1 (2025-06-13 ucrt)
-##  os       Windows 11 x64 (build 26120)
-##  system   x86_64, mingw32
-##  ui       RTerm
-##  language (EN)
-##  collate  English_United States.utf8
-##  ctype    English_United States.utf8
-##  tz       America/New_York
-##  date     2025-08-22
-##  pandoc   3.6.3 @ C:/Program Files/RStudio/resources/app/bin/quarto/bin/tools/ (via rmarkdown)
-##  quarto   NA @ C:\\PROGRA~1\\RStudio\\RESOUR~1\\app\\bin\\quarto\\bin\\quarto.exe
+## Error: object 'all_pkgs' not found
+```
+
+```
+## Error: object 'session' not found
 ```
 
 Along with these packages:
 
 
 
-```{=html}
-<div class="datatables html-widget html-fill-item" id="htmlwidget-6102856ec5001d029dd5" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-6102856ec5001d029dd5">{"x":{"filter":"top","vertical":false,"filterHTML":"<tr>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n<\/tr>","data":[["askpass","assertthat","backports","base64enc","bigD","bit","bit64","bitops","blob","bookdown","brew","brio","broom","bslib","cachem","callr","cellranger","cli","clipr","commonmark","conflicted","cpp11","crayon","credentials","crosstalk","curl","data.table","DBI","dbplyr","desc","devtools","dichromat","diffobj","digest","downlit","dplyr","DT","dtplyr","ellipsis","evaluate","fansi","farver","fastmap","fontawesome","forcats","fs","gapminder","gargle","gender","genderdata","generics","geonames","gert","ggplot2","gh","gitcreds","glue","googledrive","googlesheets4","gridExtra","gt","gtable","haven","highr","hms","htmltools","htmlwidgets","httpuv","httr","httr2","ids","ini","isoband","jquerylib","jsonlite","juicyjuice","knitr","labeling","later","lattice","lazyeval","lifecycle","litedown","lubridate","magrittr","markdown","MASS","Matrix","memoise","mgcv","mime","miniUI","modelr","nlme","openssl","pillar","pkgbuild","pkgconfig","pkgdown","pkgload","praise","prettyunits","processx","profvis","progress","promises","ps","purrr","R6","ragg","rappdirs","rcmdcheck","RColorBrewer","Rcpp","reactable","reactR","readr","readxl","rebird","rematch","rematch2","remotes","reprex","rjson","rlang","rmarkdown","roxygen2","rplos","rprojroot","rstudioapi","rversions","rvest","sass","scales","selectr","sessioninfo","shiny","sourcetools","stringi","stringr","sys","systemfonts","testthat","textshaping","tibble","tidyr","tidyselect","tidyverse","timechange","tinytex","tzdb","urlchecker","usethis","utf8","uuid","V8","vctrs","viridis","viridisLite","vroom","waldo","whisker","withr","xfun","xml2","xopen","xtable","yaml","zip"],[null,null,null,null,null,null,null,null,null,"0.43",null,null,null,"0.9.0","1.1.0",null,null,"3.6.5",null,null,null,null,null,null,null,null,null,null,null,null,"2.4.5","2.0-0.1",null,"0.6.37",null,"1.1.4",null,null,"0.3.2","1.0.4",null,"2.1.2","1.2.0",null,"1.0.0","1.6.6",null,null,null,null,"0.1.4",null,null,"3.5.2",null,null,"1.8.0",null,null,null,null,"0.3.6",null,null,"1.1.3","0.5.8.1","1.6.4","1.6.16",null,null,null,null,null,"0.1.4","2.0.0",null,"1.50",null,"1.4.2",null,null,"1.0.4",null,"1.9.4","2.0.3",null,null,null,"2.0.1",null,"0.13","0.1.2",null,null,null,"1.11.0","1.4.8","2.0.3",null,"1.4.0",null,null,null,"0.4.0",null,"1.3.3",null,"1.1.0","2.6.1",null,null,null,"1.1-3","1.1.0",null,null,"2.1.5",null,null,null,null,"2.5.0",null,null,"1.1.6","2.29",null,null,null,"0.17.1",null,null,"0.4.10","1.4.0",null,"1.2.3","1.11.1",null,"1.8.7","1.5.1",null,null,null,null,"3.3.0","1.3.1","1.2.1","2.0.0","0.3.0",null,"0.5.0","1.0.1","3.1.0",null,null,null,"0.6.5",null,null,null,null,null,"3.0.2","0.52",null,null,"1.8-4","2.3.10",null],["2024-10-04","2019-03-21","2024-05-23","2015-07-28","2025-04-03","2025-03-06","2025-01-16","2024-10-03","2023-03-17","2025-04-15","2023-12-16","2024-04-24","2025-07-28","2025-01-30","2024-05-16","2024-03-25","2016-07-27","2025-04-23","2022-02-22","2025-07-07","2023-02-01","2025-03-03","2024-06-20","2024-10-04","2023-11-23","2025-06-22","2025-07-10","2024-06-02","2024-03-19","2023-12-10","2022-10-11","2022-05-02","2025-04-21","2024-08-19","2024-06-10","2023-11-17","2024-04-04","2023-03-22","2021-04-29","2025-06-18","2023-12-08","2024-05-13","2024-05-15","2024-11-16","2023-01-29","2025-04-12","2025-06-12","2023-07-20","2021-10-13","2025-04-21","2025-05-09","2019-02-19","2025-03-25","2025-04-09","2025-05-26","2022-09-08","2024-09-30","2023-06-11","2023-06-11","2017-09-09","2025-04-05","2024-10-25","2025-05-30","2024-05-26","2023-03-21","2024-04-04","2023-12-06","2025-04-16","2023-08-15","2025-07-22","2017-05-31","2018-05-20","2022-12-20","2021-04-26","2025-03-27","2022-11-10","2025-03-16","2023-08-29","2025-04-08","2025-04-02","2019-03-15","2023-11-07","2025-04-08","2024-12-08","2022-03-30","2025-03-23","2025-02-28","2025-03-11","2021-11-26","2025-04-04","2025-03-17","2025-04-17","2023-03-22","2025-03-31","2025-05-26","2025-07-04","2025-05-26","2019-09-22","2025-05-25","2024-06-28","2015-08-11","2023-09-24","2025-02-21","2024-09-20","2023-12-06","2025-05-29","2025-04-12","2025-07-10","2025-02-15","2025-04-10","2021-01-31","2021-09-27","2022-04-03","2025-07-02","2023-03-12","2024-09-14","2024-01-10","2025-03-07","2021-09-20","2023-08-30","2020-05-01","2024-03-17","2024-07-06","2024-09-16","2025-04-11","2024-11-04","2024-06-28",null,"2025-07-12","2024-10-22","2022-08-31","2024-02-12","2025-04-11","2025-04-24","2019-11-20","2025-02-05","2025-07-03","2023-02-01","2025-03-27","2023-11-14","2024-10-04","2025-04-30","2025-01-13","2025-05-01","2025-06-08","2024-01-24","2024-03-11","2023-02-22","2024-01-18","2025-04-15","2025-03-15","2021-11-30","2024-11-26","2025-06-08","2024-07-29","2025-07-31","2023-12-01","2024-01-29","2023-05-02","2023-12-05","2025-07-11","2022-12-05","2024-10-28","2025-04-02","2025-03-14","2024-04-25","2019-04-21","2024-07-26","2025-05-13"],["CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.1)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.1)","CRAN (R 4.5.1)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","Github (lmullen/genderdata@df16017149a8adb9a75a2dcf734007cab12dd5da)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.1)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.1)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.1)","CRAN (R 4.5.1)","CRAN (R 4.5.0)","CRAN (R 4.5.1)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.1)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.1)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.1)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)",null,"CRAN (R 4.5.1)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.1)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.1)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.1)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>package<\/th>\n      <th>loadedversion<\/th>\n      <th>date<\/th>\n      <th>source<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":169,"autoWidth":true,"bInfo":false,"paging":false,"columnDefs":[{"name":"package","targets":0},{"name":"loadedversion","targets":1},{"name":"date","targets":2},{"name":"source","targets":3}],"order":[],"orderClasses":false,"orderCellsTop":true,"lengthMenu":[10,25,50,100,169]},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":[],"jsHooks":[]}</script>
+```
+## Error: object 'session' not found
 ```
 
 The R session information when compiling this book is shown below:
@@ -165,9 +157,9 @@ sessionInfo()
 ```
 
 ```
-## R version 4.5.1 (2025-06-13 ucrt)
+## R version 4.5.2 (2025-10-31 ucrt)
 ## Platform: x86_64-w64-mingw32/x64
-## Running under: Windows 11 x64 (build 26120)
+## Running under: Windows 11 x64 (build 26200)
 ## 
 ## Matrix products: default
 ##   LAPACK version 3.12.1
@@ -186,13 +178,13 @@ sessionInfo()
 ## [1] stats     graphics  grDevices utils     datasets  methods   base     
 ## 
 ## other attached packages:
-##  [1] lubridate_1.9.4 forcats_1.0.0   stringr_1.5.1   dplyr_1.1.4    
-##  [5] purrr_1.1.0     readr_2.1.5     tidyr_1.3.1     tibble_3.3.0   
-##  [9] ggplot2_3.5.2   tidyverse_2.0.0
+##  [1] lubridate_1.9.4 forcats_1.0.1   stringr_1.6.0   dplyr_1.1.4    
+##  [5] purrr_1.2.0     readr_2.1.6     tidyr_1.3.1     tibble_3.3.0   
+##  [9] ggplot2_4.0.1   tidyverse_2.0.0
 ## 
 ## loaded via a namespace (and not attached):
-## [1] tools_4.5.1       htmltools_0.5.8.1 bookdown_0.43     rmarkdown_2.29   
-## [5] shiny_1.11.1      knitr_1.50        miniUI_0.1.2
+## [1] bookdown_0.46     shiny_1.12.1      tools_4.5.2       miniUI_0.1.2     
+## [5] knitr_1.50        htmltools_0.5.8.1 rmarkdown_2.30
 ```
 
 
@@ -603,129 +595,6 @@ Students are advised that Wake Forest University faculty members hold the copyri
 
 <!--chapter:end:0200_specificcourses.Rmd-->
 
-# 255: Personality {-#personality}
-
-
-
-
-
-
-
-## Course Description   {-}
-
-This class provides a survey of theory and research on the structure and function of human personality, with attention to the relationship to cognition, emotion, motivation, and behavior. It requires P-PSY 151. In addition, we will discuss other individual differences, such as intelligence.
-
-### Broad goals for the course:   {-}
-- 1. The first is for you to understand what personality psychologists think. We will cover classic and current theories, research, and applications of Personality psychology.
-- 2. The second is for you to learn how personality psychologists study their field scientifically. We will discuss the procedures used to test theories and to study issues related to personality.
-- 3. The third is to (hopefully) recognize some relevance of personality psychology for your personal and professional life.
-
-
-## Required Materials   {-}
-
-[1] D. C. Funder. _The personality puzzle_. Seventh. OCLC: 935283402.
-New York: W.W. Norton & Co., 2016. ISBN: 978-0-393-60042-1.
-
-
-## Course Assignments   {-}
-
-### Quizzes    {-}
-There will be 6 quizzes in this course. The best 5 out of 6 quizzes grades will be used to determine your total quiz grade.  You can drop any of the quizzes for any reason BUT YOU MUST PASS THE LAST Quiz ( that is held during the university scheduled final exam period).  If you do not pass the final quiz, your score on that quiz will count as one of your 5 grades. If you do pass the final quiz, then the best 5 grades will be used (irrespective of your score on the final quiz).
-
-
-
-#### Quiz Dates   {-}
-
-- Quiz 1: Friday, 09/09
-
-- Quiz 2: Friday, 09/30
-
-- Quiz 3: Friday, 10/28
-
-- Quiz 4: Friday, 11/18
-
-- Quiz 5: Friday, 12/02
-
-- Quiz 6: During Finals, 12/09
-
-
-### Short Assignments   {-}
-
-There will be  3 short assignments in this course. These assignments will allow you to incorporate some of your own interests into the course. Such interests could be related to your career, another class you're taking, a hobby you're exploring, or some other random fancy. They will typically be approximately two (2) pages. I will provide more specific written guidelines at least two weeks before each assignment is due.
-
-
-The best  2 out of  3 short assignments will be used to determine your total short assignments.  You can skip one of the assignments for any reason.
-
-
-#### Short Assignment Dates   {-}
-
-- Assignment 1: Friday, 10/07: Critique of an online personality test.
-
-- Assignment 2: Friday, 11/11: Critique of a personality-related media article.
-
-- Assignment 3: Friday, 12/09: Critique of a personality-related YouTube video.
-
-### Engagement Activities   {-}
-
-There will be multiple engagement activities in this course. These activities will allow you engage with the material for each module. Details about the specific activities will be provided on canvas. Students must complete two activities per module. For students in the blended section, they can attend their weekly in-person session and count it as an engagement activity.
-
-
-## Grading Policy   {-}
-
-
-
-Typically, an A- is defined as 90% of the highest point total in the class, B- as 80% of that total, C- as 70 and D- as 60%.
-I may shift these values down to provide a better fit to the actual point distribution.
-By scaling to a percentage of the highest point total in the class, each student has a much better chance of receiving higher grades than if no re-scaling were done.
-This curve can only help your grade.
-
-The full table is provided below:
-
-Table: (\#tab:unnamed-chunk-7)Full Table
-
-|Letter | Cutoff|
-|:------|------:|
-|A      |   0.95|
-|A-     |   0.90|
-|B+     |   0.87|
-|B      |   0.83|
-|B-     |   0.80|
-|C+     |   0.77|
-|C      |   0.73|
-|C-     |   0.70|
-|D+     |   0.67|
-|D      |   0.63|
-|D-     |   0.60|
-
-### Curve Projections    {-}
-
-Unsurprisingly, students have many questions about the curve in this class. For tests and other assignments, I try to provide a projected letter grade.
-This projected letter grade is there to give you a sense of what your score *would* be if I implemented the class curve on this particular assignment.
-It is a projection. It is not a guarantee. These projected letter grades are not incorporated into your final grade.
-Trust me, you do not want me to curve by assignment.
-
-
-
-### Weighting   {-}
-
-- 150 points of your grade will be determined by your best 5 quizzes
-    - The final is not optional.
-- 25 points of your grade will be determined by completing engagement activities.
-- 100 points of your grade will be determined by your best two short assignments.
-
-
-
-## Schedule {-}
-
-
-```{=html}
-<div class="datatables html-widget html-fill-item" id="htmlwidget-d089c84c606fe34bb3d4" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-d089c84c606fe34bb3d4">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],["08/22","08/29","09/05","09/12","09/19","09/26","10/03","10/10","10/17","10/24","10/31","11/07","11/14","11/21","11/28","12/05"],["What is Personality","Personality Research Methods","Assessment, Evaluation, and Ethics","Trait Approach and Personality Judgment","Big Five","Personality over the Lifespan","Biological Approaches to Psychology","Behavior Genetics","Evolutionary Psychology","Cross-Cultural Psychology","Freud","Psychoanalysis After Freud","Personality Processes and Positive Psych","MiniModule on Personality, Big Data, and AI (Also, Thanksgiving Break!)","Personality and Health",null],["Week 01, 08/22 - 08/26","Week 02, 08/29 - 09/02","Week 03, 09/05 - 09/09","Week 04, 09/12 - 09/16","Week 05, 09/19 - 09/23","Week 06, 09/26 - 09/30","Week 07, 10/03 - 10/07","Week 08, 10/10 - 10/14","Week 09, 10/17 - 10/21","Week 10, 10/24 - 10/28","Week 11, 10/31 - 11/04","Week 12, 11/07 - 11/11","Week 13, 11/14 - 11/18","Week 14, 11/21 - 11/25","Week 15, 11/28 - 12/02","Week 16, 12/05 - 12/09"],[null,null,"Quiz",null,null,"Quiz","Assignment",null,null,"Quiz",null,"Assignment","Quiz",null,"Quiz","Quiz and Assignment"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n      <th>milestones<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0},{"name":"module","targets":0},{"name":"start","targets":1},{"name":"topic","targets":2},{"name":"week","targets":3},{"name":"milestones","targets":4}],"order":[],"orderClasses":false},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":[],"jsHooks":[]}</script>
-```
-
-
-<!--chapter:end:0201_personality.Rmd-->
-
 # 210: Methods in Psych Research {#statsminor .unnumbered}
 
 
@@ -738,7 +607,7 @@ This course is designed to help students develop the conceptual background and p
 
 ## Required Materials {.unnumbered}
 
-Morling, Research Methods in Psychology <https://wwnorton.com/books/9780393893724>
+Morling, (5th Edition) Research Methods in Psychology <https://seagull.wwnorton.com/researchpsych5>
 
 ## Course Assignments {.unnumbered}
 
@@ -821,8 +690,8 @@ There will be multiple engagement activities in this course. These activities wi
 
 
 ```{=html}
-<div class="datatables html-widget html-fill-item" id="htmlwidget-7f1fa907b78e6e8077b4" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-7f1fa907b78e6e8077b4">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],["08/25","09/01","09/08","09/15","09/22","09/29","10/06","10/13","10/20","10/27","11/03","11/10","11/17","11/24","12/01","12/08"],["What are Research Methods?","Getting Ready to Do Statistical Analysis","Describing Data with R","Univariate Distributions","Bivariate Distributions","Probability Theory","Binomials and Other Sampling Distributions","Hypothesis Testing","T-Tests","F-Tests and ANOVA","Causal Inference","Experimental Designs","Ethics and Reproducibility","Special Topics","Putting it all together","Finals"],["Week 01, 08/25 - 08/29","Week 02, 09/01 - 09/05","Week 03, 09/08 - 09/12","Week 04, 09/15 - 09/19","Week 05, 09/22 - 09/26","Week 06, 09/29 - 10/03","Week 07, 10/06 - 10/10","Week 08, 10/13 - 10/17","Week 09, 10/20 - 10/24","Week 10, 10/27 - 10/31","Week 11, 11/03 - 11/07","Week 12, 11/10 - 11/14","Week 13, 11/17 - 11/21","Week 14, 11/24 - 11/28","Week 15, 12/01 - 12/05","Week 16, 12/08 - 12/12"],[null,null,null,null,null,"Exam",null,"Assignment",null,null,null,"Exam",null,null,"Assignment","Exam"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n      <th>milestones<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0},{"name":"module","targets":0},{"name":"start","targets":1},{"name":"topic","targets":2},{"name":"week","targets":3},{"name":"milestones","targets":4}],"order":[],"orderClasses":false},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":[],"jsHooks":[]}</script>
+<div class="datatables html-widget html-fill-item" id="htmlwidget-4d3dd635d263ca677ec1" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-4d3dd635d263ca677ec1">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],["08/25","09/01","09/08","09/15","09/22","09/29","10/06","10/13","10/20","10/27","11/03","11/10","11/17","11/24","12/01","12/08"],["What are Research Methods?","Getting Ready to Do Statistical Analysis","Describing Data with R","Univariate Distributions","Bivariate Distributions","Probability Theory","Binomials and Other Sampling Distributions","Hypothesis Testing","T-Tests","F-Tests and ANOVA","Causal Inference","Experimental Designs","Ethics and Reproducibility","Special Topics","Putting it all together","Finals"],["Week 01, 08/25 - 08/29","Week 02, 09/01 - 09/05","Week 03, 09/08 - 09/12","Week 04, 09/15 - 09/19","Week 05, 09/22 - 09/26","Week 06, 09/29 - 10/03","Week 07, 10/06 - 10/10","Week 08, 10/13 - 10/17","Week 09, 10/20 - 10/24","Week 10, 10/27 - 10/31","Week 11, 11/03 - 11/07","Week 12, 11/10 - 11/14","Week 13, 11/17 - 11/21","Week 14, 11/24 - 11/28","Week 15, 12/01 - 12/05","Week 16, 12/08 - 12/12"],[null,null,null,null,null,"Exam",null,"Assignment",null,null,null,"Exam",null,null,"Assignment","Exam"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n      <th>milestones<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0},{"name":"module","targets":0},{"name":"start","targets":1},{"name":"topic","targets":2},{"name":"week","targets":3},{"name":"milestones","targets":4}],"order":[],"orderClasses":false},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":[],"jsHooks":[]}</script>
 ```
 
 ```{=html}
@@ -945,7 +814,288 @@ Schedule
 -->
 ```
 
-<!--chapter:end:0202_stats.Rmd-->
+<!--chapter:end:0201_stats.Rmd-->
+
+# 255: Personality {-#personality}
+
+
+
+
+
+
+
+## Course Description   {-}
+
+This class provides a survey of theory and research on the structure and function of human personality, with attention to the relationship to cognition, emotion, motivation, and behavior. It requires P-PSY 151. In addition, we will discuss other individual differences, such as intelligence.
+
+### Broad goals for the course:   {-}
+- 1. The first is for you to understand what personality psychologists think. We will cover classic and current theories, research, and applications of Personality psychology.
+- 2. The second is for you to learn how personality psychologists study their field scientifically. We will discuss the procedures used to test theories and to study issues related to personality.
+- 3. The third is to (hopefully) recognize some relevance of personality psychology for your personal and professional life.
+
+
+## Required Materials   {-}
+
+[1] D. C. Funder. _The personality puzzle_. Seventh. OCLC: 935283402.
+New York: W.W. Norton & Co., 2016. ISBN: 978-0-393-60042-1.
+
+
+## Course Assignments   {-}
+
+### Quizzes    {-}
+There will be 6 quizzes in this course. The best 5 out of 6 quizzes grades will be used to determine your total quiz grade.  You can drop any of the quizzes for any reason BUT YOU MUST PASS THE LAST Quiz ( that is held during the university scheduled final exam period).  If you do not pass the final quiz, your score on that quiz will count as one of your 5 grades. If you do pass the final quiz, then the best 5 grades will be used (irrespective of your score on the final quiz).
+
+
+
+#### Quiz Dates   {-}
+
+- Quiz 1: Friday, 09/09
+
+- Quiz 2: Friday, 09/30
+
+- Quiz 3: Friday, 10/28
+
+- Quiz 4: Friday, 11/18
+
+- Quiz 5: Friday, 12/02
+
+- Quiz 6: During Finals, 12/09
+
+
+### Short Assignments   {-}
+
+There will be  3 short assignments in this course. These assignments will allow you to incorporate some of your own interests into the course. Such interests could be related to your career, another class you're taking, a hobby you're exploring, or some other random fancy. They will typically be approximately two (2) pages. I will provide more specific written guidelines at least two weeks before each assignment is due.
+
+
+The best  2 out of  3 short assignments will be used to determine your total short assignments.  You can skip one of the assignments for any reason.
+
+
+#### Short Assignment Dates   {-}
+
+- Assignment 1: Friday, 10/07: Critique of an online personality test.
+
+- Assignment 2: Friday, 11/11: Critique of a personality-related media article.
+
+- Assignment 3: Friday, 12/09: Critique of a personality-related YouTube video.
+
+### Engagement Activities   {-}
+
+There will be multiple engagement activities in this course. These activities will allow you engage with the material for each module. Details about the specific activities will be provided on canvas. Students must complete two activities per module. For students in the blended section, they can attend their weekly in-person session and count it as an engagement activity.
+
+
+## Grading Policy   {-}
+
+
+
+Typically, an A- is defined as 90% of the highest point total in the class, B- as 80% of that total, C- as 70 and D- as 60%.
+I may shift these values down to provide a better fit to the actual point distribution.
+By scaling to a percentage of the highest point total in the class, each student has a much better chance of receiving higher grades than if no re-scaling were done.
+This curve can only help your grade.
+
+The full table is provided below:
+
+Table: (\#tab:unnamed-chunk-7)Full Table
+
+|Letter | Cutoff|
+|:------|------:|
+|A      |   0.95|
+|A-     |   0.90|
+|B+     |   0.87|
+|B      |   0.83|
+|B-     |   0.80|
+|C+     |   0.77|
+|C      |   0.73|
+|C-     |   0.70|
+|D+     |   0.67|
+|D      |   0.63|
+|D-     |   0.60|
+
+### Curve Projections    {-}
+
+Unsurprisingly, students have many questions about the curve in this class. For tests and other assignments, I try to provide a projected letter grade.
+This projected letter grade is there to give you a sense of what your score *would* be if I implemented the class curve on this particular assignment.
+It is a projection. It is not a guarantee. These projected letter grades are not incorporated into your final grade.
+Trust me, you do not want me to curve by assignment.
+
+
+
+### Weighting   {-}
+
+- 150 points of your grade will be determined by your best 5 quizzes
+    - The final is not optional.
+- 25 points of your grade will be determined by completing engagement activities.
+- 100 points of your grade will be determined by your best two short assignments.
+
+
+
+## Schedule {-}
+
+
+```{=html}
+<div class="datatables html-widget html-fill-item" id="htmlwidget-3c8e523d0b7bc6d36e38" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-3c8e523d0b7bc6d36e38">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],["08/22","08/29","09/05","09/12","09/19","09/26","10/03","10/10","10/17","10/24","10/31","11/07","11/14","11/21","11/28","12/05"],["What is Personality","Personality Research Methods","Assessment, Evaluation, and Ethics","Trait Approach and Personality Judgment","Big Five","Personality over the Lifespan","Biological Approaches to Psychology","Behavior Genetics","Evolutionary Psychology","Cross-Cultural Psychology","Freud","Psychoanalysis After Freud","Personality Processes and Positive Psych","MiniModule on Personality, Big Data, and AI (Also, Thanksgiving Break!)","Personality and Health",null],["Week 01, 08/22 - 08/26","Week 02, 08/29 - 09/02","Week 03, 09/05 - 09/09","Week 04, 09/12 - 09/16","Week 05, 09/19 - 09/23","Week 06, 09/26 - 09/30","Week 07, 10/03 - 10/07","Week 08, 10/10 - 10/14","Week 09, 10/17 - 10/21","Week 10, 10/24 - 10/28","Week 11, 10/31 - 11/04","Week 12, 11/07 - 11/11","Week 13, 11/14 - 11/18","Week 14, 11/21 - 11/25","Week 15, 11/28 - 12/02","Week 16, 12/05 - 12/09"],[null,null,"Quiz",null,null,"Quiz","Assignment",null,null,"Quiz",null,"Assignment","Quiz",null,"Quiz","Quiz and Assignment"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n      <th>milestones<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0},{"name":"module","targets":0},{"name":"start","targets":1},{"name":"topic","targets":2},{"name":"week","targets":3},{"name":"milestones","targets":4}],"order":[],"orderClasses":false},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":[],"jsHooks":[]}</script>
+```
+
+
+<!--chapter:end:0202_personality.Rmd-->
+
+# 268: Applied Data Science {#applieddatascience .unnumbered}
+
+
+
+
+
+
+
+
+
+## Course Description {-}
+
+Data Science for Psychologists (DS4P) introduces the principles of data science, including data wrangling, modeling, visualization, and communication. In this class, we link those principles to psychological methods and open science practices by emphasizing exploratory analyses and description, rather than confirmatory analyses and prediction. We'll work our way thru Wickham and Grolemund's R for Data Science text (http://r4ds.had.co.nz/) and develop expertise in tidyverse (https://www.tidyverse.org/). This class emphasizes replication and reproducibility. DS4P is a practical skilled-based class and should be useful to students aiming for academia as well as those interested in industry. Applications of these methods can be applied to a full range of psychological areas, including perception (e.g, eye-tracking data), neuroscience (e.g., visualizing neural networks), and individual differences (e.g., valence analysis).
+
+
+### Broad goals for the course:  {-}
+- 1. Reproducibility;
+- 2. Replication;
+- 3. Robust Methods;
+- 4. Really Nice Visualization; and
+- 5. R
+
+## Required Materials  {-}
+
+All materials for this course are open source, including the multimedia course notes.
+
+- Garrison's Data Science for Psychologists (https://datascience4psych.github.io/DataScience4Psych/)
+- Wickham and Grolemund's R for Data Science text (http://r4ds.had.co.nz/)
+
+
+## Course Modality {-}
+
+This course is designated as a blended course. This designation is because this course's modality changes based on the level of COVID-19 transmission in the community. When COVID-19 community transmission is low or medium, this class will be in-person and masking will be required. However, if COVID-19 transmission is high in the community, this course may be moved entirely online in order to protect the health and safety of students and instructor. In the case that we move online, the in-person sessions will become synchronous online sessions. Any changes will be clearly and promptly communicated via email. More specifics on the mask requirement can be found under my public health policies.
+
+
+
+## Course Assignments  {-}
+
+You will be formally evaluated in three different ways. Instructions for the assignments can be found in the [course notes](https://datascience4psych.github.io/DataScience4Psych/).
+
+
+<!--
+
+### Presentation {-}
+
+You will give one presentation. This presentation will be approximately 10-minutes. This presentation is chance to practice a formal presentation in a relatively pressure-free setting).
+-->
+
+### Labs  {-}
+
+There is (at least) one lab available per module. You can find the modules in the [course notes](https://datascience4psych.github.io/DataScience4Psych/).
+
+### Portfolio  {-}
+
+The major semester projects (described on the data science website) is a set of DS4P Projects, which you will summarize in a DS4P Portfolio to be handed in on the last day of class. Instructions for [the portfolio](https://datascience4psych.github.io/DataScience4Psych/guidance.html#portfolio) can be found in the [course notes](https://datascience4psych.github.io/DataScience4Psych/).
+
+
+
+### Engagement  {-}
+
+This experiential course requires active engagement. There will be few lectures and we will not be building toward an exam.  Instead, we will work together to build our facilities for thinking critically about data. You should come to every class having read all of the required reading, watched the required videos, browsed the suggested resources, and so forth. You should enter the classroom prepared to discuss these materials with colleagues and complete both individual and group in-class assignments.
+
+
+
+## Grading Policy  {-}
+
+
+In this course, you will determine the grade you receive by fulfilling a contract you will submit for my approval by 01/24 (a.k.a the end of the 2nd week of class).
+
+Your written contract will detail:
+
+- The requirements you will meet in order to receive the grade for which you've contracted,
+
+- the penalties you will incur for not meeting those requirements,
+
+- a calendar you will follow for meeting the requirements you have outlined.
+
+Many aspects of this calendar will be determined by milestones outlined on the course schedule, but your contract will take ownership of these deadlines while committing to specific due dates for the course’s more flexible assignments.
+
+## Contract Details   {-}
+
+To fulfill any grade contract a student must do the following, which should nonetheless be specified in the contract submitted for approval. When writing self-assessments students must describe how they have met these requirements in addition to the grade-specific requirements:
+
+- Come to class prepared to discuss any assigned readings, videos, or other media. Participate actively in class activities and discussions, making observations and asking questions that help the class think together.
+
+- Meet with me synchronously — during office hours or another scheduled time — at least once around midterm—roughly between weeks 5-8 to ensure you are on-track to meet your contract requirements, discuss any questions or concerns you have about the course or your progress, and decide on any necessary contract amendments.
+
+- Revise contractual assignments as necessary until both you and I consider them "Satisfactory."
+
+<!-- - Complete a final self-assessment demonstrating that your work has met the agreed requirements, submitting it to me by 5pm on the last day of class. -->
+
+
+The professor reserves the right to award a grade of D or F to anyone who fails to meet a contractual obligation in a systematic way. A "D" grade denotes some minimal fulfilling of the contract. An “F” is absence of enough satisfactory work, as contracted, to warrant passing of the course. Both a "D" and "F" denote a breakdown of the contractual relationship implied by signing any of the contracts described above.
+
+### What About Exceptional (or Mediocre) Work?  {-}
+I also reserve the right to reward exceptional work throughout the semester using the full range of Wake Forest's grading scale. If you contract for a “B,” for instance, and submit particularly strong pieces to fulfill that contract, I may elect to raise your contracted grade to a “B+.”
+
+Likewise, if you consistently submit mediocre work in fulfillment of your contract, I reserve the right to adjust your grade one half-step down (e.g. from “A” to “A-“) or even, in extreme cases, a full step.
+
+### Contract Adjustments  {-}
+Periodically during the semester I will ask you to evaluate your work thus far and compare it against what you agreed in your grade contract. In these moments you can also take the opportunity to request an adjustment to your contract in either direction. If you find that you will be unable to meet the obligations of your contract, you may request to move to the next lowest grade and its requirements. Contrariwise, if you find that you've been performing above the obligations of your contract, you may request to fulfill the requirements for the next higher grade. Important Note: In order to effectively evaluate your own progress, you must keep track of your work, including days missed, and so forth.
+
+
+
+### Contract Grades  {-}
+
+
+
+### "A" Contract  {-}
+
+To contract for an "A" in this course, you agree to:
+
+- Earn "Satisfactory" on 10 self-paced lab assignments on a schedule you will specify in your contract.
+
+- Produce at least 10 "Satisfactory" portfolio pieces over the course of the semester.
+
+- Compile those portfolio pieces into a "Satisfactory" Unessay and present it during the last week of class
+
+### "B" Contract  {-}
+
+To contract for a "B" in this course, you agree to:
+
+- Earn "Satisfactory" on 8 self-paced lab assignments on a schedule you will specify in your contract.
+
+- Produce at least 7 "Satisfactory" portfolio pieces over the course of the semester.
+
+- Compile those portfolio pieces into a "Satisfactory" Unessay and present it during the last week of class
+
+
+### "P" Contract  {-}
+
+To contract for a "P" or Pass in this course, you agree to:
+
+- Earn "Satisfactory" on 8 self-paced lab assignments on a schedule you will specify in your contract.
+
+- Produce at least 5 "Satisfactory" portfolio pieces over the course of the semester.
+
+- Compile those portfolio pieces into a "Satisfactory" Unessay and present it during the last week of class
+
+
+
+
+
+## Tentative Module Release Schedule {-}
+
+Note that I'll be using your contracts to guide my tinkering.
+
+
+```{=html}
+<div class="datatables html-widget html-fill-item" id="htmlwidget-41f1857348520b5c054f" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-41f1857348520b5c054f">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],["01/13","01/20","01/27","02/03","02/10","02/17","02/24","03/03","03/10","03/17","03/24","03/31","04/07","04/14","04/21","04/28"],["What is Data Science and Meet the Toolkit","Data and Visualization","Welcome to the Tidyverse","Data types and Data Transformations","Effective data visualization","Scientific Communication and confounding","Functions and Automation","Webscraping","Spring Break","Ethics","Tidy Models","Overfitting and Cross validation","Quantifying uncertainty","Rshiny","Machine Learning","Presentations"],["Week 01, 01/13 - 01/17","Week 02, 01/20 - 01/24","Week 03, 01/27 - 01/31","Week 04, 02/03 - 02/07","Week 05, 02/10 - 02/14","Week 06, 02/17 - 02/21","Week 07, 02/24 - 02/28","Week 08, 03/03 - 03/07","Week 09, 03/10 - 03/14","Week 10, 03/17 - 03/21","Week 11, 03/24 - 03/28","Week 12, 03/31 - 04/04","Week 13, 04/07 - 04/11","Week 14, 04/14 - 04/18","Week 15, 04/21 - 04/25","Week 16, 04/28 - 05/02"],[null,"Contract",null,null,null,null,null,null,null,null,null,null,null,null,null,"Presentation"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n      <th>milestones<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0},{"name":"module","targets":0},{"name":"start","targets":1},{"name":"topic","targets":2},{"name":"week","targets":3},{"name":"milestones","targets":4}],"order":[],"orderClasses":false},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":[],"jsHooks":[]}</script>
+```
+
+
+
+
+<!--chapter:end:0203_datascience.Rmd-->
 
 # 362: Psychological Testing {-#testing}
 
@@ -1067,14 +1217,137 @@ There will be multiple engagement activities in this course. These activities wi
 
 
 ```{=html}
-<div class="datatables html-widget html-fill-item" id="htmlwidget-9e9c79edef42f8d98148" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-9e9c79edef42f8d98148">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15],["01/25","02/01","02/08","02/15","02/22","03/01","03/08","03/15","03/22","03/29","04/05","04/12","04/19","04/26","05/03"],["Foundations and Nature of Testing","History of Testing","Ethical and Social Considerations in Testing","Norms and the Meaning of Test Scores","Classical Test Theory","Reliability","Catch Up Week","Validity","Item Analysis","Factor Analysis","Item Response Theory","Practical Testing Things","Ability Testing","Personality Testing","Review"],["Week 01, 01/25 - 01/29","Week 02, 02/01 - 02/05","Week 03, 02/08 - 02/12","Week 04, 02/15 - 02/19","Week 05, 02/22 - 02/26","Week 06, 03/01 - 03/05","Week 07, 03/08 - 03/12","Week 08, 03/15 - 03/19","Week 09, 03/22 - 03/26","Week 10, 03/29 - 04/02","Week 11, 04/05 - 04/09","Week 12, 04/12 - 04/16","Week 13, 04/19 - 04/23","Week 14, 04/26 - 04/30","Week 15, 05/03 - 05/07"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0},{"name":"module","targets":0},{"name":"start","targets":1},{"name":"topic","targets":2},{"name":"week","targets":3}],"order":[],"orderClasses":false},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":[],"jsHooks":[]}</script>
+<div class="datatables html-widget html-fill-item" id="htmlwidget-229e9f9009cdefb62a74" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-229e9f9009cdefb62a74">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15],["01/25","02/01","02/08","02/15","02/22","03/01","03/08","03/15","03/22","03/29","04/05","04/12","04/19","04/26","05/03"],["Foundations and Nature of Testing","History of Testing","Ethical and Social Considerations in Testing","Norms and the Meaning of Test Scores","Classical Test Theory","Reliability","Catch Up Week","Validity","Item Analysis","Factor Analysis","Item Response Theory","Practical Testing Things","Ability Testing","Personality Testing","Review"],["Week 01, 01/25 - 01/29","Week 02, 02/01 - 02/05","Week 03, 02/08 - 02/12","Week 04, 02/15 - 02/19","Week 05, 02/22 - 02/26","Week 06, 03/01 - 03/05","Week 07, 03/08 - 03/12","Week 08, 03/15 - 03/19","Week 09, 03/22 - 03/26","Week 10, 03/29 - 04/02","Week 11, 04/05 - 04/09","Week 12, 04/12 - 04/16","Week 13, 04/19 - 04/23","Week 14, 04/26 - 04/30","Week 15, 05/03 - 05/07"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0},{"name":"module","targets":0},{"name":"start","targets":1},{"name":"topic","targets":2},{"name":"week","targets":3}],"order":[],"orderClasses":false},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":[],"jsHooks":[]}</script>
 ```
 
 
-<!--chapter:end:0203_testing.Rmd-->
+<!--chapter:end:0204_testing.Rmd-->
+
+# 392: Contemporary Issues - Wikipedia {-#wikipedia}
+
+
+
+## Course Description {-}
+
+**PSY-392-F: Contemporary Issues in Psychology - Citation Needed: Psychology, Misinformation, and Wikipedia** 
+
+Wikipedia shapes what millions of people think psychology is. But how much of that knowledge is accurate, oversimplified, outdated, or contested? In this discussion-driven seminar, we use Wikipedia as a lens for understanding how psychological science travels from labs and journals into the public imagination. Students dig into major pages on classic studies, theories, and controversies to see where the science is represented well, where it goes sideways, and why.
+
+Along the way, we examine how replication failures, methodological debates, and scientific uncertainty do (or don't) surface on a platform that presents itself as neutral and authoritative. We also ask what responsibilities psychologists might have when a crowd-edited encyclopedia becomes the de facto gateway to their field.
+
+Through hands-on critique, research, and editorial contributions, students not only learn the science behind the pages but also see how public knowledge about psychology gets built, negotiated, and sometimes distorted.
+
+### Guiding Question {-}
+
+How is psychological science represented, simplified, distorted, and contested on Wikipedia, and what does that mean for how people understand psychology?
+  - When does Wikipedia get psychological science basically right, and when does it go off the rails?
+  - How do replication, controversy, and uncertainty show up (or get hidden) in coverage of classic studies and constructs?
+  - What responsibilities do psychologists have, if any, when Wikipedia is a primary source of information about their field?
+
+
+
+## Course Modality {-}
+
+This is a half-semester course running from March 01 through April 28, 2025. Classes meet on Tuesdays and Thursdays.
+
+## Required Materials {-}
+
+All course materials will be provided through the [Wikipedia Education Dashboard](https://dashboard.wikiedu.org/). Students will complete training modules and exercises through this platform. 
+
+## Course Assignments {-}
+
+You will be formally evaluated in three different ways. Instructions for the assignments can be found on the [Wikipedia Education Dashboard](https://dashboard.wikiedu.org/).
+
+
+This course is structured around the Wikipedia Education Foundation's assignment framework. You will work through a systematic process of evaluating, researching, drafting, peer reviewing, and publishing improvements to Wikipedia articles related to psychological science.
+
+### Wikipedia Editing Project {-}
+
+The core of this course is a structured Wikipedia editing assignment. You will select a Wikipedia article related to psychological science, evaluate its current state, research reliable sources, and make substantive improvements. 
+
+**Key Milestones:**
+
+- Week 3 (03/20): Evaluate Wikipedia Exercise
+- Week 4 (03/27): Find Potential Articles
+- Week 5 (04/03): Bibliography & Outline 
+- Week 6 (04/10): Peer Reviews Complete
+- Week 8 (04/24): Final Article Due
+
+### Weekly Journal {-}
+
+Throughout the course, you will maintain a weekly journal reflecting on your experiences with Wikipedia editing, the challenges of representing psychological science accurately, and the broader implications for public understanding of psychology.
+
+### Reflective Essay {-}
+
+At the end of the course, you will write a reflective essay discussing what you learned about Wikipedia, psychological science communication, and the relationship between academic research and public knowledge.
+
+**Due:** 04/24
+
+### Presentation {-}
+
+You will give a brief presentation about your Wikipedia editing project, highlighting the changes you made and the challenges you encountered in representing psychological science accurately.
+
+**Due:** 04/24
+
+## Grading Policy {-}
+
+
+
+Typically, an A- is defined as 90% of the highest point total in the class, B- as 80% of that total, C- as 70 and D- as 60%.
+I may shift these values down to provide a better fit to the actual point distribution.
+By scaling to a percentage of the highest point total in the class, each student has a much better chance of receiving higher grades than if no re-scaling were done.
+This curve can only help your grade.
+
+The full table is provided below:
+
+Table: (\#tab:unnamed-chunk-5)Full Table
+
+|Letter | Cutoff|
+|:------|------:|
+|A      |   0.95|
+|A-     |   0.90|
+|B+     |   0.87|
+|B      |   0.83|
+|B-     |   0.80|
+|C+     |   0.77|
+|C      |   0.73|
+|C-     |   0.70|
+|D+     |   0.67|
+|D      |   0.63|
+|D-     |   0.60|
+
+### Curve Projections    {-}
+
+Unsurprisingly, students have many questions about the curve in this class. For tests and other assignments, I try to provide a projected letter grade.
+This projected letter grade is there to give you a sense of what your score *would* be if I implemented the class curve on this particular assignment.
+It is a projection. It is not a guarantee. These projected letter grades are not incorporated into your final grade.
+Trust me, you do not want me to curve by assignment.
+
+
+
+### Weighting {-}
+
+- 30 points: Wikipedia contributions (quality, scope, and impact of edits)
+- 20 points: Weekly journals (depth of reflection and engagement)
+- 15 points: Peer review participation (thoroughness and constructiveness)
+- 20 points: Reflective essay (critical analysis and insight)
+- 15 points: Final presentation (clarity and thoughtfulness)
+
+## Schedule {-}
+
+
+```{=html}
+<div class="datatables html-widget html-fill-item" id="htmlwidget-73c069fb359656df9208" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-73c069fb359656df9208">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9],["03/03","03/10","03/17","03/24","03/31","04/07","04/14","04/21","04/28"],["Introduction to Wikipedia Assignment","Break Week","Generative AI and Evaluating Wikipedia","Review Rules and Choose Topics","Copyedit, Finalize Topic, Start Drafting","Peer Review and Move to Wikipedia","Continue Improving Article","Polish and Final Article","Final Presentations"],["Week 01, 03/03 - 03/07","Week 02, 03/10 - 03/14","Week 03, 03/17 - 03/21","Week 04, 03/24 - 03/28","Week 05, 03/31 - 04/04","Week 06, 04/07 - 04/11","Week 07, 04/14 - 04/18","Week 08, 04/21 - 04/25","Week 09, 04/28 - 05/02"],[null,null,"Evaluate Wikipedia Exercise","Find Potential Articles","Bibliography &amp; Outline","Peer Reviews",null,"Final Article","Reflective Essay &amp; Presentation"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n      <th>milestones<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":9,"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0},{"name":"module","targets":0},{"name":"start","targets":1},{"name":"topic","targets":2},{"name":"week","targets":3},{"name":"milestones","targets":4}],"order":[],"orderClasses":false,"lengthMenu":[9,10,25,50,100]},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":[],"jsHooks":[]}</script>
+```
+
+<!--chapter:end:0205_wikipedia.Rmd-->
 
 # 703: Data Science {-}
+
+
+
 
 
 
@@ -1094,7 +1367,7 @@ Data Science for Psychologists (DS4P) introduces the principles of data science,
 
 ## Required Materials  {-}
 
-All materials for this course are open source, including the multimedia course notes. 
+All materials for this course are open source, including the multimedia course notes.
 
 - Garrison's Data Science for Psychologists (https://datascience4psych.github.io/DataScience4Psych/)
 - Wickham and Grolemund's R for Data Science text (http://r4ds.had.co.nz/)
@@ -1115,7 +1388,7 @@ You will be formally evaluated in three different ways. Instructions for the ass
 
 ### Presentation {-}
 
-You will give one presentation. This presentation will be approximately 10-minutes. This presentation is chance to practice a formal presentation in a relatively pressure-free setting). 
+You will give one presentation. This presentation will be approximately 10-minutes. This presentation is chance to practice a formal presentation in a relatively pressure-free setting).
 -->
 
 ### Labs  {-}
@@ -1219,13 +1492,14 @@ Note that I'll be using your contracts to guide my tinkering.
 
 
 ```{=html}
-<div class="datatables html-widget html-fill-item" id="htmlwidget-36b25265069f81b5c021" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-36b25265069f81b5c021">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],["01/13","01/20","01/27","02/03","02/10","02/17","02/24","03/03","03/10","03/17","03/24","03/31","04/07","04/14","04/21","04/28"],["What is Data Science and Meet the Toolkit","Data and Visualization","Welcome to the Tidyverse","Data types and Data Transformations","Effective data visualization","Scientific Communication and confounding","Functions and Automation","Webscraping","Spring Break","Ethics","Tidy Models","Overfitting and Cross validation","Quantifying uncertainty","Rshiny","Machine Learning","Presentations"],["Week 01, 01/13 - 01/17","Week 02, 01/20 - 01/24","Week 03, 01/27 - 01/31","Week 04, 02/03 - 02/07","Week 05, 02/10 - 02/14","Week 06, 02/17 - 02/21","Week 07, 02/24 - 02/28","Week 08, 03/03 - 03/07","Week 09, 03/10 - 03/14","Week 10, 03/17 - 03/21","Week 11, 03/24 - 03/28","Week 12, 03/31 - 04/04","Week 13, 04/07 - 04/11","Week 14, 04/14 - 04/18","Week 15, 04/21 - 04/25","Week 16, 04/28 - 05/02"],[null,"Contract",null,null,null,null,null,null,null,null,null,null,null,null,null,"Presentation"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n      <th>milestones<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0},{"name":"module","targets":0},{"name":"start","targets":1},{"name":"topic","targets":2},{"name":"week","targets":3},{"name":"milestones","targets":4}],"order":[],"orderClasses":false},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":[],"jsHooks":[]}</script>
+<div class="datatables html-widget html-fill-item" id="htmlwidget-03d96f0d54b901c7f213" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-03d96f0d54b901c7f213">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],["01/13","01/20","01/27","02/03","02/10","02/17","02/24","03/03","03/10","03/17","03/24","03/31","04/07","04/14","04/21","04/28"],["What is Data Science and Meet the Toolkit","Data and Visualization","Welcome to the Tidyverse","Data types and Data Transformations","Effective data visualization","Scientific Communication and confounding","Functions and Automation","Webscraping","Spring Break","Ethics","Tidy Models","Overfitting and Cross validation","Quantifying uncertainty","Rshiny","Machine Learning","Presentations"],["Week 01, 01/13 - 01/17","Week 02, 01/20 - 01/24","Week 03, 01/27 - 01/31","Week 04, 02/03 - 02/07","Week 05, 02/10 - 02/14","Week 06, 02/17 - 02/21","Week 07, 02/24 - 02/28","Week 08, 03/03 - 03/07","Week 09, 03/10 - 03/14","Week 10, 03/17 - 03/21","Week 11, 03/24 - 03/28","Week 12, 03/31 - 04/04","Week 13, 04/07 - 04/11","Week 14, 04/14 - 04/18","Week 15, 04/21 - 04/25","Week 16, 04/28 - 05/02"],[null,"Contract",null,null,null,null,null,null,null,null,null,null,null,null,null,"Presentation"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n      <th>milestones<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0},{"name":"module","targets":0},{"name":"start","targets":1},{"name":"topic","targets":2},{"name":"week","targets":3},{"name":"milestones","targets":4}],"order":[],"orderClasses":false},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":[],"jsHooks":[]}</script>
 ```
 
 
 
-<!--chapter:end:0204_datascience.Rmd-->
+
+<!--chapter:end:0206_datascience.Rmd-->
 
 # (PART\*) For Your Information {-}
 
