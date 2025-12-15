@@ -3,10 +3,10 @@
 ```{r setup, include=FALSE}
 source("scheduler.R")
 knitr::opts_chunk$set(cache=FALSE, dev='pdf')
+# First Tuesday of the course (Week 1 starts 03/01, first meeting is Tuesday 03/03)
 first_day <- as.Date("2025-03-03")
 cache <- F
 number_of_weeks <- 9
-num_assignments <- 3
 
 ####
 #devtools::install_github("crsh/citr")
@@ -32,7 +32,7 @@ topic <- c(
 
 # Week milestones based on the timeline
 classschedule <- data.frame(module = 1:number_of_weeks)
-classschedule$start <- advdate(first_day, classschedule$module, weekday_due = "m")
+classschedule$start <- advdate(first_day, classschedule$module, weekday_due = "t")
 classschedule$topic <- topic[1:number_of_weeks]
 classschedule$week <- advdate(first_day, classschedule$module)
 classschedule$milestones <- as.character(NA)
@@ -71,15 +71,15 @@ Through hands-on critique, research, and editorial contributions, students not o
 
 ## Course Modality {-}
 
-This is a half-semester course running from March 1 through April 29. Classes meet on Tuesdays and Thursdays.
+This is a half-semester course running from `r format(first_day - 2, "%B %d")` through `r format(first_day + 8*7, "%B %d, %Y")`. Classes meet on Tuesdays and Thursdays.
 
 ## Wikipedia Assignment Timeline {-}
 
 This course is structured around the Wikipedia Education Foundation's assignment framework. You will work through a systematic process of evaluating, researching, drafting, peer reviewing, and publishing improvements to Wikipedia articles related to psychological science.
 
-### Week 1 (03/01 - 03/07) {-}
+### Week 1 (`r advdate(first_day, 1)`) {-}
 
-**Meetings:** Tuesday (03/03), Thursday (03/05)
+**Meetings:** Tuesday (`r advdate(first_day, 1, weekday_due="t")`), Thursday (`r advdate(first_day, 1, weekday_due="r")`)
 
 **Topic:** Introduction to the Wikipedia assignment
 
@@ -112,13 +112,13 @@ Create an account and join this course page, using the enrollment link your inst
 
 **Milestone:** Everyone has a Wikipedia account
 
-### Week 2 (03/08 - 03/14) {-}
+### Week 2 (`r advdate(first_day, 2)`) {-}
 
 No scheduled meetings this week
 
-### Week 3 (03/15 - 03/21) {-}
+### Week 3 (`r advdate(first_day, 3)`) {-}
 
-**Meetings:** Tuesday (03/17), Thursday (03/19)
+**Meetings:** Tuesday (`r advdate(first_day, 3, weekday_due="t")`), Thursday (`r advdate(first_day, 3, weekday_due="r")`)
 
 #### Generative AI {-}
 
@@ -154,9 +154,9 @@ Learn about Generative AI in the Wikipedia context and why you should NEVER copy
 
 - Keeping track of your work on the Dashboard: [Start](https://dashboard.wikiedu.org/training/students/keeping-track-of-your-work)
 
-### Week 4 (03/22 - 03/28) {-}
+### Week 4 (`r advdate(first_day, 4)`) {-}
 
-**Meetings:** Tuesday (03/24), Thursday (03/26)
+**Meetings:** Tuesday (`r advdate(first_day, 4, weekday_due="t")`), Thursday (`r advdate(first_day, 4, weekday_due="r")`)
 
 #### Review the rules for health topics {-}
 
@@ -190,9 +190,9 @@ Learn about Generative AI in the Wikipedia context and why you should NEVER copy
 
 - Add a fact to Wikipedia: [Start](https://dashboard.wikiedu.org/training/students/update-a-biography-exercise)
 
-### Week 5 (03/29 - 04/04) {-}
+### Week 5 (`r advdate(first_day, 5)`) {-}
 
-**Meetings:** Tuesday (04/01), Thursday (04/03)
+**Meetings:** Tuesday (`r advdate(first_day, 5, weekday_due="t")`), Thursday (`r advdate(first_day, 5, weekday_due="r")`)
 
 #### Copyedit an article {-}
 
@@ -224,9 +224,9 @@ Reach out to your Wikipedia Expert if you have questions using the Get Help butt
 
 **Milestone:** Everyone has started writing
 
-### Week 6 (04/05 - 04/11) {-}
+### Week 6 (`r advdate(first_day, 6)`) {-}
 
-**Meetings:** Tuesday (04/08), Thursday (04/10)
+**Meetings:** Tuesday (`r advdate(first_day, 6, weekday_due="t")`), Thursday (`r advdate(first_day, 6, weekday_due="r")`)
 
 #### Peer review an article {-}
 
@@ -263,9 +263,9 @@ Now that you've improved your draft based on others' feedback, it's time to move
 - Demo: moving work from a sandbox
 - Demo: publishing a new article
 
-### Week 7 (04/12 - 04/18) {-}
+### Week 7 (`r advdate(first_day, 7)`) {-}
 
-**Meetings:** Tuesday (04/15), Thursday (04/17)
+**Meetings:** Tuesday (`r advdate(first_day, 7, weekday_due="t")`), Thursday (`r advdate(first_day, 7, weekday_due="r")`)
 
 #### Continue improving your article {-}
 
@@ -283,9 +283,9 @@ Now's the time to revisit your text and refine your work. You may do more resear
 
 Continue to expand and improve your work, and format your article to match Wikipedia's tone and standards. Remember to contact your Wikipedia Expert at any time if you need further help!
 
-### Week 8 (04/19 - 04/25) {-}
+### Week 8 (`r advdate(first_day, 8)`) {-}
 
-**Meetings:** Tuesday (04/22), Thursday (04/24)
+**Meetings:** Tuesday (`r advdate(first_day, 8, weekday_due="t")`), Thursday (`r advdate(first_day, 8, weekday_due="r")`)
 
 #### Final article {-}
 
@@ -303,9 +303,9 @@ Don't forget that you can ask for help from your Wikipedia Expert at any time!
 
 - In-class presentation (Due on Apr 25th): [View](https://dashboard.wikiedu.org/training/students/in-class-presentation-exercise)
 
-### Week 9 (04/26 - 04/29) {-}
+### Week 9 (`r advdate(first_day, 9)`) {-}
 
-**Meetings:** Tuesday (04/29)
+**Meetings:** Tuesday (`r advdate(first_day, 9, weekday_due="t")`)
 
 **Milestone:** You've finished your Wikipedia assignment!
 
