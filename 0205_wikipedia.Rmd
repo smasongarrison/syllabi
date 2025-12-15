@@ -138,7 +138,7 @@ Learn about Generative AI in the Wikipedia context and why you should NEVER copy
 
 **Exercise:**
 
-- Evaluate Wikipedia (Due on Mar 21st): [View](https://dashboard.wikiedu.org/training/students/evaluate-wikipedia-exercise)
+- Evaluate Wikipedia (Due on `r advdate(first_day, 3, weekday_due="r")`): [View](https://dashboard.wikiedu.org/training/students/evaluate-wikipedia-exercise)
 
 #### Improving Representation {-}
 
@@ -170,7 +170,7 @@ Learn about Generative AI in the Wikipedia context and why you should NEVER copy
 
 **Exercise:**
 
-- Find potential articles (Due on Mar 28th): [View](https://dashboard.wikiedu.org/training/students/choose-topic-exercise)
+- Find potential articles (Due on `r advdate(first_day, 4, weekday_due="r")`): [View](https://dashboard.wikiedu.org/training/students/choose-topic-exercise)
 
 **Resource:** [Editing Wikipedia](https://wikiedu.org/editingwikipedia#page=6), page 6
 
@@ -196,14 +196,14 @@ Learn about Generative AI in the Wikipedia context and why you should NEVER copy
 
 #### Copyedit an article {-}
 
-- Copyedit an article (Due on Apr 4th): [View](https://dashboard.wikiedu.org/training/students/copyedit-exercise)
+- Copyedit an article (Due on `r advdate(first_day, 5, weekday_due="r")`): [View](https://dashboard.wikiedu.org/training/students/copyedit-exercise)
 
 #### Finalize your topic, find sources, plan your changes {-}
 
 **Exercise:**
 
-- Building your bibliography (Due on Apr 4th): [View](https://dashboard.wikiedu.org/training/students/bibliography-exercise)
-- Outline proposed changes (Due on Apr 4th): [View](https://dashboard.wikiedu.org/training/students/outline-exercise)
+- Building your bibliography (Due on `r advdate(first_day, 5, weekday_due="r")`): [View](https://dashboard.wikiedu.org/training/students/bibliography-exercise)
+- Outline proposed changes (Due on `r advdate(first_day, 5, weekday_due="r")`): [View](https://dashboard.wikiedu.org/training/students/outline-exercise)
 
 #### Start drafting your contributions {-}
 
@@ -275,7 +275,7 @@ Now that you've improved your draft based on others' feedback, it's time to move
 
 **Exercise:**
 
-- Continue improving your article (Due on Apr 18th): [View](https://dashboard.wikiedu.org/training/students/continue-improving-exercise)
+- Continue improving your article (Due on `r advdate(first_day, 7, weekday_due="r")`): [View](https://dashboard.wikiedu.org/training/students/continue-improving-exercise)
 
 Now's the time to revisit your text and refine your work. You may do more research and find missing information; rewrite the lead section to represent all major points; reorganize the text to communicate the information better; or add images and other media.
 
@@ -297,11 +297,11 @@ Don't forget that you can ask for help from your Wikipedia Expert at any time!
 
 #### Reflective essay {-}
 
-- Reflective essay (Due on Apr 25th): [View](https://dashboard.wikiedu.org/training/students/reflective-essay-exercise)
+- Reflective essay (Due on `r advdate(first_day, 8, weekday_due="r")`): [View](https://dashboard.wikiedu.org/training/students/reflective-essay-exercise)
 
 #### In-class presentation {-}
 
-- In-class presentation (Due on Apr 25th): [View](https://dashboard.wikiedu.org/training/students/in-class-presentation-exercise)
+- In-class presentation (Due on `r advdate(first_day, 8, weekday_due="r")`): [View](https://dashboard.wikiedu.org/training/students/in-class-presentation-exercise)
 
 ### Week 9 (`r advdate(first_day, 9)`) {-}
 
