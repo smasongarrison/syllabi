@@ -1,0 +1,129 @@
+# 279-B: Brief Topics in Applied Psychology and Mental Health - Applied Data Science for Psychologists {-}
+
+```{r setup, include=FALSE}
+source("scheduler.R")
+knitr::opts_chunk$set(cache=FALSE, dev='pdf')
+first_day <- as.Date("2025-01-13")
+cache=F
+number_of_classes=15
+number_of_weeks=8
+
+####
+#devtools::install_github("crsh/citr")
+library(tidyverse)
+library(citr)
+library(RefManageR)
+
+
+
+bib <- ReadBib("book.bib")
+bib <- c(bib, as.BibEntry(citation()))
+bib[length(bib)]$key = "Rcite"
+
+
+# Topics condensed for half-semester format
+topic =c(
+  "What is Data Science and Meet the Toolkit", 
+  "Data and Visualization",
+  "Welcome to the Tidyverse",
+  "Data types and Data Transformations",
+  "Effective data visualization",
+  "Functions and Automation",
+  "Tidy Models and Ethics",
+  "Machine Learning and Final Projects"
+  )
+
+
+classschedule <- create_classschedule(first_day = first_day,
+                     number_of_weeks = number_of_weeks,
+                     weekday_due = "m",
+                     topic = topic,
+                     exams_week= 2,
+                     assignments_week= 8,
+                     exams_name = "Contract",
+                     assignments_name = "Final Project")
+  
+
+
+```
+
+
+
+## Course Description {-}
+
+This half-semester brief topics course introduces undergraduate students to the principles of data science for psychologists. Building on the graduate-level Applied Data Science for Psychologists curriculum, this condensed course covers essential topics in data wrangling, modeling, visualization, and communication. In this class, we link those principles to psychological methods and open science practices by emphasizing exploratory analyses and description, rather than confirmatory analyses and prediction. We'll work through key sections of Wickham and Grolemund's R for Data Science text (http://r4ds.had.co.nz/) and develop expertise in tidyverse (https://www.tidyverse.org/). This class emphasizes replication and reproducibility. This brief course is a practical skilled-based class and should be useful to students aiming for academia as well as those interested in industry. Applications of these methods can be applied to a full range of psychological areas, including perception (e.g, eye-tracking data), neuroscience (e.g., visualizing neural networks), and individual differences (e.g., valence analysis).
+
+
+### Broad goals for the course:  {-}
+- 1. Reproducibility;
+- 2. Replication;
+- 3. Robust Methods;
+- 4. Really Nice Visualization; and
+- 5. R
+
+## Required Materials  {-}
+
+All materials for this course are open source, including the multimedia course notes. 
+
+- Garrison's Data Science for Psychologists (https://datascience4psych.github.io/DataScience4Psych/)
+- Wickham and Grolemund's R for Data Science text (http://r4ds.had.co.nz/)
+
+
+## Course Modality {-}
+
+This course is designated as a blended course. This designation is because this course's modality changes based on the level of COVID-19 transmission in the community. When COVID-19 community transmission is low or medium, this class will be in-person and masking will be required. However, if COVID-19 transmission is high in the community, this course may be moved entirely online in order to protect the health and safety of students and instructor. In the case that we move online, the in-person sessions will become synchronous online sessions. Any changes will be clearly and promptly communicated via email. More specifics on the mask requirement can be found under my public health policies.
+
+
+
+## Course Assignments  {-}
+
+You will be formally evaluated in two different ways. Instructions for the assignments can be found in the [course notes](https://datascience4psych.github.io/DataScience4Psych/).
+
+
+### Labs  {-}
+
+There are labs available for each module. You can find the modules in the [course notes](https://datascience4psych.github.io/DataScience4Psych/). Given the condensed nature of this half-semester course, labs will focus on the most essential skills.
+
+### Final Project  {-}
+
+The major course project is a focused DS4P project that demonstrates your mastery of the core data science skills covered in this brief course. You will present your final project during the last week of class. Instructions for the project can be found in the [course notes](https://datascience4psych.github.io/DataScience4Psych/).
+
+
+
+### Engagement  {-}
+
+This experiential course requires active engagement. There will be few lectures and we will not be building toward an exam.  Instead, we will work together to build our facilities for thinking critically about data. You should come to every class having read all of the required reading, watched the required videos, browsed the suggested resources, and so forth. You should enter the classroom prepared to discuss these materials with colleagues and complete both individual and group in-class assignments.
+
+
+
+## Grading Policy  {-}
+
+```{r child = './common/content/contract.Xmd'}
+```
+
+
+### Contract Grades  {-}
+
+
+```{r child = './common/content/contract_grades_ds4p.Xmd'}
+```
+
+
+
+## Tentative Module Release Schedule {-}
+
+Note that I'll be using your contracts to guide my tinkering. This is a half-semester course, so the pace will be more intensive than a full-semester course.
+
+```{r message = FALSE, warning = FALSE, echo = FALSE}
+
+classschedule %>% 
+  DT::datatable(rownames = FALSE,
+                class = 'cell-border stripe',
+                #filter = list(position = 'top'),
+                options = list(pageLength = nrow(classschedule$module), 
+                           autoWidth = FALSE,
+                           bInfo = FALSE,
+                           paging = FALSE))
+```
+
+
