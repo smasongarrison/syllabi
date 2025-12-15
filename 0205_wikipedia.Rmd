@@ -3,8 +3,7 @@
 ```{r setup, include=FALSE}
 source("scheduler.R")
 knitr::opts_chunk$set(cache=FALSE, dev='pdf')
-# First Tuesday of the course (Week 1 starts 03/01, first meeting is Tuesday 03/03)
-first_day <- as.Date("2025-03-03")
+first_day <- as.Date("2025-03-03")  # First Tuesday class
 cache <- F
 number_of_weeks <- 9
 
@@ -30,20 +29,28 @@ topic <- c(
   "Final Presentations"
 )
 
-# Week milestones based on the timeline
-classschedule <- data.frame(module = 1:number_of_weeks)
-classschedule$start <- advdate(first_day, classschedule$module, weekday_due = "t")
-classschedule$topic <- topic[1:number_of_weeks]
-classschedule$week <- advdate(first_day, classschedule$module)
-classschedule$milestones <- as.character(NA)
+# Wikipedia assignment milestones
+milestone_weeks <- c(3, 4, 5, 6, 8, 9)
+milestone_names <- c(
+  "Evaluate Wikipedia Exercise",
+  "Find Potential Articles", 
+  "Bibliography & Outline",
+  "Peer Reviews",
+  "Final Article",
+  "Reflective Essay & Presentation"
+)
 
-# Add key milestones
-classschedule$milestones[3] <- "Evaluate Wikipedia Exercise"
-classschedule$milestones[4] <- "Find Potential Articles"
-classschedule$milestones[5] <- "Bibliography & Outline"
-classschedule$milestones[6] <- "Peer Reviews"
-classschedule$milestones[8] <- "Final Article"
-classschedule$milestones[9] <- "Reflective Essay & Presentation"
+classschedule <- create_classschedule(
+  first_day = first_day,
+  number_of_weeks = number_of_weeks,
+  weekday_due = "t",  # Tuesday
+  topic = topic
+)
+
+# Add custom milestones
+for(i in seq_along(milestone_weeks)) {
+  classschedule$milestones[milestone_weeks[i]] <- milestone_names[i]
+}
 
 ```
 
