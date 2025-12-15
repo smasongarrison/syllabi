@@ -1,0 +1,369 @@
+# 392: Contemporary Issues - Wikipedia {-#wikipedia}
+
+```{r setup, include=FALSE}
+source("scheduler.R")
+knitr::opts_chunk$set(cache=FALSE, dev='pdf')
+first_day <- as.Date("2026-03-01")  # First Tuesday class
+cache <- F
+number_of_weeks <- 9
+
+####
+#devtools::install_github("crsh/citr")
+library(tidyverse)
+library(citr)
+library(RefManageR)
+
+bib <- ReadBib("book.bib")
+bib <- c(bib, as.BibEntry(citation()))
+bib[length(bib)]$key = "Rcite"
+
+topic <- c(
+  "Introduction to Wikipedia Assignment", 
+  "Break Week",
+  "Generative AI and Evaluating Wikipedia",
+  "Review Rules and Choose Topics",
+  "Copyedit, Finalize Topic, Start Drafting",
+  "Peer Review and Move to Wikipedia",
+  "Continue Improving Article",
+  "Polish and Final Article",
+  "Final Presentations"
+)
+
+# Wikipedia assignment milestones
+milestone_weeks <- c(3, 4, 5, 6, 8, 9)
+milestone_names <- c(
+  "Evaluate Wikipedia Exercise",
+  "Find Potential Articles", 
+  "Bibliography & Outline",
+  "Peer Reviews",
+  "Final Article",
+  "Reflective Essay & Presentation"
+)
+
+classschedule <- create_classschedule(
+  first_day = first_day,
+  number_of_weeks = number_of_weeks,
+  weekday_due = "t",  # Tuesday
+  topic = topic
+)
+
+# Add custom milestones
+for(i in seq_along(milestone_weeks)) {
+  classschedule$milestones[milestone_weeks[i]] <- milestone_names[i]
+}
+
+```
+
+## Course Description {-}
+
+**PSY-392-F: Contemporary Issues in Psychology - Citation Needed: Psychology, Misinformation, and Wikipedia**
+
+### Guiding Question {-}
+
+How is psychological science represented, simplified, distorted, and contested on Wikipedia, and what does that mean for how people understand psychology?
+
+#### Key Questions {-}
+
+- When does Wikipedia get psychological science basically right, and when does it go off the rails?
+- How do replication, controversy, and uncertainty show up (or get hidden) in coverage of classic studies and constructs?
+- What responsibilities do psychologists have, if any, when Wikipedia is a primary source of information about their field?
+
+### Course Overview {-}
+
+Wikipedia shapes what millions of people think psychology is. But how much of that knowledge is accurate, oversimplified, outdated, or contested? In this discussion-driven seminar, we use Wikipedia as a lens for understanding how psychological science travels from labs and journals into the public imagination. Students dig into major pages on classic studies, theories, and controversies to see where the science is represented well, where it goes sideways, and why.
+
+Along the way, we examine how replication failures, methodological debates, and scientific uncertainty do (or don't) surface on a platform that presents itself as neutral and authoritative. We also ask what responsibilities psychologists might have when a crowd-edited encyclopedia becomes the de facto gateway to their field.
+
+Through hands-on critique, research, and editorial contributions, students not only learn the science behind the pages but also see how public knowledge about psychology gets built, negotiated, and sometimes distorted.
+
+## Course Modality {-}
+
+This is a half-semester course running from `r format(first_day - 2, "%B %d")` through `r format(first_day + (number_of_weeks - 1)*7, "%B %d, %Y")`. Classes meet on Tuesdays and Thursdays.
+
+## Wikipedia Assignment Timeline {-}
+
+This course is structured around the Wikipedia Education Foundation's assignment framework. You will work through a systematic process of evaluating, researching, drafting, peer reviewing, and publishing improvements to Wikipedia articles related to psychological science.
+
+### Week 1 (`r advdate(first_day, 1)`) {-}
+
+**Meetings:** Tuesday (`r advdate(first_day, 1, weekday_due="t")`), Thursday (`r advdate(first_day, 1, weekday_due="r")`)
+
+**Topic:** Introduction to the Wikipedia assignment
+
+#### In Class {-}
+
+Welcome to your Wikipedia assignment's course timeline. This page guides you through the steps you'll need to complete for your Wikipedia assignment, with links to training modules and your classmates' work spaces.
+
+Your course has been assigned a Wikipedia Expert. You can reach them through the Get Help button at the top of this page.
+
+**Resources:**
+
+- [Editing Wikipedia](https://wikiedu.org/editingwikipedia), pages 1–5
+- [Evaluating Wikipedia](https://wikiedu.org/evaluatingwikipedia)
+
+#### Get started on Wikipedia {-}
+
+**Training:**
+
+- Wikipedia policies: [Start](https://dashboard.wikiedu.org/training/students/wikipedia-essentials)
+- Sandboxes, talk pages, and watchlists: [Start](https://dashboard.wikiedu.org/training/students/sandboxes-talk-watchlists)
+- Communicating with others on Wikipedia: [Start](https://dashboard.wikiedu.org/training/students/communicating-with-others)
+
+**Assignment:**
+
+Create an account and join this course page, using the enrollment link your instructor sent you. If you have trouble creating a Wikipedia account, [consult this FAQ](https://dashboard.wikiedu.org/faq/12).
+
+#### Wikipedia assignment journal {-}
+
+[Write a weekly journal about your experiences](https://dashboard.wikiedu.org/training/students/assignment-journal/keep-a-journal). You can use discussion questions to frame your entries, or reflect on the research and writing process. Create at least one journal entry each week during the Wikipedia assignment.
+
+**Milestone:** Everyone has a Wikipedia account
+
+### Week 2 (`r advdate(first_day, 2)`) {-}
+
+No scheduled meetings this week
+
+### Week 3 (`r advdate(first_day, 3)`) {-}
+
+**Meetings:** Tuesday (`r advdate(first_day, 3, weekday_due="t")`), Thursday (`r advdate(first_day, 3, weekday_due="r")`)
+
+#### Generative AI {-}
+
+**Training:**
+
+- Using generative AI tools with Wikipedia: [Start](https://dashboard.wikiedu.org/training/students/generative-ai)
+- Large Language Models: [Start](https://dashboard.wikiedu.org/training/students/large-language-models)
+
+Learn about Generative AI in the Wikipedia context and why you should NEVER copy and paste AI-generated text into Wikipedia.
+
+#### Evaluate Wikipedia {-}
+
+**Training:**
+
+- Evaluating articles and sources: [Start](https://dashboard.wikiedu.org/training/students/evaluating-articles)
+- How to edit: Wikicode vs Visual Editor: [Start](https://dashboard.wikiedu.org/training/students/how-to-edit)
+
+**Exercise:**
+
+- Evaluate Wikipedia (Due on `r advdate(first_day, 3, weekday_due="r")`): [View](https://dashboard.wikiedu.org/training/students/evaluate-wikipedia-exercise)
+
+#### Improving Representation {-}
+
+- Improving representation on Wikipedia: [Start](https://dashboard.wikiedu.org/training/students/improving-representation)
+
+#### Discussion {-}
+
+**In Class:**
+
+- Thinking about sources and plagiarism: [View](https://dashboard.wikiedu.org/training/students/sources-and-plagiarism-discussion)
+
+#### Keeping track of your work {-}
+
+- Keeping track of your work on the Dashboard: [Start](https://dashboard.wikiedu.org/training/students/keeping-track-of-your-work)
+
+### Week 4 (`r advdate(first_day, 4)`) {-}
+
+**Meetings:** Tuesday (`r advdate(first_day, 4, weekday_due="t")`), Thursday (`r advdate(first_day, 4, weekday_due="r")`)
+
+#### Review the rules for health topics {-}
+
+- Editing health and psychology topics: [Start](https://dashboard.wikiedu.org/training/students/editing-medical-topics)
+
+#### Choose possible topics {-}
+
+**Training:**
+
+- Finding your article: [Start](https://dashboard.wikiedu.org/training/students/finding-your-article)
+
+**Exercise:**
+
+- Find potential articles (Due on `r advdate(first_day, 4, weekday_due="r")`): [View](https://dashboard.wikiedu.org/training/students/choose-topic-exercise)
+
+**Resource:** [Editing Wikipedia](https://wikiedu.org/editingwikipedia#page=6), page 6
+
+**Discussion:**
+
+**In Class:**
+
+- What's a content gap?: [View](https://dashboard.wikiedu.org/training/students/content-gap-discussion)
+
+#### Add a fact to Wikipedia {-}
+
+**Training:**
+
+- Adding citations: [Start](https://dashboard.wikiedu.org/training/students/sources)
+
+**Exercise:**
+
+- Add a fact to Wikipedia: [Start](https://dashboard.wikiedu.org/training/students/update-a-biography-exercise)
+
+### Week 5 (`r advdate(first_day, 5)`) {-}
+
+**Meetings:** Tuesday (`r advdate(first_day, 5, weekday_due="t")`), Thursday (`r advdate(first_day, 5, weekday_due="r")`)
+
+#### Copyedit an article {-}
+
+- Copyedit an article (Due on `r advdate(first_day, 5, weekday_due="r")`): [View](https://dashboard.wikiedu.org/training/students/copyedit-exercise)
+
+#### Finalize your topic, find sources, plan your changes {-}
+
+**Exercise:**
+
+- Building your bibliography (Due on `r advdate(first_day, 5, weekday_due="r")`): [View](https://dashboard.wikiedu.org/training/students/bibliography-exercise)
+- Outline proposed changes (Due on `r advdate(first_day, 5, weekday_due="r")`): [View](https://dashboard.wikiedu.org/training/students/outline-exercise)
+
+#### Start drafting your contributions {-}
+
+**Training:**
+
+- Plagiarism: [Start](https://dashboard.wikiedu.org/training/students/plagiarism)
+- Drafting in the sandbox: [Start](https://dashboard.wikiedu.org/training/students/drafting-in-sandbox)
+
+Reach out to your Wikipedia Expert if you have questions using the Get Help button at the top of this page.
+
+**Resource:** [Editing Wikipedia](https://wikiedu.org/editingwikipedia#page=7), pages 7–9
+
+**Guides for writing articles in your topic area:**
+
+- [Biographies](https://wikiedu.org/biographies)
+- [Psychology](https://wikiedu.org/psychology)
+- [Science Communication](https://wikiedu.org/science_communication)
+
+**Milestone:** Everyone has started writing
+
+### Week 6 (`r advdate(first_day, 6)`) {-}
+
+**Meetings:** Tuesday (`r advdate(first_day, 6, weekday_due="t")`), Thursday (`r advdate(first_day, 6, weekday_due="r")`)
+
+#### Peer review an article {-}
+
+- [Guiding framework](https://dashboard.wikiedu.org/training/students/peer-review)
+
+**Discussion:**
+
+**In Class:**
+
+- Thinking about Wikipedia: [View](https://dashboard.wikiedu.org/training/students/thinking-about-wikipedia-discussion)
+
+**Milestone:** Peer reviews are complete
+
+Every student has finished reviewing their assigned articles, making sure that every article has been reviewed.
+
+#### Respond to your peer review {-}
+
+You probably have some feedback from other students and possibly other Wikipedians. Consider their suggestions, look for ways to make your work more accurate and complete, and edit your work to make those changes.
+
+**Resources:**
+
+- [Editing Wikipedia](https://wikiedu.org/editingwikipedia#page=12), pages 12 and 14
+
+Reach out to your Wikipedia Expert if you have any questions.
+
+#### Begin moving your work to Wikipedia {-}
+
+- Moving work out of the sandbox: [Start](https://dashboard.wikiedu.org/training/students/moving-to-mainspace)
+
+Now that you've improved your draft based on others' feedback, it's time to move your work live - to the "mainspace."
+
+**Resource:** [Editing Wikipedia](https://wikiedu.org/editingwikipedia#page=13), page 13
+
+- Demo: moving work from a sandbox
+- Demo: publishing a new article
+
+### Week 7 (`r advdate(first_day, 7)`) {-}
+
+**Meetings:** Tuesday (`r advdate(first_day, 7, weekday_due="t")`), Thursday (`r advdate(first_day, 7, weekday_due="r")`)
+
+#### Continue improving your article {-}
+
+**Training:**
+
+- Contributing images and media files: [Start](https://dashboard.wikiedu.org/training/students/images-and-media)
+
+**Exercise:**
+
+- Continue improving your article (Due on `r advdate(first_day, 7, weekday_due="r")`): [View](https://dashboard.wikiedu.org/training/students/continue-improving-exercise)
+
+Now's the time to revisit your text and refine your work. You may do more research and find missing information; rewrite the lead section to represent all major points; reorganize the text to communicate the information better; or add images and other media.
+
+#### Polish your work {-}
+
+Continue to expand and improve your work, and format your article to match Wikipedia's tone and standards. Remember to contact your Wikipedia Expert at any time if you need further help!
+
+### Week 8 (`r advdate(first_day, 8)`) {-}
+
+**Meetings:** Tuesday (`r advdate(first_day, 8, weekday_due="t")`), Thursday (`r advdate(first_day, 8, weekday_due="r")`)
+
+#### Final article {-}
+
+It's the final week to develop your article.
+
+Read [Editing Wikipedia](https://wikiedu.org/editingwikipedia#page=15) page 15 to review a final check-list before completing your assignment.
+
+Don't forget that you can ask for help from your Wikipedia Expert at any time!
+
+#### Reflective essay {-}
+
+- Reflective essay (Due on `r advdate(first_day, 8, weekday_due="r")`): [View](https://dashboard.wikiedu.org/training/students/reflective-essay-exercise)
+
+#### In-class presentation {-}
+
+- In-class presentation (Due on `r advdate(first_day, 8, weekday_due="r")`): [View](https://dashboard.wikiedu.org/training/students/in-class-presentation-exercise)
+
+### Week 9 (`r advdate(first_day, 9)`) {-}
+
+**Meetings:** Tuesday (`r advdate(first_day, 9, weekday_due="t")`)
+
+**Milestone:** You've finished your Wikipedia assignment!
+
+Everyone should have finished all of the work they'll do on Wikipedia, and be ready for grading.
+
+## Course Assignments {-}
+
+### Wikipedia Editing Project {-}
+
+The core of this course is a structured Wikipedia editing assignment. You will select a Wikipedia article related to psychological science, evaluate its current state, research reliable sources, and make substantive improvements. This project includes:
+
+- Critical evaluation of existing Wikipedia content
+- Research and bibliography development
+- Drafting and revising contributions
+- Peer review participation
+- Publishing live edits to Wikipedia
+
+### Weekly Journal {-}
+
+Throughout the course, you will maintain a weekly journal reflecting on your experiences with Wikipedia editing, the challenges of representing psychological science accurately, and the broader implications for public understanding of psychology.
+
+### Reflective Essay {-}
+
+At the end of the course, you will write a reflective essay discussing what you learned about Wikipedia, psychological science communication, and the relationship between academic research and public knowledge.
+
+### Presentation {-}
+
+You will give a brief presentation about your Wikipedia editing project, highlighting the changes you made and the challenges you encountered in representing psychological science accurately.
+
+## Grading Policy {-}
+
+```{r child = './common/content/grading.Xmd'}
+```
+
+### Weighting {-}
+
+- 30 points: Wikipedia contributions (quality, scope, and impact of edits)
+- 20 points: Weekly journals (depth of reflection and engagement)
+- 15 points: Peer review participation (thoroughness and constructiveness)
+- 20 points: Reflective essay (critical analysis and insight)
+- 15 points: Final presentation (clarity and thoughtfulness)
+
+## Schedule {-}
+
+```{r message = FALSE, warning = FALSE, echo = FALSE}
+
+classschedule %>% 
+  DT::datatable(rownames = FALSE,
+                class = 'cell-border stripe',
+                options = list(pageLength = nrow(classschedule), 
+                           autoWidth = FALSE,
+                           bInfo = FALSE,
+                           paging = FALSE))
+```

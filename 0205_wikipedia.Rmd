@@ -1,0 +1,145 @@
+# 392: Contemporary Issues - Wikipedia {-#wikipedia}
+
+```{r setup, include=FALSE}
+source("scheduler.R")
+knitr::opts_chunk$set(cache=FALSE, dev='pdf')
+first_day <- as.Date("2025-03-03")  # First Tuesday class
+cache <- F
+number_of_weeks <- 9
+
+####
+#devtools::install_github("crsh/citr")
+library(tidyverse)
+library(citr)
+library(RefManageR)
+
+
+
+bib <- ReadBib("book.bib")
+bib <- c(bib, as.BibEntry(citation()))
+bib[length(bib)]$key = "Rcite"
+
+topic <- c(
+  "Introduction to Wikipedia Assignment", 
+  "Break Week",
+  "Generative AI and Evaluating Wikipedia",
+  "Review Rules and Choose Topics",
+  "Copyedit, Finalize Topic, Start Drafting",
+  "Peer Review and Move to Wikipedia",
+  "Continue Improving Article",
+  "Polish and Final Article",
+  "Final Presentations"
+)
+
+# Wikipedia assignment milestones
+milestone_weeks <- c(3, 4, 5, 6, 8, 9)
+milestone_names <- c(
+  "Evaluate Wikipedia Exercise",
+  "Find Potential Articles", 
+  "Bibliography & Outline",
+  "Peer Reviews",
+  "Final Article",
+  "Reflective Essay & Presentation"
+)
+
+classschedule <- create_classschedule(
+  first_day = first_day,
+  number_of_weeks = number_of_weeks,
+  weekday_due = "m",  # Tuesday
+  topic = topic
+)
+
+# Add custom milestones
+
+classschedule$milestones[milestone_weeks] <- milestone_names
+
+
+```
+
+## Course Description {-}
+
+**PSY-392-F: Contemporary Issues in Psychology - Citation Needed: Psychology, Misinformation, and Wikipedia** 
+
+Wikipedia shapes what millions of people think psychology is. But how much of that knowledge is accurate, oversimplified, outdated, or contested? In this discussion-driven seminar, we use Wikipedia as a lens for understanding how psychological science travels from labs and journals into the public imagination. Students dig into major pages on classic studies, theories, and controversies to see where the science is represented well, where it goes sideways, and why.
+
+Along the way, we examine how replication failures, methodological debates, and scientific uncertainty do (or don't) surface on a platform that presents itself as neutral and authoritative. We also ask what responsibilities psychologists might have when a crowd-edited encyclopedia becomes the de facto gateway to their field.
+
+Through hands-on critique, research, and editorial contributions, students not only learn the science behind the pages but also see how public knowledge about psychology gets built, negotiated, and sometimes distorted.
+
+### Guiding Question {-}
+
+How is psychological science represented, simplified, distorted, and contested on Wikipedia, and what does that mean for how people understand psychology?
+  - When does Wikipedia get psychological science basically right, and when does it go off the rails?
+  - How do replication, controversy, and uncertainty show up (or get hidden) in coverage of classic studies and constructs?
+  - What responsibilities do psychologists have, if any, when Wikipedia is a primary source of information about their field?
+
+
+
+## Course Modality {-}
+
+This is a half-semester course running from `r format(first_day - 2, "%B %d")` through `r format(first_day + (number_of_weeks - 1)*7, "%B %d, %Y")`. Classes meet on Tuesdays and Thursdays.
+
+## Required Materials {-}
+
+All course materials will be provided through the [Wikipedia Education Dashboard](https://dashboard.wikiedu.org/). Students will complete training modules and exercises through this platform. 
+
+## Course Assignments {-}
+
+You will be formally evaluated in three different ways. Instructions for the assignments can be found on the [Wikipedia Education Dashboard](https://dashboard.wikiedu.org/).
+
+
+This course is structured around the Wikipedia Education Foundation's assignment framework. You will work through a systematic process of evaluating, researching, drafting, peer reviewing, and publishing improvements to Wikipedia articles related to psychological science.
+
+### Wikipedia Editing Project {-}
+
+The core of this course is a structured Wikipedia editing assignment. You will select a Wikipedia article related to psychological science, evaluate its current state, research reliable sources, and make substantive improvements. 
+
+**Key Milestones:**
+
+- Week 3 (`r advdate(first_day, 3, weekday_due="r")`): Evaluate Wikipedia Exercise
+- Week 4 (`r advdate(first_day, 4, weekday_due="r")`): Find Potential Articles
+- Week 5 (`r advdate(first_day, 5, weekday_due="r")`): Bibliography & Outline 
+- Week 6 (`r advdate(first_day, 6, weekday_due="r")`): Peer Reviews Complete
+- Week 8 (`r advdate(first_day, 8, weekday_due="r")`): Final Article Due
+
+### Weekly Journal {-}
+
+Throughout the course, you will maintain a weekly journal reflecting on your experiences with Wikipedia editing, the challenges of representing psychological science accurately, and the broader implications for public understanding of psychology.
+
+### Reflective Essay {-}
+
+At the end of the course, you will write a reflective essay discussing what you learned about Wikipedia, psychological science communication, and the relationship between academic research and public knowledge.
+
+**Due:** `r advdate(first_day, 8, weekday_due="r")`
+
+### Presentation {-}
+
+You will give a brief presentation about your Wikipedia editing project, highlighting the changes you made and the challenges you encountered in representing psychological science accurately.
+
+**Due:** `r advdate(first_day, 8, weekday_due="r")`
+
+## Grading Policy {-}
+
+```{r child = './common/content/grading.Xmd'}
+```
+
+### Weighting {-}
+
+- 30 points: Wikipedia contributions (quality, scope, and impact of edits)
+- 20 points: Weekly journals (depth of reflection and engagement)
+- 15 points: Peer review participation (thoroughness and constructiveness)
+- 20 points: Reflective essay (critical analysis and insight)
+- 15 points: Final presentation (clarity and thoughtfulness)
+
+## Schedule {-}
+
+```{r message = FALSE, warning = FALSE, echo = FALSE}
+
+classschedule %>% 
+  DT::datatable(rownames = FALSE,
+                class = 'cell-border stripe',
+                options = list(pageLength = nrow(classschedule), 
+                           autoWidth = FALSE,
+                           bInfo = FALSE,
+                           paging = FALSE))
+```

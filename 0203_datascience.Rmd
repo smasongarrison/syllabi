@@ -1,0 +1,22 @@
+# 268: Applied Data Science {-}
+
+```{r setup, include=FALSE}
+source("scheduler.R")
+knitr::opts_chunk$set(cache=FALSE, dev='pdf')
+first_day <- as.Date("2025-01-13")
+cache=F
+number_of_classes=29
+number_of_weeks=16
+
+####
+#devtools::install_github("crsh/citr")
+library(tidyverse)
+library(citr)
+library(RefManageR)
+
+```
+
+
+```{r child = './common/content/0204_datascience.Xmd'}
+```
+
