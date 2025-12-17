@@ -3,16 +3,21 @@
 ```{r setup, include=FALSE}
 source("scheduler.R")
 knitr::opts_chunk$set(cache=FALSE, dev='pdf')
-first_day <- as.Date("2025-01-13")
+first_day <- as.Date("2026-01-13")
 cache=F
 number_of_classes=29
-number_of_weeks=16
-
+number_of_weeks=8
+assignments_week = 8
+A_contract = 7
+B_contract = 6
+Pass_contract = 5
 ####
 #devtools::install_github("crsh/citr")
 library(tidyverse)
 library(citr)
 library(RefManageR)
+
+
 
 ```
 

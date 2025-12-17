@@ -56,7 +56,7 @@ classschedule <- create_classschedule(first_day = first_day,
                      weekday_due = "m",
                      topic = topic,
                      exams_week= 2,
-                     assignments_week= 16,
+                     assignments_week= assignments_week,
                      exams_name = "Contract",
                      assignments_name = "Presentation")
 
@@ -85,11 +85,11 @@ All materials for this course are open source, including the multimedia course n
 - Garrison's Data Science for Psychologists (https://datascience4psych.github.io/DataScience4Psych/)
 - Wickham and Grolemund's R for Data Science text (http://r4ds.had.co.nz/)
 
-
+<!--
 ## Course Modality {-}
 
 This course is designated as a blended course. This designation is because this course's modality changes based on the level of COVID-19 transmission in the community. When COVID-19 community transmission is low or medium, this class will be in-person and masking will be required. However, if COVID-19 transmission is high in the community, this course may be moved entirely online in order to protect the health and safety of students and instructor. In the case that we move online, the in-person sessions will become synchronous online sessions. Any changes will be clearly and promptly communicated via email. More specifics on the mask requirement can be found under my public health policies.
-
+-->
 
 
 ## Course Assignments  {-}
@@ -97,12 +97,12 @@ This course is designated as a blended course. This designation is because this 
 You will be formally evaluated in three different ways. Instructions for the assignments can be found in the [course notes](https://datascience4psych.github.io/DataScience4Psych/).
 
 
-<!--
+
 
 ### Presentation {-}
 
 You will give one presentation. This presentation will be approximately 10-minutes. This presentation is chance to practice a formal presentation in a relatively pressure-free setting).
--->
+
 
 ### Labs  {-}
 

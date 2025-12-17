@@ -26,11 +26,11 @@ All materials for this course are open source, including the multimedia course n
 - Garrison's Data Science for Psychologists (https://datascience4psych.github.io/DataScience4Psych/)
 - Wickham and Grolemund's R for Data Science text (http://r4ds.had.co.nz/)
 
-
+<!--
 ## Course Modality {-}
 
 This course is designated as a blended course. This designation is because this course's modality changes based on the level of COVID-19 transmission in the community. When COVID-19 community transmission is low or medium, this class will be in-person and masking will be required. However, if COVID-19 transmission is high in the community, this course may be moved entirely online in order to protect the health and safety of students and instructor. In the case that we move online, the in-person sessions will become synchronous online sessions. Any changes will be clearly and promptly communicated via email. More specifics on the mask requirement can be found under my public health policies.
-
+-->
 
 
 ## Course Assignments  {-}
@@ -38,12 +38,12 @@ This course is designated as a blended course. This designation is because this 
 You will be formally evaluated in three different ways. Instructions for the assignments can be found in the [course notes](https://datascience4psych.github.io/DataScience4Psych/).
 
 
-<!--
+
 
 ### Presentation {-}
 
 You will give one presentation. This presentation will be approximately 10-minutes. This presentation is chance to practice a formal presentation in a relatively pressure-free setting).
--->
+
 
 ### Labs  {-}
 
@@ -109,9 +109,9 @@ Periodically during the semester I will ask you to evaluate your work thus far a
 
 To contract for an "A" in this course, you agree to:
 
-- Earn "Satisfactory" on 10 self-paced lab assignments on a schedule you will specify in your contract.
+- Earn "Satisfactory" on 11 self-paced lab assignments on a schedule you will specify in your contract.
 
-- Produce at least 10 "Satisfactory" portfolio pieces over the course of the semester.
+- Produce at least 11 "Satisfactory" portfolio pieces over the course of the semester.
 
 - Compile those portfolio pieces into a "Satisfactory" Unessay and present it during the last week of class
 
@@ -119,9 +119,9 @@ To contract for an "A" in this course, you agree to:
 
 To contract for a "B" in this course, you agree to:
 
-- Earn "Satisfactory" on 8 self-paced lab assignments on a schedule you will specify in your contract.
+- Earn "Satisfactory" on 9 self-paced lab assignments on a schedule you will specify in your contract.
 
-- Produce at least 7 "Satisfactory" portfolio pieces over the course of the semester.
+- Produce at least 8 "Satisfactory" portfolio pieces over the course of the semester.
 
 - Compile those portfolio pieces into a "Satisfactory" Unessay and present it during the last week of class
 
@@ -130,9 +130,9 @@ To contract for a "B" in this course, you agree to:
 
 To contract for a "P" or Pass in this course, you agree to:
 
-- Earn "Satisfactory" on 8 self-paced lab assignments on a schedule you will specify in your contract.
+- Earn "Satisfactory" on 7 self-paced lab assignments on a schedule you will specify in your contract.
 
-- Produce at least 5 "Satisfactory" portfolio pieces over the course of the semester.
+- Produce at least 6 "Satisfactory" portfolio pieces over the course of the semester.
 
 - Compile those portfolio pieces into a "Satisfactory" Unessay and present it during the last week of class
 
@@ -146,8 +146,8 @@ Note that I'll be using your contracts to guide my tinkering.
 
 
 ```{=html}
-<div class="datatables html-widget html-fill-item" id="htmlwidget-593305b2e9110a912900" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-593305b2e9110a912900">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],["01/13","01/20","01/27","02/03","02/10","02/17","02/24","03/03","03/10","03/17","03/24","03/31","04/07","04/14","04/21","04/28"],["What is Data Science and Meet the Toolkit","Data and Visualization","Welcome to the Tidyverse","Data types and Data Transformations","Effective data visualization","Scientific Communication and confounding","Functions and Automation","Webscraping","Spring Break","Ethics","Tidy Models","Overfitting and Cross validation","Quantifying uncertainty","Rshiny","Machine Learning","Presentations"],["Week 01, 01/13 - 01/17","Week 02, 01/20 - 01/24","Week 03, 01/27 - 01/31","Week 04, 02/03 - 02/07","Week 05, 02/10 - 02/14","Week 06, 02/17 - 02/21","Week 07, 02/24 - 02/28","Week 08, 03/03 - 03/07","Week 09, 03/10 - 03/14","Week 10, 03/17 - 03/21","Week 11, 03/24 - 03/28","Week 12, 03/31 - 04/04","Week 13, 04/07 - 04/11","Week 14, 04/14 - 04/18","Week 15, 04/21 - 04/25","Week 16, 04/28 - 05/02"],[null,"Contract",null,null,null,null,null,null,null,null,null,null,null,null,null,"Presentation"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n      <th>milestones<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0},{"name":"module","targets":0},{"name":"start","targets":1},{"name":"topic","targets":2},{"name":"week","targets":3},{"name":"milestones","targets":4}],"order":[],"orderClasses":false},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":[],"jsHooks":[]}</script>
+<div class="datatables html-widget html-fill-item" id="htmlwidget-72427c88ce8cc713a012" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-72427c88ce8cc713a012">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],["01/13","01/20","01/27","02/03","02/10","02/17","02/24","03/03","03/10","03/17","03/24","03/31","04/07","04/14","04/21","04/28"],["What is Data Science and Meet the Toolkit","Data and Visualization","Welcome to the Tidyverse","Data types and Data Transformations","Effective data visualization","Scientific Communication and confounding","Functions and Automation","Webscraping","Spring Break","Ethics","Tidy Models","Overfitting and Cross validation","Quantifying uncertainty","Rshiny","Machine Learning","Presentations"],["Week 01, 01/13 - 01/17","Week 02, 01/20 - 01/24","Week 03, 01/27 - 01/31","Week 04, 02/03 - 02/07","Week 05, 02/10 - 02/14","Week 06, 02/17 - 02/21","Week 07, 02/24 - 02/28","Week 08, 03/03 - 03/07","Week 09, 03/10 - 03/14","Week 10, 03/17 - 03/21","Week 11, 03/24 - 03/28","Week 12, 03/31 - 04/04","Week 13, 04/07 - 04/11","Week 14, 04/14 - 04/18","Week 15, 04/21 - 04/25","Week 16, 04/28 - 05/02"],[null,"Contract",null,null,null,null,null,null,null,null,null,null,null,null,null,"Presentation"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n      <th>milestones<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0},{"name":"module","targets":0},{"name":"start","targets":1},{"name":"topic","targets":2},{"name":"week","targets":3},{"name":"milestones","targets":4}],"order":[],"orderClasses":false},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":[],"jsHooks":[]}</script>
 ```
 
 

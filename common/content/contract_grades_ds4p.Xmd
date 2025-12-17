@@ -2,9 +2,9 @@
 
 To contract for an "A" in this course, you agree to:
 
-- Earn "Satisfactory" on 10 self-paced lab assignments on a schedule you will specify in your contract.
+- Earn "Satisfactory" on `r A_contract` self-paced lab assignments on a schedule you will specify in your contract.
 
-- Produce at least 10 "Satisfactory" portfolio pieces over the course of the semester.
+- Produce at least `r A_contract` "Satisfactory" portfolio pieces over the course of the semester.
 
 - Compile those portfolio pieces into a "Satisfactory" Unessay and present it during the last week of class
 
@@ -12,9 +12,9 @@ To contract for an "A" in this course, you agree to:
 
 To contract for a "B" in this course, you agree to:
 
-- Earn "Satisfactory" on 8 self-paced lab assignments on a schedule you will specify in your contract.
+- Earn "Satisfactory" on `r B_contract` self-paced lab assignments on a schedule you will specify in your contract.
 
-- Produce at least 7 "Satisfactory" portfolio pieces over the course of the semester.
+- Produce at least `r B_contract - 1` "Satisfactory" portfolio pieces over the course of the semester.
 
 - Compile those portfolio pieces into a "Satisfactory" Unessay and present it during the last week of class
 
@@ -23,9 +23,9 @@ To contract for a "B" in this course, you agree to:
 
 To contract for a "P" or Pass in this course, you agree to:
 
-- Earn "Satisfactory" on 8 self-paced lab assignments on a schedule you will specify in your contract.
+- Earn "Satisfactory" on `r Pass_contract` self-paced lab assignments on a schedule you will specify in your contract.
 
-- Produce at least 5 "Satisfactory" portfolio pieces over the course of the semester.
+- Produce at least `r Pass_contract -1` "Satisfactory" portfolio pieces over the course of the semester.
 
 - Compile those portfolio pieces into a "Satisfactory" Unessay and present it during the last week of class
 
