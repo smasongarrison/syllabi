@@ -118,6 +118,8 @@ try_include_tweet("https://twitter.com/BettySLai/status/1455555111397117954")
 ### Can't you just tell me my letter grade? Your curve is confusing.
 The curve can only help you. It means I can lower the thresholds for letter grades, but not raise them. Your best approach is to pretend that there is no curve.
 
+For perspective on how curves can sometimes be used in harmful ways (particularly in competitive academic environments), see this video essay about how curves and scholarships work at a particular law school: https://www.youtube.com/watch?v=4jYrRhtH2eI. While my curve policy is designed to help students (not hurt them), it's worth understanding different approaches to grading curves in higher education.
+
 
 ### Does it hurt to ask...
 
