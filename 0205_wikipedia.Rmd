@@ -1,4 +1,4 @@
-# 392: Contemporary Issues - Wikipedia {-#wikipedia}
+# 392: CI Wikipedia {-#wikipedia}
 
 ```{r setup, include=FALSE}
 source("scheduler.R")
