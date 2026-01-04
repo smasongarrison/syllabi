@@ -2,25 +2,24 @@
 
 ```{r setup, include=FALSE}
 source("scheduler.R")
-knitr::opts_chunk$set(cache=FALSE, dev='pdf')
-first_day <- as.Date("2025-03-03")  # First Tuesday class
+knitr::opts_chunk$set(cache = FALSE, dev = "pdf")
+first_day <- as.Date("2025-03-03") # First Tuesday class
 cache <- F
 number_of_weeks <- 9
 
 ####
-#devtools::install_github("crsh/citr")
+# devtools::install_github("crsh/citr")
 library(tidyverse)
 library(citr)
 library(RefManageR)
 
 
-
 bib <- ReadBib("book.bib")
 bib <- c(bib, as.BibEntry(citation()))
-bib[length(bib)]$key = "Rcite"
+bib[length(bib)]$key <- "Rcite"
 
 topic <- c(
-  "Introduction to Wikipedia Assignment", 
+  "Introduction to Wikipedia Assignment",
   "Break Week",
   "Generative AI and Evaluating Wikipedia",
   "Review Rules and Choose Topics",
@@ -35,7 +34,7 @@ topic <- c(
 milestone_weeks <- c(3, 4, 5, 6, 8, 9)
 milestone_names <- c(
   "Evaluate Wikipedia Exercise",
-  "Find Potential Articles", 
+  "Find Potential Articles",
   "Bibliography & Outline",
   "Peer Reviews",
   "Final Article",
@@ -45,15 +44,13 @@ milestone_names <- c(
 classschedule <- create_classschedule(
   first_day = first_day,
   number_of_weeks = number_of_weeks,
-  weekday_due = "m",  # Tuesday
+  weekday_due = "m", # Tuesday
   topic = topic
 )
 
 # Add custom milestones
 
 classschedule$milestones[milestone_weeks] <- milestone_names
-
-
 ```
 
 ## Course Description {-}
@@ -134,12 +131,15 @@ You will give a brief presentation about your Wikipedia editing project, highlig
 ## Schedule {-}
 
 ```{r message = FALSE, warning = FALSE, echo = FALSE}
-
-classschedule %>% 
-  DT::datatable(rownames = FALSE,
-                class = 'cell-border stripe',
-                options = list(pageLength = nrow(classschedule), 
-                           autoWidth = FALSE,
-                           bInfo = FALSE,
-                           paging = FALSE))
+classschedule %>%
+  DT::datatable(
+    rownames = FALSE,
+    class = "cell-border stripe",
+    options = list(
+      pageLength = nrow(classschedule),
+      autoWidth = FALSE,
+      bInfo = FALSE,
+      paging = FALSE
+    )
+  )
 ```

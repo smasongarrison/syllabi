@@ -1,7 +1,6 @@
 ```{r core, include=FALSE}
-
 ####
-#devtools::install_github("crsh/citr")
+# devtools::install_github("crsh/citr")
 library(tidyverse)
 library(citr)
 library(RefManageR)
@@ -10,16 +9,16 @@ library(RefManageR)
 
 bib <- ReadBib("book.bib")
 bib <- c(bib, as.BibEntry(citation()))
-bib[length(bib)]$key = "Rcite"
+bib[length(bib)]$key <- "Rcite"
 
 
-topic_vjoe=c(
+topic_vjoe <- c(
   "Introduction and What is Data Science",
   "Graphical Data Analysis",
   "Graphical Masterpieces",
   "Scatterplots and Correlations",
   "Quiz 1",
-  "Exploratory Data Analysis",#  "Spring Break",#  "",
+  "Exploratory Data Analysis", #  "Spring Break",#  "",
   "Data Transformations",
   "Robustness and Resistence",
   "Replication",
@@ -28,15 +27,16 @@ topic_vjoe=c(
   "Archival Data",
   "Data mining and CART",
   "Special Topics",
-  "Special Topics" )
-topic =c(
+  "Special Topics"
+)
+topic <- c(
   "What is Data Science and Meet the Toolkit",
   "Data and Visualization",
   "Welcome to the Tidyverse",
   "Data types and Data Transformations",
   "Effective data visualization",
   "Scientific Communication and confounding",
-  "Functions and Automation",#  "Spring Break",#  "",
+  "Functions and Automation", #  "Spring Break",#  "",
   "Webscraping",
   "Spring Break",
   "Ethics",
@@ -48,20 +48,19 @@ topic =c(
   "Presentations",
   "NA",
   "NA"
-  )
+)
 
 
-classschedule <- create_classschedule(first_day = first_day,
-                     number_of_weeks = number_of_weeks,
-                     weekday_due = "m",
-                     topic = topic,
-                     exams_week= 2,
-                     assignments_week= assignments_week,
-                     exams_name = "Contract",
-                     assignments_name = "Presentation")
-
-
-
+classschedule <- create_classschedule(
+  first_day = first_day,
+  number_of_weeks = number_of_weeks,
+  weekday_due = "m",
+  topic = topic,
+  exams_week = 2,
+  assignments_week = assignments_week,
+  exams_name = "Contract",
+  assignments_name = "Presentation"
+)
 ```
 
 
@@ -139,15 +138,16 @@ This experiential course requires active engagement. There will be few lectures 
 Note that I'll be using your contracts to guide my tinkering.
 
 ```{r message = FALSE, warning = FALSE, echo = FALSE}
-
 classschedule %>%
-  DT::datatable(rownames = FALSE,
-                class = 'cell-border stripe',
-                #filter = list(position = 'top'),
-                options = list(pageLength = nrow(classschedule$module),
-                           autoWidth = FALSE,
-                           bInfo = FALSE,
-                           paging = FALSE))
+  DT::datatable(
+    rownames = FALSE,
+    class = "cell-border stripe",
+    # filter = list(position = 'top'),
+    options = list(
+      pageLength = nrow(classschedule$module),
+      autoWidth = FALSE,
+      bInfo = FALSE,
+      paging = FALSE
+    )
+  )
 ```
-
-
