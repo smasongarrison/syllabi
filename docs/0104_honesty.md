@@ -60,5 +60,3 @@ Open resources does not mean that you can copy and paste material from outside s
 - It is *ALWAYS* academic dishonesty to misrepresent others work as your own.  
 
 - It is *ALWAYS* academic dishonesty to work together on tests or quizzes. (And frankly, it is really obvious in Canvas when you work together. I literally wrote a R program that checks for working together on tests. )
-
-

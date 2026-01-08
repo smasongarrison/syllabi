@@ -2,27 +2,27 @@
 
 if (!require("pacman")) install.packages("pacman")
 library(pacman)
-pacman::p_load(coronavirus,
-               devtools,
-               discord,
-               fivethirtyeight,
-               fs,
-               ggbeeswarm,
-               ggrepel,
-               ggridges,
-               here,
-               hexbin,
- #              maps,
-               NlsyLinks,
-               patchwork,
-               rmarkdown,
-               skimr,
-               tidyverse,
-               uuid,
-#               vroom,
-               xaringan
-              )
-
+pacman::p_load(
+  coronavirus,
+  devtools,
+  discord,
+  fivethirtyeight,
+  fs,
+  ggbeeswarm,
+  ggrepel,
+  ggridges,
+  here,
+  hexbin,
+  #              maps,
+  NlsyLinks,
+  patchwork,
+  rmarkdown,
+  skimr,
+  tidyverse,
+  uuid,
+  #               vroom,
+  xaringan
+)
 
 
 # xaringan ---------------------------------------------------------------------

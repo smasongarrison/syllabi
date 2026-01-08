@@ -5,14 +5,16 @@ By scaling to a percentage of the highest point total in the class, each student
 This curve can only help your grade.
 
 The full table is provided below:
-```{r echo=FALSE}
 
-curve_df=data.frame(
-	Letter=c("A","A-","B+","B","B-","C+","C","C-","D+","D","D-"),
-	Cutoff=c(0.95,0.90,0.87,0.83,0.80,0.77,0.73,0.70,0.67,0.63,0.60))
+```{r echo=FALSE}
+curve_df <- data.frame(
+  Letter = c("A", "A-", "B+", "B", "B-", "C+", "C", "C-", "D+", "D", "D-"),
+  Cutoff = c(0.95, 0.90, 0.87, 0.84, 0.80, 0.77, 0.74, 0.70, 0.67, 0.64, 0.60)
+)
 
 knitr::kable(
-  curve_df, caption = 'Full Table'
+  curve_df,
+  caption = "Full Table"
 )
 ```
 
@@ -22,5 +24,3 @@ Unsurprisingly, students have many questions about the curve in this class. For 
 This projected letter grade is there to give you a sense of what your score *would* be if I implemented the class curve on this particular assignment.
 It is a projection. It is not a guarantee. These projected letter grades are not incorporated into your final grade.
 <!-- Trust me, you do not want me to curve by assignment. -->
-
-

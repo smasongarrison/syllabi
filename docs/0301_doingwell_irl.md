@@ -73,4 +73,3 @@ Finally, you should understand that college is not a fee-for-service arrangement
 - Before you send email your professor, try to answer the question yourself by looking at the syllabus, reading the course FAQ, and reading the assignment instructions.
 - Know when assignment deadlines are.
 - If you need additional time or flexibility on an assignment, you communicate with your professor before the deadline passes.
-

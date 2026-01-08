@@ -5,13 +5,14 @@ A letter grade will be assigned on the basis of the following scale provided bel
 
 The full table is provided below:
 ```{r echo=FALSE}
-
-curve_df=data.frame(
-	Letter=c("A","A-","B+","B","B-","C+","C","C-","D+","D","D-"),
-	Cutoff=c(0.95,0.90,0.87,0.83,0.80,0.77,0.73,0.70,0.67,0.63,0.60))
+curve_df <- data.frame(
+  Letter = c("A", "A-", "B+", "B", "B-", "C+", "C", "C-", "D+", "D", "D-"),
+  Cutoff = c(0.95, 0.90, 0.87, 0.84, 0.80, 0.77, 0.74, 0.70, 0.67, 0.64, 0.60)
+)
 
 knitr::kable(
-  curve_df, caption = 'Full Table'
+  curve_df,
+  caption = "Full Table"
 )
 ```
 
