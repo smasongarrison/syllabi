@@ -1,15 +1,15 @@
 # 362: Psychological Testing {-#testing}
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(cache=FALSE, dev='pdf')
+knitr::opts_chunk$set(cache = FALSE, dev = "pdf")
 first_day <- as.Date("2021-01-25")
-cache=F
-number_of_classes=29
-number_of_weeks=15
+cache <- F
+number_of_classes <- 29
+number_of_weeks <- 15
 source("scheduler.R")
 
 ####
-#devtools::install_github("crsh/citr")
+# devtools::install_github("crsh/citr")
 library(tidyverse)
 library(citr)
 library(RefManageR)
@@ -18,11 +18,11 @@ library(RefManageR)
 
 bib <- ReadBib("book.bib")
 bib <- c(bib, as.BibEntry(citation()))
-bib[length(bib)]$key = "Rcite"
+bib[length(bib)]$key <- "Rcite"
 
 
-topic=c(
-  "Foundations and Nature of Testing", 
+topic <- c(
+  "Foundations and Nature of Testing",
   "History of Testing",
   "Ethical and Social Considerations in Testing",
   "Norms and the Meaning of Test Scores",
@@ -30,25 +30,23 @@ topic=c(
   "Reliability",
   "Catch Up Week",
   "Validity",
-  "Item Analysis", 
+  "Item Analysis",
   "Factor Analysis",
   "Item Response Theory",
   "Practical Testing Things",
   "Ability Testing",
-  "Personality Testing", 
-  "Review", #Special Topics",
-  "Other Assessment Techniques", 
-  "Modern Development and Applications of Testing", 
+  "Personality Testing",
+  "Review", # Special Topics",
+  "Other Assessment Techniques",
+  "Modern Development and Applications of Testing",
   "Review"
-  )
-  
-  
+)
+
+
 classschedule <- data.frame(module = 1:number_of_weeks)
-classschedule$start <- advdate(first_day,classschedule$module,weekday_due= "m")
+classschedule$start <- advdate(first_day, classschedule$module, weekday_due = "m")
 classschedule$topic <- topic[1:number_of_weeks]
-classschedule$week <- advdate(first_day,classschedule$module)
-
-
+classschedule$week <- advdate(first_day, classschedule$module)
 ```
 
 ## Course Description   {-}
@@ -136,14 +134,16 @@ There will be multiple engagement activities in this course. These activities wi
 ## Schedule {-}
 
 ```{r message = FALSE, warning = FALSE, echo = FALSE}
-
-classschedule %>% 
-  DT::datatable(rownames = FALSE,
-                class = 'cell-border stripe',
-                #filter = list(position = 'top'),
-                options = list(pageLength = nrow(classschedule$module), 
-                           autoWidth = FALSE,
-                           bInfo = FALSE,
-                           paging = FALSE))
+classschedule %>%
+  DT::datatable(
+    rownames = FALSE,
+    class = "cell-border stripe",
+    # filter = list(position = 'top'),
+    options = list(
+      pageLength = nrow(classschedule$module),
+      autoWidth = FALSE,
+      bInfo = FALSE,
+      paging = FALSE
+    )
+  )
 ```
-

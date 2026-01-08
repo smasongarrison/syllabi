@@ -34,14 +34,12 @@ Remember, this is just an average. Some weeks you may have more work to do than 
 I've created a [video](https://youtu.be/dc3D2tbl8G0) highlighting how to be a successful asynchronous learner. 
 
 ```{r, echo=FALSE}
-
 if (knitr::is_latex_output()) {
-include_graphics("img/learngood.png")
-  }else{
-
-"https://www.youtube.com/watch?v=dc3D2tbl8G0" %>%
- embed_url() %>%
-  use_align("center")
+  include_graphics("img/learngood.png")
+} else {
+  "https://www.youtube.com/watch?v=dc3D2tbl8G0" %>%
+    embed_url() %>%
+    use_align("center")
 }
 ```
 
@@ -82,4 +80,3 @@ Finally, you should understand that college is not a fee-for-service arrangement
 - Before you send email your professor, try to answer the question yourself by looking at the syllabus, reading the course FAQ, and reading the assignment instructions.
 - Know when assignment deadlines are.
 - If you need additional time or flexibility on an assignment, you communicate with your professor before the deadline passes.
-

@@ -141,8 +141,8 @@ While Chrome is the preferred browser for most Canvas interactions, Canvas suppo
 
 ```{r, echo=FALSE}
 if (knitr::is_latex_output()) {
-include_graphics("img/tech_support_cheat_sheet.png")
-  }else{
-include_graphics("https://imgs.xkcd.com/comics/tech_support_cheat_sheet.png")
+  include_graphics("img/tech_support_cheat_sheet.png")
+} else {
+  include_graphics("https://imgs.xkcd.com/comics/tech_support_cheat_sheet.png")
 }
 ```

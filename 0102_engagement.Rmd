@@ -1,5 +1,5 @@
 ```{r,echo=FALSE}
-gracewindow="36 hours"
+gracewindow <- "36 hours"
 ```
 
 # Class Engagement

@@ -91,11 +91,11 @@ The work...
 
 ```{r,echo = FALSE}
 if (knitr::is_latex_output()) {
-include_graphics("img/worriedgrade.png")
-}else{
-"https://www.youtube.com/watch?v=WVvKnq5XT-g" %>%
-embed_url() %>%
-  use_align("center")
+  include_graphics("img/worriedgrade.png")
+} else {
+  "https://www.youtube.com/watch?v=WVvKnq5XT-g" %>%
+    embed_url() %>%
+    use_align("center")
 }
 ```
 
@@ -155,7 +155,7 @@ If you're having trouble with Canvas, you should first search the [Canvas Guides
 
 ```{r, echo=FALSE}
 "https://twitter.com/GaloAndStuff/status/1424818560417902604" %>%
-try_include_tweet(omit_script = FALSE)
+  try_include_tweet(omit_script = FALSE)
 ```
 
 ### Can...
@@ -254,6 +254,3 @@ No one has asked me this question specifically, but... when students email me qu
 
 ## Still have questions? 
 Post them in the Discussion Board! I can nearly guarantee, that somebody else wants to know the answer to your question. 
-
-
-

@@ -3,15 +3,14 @@
 ## commented out bits that look like they may become relevant
 
 
-
 ## Standard Libraries
-if (!require("tweetrmd"))  devtools::install_github("gadenbuie/tweetrmd")
-library(tweetrmd) #... embedding tweets
-library(vembedr)  #... embedding youtube videos
+if (!require("tweetrmd")) devtools::install_github("gadenbuie/tweetrmd")
+library(tweetrmd) # ... embedding tweets
+library(vembedr) # ... embedding youtube videos
 library(knitr)
 library(webshot)
 library(tidyverse)
-library(htmlwidgets)					
+library(htmlwidgets)
 
 ## Options
 knitr::opts_chunk$set(
@@ -59,7 +58,7 @@ knitr::knit_hooks$set(chunk_envvar = function(before, options, envir) {
   if (before && !is.null(envvar)) {
     old_envvar <<- Sys.getenv(names(envvar), names = TRUE, unset = NA)
     do.call("Sys.setenv", as.list(envvar))
-    #print(str(options))
+    # print(str(options))
   } else {
     do.call("Sys.setenv", as.list(old_envvar))
   }
@@ -87,21 +86,22 @@ sample_no_surprises <- function(x) {
   if (length(x) <= 1) {
     return(x)
   } else {
-    return(sample(x,1))
+    return(sample(x, 1))
   }
 }
 
 # show slides better
 slide_url <- function(df_url,
                       title,
-                      slide=NULL){
-  var_url <- paste0(df_url$link[df_url$title==title],slide)					   
+                      slide = NULL) {
+  var_url <- paste0(df_url$link[df_url$title == title], slide)
   return(var_url)
 }
 
 # try include_tweet
 try_include_tweet <- function(tweet_url,
-                              plain = FALSE, ...){
+                              plain = FALSE, ...) {
   return(try(tweetrmd::include_tweet(tweet_url = tweet_url, plain = plain, ...),
-             silent = TRUE))
+    silent = TRUE
+  ))
 }

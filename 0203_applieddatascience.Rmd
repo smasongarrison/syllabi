@@ -2,26 +2,22 @@
 
 ```{r setup, include=FALSE}
 source("scheduler.R")
-knitr::opts_chunk$set(cache=FALSE, dev='pdf')
+knitr::opts_chunk$set(cache = FALSE, dev = "pdf")
 first_day <- as.Date("2026-01-13")
-cache=F
-number_of_classes=29
-number_of_weeks=7
-assignments_week = 7
-A_contract = 7
-B_contract = 6
-Pass_contract = 5
+cache <- F
+number_of_classes <- 29
+number_of_weeks <- 7
+assignments_week <- 7
+A_contract <- 7
+B_contract <- 6
+Pass_contract <- 5
 ####
-#devtools::install_github("crsh/citr")
+# devtools::install_github("crsh/citr")
 library(tidyverse)
 library(citr)
 library(RefManageR)
-
-
-
 ```
 
 
 ```{r child = './common/content/0204_datascience.Xmd'}
 ```
-

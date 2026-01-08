@@ -25,9 +25,9 @@ logo: assets/logo.png
 source("common.R")
 
 if (knitr::is_latex_output()) {
-knitr::opts_chunk$set(out.width = '90%', fig.align = 'center')
- }else{
-htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+  knitr::opts_chunk$set(out.width = "90%", fig.align = "center")
+} else {
+  htmltools::tagList(rmarkdown::html_dependency_font_awesome())
 }
 ```
 

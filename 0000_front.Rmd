@@ -76,8 +76,8 @@ material.
 ```{r include = FALSE}
 # automatically create a bib database for R packages
 knitr::write_bib(c(
-  .packages(), 'bookdown', 'knitr', 'rmarkdown'
-), 'packages.bib')
+  .packages(), "bookdown", "knitr", "rmarkdown"
+), "packages.bib")
 ```
 
 
@@ -95,8 +95,8 @@ This version of the syllabus was built with:
 ```{r message = FALSE,error=TRUE, warning = FALSE, echo = FALSE}
 # needed because new_session is set to true in _bookdown.yml
 library(tidyverse)
-all_pkgs <- renv::dependencies(path = "DESCRIPTION") %>% 
-  pull(Package) 
+all_pkgs <- renv::dependencies(path = "DESCRIPTION") %>%
+  pull(Package)
 
 session <- devtools::session_info(pkgs = all_pkgs)
 
@@ -107,39 +107,40 @@ Along with these packages:
 
 
 ```{r message = FALSE,error=TRUE, warning = FALSE, echo = FALSE}
-
 if (knitr::is_latex_output()) {
-session$packages %>% 
-  select(package, loadedversion, date, source) %>% 
-  knitr::kable(booktabs = TRUE)
-  }else{
-    
-session$packages %>% 
-  select(package, loadedversion, date, source) %>% 
-  DT::datatable(rownames = FALSE,
-                class = 'cell-border stripe',
-                filter = list(position = 'top'),
-                options = list(pageLength = 
-                               nrow(session$packages), 
-                               autoWidth = TRUE,
-                               bInfo = FALSE,
-                               paging = FALSE))
+  session$packages %>%
+    select(package, loadedversion, date, source) %>%
+    knitr::kable(booktabs = TRUE)
+} else {
+  session$packages %>%
+    select(package, loadedversion, date, source) %>%
+    DT::datatable(
+      rownames = FALSE,
+      class = "cell-border stripe",
+      filter = list(position = "top"),
+      options = list(
+        pageLength =
+          nrow(session$packages),
+        autoWidth = TRUE,
+        bInfo = FALSE,
+        paging = FALSE
+      )
+    )
 }
-
 ```
 
 The R session information when compiling this book is shown below:
 
 ```{r include=FALSE}
 # only show versions of very relevant packages
-sessionInfo = function() {
-  lapply(c('shiny', 'miniUI'), loadNamespace)
-  res = utils::sessionInfo()
-  loaded = res$loadedOnly
-  res$loadedOnly = loaded[intersect(names(loaded), c(
-    'bookdown', 'knitr', 'rmarkdown', 'shiny', 'htmltools', 'tools', 'miniUI'
+sessionInfo <- function() {
+  lapply(c("shiny", "miniUI"), loadNamespace)
+  res <- utils::sessionInfo()
+  loaded <- res$loadedOnly
+  res$loadedOnly <- loaded[intersect(names(loaded), c(
+    "bookdown", "knitr", "rmarkdown", "shiny", "htmltools", "tools", "miniUI"
   ))]
-  res$BLAS = res$LAPACK = NULL
+  res$BLAS <- res$LAPACK <- NULL
   res
 }
 ```

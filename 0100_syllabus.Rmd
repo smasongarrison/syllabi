@@ -17,11 +17,11 @@ Remember: This course is for you, not for me.
 
 ```{r, echo=FALSE, cache = TRUE}
 if (knitr::is_latex_output()) {
-include_graphics("img/snoop.png")
-}else{
-"https://www.youtube.com/watch?v=aL_fP5axQV4"%>%
-embed_url() %>%
-  use_align("center")
+  include_graphics("img/snoop.png")
+} else {
+  "https://www.youtube.com/watch?v=aL_fP5axQV4" %>%
+    embed_url() %>%
+    use_align("center")
 }
 ```
 
@@ -29,9 +29,9 @@ Credit:
 
 ```{r, echo=FALSE, cache = TRUE}
 if (knitr::is_latex_output()) {
-include_graphics("img/AcademicsSaystatus.png")
-}else{
-try_include_tweet("https://twitter.com/AcademicsSay/status/1293621452684644355")
+  include_graphics("img/AcademicsSaystatus.png")
+} else {
+  try_include_tweet("https://twitter.com/AcademicsSay/status/1293621452684644355")
 }
 ```
 
@@ -55,15 +55,11 @@ Most of my classes require you to have a computer that can run R and stream YouT
 #### R and RStudio
 
 ```{r, echo=FALSE}
-
-if (knitr::is_latex_output()) {
-}else{
-"https://www.youtube.com/watch?v=kVIZGCT5p9U" %>%
- embed_url() %>%
- use_align("center")
+if (knitr::is_latex_output()) {} else {
+  "https://www.youtube.com/watch?v=kVIZGCT5p9U" %>%
+    embed_url() %>%
+    use_align("center")
 }
-
-
 ```
 
 R is a free software environment for statistical computing and graphics. It compiles and runs on a wide variety of UNIX platforms, Windows, and MacOS.
