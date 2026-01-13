@@ -1,7 +1,7 @@
 --- 
 title: "Prof. Mason's Syllabi"
 author: S. Mason Garrison
-date: "2026-01-08"
+date: "2026-01-13"
 knit: "bookdown::render_book"
 site: bookdown::bookdown_site
 url: 'https\://github.com/smasongarrison/syllabi'
@@ -128,31 +128,27 @@ This version of the syllabus was built with:
 
 
 ```
-## Finding R package dependencies ... Done!
+## Error in `loadNamespace()`:
+## ! there is no package called 'renv'
 ```
 
 ```
-##  setting  value
-##  version  R version 4.5.2 (2025-10-31 ucrt)
-##  os       Windows 11 x64 (build 26220)
-##  system   x86_64, mingw32
-##  ui       RTerm
-##  language (EN)
-##  collate  English_United States.utf8
-##  ctype    English_United States.utf8
-##  tz       America/New_York
-##  date     2026-01-08
-##  pandoc   3.6.3 @ C:/Program Files/RStudio/resources/app/bin/quarto/bin/tools/ (via rmarkdown)
-##  quarto   NA @ C:\\PROGRA~1\\RStudio\\RESOUR~1\\app\\bin\\quarto\\bin\\quarto.exe
+## Error:
+## ! object 'all_pkgs' not found
+```
+
+```
+## Error:
+## ! object 'session' not found
 ```
 
 Along with these packages:
 
 
 
-```{=html}
-<div class="datatables html-widget html-fill-item" id="htmlwidget-43df11514c4a576f3ab0" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-43df11514c4a576f3ab0">{"x":{"filter":"top","vertical":false,"filterHTML":"<tr>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n<\/tr>","data":[["askpass","assertthat","backports","base64enc","bigD","bit","bit64","bitops","blob","bookdown","brew","brio","broom","bslib","cachem","callr","cellranger","cli","clipr","commonmark","conflicted","cpp11","crayon","credentials","crosstalk","curl","data.table","DBI","dbplyr","desc","devtools","dichromat","diffobj","digest","downlit","dplyr","DT","dtplyr","ellipsis","evaluate","fansi","farver","fastmap","fontawesome","forcats","fs","gapminder","gargle","gender","genderdata","generics","geonames","gert","ggplot2","gh","gitcreds","glue","googledrive","googlesheets4","gridExtra","gt","gtable","haven","highr","hms","htmltools","htmlwidgets","httpuv","httr","httr2","ids","ini","isoband","jquerylib","jsonlite","juicyjuice","knitr","labeling","later","lazyeval","lifecycle","litedown","lubridate","magrittr","markdown","memoise","mime","miniUI","modelr","openssl","otel","pillar","pkgbuild","pkgconfig","pkgdown","pkgload","praise","prettyunits","processx","profvis","progress","promises","ps","purrr","R6","ragg","rappdirs","rcmdcheck","RColorBrewer","Rcpp","reactable","reactR","readr","readxl","rebird","rematch","rematch2","remotes","reprex","rjson","rlang","rmarkdown","roxygen2","rplos","rprojroot","rstudioapi","rversions","rvest","S7","sass","scales","selectr","sessioninfo","shiny","sourcetools","stringi","stringr","sys","systemfonts","testthat","textshaping","tibble","tidyr","tidyselect","tidyverse","timechange","tinytex","tzdb","urlchecker","usethis","utf8","uuid","V8","vctrs","viridis","viridisLite","vroom","waldo","whisker","withr","xfun","xml2","xopen","xtable","yaml","zip"],[null,null,null,null,null,null,null,null,null,"0.46",null,null,null,"0.9.0","1.1.0",null,null,"3.6.5",null,null,null,null,null,null,null,null,null,null,null,null,"2.4.6","2.0-0.1",null,"0.6.37",null,"1.1.4",null,null,"0.3.2","1.0.5",null,"2.1.2","1.2.0",null,"1.0.1","1.6.6",null,null,null,null,"0.1.4",null,null,"4.0.1",null,null,"1.8.0",null,null,null,null,"0.3.6",null,null,"1.1.4","0.5.8.1",null,null,null,null,null,null,null,"0.1.4","2.0.0",null,"1.51",null,null,null,"1.0.4",null,"1.9.4","2.0.4",null,"2.0.1",null,null,null,null,"0.2.0","1.11.1","1.4.8","2.0.3",null,"1.4.1",null,null,null,null,null,null,null,"1.2.0","2.6.1",null,null,null,"1.1-3",null,null,null,"2.1.6",null,null,null,null,"2.5.0",null,null,"1.1.6","2.30",null,null,null,"0.17.1",null,null,"0.2.1","0.4.10","1.4.0",null,"1.2.3",null,null,"1.8.7","1.6.0",null,null,null,null,"3.3.0","1.3.2","1.2.1","2.0.0","0.3.0",null,"0.5.0",null,"3.2.1",null,null,null,"0.6.5",null,null,null,null,null,"3.0.2","0.54",null,null,null,"2.3.10",null],["2024-10-04","2019-03-21","2024-05-23","2015-07-28","2025-04-03","2025-03-06","2025-01-16","2024-10-03","2023-03-17","2025-12-05","2023-12-16","2024-04-24","2025-12-04","2025-01-30","2024-05-16","2024-03-25","2016-07-27","2025-04-23","2022-02-22","2025-07-07","2023-02-01","2025-03-03","2024-06-20","2025-09-12","2025-08-26","2025-08-19","2025-12-24","2024-06-02","2025-09-10","2023-12-10","2025-10-03","2022-05-02","2025-04-21","2024-08-19","2025-11-14","2023-11-17","2025-09-02","2025-09-10","2021-04-29","2025-08-27","2025-11-19","2024-05-13","2024-05-15","2024-11-16","2025-09-25","2025-04-12","2025-06-12","2025-09-03","2021-10-13","2025-05-01","2025-05-09","2019-02-19","2025-11-16","2025-11-14","2025-05-26","2022-09-08","2024-09-30","2025-09-10","2025-09-03","2017-09-09","2025-12-16","2024-10-25","2025-05-30","2024-05-26","2025-10-17","2024-04-04","2023-12-06","2025-04-16","2023-08-15","2025-12-08","2017-05-31","2018-05-20","2025-12-07","2021-04-26","2025-03-27","2022-11-10","2025-12-20","2023-08-29","2025-08-27","2019-03-15","2023-11-07","2025-12-18","2024-12-08","2025-09-12","2025-03-23","2021-11-26","2025-03-17","2025-04-17","2023-03-22","2025-09-30","2025-08-29","2025-09-17","2025-05-26","2019-09-22","2025-11-06","2025-09-23","2015-08-11","2023-09-24","2025-02-21","2024-09-20","2023-12-06","2025-11-01","2025-04-12","2025-11-04","2025-02-15","2025-09-02","2021-01-31","2021-09-27","2022-04-03","2025-07-02","2025-12-01","2024-09-14","2025-11-14","2025-03-07","2021-09-20","2023-08-30","2020-05-01","2024-03-17","2024-07-06","2024-09-16","2025-04-11","2025-09-28","2025-09-03",null,"2025-08-26","2024-10-22","2025-10-09","2025-08-29","2025-11-14","2025-04-11","2025-04-24","2025-12-17","2025-02-05","2025-12-09","2023-02-01","2025-03-27","2025-11-04","2024-10-04","2025-10-01","2025-11-25","2025-10-10","2025-06-08","2025-12-19","2024-03-11","2023-02-22","2024-01-18","2025-11-19","2025-03-15","2021-11-30","2025-09-06","2025-06-08","2024-07-29","2025-10-10","2023-12-01","2024-01-29","2023-05-02","2025-11-28","2025-07-11","2022-12-05","2024-10-28","2025-10-30","2025-12-01","2024-04-25","2019-04-21","2024-07-26","2025-05-13"],["CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.2)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.2)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.1)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.1)","CRAN (R 4.5.1)","CRAN (R 4.5.1)","CRAN (R 4.5.2)","CRAN (R 4.5.0)","CRAN (R 4.5.1)","CRAN (R 4.5.0)","CRAN (R 4.5.1)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.2)","CRAN (R 4.5.1)","CRAN (R 4.5.1)","CRAN (R 4.5.1)","CRAN (R 4.5.0)","CRAN (R 4.5.1)","CRAN (R 4.5.2)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.1)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.1)","CRAN (R 4.5.0)","Github (lmullen/genderdata@df16017149a8adb9a75a2dcf734007cab12dd5da)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.2)","CRAN (R 4.5.2)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.1)","CRAN (R 4.5.1)","CRAN (R 4.5.0)","CRAN (R 4.5.2)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.1)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.2)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.2)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.2)","CRAN (R 4.5.0)","CRAN (R 4.5.1)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.2)","CRAN (R 4.5.0)","CRAN (R 4.5.1)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.1)","CRAN (R 4.5.1)","CRAN (R 4.5.1)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.2)","CRAN (R 4.5.1)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.1)","CRAN (R 4.5.0)","CRAN (R 4.5.1)","CRAN (R 4.5.0)","CRAN (R 4.5.1)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.1)","CRAN (R 4.5.2)","CRAN (R 4.5.0)","CRAN (R 4.5.2)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.2)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.1)","CRAN (R 4.5.1)",null,"CRAN (R 4.5.1)","CRAN (R 4.5.0)","CRAN (R 4.5.1)","CRAN (R 4.5.1)","CRAN (R 4.5.2)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.2)","CRAN (R 4.5.0)","CRAN (R 4.5.2)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.1)","CRAN (R 4.5.0)","CRAN (R 4.5.1)","CRAN (R 4.5.2)","CRAN (R 4.5.1)","CRAN (R 4.5.0)","CRAN (R 4.5.2)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.2)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.1)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.1)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.2)","CRAN (R 4.5.1)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.2)","CRAN (R 4.5.2)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>package<\/th>\n      <th>loadedversion<\/th>\n      <th>date<\/th>\n      <th>source<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":166,"autoWidth":true,"bInfo":false,"paging":false,"columnDefs":[{"name":"package","targets":0},{"name":"loadedversion","targets":1},{"name":"date","targets":2},{"name":"source","targets":3}],"order":[],"orderClasses":false,"orderCellsTop":true,"lengthMenu":[10,25,50,100,166]}},"evals":[],"jsHooks":[]}</script>
+```
+## Error:
+## ! object 'session' not found
 ```
 
 The R session information when compiling this book is shown below:
@@ -167,7 +163,7 @@ sessionInfo()
 ```
 ## R version 4.5.2 (2025-10-31 ucrt)
 ## Platform: x86_64-w64-mingw32/x64
-## Running under: Windows 11 x64 (build 26220)
+## Running under: Windows 11 x64 (build 26200)
 ## 
 ## Matrix products: default
 ##   LAPACK version 3.12.1
@@ -191,8 +187,8 @@ sessionInfo()
 ##  [9] ggplot2_4.0.1   tidyverse_2.0.0
 ## 
 ## loaded via a namespace (and not attached):
-## [1] tools_4.5.2       htmltools_0.5.8.1 bookdown_0.46     rmarkdown_2.30   
-## [5] shiny_1.12.1      knitr_1.51        miniUI_0.1.2
+## [1] bookdown_0.46   shiny_1.12.1    tools_4.5.2     miniUI_0.1.2   
+## [5] knitr_1.51      htmltools_0.5.9 rmarkdown_2.30
 ```
 
 
@@ -688,8 +684,8 @@ There will be multiple engagement activities in this course. These activities wi
 
 
 ```{=html}
-<div class="datatables html-widget html-fill-item" id="htmlwidget-a7a1ff15eef694c2da73" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-a7a1ff15eef694c2da73">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],["08/25","09/01","09/08","09/15","09/22","09/29","10/06","10/13","10/20","10/27","11/03","11/10","11/17","11/24","12/01","12/08"],["What are Research Methods?","Getting Ready to Do Statistical Analysis","Describing Data with R","Univariate Distributions","Bivariate Distributions","Probability Theory","Binomials and Other Sampling Distributions","Hypothesis Testing","T-Tests","F-Tests and ANOVA","Causal Inference","Experimental Designs","Ethics and Reproducibility","Special Topics","Putting it all together","Finals"],["Week 01, 08/25 - 08/29","Week 02, 09/01 - 09/05","Week 03, 09/08 - 09/12","Week 04, 09/15 - 09/19","Week 05, 09/22 - 09/26","Week 06, 09/29 - 10/03","Week 07, 10/06 - 10/10","Week 08, 10/13 - 10/17","Week 09, 10/20 - 10/24","Week 10, 10/27 - 10/31","Week 11, 11/03 - 11/07","Week 12, 11/10 - 11/14","Week 13, 11/17 - 11/21","Week 14, 11/24 - 11/28","Week 15, 12/01 - 12/05","Week 16, 12/08 - 12/12"],[null,null,null,null,null,"Exam",null,"Assignment",null,null,null,"Exam",null,null,"Assignment","Exam"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n      <th>milestones<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0},{"name":"module","targets":0},{"name":"start","targets":1},{"name":"topic","targets":2},{"name":"week","targets":3},{"name":"milestones","targets":4}],"order":[],"orderClasses":false},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":[],"jsHooks":[]}</script>
+<div class="datatables html-widget html-fill-item" id="htmlwidget-52117c31d8cf73f7e22f" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-52117c31d8cf73f7e22f">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],["08/25","09/01","09/08","09/15","09/22","09/29","10/06","10/13","10/20","10/27","11/03","11/10","11/17","11/24","12/01","12/08"],["What are Research Methods?","Getting Ready to Do Statistical Analysis","Describing Data with R","Univariate Distributions","Bivariate Distributions","Probability Theory","Binomials and Other Sampling Distributions","Hypothesis Testing","T-Tests","F-Tests and ANOVA","Causal Inference","Experimental Designs","Ethics and Reproducibility","Special Topics","Putting it all together","Finals"],["Week 01, 08/25 - 08/29","Week 02, 09/01 - 09/05","Week 03, 09/08 - 09/12","Week 04, 09/15 - 09/19","Week 05, 09/22 - 09/26","Week 06, 09/29 - 10/03","Week 07, 10/06 - 10/10","Week 08, 10/13 - 10/17","Week 09, 10/20 - 10/24","Week 10, 10/27 - 10/31","Week 11, 11/03 - 11/07","Week 12, 11/10 - 11/14","Week 13, 11/17 - 11/21","Week 14, 11/24 - 11/28","Week 15, 12/01 - 12/05","Week 16, 12/08 - 12/12"],[null,null,null,null,null,"Exam",null,"Assignment",null,null,null,"Exam",null,null,"Assignment","Exam"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n      <th>milestones<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0},{"name":"module","targets":0},{"name":"start","targets":1},{"name":"topic","targets":2},{"name":"week","targets":3},{"name":"milestones","targets":4}],"order":[],"orderClasses":false},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":[],"jsHooks":[]}</script>
 ```
 
 ```{=html}
@@ -929,8 +925,8 @@ It is a projection. It is not a guarantee. These projected letter grades are not
 
 
 ```{=html}
-<div class="datatables html-widget html-fill-item" id="htmlwidget-05c5be8a9401dc1151a8" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-05c5be8a9401dc1151a8">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],["08/22","08/29","09/05","09/12","09/19","09/26","10/03","10/10","10/17","10/24","10/31","11/07","11/14","11/21","11/28","12/05"],["What is Personality","Personality Research Methods","Assessment, Evaluation, and Ethics","Trait Approach and Personality Judgment","Big Five","Personality over the Lifespan","Biological Approaches to Psychology","Behavior Genetics","Evolutionary Psychology","Cross-Cultural Psychology","Freud","Psychoanalysis After Freud","Personality Processes and Positive Psych","MiniModule on Personality, Big Data, and AI (Also, Thanksgiving Break!)","Personality and Health",null],["Week 01, 08/22 - 08/26","Week 02, 08/29 - 09/02","Week 03, 09/05 - 09/09","Week 04, 09/12 - 09/16","Week 05, 09/19 - 09/23","Week 06, 09/26 - 09/30","Week 07, 10/03 - 10/07","Week 08, 10/10 - 10/14","Week 09, 10/17 - 10/21","Week 10, 10/24 - 10/28","Week 11, 10/31 - 11/04","Week 12, 11/07 - 11/11","Week 13, 11/14 - 11/18","Week 14, 11/21 - 11/25","Week 15, 11/28 - 12/02","Week 16, 12/05 - 12/09"],[null,null,"Quiz",null,null,"Quiz","Assignment",null,null,"Quiz",null,"Assignment","Quiz",null,"Quiz","Quiz and Assignment"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n      <th>milestones<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0},{"name":"module","targets":0},{"name":"start","targets":1},{"name":"topic","targets":2},{"name":"week","targets":3},{"name":"milestones","targets":4}],"order":[],"orderClasses":false},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":[],"jsHooks":[]}</script>
+<div class="datatables html-widget html-fill-item" id="htmlwidget-3cd97e13216864607f2d" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-3cd97e13216864607f2d">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],["08/22","08/29","09/05","09/12","09/19","09/26","10/03","10/10","10/17","10/24","10/31","11/07","11/14","11/21","11/28","12/05"],["What is Personality","Personality Research Methods","Assessment, Evaluation, and Ethics","Trait Approach and Personality Judgment","Big Five","Personality over the Lifespan","Biological Approaches to Psychology","Behavior Genetics","Evolutionary Psychology","Cross-Cultural Psychology","Freud","Psychoanalysis After Freud","Personality Processes and Positive Psych","MiniModule on Personality, Big Data, and AI (Also, Thanksgiving Break!)","Personality and Health",null],["Week 01, 08/22 - 08/26","Week 02, 08/29 - 09/02","Week 03, 09/05 - 09/09","Week 04, 09/12 - 09/16","Week 05, 09/19 - 09/23","Week 06, 09/26 - 09/30","Week 07, 10/03 - 10/07","Week 08, 10/10 - 10/14","Week 09, 10/17 - 10/21","Week 10, 10/24 - 10/28","Week 11, 10/31 - 11/04","Week 12, 11/07 - 11/11","Week 13, 11/14 - 11/18","Week 14, 11/21 - 11/25","Week 15, 11/28 - 12/02","Week 16, 12/05 - 12/09"],[null,null,"Quiz",null,null,"Quiz","Assignment",null,null,"Quiz",null,"Assignment","Quiz",null,"Quiz","Quiz and Assignment"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n      <th>milestones<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0},{"name":"module","targets":0},{"name":"start","targets":1},{"name":"topic","targets":2},{"name":"week","targets":3},{"name":"milestones","targets":4}],"order":[],"orderClasses":false},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":[],"jsHooks":[]}</script>
 ```
 
 <!--chapter:end:0202_personality.Rmd-->
@@ -1049,9 +1045,11 @@ To contract for an "A" in this course, you agree to:
 
 - Earn "Satisfactory" on 7 self-paced lab assignments on a schedule you will specify in your contract.
 
-- Produce at least 7 "Satisfactory" portfolio pieces over the course of the semester.
+- Produce at least 6 "Satisfactory" portfolio pieces over the course of the semester.
 
 - Compile those portfolio pieces into a "Satisfactory" Unessay and present it during the last week of class
+
+- For your planning, this works out to be approximately, 1.86 per week.
 
 ### "B" Contract  {-}
 
@@ -1063,6 +1061,7 @@ To contract for a "B" in this course, you agree to:
 
 - Compile those portfolio pieces into a "Satisfactory" Unessay and present it during the last week of class
 
+- For your planning, this works out to be approximately, 1.57 per week.
 
 ### "P" Contract  {-}
 
@@ -1074,7 +1073,7 @@ To contract for a "P" or Pass in this course, you agree to:
 
 - Compile those portfolio pieces into a "Satisfactory" Unessay and present it during the last week of class
 
-
+- For your planning, this works out to be approximately, 1.29 per week.
 
 
 
@@ -1084,8 +1083,8 @@ Note that I'll be using your contracts to guide my tinkering.
 
 
 ```{=html}
-<div class="datatables html-widget html-fill-item" id="htmlwidget-945fb53e6ea1e8b88684" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-945fb53e6ea1e8b88684">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7],["01/13","01/20","01/27","02/03","02/10","02/17","02/24"],["What is Data Science and Meet the Toolkit","Data and Visualization","Welcome to the Tidyverse","Data types and Data Transformations","Effective data visualization","Scientific Communication and confounding","Functions and Automation"],["Week 01, 01/13 - 01/17","Week 02, 01/20 - 01/24","Week 03, 01/27 - 01/31","Week 04, 02/03 - 02/07","Week 05, 02/10 - 02/14","Week 06, 02/17 - 02/21","Week 07, 02/24 - 02/28"],[null,"Contract",null,null,null,null,"Presentation"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n      <th>milestones<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0},{"name":"module","targets":0},{"name":"start","targets":1},{"name":"topic","targets":2},{"name":"week","targets":3},{"name":"milestones","targets":4}],"order":[],"orderClasses":false},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":[],"jsHooks":[]}</script>
+<div class="datatables html-widget html-fill-item" id="htmlwidget-ed4533f85cbafa5efa66" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-ed4533f85cbafa5efa66">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7],["01/13","01/20","01/27","02/03","02/10","02/17","02/24"],["What is Data Science and Meet the Toolkit","Data and Visualization","Welcome to the Tidyverse","Data types and Data Transformations","Effective data visualization","Scientific Communication and confounding","Functions and Automation"],["Week 01, 01/13 - 01/17","Week 02, 01/20 - 01/24","Week 03, 01/27 - 01/31","Week 04, 02/03 - 02/07","Week 05, 02/10 - 02/14","Week 06, 02/17 - 02/21","Week 07, 02/24 - 02/28"],[null,"Contract",null,null,null,null,"Presentation"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n      <th>milestones<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0},{"name":"module","targets":0},{"name":"start","targets":1},{"name":"topic","targets":2},{"name":"week","targets":3},{"name":"milestones","targets":4}],"order":[],"orderClasses":false},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":[],"jsHooks":[]}</script>
 ```
 
 <!--chapter:end:0203_applieddatascience.Rmd-->
@@ -1209,8 +1208,8 @@ There will be multiple engagement activities in this course. These activities wi
 
 
 ```{=html}
-<div class="datatables html-widget html-fill-item" id="htmlwidget-7a2ea8395d27033d2867" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-7a2ea8395d27033d2867">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15],["01/25","02/01","02/08","02/15","02/22","03/01","03/08","03/15","03/22","03/29","04/05","04/12","04/19","04/26","05/03"],["Foundations and Nature of Testing","History of Testing","Ethical and Social Considerations in Testing","Norms and the Meaning of Test Scores","Classical Test Theory","Reliability","Catch Up Week","Validity","Item Analysis","Factor Analysis","Item Response Theory","Practical Testing Things","Ability Testing","Personality Testing","Review"],["Week 01, 01/25 - 01/29","Week 02, 02/01 - 02/05","Week 03, 02/08 - 02/12","Week 04, 02/15 - 02/19","Week 05, 02/22 - 02/26","Week 06, 03/01 - 03/05","Week 07, 03/08 - 03/12","Week 08, 03/15 - 03/19","Week 09, 03/22 - 03/26","Week 10, 03/29 - 04/02","Week 11, 04/05 - 04/09","Week 12, 04/12 - 04/16","Week 13, 04/19 - 04/23","Week 14, 04/26 - 04/30","Week 15, 05/03 - 05/07"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0},{"name":"module","targets":0},{"name":"start","targets":1},{"name":"topic","targets":2},{"name":"week","targets":3}],"order":[],"orderClasses":false},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":[],"jsHooks":[]}</script>
+<div class="datatables html-widget html-fill-item" id="htmlwidget-efa62bcb7643d0a862c7" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-efa62bcb7643d0a862c7">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15],["01/25","02/01","02/08","02/15","02/22","03/01","03/08","03/15","03/22","03/29","04/05","04/12","04/19","04/26","05/03"],["Foundations and Nature of Testing","History of Testing","Ethical and Social Considerations in Testing","Norms and the Meaning of Test Scores","Classical Test Theory","Reliability","Catch Up Week","Validity","Item Analysis","Factor Analysis","Item Response Theory","Practical Testing Things","Ability Testing","Personality Testing","Review"],["Week 01, 01/25 - 01/29","Week 02, 02/01 - 02/05","Week 03, 02/08 - 02/12","Week 04, 02/15 - 02/19","Week 05, 02/22 - 02/26","Week 06, 03/01 - 03/05","Week 07, 03/08 - 03/12","Week 08, 03/15 - 03/19","Week 09, 03/22 - 03/26","Week 10, 03/29 - 04/02","Week 11, 04/05 - 04/09","Week 12, 04/12 - 04/16","Week 13, 04/19 - 04/23","Week 14, 04/26 - 04/30","Week 15, 05/03 - 05/07"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0},{"name":"module","targets":0},{"name":"start","targets":1},{"name":"topic","targets":2},{"name":"week","targets":3}],"order":[],"orderClasses":false},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":[],"jsHooks":[]}</script>
 ```
 
 <!--chapter:end:0204_testing.Rmd-->
@@ -1321,8 +1320,8 @@ I *may* shift these thresholds down *slightly* to provide a better fit to the ac
 
 
 ```{=html}
-<div class="datatables html-widget html-fill-item" id="htmlwidget-8f0b16ec5218b1af7c64" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-8f0b16ec5218b1af7c64">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9],["03/03","03/10","03/17","03/24","03/31","04/07","04/14","04/21","04/28"],["Introduction to Wikipedia Assignment","Break Week","Generative AI and Evaluating Wikipedia","Review Rules and Choose Topics","Copyedit, Finalize Topic, Start Drafting","Peer Review and Move to Wikipedia","Continue Improving Article","Polish and Final Article","Final Presentations"],["Week 01, 03/03 - 03/07","Week 02, 03/10 - 03/14","Week 03, 03/17 - 03/21","Week 04, 03/24 - 03/28","Week 05, 03/31 - 04/04","Week 06, 04/07 - 04/11","Week 07, 04/14 - 04/18","Week 08, 04/21 - 04/25","Week 09, 04/28 - 05/02"],[null,null,"Evaluate Wikipedia Exercise","Find Potential Articles","Bibliography &amp; Outline","Peer Reviews",null,"Final Article","Reflective Essay &amp; Presentation"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n      <th>milestones<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":9,"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0},{"name":"module","targets":0},{"name":"start","targets":1},{"name":"topic","targets":2},{"name":"week","targets":3},{"name":"milestones","targets":4}],"order":[],"orderClasses":false,"lengthMenu":[9,10,25,50,100]},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":[],"jsHooks":[]}</script>
+<div class="datatables html-widget html-fill-item" id="htmlwidget-7018142d3719a0a22a25" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-7018142d3719a0a22a25">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9],["03/03","03/10","03/17","03/24","03/31","04/07","04/14","04/21","04/28"],["Introduction to Wikipedia Assignment","Break Week","Generative AI and Evaluating Wikipedia","Review Rules and Choose Topics","Copyedit, Finalize Topic, Start Drafting","Peer Review and Move to Wikipedia","Continue Improving Article","Polish and Final Article","Final Presentations"],["Week 01, 03/03 - 03/07","Week 02, 03/10 - 03/14","Week 03, 03/17 - 03/21","Week 04, 03/24 - 03/28","Week 05, 03/31 - 04/04","Week 06, 04/07 - 04/11","Week 07, 04/14 - 04/18","Week 08, 04/21 - 04/25","Week 09, 04/28 - 05/02"],[null,null,"Evaluate Wikipedia Exercise","Find Potential Articles","Bibliography &amp; Outline","Peer Reviews",null,"Final Article","Reflective Essay &amp; Presentation"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n      <th>milestones<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":9,"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0},{"name":"module","targets":0},{"name":"start","targets":1},{"name":"topic","targets":2},{"name":"week","targets":3},{"name":"milestones","targets":4}],"order":[],"orderClasses":false,"lengthMenu":[9,10,25,50,100]},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":[],"jsHooks":[]}</script>
 ```
 
 <!--chapter:end:0205_wikipedia.Rmd-->
@@ -1440,9 +1439,11 @@ To contract for an "A" in this course, you agree to:
 
 - Earn "Satisfactory" on 11 self-paced lab assignments on a schedule you will specify in your contract.
 
-- Produce at least 11 "Satisfactory" portfolio pieces over the course of the semester.
+- Produce at least 10 "Satisfactory" portfolio pieces over the course of the semester.
 
 - Compile those portfolio pieces into a "Satisfactory" Unessay and present it during the last week of class
+
+- For your planning, this works out to be approximately, 1.31 per week.
 
 ### "B" Contract  {-}
 
@@ -1454,6 +1455,7 @@ To contract for a "B" in this course, you agree to:
 
 - Compile those portfolio pieces into a "Satisfactory" Unessay and present it during the last week of class
 
+- For your planning, this works out to be approximately, 1.06 per week.
 
 ### "P" Contract  {-}
 
@@ -1465,7 +1467,7 @@ To contract for a "P" or Pass in this course, you agree to:
 
 - Compile those portfolio pieces into a "Satisfactory" Unessay and present it during the last week of class
 
-
+- For your planning, this works out to be approximately, 0.81 per week.
 
 
 
@@ -1475,8 +1477,8 @@ Note that I'll be using your contracts to guide my tinkering.
 
 
 ```{=html}
-<div class="datatables html-widget html-fill-item" id="htmlwidget-cb4fcc086daacbcb74c7" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-cb4fcc086daacbcb74c7">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],["01/13","01/20","01/27","02/03","02/10","02/17","02/24","03/03","03/10","03/17","03/24","03/31","04/07","04/14","04/21","04/28"],["What is Data Science and Meet the Toolkit","Data and Visualization","Welcome to the Tidyverse","Data types and Data Transformations","Effective data visualization","Scientific Communication and confounding","Functions and Automation","Webscraping","Spring Break","Ethics","Tidy Models","Overfitting and Cross validation","Quantifying uncertainty","Rshiny","Machine Learning","Presentations"],["Week 01, 01/13 - 01/17","Week 02, 01/20 - 01/24","Week 03, 01/27 - 01/31","Week 04, 02/03 - 02/07","Week 05, 02/10 - 02/14","Week 06, 02/17 - 02/21","Week 07, 02/24 - 02/28","Week 08, 03/03 - 03/07","Week 09, 03/10 - 03/14","Week 10, 03/17 - 03/21","Week 11, 03/24 - 03/28","Week 12, 03/31 - 04/04","Week 13, 04/07 - 04/11","Week 14, 04/14 - 04/18","Week 15, 04/21 - 04/25","Week 16, 04/28 - 05/02"],[null,"Contract",null,null,null,null,null,null,null,null,null,null,null,null,null,"Presentation"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n      <th>milestones<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0},{"name":"module","targets":0},{"name":"start","targets":1},{"name":"topic","targets":2},{"name":"week","targets":3},{"name":"milestones","targets":4}],"order":[],"orderClasses":false},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":[],"jsHooks":[]}</script>
+<div class="datatables html-widget html-fill-item" id="htmlwidget-1fe59af32877eeb07e01" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-1fe59af32877eeb07e01">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],["01/13","01/20","01/27","02/03","02/10","02/17","02/24","03/03","03/10","03/17","03/24","03/31","04/07","04/14","04/21","04/28"],["What is Data Science and Meet the Toolkit","Data and Visualization","Welcome to the Tidyverse","Data types and Data Transformations","Effective data visualization","Scientific Communication and confounding","Functions and Automation","Webscraping","Spring Break","Ethics","Tidy Models","Overfitting and Cross validation","Quantifying uncertainty","Rshiny","Machine Learning","Presentations"],["Week 01, 01/13 - 01/17","Week 02, 01/20 - 01/24","Week 03, 01/27 - 01/31","Week 04, 02/03 - 02/07","Week 05, 02/10 - 02/14","Week 06, 02/17 - 02/21","Week 07, 02/24 - 02/28","Week 08, 03/03 - 03/07","Week 09, 03/10 - 03/14","Week 10, 03/17 - 03/21","Week 11, 03/24 - 03/28","Week 12, 03/31 - 04/04","Week 13, 04/07 - 04/11","Week 14, 04/14 - 04/18","Week 15, 04/21 - 04/25","Week 16, 04/28 - 05/02"],[null,"Contract",null,null,null,null,null,null,null,null,null,null,null,null,null,"Presentation"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n      <th>milestones<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0},{"name":"module","targets":0},{"name":"start","targets":1},{"name":"topic","targets":2},{"name":"week","targets":3},{"name":"milestones","targets":4}],"order":[],"orderClasses":false},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":[],"jsHooks":[]}</script>
 ```
 
 <!--chapter:end:0206_datascience.Rmd-->

@@ -112,9 +112,11 @@ To contract for an "A" in this course, you agree to:
 
 - Earn "Satisfactory" on 7 self-paced lab assignments on a schedule you will specify in your contract.
 
-- Produce at least 7 "Satisfactory" portfolio pieces over the course of the semester.
+- Produce at least 6 "Satisfactory" portfolio pieces over the course of the semester.
 
 - Compile those portfolio pieces into a "Satisfactory" Unessay and present it during the last week of class
+
+- For your planning, this works out to be approximately, 1.86 per week.
 
 ### "B" Contract  {-}
 
@@ -126,6 +128,7 @@ To contract for a "B" in this course, you agree to:
 
 - Compile those portfolio pieces into a "Satisfactory" Unessay and present it during the last week of class
 
+- For your planning, this works out to be approximately, 1.57 per week.
 
 ### "P" Contract  {-}
 
@@ -137,7 +140,7 @@ To contract for a "P" or Pass in this course, you agree to:
 
 - Compile those portfolio pieces into a "Satisfactory" Unessay and present it during the last week of class
 
-
+- For your planning, this works out to be approximately, 1.29 per week.
 
 
 
@@ -147,6 +150,6 @@ Note that I'll be using your contracts to guide my tinkering.
 
 
 ```{=html}
-<div class="datatables html-widget html-fill-item" id="htmlwidget-945fb53e6ea1e8b88684" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-945fb53e6ea1e8b88684">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7],["01/13","01/20","01/27","02/03","02/10","02/17","02/24"],["What is Data Science and Meet the Toolkit","Data and Visualization","Welcome to the Tidyverse","Data types and Data Transformations","Effective data visualization","Scientific Communication and confounding","Functions and Automation"],["Week 01, 01/13 - 01/17","Week 02, 01/20 - 01/24","Week 03, 01/27 - 01/31","Week 04, 02/03 - 02/07","Week 05, 02/10 - 02/14","Week 06, 02/17 - 02/21","Week 07, 02/24 - 02/28"],[null,"Contract",null,null,null,null,"Presentation"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n      <th>milestones<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0},{"name":"module","targets":0},{"name":"start","targets":1},{"name":"topic","targets":2},{"name":"week","targets":3},{"name":"milestones","targets":4}],"order":[],"orderClasses":false},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":[],"jsHooks":[]}</script>
+<div class="datatables html-widget html-fill-item" id="htmlwidget-ed4533f85cbafa5efa66" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-ed4533f85cbafa5efa66">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7],["01/13","01/20","01/27","02/03","02/10","02/17","02/24"],["What is Data Science and Meet the Toolkit","Data and Visualization","Welcome to the Tidyverse","Data types and Data Transformations","Effective data visualization","Scientific Communication and confounding","Functions and Automation"],["Week 01, 01/13 - 01/17","Week 02, 01/20 - 01/24","Week 03, 01/27 - 01/31","Week 04, 02/03 - 02/07","Week 05, 02/10 - 02/14","Week 06, 02/17 - 02/21","Week 07, 02/24 - 02/28"],[null,"Contract",null,null,null,null,"Presentation"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n      <th>milestones<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0},{"name":"module","targets":0},{"name":"start","targets":1},{"name":"topic","targets":2},{"name":"week","targets":3},{"name":"milestones","targets":4}],"order":[],"orderClasses":false},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":[],"jsHooks":[]}</script>
 ```
