@@ -11,6 +11,9 @@ assignments_week <- 16
 A_contract <- 11
 B_contract <- 9
 Pass_contract <- 7
+Midterm_checkin_min <- 5
+Midterm_checkin_max <- 8
+
 ```
 
 ```{r child = './common/content/0204_datascience.Xmd'}

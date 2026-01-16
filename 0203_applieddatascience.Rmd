@@ -11,6 +11,9 @@ assignments_week <- 7
 A_contract <- 7
 B_contract <- 6
 Pass_contract <- 5
+
+Midterm_checkin_min <- 3
+Midterm_checkin_max <- 4
 ####
 # devtools::install_github("crsh/citr")
 library(tidyverse)
