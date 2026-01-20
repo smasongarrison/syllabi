@@ -117,7 +117,8 @@ The best  `r num_counted_assignments` out of  `r num_assignments` short assignme
 
 ### Engagement Activities   {-}
 
-There will be multiple engagement activities in this course. These activities will allow you engage with the material for each module. Details about the specific activities will be provided on canvas. Students must complete two activities per module. For students in the blended section, they can attend their weekly in-person session and count it as an engagement activity.
+```{r child = './common/content/engagement_activities_blended.Xmd'}
+```
 
 
 ## Grading Policy   {-}
@@ -133,6 +134,10 @@ There will be multiple engagement activities in this course. These activities wi
 - `r num_counted_assignments*50` points of your grade will be determined by your best two short assignments.
 
 
+## Course Policies {-}
+
+```{r child = './common/content/policies.Xmd'}
+```
 
 ## Schedule {-}
 

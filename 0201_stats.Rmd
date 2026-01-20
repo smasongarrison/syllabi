@@ -146,7 +146,8 @@ The best `r num_counted_assignments` out of `r num_assignments` short assignment
 
 ## Engagement Activities {.unnumbered}
 
-There will be multiple engagement activities in this course. These activities will allow you engage with the material for each module. Details about the specific activities will be provided on canvas. Students must complete two activities per module.
+```{r child = './common/content/engagement_activities.Xmd'}
+```
 
 ## Grading Weighting {.unnumbered}
 
@@ -154,6 +155,11 @@ There will be multiple engagement activities in this course. These activities wi
 -   50 points of your grade will be determined by your best `r num_counted_assignments` assignment(s).
 -   20 points of your grade will be determined by your engagement.
 -   30 points of your grade will be determined by your best 13 quizzes.
+
+## Course Policies {.unnumbered}
+
+```{r child = './common/content/policies.Xmd'}
+```
 
 ## Schedule {.unnumbered}
 
