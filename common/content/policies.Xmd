@@ -91,7 +91,7 @@ How do you know if it is a true emergency?
 
 # Public Health in the age of COVID-19
 
-```{r child = '0106_covid.Xmd'}
+```{r child = './covid.Rmd'}
 ```
 
 # Classroom Climate
