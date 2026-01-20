@@ -1,4 +1,4 @@
 
-```{r child = './common/content/engagement_activities.Xmd'}
+```{r child = 'engagement_activities.Xmd'}
 ```
 For students in the blended section, they can attend their weekly in-person session and count it as an engagement activity.
