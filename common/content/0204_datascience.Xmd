@@ -132,6 +132,10 @@ This experiential course requires active engagement. There will be few lectures 
 ```
 
 
+## Course Policies {-}
+
+```{r child = 'policies.Xmd'}
+```
 
 ## Tentative Module Release Schedule {-}
 
