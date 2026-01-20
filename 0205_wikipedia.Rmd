@@ -128,11 +128,6 @@ You will give a brief presentation about your Wikipedia editing project, highlig
 - 20 points: Reflective essay (critical analysis and insight)
 - 15 points: Final presentation (clarity and thoughtfulness)
 
-## Course Policies {-}
-
-```{r child = './common/content/policies.Xmd'}
-```
-
 ## Schedule {-}
 
 ```{r message = FALSE, warning = FALSE, echo = FALSE}

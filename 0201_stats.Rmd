@@ -156,11 +156,6 @@ The best `r num_counted_assignments` out of `r num_assignments` short assignment
 -   20 points of your grade will be determined by your engagement.
 -   30 points of your grade will be determined by your best 13 quizzes.
 
-## Course Policies {.unnumbered}
-
-```{r child = './common/content/policies.Xmd'}
-```
-
 ## Schedule {.unnumbered}
 
 ```{r message = FALSE, warning = FALSE, echo = FALSE}

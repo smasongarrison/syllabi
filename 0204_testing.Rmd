@@ -131,10 +131,6 @@ I will provide more specific written guidelines at least two weeks before each a
 - 50 points of your grade will be determined by your engagement.
 
 
-## Course Policies {-}
-
-```{r child = './common/content/policies.Xmd'}
-```
 
 ## Schedule {-}
 

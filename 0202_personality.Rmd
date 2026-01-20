@@ -134,10 +134,6 @@ The best  `r num_counted_assignments` out of  `r num_assignments` short assignme
 - `r num_counted_assignments*50` points of your grade will be determined by your best two short assignments.
 
 
-## Course Policies {-}
-
-```{r child = './common/content/policies.Xmd'}
-```
 
 ## Schedule {-}
 
