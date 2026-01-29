@@ -1,4 +1,4 @@
-# 703: Data Science {-}
+# 718: Data Science {-}
 
 
 
@@ -42,7 +42,7 @@ You will be formally evaluated in three different ways. Instructions for the ass
 
 ### Presentation {-}
 
-You will give one presentation. This presentation will be approximately 10-minutes. This presentation is chance to practice a formal presentation in a relatively pressure-free setting).
+You will give one presentation. This presentation will be approximately 10-minutes. This presentation is a chance to practice a formal presentation in a relatively pressure-free setting).
 
 
 ### Labs  {-}
@@ -51,7 +51,7 @@ There is (at least) one lab available per module. You can find the modules in th
 
 ### Portfolio  {-}
 
-The major semester projects (described on the data science website) is a set of DS4P Projects, which you will summarize in a DS4P Portfolio to be handed in on the last day of class. Instructions for [the portfolio](https://datascience4psych.github.io/DataScience4Psych/guidance.html#portfolio) can be found in the [course notes](https://datascience4psych.github.io/DataScience4Psych/).
+The major semester projects ([described on the data science website](https://datascience4psych.github.io/DataScience4Psych/guidance.html#portfolio)) are a set of DS4P Projects, which you will summarize in a DS4P Portfolio to be handed in on the last day of class. Instructions for [the portfolio](https://datascience4psych.github.io/DataScience4Psych/guidance.html#portfolio) can be found in the [course notes](https://datascience4psych.github.io/DataScience4Psych/).
 
 
 
@@ -64,7 +64,7 @@ This experiential course requires active engagement. There will be few lectures 
 ## Grading Policy  {-}
 
 
-In this course, you will determine the grade you receive by fulfilling a contract you will submit for my approval by 01/24 (a.k.a the end of the 2nd week of class).
+In this course, you will determine the grade you receive by fulfilling a contract you will submit for my approval by 01/23 (a.k.a the end of the 2nd week of class).
 
 Your written contract will detail:
 
@@ -149,6 +149,6 @@ Note that I'll be using your contracts to guide my tinkering.
 
 
 ```{=html}
-<div class="datatables html-widget html-fill-item" id="htmlwidget-4566a5f4e5ae9076b4a5" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-4566a5f4e5ae9076b4a5">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],["01/13","01/20","01/27","02/03","02/10","02/17","02/24","03/03","03/10","03/17","03/24","03/31","04/07","04/14","04/21","04/28"],["What is Data Science and Meet the Toolkit","Data and Visualization","Welcome to the Tidyverse","Data types and Data Transformations","Effective data visualization","Scientific Communication and confounding","Functions and Automation","Webscraping","Spring Break","Ethics","Tidy Models","Overfitting and Cross validation","Quantifying uncertainty","Rshiny","Machine Learning","Presentations"],["Week 01, 01/13 - 01/17","Week 02, 01/20 - 01/24","Week 03, 01/27 - 01/31","Week 04, 02/03 - 02/07","Week 05, 02/10 - 02/14","Week 06, 02/17 - 02/21","Week 07, 02/24 - 02/28","Week 08, 03/03 - 03/07","Week 09, 03/10 - 03/14","Week 10, 03/17 - 03/21","Week 11, 03/24 - 03/28","Week 12, 03/31 - 04/04","Week 13, 04/07 - 04/11","Week 14, 04/14 - 04/18","Week 15, 04/21 - 04/25","Week 16, 04/28 - 05/02"],[null,"Contract",null,null,null,null,null,null,null,null,null,null,null,null,null,"Presentation"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n      <th>milestones<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0},{"name":"module","targets":0},{"name":"start","targets":1},{"name":"topic","targets":2},{"name":"week","targets":3},{"name":"milestones","targets":4}],"order":[],"orderClasses":false},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":[],"jsHooks":[]}</script>
+<div class="datatables html-widget html-fill-item" id="htmlwidget-36cb022154749941ec7e" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-36cb022154749941ec7e">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],["01/12","01/19","01/26","02/02","02/09","02/16","02/23","03/02","03/09","03/16","03/23","03/30","04/06","04/13","04/20","04/27"],["What is Data Science and Meet the Toolkit","Data and Visualization","Welcome to the Tidyverse","Data types and Data Transformations","Effective data visualization","Scientific Communication and confounding","Functions and Automation","Webscraping","Spring Break","Ethics","Tidy Models","Overfitting and Cross validation","Quantifying uncertainty","Rshiny","Machine Learning","Presentations"],["Week 01, 01/12 - 01/16","Week 02, 01/19 - 01/23","Week 03, 01/26 - 01/30","Week 04, 02/02 - 02/06","Week 05, 02/09 - 02/13","Week 06, 02/16 - 02/20","Week 07, 02/23 - 02/27","Week 08, 03/02 - 03/06","Week 09, 03/09 - 03/13","Week 10, 03/16 - 03/20","Week 11, 03/23 - 03/27","Week 12, 03/30 - 04/03","Week 13, 04/06 - 04/10","Week 14, 04/13 - 04/17","Week 15, 04/20 - 04/24","Week 16, 04/27 - 05/01"],[null,"Contract",null,null,null,null,null,null,null,null,null,null,null,null,null,"Presentation"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n      <th>milestones<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0},{"name":"module","targets":0},{"name":"start","targets":1},{"name":"topic","targets":2},{"name":"week","targets":3},{"name":"milestones","targets":4}],"order":[],"orderClasses":false},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":[],"jsHooks":[]}</script>
 ```

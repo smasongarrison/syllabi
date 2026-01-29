@@ -43,7 +43,7 @@ You will be formally evaluated in three different ways. Instructions for the ass
 
 ### Presentation {-}
 
-You will give one presentation. This presentation will be approximately 10-minutes. This presentation is chance to practice a formal presentation in a relatively pressure-free setting).
+You will give one presentation. This presentation will be approximately 10-minutes. This presentation is a chance to practice a formal presentation in a relatively pressure-free setting).
 
 
 ### Labs  {-}
@@ -52,7 +52,7 @@ There is (at least) one lab available per module. You can find the modules in th
 
 ### Portfolio  {-}
 
-The major semester projects (described on the data science website) is a set of DS4P Projects, which you will summarize in a DS4P Portfolio to be handed in on the last day of class. Instructions for [the portfolio](https://datascience4psych.github.io/DataScience4Psych/guidance.html#portfolio) can be found in the [course notes](https://datascience4psych.github.io/DataScience4Psych/).
+The major semester projects ([described on the data science website](https://datascience4psych.github.io/DataScience4Psych/guidance.html#portfolio)) are a set of DS4P Projects, which you will summarize in a DS4P Portfolio to be handed in on the last day of class. Instructions for [the portfolio](https://datascience4psych.github.io/DataScience4Psych/guidance.html#portfolio) can be found in the [course notes](https://datascience4psych.github.io/DataScience4Psych/).
 
 
 
@@ -150,6 +150,6 @@ Note that I'll be using your contracts to guide my tinkering.
 
 
 ```{=html}
-<div class="datatables html-widget html-fill-item" id="htmlwidget-2e3eb0919375b79052a7" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-2e3eb0919375b79052a7">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7],["01/13","01/20","01/27","02/03","02/10","02/17","02/24"],["What is Data Science and Meet the Toolkit","Data and Visualization","Welcome to the Tidyverse","Data types and Data Transformations","Effective data visualization","Scientific Communication and confounding","Functions and Automation"],["Week 01, 01/13 - 01/17","Week 02, 01/20 - 01/24","Week 03, 01/27 - 01/31","Week 04, 02/03 - 02/07","Week 05, 02/10 - 02/14","Week 06, 02/17 - 02/21","Week 07, 02/24 - 02/28"],[null,"Contract",null,null,null,null,"Presentation"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n      <th>milestones<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0},{"name":"module","targets":0},{"name":"start","targets":1},{"name":"topic","targets":2},{"name":"week","targets":3},{"name":"milestones","targets":4}],"order":[],"orderClasses":false},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":[],"jsHooks":[]}</script>
+<div class="datatables html-widget html-fill-item" id="htmlwidget-d5cfbe092114e7b5602a" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-d5cfbe092114e7b5602a">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7],["01/13","01/20","01/27","02/03","02/10","02/17","02/24"],["What is Data Science and Meet the Toolkit","Data and Visualization","Welcome to the Tidyverse","Data types and Data Transformations","Effective data visualization","Scientific Communication and confounding","Functions and Automation"],["Week 01, 01/13 - 01/17","Week 02, 01/20 - 01/24","Week 03, 01/27 - 01/31","Week 04, 02/03 - 02/07","Week 05, 02/10 - 02/14","Week 06, 02/17 - 02/21","Week 07, 02/24 - 02/28"],[null,"Contract",null,null,null,null,"Presentation"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n      <th>milestones<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0},{"name":"module","targets":0},{"name":"start","targets":1},{"name":"topic","targets":2},{"name":"week","targets":3},{"name":"milestones","targets":4}],"order":[],"orderClasses":false},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":[],"jsHooks":[]}</script>
 ```

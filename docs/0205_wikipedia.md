@@ -38,7 +38,13 @@ This course is structured around the Wikipedia Education Foundation's assignment
 
 ### Wikipedia Editing Project {-}
 
-The core of this course is a structured Wikipedia editing assignment. You will select a Wikipedia article related to psychological science, evaluate its current state, research reliable sources, and make substantive improvements. 
+The core of this course is a structured Wikipedia editing assignment. You will select a Wikipedia article related to psychological science, evaluate its current state, research reliable sources, and make substantive improvements. This project includes:
+
+- Critical evaluation of existing Wikipedia content
+- Research and bibliography development
+- Drafting and revising contributions
+- Peer review participation
+- Publishing live edits to Wikipedia
 
 **Key Milestones:**
 
@@ -62,7 +68,7 @@ At the end of the course, you will write a reflective essay discussing what you 
 
 You will give a brief presentation about your Wikipedia editing project, highlighting the changes you made and the challenges you encountered in representing psychological science accurately.
 
-**Due:** 04/24
+**Due:** 04/24 [View](https://dashboard.wikiedu.org/training/students/in-class-presentation-exercise)
 
 ## Grading Policy {-}
 
@@ -104,6 +110,6 @@ I *may* shift these thresholds down *slightly* to provide a better fit to the ac
 
 
 ```{=html}
-<div class="datatables html-widget html-fill-item" id="htmlwidget-53f7d32199c9baf0b41e" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-53f7d32199c9baf0b41e">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9],["03/03","03/10","03/17","03/24","03/31","04/07","04/14","04/21","04/28"],["Introduction to Wikipedia Assignment","Break Week","Generative AI and Evaluating Wikipedia","Review Rules and Choose Topics","Copyedit, Finalize Topic, Start Drafting","Peer Review and Move to Wikipedia","Continue Improving Article","Polish and Final Article","Final Presentations"],["Week 01, 03/03 - 03/07","Week 02, 03/10 - 03/14","Week 03, 03/17 - 03/21","Week 04, 03/24 - 03/28","Week 05, 03/31 - 04/04","Week 06, 04/07 - 04/11","Week 07, 04/14 - 04/18","Week 08, 04/21 - 04/25","Week 09, 04/28 - 05/02"],[null,null,"Evaluate Wikipedia Exercise","Find Potential Articles","Bibliography &amp; Outline","Peer Reviews",null,"Final Article","Reflective Essay &amp; Presentation"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n      <th>milestones<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":9,"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0},{"name":"module","targets":0},{"name":"start","targets":1},{"name":"topic","targets":2},{"name":"week","targets":3},{"name":"milestones","targets":4}],"order":[],"orderClasses":false,"lengthMenu":[9,10,25,50,100]},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":[],"jsHooks":[]}</script>
+<div class="datatables html-widget html-fill-item" id="htmlwidget-1ec2c1adbf6d030ab35c" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-1ec2c1adbf6d030ab35c">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9],["03/03","03/10","03/17","03/24","03/31","04/07","04/14","04/21","04/28"],["Introduction to Wikipedia Assignment","Break Week","Generative AI and Evaluating Wikipedia","Review Rules and Choose Topics","Copyedit, Finalize Topic, Start Drafting","Peer Review and Move to Wikipedia","Continue Improving Article","Polish and Final Article","Final Presentations"],["Week 01, 03/03 - 03/07","Week 02, 03/10 - 03/14","Week 03, 03/17 - 03/21","Week 04, 03/24 - 03/28","Week 05, 03/31 - 04/04","Week 06, 04/07 - 04/11","Week 07, 04/14 - 04/18","Week 08, 04/21 - 04/25","Week 09, 04/28 - 05/02"],[null,null,"Evaluate Wikipedia Exercise","Find Potential Articles","Bibliography &amp; Outline","Peer Reviews",null,"Final Article","Reflective Essay &amp; Presentation"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n      <th>milestones<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":9,"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0},{"name":"module","targets":0},{"name":"start","targets":1},{"name":"topic","targets":2},{"name":"week","targets":3},{"name":"milestones","targets":4}],"order":[],"orderClasses":false,"lengthMenu":[9,10,25,50,100]},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":[],"jsHooks":[]}</script>
 ```

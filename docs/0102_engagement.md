@@ -2,7 +2,7 @@
 
 # Class Engagement
 
-In previous semesters, I maintained a deliberately hard-line attendance policy. However, in light of ongoing public health concerns and my philosophy of treating students as junior colleagues, I've revised this approach. (It also does not align with my goal of making it through the pandemic without getting COVID... yay, high risk of complications)
+In previous semesters, I maintained a deliberately hard-line attendance policy. However, in light of ongoing public health concerns and my philosophy of treating students as junior colleagues, I've revised this approach. <!-- (It also does not align with my goal of making it through the pandemic without getting COVID... yay, high risk of complications) -->
 
 Class engagement points encourage your active participation with the course material. Specific engagement instructions are available on the class website. You'll receive full credit for meaningful, intentional, and professional engagement with the material and your peers. Remember, you're responsible for any assignments and announcements made during class, even if you're absent.
 
@@ -29,10 +29,11 @@ Except in *true* emergencies, discuss potential excused absences with me as far 
 + Submissions are accepted without penalty until the Final Deadline.
 + If you miss the Final Deadline:
   - Email me within *within 36 hours* of the missed Final Deadline.
-  - Provide a proposed new deadline, ask for an alternative, or explain your situation.
+  - Explain your situation in as much detail as you feel comfortable with.
+  - Provide a proposed new deadline or explicitly ask for an alternative deadline. 
   - If you communicate *within 36 hours* window, I will do my best to work with you to find a solution that allows you to earn full credit.
 - Any agreed-upon modifications or new deadlines must be confirmed in writing and apply only to the specific assignment discussed.
-- This late policy does not apply to exams, tests, or quizzes.
+- This late policy does not apply to exams or tests.
 - If no contact is made within *within 36 hours* of the missed Final Deadline, the assignment will receive a 0 and cannot be made up.
 - Alternative deadlines are typically within one week of the original Final Deadline. Exceptions are at my discretion and are rare.
 Communicating in advance about potential delays is always appreciated and will generally result in more flexible accommodations.
@@ -40,9 +41,9 @@ Communicating in advance about potential delays is always appreciated and will g
 
 #### Submissions
 
-It's your responsibility to ensure that I receive your assignment by the established deadline and that the submitted version is complete and correct. Unless otherwise specified, all work must be submitted through Canvas.
+It's your responsibility to ensure that I receive your assignment by the established deadline and that the submitted version is complete and correct. Unless otherwise specified, all work must be submitted through Canvas (or GitHub if that is the LMS).
 
-Unless you have communicated with me in advance, there will be no makeup quizzes or tests.
+Unless you have communicated with me in advance, there will be no makeup tests or exams.
 
 ### Incomplete Grades
 

@@ -89,7 +89,13 @@ This course is structured around the Wikipedia Education Foundation's assignment
 
 ### Wikipedia Editing Project {-}
 
-The core of this course is a structured Wikipedia editing assignment. You will select a Wikipedia article related to psychological science, evaluate its current state, research reliable sources, and make substantive improvements. 
+The core of this course is a structured Wikipedia editing assignment. You will select a Wikipedia article related to psychological science, evaluate its current state, research reliable sources, and make substantive improvements. This project includes:
+
+- Critical evaluation of existing Wikipedia content
+- Research and bibliography development
+- Drafting and revising contributions
+- Peer review participation
+- Publishing live edits to Wikipedia
 
 **Key Milestones:**
 
@@ -113,7 +119,7 @@ At the end of the course, you will write a reflective essay discussing what you 
 
 You will give a brief presentation about your Wikipedia editing project, highlighting the changes you made and the challenges you encountered in representing psychological science accurately.
 
-**Due:** `r advdate(first_day, 8, weekday_due="r")`
+**Due:** `r advdate(first_day, 8, weekday_due="r")` [View](https://dashboard.wikiedu.org/training/students/in-class-presentation-exercise)
 
 ## Grading Policy {-}
 
