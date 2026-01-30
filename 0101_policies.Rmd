@@ -13,4 +13,8 @@ This syllabus is intended to provide the student with guidance on what may be co
 
 ### Interpretation
 
-If any policies in this syllabus require interpretation, the instructor's determination is final. That determination will be consistent with the original intent of the policy. Clarifications and interpretations will be committed to the syllabus github repo to codify the document's intent.
+If any policies in this syllabus require interpretation, the instructor's determination is final. That determination will be consistent with the original intent of the policy. Clarifications and interpretations will be committed to the syllabus GitHub repo to codify the document's intent.
+
+## Grades
+
+Specific grading policies are detailed for each class. However, regardless of individual rubrics, all assignment submissions must demonstrate professional expertise and the responsible application of theory. Any submission that may undermine a patient's confidence in a student's preparation or professionalism will not receive a passing grade.
