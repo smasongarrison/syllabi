@@ -12,6 +12,14 @@ A_contract <- 7
 B_contract <- 6
 Pass_contract <- 5
 
+A_contract_lab <-A_contract
+A_contract_port <- A_contract-1
+
+B_contract_lab <-B_contract
+B_contract_port <- B_contract-1
+Pass_contract_lab <-Pass_contract
+Pass_contract_port <- Pass_contract-1
+
 Midterm_checkin_min <- 3
 Midterm_checkin_max <- 4
 ####
