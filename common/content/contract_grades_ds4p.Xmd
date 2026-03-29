@@ -2,34 +2,34 @@
 
 To contract for an "A" in this course, you agree to:
 
-- Earn "Satisfactory" on `r A_contract` self-paced lab assignments on a schedule you will specify in your contract.
+- Earn "Satisfactory" on `r A_contract_lab` self-paced lab assignments on a schedule you will specify in your contract.
 
-- Produce at least `r A_contract - 1` "Satisfactory" portfolio pieces over the course of the semester.
+- Produce at least `r A_contract_port` "Satisfactory" portfolio pieces over the course of the semester.
 
 - Compile those portfolio pieces into a "Satisfactory" Unessay and present it during the last week of class
 
-- For your planning, this works out to be approximately, `r round((2*A_contract - 1 )/ number_of_weeks,digits=2)` per week.
+- For your planning, this works out to be approximately, `r round((A_contract_lab+A_contract_port - 1 )/ number_of_weeks,digits=2)` per week.
 
 ### "B" Contract  {-}
 
 To contract for a "B" in this course, you agree to:
 
-- Earn "Satisfactory" on `r B_contract` self-paced lab assignments on a schedule you will specify in your contract.
+- Earn "Satisfactory" on `r B_contract_lab` self-paced lab assignments on a schedule you will specify in your contract.
 
-- Produce at least `r B_contract - 1` "Satisfactory" portfolio pieces over the course of the semester.
+- Produce at least `r B_contract_port` "Satisfactory" portfolio pieces over the course of the semester.
 
 - Compile those portfolio pieces into a "Satisfactory" Unessay and present it during the last week of class
 
-- For your planning, this works out to be approximately, `r round((2*B_contract - 1 )/ number_of_weeks,digits=2)` per week.
+- For your planning, this works out to be approximately, `r round((B_contract_lab+B_contract_port)/ number_of_weeks,digits=2)` per week.
 
 ### "P" Contract  {-}
 
 To contract for a "P" or Pass in this course, you agree to:
 
-- Earn "Satisfactory" on `r Pass_contract` self-paced lab assignments on a schedule you will specify in your contract.
+- Earn "Satisfactory" on `r Pass_contract_lab` self-paced lab assignments on a schedule you will specify in your contract.
 
-- Produce at least `r Pass_contract -1` "Satisfactory" portfolio pieces over the course of the semester.
+- Produce at least `r Pass_contract_port` "Satisfactory" portfolio pieces over the course of the semester.
 
 - Compile those portfolio pieces into a "Satisfactory" Unessay and present it during the last week of class
 
-- For your planning, this works out to be approximately, `r round((2*Pass_contract - 1 )/ number_of_weeks,digits=2)` per week.
+- For your planning, this works out to be approximately, `r round((Pass_contract_lab+Pass_contract_port)/ number_of_weeks,digits=2)` per week.
