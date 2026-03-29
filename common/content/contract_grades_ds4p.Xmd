@@ -8,7 +8,7 @@ To contract for an "A" in this course, you agree to:
 
 - Compile those portfolio pieces into a "Satisfactory" Unessay and present it during the last week of class
 
-- For your planning, this works out to be approximately, `r round((A_contract_lab+A_contract_port - 1 )/ number_of_weeks,digits=2)` per week.
+- For your planning, this works out to be approximately, `r round((A_contract_lab+A_contract_port)/ number_of_weeks,digits=2)` per week.
 
 ### "B" Contract  {-}
 
