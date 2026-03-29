@@ -8,9 +8,19 @@ cache <- F
 number_of_classes <- 29
 number_of_weeks <- 16
 assignments_week <- 16
+
 A_contract <- 11
 B_contract <- 9
 Pass_contract <- 7
+
+A_contract_lab <- A_contract
+A_contract_port <- A_contract+1
+
+B_contract_lab <-B_contract
+B_contract_port <- B_contract+1
+Pass_contract_lab <-Pass_contract
+Pass_contract_port <- Pass_contract+1
+
 Midterm_checkin_min <- 5
 Midterm_checkin_max <- 8
 ```
