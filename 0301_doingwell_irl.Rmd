@@ -45,6 +45,17 @@ if (knitr::is_latex_output()) {
 
 Much of this information comes from Northeastern University's [Tips for Taking Online Classes](https://www.northeastern.edu/graduate/blog/tips-for-taking-online-classes/)
 
+## Open Book Exams
+
+Open book exams are not easier than closed book exams — they are just different. They typically require you to apply, analyze, and synthesize information rather than simply recall it. Here is some advice for doing well on open book exams, adapted from Cornell's Learning Strategies Center [guide on open book exams](https://lsc.cornell.edu/how-to-study/studying-for-and-taking-exams/open-book-exams/):
+
+- **Prepare as you would for any exam.** Don't assume that having access to your notes or textbook means you don't need to study. If you haven't learned the material, you won't have time to find it during the exam.
+- **Organize your materials before the exam.** Know where things are in your notes and textbook. Create a table of contents, index, or summary sheet so you can find information quickly.
+- **Understand, don't just memorize.** Open book exams often test your ability to think critically and apply concepts. Focus on understanding how ideas connect, not just where they appear in your notes.
+- **Practice using your materials.** Do practice problems with your book and notes open. This will help you learn to navigate them quickly and efficiently under time pressure.
+- **Limit time spent looking things up.** Searching through your materials during the exam is slow. Use your references to check facts or formulas, not to learn material for the first time.
+- **Manage your time carefully.** It is easy to lose track of time while flipping through notes. Pace yourself and don't spend too long on any single question.
+
 <!--
 
 ## Important Information for College and This Course:
