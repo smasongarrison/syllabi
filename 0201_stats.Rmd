@@ -146,7 +146,8 @@ The best `r num_counted_assignments` out of `r num_assignments` short assignment
 
 ## Engagement Activities {.unnumbered}
 
-There will be multiple engagement activities in this course. These activities will allow you engage with the material for each module. Details about the specific activities will be provided on canvas. Students must complete two activities per module.
+```{r child = './common/content/engagement_activities.Xmd'}
+```
 
 ## Grading Weighting {.unnumbered}
 

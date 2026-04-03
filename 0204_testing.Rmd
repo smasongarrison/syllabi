@@ -120,7 +120,8 @@ I will provide more specific written guidelines at least two weeks before each a
 
 ## Engagement Activities   {-}
 
-There will be multiple engagement activities in this course. These activities will allow you engage with the material for each module. Details about the specific activities will be provided on canvas. Students must complete two activities per module.
+```{r child = './common/content/engagement_activities.Xmd'}
+```
 
 
 ## Grading Weighting   {-}
