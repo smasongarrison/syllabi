@@ -6,7 +6,9 @@ To contract for an "A-" in this course, you agree to:
 
 - Produce at least `r A_contract_port` "Satisfactory" portfolio pieces over the course of the semester.
 
-- Compile those portfolio pieces into a "Satisfactory" Unessay and present it during the last week of class
+- Compile those portfolio pieces into a "Satisfactory" Portfolio.
+
+- Submit a final contract summary and reflection in addition to the final portfolio. 
 
 - For your planning, this works out to be approximately, `r round((A_contract_lab+A_contract_port)/ number_of_weeks,digits=2)` per week.
 
@@ -18,7 +20,9 @@ To contract for a "B" in this course, you agree to:
 
 - Produce at least `r B_contract_port` "Satisfactory" portfolio pieces over the course of the semester.
 
-- Compile those portfolio pieces into a "Satisfactory" Unessay and present it during the last week of class
+- Compile those portfolio pieces into a "Satisfactory" Portfolio.
+
+- Submit a final contract summary and reflection in addition to the final portfolio. 
 
 - For your planning, this works out to be approximately, `r round((B_contract_lab+B_contract_port)/ number_of_weeks,digits=2)` per week.
 
@@ -30,6 +34,8 @@ To contract for a "P" or Pass in this course, you agree to:
 
 - Produce at least `r Pass_contract_port` "Satisfactory" portfolio pieces over the course of the semester.
 
-- Compile those portfolio pieces into a "Satisfactory" Unessay and present it during the last week of class
+- Compile those portfolio pieces into a "Satisfactory" Portfolio.
+
+- Submit a final contract summary and reflection in addition to the final portfolio. 
 
 - For your planning, this works out to be approximately, `r round((Pass_contract_lab+Pass_contract_port)/ number_of_weeks,digits=2)` per week.
