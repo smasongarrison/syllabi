@@ -125,7 +125,7 @@ I *may* shift these thresholds down *slightly* to provide a better fit to the ac
 ## Schedule {-}
 
 
-\begin{tabular}{rllll}
+\begin{longtable}{ccp{3in}ll}
 \toprule
 module & start & topic & week & milestones\\
 \midrule
@@ -140,4 +140,4 @@ module & start & topic & week & milestones\\
 8 & 04/21 & Polish and Final Article & Week 08, 04/21 - 04/25 & Final Article\\
 9 & 04/28 & Final Presentations & Week 09, 04/28 - 05/02 & Reflective Essay \& Presentation\\
 \bottomrule
-\end{tabular}
+\end{longtable}

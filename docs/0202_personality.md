@@ -128,7 +128,7 @@ It is a projection. It is not a guarantee. These projected letter grades are not
 ## Schedule {-}
 
 
-\begin{tabular}{rllll}
+\begin{longtable}{ccp{3in}ll}
 \toprule
 module & start & topic & week & milestones\\
 \midrule
@@ -152,4 +152,4 @@ module & start & topic & week & milestones\\
 \addlinespace
 16 & 12/05 & NA & Week 16, 12/05 - 12/09 & Quiz and Assignment\\
 \bottomrule
-\end{tabular}
+\end{longtable}

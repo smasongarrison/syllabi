@@ -107,7 +107,7 @@ There will be multiple engagement activities in this course. These activities wi
 ## Schedule {.unnumbered}
 
 
-\begin{tabular}{rllll}
+\begin{longtable}{ccp{3in}ll}
 \toprule
 module & start & topic & week & milestones\\
 \midrule
@@ -131,7 +131,7 @@ module & start & topic & week & milestones\\
 \addlinespace
 16 & 12/08 & Finals & Week 16, 12/08 - 12/12 & Exam\\
 \bottomrule
-\end{tabular}
+\end{longtable}
 
 ```{=html}
 <!---

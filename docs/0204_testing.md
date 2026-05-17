@@ -132,7 +132,7 @@ There will be multiple engagement activities in this course. These activities wi
 ## Schedule {-}
 
 
-\begin{tabular}{rlll}
+\begin{longtable}{ccp{3in}l}
 \toprule
 module & start & topic & week\\
 \midrule
@@ -154,4 +154,4 @@ module & start & topic & week\\
 14 & 04/26 & Personality Testing & Week 14, 04/26 - 04/30\\
 15 & 05/03 & Review & Week 15, 05/03 - 05/07\\
 \bottomrule
-\end{tabular}
+\end{longtable}

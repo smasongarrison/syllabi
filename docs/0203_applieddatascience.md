@@ -36,15 +36,18 @@ This course is designated as a blended course. This designation is because this 
 
 ## Course Assignments  {-}
 
-You will be formally evaluated in three different ways. Instructions for the assignments can be found in the [course notes](https://datascience4psych.github.io/DataScience4Psych/).
+You will be formally evaluated in four different ways (Labs, Portfolio, Engagement, Reflection) Instructions for the assignments can be found in the [course notes](https://datascience4psych.github.io/DataScience4Psych/).
 
 
 
+
+<!--
 
 ### Presentation {-}
 
 You will give one presentation. This presentation will be approximately 10-minutes. This presentation is a chance to practice a formal presentation in a relatively pressure-free setting).
 
+-->
 
 ### Labs  {-}
 
@@ -55,12 +58,17 @@ There is (at least) one lab available per module. You can find the modules in th
 The major semester projects ([described on the data science website](https://datascience4psych.github.io/DataScience4Psych/guidance.html#portfolio)) are a set of DS4P Projects, which you will summarize in a DS4P Portfolio to be handed in on the last day of class. Instructions for [the portfolio](https://datascience4psych.github.io/DataScience4Psych/guidance.html#portfolio) can be found in the [course notes](https://datascience4psych.github.io/DataScience4Psych/).
 
 
-
-### Engagement  {-}
+### Engagement {-}
 
 This experiential course requires active engagement. There will be few lectures and we will not be building toward an exam.  Instead, we will work together to build our facilities for thinking critically about data. You should come to every class having read all of the required reading, watched the required videos, browsed the suggested resources, and so forth. You should enter the classroom prepared to discuss these materials with colleagues and complete both individual and group in-class assignments.
 
+### Reflection and Summary{-}
 
+You will write a final contract summary and reflection in addition to the final portfolio. 
+ 
+  - The contract summary must list and link to each deliverable, identify completion dates, explain which work fulfills which contract requirements, and provide evidence of consistent work across the semester.
+  - The grade reflection must explain the grade the student believes they earned based on the approved contract, the work completed, and the evidence provided in the summary. Because the highest available contract grade is an A-, students who believe they have earned an A must explain what work was exceptional enough to justify an upward adjustment beyond the contracted grade.
+  - The reflection must also discuss what the student learned throughout the semester, including how their understanding, skills, work habits, or goals developed through the course.
 
 ## Grading Policy  {-}
 
@@ -91,13 +99,7 @@ To fulfill any grade contract a student must do the following, which should none
 
 - Revise contractual assignments as necessary until both you and I consider them "Satisfactory."
 
-- Complete a final grade reflection and contract self-assessment, submitting it to me by 5pm on the last day of class. This assignment is separate from the final portfolio.
-
-  - The contract summary must list and link to each deliverable, identify completion dates, explain which work fulfills which contract requirements, and provide evidence of consistent work across the semester.
-
-  - The grade reflection must explain the grade the student believes they earned based on the approved contract, the work completed, and the evidence provided in the summary. Because the highest available contract grade is an A-, students who believe they have earned an A must explain what work was exceptional enough to justify an upward adjustment beyond the contracted grade.
-
-  - The reflection must also discuss what the student learned throughout the semester, including how their understanding, skills, work habits, or goals developed through the course.
+- Complete a final grade reflection and contract self-assessment, submitting it to me by 5pm on the last day of class.
 
 The professor reserves the right to award a grade of D or F to anyone who fails to meet a contractual obligation in a systematic way. A "D" grade denotes some minimal fulfilling of the contract. An “F” is absence of enough satisfactory work, as contracted, to warrant passing of the course. Both a "D" and "F" denote a breakdown of the contractual relationship implied by signing any of the contracts described above.
 

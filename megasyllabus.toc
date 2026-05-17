@@ -36,7 +36,7 @@
 \contentsline {subsection}{\numberline {6.3.2}Recording Tails in our Synchronous Classes.}{43}{subsection.6.3.2}%
 \contentsline {subsection}{\numberline {6.3.3}Access to Recordings.}{43}{subsection.6.3.3}%
 \contentsline {subsection}{\numberline {6.3.4}Copyright Notice.}{43}{subsection.6.3.4}%
-\contentsline {paragraph}{How to use the required text:}{62}{section*.66}%
+\contentsline {paragraph}{How to use the required text:}{62}{section*.62}%
 \contentsline {chapter}{\numberline {7}How to do well in my classes}{77}{chapter.7}%
 \contentsline {section}{\numberline {7.1}College Workload}{77}{section.7.1}%
 \contentsline {section}{\numberline {7.2}Successful Asynchronous Learning}{78}{section.7.2}%
