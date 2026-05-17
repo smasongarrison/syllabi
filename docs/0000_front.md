@@ -111,10 +111,212 @@ Along with these packages:
 
 
 
-```{=html}
-<div class="datatables html-widget html-fill-item" id="htmlwidget-6e934094365f72bc4a60" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-6e934094365f72bc4a60">{"x":{"filter":"top","vertical":false,"filterHTML":"<tr>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n<\/tr>","data":[["askpass","assertthat","backports","base64enc","bigD","bit","bit64","bitops","blob","bookdown","brew","brio","broom","bslib","cachem","callr","cellranger","cli","clipr","commonmark","conflicted","cpp11","crayon","credentials","crosstalk","curl","data.table","DBI","dbplyr","desc","devtools","dichromat","diffobj","digest","downlit","dplyr","DT","dtplyr","ellipsis","evaluate","fansi","farver","fastmap","fontawesome","forcats","fs","gapminder","gargle","gender","genderdata","generics","geonames","gert","ggplot2","gh","gitcreds","glue","googledrive","googlesheets4","gridExtra","gt","gtable","haven","highr","hms","htmltools","htmlwidgets","httpuv","httr","httr2","ids","ini","isoband","jquerylib","jsonlite","juicyjuice","knitr","labeling","later","lazyeval","lifecycle","litedown","lubridate","magrittr","markdown","memoise","mime","miniUI","modelr","openssl","otel","pak","pillar","pkgbuild","pkgconfig","pkgdown","pkgload","praise","prettyunits","processx","profvis","progress","promises","ps","purrr","R6","ragg","rappdirs","rcmdcheck","RColorBrewer","Rcpp","reactable","reactR","readr","readxl","rebird","rematch","rematch2","remotes","reprex","rjson","rlang","rmarkdown","roxygen2","rplos","rprojroot","rstudioapi","rversions","rvest","S7","sass","scales","selectr","sessioninfo","shiny","sourcetools","stringi","stringr","sys","systemfonts","testthat","textshaping","tibble","tidyr","tidyselect","tidyverse","timechange","tinytex","tzdb","urlchecker","usethis","utf8","uuid","V8","vctrs","viridis","viridisLite","vroom","waldo","whisker","withr","xfun","xml2","xopen","xtable","yaml","zip"],[null,null,null,null,null,null,null,null,null,"0.46",null,null,null,"0.11.0","1.1.0",null,null,"3.6.6",null,null,null,null,null,null,null,null,null,null,null,null,"2.5.2","2.0-0.1",null,"0.6.39",null,"1.2.1",null,null,"0.3.3","1.0.5",null,"2.1.2","1.2.0",null,"1.0.1","2.1.0",null,null,null,null,"0.1.4",null,null,"4.0.3",null,null,"1.8.1",null,null,null,null,"0.3.6",null,null,"1.1.4","0.5.9",null,null,null,null,null,null,null,"0.1.4","2.0.0",null,"1.51",null,null,null,"1.0.5",null,"1.9.5","2.0.5",null,"2.0.1",null,null,null,null,"0.2.0",null,"1.11.1","1.4.8","2.0.3",null,"1.5.2",null,null,null,null,null,null,null,"1.2.2","2.6.1",null,null,null,"1.1-3",null,null,null,"2.2.0",null,null,null,null,null,null,null,"1.2.0","2.31",null,null,null,"0.18.0",null,null,"0.2.2","0.4.10","1.4.0",null,"1.2.3",null,null,"1.8.7","1.6.0",null,null,null,null,"3.3.1","1.3.2","1.2.1","2.0.0","0.4.0",null,"0.5.0",null,"3.2.1",null,null,null,"0.7.3",null,null,null,null,null,"3.0.2","0.57",null,null,null,"2.3.12",null],["2024-10-04","2019-03-21","2026-04-03","2026-02-02","2025-04-03","2025-03-06","2026-04-21","2024-10-03","2026-01-14","2025-12-05","2023-12-16","2024-04-24","2026-05-14","2026-05-16","2024-05-16","2024-03-25","2016-07-27","2026-04-09","2022-02-22","2025-07-07","2023-02-01","2026-05-06","2024-06-20","2025-09-12","2025-08-26","2026-04-22","2026-05-06","2026-02-25","2026-02-13","2023-12-10","2026-04-30","2022-05-02","2025-04-21","2025-11-19","2025-11-14","2026-04-03","2025-09-02","2026-02-11","2026-04-04","2025-08-27","2025-11-19","2024-05-13","2024-05-15","2024-11-16","2025-09-25","2026-04-18","2025-06-12","2026-01-29","2021-10-13","2026-05-08","2025-05-09","2019-02-19","2026-01-11","2026-04-22","2025-05-26","2022-09-08","2026-04-17","2025-09-10","2025-09-03","2017-09-09","2026-01-22","2024-10-25","2025-05-30","2026-03-06","2025-10-17","2025-12-04","2023-12-06","2026-03-18","2026-02-13","2025-12-08","2017-05-31","2018-05-20","2025-12-07","2021-04-26","2025-03-27","2022-11-10","2025-12-20","2023-08-29","2026-03-05","2026-04-04","2026-01-08","2025-12-18","2026-02-04","2026-04-04","2025-03-23","2021-11-26","2025-03-17","2025-04-17","2023-03-22","2026-05-14","2025-08-29","2026-04-27","2025-09-17","2025-05-26","2019-09-22","2025-11-06","2026-04-22","2015-08-11","2023-09-24","2026-04-22","2024-09-20","2023-12-06","2025-11-01","2026-04-20","2026-04-10","2025-02-15","2026-03-23","2026-01-17","2021-09-27","2022-04-03","2026-04-24","2025-12-01","2024-09-14","2026-02-19","2026-05-16","2021-09-20","2023-08-30","2020-05-01","2024-03-17","2024-07-06","2024-09-16","2026-04-06","2026-03-26","2026-05-01",null,"2025-08-26","2026-01-16","2025-10-09","2025-08-29","2026-04-22","2025-04-11","2025-04-24","2025-12-17","2025-02-05","2026-02-20","2026-03-28","2025-03-27","2025-11-04","2024-10-04","2026-03-05","2026-01-11","2026-03-06","2026-01-11","2025-12-19","2024-03-11","2023-02-22","2026-01-29","2026-03-28","2025-03-15","2021-11-30","2025-09-06","2025-06-08","2026-01-23","2026-04-21","2026-04-11","2024-01-29","2026-02-04","2026-03-31","2025-07-11","2022-12-05","2024-10-28","2026-03-20","2026-01-17","2024-04-25","2026-02-22","2025-12-10","2025-05-13"],["CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.5.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","Github (lmullen/genderdata@df16017149a8adb9a75a2dcf734007cab12dd5da)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)",null,"CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>package<\/th>\n      <th>loadedversion<\/th>\n      <th>date<\/th>\n      <th>source<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":167,"autoWidth":true,"bInfo":false,"paging":false,"columnDefs":[{"name":"package","targets":0},{"name":"loadedversion","targets":1},{"name":"date","targets":2},{"name":"source","targets":3}],"order":[],"orderClasses":false,"orderCellsTop":true,"lengthMenu":[10,25,50,100,167]}},"evals":[],"jsHooks":[]}</script>
-```
+\begin{tabular}{lllll}
+\toprule
+  & package & loadedversion & date & source\\
+\midrule
+askpass & askpass & NA & 2024-10-04 & CRAN (R 4.6.0)\\
+assertthat & assertthat & NA & 2019-03-21 & CRAN (R 4.6.0)\\
+backports & backports & NA & 2026-04-03 & CRAN (R 4.6.0)\\
+base64enc & base64enc & NA & 2026-02-02 & CRAN (R 4.6.0)\\
+bigD & bigD & NA & 2025-04-03 & CRAN (R 4.6.0)\\
+\addlinespace
+bit & bit & NA & 2025-03-06 & CRAN (R 4.6.0)\\
+bit64 & bit64 & NA & 2026-04-21 & CRAN (R 4.6.0)\\
+bitops & bitops & NA & 2024-10-03 & CRAN (R 4.6.0)\\
+blob & blob & NA & 2026-01-14 & CRAN (R 4.6.0)\\
+bookdown & bookdown & 0.46 & 2025-12-05 & CRAN (R 4.6.0)\\
+\addlinespace
+brew & brew & NA & 2023-12-16 & CRAN (R 4.6.0)\\
+brio & brio & NA & 2024-04-24 & CRAN (R 4.6.0)\\
+broom & broom & NA & 2026-05-14 & CRAN (R 4.6.0)\\
+bslib & bslib & NA & 2026-05-16 & CRAN (R 4.6.0)\\
+cachem & cachem & 1.1.0 & 2024-05-16 & CRAN (R 4.6.0)\\
+\addlinespace
+callr & callr & NA & 2024-03-25 & CRAN (R 4.6.0)\\
+cellranger & cellranger & NA & 2016-07-27 & CRAN (R 4.6.0)\\
+cli & cli & 3.6.6 & 2026-04-09 & CRAN (R 4.6.0)\\
+clipr & clipr & NA & 2022-02-22 & CRAN (R 4.6.0)\\
+commonmark & commonmark & NA & 2025-07-07 & CRAN (R 4.6.0)\\
+\addlinespace
+conflicted & conflicted & NA & 2023-02-01 & CRAN (R 4.6.0)\\
+cpp11 & cpp11 & NA & 2026-05-06 & CRAN (R 4.6.0)\\
+crayon & crayon & NA & 2024-06-20 & CRAN (R 4.6.0)\\
+credentials & credentials & NA & 2025-09-12 & CRAN (R 4.6.0)\\
+crosstalk & crosstalk & NA & 2025-08-26 & CRAN (R 4.6.0)\\
+\addlinespace
+curl & curl & NA & 2026-04-22 & CRAN (R 4.6.0)\\
+data.table & data.table & NA & 2026-05-06 & CRAN (R 4.6.0)\\
+DBI & DBI & NA & 2026-02-25 & CRAN (R 4.6.0)\\
+dbplyr & dbplyr & NA & 2026-02-13 & CRAN (R 4.6.0)\\
+desc & desc & NA & 2023-12-10 & CRAN (R 4.6.0)\\
+\addlinespace
+devtools & devtools & 2.5.2 & 2026-04-30 & CRAN (R 4.6.0)\\
+dichromat & dichromat & 2.0-0.1 & 2022-05-02 & CRAN (R 4.6.0)\\
+diffobj & diffobj & NA & 2025-04-21 & CRAN (R 4.6.0)\\
+digest & digest & 0.6.39 & 2025-11-19 & CRAN (R 4.6.0)\\
+downlit & downlit & NA & 2025-11-14 & CRAN (R 4.6.0)\\
+\addlinespace
+dplyr & dplyr & 1.2.1 & 2026-04-03 & CRAN (R 4.6.0)\\
+DT & DT & NA & 2025-09-02 & CRAN (R 4.6.0)\\
+dtplyr & dtplyr & NA & 2026-02-11 & CRAN (R 4.6.0)\\
+ellipsis & ellipsis & 0.3.3 & 2026-04-04 & CRAN (R 4.6.0)\\
+evaluate & evaluate & 1.0.5 & 2025-08-27 & CRAN (R 4.6.0)\\
+\addlinespace
+fansi & fansi & NA & 2025-11-19 & CRAN (R 4.6.0)\\
+farver & farver & 2.1.2 & 2024-05-13 & CRAN (R 4.6.0)\\
+fastmap & fastmap & 1.2.0 & 2024-05-15 & CRAN (R 4.5.0)\\
+fontawesome & fontawesome & NA & 2024-11-16 & CRAN (R 4.6.0)\\
+forcats & forcats & 1.0.1 & 2025-09-25 & CRAN (R 4.6.0)\\
+\addlinespace
+fs & fs & 2.1.0 & 2026-04-18 & CRAN (R 4.6.0)\\
+gapminder & gapminder & NA & 2025-06-12 & CRAN (R 4.6.0)\\
+gargle & gargle & NA & 2026-01-29 & CRAN (R 4.6.0)\\
+gender & gender & NA & 2021-10-13 & CRAN (R 4.6.0)\\
+genderdata & genderdata & NA & 2026-05-08 & Github (lmullen/genderdata@df16017149a8adb9a75a2dcf734007cab12dd5da)\\
+\addlinespace
+generics & generics & 0.1.4 & 2025-05-09 & CRAN (R 4.6.0)\\
+geonames & geonames & NA & 2019-02-19 & CRAN (R 4.6.0)\\
+gert & gert & NA & 2026-01-11 & CRAN (R 4.6.0)\\
+ggplot2 & ggplot2 & 4.0.3 & 2026-04-22 & CRAN (R 4.6.0)\\
+gh & gh & NA & 2025-05-26 & CRAN (R 4.6.0)\\
+\addlinespace
+gitcreds & gitcreds & NA & 2022-09-08 & CRAN (R 4.6.0)\\
+glue & glue & 1.8.1 & 2026-04-17 & CRAN (R 4.6.0)\\
+googledrive & googledrive & NA & 2025-09-10 & CRAN (R 4.6.0)\\
+googlesheets4 & googlesheets4 & NA & 2025-09-03 & CRAN (R 4.6.0)\\
+gridExtra & gridExtra & NA & 2017-09-09 & CRAN (R 4.6.0)\\
+\addlinespace
+gt & gt & NA & 2026-01-22 & CRAN (R 4.6.0)\\
+gtable & gtable & 0.3.6 & 2024-10-25 & CRAN (R 4.6.0)\\
+haven & haven & NA & 2025-05-30 & CRAN (R 4.6.0)\\
+highr & highr & NA & 2026-03-06 & CRAN (R 4.6.0)\\
+hms & hms & 1.1.4 & 2025-10-17 & CRAN (R 4.6.0)\\
+\addlinespace
+htmltools & htmltools & 0.5.9 & 2025-12-04 & CRAN (R 4.6.0)\\
+htmlwidgets & htmlwidgets & NA & 2023-12-06 & CRAN (R 4.6.0)\\
+httpuv & httpuv & NA & 2026-03-18 & CRAN (R 4.6.0)\\
+httr & httr & NA & 2026-02-13 & CRAN (R 4.6.0)\\
+httr2 & httr2 & NA & 2025-12-08 & CRAN (R 4.6.0)\\
+\addlinespace
+ids & ids & NA & 2017-05-31 & CRAN (R 4.6.0)\\
+ini & ini & NA & 2018-05-20 & CRAN (R 4.6.0)\\
+isoband & isoband & NA & 2025-12-07 & CRAN (R 4.6.0)\\
+jquerylib & jquerylib & NA & 2021-04-26 & CRAN (R 4.6.0)\\
+jsonlite & jsonlite & NA & 2025-03-27 & CRAN (R 4.6.0)\\
+\addlinespace
+juicyjuice & juicyjuice & NA & 2022-11-10 & CRAN (R 4.6.0)\\
+knitr & knitr & 1.51 & 2025-12-20 & CRAN (R 4.6.0)\\
+labeling & labeling & NA & 2023-08-29 & CRAN (R 4.6.0)\\
+later & later & NA & 2026-03-05 & CRAN (R 4.6.0)\\
+lazyeval & lazyeval & NA & 2026-04-04 & CRAN (R 4.6.0)\\
+\addlinespace
+lifecycle & lifecycle & 1.0.5 & 2026-01-08 & CRAN (R 4.6.0)\\
+litedown & litedown & NA & 2025-12-18 & CRAN (R 4.6.0)\\
+lubridate & lubridate & 1.9.5 & 2026-02-04 & CRAN (R 4.6.0)\\
+magrittr & magrittr & 2.0.5 & 2026-04-04 & CRAN (R 4.6.0)\\
+markdown & markdown & NA & 2025-03-23 & CRAN (R 4.6.0)\\
+\addlinespace
+memoise & memoise & 2.0.1 & 2021-11-26 & CRAN (R 4.6.0)\\
+mime & mime & NA & 2025-03-17 & CRAN (R 4.6.0)\\
+miniUI & miniUI & NA & 2025-04-17 & CRAN (R 4.6.0)\\
+modelr & modelr & NA & 2023-03-22 & CRAN (R 4.6.0)\\
+openssl & openssl & NA & 2026-05-14 & CRAN (R 4.6.0)\\
+\addlinespace
+otel & otel & 0.2.0 & 2025-08-29 & CRAN (R 4.6.0)\\
+pak & pak & NA & 2026-04-27 & CRAN (R 4.6.0)\\
+pillar & pillar & 1.11.1 & 2025-09-17 & CRAN (R 4.6.0)\\
+pkgbuild & pkgbuild & 1.4.8 & 2025-05-26 & CRAN (R 4.6.0)\\
+pkgconfig & pkgconfig & 2.0.3 & 2019-09-22 & CRAN (R 4.6.0)\\
+\addlinespace
+pkgdown & pkgdown & NA & 2025-11-06 & CRAN (R 4.6.0)\\
+pkgload & pkgload & 1.5.2 & 2026-04-22 & CRAN (R 4.6.0)\\
+praise & praise & NA & 2015-08-11 & CRAN (R 4.6.0)\\
+prettyunits & prettyunits & NA & 2023-09-24 & CRAN (R 4.6.0)\\
+processx & processx & NA & 2026-04-22 & CRAN (R 4.6.0)\\
+\addlinespace
+profvis & profvis & NA & 2024-09-20 & CRAN (R 4.6.0)\\
+progress & progress & NA & 2023-12-06 & CRAN (R 4.6.0)\\
+promises & promises & NA & 2025-11-01 & CRAN (R 4.6.0)\\
+ps & ps & NA & 2026-04-20 & CRAN (R 4.6.0)\\
+purrr & purrr & 1.2.2 & 2026-04-10 & CRAN (R 4.6.0)\\
+\addlinespace
+R6 & R6 & 2.6.1 & 2025-02-15 & CRAN (R 4.6.0)\\
+ragg & ragg & NA & 2026-03-23 & CRAN (R 4.6.0)\\
+rappdirs & rappdirs & NA & 2026-01-17 & CRAN (R 4.6.0)\\
+rcmdcheck & rcmdcheck & NA & 2021-09-27 & CRAN (R 4.6.0)\\
+RColorBrewer & RColorBrewer & 1.1-3 & 2022-04-03 & CRAN (R 4.6.0)\\
+\addlinespace
+Rcpp & Rcpp & NA & 2026-04-24 & CRAN (R 4.6.0)\\
+reactable & reactable & NA & 2025-12-01 & CRAN (R 4.6.0)\\
+reactR & reactR & NA & 2024-09-14 & CRAN (R 4.6.0)\\
+readr & readr & 2.2.0 & 2026-02-19 & CRAN (R 4.6.0)\\
+readxl & readxl & NA & 2026-05-16 & CRAN (R 4.6.0)\\
+\addlinespace
+rebird & rebird & NA & 2021-09-20 & CRAN (R 4.6.0)\\
+rematch & rematch & NA & 2023-08-30 & CRAN (R 4.6.0)\\
+rematch2 & rematch2 & NA & 2020-05-01 & CRAN (R 4.6.0)\\
+remotes & remotes & NA & 2024-03-17 & CRAN (R 4.6.0)\\
+reprex & reprex & NA & 2024-07-06 & CRAN (R 4.6.0)\\
+\addlinespace
+rjson & rjson & NA & 2024-09-16 & CRAN (R 4.6.0)\\
+rlang & rlang & 1.2.0 & 2026-04-06 & CRAN (R 4.6.0)\\
+rmarkdown & rmarkdown & 2.31 & 2026-03-26 & CRAN (R 4.6.0)\\
+roxygen2 & roxygen2 & NA & 2026-05-01 & CRAN (R 4.6.0)\\
+rplos & rplos & NA & NA & NA\\
+\addlinespace
+rprojroot & rprojroot & NA & 2025-08-26 & CRAN (R 4.6.0)\\
+rstudioapi & rstudioapi & 0.18.0 & 2026-01-16 & CRAN (R 4.6.0)\\
+rversions & rversions & NA & 2025-10-09 & CRAN (R 4.6.0)\\
+rvest & rvest & NA & 2025-08-29 & CRAN (R 4.6.0)\\
+S7 & S7 & 0.2.2 & 2026-04-22 & CRAN (R 4.6.0)\\
+\addlinespace
+sass & sass & NA & 2025-04-11 & CRAN (R 4.6.0)\\
+scales & scales & 1.4.0 & 2025-04-24 & CRAN (R 4.6.0)\\
+selectr & selectr & NA & 2025-12-17 & CRAN (R 4.6.0)\\
+sessioninfo & sessioninfo & 1.2.3 & 2025-02-05 & CRAN (R 4.6.0)\\
+shiny & shiny & NA & 2026-02-20 & CRAN (R 4.6.0)\\
+\addlinespace
+sourcetools & sourcetools & NA & 2026-03-28 & CRAN (R 4.6.0)\\
+stringi & stringi & 1.8.7 & 2025-03-27 & CRAN (R 4.6.0)\\
+stringr & stringr & 1.6.0 & 2025-11-04 & CRAN (R 4.6.0)\\
+sys & sys & NA & 2024-10-04 & CRAN (R 4.6.0)\\
+systemfonts & systemfonts & NA & 2026-03-05 & CRAN (R 4.6.0)\\
+\addlinespace
+testthat & testthat & NA & 2026-01-11 & CRAN (R 4.6.0)\\
+textshaping & textshaping & NA & 2026-03-06 & CRAN (R 4.6.0)\\
+tibble & tibble & 3.3.1 & 2026-01-11 & CRAN (R 4.6.0)\\
+tidyr & tidyr & 1.3.2 & 2025-12-19 & CRAN (R 4.6.0)\\
+tidyselect & tidyselect & 1.2.1 & 2024-03-11 & CRAN (R 4.6.0)\\
+\addlinespace
+tidyverse & tidyverse & 2.0.0 & 2023-02-22 & CRAN (R 4.6.0)\\
+timechange & timechange & 0.4.0 & 2026-01-29 & CRAN (R 4.6.0)\\
+tinytex & tinytex & 0.59 & 2026-03-28 & CRAN (R 4.6.0)\\
+tzdb & tzdb & 0.5.0 & 2025-03-15 & CRAN (R 4.6.0)\\
+urlchecker & urlchecker & NA & 2021-11-30 & CRAN (R 4.6.0)\\
+\addlinespace
+usethis & usethis & 3.2.1 & 2025-09-06 & CRAN (R 4.6.0)\\
+utf8 & utf8 & NA & 2025-06-08 & CRAN (R 4.6.0)\\
+uuid & uuid & NA & 2026-01-23 & CRAN (R 4.6.0)\\
+V8 & V8 & NA & 2026-04-21 & CRAN (R 4.6.0)\\
+vctrs & vctrs & 0.7.3 & 2026-04-11 & CRAN (R 4.6.0)\\
+\addlinespace
+viridis & viridis & NA & 2024-01-29 & CRAN (R 4.6.0)\\
+viridisLite & viridisLite & NA & 2026-02-04 & CRAN (R 4.6.0)\\
+vroom & vroom & NA & 2026-03-31 & CRAN (R 4.6.0)\\
+waldo & waldo & NA & 2025-07-11 & CRAN (R 4.6.0)\\
+whisker & whisker & NA & 2022-12-05 & CRAN (R 4.6.0)\\
+\addlinespace
+withr & withr & 3.0.2 & 2024-10-28 & CRAN (R 4.6.0)\\
+xfun & xfun & 0.57 & 2026-03-20 & CRAN (R 4.6.0)\\
+xml2 & xml2 & NA & 2026-01-17 & CRAN (R 4.6.0)\\
+xopen & xopen & NA & 2024-04-25 & CRAN (R 4.6.0)\\
+xtable & xtable & NA & 2026-02-22 & CRAN (R 4.6.0)\\
+\addlinespace
+yaml & yaml & 2.3.12 & 2025-12-10 & CRAN (R 4.6.0)\\
+zip & zip & NA & 2025-05-13 & CRAN (R 4.6.0)\\
+\bottomrule
+\end{tabular}
 
 The R session information when compiling this book is shown below:
 

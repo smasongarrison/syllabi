@@ -1,0 +1,2705 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\documentclass[
+]{book}
+\usepackage{xcolor}
+\usepackage{amsmath,amssymb}
+\setcounter{secnumdepth}{5}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{color}
+\usepackage{fancyvrb}
+\newcommand{\VerbBar}{|}
+\newcommand{\VERB}{\Verb[commandchars=\\\{\}]}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{commandchars=\\\{\}}
+% Add ',fontsize=\small' for more characters per line
+\usepackage{framed}
+\definecolor{shadecolor}{RGB}{248,248,248}
+\newenvironment{Shaded}{\begin{snugshade}}{\end{snugshade}}
+\newcommand{\AlertTok}[1]{\textcolor[rgb]{0.94,0.16,0.16}{#1}}
+\newcommand{\AnnotationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\AttributeTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{#1}}
+\newcommand{\BaseNTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\BuiltInTok}[1]{#1}
+\newcommand{\CharTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\CommentTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\CommentVarTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\ConstantTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
+\newcommand{\ControlFlowTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\DataTypeTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{#1}}
+\newcommand{\DecValTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\DocumentationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\ErrorTok}[1]{\textcolor[rgb]{0.64,0.00,0.00}{\textbf{#1}}}
+\newcommand{\ExtensionTok}[1]{#1}
+\newcommand{\FloatTok}[1]{\textcolor[rgb]{0.00,0.00,0.81}{#1}}
+\newcommand{\FunctionTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\ImportTok}[1]{#1}
+\newcommand{\InformationTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\newcommand{\KeywordTok}[1]{\textcolor[rgb]{0.13,0.29,0.53}{\textbf{#1}}}
+\newcommand{\NormalTok}[1]{#1}
+\newcommand{\OperatorTok}[1]{\textcolor[rgb]{0.81,0.36,0.00}{\textbf{#1}}}
+\newcommand{\OtherTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{#1}}
+\newcommand{\PreprocessorTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textit{#1}}}
+\newcommand{\RegionMarkerTok}[1]{#1}
+\newcommand{\SpecialCharTok}[1]{\textcolor[rgb]{0.81,0.36,0.00}{\textbf{#1}}}
+\newcommand{\SpecialStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\StringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\VariableTok}[1]{\textcolor[rgb]{0.00,0.00,0.00}{#1}}
+\newcommand{\VerbatimStringTok}[1]{\textcolor[rgb]{0.31,0.60,0.02}{#1}}
+\newcommand{\WarningTok}[1]{\textcolor[rgb]{0.56,0.35,0.01}{\textbf{\textit{#1}}}}
+\usepackage{longtable,booktabs,array}
+\newcounter{none} % for unnumbered tables
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\newsavebox\pandoc@box
+\newcommand*\pandocbounded[1]{% scales image to fit in text height/width
+  \sbox\pandoc@box{#1}%
+  \Gscale@div\@tempa{\textheight}{\dimexpr\ht\pandoc@box+\dp\pandoc@box\relax}%
+  \Gscale@div\@tempb{\linewidth}{\wd\pandoc@box}%
+  \ifdim\@tempb\p@<\@tempa\p@\let\@tempa\@tempb\fi% select the smaller of both
+  \ifdim\@tempa\p@<\p@\scalebox{\@tempa}{\usebox\pandoc@box}%
+  \else\usebox{\pandoc@box}%
+  \fi%
+}
+% Set default figure placement to htbp
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\usepackage[]{natbib}
+\bibliographystyle{apalike}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{hyperref}
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  pdftitle={Prof.~Mason's Syllabi},
+  pdfauthor={S. Mason Garrison},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\title{Prof.~Mason's Syllabi}
+\author{S. Mason Garrison}
+\date{2026-05-17}
+
+\begin{document}
+\maketitle
+
+{
+\setcounter{tocdepth}{0}
+\tableofcontents
+}
+\part*{Front Matter}\label{part-front-matter}
+
+
+\chapter*{Welcome to my Syllabi!}\label{welcome-to-my-syllabi}
+
+
+Welcome to all my syllabi! This website is designed to accompany all of Mason Garrison's courses at Wake Forest University. Over the semesters, I have found that my syllabi keep growing longer and longer as my career has progressed.
+I know that no one likes reading 8 page syllabi. However, I want to make sure that all my students know what my expectations are. So in that spirit, I've created a website to contain all of my policies in one place.
+That way, I can have a neat and tidy syllabi, while still making my expectations clear.
+
+\section*{How to use this syllabus}\label{how-to-use-this-syllabus}
+
+
+This syllabus website is dynamic. If you catch typos, errors, please issue a pull request with the fixes. Unless otherwise indicidated, all the policies apply to all of my courses.
+
+To navigate this syllabus collection, use the table of contents on the left side of the screen. You can open or close the table of contents using the hamburger icon (horizontal bars) at the top of the document. There are also additional icons at the top of the document that allow you to search the document, change the size, font, or color scheme of the page. Please note that the syllabus may be updated throughout the semester, but students are only bound to the policies in place when they signed their syllabus.
+
+\chapter*{Attributions}\label{attributions}
+
+
+This collection of syllabii leans on the work and ideas of other people. I have done my best to document the origin of the materials and ideas. In particular, I have noted those people whose work has been a major contribution as well as those who have additional contributions. You can view a record of any changes made to the syllabus by checking the \href{https://github.com/smasongarrison/Syllabi/commits/main}{edit history in the git repository.}
+
+\section*{Major Attributions}\label{major-attributions}
+
+
+\begin{itemize}
+\tightlist
+\item
+  Jenny Bryan's (\href{https://jennybryan.org}{jennybryan.org}) \href{https://stat545.com}{STAT 545}
+\end{itemize}
+
+\section*{Additional Attributions}\label{additional-attributions}
+
+
+\textbf{Select lecture notes from:}
+
+\begin{itemize}
+\tightlist
+\item
+  Jenny Bryan's (\href{https://jennybryan.org/}{jennybryan.org}) \href{https://stat545.com/}{STAT 545}
+\item
+  \href{https://wwnorton.com/books/The-Personality-Puzzle/}{David Funder's Personality Puzzle}
+\item
+  Anthony Albano's \href{https://www.thetaminusb.com/intro-measurement-r/}{Course Notes on ``Introduction to Educational and Psychological Measurement''}
+\item
+  R. Biswas-Diener \& E. Diener (Eds), Noba textbook series: Psychology. Champaign, IL: DEF publishers. Retrieved from \href{https://nobaproject.com/}{noba}
+\end{itemize}
+
+\chapter*{License}\label{license}
+
+
+This work is licensed under a \href{https://creativecommons.org/licenses/by-sa/4.0/}{Creative Commons Attribution-ShareAlike 4.0 International License}.
+
+\begin{itemize}
+\tightlist
+\item
+  This information is a human-readable summary of (and not a substitute for) the license.
+  Please see \url{https://creativecommons.org/licenses/by-sa/4.0/legalcode} for the full legal text.*
+\end{itemize}
+
+\textbf{You are free to:}
+
+\begin{itemize}
+\item
+  \textbf{Share}---copy and redistribute the material in any medium or
+  format
+\item
+  \textbf{Remix}---remix, transform, and build upon the material for any
+  purpose, even commercially.
+\end{itemize}
+
+The licensor cannot revoke these freedoms as long as you follow the
+license terms.
+
+\textbf{Under the following terms:}
+
+\begin{itemize}
+\item
+  \textbf{Attribution}---You must give appropriate credit, provide a link
+  to the license, and indicate if changes were made. You may do so in
+  any reasonable manner, but not in any way that suggests the licensor
+  endorses you or your use.
+\item
+  \textbf{ShareAlike}---If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
+\item
+  \textbf{No additional restrictions}---You may not apply legal terms or
+  technological measures that legally restrict others from doing
+  anything the license permits.
+\end{itemize}
+
+\textbf{Notices:}
+
+You do not have to comply with the license for elements of the
+material in the public domain or where your use is permitted by an
+applicable exception or limitation.
+
+No warranties are given. The license may not give you all of the
+permissions necessary for your intended use. For example, other rights
+such as publicity, privacy, or moral rights may limit how you use the
+material.
+
+\chapter*{Colophon}\label{colophon}
+
+
+This syllabus was written in \href{http://bookdown.org/}{bookdown} inside \href{http://www.rstudio.com/ide/}{RStudio}. The \href{https://smasongarrison.github.io/syllabi}{website} is hosted with \href{https://www.github.com}{github}, The complete source is available from \href{https://github.com/smasongarrison/syllabi}{github}.
+
+The book style adapted from \href{https://desiree.rbind.io/}{Desirée De Leon}.
+
+This version of the syllabus was built with:
+
+\begin{verbatim}
+## Finding R package dependencies ... Done!
+\end{verbatim}
+
+\begin{verbatim}
+##  setting  value
+##  version  R version 4.6.0 (2026-04-24 ucrt)
+##  os       Windows 11 x64 (build 26220)
+##  system   x86_64, mingw32
+##  ui       RTerm
+##  language (EN)
+##  collate  English_United States.utf8
+##  ctype    English_United States.utf8
+##  tz       America/New_York
+##  date     2026-05-17
+##  pandoc   3.8.3 @ C:/Program Files/RStudio/resources/app/bin/quarto/bin/tools/ (via rmarkdown)
+##  quarto   NA @ C:\\PROGRA~1\\RStudio\\RESOUR~1\\app\\bin\\quarto\\bin\\quarto.exe
+\end{verbatim}
+
+Along with these packages:
+
+\begin{tabular}{lllll}
+\toprule
+  & package & loadedversion & date & source\\
+\midrule
+askpass & askpass & NA & 2024-10-04 & CRAN (R 4.6.0)\\
+assertthat & assertthat & NA & 2019-03-21 & CRAN (R 4.6.0)\\
+backports & backports & NA & 2026-04-03 & CRAN (R 4.6.0)\\
+base64enc & base64enc & NA & 2026-02-02 & CRAN (R 4.6.0)\\
+bigD & bigD & NA & 2025-04-03 & CRAN (R 4.6.0)\\
+\addlinespace
+bit & bit & NA & 2025-03-06 & CRAN (R 4.6.0)\\
+bit64 & bit64 & NA & 2026-04-21 & CRAN (R 4.6.0)\\
+bitops & bitops & NA & 2024-10-03 & CRAN (R 4.6.0)\\
+blob & blob & NA & 2026-01-14 & CRAN (R 4.6.0)\\
+bookdown & bookdown & 0.46 & 2025-12-05 & CRAN (R 4.6.0)\\
+\addlinespace
+brew & brew & NA & 2023-12-16 & CRAN (R 4.6.0)\\
+brio & brio & NA & 2024-04-24 & CRAN (R 4.6.0)\\
+broom & broom & NA & 2026-05-14 & CRAN (R 4.6.0)\\
+bslib & bslib & NA & 2026-05-16 & CRAN (R 4.6.0)\\
+cachem & cachem & 1.1.0 & 2024-05-16 & CRAN (R 4.6.0)\\
+\addlinespace
+callr & callr & NA & 2024-03-25 & CRAN (R 4.6.0)\\
+cellranger & cellranger & NA & 2016-07-27 & CRAN (R 4.6.0)\\
+cli & cli & 3.6.6 & 2026-04-09 & CRAN (R 4.6.0)\\
+clipr & clipr & NA & 2022-02-22 & CRAN (R 4.6.0)\\
+commonmark & commonmark & NA & 2025-07-07 & CRAN (R 4.6.0)\\
+\addlinespace
+conflicted & conflicted & NA & 2023-02-01 & CRAN (R 4.6.0)\\
+cpp11 & cpp11 & NA & 2026-05-06 & CRAN (R 4.6.0)\\
+crayon & crayon & NA & 2024-06-20 & CRAN (R 4.6.0)\\
+credentials & credentials & NA & 2025-09-12 & CRAN (R 4.6.0)\\
+crosstalk & crosstalk & NA & 2025-08-26 & CRAN (R 4.6.0)\\
+\addlinespace
+curl & curl & NA & 2026-04-22 & CRAN (R 4.6.0)\\
+data.table & data.table & NA & 2026-05-06 & CRAN (R 4.6.0)\\
+DBI & DBI & NA & 2026-02-25 & CRAN (R 4.6.0)\\
+dbplyr & dbplyr & NA & 2026-02-13 & CRAN (R 4.6.0)\\
+desc & desc & NA & 2023-12-10 & CRAN (R 4.6.0)\\
+\addlinespace
+devtools & devtools & 2.5.2 & 2026-04-30 & CRAN (R 4.6.0)\\
+dichromat & dichromat & 2.0-0.1 & 2022-05-02 & CRAN (R 4.6.0)\\
+diffobj & diffobj & NA & 2025-04-21 & CRAN (R 4.6.0)\\
+digest & digest & 0.6.39 & 2025-11-19 & CRAN (R 4.6.0)\\
+downlit & downlit & NA & 2025-11-14 & CRAN (R 4.6.0)\\
+\addlinespace
+dplyr & dplyr & 1.2.1 & 2026-04-03 & CRAN (R 4.6.0)\\
+DT & DT & NA & 2025-09-02 & CRAN (R 4.6.0)\\
+dtplyr & dtplyr & NA & 2026-02-11 & CRAN (R 4.6.0)\\
+ellipsis & ellipsis & 0.3.3 & 2026-04-04 & CRAN (R 4.6.0)\\
+evaluate & evaluate & 1.0.5 & 2025-08-27 & CRAN (R 4.6.0)\\
+\addlinespace
+fansi & fansi & NA & 2025-11-19 & CRAN (R 4.6.0)\\
+farver & farver & 2.1.2 & 2024-05-13 & CRAN (R 4.6.0)\\
+fastmap & fastmap & 1.2.0 & 2024-05-15 & CRAN (R 4.5.0)\\
+fontawesome & fontawesome & NA & 2024-11-16 & CRAN (R 4.6.0)\\
+forcats & forcats & 1.0.1 & 2025-09-25 & CRAN (R 4.6.0)\\
+\addlinespace
+fs & fs & 2.1.0 & 2026-04-18 & CRAN (R 4.6.0)\\
+gapminder & gapminder & NA & 2025-06-12 & CRAN (R 4.6.0)\\
+gargle & gargle & NA & 2026-01-29 & CRAN (R 4.6.0)\\
+gender & gender & NA & 2021-10-13 & CRAN (R 4.6.0)\\
+genderdata & genderdata & NA & 2026-05-08 & Github (lmullen/genderdata@df16017149a8adb9a75a2dcf734007cab12dd5da)\\
+\addlinespace
+generics & generics & 0.1.4 & 2025-05-09 & CRAN (R 4.6.0)\\
+geonames & geonames & NA & 2019-02-19 & CRAN (R 4.6.0)\\
+gert & gert & NA & 2026-01-11 & CRAN (R 4.6.0)\\
+ggplot2 & ggplot2 & 4.0.3 & 2026-04-22 & CRAN (R 4.6.0)\\
+gh & gh & NA & 2025-05-26 & CRAN (R 4.6.0)\\
+\addlinespace
+gitcreds & gitcreds & NA & 2022-09-08 & CRAN (R 4.6.0)\\
+glue & glue & 1.8.1 & 2026-04-17 & CRAN (R 4.6.0)\\
+googledrive & googledrive & NA & 2025-09-10 & CRAN (R 4.6.0)\\
+googlesheets4 & googlesheets4 & NA & 2025-09-03 & CRAN (R 4.6.0)\\
+gridExtra & gridExtra & NA & 2017-09-09 & CRAN (R 4.6.0)\\
+\addlinespace
+gt & gt & NA & 2026-01-22 & CRAN (R 4.6.0)\\
+gtable & gtable & 0.3.6 & 2024-10-25 & CRAN (R 4.6.0)\\
+haven & haven & NA & 2025-05-30 & CRAN (R 4.6.0)\\
+highr & highr & NA & 2026-03-06 & CRAN (R 4.6.0)\\
+hms & hms & 1.1.4 & 2025-10-17 & CRAN (R 4.6.0)\\
+\addlinespace
+htmltools & htmltools & 0.5.9 & 2025-12-04 & CRAN (R 4.6.0)\\
+htmlwidgets & htmlwidgets & NA & 2023-12-06 & CRAN (R 4.6.0)\\
+httpuv & httpuv & NA & 2026-03-18 & CRAN (R 4.6.0)\\
+httr & httr & NA & 2026-02-13 & CRAN (R 4.6.0)\\
+httr2 & httr2 & NA & 2025-12-08 & CRAN (R 4.6.0)\\
+\addlinespace
+ids & ids & NA & 2017-05-31 & CRAN (R 4.6.0)\\
+ini & ini & NA & 2018-05-20 & CRAN (R 4.6.0)\\
+isoband & isoband & NA & 2025-12-07 & CRAN (R 4.6.0)\\
+jquerylib & jquerylib & NA & 2021-04-26 & CRAN (R 4.6.0)\\
+jsonlite & jsonlite & NA & 2025-03-27 & CRAN (R 4.6.0)\\
+\addlinespace
+juicyjuice & juicyjuice & NA & 2022-11-10 & CRAN (R 4.6.0)\\
+knitr & knitr & 1.51 & 2025-12-20 & CRAN (R 4.6.0)\\
+labeling & labeling & NA & 2023-08-29 & CRAN (R 4.6.0)\\
+later & later & NA & 2026-03-05 & CRAN (R 4.6.0)\\
+lazyeval & lazyeval & NA & 2026-04-04 & CRAN (R 4.6.0)\\
+\addlinespace
+lifecycle & lifecycle & 1.0.5 & 2026-01-08 & CRAN (R 4.6.0)\\
+litedown & litedown & NA & 2025-12-18 & CRAN (R 4.6.0)\\
+lubridate & lubridate & 1.9.5 & 2026-02-04 & CRAN (R 4.6.0)\\
+magrittr & magrittr & 2.0.5 & 2026-04-04 & CRAN (R 4.6.0)\\
+markdown & markdown & NA & 2025-03-23 & CRAN (R 4.6.0)\\
+\addlinespace
+memoise & memoise & 2.0.1 & 2021-11-26 & CRAN (R 4.6.0)\\
+mime & mime & NA & 2025-03-17 & CRAN (R 4.6.0)\\
+miniUI & miniUI & NA & 2025-04-17 & CRAN (R 4.6.0)\\
+modelr & modelr & NA & 2023-03-22 & CRAN (R 4.6.0)\\
+openssl & openssl & NA & 2026-05-14 & CRAN (R 4.6.0)\\
+\addlinespace
+otel & otel & 0.2.0 & 2025-08-29 & CRAN (R 4.6.0)\\
+pak & pak & NA & 2026-04-27 & CRAN (R 4.6.0)\\
+pillar & pillar & 1.11.1 & 2025-09-17 & CRAN (R 4.6.0)\\
+pkgbuild & pkgbuild & 1.4.8 & 2025-05-26 & CRAN (R 4.6.0)\\
+pkgconfig & pkgconfig & 2.0.3 & 2019-09-22 & CRAN (R 4.6.0)\\
+\addlinespace
+pkgdown & pkgdown & NA & 2025-11-06 & CRAN (R 4.6.0)\\
+pkgload & pkgload & 1.5.2 & 2026-04-22 & CRAN (R 4.6.0)\\
+praise & praise & NA & 2015-08-11 & CRAN (R 4.6.0)\\
+prettyunits & prettyunits & NA & 2023-09-24 & CRAN (R 4.6.0)\\
+processx & processx & NA & 2026-04-22 & CRAN (R 4.6.0)\\
+\addlinespace
+profvis & profvis & NA & 2024-09-20 & CRAN (R 4.6.0)\\
+progress & progress & NA & 2023-12-06 & CRAN (R 4.6.0)\\
+promises & promises & NA & 2025-11-01 & CRAN (R 4.6.0)\\
+ps & ps & NA & 2026-04-20 & CRAN (R 4.6.0)\\
+purrr & purrr & 1.2.2 & 2026-04-10 & CRAN (R 4.6.0)\\
+\addlinespace
+R6 & R6 & 2.6.1 & 2025-02-15 & CRAN (R 4.6.0)\\
+ragg & ragg & NA & 2026-03-23 & CRAN (R 4.6.0)\\
+rappdirs & rappdirs & NA & 2026-01-17 & CRAN (R 4.6.0)\\
+rcmdcheck & rcmdcheck & NA & 2021-09-27 & CRAN (R 4.6.0)\\
+RColorBrewer & RColorBrewer & 1.1-3 & 2022-04-03 & CRAN (R 4.6.0)\\
+\addlinespace
+Rcpp & Rcpp & NA & 2026-04-24 & CRAN (R 4.6.0)\\
+reactable & reactable & NA & 2025-12-01 & CRAN (R 4.6.0)\\
+reactR & reactR & NA & 2024-09-14 & CRAN (R 4.6.0)\\
+readr & readr & 2.2.0 & 2026-02-19 & CRAN (R 4.6.0)\\
+readxl & readxl & NA & 2026-05-16 & CRAN (R 4.6.0)\\
+\addlinespace
+rebird & rebird & NA & 2021-09-20 & CRAN (R 4.6.0)\\
+rematch & rematch & NA & 2023-08-30 & CRAN (R 4.6.0)\\
+rematch2 & rematch2 & NA & 2020-05-01 & CRAN (R 4.6.0)\\
+remotes & remotes & NA & 2024-03-17 & CRAN (R 4.6.0)\\
+reprex & reprex & NA & 2024-07-06 & CRAN (R 4.6.0)\\
+\addlinespace
+rjson & rjson & NA & 2024-09-16 & CRAN (R 4.6.0)\\
+rlang & rlang & 1.2.0 & 2026-04-06 & CRAN (R 4.6.0)\\
+rmarkdown & rmarkdown & 2.31 & 2026-03-26 & CRAN (R 4.6.0)\\
+roxygen2 & roxygen2 & NA & 2026-05-01 & CRAN (R 4.6.0)\\
+rplos & rplos & NA & NA & NA\\
+\addlinespace
+rprojroot & rprojroot & NA & 2025-08-26 & CRAN (R 4.6.0)\\
+rstudioapi & rstudioapi & 0.18.0 & 2026-01-16 & CRAN (R 4.6.0)\\
+rversions & rversions & NA & 2025-10-09 & CRAN (R 4.6.0)\\
+rvest & rvest & NA & 2025-08-29 & CRAN (R 4.6.0)\\
+S7 & S7 & 0.2.2 & 2026-04-22 & CRAN (R 4.6.0)\\
+\addlinespace
+sass & sass & NA & 2025-04-11 & CRAN (R 4.6.0)\\
+scales & scales & 1.4.0 & 2025-04-24 & CRAN (R 4.6.0)\\
+selectr & selectr & NA & 2025-12-17 & CRAN (R 4.6.0)\\
+sessioninfo & sessioninfo & 1.2.3 & 2025-02-05 & CRAN (R 4.6.0)\\
+shiny & shiny & NA & 2026-02-20 & CRAN (R 4.6.0)\\
+\addlinespace
+sourcetools & sourcetools & NA & 2026-03-28 & CRAN (R 4.6.0)\\
+stringi & stringi & 1.8.7 & 2025-03-27 & CRAN (R 4.6.0)\\
+stringr & stringr & 1.6.0 & 2025-11-04 & CRAN (R 4.6.0)\\
+sys & sys & NA & 2024-10-04 & CRAN (R 4.6.0)\\
+systemfonts & systemfonts & NA & 2026-03-05 & CRAN (R 4.6.0)\\
+\addlinespace
+testthat & testthat & NA & 2026-01-11 & CRAN (R 4.6.0)\\
+textshaping & textshaping & NA & 2026-03-06 & CRAN (R 4.6.0)\\
+tibble & tibble & 3.3.1 & 2026-01-11 & CRAN (R 4.6.0)\\
+tidyr & tidyr & 1.3.2 & 2025-12-19 & CRAN (R 4.6.0)\\
+tidyselect & tidyselect & 1.2.1 & 2024-03-11 & CRAN (R 4.6.0)\\
+\addlinespace
+tidyverse & tidyverse & 2.0.0 & 2023-02-22 & CRAN (R 4.6.0)\\
+timechange & timechange & 0.4.0 & 2026-01-29 & CRAN (R 4.6.0)\\
+tinytex & tinytex & 0.59 & 2026-03-28 & CRAN (R 4.6.0)\\
+tzdb & tzdb & 0.5.0 & 2025-03-15 & CRAN (R 4.6.0)\\
+urlchecker & urlchecker & NA & 2021-11-30 & CRAN (R 4.6.0)\\
+\addlinespace
+usethis & usethis & 3.2.1 & 2025-09-06 & CRAN (R 4.6.0)\\
+utf8 & utf8 & NA & 2025-06-08 & CRAN (R 4.6.0)\\
+uuid & uuid & NA & 2026-01-23 & CRAN (R 4.6.0)\\
+V8 & V8 & NA & 2026-04-21 & CRAN (R 4.6.0)\\
+vctrs & vctrs & 0.7.3 & 2026-04-11 & CRAN (R 4.6.0)\\
+\addlinespace
+viridis & viridis & NA & 2024-01-29 & CRAN (R 4.6.0)\\
+viridisLite & viridisLite & NA & 2026-02-04 & CRAN (R 4.6.0)\\
+vroom & vroom & NA & 2026-03-31 & CRAN (R 4.6.0)\\
+waldo & waldo & NA & 2025-07-11 & CRAN (R 4.6.0)\\
+whisker & whisker & NA & 2022-12-05 & CRAN (R 4.6.0)\\
+\addlinespace
+withr & withr & 3.0.2 & 2024-10-28 & CRAN (R 4.6.0)\\
+xfun & xfun & 0.57 & 2026-03-20 & CRAN (R 4.6.0)\\
+xml2 & xml2 & NA & 2026-01-17 & CRAN (R 4.6.0)\\
+xopen & xopen & NA & 2024-04-25 & CRAN (R 4.6.0)\\
+xtable & xtable & NA & 2026-02-22 & CRAN (R 4.6.0)\\
+\addlinespace
+yaml & yaml & 2.3.12 & 2025-12-10 & CRAN (R 4.6.0)\\
+zip & zip & NA & 2025-05-13 & CRAN (R 4.6.0)\\
+\bottomrule
+\end{tabular}
+
+The R session information when compiling this book is shown below:
+
+\begin{Shaded}
+\begin{Highlighting}[]
+\FunctionTok{sessionInfo}\NormalTok{()}
+\end{Highlighting}
+\end{Shaded}
+
+\begin{verbatim}
+## R version 4.6.0 (2026-04-24 ucrt)
+## Platform: x86_64-w64-mingw32/x64
+## Running under: Windows 11 x64 (build 26220)
+## 
+## Matrix products: default
+##   LAPACK version 3.12.1
+## 
+## locale:
+## [1] LC_COLLATE=English_United States.utf8 
+## [2] LC_CTYPE=English_United States.utf8   
+## [3] LC_MONETARY=English_United States.utf8
+## [4] LC_NUMERIC=C                          
+## [5] LC_TIME=English_United States.utf8    
+## 
+## time zone: America/New_York
+## tzcode source: internal
+## 
+## attached base packages:
+## [1] stats     graphics  grDevices utils     datasets  methods   base     
+## 
+## other attached packages:
+##  [1] lubridate_1.9.5 forcats_1.0.1   stringr_1.6.0   dplyr_1.2.1    
+##  [5] purrr_1.2.2     readr_2.2.0     tidyr_1.3.2     tibble_3.3.1   
+##  [9] ggplot2_4.0.3   tidyverse_2.0.0
+## 
+## loaded via a namespace (and not attached):
+## [1] bookdown_0.46   shiny_1.13.0    tools_4.6.0     miniUI_0.1.2   
+## [5] knitr_1.51      htmltools_0.5.9 rmarkdown_2.31
+\end{verbatim}
+
+\part*{Syllabi}\label{part-syllabi}
+
+
+\chapter*{General information}\label{general-information}
+
+
+Welcome! This section includes general information on the syllabus. These policies apply to all of my classes, but the specific requirements for each class are included in the course-specific sections below.
+(Now, before I forget, any matter not explicitly covered by the syllabus or institution-wide policy is left to my sole discretion as the instructor. See \hyperref[policy-overview]{policy overview}
+
+Remember: This course is for you, not for me.
+
+\includegraphics[width=29.86in]{img/snoop}
+
+Credit:
+
+\includegraphics[width=19.31in]{img/AcademicsSaystatus}
+
+\section{Materials}\label{materials}
+
+If you chose to use alternative materials, such as an older edition of the book, it is your responsibility to ensure that those materials are equivalent.
+
+\subsection{Required Texts}\label{required-texts}
+
+For all of my classes, the textbook is intended to supplement the course. The lectures do not follow the order of chapters in the text and the text covers some material that will not be covered in the lectures, i.e., not all the information in each chapter is perfectly pertinent to the course requirements.
+
+It is one of many resources you'll consume.
+You probably need to consume all of the resources that I provide in order to be successful in this class. If you'd like to make the most of your tuition, I strongly encourage you to consume them all. Course-specific resources can be found on the specific course page.
+
+\subsection{Hardware}\label{hardware}
+
+Most of my classes require you to have a computer that can run R and stream YouTube videos.
+
+\subsection{Software}\label{software}
+
+\subsubsection{R and RStudio}\label{r-and-rstudio}
+
+\begin{verbatim}
+#> NULL
+\end{verbatim}
+
+R is a free software environment for statistical computing and graphics. It compiles and runs on a wide variety of UNIX platforms, Windows, and MacOS.
+
+RStudio is a free \emph{integrated development environment} (IDE), a powerful user interface for R.
+
+\subsubsection{Git and Github}\label{git-and-github}
+
+Git is a version control system. Its original purpose was to help developers work collaboratively on big software projects. Git manages the evolution of a set of files -- called a repository -- in a structured way. Think of it like the ``Track Changes'' feature from Microsoft Word.
+
+Github is a free IDE and hosting service for Git. As a Wake Forest student, you should be able to access the \href{https://education.github.com/benefits?type=student}{GitHub Student Developer Pack for free}. It includes a free PRO upgrade for your github account.
+
+\part*{Policies}\label{part-policies}
+
+
+\chapter{Policy Overview}\label{policy-overview}
+
+In this section, I provide specific language for all of my course policies. These policies are in addition to the policies and procedures outlined in the university \href{https://bulletin.wfu.edu}{bulletin}. There are slight differences between the \href{https://bulletin.wfu.edu/undergraduate/}{undergraduate college} and the \href{https://bulletin.wfu.edu/graduate/}{graduate school}.
+
+\section{Changes}\label{changes}
+
+This syllabus is intended to provide you (the student) with guidance on what may be covered during the semester and will be followed as closely as possible. The dates for tests and assignments will not change except for extraordinary events (e.g., Pandemics, Fertilizer Plant Fires, etc.)
+. I reserve the right to modify, supplement, and make changes as the course needs arise. I try to avoid making changes to the syllabus. However, if substantive changes occur, I will only make changes that are less burdensome and more advantageous to the students. (If I make a change that increases your burden, please talk to me so that we can find a solution.)
+
+\subsection{Interpretation}\label{interpretation}
+
+If any policies in this syllabus require interpretation, the instructor's determination is final. That determination will be consistent with the original intent of the policy. Clarifications and interpretations will be committed to the syllabus GitHub repo to codify the document's intent.
+
+\section{Grades}\label{grades}
+
+Specific grading policies are detailed for each class. However, regardless of individual rubrics, all assignment submissions must demonstrate professional expertise and the responsible application of theory. Any submission that may undermine a patient's confidence in a student's preparation or professionalism will not receive a passing grade.
+
+\chapter{Class Engagement}\label{class-engagement}
+
+In previous semesters, I maintained a deliberately hard-line attendance policy. However, in light of ongoing public health concerns and my philosophy of treating students as junior colleagues, I've revised this approach.
+
+Class engagement points encourage your active participation with the course material. Specific engagement instructions are available on the class website. You'll receive full credit for meaningful, intentional, and professional engagement with the material and your peers. Remember, you're responsible for any assignments and announcements made during class, even if you're absent.
+
+\section{Life Happens}\label{life-happens}
+
+As a reasonable and empathetic human, I recognize that life happens. There will be times when your outside-life conflicts with scheduled class events. These life events can be the obvious things (sports, religious holidays, illness, interviews, etc.), but they can also be the less obvious things (spending the entire night looking for your lost pet). My approach is to work with you, but communication is key. You need to let me know \emph{ahead} of time. You don't need to disclose personal details -- your privacy matters
+. These late policies value discussion and communication over deductions and punishment.
+
+It is difficult for me, as an instructor, to know your situation and reason for lateness (e.g.~are you sick? did you lose WiFi? struggling with mental health? or just forgot?). Without communication, I will assume that you are choosing not to submit work and do not plan on submitting work. An email will help me better understand your needs and focus on coursework. I am more than happy to give extensions and accommodations, so don't be afraid to email me.
+
+\section{Extensions, Absences, Incompletes}\label{extensions-absences-incompletes}
+
+\subsection{Excused absences}\label{excused-absences}
+
+Except in \emph{true} emergencies, discuss potential excused absences with me as far in advance as possible. This discussion \emph{must} occur beforehand. Don't assume an absence will be automatically excused -- but you may assume that I am a reasonable, empathetic person. Document all discussions about absences via email, even if we also talk in person. Unexcused absences will result in a zero for any graded work that should have been performed for or during the missed class.
+
+\subsection{Late Work}\label{late-work}
+
+\begin{itemize}
+\tightlist
+\item
+  Be sure to pay close attention to deadlines. Each assignment typically has two deadlines in Canvas:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Recommended Deadline: Usually Friday at 6:00 PM
+  \item
+    Final Deadline: Usually end of Monday (11:59 PM)
+  \end{itemize}
+\item
+  Submissions are accepted without penalty until the Final Deadline.
+\item
+  If you miss the Final Deadline:
+
+  \begin{itemize}
+  \tightlist
+  \item
+    Email me within \emph{within 36 hours} of the missed Final Deadline.
+  \item
+    Explain your situation in as much detail as you feel comfortable with.
+  \item
+    Provide a proposed new deadline or explicitly ask for an alternative deadline.
+  \item
+    If you communicate \emph{within 36 hours} window, I will do my best to work with you to find a solution that allows you to earn full credit.
+  \end{itemize}
+\item
+  Any agreed-upon modifications or new deadlines must be confirmed in writing and apply only to the specific assignment discussed.
+\item
+  This late policy does not apply to exams or tests.
+\item
+  If no contact is made within \emph{within 36 hours} of the missed Final Deadline, the assignment will receive a 0 and cannot be made up.
+\item
+  Alternative deadlines are typically within one week of the original Final Deadline. Exceptions are at my discretion and are rare.
+  Communicating in advance about potential delays is always appreciated and will generally result in more flexible accommodations.
+\item
+  In general, I am much more sympathetic and accommodating if you let me know beforehand.
+\end{itemize}
+
+\subsubsection{Submissions}\label{submissions}
+
+It's your responsibility to ensure that I receive your assignment by the established deadline and that the submitted version is complete and correct. Unless otherwise specified, all work must be submitted through Canvas (or GitHub if that is the LMS).
+
+Unless you have communicated with me in advance, there will be no makeup tests or exams.
+
+\subsection{Incomplete Grades}\label{incomplete-grades}
+
+The incomplete grade policy is set by the university, not by me. However, I must abide by it:
+
+Although the language surrounding incomplete grades differs slightly across the bulletins ( \href{https://bulletin.wfu.edu/undergraduate/procedures/exams-grading/\#:~:text=Incomplete\%20Grade}{undergraduate}; \href{https://bulletin.wfu.edu/graduate/procedures/grading/\#:~:text=Grade\%20of\%20I}{graduate}), and office of \href{https://advising.wfu.edu/academic-challenges/incompletes/}{academic advising}, the intent is consistent.
+Incompletes can only be granted IF a student fails to complete the work of a course because of something outside of the student's control, such as an illness, emergency, or extenuating circumstances. The window to complete the work is narrow, typically 30 days into the next semester. If the work is not completed after that point, the grade is automatically changed to an F.
+
+\chapter{Accommodations Policy}\label{accommodations-policy}
+
+If you are (or become) disabled (in any capacity, permanently, or temporarily), and need accommodations in class, reading, or any other work in this course, please contact me to discuss your specific needs as soon as possible.
+Under my favorite civil rights legislation, the Americans with Disabilities Act as amended you are legally entitled to reasonable accommodations for disabilities. In fact, Section 504 of the Rehabilitation Act of 1973, the \href{https://beta.ada.gov/}{Americans with Disabilities Act (ADA) of 1990}, and the \href{https://en.wikipedia.org/wiki/ADA_Amendments_Act_of_2008}{ADA Amendments Act (ADAAA) of 2008} all prohibit discrimination against individuals with disabilities.
+I will do everything in my capacity as your professor to ensure that you receive those accommodations.
+
+Students who need reasonable accommodations for disabilities also should contact the Center for Learning, Access, and Student Success (118 Reynolda Hall, 336-758-5929, \href{https://class.wfu.edu/}{class.wfu.edu}). You can request accommodations through the \href{https://olympic.accessiblelearning.com/WFU/}{student portal (olympic.accessiblelearning.com/WFU/)} These accommodations are not retroactive. Therefore, I strongly encourage you to use those accommodations. As a member of CLASS's faculty advising board, I am happy to connect you with CLASS and talk to you more if you have questions. (However, please note that I am a quantitative Psychologist, not a clinical psychologist. My expertise stems from lived experience.)
+
+Do not feel guilty about using them.
+You rightfully deserve them, in the legal, moral, and ethical sense.
+These accommodations are there so that you can be your best possible self.
+
+\section{Self-Advocacy}\label{self-advocacy}
+
+At Wake Forest and at many other places, the expectation is that you will self-advocate for yourselves and know exactly what you need. Is that a good expectation? Is that a good model? Is that equitable? I have thoughts\ldots{} regardless, that is the current state of the world. Accordingly, you will have to advocate for what you need. If this process seems daunting, please talk to me! Regardless, I am happy to talk with you about this process and to share my own experiences.
+
+As a student, you may not know what accommodations work best for you. Or you may find that your current accommodations don't work like they used to.
+
+As you journey thru your career, you may find that you need different kinds of accommodations. Or at least that has been my experience\ldots{} There are numerous resources for ideas.
+My personal favorite is \href{https://askjan.org/}{JAN}. Technically, JAN (Job Accommodation Network) is focused on employment and jobs.
+However, I still have found this to be a wonderful resource for ideas.
+You can \href{https://askjan.org/soar.cfm}{search for accommodation ideas} by \href{https://askjan.org/a-to-z.cfm}{specific}:
+
+\begin{itemize}
+\tightlist
+\item
+  disability,
+\item
+  limitation,
+\item
+  task,
+\item
+  topic, or
+\item
+  accommodation.
+\end{itemize}
+
+\section{Resources}\label{resources}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://class.wfu.edu/frequently-asked-questions-students/}{Frequently Asked Questions from WFU CLASS}
+\item
+  \href{https://askjan.org/}{JAN}
+\item
+  \href{https://www.apa.org/pi/disability/dart/}{American Psychological Association's DisABILITY Resources Toolbox (DART)}
+\item
+  \href{https://docs.google.com/document/d/1X44zJyTz8-s9t6IXw0bII2DCFiOk1NR2MRfTi8wBiIc/}{WFU Self-advocacy handout}
+\item
+  \href{https://www.cfnc.org/plan-your-future/plan-for-college/students-with-disabilities/know-your-rights/}{College Foundation of North Carolina's Know Your Rights}
+\end{itemize}
+
+\chapter{Classroom Climate}\label{classroom-climate}
+
+I aim to create a learning environment for my students that supports a diversity of thoughts, perspectives, and experiences, and honors your identities (including but not limited to race, ethnicity, sex, gender, gender-identity, class, culture, sexual orientation, religion, disability, political affiliation, military status). To help accomplish this:
+
+\begin{itemize}
+\item
+  If you have a name or set of pronouns that differ from those that appear in your official records, please let me know!
+\item
+  If you feel like your performance in the class is being impacted by your experiences outside of class, please don't hesitate to come and talk with me. I can direct you to resources
+\item
+  I (like many people) am still in the process of learning about diverse perspectives and identities. If something was said in class (by anyone) that made you feel uncomfortable, please talk to me about it.
+\item
+  If you reached here in the syllabus, e-mail me a picture of a cat. If you do it before the end of the first week, you get a small bonus. (And even if its after the first week, feel free to still send me a cat picture.)
+\end{itemize}
+
+\chapter{Academic Honesty Policy}\label{academic-honesty-policy}
+
+In this course, you will be held to the standards of the Wake Forest Honor Code, a code that you pledged to honor when you signed your application for admission to the institution.
+If you are unfamiliar with the details of this code and how it is administered, you should consult the \href{https://studentconduct.wfu.edu/honor-system-wfu/}{Honor System Handbook}.
+That handbook outlines the University's expectations for the integrity of your academic work, the procedures for resolving alleged violations of those expectations, and the rights and responsibilities of students and faculty members throughout the process.
+
+All submitted work must be your own. It is your responsibility to avoid even the appearance of cheating.
+
+Unless I have explicitly stated otherwise, every assessment is closed to outside resources (including, but not limited to books, notes, phones, people, Chegg, ChatGPT, the internet). Ignorance of the honor code and assignment instructions is not an acceptable explanation or defense.
+
+\section{Violations}\label{violations}
+
+Violations of this policy result in a zero for the assignment, my perpetual disappointment, and possible additional penalties and disciplinary actions, including, but not limited to:
+
+\begin{itemize}
+\tightlist
+\item
+  a referral to honor council,
+\item
+  failing the class,
+\item
+  a forensic regrading of all previous assessments,
+\item
+  forfeiting all extra credit, and
+\item
+  being excluded from the course curve, drop policy, late policy, and extra credit.
+\end{itemize}
+
+\section{Ethical Use of Artificial Intelligence}\label{ethical-use-of-artificial-intelligence}
+
+Note: This policy's language was adapted from this \href{https://www.reddit.com/r/Professors/comments/11mmz8k/the_ethical_use_of_artificial_intelligence/}{reddit post}
+
+As artificial intelligence becomes more prevalent in our daily lives, it is crucial for students to understand the ethical considerations surrounding its use in academic settings. In my courses, I expect students to use AI in a manner that aligns with the values of academic integrity. In general, the use of AI should never compromise development in critical thinking, research, and analysis. Along that line, the use of AI to generate content, manipulate the tone of work, or create data is considered academic dishonesty and strictly prohibited.
+
+Please note that any unethical use of AI in my courses will be considered academic dishonesty and may result in disciplinary action. Students are responsible for ensuring that their use of AI is in compliance with the course policies on academic integrity. On a more pragmatic note, AI writing tends to be pretty bad. I expect my students to write better than the typical AI slop. You can find more information about AI-based writing \href{https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing}{here}.
+
+\section{Common Sense}\label{common-sense}
+
+To be clear, even if something is NOT explicitly forbidden in this document, that does not mean it is allowed. Please use your common sense here. If a reasonable person would consider it cheating, it is cheating.
+
+\subsection{Things that I thought didn't need to be said, but apparently did need to be said.}\label{things-that-i-thought-didnt-need-to-be-said-but-apparently-did-need-to-be-said.}
+
+Everything must be in your own words, regardless of any open-resource policy.
+Open resources does not mean that you can copy and paste material from outside sources (or from course sources) directly into an assessment. Assessments are not scavenger hunts. Assessments are a means for you to demonstrate your own understanding of the material. They are an opportunity to earn points through the demonstration of knowledge.
+
+\subsubsection{\texorpdfstring{It is \emph{ALWAYS} academic dishonesty\ldots{}}{It is ALWAYS academic dishonesty\ldots{}}}\label{it-is-always-academic-dishonesty}
+
+\begin{itemize}
+\item
+  It is \emph{ALWAYS} academic dishonesty to copy outside materials directly into a test or quiz.
+\item
+  It is \emph{ALWAYS} academic dishonesty to copy lecture notes directly into a test or quiz.
+\item
+  It is \emph{ALWAYS} academic dishonesty to copy powerpoint slides directly into a test or quiz.
+\item
+  It is \emph{STILL} dishonest if you indirectly copy outside materials into a test or quiz.
+\item
+  It is \emph{STILL} dishonest if you then edit what you have copied. Frankly that is worse because you tried to hide that you did it.
+\item
+  It is \emph{ALWAYS} academic dishonesty to share test questions.
+\item
+  It is \emph{ALWAYS} academic dishonesty to post course materials on any third-party websites.
+\item
+  It is \emph{ALWAYS} academic dishonesty to misrepresent others work as your own.
+\item
+  It is \emph{ALWAYS} academic dishonesty to work together on tests or quizzes. (And frankly, it is really obvious in Canvas when you work together. I literally wrote a R program that checks for working together on tests. )
+\end{itemize}
+
+\chapter{Communication}\label{communication}
+
+Be mindful that there is a person on the other end of your request -- me. I'm a person. So please be intentional with your emails and recognize that my time in finite. It is in everyone's best interest that I spend my time engaging with students in meaningful ways, not pointing you to material you can find on your own. Be sure to check the syllabus, course website, course content, and classmates before emailing me. This practice is important training for life after college -- when you have a question, the first thing you do should not be to email your boss. I do not want to discourage you from engaging with me. I love teaching because I love interacting with students. However, I do not want to engage with you in ways that nurture your inability to critically think and prevents me from engaging with other students.
+
+If you are ever uncertain about the purpose of an assignment, the learning objectives of an activity, or how an assessment will be graded, please reach out. My goal is to be organized, thoughtful, and transparent. All my assignments were thoughtfully chosen. There is no busy work or unnecessary required course material\footnote{even the engagement activities serve a clear purpose}. If I have done a poor job explaining the motivation for any aspect of my course, please let me know so I can be more clear.
+
+\section{Minimums}\label{minimums}
+
+You are expected to read every LMS announcement, message, and email, as well as view the media embedded within those communications. Students are expected to check e-mail on a frequent and regular basis in order to stay current with University-related communications. Please recognize that certain communications may be time-critical. At minimum, you should be checking your communications within 24 hours. Ignorance of a class communication is not grounds for an excused absence or extension.
+
+\subsection{Self Advocacy}\label{self-advocacy-1}
+
+If you are struggling in this class, please talk to me. Do not assume that I know what is going on in your life. Talk to me and tell me what you need.
+
+\subsection{Requests for Re-Assessment}\label{requests-for-re-assessment}
+
+Please send any questions about grades in writing via email within \emph{one} week after the assignment is returned. If I erred in scoring or in calculating the grade, I will happily update the record. Otherwise, I will be most receptive toward questions framed in terms of your learning (rather than simply your performance), as research has shown that focusing overly on extrinsic rewards (like grades) is likely to lead to all sorts of outcomes that I don't wish for you (lower interest in the course material, lower learning, lower enjoyment).
+
+\section{Instructor Availability}\label{instructor-availability}
+
+I am readily accessible during business hours (9:00AM-5:30PM; Monday-Friday) via \href{garrissm@wfu.edu}{email}/ LMS/ git/ zoom/ carrier pigeon/\href{https://calendly.com/smasongarrison/}{calendly}. Outside those hours, I do not typically respond to messages, in order to devote time to my family, rest, and living my life. Messages received during these times will receive attention once I am back online. Otherwise you can expect to receive a response to your message within 12 to 24 hours, often much sooner. If you do not hear back after 36 hours, please follow-up with me.
+
+I have given out my cell-phone number, in the case of \emph{true} emergencies. Please be mindful that poor planning on your part does not constitute an emergency for me.
+
+\subsection{Is it a true emergency?}\label{is-it-a-true-emergency}
+
+How do you know if it is a true emergency?
+
+\begin{itemize}
+\tightlist
+\item
+  Ask yourself, would a reasonable person consider this situation an emergency?
+\item
+  How would the situation change if you waited until morning?
+\item
+  Could this situation have been prevented by starting earlier?
+\item
+  Would Professor Mason really want to know about this situation \emph{right} now?
+\item
+  If you were in Professor Mason's shoes, would you consider this an emergency?
+\end{itemize}
+
+\section{Recordings}\label{recordings}
+
+\subsection{Recording of Class Sessions.}\label{recording-of-class-sessions.}
+
+All or some in-person and synchronous classes may be recorded. Student images and voices may be captured in these recordings. I will do my best to protect that information from being shared outside the confines of the class. Recordings with students in them will be available for viewing only by students enrolled in the class via Canvas or an alternative platform. The recordings are intended to improve access to course content. No other recording, including by students, is permitted without explicit permission. (Recordings for notetaking or accommodations are typically permitted. Just chat with me about it.)
+
+\subsection{Recording Tails in our Synchronous Classes.}\label{recording-tails-in-our-synchronous-classes.}
+
+Synchronous class recordings may include events that happen before class officially begins or after it officially ends. Students should take care to not discuss any confidential matters during these periods of time.
+
+\subsection{Access to Recordings.}\label{access-to-recordings.}
+
+Students may access the class recordings made available to them solely for the purpose of participating in the course. The recordings may not be used by any person other than a student enrolled in the course or for any purpose other than to participate in the course. Students are prohibited from downloading or distributing any portion of the recordings for any purpose. Students should understand that technical problems or human error may prevent successful recording.
+
+\subsection{Copyright Notice.}\label{copyright-notice.}
+
+Students are advised that Wake Forest University faculty members hold the copyright in their course materials. The University and the faculty have legal rights in class recordings.
+
+\part*{Specific Courses}\label{part-specific-courses}
+
+
+\chapter*{210: Methods in Psych Research}\label{statsminor}
+
+
+\section*{Course Description}\label{course-description}
+
+
+Methods in Psychological Research introduces statistics and research design for students minoring in psychology. Prereq: P---PSY 151 (D, QR)
+
+This course is designed to help students develop the conceptual background and practical skills necessary to evaluate the statistics encountered in their coursework and in everyday life. It emphasizes selection, application, and interpretation. Topics to be covered include statistical inference, probability distributions, sampling, hypothesis testing, and correlation. The goal will be to go beyond rote memorization of abstract formulas and for students to develop an appreciation for the critical role that statistics plays in psychological science.
+
+\section*{Required Materials}\label{required-materials}
+
+
+Morling, (5th Edition) Research Methods in Psychology \url{https://seagull.wwnorton.com/researchpsych5}
+
+\section*{Course Assignments}\label{course-assignments}
+
+
+\subsection*{Grading Policy}\label{grading-policy}
+
+
+Typically, an A- is defined as 90\% of the highest point total in the class, B- as 80\% of that total, C- as 70 and D- as 60\%.
+I may shift these values down to provide a better fit to the actual point distribution.
+By scaling to a percentage of the highest point total in the class, each student has a much better chance of receiving higher grades than if no re-scaling were done.
+This curve can only help your grade.
+
+The full table is provided below:
+
+\begin{table}
+
+\caption{\label{tab:unnamed-chunk-5}Full Table}
+\centering
+\begin{tabular}[t]{l|r}
+\hline
+Letter & Cutoff\\
+\hline
+A & 0.95\\
+\hline
+A- & 0.90\\
+\hline
+B+ & 0.87\\
+\hline
+B & 0.84\\
+\hline
+B- & 0.80\\
+\hline
+C+ & 0.77\\
+\hline
+C & 0.74\\
+\hline
+C- & 0.70\\
+\hline
+D+ & 0.67\\
+\hline
+D & 0.64\\
+\hline
+D- & 0.60\\
+\hline
+\end{tabular}
+\end{table}
+
+\subsection*{Curve Projections}\label{curve-projections}
+
+
+Unsurprisingly, students have many questions about the curve in this class. For tests and other assignments, I try to provide a projected letter grade.
+This projected letter grade is there to give you a sense of what your score \emph{would} be if I implemented the class curve on this particular assignment.
+It is a projection. It is not a guarantee. These projected letter grades are not incorporated into your final grade.
+
+\subsection*{Quizzes}\label{quizzes}
+
+
+There will be 14 multiple-choice reading quizzes (effectively these are weekly). The best 13 out of 14 quiz grades will be used to determine your total quiz grade. You can drop 1 of the quizzes for any reason.
+
+\subsection*{Exams}\label{exams}
+
+
+There will be 3 exams. The best 2 out of 3 exam grades will be used to determine your total exam grade. You can drop 1 of the exams for any reason.
+
+\subsubsection*{Exams Dates}\label{exams-dates}
+
+
+\begin{itemize}
+\item
+  Exam 1: Friday, 10/03
+\item
+  Exam 2: Friday, 11/14
+\item
+  Exam 3: During Finals, 12/12
+\end{itemize}
+
+\subsection*{Short Assignments}\label{short-assignments}
+
+
+There will be 2 short assignments in this course. These assignments will allow you to incorporate some of your own interests into the course. Such interests could be related to your career, another class you're taking, a hobby you're exploring, or some other random fancy. They will typically be approximately two (2) pages. I will provide more specific written guidelines at least two weeks before each assignment is due.
+
+The best 1 out of 2 short assignments will be used to determine your total short assignments. You can skip one of the assignments for any reason.
+
+\subsubsection*{Assignment Dates}\label{assignment-dates}
+
+
+\begin{itemize}
+\item
+  Assignment 1: Friday, 10/17: Qualitative Critique 1
+\item
+  Assignment 2: Friday, 12/05: Qualitative Critique 2
+\end{itemize}
+
+\section*{Engagement Activities}\label{engagement-activities}
+
+
+There will be multiple engagement activities in this course. These activities will allow you engage with the material for each module. Details about the specific activities will be provided on canvas. Students must complete two activities per module.
+
+\section*{Grading Weighting}\label{grading-weighting}
+
+
+\begin{itemize}
+\tightlist
+\item
+  200 points of your grade will be determined by your best 2 exams.
+\item
+  50 points of your grade will be determined by your best 1 assignment(s).
+\item
+  20 points of your grade will be determined by your engagement.
+\item
+  30 points of your grade will be determined by your best 13 quizzes.
+\end{itemize}
+
+\section*{Schedule}\label{schedule}
+
+
+\begin{tabular}{rllll}
+\toprule
+module & start & topic & week & milestones\\
+\midrule
+1 & 08/25 & What are Research Methods? & Week 01, 08/25 - 08/29 & NA\\
+2 & 09/01 & Getting Ready to Do Statistical Analysis & Week 02, 09/01 - 09/05 & NA\\
+3 & 09/08 & Describing Data with R & Week 03, 09/08 - 09/12 & NA\\
+4 & 09/15 & Univariate Distributions & Week 04, 09/15 - 09/19 & NA\\
+5 & 09/22 & Bivariate Distributions & Week 05, 09/22 - 09/26 & NA\\
+\addlinespace
+6 & 09/29 & Probability Theory & Week 06, 09/29 - 10/03 & Exam\\
+7 & 10/06 & Binomials and Other Sampling Distributions & Week 07, 10/06 - 10/10 & NA\\
+8 & 10/13 & Hypothesis Testing & Week 08, 10/13 - 10/17 & Assignment\\
+9 & 10/20 & T-Tests & Week 09, 10/20 - 10/24 & NA\\
+10 & 10/27 & F-Tests and ANOVA & Week 10, 10/27 - 10/31 & NA\\
+\addlinespace
+11 & 11/03 & Causal Inference & Week 11, 11/03 - 11/07 & NA\\
+12 & 11/10 & Experimental Designs & Week 12, 11/10 - 11/14 & Exam\\
+13 & 11/17 & Ethics and Reproducibility & Week 13, 11/17 - 11/21 & NA\\
+14 & 11/24 & Special Topics & Week 14, 11/24 - 11/28 & NA\\
+15 & 12/01 & Putting it all together & Week 15, 12/01 - 12/05 & Assignment\\
+\addlinespace
+16 & 12/08 & Finals & Week 16, 12/08 - 12/12 & Exam\\
+\bottomrule
+\end{tabular}
+
+\chapter*{255: Personality}\label{personality}
+
+
+\section*{Course Description}\label{course-description-1}
+
+
+This class provides a survey of theory and research on the structure and function of human personality, with attention to the relationship to cognition, emotion, motivation, and behavior. It requires P-PSY 151. In addition, we will discuss other individual differences, such as intelligence.
+
+\subsection*{Broad goals for the course:}\label{broad-goals-for-the-course}
+
+
+\begin{itemize}
+\tightlist
+\item
+  \begin{enumerate}
+  \def\labelenumi{\arabic{enumi}.}
+  \tightlist
+  \item
+    The first is for you to understand what personality psychologists think. We will cover classic and current theories, research, and applications of Personality psychology.
+  \end{enumerate}
+\item
+  \begin{enumerate}
+  \def\labelenumi{\arabic{enumi}.}
+  \setcounter{enumi}{1}
+  \tightlist
+  \item
+    The second is for you to learn how personality psychologists study their field scientifically. We will discuss the procedures used to test theories and to study issues related to personality.
+  \end{enumerate}
+\item
+  \begin{enumerate}
+  \def\labelenumi{\arabic{enumi}.}
+  \setcounter{enumi}{2}
+  \tightlist
+  \item
+    The third is to (hopefully) recognize some relevance of personality psychology for your personal and professional life.
+  \end{enumerate}
+\end{itemize}
+
+\section*{Required Materials}\label{required-materials-1}
+
+
+{[}1{]} D. C. Funder. \emph{The personality puzzle}. Seventh. OCLC: 935283402.
+New York: W.W. Norton \& Co., 2016. ISBN: 978-0-393-60042-1.
+
+\section*{Course Assignments}\label{course-assignments-1}
+
+
+\subsection*{Quizzes}\label{quizzes-1}
+
+
+There will be 6 quizzes in this course. The best 5 out of 6 quizzes grades will be used to determine your total quiz grade. You can drop any of the quizzes for any reason BUT YOU MUST PASS THE LAST Quiz ( that is held during the university scheduled final exam period). If you do not pass the final quiz, your score on that quiz will count as one of your 5 grades. If you do pass the final quiz, then the best 5 grades will be used (irrespective of your score on the final quiz).
+
+\subsubsection*{Quiz Dates}\label{quiz-dates}
+
+
+\begin{itemize}
+\item
+  Quiz 1: Friday, 09/09
+\item
+  Quiz 2: Friday, 09/30
+\item
+  Quiz 3: Friday, 10/28
+\item
+  Quiz 4: Friday, 11/18
+\item
+  Quiz 5: Friday, 12/02
+\item
+  Quiz 6: During Finals, 12/09
+\end{itemize}
+
+\subsection*{Short Assignments}\label{short-assignments-1}
+
+
+There will be 3 short assignments in this course. These assignments will allow you to incorporate some of your own interests into the course. Such interests could be related to your career, another class you're taking, a hobby you're exploring, or some other random fancy. They will typically be approximately two (2) pages. I will provide more specific written guidelines at least two weeks before each assignment is due.
+
+The best 2 out of 3 short assignments will be used to determine your total short assignments. You can skip one of the assignments for any reason.
+
+\subsubsection*{Short Assignment Dates}\label{short-assignment-dates}
+
+
+\begin{itemize}
+\item
+  Assignment 1: Friday, 10/07: Critique of an online personality test.
+\item
+  Assignment 2: Friday, 11/11: Critique of a personality-related media article.
+\item
+  Assignment 3: Friday, 12/09: Critique of a personality-related YouTube video.
+\end{itemize}
+
+\subsection*{Engagement Activities}\label{engagement-activities-1}
+
+
+There will be multiple engagement activities in this course. These activities will allow you engage with the material for each module. Details about the specific activities will be provided on canvas. Students must complete two activities per module. For students in the blended section, they can attend their weekly in-person session and count it as an engagement activity.
+
+\section*{Grading Policy}\label{grading-policy-1}
+
+
+Typically, an A- is defined as 90\% of the highest point total in the class, B- as 80\% of that total, C- as 70 and D- as 60\%.
+I may shift these values down to provide a better fit to the actual point distribution.
+By scaling to a percentage of the highest point total in the class, each student has a much better chance of receiving higher grades than if no re-scaling were done.
+This curve can only help your grade.
+
+The full table is provided below:
+
+\begin{table}
+
+\caption{\label{tab:unnamed-chunk-7}Full Table}
+\centering
+\begin{tabular}[t]{l|r}
+\hline
+Letter & Cutoff\\
+\hline
+A & 0.95\\
+\hline
+A- & 0.90\\
+\hline
+B+ & 0.87\\
+\hline
+B & 0.84\\
+\hline
+B- & 0.80\\
+\hline
+C+ & 0.77\\
+\hline
+C & 0.74\\
+\hline
+C- & 0.70\\
+\hline
+D+ & 0.67\\
+\hline
+D & 0.64\\
+\hline
+D- & 0.60\\
+\hline
+\end{tabular}
+\end{table}
+
+\subsection*{Curve Projections}\label{curve-projections-1}
+
+
+Unsurprisingly, students have many questions about the curve in this class. For tests and other assignments, I try to provide a projected letter grade.
+This projected letter grade is there to give you a sense of what your score \emph{would} be if I implemented the class curve on this particular assignment.
+It is a projection. It is not a guarantee. These projected letter grades are not incorporated into your final grade.
+
+\subsection*{Weighting}\label{weighting}
+
+
+\begin{itemize}
+\tightlist
+\item
+  150 points of your grade will be determined by your best 5 quizzes
+
+  \begin{itemize}
+  \tightlist
+  \item
+    The final is not optional.
+  \end{itemize}
+\item
+  25 points of your grade will be determined by completing engagement activities.
+\item
+  100 points of your grade will be determined by your best two short assignments.
+\end{itemize}
+
+\section*{Schedule}\label{schedule-1}
+
+
+\begin{tabular}{rllll}
+\toprule
+module & start & topic & week & milestones\\
+\midrule
+1 & 08/22 & What is Personality & Week 01, 08/22 - 08/26 & NA\\
+2 & 08/29 & Personality Research Methods & Week 02, 08/29 - 09/02 & NA\\
+3 & 09/05 & Assessment, Evaluation, and Ethics & Week 03, 09/05 - 09/09 & Quiz\\
+4 & 09/12 & Trait Approach and Personality Judgment & Week 04, 09/12 - 09/16 & NA\\
+5 & 09/19 & Big Five & Week 05, 09/19 - 09/23 & NA\\
+\addlinespace
+6 & 09/26 & Personality over the Lifespan & Week 06, 09/26 - 09/30 & Quiz\\
+7 & 10/03 & Biological Approaches to Psychology & Week 07, 10/03 - 10/07 & Assignment\\
+8 & 10/10 & Behavior Genetics & Week 08, 10/10 - 10/14 & NA\\
+9 & 10/17 & Evolutionary Psychology & Week 09, 10/17 - 10/21 & NA\\
+10 & 10/24 & Cross-Cultural Psychology & Week 10, 10/24 - 10/28 & Quiz\\
+\addlinespace
+11 & 10/31 & Freud & Week 11, 10/31 - 11/04 & NA\\
+12 & 11/07 & Psychoanalysis After Freud & Week 12, 11/07 - 11/11 & Assignment\\
+13 & 11/14 & Personality Processes and Positive Psych & Week 13, 11/14 - 11/18 & Quiz\\
+14 & 11/21 & MiniModule on Personality, Big Data, and AI (Also, Thanksgiving Break!) & Week 14, 11/21 - 11/25 & NA\\
+15 & 11/28 & Personality and Health & Week 15, 11/28 - 12/02 & Quiz\\
+\addlinespace
+16 & 12/05 & NA & Week 16, 12/05 - 12/09 & Quiz and Assignment\\
+\bottomrule
+\end{tabular}
+
+\chapter*{279: Applied Data Science}\label{applieddatascience}
+
+
+\section*{Course Description}\label{course-description-2}
+
+
+Data Science for Psychologists (DS4P) introduces the principles of data science, including data wrangling, modeling, visualization, and communication. In this class, we link those principles to psychological methods and open science practices by emphasizing exploratory analyses and description, rather than confirmatory analyses and prediction. We'll work our way thru Wickham and Grolemund's R for Data Science text (\url{http://r4ds.had.co.nz/}) and develop expertise in tidyverse (\url{https://www.tidyverse.org/}). This class emphasizes replication and reproducibility. DS4P is a practical skilled-based class and should be useful to students aiming for academia as well as those interested in industry. Applications of these methods can be applied to a full range of psychological areas, including perception (e.g, eye-tracking data), neuroscience (e.g., visualizing neural networks), and individual differences (e.g., valence analysis).
+
+\subsection*{Broad goals for the course:}\label{broad-goals-for-the-course-1}
+
+
+\begin{itemize}
+\tightlist
+\item
+  \begin{enumerate}
+  \def\labelenumi{\arabic{enumi}.}
+  \tightlist
+  \item
+    Reproducibility;
+  \end{enumerate}
+\item
+  \begin{enumerate}
+  \def\labelenumi{\arabic{enumi}.}
+  \setcounter{enumi}{1}
+  \tightlist
+  \item
+    Replication;
+  \end{enumerate}
+\item
+  \begin{enumerate}
+  \def\labelenumi{\arabic{enumi}.}
+  \setcounter{enumi}{2}
+  \tightlist
+  \item
+    Robust Methods;
+  \end{enumerate}
+\item
+  \begin{enumerate}
+  \def\labelenumi{\arabic{enumi}.}
+  \setcounter{enumi}{3}
+  \tightlist
+  \item
+    Really Nice Visualization; and
+  \end{enumerate}
+\item
+  \begin{enumerate}
+  \def\labelenumi{\arabic{enumi}.}
+  \setcounter{enumi}{4}
+  \tightlist
+  \item
+    R
+  \end{enumerate}
+\end{itemize}
+
+\section*{Required Materials}\label{required-materials-2}
+
+
+All materials for this course are open source, including the multimedia course notes.
+
+\begin{itemize}
+\tightlist
+\item
+  Garrison's Data Science for Psychologists (\url{https://datascience4psych.github.io/DataScience4Psych/})
+\item
+  Wickham and Grolemund's R for Data Science text (\url{http://r4ds.had.co.nz/})
+\end{itemize}
+
+\section*{Course Assignments}\label{course-assignments-2}
+
+
+You will be formally evaluated in three different ways. Instructions for the assignments can be found in the \href{https://datascience4psych.github.io/DataScience4Psych/}{course notes}.
+
+\subsection*{Presentation}\label{presentation}
+
+
+You will give one presentation. This presentation will be approximately 10-minutes. This presentation is a chance to practice a formal presentation in a relatively pressure-free setting).
+
+\subsection*{Labs}\label{labs}
+
+
+There is (at least) one lab available per module. You can find the modules in the \href{https://datascience4psych.github.io/DataScience4Psych/}{course notes}.
+
+\subsection*{Portfolio}\label{portfolio}
+
+
+The major semester projects (\href{https://datascience4psych.github.io/DataScience4Psych/guidance.html\#portfolio}{described on the data science website}) are a set of DS4P Projects, which you will summarize in a DS4P Portfolio to be handed in on the last day of class. Instructions for \href{https://datascience4psych.github.io/DataScience4Psych/guidance.html\#portfolio}{the portfolio} can be found in the \href{https://datascience4psych.github.io/DataScience4Psych/}{course notes}.
+
+\subsection*{Engagement}\label{engagement}
+
+
+This experiential course requires active engagement. There will be few lectures and we will not be building toward an exam. Instead, we will work together to build our facilities for thinking critically about data. You should come to every class having read all of the required reading, watched the required videos, browsed the suggested resources, and so forth. You should enter the classroom prepared to discuss these materials with colleagues and complete both individual and group in-class assignments.
+
+\section*{Grading Policy}\label{grading-policy-2}
+
+
+In this course, you will determine the grade you receive by fulfilling a contract you will submit for my approval by 01/24 (a.k.a the end of the 2nd week of class).
+
+Your written contract will detail:
+
+\begin{itemize}
+\item
+  The requirements you will meet in order to receive the grade for which you've contracted,
+\item
+  the penalties you will incur for not meeting those requirements,
+\item
+  a calendar you will follow for meeting the requirements you have outlined.
+\end{itemize}
+
+Many aspects of this calendar will be determined by milestones outlined on the course schedule, but your contract will take ownership of these deadlines while committing to specific due dates for the course's more flexible assignments.
+
+\section*{Contract Details}\label{contract-details}
+
+
+To fulfill any grade contract a student must do the following, which should nonetheless be specified in the contract submitted for approval. When writing self-assessments students must describe how they have met these requirements in addition to the grade-specific requirements:
+
+\begin{itemize}
+\item
+  Come to class prepared to discuss any assigned readings, videos, or other media. Participate actively in class activities and discussions, making observations and asking questions that help the class think together.
+\item
+  Work consistently throughout the semester. Consistent work means making regular, visible progress on contractual assignments according to the calendar in the approved contract, rather than completing most of the work at the end of the semester. For work submitted through GitHub or other version-controlled platforms, commit history may be used as one form of evidence of sustained progress. For other assignments, drafts, submissions, revision history, check-ins, and other records of work may be used as evidence.
+\item
+  Communicate with me in a timely way if you are unable to follow the calendar in your approved contract. Communication does not automatically amend the contract, but it allows us to discuss whether an adjustment is needed.
+\item
+  Meet with me synchronously during office hours or another scheduled time at least once around midterm, roughly between weeks 3 and 4, to ensure you are on track to meet your contract requirements, discuss any questions or concerns you have about the course or your progress, and decide on any necessary contract amendments.
+\item
+  Revise contractual assignments as necessary until both you and I consider them ``Satisfactory.''
+\item
+  Complete a final grade reflection and contract self-assessment, submitting it to me by 5pm on the last day of class. This assignment is separate from the final portfolio.
+
+  \begin{itemize}
+  \item
+    The contract summary must list and link to each deliverable, identify completion dates, explain which work fulfills which contract requirements, and provide evidence of consistent work across the semester.
+  \item
+    The grade reflection must explain the grade the student believes they earned based on the approved contract, the work completed, and the evidence provided in the summary. Because the highest available contract grade is an A-, students who believe they have earned an A must explain what work was exceptional enough to justify an upward adjustment beyond the contracted grade.
+  \item
+    The reflection must also discuss what the student learned throughout the semester, including how their understanding, skills, work habits, or goals developed through the course.
+  \end{itemize}
+\end{itemize}
+
+The professor reserves the right to award a grade of D or F to anyone who fails to meet a contractual obligation in a systematic way. A ``D'' grade denotes some minimal fulfilling of the contract. An ``F'' is absence of enough satisfactory work, as contracted, to warrant passing of the course. Both a ``D'' and ``F'' denote a breakdown of the contractual relationship implied by signing any of the contracts described above.
+
+\subsection*{What About Exceptional (or Mediocre) Work?}\label{what-about-exceptional-or-mediocre-work}
+
+
+I also reserve the right to reward exceptional work throughout the semester using the full range of Wake Forest's grading scale. If you contract for a ``A-,'' for instance, and submit particularly strong pieces to fulfill that contract, I may elect to raise your contracted grade to a ``A.''
+
+Likewise, if you consistently submit mediocre work in fulfillment of your contract, I reserve the right to adjust your grade one half-step down (e.g.~from ``A-'' to ``B+``) or even, in extreme cases, a full step.
+
+\subsection*{Contract Adjustments}\label{contract-adjustments}
+
+
+Periodically during the semester I will ask you to evaluate your work thus far and compare it against what you agreed in your grade contract. In these moments you can also take the opportunity to request an adjustment to your contract in either direction. If you find that you will be unable to meet the obligations of your contract, including the calendar and consistent-work expectations, you may request to move to the next lowest grade and its requirements. Contrariwise, if you find that you've been performing above the obligations of your contract, you may request to fulfill the requirements for the next higher grade.
+
+Contract adjustments must be discussed while there is still time to make a meaningful change to the work plan. Communication about difficulty, delays, or workload is important, but it does not by itself change the terms of the contract. Any change to the contract must be discussed with me and approved.
+
+Important Note: In order to effectively evaluate your own progress, you must keep track of your work, including days missed, delayed assignments, revisions, and other evidence of progress toward the contract.
+
+\subsection*{Contract Grades}\label{contract-grades}
+
+
+\subsection*{``A-'' Contract}\label{a--contract}
+
+
+To contract for an ``A-'' in this course, you agree to:
+
+\begin{itemize}
+\item
+  Earn ``Satisfactory'' on 7 self-paced lab assignments on a schedule you will specify in your contract.
+\item
+  Produce at least 6 ``Satisfactory'' portfolio pieces over the course of the semester.
+\item
+  Compile those portfolio pieces into a ``Satisfactory'' Portfolio.
+\item
+  Submit a final contract summary and reflection in addition to the final portfolio.
+\item
+  For your planning, this works out to be approximately, 1.86 per week.
+\end{itemize}
+
+\subsection*{``B'' Contract}\label{b-contract}
+
+
+To contract for a ``B'' in this course, you agree to:
+
+\begin{itemize}
+\item
+  Earn ``Satisfactory'' on 6 self-paced lab assignments on a schedule you will specify in your contract.
+\item
+  Produce at least 5 ``Satisfactory'' portfolio pieces over the course of the semester.
+\item
+  Compile those portfolio pieces into a ``Satisfactory'' Portfolio.
+\item
+  Submit a final contract summary and reflection in addition to the final portfolio.
+\item
+  For your planning, this works out to be approximately, 1.57 per week.
+\end{itemize}
+
+\subsection*{``P'' Contract}\label{p-contract}
+
+
+To contract for a ``P'' or Pass in this course, you agree to:
+
+\begin{itemize}
+\item
+  Earn ``Satisfactory'' on 5 self-paced lab assignments on a schedule you will specify in your contract.
+\item
+  Produce at least 4 ``Satisfactory'' portfolio pieces over the course of the semester.
+\item
+  Compile those portfolio pieces into a ``Satisfactory'' Portfolio.
+\item
+  Submit a final contract summary and reflection in addition to the final portfolio.
+\item
+  For your planning, this works out to be approximately, 1.29 per week.
+\end{itemize}
+
+\section*{Tentative Module Release Schedule}\label{tentative-module-release-schedule}
+
+
+Note that I'll be using your contracts to guide my tinkering.
+
+\begin{tabular}{rllll}
+\toprule
+module & start & topic & week & milestones\\
+\midrule
+1 & 01/13 & What is Data Science and Meet the Toolkit & Week 01, 01/13 - 01/17 & NA\\
+2 & 01/20 & Data and Visualization & Week 02, 01/20 - 01/24 & Contract\\
+3 & 01/27 & Welcome to the Tidyverse & Week 03, 01/27 - 01/31 & NA\\
+4 & 02/03 & Data types and Data Transformations & Week 04, 02/03 - 02/07 & NA\\
+5 & 02/10 & Effective data visualization & Week 05, 02/10 - 02/14 & NA\\
+\addlinespace
+6 & 02/17 & Scientific Communication and confounding & Week 06, 02/17 - 02/21 & NA\\
+7 & 02/24 & Functions and Automation & Week 07, 02/24 - 02/28 & Presentation\\
+\bottomrule
+\end{tabular}
+
+\chapter*{362: Psychological Testing}\label{testing}
+
+
+\section*{Course Description}\label{course-description-3}
+
+
+This course provides an overview of the development and nature of psychological tests with applications to school counseling, business, and clinical practice. The purpose of the course is to provide students with an understanding of the principles of measurement as applied to group standardized measures of achievement, special aptitude, intelligence, personality, interests and distress for use in counseling. Format will consist primarily of lectures along with group participation activities.
+
+\subsection*{Course Objectives:}\label{course-objectives}
+
+
+\begin{itemize}
+\tightlist
+\item
+  To acquaint you with the fundamental vocabulary and logic of psychological measurement and behavioral assessment.
+\item
+  To develop your capacity for critical judgment of the adequacy of measures purported to assess behavior in the role of theory development.
+\item
+  To acquaint you with some of the relevant literature in personality assessment, psychometric theory and practice, and methods of observing and measuring behavior.
+\item
+  To instill in you an appreciation of and an interest in the principles and methods of psychometric theory in general and behavior assessment in particular.
+\item
+  This course is not designed to make you into an accomplished psychometrist (one who gives tests) nor is it designed to make you a skilled psychometrician (one who constructs tests), nor will it give you ``hands on'' experience with psychometric computer programs. Rather it is aimed to allow you to understand the fundamental theoretical issues concerning both the psychometrist and the psychometrician.
+\item
+  Because modern psychometrics and statistics may be done using open source software such as R, examples will be presented in R.
+\end{itemize}
+
+\section*{Materials}\label{materials-1}
+
+
+\subsection*{Texts}\label{texts}
+
+
+\subsubsection*{Required}\label{required}
+
+
+{[}1{]} A. Anastasi and A. Urbina. \emph{Psychological testing}. Upper Saddle
+River, New Jersey: Prentice-Hall, 1997. ISBN: 0-02-303020-8.
+
+\paragraph*{How to use the required text:}\label{how-to-use-the-required-text}
+\addcontentsline{toc}{paragraph}{How to use the required text:}
+
+The text \citep{anastasi1997} is intended to supplement the lectures. The lectures don't follow the order of chapters in the text and the text covers some material that won't be covered in the lectures, i.e., not all the information in each chapter is perfectly pertinent to the course requirements.
+
+\section*{Course Assignments}\label{course-assignments-3}
+
+
+\subsection*{Grading Policy}\label{grading-policy-3}
+
+
+Typically, an A- is defined as 90\% of the highest point total in the class, B- as 80\% of that total, C- as 70 and D- as 60\%.
+I may shift these values down to provide a better fit to the actual point distribution.
+By scaling to a percentage of the highest point total in the class, each student has a much better chance of receiving higher grades than if no re-scaling were done.
+This curve can only help your grade.
+
+The full table is provided below:
+
+\begin{table}
+
+\caption{\label{tab:unnamed-chunk-7}Full Table}
+\centering
+\begin{tabular}[t]{l|r}
+\hline
+Letter & Cutoff\\
+\hline
+A & 0.95\\
+\hline
+A- & 0.90\\
+\hline
+B+ & 0.87\\
+\hline
+B & 0.84\\
+\hline
+B- & 0.80\\
+\hline
+C+ & 0.77\\
+\hline
+C & 0.74\\
+\hline
+C- & 0.70\\
+\hline
+D+ & 0.67\\
+\hline
+D & 0.64\\
+\hline
+D- & 0.60\\
+\hline
+\end{tabular}
+\end{table}
+
+\subsection*{Curve Projections}\label{curve-projections-2}
+
+
+Unsurprisingly, students have many questions about the curve in this class. For tests and other assignments, I try to provide a projected letter grade.
+This projected letter grade is there to give you a sense of what your score \emph{would} be if I implemented the class curve on this particular assignment.
+It is a projection. It is not a guarantee. These projected letter grades are not incorporated into your final grade.
+
+\subsection*{Quizzes}\label{quizzes-2}
+
+
+There will be 6 quizzes in this course. These will be approximately every three weeks. The best 5 out of 6 quiz grades will be used to determine your total quiz grade. You can drop 1 of the quizzes for any reason.
+
+\subsubsection*{Quiz Dates}\label{quiz-dates-1}
+
+
+\begin{itemize}
+\item
+  Quiz 1: Friday, 02/12
+\item
+  Quiz 2: Friday, 03/05
+\item
+  Quiz 3: Friday, 04/02
+\item
+  Quiz 4: Friday, 04/23
+\item
+  Quiz 5: Friday, 05/07
+\item
+  Quiz 6: During Finals, 05/14
+\end{itemize}
+
+\subsection*{Take Home Assignments}\label{take-home-assignments}
+
+
+There are four large take-home assignments. Two are qualitative and two are quantitative.
+
+I will provide more specific written guidelines at least two weeks before each assignment is due. You have to submit assignment 1 because I give extensive feedback that will help you on later assignments. However, you may skip assignment 2 or 3.
+
+\subsubsection*{Assignment Dates}\label{assignment-dates-1}
+
+
+\begin{itemize}
+\item
+  Assignment 1: Friday, 03/12: Set 1 and Critique of an online test.
+\item
+  Assignment 2: Friday, 04/23: Set 2 and Critique of a testing-related popular media article.
+\item
+  Assignment 3: Friday, 05/07: Set 3 and Critique of a testing-related YouTube video.
+\end{itemize}
+
+\section*{Engagement Activities}\label{engagement-activities-2}
+
+
+There will be multiple engagement activities in this course. These activities will allow you engage with the material for each module. Details about the specific activities will be provided on canvas. Students must complete two activities per module.
+
+\section*{Grading Weighting}\label{grading-weighting-1}
+
+
+\begin{itemize}
+\tightlist
+\item
+  150 points of your grade will be determined by your best five (5) quizzes.
+\item
+  150 points of your grade will be determined by your best three (3) take-home assignments.
+\item
+  50 points of your grade will be determined by your engagement.
+\end{itemize}
+
+\section*{Schedule}\label{schedule-2}
+
+
+\begin{tabular}{rlll}
+\toprule
+module & start & topic & week\\
+\midrule
+1 & 01/25 & Foundations and Nature of Testing & Week 01, 01/25 - 01/29\\
+2 & 02/01 & History of Testing & Week 02, 02/01 - 02/05\\
+3 & 02/08 & Ethical and Social Considerations in Testing & Week 03, 02/08 - 02/12\\
+4 & 02/15 & Norms and the Meaning of Test Scores & Week 04, 02/15 - 02/19\\
+5 & 02/22 & Classical Test Theory & Week 05, 02/22 - 02/26\\
+\addlinespace
+6 & 03/01 & Reliability & Week 06, 03/01 - 03/05\\
+7 & 03/08 & Catch Up Week & Week 07, 03/08 - 03/12\\
+8 & 03/15 & Validity & Week 08, 03/15 - 03/19\\
+9 & 03/22 & Item Analysis & Week 09, 03/22 - 03/26\\
+10 & 03/29 & Factor Analysis & Week 10, 03/29 - 04/02\\
+\addlinespace
+11 & 04/05 & Item Response Theory & Week 11, 04/05 - 04/09\\
+12 & 04/12 & Practical Testing Things & Week 12, 04/12 - 04/16\\
+13 & 04/19 & Ability Testing & Week 13, 04/19 - 04/23\\
+14 & 04/26 & Personality Testing & Week 14, 04/26 - 04/30\\
+15 & 05/03 & Review & Week 15, 05/03 - 05/07\\
+\bottomrule
+\end{tabular}
+
+\chapter*{392: CI Wikipedia}\label{wikipedia}
+
+
+\section*{Course Description}\label{course-description-4}
+
+
+\textbf{PSY-392-F: Contemporary Issues in Psychology - Citation Needed: Psychology, Misinformation, and Wikipedia}
+
+Wikipedia shapes what millions of people think psychology is. But how much of that knowledge is accurate, oversimplified, outdated, or contested? In this discussion-driven seminar, we use Wikipedia as a lens for understanding how psychological science travels from labs and journals into the public imagination. Students dig into major pages on classic studies, theories, and controversies to see where the science is represented well, where it goes sideways, and why.
+
+Along the way, we examine how replication failures, methodological debates, and scientific uncertainty do (or don't) surface on a platform that presents itself as neutral and authoritative. We also ask what responsibilities psychologists might have when a crowd-edited encyclopedia becomes the de facto gateway to their field.
+
+Through hands-on critique, research, and editorial contributions, students not only learn the science behind the pages but also see how public knowledge about psychology gets built, negotiated, and sometimes distorted.
+
+\subsection*{Guiding Question}\label{guiding-question}
+
+
+How is psychological science represented, simplified, distorted, and contested on Wikipedia, and what does that mean for how people understand psychology?
+- When does Wikipedia get psychological science basically right, and when does it go off the rails?
+- How do replication, controversy, and uncertainty show up (or get hidden) in coverage of classic studies and constructs?
+- What responsibilities do psychologists have, if any, when Wikipedia is a primary source of information about their field?
+
+\section*{Course Modality}\label{course-modality}
+
+
+This is a half-semester course running from March 01 through April 28, 2025. Classes meet on Tuesdays and Thursdays.
+
+\section*{Required Materials}\label{required-materials-3}
+
+
+All course materials will be provided through the \href{https://dashboard.wikiedu.org/}{Wikipedia Education Dashboard}. Students will complete training modules and exercises through this platform.
+
+\section*{Course Assignments}\label{course-assignments-4}
+
+
+You will be formally evaluated in three different ways. Instructions for the assignments can be found on the \href{https://dashboard.wikiedu.org/}{Wikipedia Education Dashboard}.
+
+This course is structured around the Wikipedia Education Foundation's assignment framework. You will work through a systematic process of evaluating, researching, drafting, peer reviewing, and publishing improvements to Wikipedia articles related to psychological science.
+
+\subsection*{Wikipedia Editing Project}\label{wikipedia-editing-project}
+
+
+The core of this course is a structured Wikipedia editing assignment. You will select a Wikipedia article related to psychological science, evaluate its current state, research reliable sources, and make substantive improvements. This project includes:
+
+\begin{itemize}
+\tightlist
+\item
+  Critical evaluation of existing Wikipedia content
+\item
+  Research and bibliography development
+\item
+  Drafting and revising contributions
+\item
+  Peer review participation
+\item
+  Publishing live edits to Wikipedia
+\end{itemize}
+
+\textbf{Key Milestones:}
+
+\begin{itemize}
+\tightlist
+\item
+  Week 3 (03/20): Evaluate Wikipedia Exercise
+\item
+  Week 4 (03/27): Find Potential Articles
+\item
+  Week 5 (04/03): Bibliography \& Outline
+\item
+  Week 6 (04/10): Peer Reviews Complete
+\item
+  Week 8 (04/24): Final Article Due
+\end{itemize}
+
+\subsection*{Weekly Journal}\label{weekly-journal}
+
+
+Throughout the course, you will maintain a weekly journal reflecting on your experiences with Wikipedia editing, the challenges of representing psychological science accurately, and the broader implications for public understanding of psychology.
+
+\subsection*{Reflective Essay}\label{reflective-essay}
+
+
+At the end of the course, you will write a reflective essay discussing what you learned about Wikipedia, psychological science communication, and the relationship between academic research and public knowledge.
+
+\textbf{Due:} 04/24
+
+\subsection*{Presentation}\label{presentation-1}
+
+
+You will give a brief presentation about your Wikipedia editing project, highlighting the changes you made and the challenges you encountered in representing psychological science accurately.
+
+\textbf{Due:} 04/24 \href{https://dashboard.wikiedu.org/training/students/in-class-presentation-exercise}{View}
+
+\section*{Grading Policy}\label{grading-policy-4}
+
+
+Your letter grade for this course is determined by the percentage of total points earned throughout the semester.
+
+A letter grade will be assigned on the basis of the following scale provided below:
+
+The full table is provided below:
+
+\begin{table}
+
+\caption{\label{tab:unnamed-chunk-5}Full Table}
+\centering
+\begin{tabular}[t]{l|r}
+\hline
+Letter & Cutoff\\
+\hline
+A & 0.95\\
+\hline
+A- & 0.90\\
+\hline
+B+ & 0.87\\
+\hline
+B & 0.84\\
+\hline
+B- & 0.80\\
+\hline
+C+ & 0.77\\
+\hline
+C & 0.74\\
+\hline
+C- & 0.70\\
+\hline
+D+ & 0.67\\
+\hline
+D & 0.64\\
+\hline
+D- & 0.60\\
+\hline
+\end{tabular}
+\end{table}
+
+I \emph{may} shift these thresholds down \emph{slightly} to provide a better fit to the actual point distribution. This shift can only help your grade.
+
+\subsection*{Weighting}\label{weighting-1}
+
+
+\begin{itemize}
+\tightlist
+\item
+  30 points: Wikipedia contributions (quality, scope, and impact of edits)
+\item
+  20 points: Weekly journals (depth of reflection and engagement)
+\item
+  15 points: Peer review participation (thoroughness and constructiveness)
+\item
+  20 points: Reflective essay (critical analysis and insight)
+\item
+  15 points: Final presentation (clarity and thoughtfulness)
+\end{itemize}
+
+\section*{Schedule}\label{schedule-3}
+
+
+\begin{tabular}{rllll}
+\toprule
+module & start & topic & week & milestones\\
+\midrule
+1 & 03/03 & Introduction to Wikipedia Assignment & Week 01, 03/03 - 03/07 & NA\\
+2 & 03/10 & Break Week & Week 02, 03/10 - 03/14 & NA\\
+3 & 03/17 & Generative AI and Evaluating Wikipedia & Week 03, 03/17 - 03/21 & Evaluate Wikipedia Exercise\\
+4 & 03/24 & Review Rules and Choose Topics & Week 04, 03/24 - 03/28 & Find Potential Articles\\
+5 & 03/31 & Copyedit, Finalize Topic, Start Drafting & Week 05, 03/31 - 04/04 & Bibliography \& Outline\\
+\addlinespace
+6 & 04/07 & Peer Review and Move to Wikipedia & Week 06, 04/07 - 04/11 & Peer Reviews\\
+7 & 04/14 & Continue Improving Article & Week 07, 04/14 - 04/18 & NA\\
+8 & 04/21 & Polish and Final Article & Week 08, 04/21 - 04/25 & Final Article\\
+9 & 04/28 & Final Presentations & Week 09, 04/28 - 05/02 & Reflective Essay \& Presentation\\
+\bottomrule
+\end{tabular}
+
+\chapter*{718: Data Science}\label{data-science}
+
+
+\section*{Course Description}\label{course-description-5}
+
+
+Data Science for Psychologists (DS4P) introduces the principles of data science, including data wrangling, modeling, visualization, and communication. In this class, we link those principles to psychological methods and open science practices by emphasizing exploratory analyses and description, rather than confirmatory analyses and prediction. We'll work our way thru Wickham and Grolemund's R for Data Science text (\url{http://r4ds.had.co.nz/}) and develop expertise in tidyverse (\url{https://www.tidyverse.org/}). This class emphasizes replication and reproducibility. DS4P is a practical skilled-based class and should be useful to students aiming for academia as well as those interested in industry. Applications of these methods can be applied to a full range of psychological areas, including perception (e.g, eye-tracking data), neuroscience (e.g., visualizing neural networks), and individual differences (e.g., valence analysis).
+
+\subsection*{Broad goals for the course:}\label{broad-goals-for-the-course-2}
+
+
+\begin{itemize}
+\tightlist
+\item
+  \begin{enumerate}
+  \def\labelenumi{\arabic{enumi}.}
+  \tightlist
+  \item
+    Reproducibility;
+  \end{enumerate}
+\item
+  \begin{enumerate}
+  \def\labelenumi{\arabic{enumi}.}
+  \setcounter{enumi}{1}
+  \tightlist
+  \item
+    Replication;
+  \end{enumerate}
+\item
+  \begin{enumerate}
+  \def\labelenumi{\arabic{enumi}.}
+  \setcounter{enumi}{2}
+  \tightlist
+  \item
+    Robust Methods;
+  \end{enumerate}
+\item
+  \begin{enumerate}
+  \def\labelenumi{\arabic{enumi}.}
+  \setcounter{enumi}{3}
+  \tightlist
+  \item
+    Really Nice Visualization; and
+  \end{enumerate}
+\item
+  \begin{enumerate}
+  \def\labelenumi{\arabic{enumi}.}
+  \setcounter{enumi}{4}
+  \tightlist
+  \item
+    R
+  \end{enumerate}
+\end{itemize}
+
+\section*{Required Materials}\label{required-materials-4}
+
+
+All materials for this course are open source, including the multimedia course notes.
+
+\begin{itemize}
+\tightlist
+\item
+  Garrison's Data Science for Psychologists (\url{https://datascience4psych.github.io/DataScience4Psych/})
+\item
+  Wickham and Grolemund's R for Data Science text (\url{http://r4ds.had.co.nz/})
+\end{itemize}
+
+\section*{Course Assignments}\label{course-assignments-5}
+
+
+You will be formally evaluated in three different ways. Instructions for the assignments can be found in the \href{https://datascience4psych.github.io/DataScience4Psych/}{course notes}.
+
+\subsection*{Presentation}\label{presentation-2}
+
+
+You will give one presentation. This presentation will be approximately 10-minutes. This presentation is a chance to practice a formal presentation in a relatively pressure-free setting).
+
+\subsection*{Labs}\label{labs-1}
+
+
+There is (at least) one lab available per module. You can find the modules in the \href{https://datascience4psych.github.io/DataScience4Psych/}{course notes}.
+
+\subsection*{Portfolio}\label{portfolio-1}
+
+
+The major semester projects (\href{https://datascience4psych.github.io/DataScience4Psych/guidance.html\#portfolio}{described on the data science website}) are a set of DS4P Projects, which you will summarize in a DS4P Portfolio to be handed in on the last day of class. Instructions for \href{https://datascience4psych.github.io/DataScience4Psych/guidance.html\#portfolio}{the portfolio} can be found in the \href{https://datascience4psych.github.io/DataScience4Psych/}{course notes}.
+
+\subsection*{Engagement}\label{engagement-1}
+
+
+This experiential course requires active engagement. There will be few lectures and we will not be building toward an exam. Instead, we will work together to build our facilities for thinking critically about data. You should come to every class having read all of the required reading, watched the required videos, browsed the suggested resources, and so forth. You should enter the classroom prepared to discuss these materials with colleagues and complete both individual and group in-class assignments.
+
+\section*{Grading Policy}\label{grading-policy-5}
+
+
+In this course, you will determine the grade you receive by fulfilling a contract you will submit for my approval by 01/23 (a.k.a the end of the 2nd week of class).
+
+Your written contract will detail:
+
+\begin{itemize}
+\item
+  The requirements you will meet in order to receive the grade for which you've contracted,
+\item
+  the penalties you will incur for not meeting those requirements,
+\item
+  a calendar you will follow for meeting the requirements you have outlined.
+\end{itemize}
+
+Many aspects of this calendar will be determined by milestones outlined on the course schedule, but your contract will take ownership of these deadlines while committing to specific due dates for the course's more flexible assignments.
+
+\section*{Contract Details}\label{contract-details-1}
+
+
+To fulfill any grade contract a student must do the following, which should nonetheless be specified in the contract submitted for approval. When writing self-assessments students must describe how they have met these requirements in addition to the grade-specific requirements:
+
+\begin{itemize}
+\item
+  Come to class prepared to discuss any assigned readings, videos, or other media. Participate actively in class activities and discussions, making observations and asking questions that help the class think together.
+\item
+  Work consistently throughout the semester. Consistent work means making regular, visible progress on contractual assignments according to the calendar in the approved contract, rather than completing most of the work at the end of the semester. For work submitted through GitHub or other version-controlled platforms, commit history may be used as one form of evidence of sustained progress. For other assignments, drafts, submissions, revision history, check-ins, and other records of work may be used as evidence.
+\item
+  Communicate with me in a timely way if you are unable to follow the calendar in your approved contract. Communication does not automatically amend the contract, but it allows us to discuss whether an adjustment is needed.
+\item
+  Meet with me synchronously during office hours or another scheduled time at least once around midterm, roughly between weeks 5 and 8, to ensure you are on track to meet your contract requirements, discuss any questions or concerns you have about the course or your progress, and decide on any necessary contract amendments.
+\item
+  Revise contractual assignments as necessary until both you and I consider them ``Satisfactory.''
+\item
+  Complete a final grade reflection and contract self-assessment, submitting it to me by 5pm on the last day of class. This assignment is separate from the final portfolio.
+
+  \begin{itemize}
+  \item
+    The contract summary must list and link to each deliverable, identify completion dates, explain which work fulfills which contract requirements, and provide evidence of consistent work across the semester.
+  \item
+    The grade reflection must explain the grade the student believes they earned based on the approved contract, the work completed, and the evidence provided in the summary. Because the highest available contract grade is an A-, students who believe they have earned an A must explain what work was exceptional enough to justify an upward adjustment beyond the contracted grade.
+  \item
+    The reflection must also discuss what the student learned throughout the semester, including how their understanding, skills, work habits, or goals developed through the course.
+  \end{itemize}
+\end{itemize}
+
+The professor reserves the right to award a grade of D or F to anyone who fails to meet a contractual obligation in a systematic way. A ``D'' grade denotes some minimal fulfilling of the contract. An ``F'' is absence of enough satisfactory work, as contracted, to warrant passing of the course. Both a ``D'' and ``F'' denote a breakdown of the contractual relationship implied by signing any of the contracts described above.
+
+\subsection*{What About Exceptional (or Mediocre) Work?}\label{what-about-exceptional-or-mediocre-work-1}
+
+
+I also reserve the right to reward exceptional work throughout the semester using the full range of Wake Forest's grading scale. If you contract for a ``A-,'' for instance, and submit particularly strong pieces to fulfill that contract, I may elect to raise your contracted grade to a ``A.''
+
+Likewise, if you consistently submit mediocre work in fulfillment of your contract, I reserve the right to adjust your grade one half-step down (e.g.~from ``A-'' to ``B+``) or even, in extreme cases, a full step.
+
+\subsection*{Contract Adjustments}\label{contract-adjustments-1}
+
+
+Periodically during the semester I will ask you to evaluate your work thus far and compare it against what you agreed in your grade contract. In these moments you can also take the opportunity to request an adjustment to your contract in either direction. If you find that you will be unable to meet the obligations of your contract, including the calendar and consistent-work expectations, you may request to move to the next lowest grade and its requirements. Contrariwise, if you find that you've been performing above the obligations of your contract, you may request to fulfill the requirements for the next higher grade.
+
+Contract adjustments must be discussed while there is still time to make a meaningful change to the work plan. Communication about difficulty, delays, or workload is important, but it does not by itself change the terms of the contract. Any change to the contract must be discussed with me and approved.
+
+Important Note: In order to effectively evaluate your own progress, you must keep track of your work, including days missed, delayed assignments, revisions, and other evidence of progress toward the contract.
+
+\subsection*{Contract Grades}\label{contract-grades-1}
+
+
+\subsection*{``A-'' Contract}\label{a--contract-1}
+
+
+To contract for an ``A-'' in this course, you agree to:
+
+\begin{itemize}
+\item
+  Earn ``Satisfactory'' on 11 self-paced lab assignments on a schedule you will specify in your contract.
+\item
+  Produce at least 12 ``Satisfactory'' portfolio pieces over the course of the semester.
+\item
+  Compile those portfolio pieces into a ``Satisfactory'' Portfolio.
+\item
+  Submit a final contract summary and reflection in addition to the final portfolio.
+\item
+  For your planning, this works out to be approximately, 1.44 per week.
+\end{itemize}
+
+\subsection*{``B'' Contract}\label{b-contract-1}
+
+
+To contract for a ``B'' in this course, you agree to:
+
+\begin{itemize}
+\item
+  Earn ``Satisfactory'' on 9 self-paced lab assignments on a schedule you will specify in your contract.
+\item
+  Produce at least 10 ``Satisfactory'' portfolio pieces over the course of the semester.
+\item
+  Compile those portfolio pieces into a ``Satisfactory'' Portfolio.
+\item
+  Submit a final contract summary and reflection in addition to the final portfolio.
+\item
+  For your planning, this works out to be approximately, 1.19 per week.
+\end{itemize}
+
+\subsection*{``P'' Contract}\label{p-contract-1}
+
+
+To contract for a ``P'' or Pass in this course, you agree to:
+
+\begin{itemize}
+\item
+  Earn ``Satisfactory'' on 7 self-paced lab assignments on a schedule you will specify in your contract.
+\item
+  Produce at least 8 ``Satisfactory'' portfolio pieces over the course of the semester.
+\item
+  Compile those portfolio pieces into a ``Satisfactory'' Portfolio.
+\item
+  Submit a final contract summary and reflection in addition to the final portfolio.
+\item
+  For your planning, this works out to be approximately, 0.94 per week.
+\end{itemize}
+
+\section*{Tentative Module Release Schedule}\label{tentative-module-release-schedule-1}
+
+
+Note that I'll be using your contracts to guide my tinkering.
+
+\begin{tabular}{rllll}
+\toprule
+module & start & topic & week & milestones\\
+\midrule
+1 & 01/12 & What is Data Science and Meet the Toolkit & Week 01, 01/12 - 01/16 & NA\\
+2 & 01/19 & Data and Visualization & Week 02, 01/19 - 01/23 & Contract\\
+3 & 01/26 & Welcome to the Tidyverse & Week 03, 01/26 - 01/30 & NA\\
+4 & 02/02 & Data types and Data Transformations & Week 04, 02/02 - 02/06 & NA\\
+5 & 02/09 & Effective data visualization & Week 05, 02/09 - 02/13 & NA\\
+\addlinespace
+6 & 02/16 & Scientific Communication and confounding & Week 06, 02/16 - 02/20 & NA\\
+7 & 02/23 & Functions and Automation & Week 07, 02/23 - 02/27 & NA\\
+8 & 03/02 & Webscraping & Week 08, 03/02 - 03/06 & NA\\
+9 & 03/09 & Spring Break & Week 09, 03/09 - 03/13 & NA\\
+10 & 03/16 & Ethics & Week 10, 03/16 - 03/20 & NA\\
+\addlinespace
+11 & 03/23 & Tidy Models & Week 11, 03/23 - 03/27 & NA\\
+12 & 03/30 & Overfitting and Cross validation & Week 12, 03/30 - 04/03 & NA\\
+13 & 04/06 & Quantifying uncertainty & Week 13, 04/06 - 04/10 & NA\\
+14 & 04/13 & Rshiny & Week 14, 04/13 - 04/17 & NA\\
+15 & 04/20 & Machine Learning & Week 15, 04/20 - 04/24 & NA\\
+\addlinespace
+16 & 04/27 & Presentations & Week 16, 04/27 - 05/01 & Presentation\\
+\bottomrule
+\end{tabular}
+
+\part*{For Your Information}\label{part-for-your-information}
+
+
+\chapter{How to do well in my classes}\label{how-to-do-well-in-my-classes}
+
+To do well in the course, you should read the assigned material before class and re-read previously assigned material as the course progresses.
+By reading the text before class, you will be better prepared to ask questions and integrate the content of lectures with what was presented in the text.
+For synchronous classes, be sure to attend all lectures and arrive on time.
+For asynchronous classes be sure to watch all the video lectures and don't leave them until the last minute. Each topic builds directly on the previous one.
+Thus, if you miss one lecture or zip through a video, you run the risk of being completely lost in the next lecture.
+
+\section{College Workload}\label{college-workload}
+
+\href{https://registrar.wfu.edu/facultystaff-information/semester-credit-hour/}{WFU on Credit Hours}
+
+Wake Forest uses something called a ``semester credit hour'' to measure the amount of coursework you will be doing. This number reflects the outcomes we expect you to achieve, the mode of instruction, scheduled in-class time, and the amount of outside preparatory work expected for the class.
+
+At a general rule, you can expect to work an average of two hours outside of class for every hour spent in the classroom. So, for example, if you have a three-credit course that meets for three hours a week, you can expect to spend around six hours a week working on that course outside of class. This includes reading, homework, writing, research, and any other coursework required for the class.
+
+If you are taking a standard 15-hour course load, you can expect to spend approximately 15 hours in the classroom and around 30 hours outside of the classroom for an average total of 45 hours of classroom work, study, writing, research, etc. each week. Over the course of a 15-week semester, this adds up to 135 hours of work per semester per course and 675 hours per semester for a full course load.
+
+Remember, this is just an average. Some weeks you may have more work to do than others, and some classes may require more outside work than others. However, understanding the expected workload for each course can help you plan your time and stay on top of your coursework.
+
+\section{Successful Asynchronous Learning}\label{successful-asynchronous-learning}
+
+I've created a \href{https://youtu.be/dc3D2tbl8G0}{video} highlighting how to be a successful asynchronous learner.
+
+\includegraphics[width=30.76in]{img/learngood}
+
+Much of this information comes from Northeastern University's \href{https://www.northeastern.edu/graduate/blog/tips-for-taking-online-classes/}{Tips for Taking Online Classes}
+
+\section{Addition pieces of advice:}\label{addition-pieces-of-advice}
+
+\begin{itemize}
+\tightlist
+\item
+  Read the syllabus.
+\item
+  Read all the class announcements.
+\item
+  Read the FAQ and post your questions about the class there.
+\item
+  Read and follow the instructions for each assignment.
+\item
+  Read your professor's comments on your submissions -- especially if you did not get full credit on that submission.
+\item
+  Treat canvas messages like email.
+\item
+  Read and respond to canvas messages from your professor.
+\item
+  Before you send email your professor, try to answer the question yourself by looking at the syllabus, reading the course FAQ, and reading the assignment instructions.
+\item
+  Know when assignment deadlines are.
+\item
+  If you need additional time or flexibility on an assignment, you communicate with your professor before the deadline passes.
+\end{itemize}
+
+\chapter{Frequently Asked Questions}\label{frequently-asked-questions}
+
+Below you'll find answers to the questions that I get asked the most by students in my classes. I have been asked every single one of these questions.
+
+Before asking a question, please check if it's already answered here. If you can't find your answer, feel free to post on the class discussion board.
+
+I don't want to discourage you from asking questions. However, asking me is not an efficient method for finding facts and searchable information\ldots{}
+
+\section*{FAQ Categories}\label{faq-categories}
+
+
+\begin{itemize}
+\tightlist
+\item
+  \hyperref[general]{General Course Questions}
+\item
+  \hyperref[grading]{Grading and Assignments}
+\item
+  \hyperref[materials]{Course Materials}
+\item
+  \hyperref[tech]{Technical Issues}
+\item
+  \hyperref[nos]{NOS}
+\end{itemize}
+
+\section{General Course Questions}\label{general}
+
+\subsection{How can I get ahold of you?}\label{how-can-i-get-ahold-of-you}
+
+\begin{itemize}
+\item
+  Face2Face: Green 438
+\item
+  Calendly Appointments: \url{https://calendly.com/smasongarrison}
+\item
+  Email: \href{mailto:garrissm@wfu.edu}{\nolinkurl{garrissm@wfu.edu}}
+\item
+  Text: 267.357.4392
+\item
+  Github: \url{https://github.com/smasongarrison}
+\item
+  Twitter: \url{https://twitter.com/SMasonGarrison}
+\item
+  Phone Call: \ldots{}
+\end{itemize}
+
+\begin{center}\includegraphics[width=0.5\linewidth]{img/why-this-millennial-didnt-answer-your-call} \end{center}
+
+Credit: \href{https://kikischirr.medium.com/}{Kiki Schirr} at \href{https://medium.com/tech-doodles}{Tech Doodles} on \href{https://medium.com/tech-doodles/why-this-millennial-didnt-answer-your-call-d5abccf06cfc}{``Why this millennial didn't answer your call''}
+
+\subsection{Where can I find the reading list for the entire semester?}\label{where-can-i-find-the-reading-list-for-the-entire-semester}
+
+You can find the suggested readings for each module either on canvas or the GitHub course notes.
+
+\subsection{Where can I find when assignments are due?}\label{where-can-i-find-when-assignments-are-due}
+
+You can find due dates in the syllabus and on canvas.
+
+\subsection{Where can I check the closing time of assessments?}\label{where-can-i-check-the-closing-time-of-assessments}
+
+You can check the due time and closing time of assessments by clicking the corresponding page in ``Modules''.
+
+\subsection{How much time should I spend on one class every week?}\label{how-much-time-should-i-spend-on-one-class-every-week}
+
+The general rule of thumb is that you should spend 2-3 hours outside of class for every hour you spend in class. This means that for a 3-credit course, you should spend 6-9 hours per week on that course.
+
+(Under the standard ``Carnegie Unit'', each credit hour corresponds to a \emph{minimum} of 3 hours of student engagement per week for a traditional 15-week course. See the WFU registrar for more details.)
+
+\subsection{Can my parents email you about my class performance?}\label{can-my-parents-email-you-about-my-class-performance}
+
+Unless you are legally a minor, I cannot answer your parents' questions about this class.
+
+\subsection{Does it hurt to ask\ldots{}}\label{does-it-hurt-to-ask}
+
+Yes, it actually DOES hurt to ask for special exceptions or to disregard syllabus policies. It can make you look bad and burn bridges. Please don't ask for special treatment.
+
+\section{Grading and Assignments}\label{grading}
+
+\subsection{Where are my grades?}\label{where-are-my-grades}
+
+You can find your grades on Canvas, under the ``Grades'' section. I will not look up this grade for you. You are all hard-working and problem-solving students. I believe in you! Please note that Canvas's overall grade is not the official grade for the class. It is there to help you calculate based on the stated weights in the syllabus.
+
+\subsection{Can you bump up my grade?}\label{can-you-bump-up-my-grade}
+
+No.~Please don't \href{https://undergraduateswrite.com/2019/05/10/i-say-grade-grubbing-you-say-it-doesnt-hurt-to-ask-on-asking-teachers-to-bump-your-final-grade/}{grade grub}. Don't ask for extra credit or special opportunities to boost your grade. No.~Please don't. \href{https://undergraduateswrite.com/2019/05/10/i-say-grade-grubbing-you-say-it-doesnt-hurt-to-ask-on-asking-teachers-to-bump-your-final-grade/}{Seriously, don't do it at the end of the semester.} Don't ask for extra credit or special opportunities to boost your grade. Please don't pull on my heartstrings about how you need a certain grade or there will be consequences for you. I know that many students think that it doesn't hurt to ask. It does. It hurts me. Although I care deeply about my students, I have to say no because it isn't equitable. So please don't ask for the grade boost. Seriously, I get enough emotional manipulation from my cats for leaving them at home all day.
+
+\subsection{Can you calculate my grade for me?}\label{can-you-calculate-my-grade-for-me}
+
+No.~You are capable of calculating a weighted average. You have all the information you need in the syllabus and the raw scores from Canvas. If you need help, try this website: \url{https://thegradecalculator.com/}
+
+\subsection{What can I do to get a better grade?}\label{what-can-i-do-to-get-a-better-grade}
+
+The work\ldots{}
+
+\includegraphics[width=18.14in]{img/worriedgrade}
+
+\subsection{\texorpdfstring{Why is the locked?}{Why is the  locked?}}\label{why-is-the-locked}
+
+To unlock the activity/module, you need to complete all the listed requirements. Double check that you've complete all the requirements to unlock it.
+
+\subsection{Why do I have to meet with you if I want to see my test again?}\label{why-do-i-have-to-meet-with-you-if-i-want-to-see-my-test-again}
+
+My tests/quizzes and grading rubrics take a long time to make. While I'm happy to show you both your test and the rubric used to grade it, I can't share those publicly.
+
+\subsection{How do I ask professors for extensions?}\label{how-do-i-ask-professors-for-extensions}
+
+\subsection{Can't you just tell me my letter grade? Your curve is confusing.}\label{cant-you-just-tell-me-my-letter-grade-your-curve-is-confusing.}
+
+The curve can only help you. It means I can lower the thresholds for letter grades, but not raise them. Your best approach is to pretend that there is no curve.
+
+For perspective on how curves can sometimes be used in harmful ways (particularly in competitive academic environments), see this video essay about how curves and scholarships work at a particular law school: \url{https://www.youtube.com/watch?v=4jYrRhtH2eI}. While my curve policy is designed to help students (not hurt them), it's worth understanding different approaches to grading curves in higher education.
+
+\subsection{Does it hurt to ask\ldots{}}\label{does-it-hurt-to-ask-1}
+
+Yes, it actually DOES hurt to ask. If you know your Prof or the syllabus has a specific policy on something, but you ask for a special exception to be made for you anyway under the idea, ``it doesn't hurt to ask,'' let me just tell you, yes---it really does. It can make you look bad, it can burn bridges, my goodwill \& grace, and connections you may need later. Please don't ask your profs for special treatment or to disregard syllabus policies they are required to adhere to.
+
+\subsubsection{Where are my grades?}\label{where-are-my-grades-1}
+
+You can find it on canvas, under grades. I will not look up this grade for you. You are all hard working and problem-solving students. I believe in you!
+
+\subsubsection{Where can I find more information about\ldots{}}\label{where-can-i-find-more-information-about}
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://is.wfu.edu/student/}{WFU technology services or computer resources}
+\item
+  \href{https://college.wfu.edu/student-resources/}{WFU student resources}
+\item
+  \href{https://class.wfu.edu/}{Center for Learning, Access, and Student Success}
+\item
+  \href{https://advising.wfu.edu/}{Office of Academic Advising}
+\item
+  \href{https://thrive.wfu.edu/}{Office of Wellbeing}
+\item
+  \href{https://status.is.wfu.edu/}{WFU's Service Status Dashboard}
+\item
+  \href{https://map.wfu.edu/}{WFU Campus Map}
+\item
+  \href{https://zsr.wfu.edu/}{WFU Library}
+\end{itemize}
+
+\subsubsection{Where can I find help for canvas?}\label{where-can-i-find-help-for-canvas}
+
+If you're having trouble with Canvas, you should first search the \href{https://community.canvaslms.com/t5/Canvas-Basics-Guide/tkb-p/basics}{Canvas Guides} and then reach out to canvas support. Although I am not Canvas tech support, I have provided some answers and resources to commonly asked questions in a later {[}section{]}{[}canvas{]}.
+
+\subsection{Where can I find textbooks and course materials?}\label{where-can-i-find-textbooks-and-course-materials}
+
+\begin{itemize}
+\tightlist
+\item
+  If you'd like to purchase materials, you can do so from any bookstore, including Wake Forest's.
+\item
+  If you'd like to rent materials, you can do so from anywhere you'd like, including Wake Forest's Bookstore or the publisher.
+\item
+  If you'd like to get materials for free, you can borrow the materials from the library course reserve.
+\item
+  If you'd like to get materials for free, you can borrow the materials from someone who'se already taken the course.
+\item
+  \textbf{Obviously}, I can't recommend finding the materials online\ldots{}
+\end{itemize}
+
+\subsection{Can\ldots{}}\label{can}
+
+\subsubsection{Can I rent the textbook for this course from somewhere (Amazon, bookstores, etc.)?}\label{can-i-rent-the-textbook-for-this-course-from-somewhere-amazon-bookstores-etc.}
+
+Of course. You can rent the book from Amazon or anywhere else you'd like.
+
+\subsubsection{Can you calculate my grade for me?}\label{can-you-calculate-my-grade-for-me-1}
+
+No.~I believe in you!
+
+You are capable of calculating a weighted average.
+You have 100\% of the information you need to do so as outlined in the syllabus.
+You can calculate your grade using a weighted average and the weightings in the syllabus.
+If you really really need help with this, try \href{https://thegradecalculator.com/}{this website}.
+
+\subsubsection{Can my parents email you about my class performance?}\label{can-my-parents-email-you-about-my-class-performance-1}
+
+Unless you are legally a minor, I cannot answer your parents questions about this class.
+
+\paragraph{Should my parents email you about my class performance?}\label{should-my-parents-email-you-about-my-class-performance}
+
+No.
+
+\subsection{Why\ldots{}}\label{why}
+
+\subsubsection{\texorpdfstring{Why is the locked?}{Why is the  locked?}}\label{why-is-the-locked-1}
+
+\subsubsection{Why do I have to meet with you if I want to see my test again? Why can't you just release them?}\label{why-do-i-have-to-meet-with-you-if-i-want-to-see-my-test-again-why-cant-you-just-release-them}
+
+Unfortunately, my tests/quizzes take a long time to make as do the rubrics I use to grade. So although I'm happy to show you both your test and the rubric used to grade it, I can't share those publicly.
+
+\subsubsection{How much time should I spend on one class every week?}\label{how-much-time-should-i-spend-on-one-class-every-week-1}
+
+The time you spend on a class can vary. No two instructors will format their classes exactly the same. Nevertheless, under the standard {[}``Carnegie Unit''{]} (\url{https://www.carnegiefoundation.org/faqs/carnegie-unit/}), each credit hour corresponds to a \emph{minimum} of 3 hours of student engagement per week for a traditional 15-week course. This time may be spent on discussions, readings, and lectures, study, and research, and assignments. See the WFU registrar for \href{https://registrar.wfu.edu/semester-credit-hour/}{more details} if you'd like
+
+If you find yourself spending a lot more or a lot less than 9 hours per week on this class, please let me know. That probably means that either you're doing too much or too little.
+
+\section{Technical Issues}\label{tech}
+
+\subsection{How do I use Canvas for class?}\label{how-do-i-use-canvas-for-class}
+
+Students will use Canvas to access course content. All work/assignments/projects will be distributed and collected through Canvas.
+
+\subsection{I'm having trouble with Canvas -- help!}\label{im-having-trouble-with-canvas-help}
+
+If you're having trouble with Canvas, you should search the \href{https://community.canvaslms.com/t5/Canvas-Basics-Guide/tkb-p/basics}{Canvas Guides} and then reach out to canvas support.
+
+\subsection{How do I contact the Canvas Help Desk?}\label{how-do-i-contact-the-canvas-help-desk}
+
+You can search the Canvas Guides or contact the Canvas Support Helpline by clicking the Help icon (circle with a question mark) in the Account menu.
+
+\subsection{Where can I find more information about WFU technology services or resources?}\label{where-can-i-find-more-information-about-wfu-technology-services-or-resources}
+
+\begin{itemize}
+\tightlist
+\item
+  WFU technology services: \url{https://is.wfu.edu/student/}
+\item
+  WFU's Service Status Dashboard: \url{https://status.is.wfu.edu/}
+\end{itemize}
+
+\subsection{I'm having trouble with a specific problem, can you fix it for me?}\label{im-having-trouble-with-a-specific-problem-can-you-fix-it-for-me}
+
+Troubleshooting is an essential skill. Please try basic troubleshooting to fix your problem. If you still have trouble, post the problem to the discussion board and clearly describe what you have already tried.
+
+\subsection{How long are the videos?}\label{how-long-are-the-videos}
+
+You can check the length of the module playlist using this website: \url{https://ytplaylist-len.herokuapp.com/}. Each module has 1 week worth of lectures.
+
+\subsection{Why are there so many videos?}\label{why-are-there-so-many-videos}
+
+I've sliced up the content into smaller chunks. If you want to watch the entire module in one sitting, you can use the youtube playlist.
+
+\subsection{Why is this so much more work compared to face-to-face classes?}\label{why-is-this-so-much-more-work-compared-to-face-to-face-classes}
+
+It may feel like more work, but it actually isn't. This class covers the same content as the face-to-face version. On average, you should expect to spend about 9 hours a week on this class. I have made every effort to not add to your workload. When I have added an assignment in one aspect of the course, I have removed something else from the class.
+
+\subsection{Why did a question I asked via email show up on the discussion board?}\label{why-did-a-question-i-asked-via-email-show-up-on-the-discussion-board}
+
+When students email me questions that should have been asked on the discussion board, I forward the email chain to my TA and ask them to post it.
+
+\subsection{I'm having a trouble with a specific problem, can you fix it for me?}\label{im-having-a-trouble-with-a-specific-problem-can-you-fix-it-for-me}
+
+If you are my grandmother, then yes. Otherwise\ldots{} Troubleshooting or problem solving is an essential skill. Like anything else related to technology, problems will occur with virtual learning. And it is part of your job as a student to troubleshoot your problem.
+
+Please try basic troubleshooting to fix your problem.
+
+If you still have trouble after troubleshooting, post the problem to the discussion board and clearly describe what you have already tried.
+
+\section{Miscellaneous Questions}\label{nos}
+
+\subsection{Why is your speaking style so weird?}\label{why-is-your-speaking-style-so-weird}
+
+I get this comment frequently enough in course evaluations (but never face-to-face\ldots). Most students don't have a problem with it, and it seems that most people recognize that it is outside my control. My speaking style can become a bit fragmented -- students tend to describe it as tangential, scattered, incomprehensible (also some much less kind things\ldots{} that are often really ableist). But that's not actually, what's happening\ldots{} what's happening is a mixture of cluttering and some other less well-known speech dysfluencies. Practically, this means I will on occasion skip the last syllable in a word or the last word of a sentence or repeat a phrase.
+
+I recognize that it can be frustrating. I hear you. I really do. I cannot help it. And trust me, I am frustrated by it as well.
+
+Please, understand that there's not much more I can do at this point. And I have done a lot.
+
+What you are experiencing is the result of years of speech therapy and is a massive improvement. If you \emph{genuinely} struggle to understand me, please TALK to me about it. I can connect you with resources, including my scripts, previous recordings of lectures. If those don't help, we can work in the LAC to figure out an accommodation that works for both of us. PLEASE do not wait until after the course is over and complain after the fact. That is not helpful to anyone.
+
+\subsection{Why did a question I asked via email show up on the discussion board?}\label{why-did-a-question-i-asked-via-email-show-up-on-the-discussion-board-1}
+
+No one has asked me this question specifically, but\ldots{} when students email me questions that \emph{should} have been asked on the discussion board, I will forward the email chain to my TA and ask them to post it.
+
+\section{Still have questions?}\label{still-have-questions}
+
+Post them in the Discussion Board! I can nearly guarantee, that somebody else wants to know the answer to your question.
+
+\chapter{Student Support \& Resources}\label{student-support-resources}
+
+Below you'll find materials of available supports for this course.
+
+\section{Resource Collections}\label{resource-collections}
+
+\subsection{Student Support Services}\label{student-support-services}
+
+The follow list is a non-exhaustive list of services that Wake Forest offers to students.
+
+\textbf{\href{https://class.wfu.edu/}{Center for Learning, Access and Student Success}}
+
+\begin{itemize}
+\item
+  \href{https://class.wfu.edu/}{Academic Coaching}: encourages students to strengthen a wide range of study skills including time management, note-taking, study skills, planning and organizing, test preparation, and test anxiety.
+\item
+  \href{https://class.wfu.edu/}{Disability Services}: enable students with disabilities to experience equal access to the academic, social, and recreational activities and programs at Wake Forest University.
+\item
+  \href{https://class.wfu.edu/}{Peer Tutoring Program}: provides individual or group assistance to any undergraduate student wishing to improve their learning in specific courses. Tutors focus on the learning process and help students make progress toward their academic goals.
+\end{itemize}
+
+\textbf{\href{https://thrive.wfu.edu/thrive-remotely-2/}{Thrive Remotely}}
+* To support the students, faculty, and staff of Wake Forest University, the \href{https://thrive.wfu.edu/}{Office of Wellbeing}, Campus Recreation, and other colleagues at WFU have curated this hub of resources which encompass a variety of wellbeing topics to help our community as we transition to remote school and work.
+
+\begin{itemize}
+\item
+  \href{https://www.youtube.com/watch?v=E7CwqNHn_Ns&list=PL8dPuuaLjXtNcAJRf3bE1IJU6nMfHj86W}{Crash Course: Study Skills}
+\item
+  \href{https://vimeo.com/270014784?embedded=true&source=vimeo_logo&owner=2248721}{What are Office Hours?}
+\item
+  \href{https://www.youtube.com/watch?v=5zkAOpx8Qk8}{What Are Course Evals and Why Should You Submit Them}
+\end{itemize}
+
+\subsubsection{WFU Honor Code Definitions}\label{wfu-honor-code-definitions}
+
+\textbf{These definitions are reproduced from the \href{https://studentconduct.wfu.edu/procedures-of-the-honor-and-ethics-council/}{WFU Honor Code}}
+
+Cheating, plagiarism, stealing, deception, academic misconduct, and contempt are considered violations of the Honor Code. These terms should be construed to have their ordinary, non-legal meaning.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  The term ``cheating'' includes:
+\end{enumerate}
+
+\begin{itemize}
+\tightlist
+\item
+  \begin{enumerate}
+  \def\labelenumi{(\alph{enumi})}
+  \tightlist
+  \item
+    providing or receiving unauthorized assistance in academic endeavors (e.g., quizzes, tests, examinations, reports, term papers);
+  \end{enumerate}
+\item
+  \begin{enumerate}
+  \def\labelenumi{(\alph{enumi})}
+  \setcounter{enumi}{1}
+  \tightlist
+  \item
+    use of sources beyond those authorized by the instructor in writing papers, preparing reports, solving problems, or carrying out other assignments; or
+  \end{enumerate}
+\item
+  \begin{enumerate}
+  \def\labelenumi{(\alph{enumi})}
+  \setcounter{enumi}{2}
+  \tightlist
+  \item
+    the use, without permission, of tests or other academic material belonging to a member of the University faculty or staff.
+  \end{enumerate}
+\end{itemize}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{1}
+\tightlist
+\item
+  ``Plagiarism'' is a type of cheating. It includes:
+\end{enumerate}
+
+\begin{itemize}
+\tightlist
+\item
+  \begin{enumerate}
+  \def\labelenumi{(\alph{enumi})}
+  \tightlist
+  \item
+    the use, by paraphrase or direct quotation, of the published or unpublished work of another person without complete acknowledgment of the source;
+  \end{enumerate}
+\item
+  \begin{enumerate}
+  \def\labelenumi{(\alph{enumi})}
+  \setcounter{enumi}{1}
+  \tightlist
+  \item
+    the unacknowledged use of materials prepared by another agency or person providing term papers or other academic materials;
+  \end{enumerate}
+\item
+  \begin{enumerate}
+  \def\labelenumi{(\alph{enumi})}
+  \setcounter{enumi}{2}
+  \tightlist
+  \item
+    the non-attributed use of any portion of a computer algorithm or data file; or
+  \end{enumerate}
+\item
+  \begin{enumerate}
+  \def\labelenumi{(\alph{enumi})}
+  \setcounter{enumi}{3}
+  \tightlist
+  \item
+    the use, by paraphrase or direct quotation, of online material without complete acknowledgment of the source.
+  \end{enumerate}
+\end{itemize}
+
+~~~~~When faced with conflicting definitions of plagiarism during a case, the Honor and Ethics Council will adopt the definition established for use in the department/course by the department or professor involved in the case.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{2}
+\tightlist
+\item
+  The term ``stealing'' includes:
+\end{enumerate}
+
+\begin{itemize}
+\tightlist
+\item
+  \begin{enumerate}
+  \def\labelenumi{(\alph{enumi})}
+  \tightlist
+  \item
+    the unauthorized taking, misappropriation, or possession of any property belonging to, owned by, or maintained by the University, an organization, or another individual, or
+  \end{enumerate}
+\item
+  \begin{enumerate}
+  \def\labelenumi{(\alph{enumi})}
+  \setcounter{enumi}{1}
+  \tightlist
+  \item
+    the possession, retention, or disposal of stolen property.
+  \end{enumerate}
+\end{itemize}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{3}
+\tightlist
+\item
+  The term ``deception'' includes any false or deceiving representation. In the academic context, such representations include:
+\end{enumerate}
+
+\begin{itemize}
+\tightlist
+\item
+  \begin{enumerate}
+  \def\labelenumi{(\alph{enumi})}
+  \tightlist
+  \item
+    any attempt to avoid meeting the stated course requirements, such as making false statements to avoid taking examinations at the scheduled times or to avoid turning in assignments at the scheduled times;
+  \end{enumerate}
+\item
+  \begin{enumerate}
+  \def\labelenumi{(\alph{enumi})}
+  \setcounter{enumi}{1}
+  \tightlist
+  \item
+    listing sources in a bibliography not directly used in the academic exercise; or
+  \end{enumerate}
+\item
+  \begin{enumerate}
+  \def\labelenumi{(\alph{enumi})}
+  \setcounter{enumi}{2}
+  \tightlist
+  \item
+    submitting falsified, invented, or fictitious data or evidence, or concealing or distorting the true nature, origin, or function of data or evidence.
+  \end{enumerate}
+\end{itemize}
+
+~~~~~In the social context, deceptive representations include:
+
+\begin{itemize}
+\tightlist
+\item
+  \begin{enumerate}
+  \def\labelenumi{(\alph{enumi})}
+  \tightlist
+  \item
+    making a false statement to a University official, including Residence Advisors, or
+  \end{enumerate}
+\item
+  \begin{enumerate}
+  \def\labelenumi{(\alph{enumi})}
+  \setcounter{enumi}{1}
+  \tightlist
+  \item
+    presenting a false identification.
+  \end{enumerate}
+\end{itemize}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{4}
+\tightlist
+\item
+  The term ``academic misconduct'' may be used as a generic designation for all honor code violations in the academic context. As a specific charge it includes:
+\end{enumerate}
+
+\begin{itemize}
+\tightlist
+\item
+  \begin{enumerate}
+  \def\labelenumi{(\alph{enumi})}
+  \tightlist
+  \item
+    the violation of University policies by tampering with grades
+  \end{enumerate}
+\item
+  \begin{enumerate}
+  \def\labelenumi{(\alph{enumi})}
+  \setcounter{enumi}{1}
+  \tightlist
+  \item
+    taking part in obtaining or distributing any part of an unadministered academic exercise;
+  \end{enumerate}
+\item
+  \begin{enumerate}
+  \def\labelenumi{(\alph{enumi})}
+  \setcounter{enumi}{2}
+  \tightlist
+  \item
+    any attempt to gain access or to aid another in gaining access to any computer account other than one's own without proper authorization; or
+  \end{enumerate}
+\item
+  \begin{enumerate}
+  \def\labelenumi{(\alph{enumi})}
+  \setcounter{enumi}{3}
+  \tightlist
+  \item
+    any attempt to gain access or to aid another in gaining access, without proper authorization, to department offices, faculty offices, laboratories, or any other place where unadministered assignments are kept.
+  \end{enumerate}
+\end{itemize}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\setcounter{enumi}{5}
+\tightlist
+\item
+  The term ``contempt'' includes:
+\end{enumerate}
+
+\begin{itemize}
+\tightlist
+\item
+  \begin{enumerate}
+  \def\labelenumi{(\alph{enumi})}
+  \tightlist
+  \item
+    instances of perjury (giving false testimony), or
+  \end{enumerate}
+\item
+  \begin{enumerate}
+  \def\labelenumi{(\alph{enumi})}
+  \setcounter{enumi}{1}
+  \tightlist
+  \item
+    acts which otherwise obstruct the conduct process.
+  \end{enumerate}
+\end{itemize}
+
+\emph{Note: Cheating, stealing, making false or deceiving statements, plagiarism, vandalism, and harassment are just as wrong when done in the context of computing as they are in all other aspects of University conduct.}
+
+\subsection{Discussion Board Etiquette}\label{discussion-board-etiquette}
+
+Here are a few websites that cover general guidelines for how to write discussion board posts.
+* \href{https://www2.uwstout.edu/content/profdev/rubrics/discuss_etiquette.html}{Discussion Board Etiquette by Kay Lehmann and Lisa Chamberlin}
+* \href{http://learnmore.uncg.edu/blog/etiquette-for-online-course-discussion-boards}{Etiquette For Online Course Discussion Board Posts by Kelly Paul}
+
+Here's a useful and quick video on \href{https://www.youtube.com/watch?v=tg3y2A9pdtI}{discussion boards}
+
+\begin{itemize}
+\item
+  \href{https://www.loc.gov/programs/poetry-and-literature/poet-laureate/poet-laureate-projects/poetry-180/all-poems/item/poetry-180-013/did-i-miss-anything/}{Poem 013: Did I Miss Anything?}
+\item
+  \href{https://www.insidehighered.com/views/2015/04/16/advice-students-so-they-dont-sound-silly-emails-essay}{Advice for students so they don't sound silly in emails (essay)}
+\end{itemize}
+
+\subsection{Online Learning Resources}\label{online-learning-resources}
+
+\begin{itemize}
+\item
+  \href{https://www.northeastern.edu/graduate/blog/tips-for-taking-online-classes/}{Tips for Taking Online Classes: 8 Strategies for Success Links to an external site.}
+\item
+  \href{https://www.youtube.com/watch?v=pLlv2o6UfTU&list=PL8dPuuaLjXtN07XYqqWSKpPrtNDiCHTzU}{Navigating Digital Information}
+\end{itemize}
+
+\subsection{Tech Services \& Computer Resources}\label{tech-services-computer-resources}
+
+\textbf{Basic Computer Requirements}
+Having regular access to a computer with a reliable Internet connection is required. You will need a word processing program capable of saving word formats such as .doc, .docx or .pdf.
+
+Check out the technical requirements for your computer and browser in order to maximize Canvas functionality: \href{https://apps.3cmediasolutions.org/oei/tools/computer-readiness.html}{Test your computer's readiness}
+
+\textbf{Plug-ins and Helper Applications}
+There may be plug-ins and helper applications to download that support the Canvas environment and play multimedia such as:
+
+\begin{itemize}
+\tightlist
+\item
+  \href{https://www.java.com/en/download/}{Java}
+\item
+  \href{https://get.adobe.com/cn/reader/}{Adobe Reader}
+\item
+  \href{https://www.flash.cn/}{Adobe Flash Player}
+\item
+  \href{https://support.microsoft.com/en-us/windows/get-windows-media-player-81718e0d-cfce-25b1-aee3-94596b658287}{Windows Media Player}
+\item
+  \href{https://support.apple.com/kb/DL837?locale=zh_CN}{Quicktime}
+\item
+  \href{https://www.openoffice.org/download/index.html}{Apache Open Office for Microsoft Word}
+\item
+  \href{https://www.microsoft.com/silverlight/}{Microsoft Silverlight}
+\end{itemize}
+
+\textbf{Browser Support}
+
+While Chrome is the preferred browser for most Canvas interactions, Canvas supports the latest versions of every browser release. It's highly recommended that you update to the newest version of whatever browser you are using as well as the most up-to-date Flash plug-in. Check out the Canvas Browser Support page (Links to an external site.) for the most recent information.
+
+\textbf{Tech Support Cheat Sheet}
+
+\includegraphics[width=10.17in]{img/tech_support_cheat_sheet}
+
+\part*{Back Matter}\label{part-back-matter}
+
+
+\bibliography{book.bib,packages.bib,bib/bib.bib}
+
+\end{document}

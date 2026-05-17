@@ -1,3 +1,27 @@
 \usepackage{booktabs}
 \usepackage{longtable}
 \usepackage{hyperref}
+\usepackage{tabularx}
+
+% Compact part pages: render as a large heading instead of a full blank page
+\makeatletter
+\renewcommand\part{%
+  \if@openright\cleardoublepage\else\clearpage\fi
+  \thispagestyle{plain}%
+  \@afterindentfalse
+  \secdef\@part\@spart}
+\renewcommand\@part[2][]{%
+  \ifnum \c@secnumdepth >-2\relax
+    \refstepcounter{part}%
+    \addcontentsline{toc}{part}{\thepart\hspace{1em}#1}%
+  \else
+    \addcontentsline{toc}{part}{#1}%
+  \fi
+  {\parindent \z@ \raggedright \interlinepenalty \@M
+   \normalfont \huge\bfseries #2\par}%
+  \nobreak\vskip 2ex\@afterheading}
+\renewcommand\@spart[1]{%
+  {\parindent \z@ \raggedright \interlinepenalty \@M
+   \normalfont \huge\bfseries #1\par}%
+  \nobreak\vskip 2ex\@afterheading}
+\makeatother

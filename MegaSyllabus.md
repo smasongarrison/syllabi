@@ -150,10 +150,212 @@ Along with these packages:
 
 
 
-```{=html}
-<div class="datatables html-widget html-fill-item" id="htmlwidget-6e934094365f72bc4a60" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-6e934094365f72bc4a60">{"x":{"filter":"top","vertical":false,"filterHTML":"<tr>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n<\/tr>","data":[["askpass","assertthat","backports","base64enc","bigD","bit","bit64","bitops","blob","bookdown","brew","brio","broom","bslib","cachem","callr","cellranger","cli","clipr","commonmark","conflicted","cpp11","crayon","credentials","crosstalk","curl","data.table","DBI","dbplyr","desc","devtools","dichromat","diffobj","digest","downlit","dplyr","DT","dtplyr","ellipsis","evaluate","fansi","farver","fastmap","fontawesome","forcats","fs","gapminder","gargle","gender","genderdata","generics","geonames","gert","ggplot2","gh","gitcreds","glue","googledrive","googlesheets4","gridExtra","gt","gtable","haven","highr","hms","htmltools","htmlwidgets","httpuv","httr","httr2","ids","ini","isoband","jquerylib","jsonlite","juicyjuice","knitr","labeling","later","lazyeval","lifecycle","litedown","lubridate","magrittr","markdown","memoise","mime","miniUI","modelr","openssl","otel","pak","pillar","pkgbuild","pkgconfig","pkgdown","pkgload","praise","prettyunits","processx","profvis","progress","promises","ps","purrr","R6","ragg","rappdirs","rcmdcheck","RColorBrewer","Rcpp","reactable","reactR","readr","readxl","rebird","rematch","rematch2","remotes","reprex","rjson","rlang","rmarkdown","roxygen2","rplos","rprojroot","rstudioapi","rversions","rvest","S7","sass","scales","selectr","sessioninfo","shiny","sourcetools","stringi","stringr","sys","systemfonts","testthat","textshaping","tibble","tidyr","tidyselect","tidyverse","timechange","tinytex","tzdb","urlchecker","usethis","utf8","uuid","V8","vctrs","viridis","viridisLite","vroom","waldo","whisker","withr","xfun","xml2","xopen","xtable","yaml","zip"],[null,null,null,null,null,null,null,null,null,"0.46",null,null,null,"0.11.0","1.1.0",null,null,"3.6.6",null,null,null,null,null,null,null,null,null,null,null,null,"2.5.2","2.0-0.1",null,"0.6.39",null,"1.2.1",null,null,"0.3.3","1.0.5",null,"2.1.2","1.2.0",null,"1.0.1","2.1.0",null,null,null,null,"0.1.4",null,null,"4.0.3",null,null,"1.8.1",null,null,null,null,"0.3.6",null,null,"1.1.4","0.5.9",null,null,null,null,null,null,null,"0.1.4","2.0.0",null,"1.51",null,null,null,"1.0.5",null,"1.9.5","2.0.5",null,"2.0.1",null,null,null,null,"0.2.0",null,"1.11.1","1.4.8","2.0.3",null,"1.5.2",null,null,null,null,null,null,null,"1.2.2","2.6.1",null,null,null,"1.1-3",null,null,null,"2.2.0",null,null,null,null,null,null,null,"1.2.0","2.31",null,null,null,"0.18.0",null,null,"0.2.2","0.4.10","1.4.0",null,"1.2.3",null,null,"1.8.7","1.6.0",null,null,null,null,"3.3.1","1.3.2","1.2.1","2.0.0","0.4.0",null,"0.5.0",null,"3.2.1",null,null,null,"0.7.3",null,null,null,null,null,"3.0.2","0.57",null,null,null,"2.3.12",null],["2024-10-04","2019-03-21","2026-04-03","2026-02-02","2025-04-03","2025-03-06","2026-04-21","2024-10-03","2026-01-14","2025-12-05","2023-12-16","2024-04-24","2026-05-14","2026-05-16","2024-05-16","2024-03-25","2016-07-27","2026-04-09","2022-02-22","2025-07-07","2023-02-01","2026-05-06","2024-06-20","2025-09-12","2025-08-26","2026-04-22","2026-05-06","2026-02-25","2026-02-13","2023-12-10","2026-04-30","2022-05-02","2025-04-21","2025-11-19","2025-11-14","2026-04-03","2025-09-02","2026-02-11","2026-04-04","2025-08-27","2025-11-19","2024-05-13","2024-05-15","2024-11-16","2025-09-25","2026-04-18","2025-06-12","2026-01-29","2021-10-13","2026-05-08","2025-05-09","2019-02-19","2026-01-11","2026-04-22","2025-05-26","2022-09-08","2026-04-17","2025-09-10","2025-09-03","2017-09-09","2026-01-22","2024-10-25","2025-05-30","2026-03-06","2025-10-17","2025-12-04","2023-12-06","2026-03-18","2026-02-13","2025-12-08","2017-05-31","2018-05-20","2025-12-07","2021-04-26","2025-03-27","2022-11-10","2025-12-20","2023-08-29","2026-03-05","2026-04-04","2026-01-08","2025-12-18","2026-02-04","2026-04-04","2025-03-23","2021-11-26","2025-03-17","2025-04-17","2023-03-22","2026-05-14","2025-08-29","2026-04-27","2025-09-17","2025-05-26","2019-09-22","2025-11-06","2026-04-22","2015-08-11","2023-09-24","2026-04-22","2024-09-20","2023-12-06","2025-11-01","2026-04-20","2026-04-10","2025-02-15","2026-03-23","2026-01-17","2021-09-27","2022-04-03","2026-04-24","2025-12-01","2024-09-14","2026-02-19","2026-05-16","2021-09-20","2023-08-30","2020-05-01","2024-03-17","2024-07-06","2024-09-16","2026-04-06","2026-03-26","2026-05-01",null,"2025-08-26","2026-01-16","2025-10-09","2025-08-29","2026-04-22","2025-04-11","2025-04-24","2025-12-17","2025-02-05","2026-02-20","2026-03-28","2025-03-27","2025-11-04","2024-10-04","2026-03-05","2026-01-11","2026-03-06","2026-01-11","2025-12-19","2024-03-11","2023-02-22","2026-01-29","2026-03-28","2025-03-15","2021-11-30","2025-09-06","2025-06-08","2026-01-23","2026-04-21","2026-04-11","2024-01-29","2026-02-04","2026-03-31","2025-07-11","2022-12-05","2024-10-28","2026-03-20","2026-01-17","2024-04-25","2026-02-22","2025-12-10","2025-05-13"],["CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.5.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","Github (lmullen/genderdata@df16017149a8adb9a75a2dcf734007cab12dd5da)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)",null,"CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>package<\/th>\n      <th>loadedversion<\/th>\n      <th>date<\/th>\n      <th>source<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":167,"autoWidth":true,"bInfo":false,"paging":false,"columnDefs":[{"name":"package","targets":0},{"name":"loadedversion","targets":1},{"name":"date","targets":2},{"name":"source","targets":3}],"order":[],"orderClasses":false,"orderCellsTop":true,"lengthMenu":[10,25,50,100,167]}},"evals":[],"jsHooks":[]}</script>
-```
+\begin{tabular}{lllll}
+\toprule
+  & package & loadedversion & date & source\\
+\midrule
+askpass & askpass & NA & 2024-10-04 & CRAN (R 4.6.0)\\
+assertthat & assertthat & NA & 2019-03-21 & CRAN (R 4.6.0)\\
+backports & backports & NA & 2026-04-03 & CRAN (R 4.6.0)\\
+base64enc & base64enc & NA & 2026-02-02 & CRAN (R 4.6.0)\\
+bigD & bigD & NA & 2025-04-03 & CRAN (R 4.6.0)\\
+\addlinespace
+bit & bit & NA & 2025-03-06 & CRAN (R 4.6.0)\\
+bit64 & bit64 & NA & 2026-04-21 & CRAN (R 4.6.0)\\
+bitops & bitops & NA & 2024-10-03 & CRAN (R 4.6.0)\\
+blob & blob & NA & 2026-01-14 & CRAN (R 4.6.0)\\
+bookdown & bookdown & 0.46 & 2025-12-05 & CRAN (R 4.6.0)\\
+\addlinespace
+brew & brew & NA & 2023-12-16 & CRAN (R 4.6.0)\\
+brio & brio & NA & 2024-04-24 & CRAN (R 4.6.0)\\
+broom & broom & NA & 2026-05-14 & CRAN (R 4.6.0)\\
+bslib & bslib & NA & 2026-05-16 & CRAN (R 4.6.0)\\
+cachem & cachem & 1.1.0 & 2024-05-16 & CRAN (R 4.6.0)\\
+\addlinespace
+callr & callr & NA & 2024-03-25 & CRAN (R 4.6.0)\\
+cellranger & cellranger & NA & 2016-07-27 & CRAN (R 4.6.0)\\
+cli & cli & 3.6.6 & 2026-04-09 & CRAN (R 4.6.0)\\
+clipr & clipr & NA & 2022-02-22 & CRAN (R 4.6.0)\\
+commonmark & commonmark & NA & 2025-07-07 & CRAN (R 4.6.0)\\
+\addlinespace
+conflicted & conflicted & NA & 2023-02-01 & CRAN (R 4.6.0)\\
+cpp11 & cpp11 & NA & 2026-05-06 & CRAN (R 4.6.0)\\
+crayon & crayon & NA & 2024-06-20 & CRAN (R 4.6.0)\\
+credentials & credentials & NA & 2025-09-12 & CRAN (R 4.6.0)\\
+crosstalk & crosstalk & NA & 2025-08-26 & CRAN (R 4.6.0)\\
+\addlinespace
+curl & curl & NA & 2026-04-22 & CRAN (R 4.6.0)\\
+data.table & data.table & NA & 2026-05-06 & CRAN (R 4.6.0)\\
+DBI & DBI & NA & 2026-02-25 & CRAN (R 4.6.0)\\
+dbplyr & dbplyr & NA & 2026-02-13 & CRAN (R 4.6.0)\\
+desc & desc & NA & 2023-12-10 & CRAN (R 4.6.0)\\
+\addlinespace
+devtools & devtools & 2.5.2 & 2026-04-30 & CRAN (R 4.6.0)\\
+dichromat & dichromat & 2.0-0.1 & 2022-05-02 & CRAN (R 4.6.0)\\
+diffobj & diffobj & NA & 2025-04-21 & CRAN (R 4.6.0)\\
+digest & digest & 0.6.39 & 2025-11-19 & CRAN (R 4.6.0)\\
+downlit & downlit & NA & 2025-11-14 & CRAN (R 4.6.0)\\
+\addlinespace
+dplyr & dplyr & 1.2.1 & 2026-04-03 & CRAN (R 4.6.0)\\
+DT & DT & NA & 2025-09-02 & CRAN (R 4.6.0)\\
+dtplyr & dtplyr & NA & 2026-02-11 & CRAN (R 4.6.0)\\
+ellipsis & ellipsis & 0.3.3 & 2026-04-04 & CRAN (R 4.6.0)\\
+evaluate & evaluate & 1.0.5 & 2025-08-27 & CRAN (R 4.6.0)\\
+\addlinespace
+fansi & fansi & NA & 2025-11-19 & CRAN (R 4.6.0)\\
+farver & farver & 2.1.2 & 2024-05-13 & CRAN (R 4.6.0)\\
+fastmap & fastmap & 1.2.0 & 2024-05-15 & CRAN (R 4.5.0)\\
+fontawesome & fontawesome & NA & 2024-11-16 & CRAN (R 4.6.0)\\
+forcats & forcats & 1.0.1 & 2025-09-25 & CRAN (R 4.6.0)\\
+\addlinespace
+fs & fs & 2.1.0 & 2026-04-18 & CRAN (R 4.6.0)\\
+gapminder & gapminder & NA & 2025-06-12 & CRAN (R 4.6.0)\\
+gargle & gargle & NA & 2026-01-29 & CRAN (R 4.6.0)\\
+gender & gender & NA & 2021-10-13 & CRAN (R 4.6.0)\\
+genderdata & genderdata & NA & 2026-05-08 & Github (lmullen/genderdata@df16017149a8adb9a75a2dcf734007cab12dd5da)\\
+\addlinespace
+generics & generics & 0.1.4 & 2025-05-09 & CRAN (R 4.6.0)\\
+geonames & geonames & NA & 2019-02-19 & CRAN (R 4.6.0)\\
+gert & gert & NA & 2026-01-11 & CRAN (R 4.6.0)\\
+ggplot2 & ggplot2 & 4.0.3 & 2026-04-22 & CRAN (R 4.6.0)\\
+gh & gh & NA & 2025-05-26 & CRAN (R 4.6.0)\\
+\addlinespace
+gitcreds & gitcreds & NA & 2022-09-08 & CRAN (R 4.6.0)\\
+glue & glue & 1.8.1 & 2026-04-17 & CRAN (R 4.6.0)\\
+googledrive & googledrive & NA & 2025-09-10 & CRAN (R 4.6.0)\\
+googlesheets4 & googlesheets4 & NA & 2025-09-03 & CRAN (R 4.6.0)\\
+gridExtra & gridExtra & NA & 2017-09-09 & CRAN (R 4.6.0)\\
+\addlinespace
+gt & gt & NA & 2026-01-22 & CRAN (R 4.6.0)\\
+gtable & gtable & 0.3.6 & 2024-10-25 & CRAN (R 4.6.0)\\
+haven & haven & NA & 2025-05-30 & CRAN (R 4.6.0)\\
+highr & highr & NA & 2026-03-06 & CRAN (R 4.6.0)\\
+hms & hms & 1.1.4 & 2025-10-17 & CRAN (R 4.6.0)\\
+\addlinespace
+htmltools & htmltools & 0.5.9 & 2025-12-04 & CRAN (R 4.6.0)\\
+htmlwidgets & htmlwidgets & NA & 2023-12-06 & CRAN (R 4.6.0)\\
+httpuv & httpuv & NA & 2026-03-18 & CRAN (R 4.6.0)\\
+httr & httr & NA & 2026-02-13 & CRAN (R 4.6.0)\\
+httr2 & httr2 & NA & 2025-12-08 & CRAN (R 4.6.0)\\
+\addlinespace
+ids & ids & NA & 2017-05-31 & CRAN (R 4.6.0)\\
+ini & ini & NA & 2018-05-20 & CRAN (R 4.6.0)\\
+isoband & isoband & NA & 2025-12-07 & CRAN (R 4.6.0)\\
+jquerylib & jquerylib & NA & 2021-04-26 & CRAN (R 4.6.0)\\
+jsonlite & jsonlite & NA & 2025-03-27 & CRAN (R 4.6.0)\\
+\addlinespace
+juicyjuice & juicyjuice & NA & 2022-11-10 & CRAN (R 4.6.0)\\
+knitr & knitr & 1.51 & 2025-12-20 & CRAN (R 4.6.0)\\
+labeling & labeling & NA & 2023-08-29 & CRAN (R 4.6.0)\\
+later & later & NA & 2026-03-05 & CRAN (R 4.6.0)\\
+lazyeval & lazyeval & NA & 2026-04-04 & CRAN (R 4.6.0)\\
+\addlinespace
+lifecycle & lifecycle & 1.0.5 & 2026-01-08 & CRAN (R 4.6.0)\\
+litedown & litedown & NA & 2025-12-18 & CRAN (R 4.6.0)\\
+lubridate & lubridate & 1.9.5 & 2026-02-04 & CRAN (R 4.6.0)\\
+magrittr & magrittr & 2.0.5 & 2026-04-04 & CRAN (R 4.6.0)\\
+markdown & markdown & NA & 2025-03-23 & CRAN (R 4.6.0)\\
+\addlinespace
+memoise & memoise & 2.0.1 & 2021-11-26 & CRAN (R 4.6.0)\\
+mime & mime & NA & 2025-03-17 & CRAN (R 4.6.0)\\
+miniUI & miniUI & NA & 2025-04-17 & CRAN (R 4.6.0)\\
+modelr & modelr & NA & 2023-03-22 & CRAN (R 4.6.0)\\
+openssl & openssl & NA & 2026-05-14 & CRAN (R 4.6.0)\\
+\addlinespace
+otel & otel & 0.2.0 & 2025-08-29 & CRAN (R 4.6.0)\\
+pak & pak & NA & 2026-04-27 & CRAN (R 4.6.0)\\
+pillar & pillar & 1.11.1 & 2025-09-17 & CRAN (R 4.6.0)\\
+pkgbuild & pkgbuild & 1.4.8 & 2025-05-26 & CRAN (R 4.6.0)\\
+pkgconfig & pkgconfig & 2.0.3 & 2019-09-22 & CRAN (R 4.6.0)\\
+\addlinespace
+pkgdown & pkgdown & NA & 2025-11-06 & CRAN (R 4.6.0)\\
+pkgload & pkgload & 1.5.2 & 2026-04-22 & CRAN (R 4.6.0)\\
+praise & praise & NA & 2015-08-11 & CRAN (R 4.6.0)\\
+prettyunits & prettyunits & NA & 2023-09-24 & CRAN (R 4.6.0)\\
+processx & processx & NA & 2026-04-22 & CRAN (R 4.6.0)\\
+\addlinespace
+profvis & profvis & NA & 2024-09-20 & CRAN (R 4.6.0)\\
+progress & progress & NA & 2023-12-06 & CRAN (R 4.6.0)\\
+promises & promises & NA & 2025-11-01 & CRAN (R 4.6.0)\\
+ps & ps & NA & 2026-04-20 & CRAN (R 4.6.0)\\
+purrr & purrr & 1.2.2 & 2026-04-10 & CRAN (R 4.6.0)\\
+\addlinespace
+R6 & R6 & 2.6.1 & 2025-02-15 & CRAN (R 4.6.0)\\
+ragg & ragg & NA & 2026-03-23 & CRAN (R 4.6.0)\\
+rappdirs & rappdirs & NA & 2026-01-17 & CRAN (R 4.6.0)\\
+rcmdcheck & rcmdcheck & NA & 2021-09-27 & CRAN (R 4.6.0)\\
+RColorBrewer & RColorBrewer & 1.1-3 & 2022-04-03 & CRAN (R 4.6.0)\\
+\addlinespace
+Rcpp & Rcpp & NA & 2026-04-24 & CRAN (R 4.6.0)\\
+reactable & reactable & NA & 2025-12-01 & CRAN (R 4.6.0)\\
+reactR & reactR & NA & 2024-09-14 & CRAN (R 4.6.0)\\
+readr & readr & 2.2.0 & 2026-02-19 & CRAN (R 4.6.0)\\
+readxl & readxl & NA & 2026-05-16 & CRAN (R 4.6.0)\\
+\addlinespace
+rebird & rebird & NA & 2021-09-20 & CRAN (R 4.6.0)\\
+rematch & rematch & NA & 2023-08-30 & CRAN (R 4.6.0)\\
+rematch2 & rematch2 & NA & 2020-05-01 & CRAN (R 4.6.0)\\
+remotes & remotes & NA & 2024-03-17 & CRAN (R 4.6.0)\\
+reprex & reprex & NA & 2024-07-06 & CRAN (R 4.6.0)\\
+\addlinespace
+rjson & rjson & NA & 2024-09-16 & CRAN (R 4.6.0)\\
+rlang & rlang & 1.2.0 & 2026-04-06 & CRAN (R 4.6.0)\\
+rmarkdown & rmarkdown & 2.31 & 2026-03-26 & CRAN (R 4.6.0)\\
+roxygen2 & roxygen2 & NA & 2026-05-01 & CRAN (R 4.6.0)\\
+rplos & rplos & NA & NA & NA\\
+\addlinespace
+rprojroot & rprojroot & NA & 2025-08-26 & CRAN (R 4.6.0)\\
+rstudioapi & rstudioapi & 0.18.0 & 2026-01-16 & CRAN (R 4.6.0)\\
+rversions & rversions & NA & 2025-10-09 & CRAN (R 4.6.0)\\
+rvest & rvest & NA & 2025-08-29 & CRAN (R 4.6.0)\\
+S7 & S7 & 0.2.2 & 2026-04-22 & CRAN (R 4.6.0)\\
+\addlinespace
+sass & sass & NA & 2025-04-11 & CRAN (R 4.6.0)\\
+scales & scales & 1.4.0 & 2025-04-24 & CRAN (R 4.6.0)\\
+selectr & selectr & NA & 2025-12-17 & CRAN (R 4.6.0)\\
+sessioninfo & sessioninfo & 1.2.3 & 2025-02-05 & CRAN (R 4.6.0)\\
+shiny & shiny & NA & 2026-02-20 & CRAN (R 4.6.0)\\
+\addlinespace
+sourcetools & sourcetools & NA & 2026-03-28 & CRAN (R 4.6.0)\\
+stringi & stringi & 1.8.7 & 2025-03-27 & CRAN (R 4.6.0)\\
+stringr & stringr & 1.6.0 & 2025-11-04 & CRAN (R 4.6.0)\\
+sys & sys & NA & 2024-10-04 & CRAN (R 4.6.0)\\
+systemfonts & systemfonts & NA & 2026-03-05 & CRAN (R 4.6.0)\\
+\addlinespace
+testthat & testthat & NA & 2026-01-11 & CRAN (R 4.6.0)\\
+textshaping & textshaping & NA & 2026-03-06 & CRAN (R 4.6.0)\\
+tibble & tibble & 3.3.1 & 2026-01-11 & CRAN (R 4.6.0)\\
+tidyr & tidyr & 1.3.2 & 2025-12-19 & CRAN (R 4.6.0)\\
+tidyselect & tidyselect & 1.2.1 & 2024-03-11 & CRAN (R 4.6.0)\\
+\addlinespace
+tidyverse & tidyverse & 2.0.0 & 2023-02-22 & CRAN (R 4.6.0)\\
+timechange & timechange & 0.4.0 & 2026-01-29 & CRAN (R 4.6.0)\\
+tinytex & tinytex & 0.59 & 2026-03-28 & CRAN (R 4.6.0)\\
+tzdb & tzdb & 0.5.0 & 2025-03-15 & CRAN (R 4.6.0)\\
+urlchecker & urlchecker & NA & 2021-11-30 & CRAN (R 4.6.0)\\
+\addlinespace
+usethis & usethis & 3.2.1 & 2025-09-06 & CRAN (R 4.6.0)\\
+utf8 & utf8 & NA & 2025-06-08 & CRAN (R 4.6.0)\\
+uuid & uuid & NA & 2026-01-23 & CRAN (R 4.6.0)\\
+V8 & V8 & NA & 2026-04-21 & CRAN (R 4.6.0)\\
+vctrs & vctrs & 0.7.3 & 2026-04-11 & CRAN (R 4.6.0)\\
+\addlinespace
+viridis & viridis & NA & 2024-01-29 & CRAN (R 4.6.0)\\
+viridisLite & viridisLite & NA & 2026-02-04 & CRAN (R 4.6.0)\\
+vroom & vroom & NA & 2026-03-31 & CRAN (R 4.6.0)\\
+waldo & waldo & NA & 2025-07-11 & CRAN (R 4.6.0)\\
+whisker & whisker & NA & 2022-12-05 & CRAN (R 4.6.0)\\
+\addlinespace
+withr & withr & 3.0.2 & 2024-10-28 & CRAN (R 4.6.0)\\
+xfun & xfun & 0.57 & 2026-03-20 & CRAN (R 4.6.0)\\
+xml2 & xml2 & NA & 2026-01-17 & CRAN (R 4.6.0)\\
+xopen & xopen & NA & 2024-04-25 & CRAN (R 4.6.0)\\
+xtable & xtable & NA & 2026-02-22 & CRAN (R 4.6.0)\\
+\addlinespace
+yaml & yaml & 2.3.12 & 2025-12-10 & CRAN (R 4.6.0)\\
+zip & zip & NA & 2025-05-13 & CRAN (R 4.6.0)\\
+\bottomrule
+\end{tabular}
 
 The R session information when compiling this book is shown below:
 
@@ -239,18 +441,12 @@ Welcome! This section includes general information on the syllabus. These polici
 Remember: This course is for you, not for me. 
 
 
-```{=html}
-<div class="vembedr" align="center">
-<div>
-<iframe src="https://www.youtube.com/embed/aL_fP5axQV4" width="533" height="300" frameborder="0" allowfullscreen="" data-external="1"></iframe>
-</div>
-</div>
-```
-
+\includegraphics[width=29.86in]{img/snoop} 
 
 Credit: 
 
 
+\includegraphics[width=19.31in]{img/AcademicsSaystatus} 
 
 ## Materials
 
@@ -272,14 +468,9 @@ Most of my classes require you to have a computer that can run R and stream YouT
 #### R and RStudio
 
 
-```{=html}
-<div class="vembedr" align="center">
-<div>
-<iframe src="https://www.youtube.com/embed/kVIZGCT5p9U" width="533" height="300" frameborder="0" allowfullscreen="" data-external="1"></iframe>
-</div>
-</div>
 ```
-
+#> NULL
+```
 
 R is a free software environment for statistical computing and graphics. It compiles and runs on a wide variety of UNIX platforms, Windows, and MacOS.
 
@@ -394,11 +585,6 @@ These accommodations are there so that you can be your best possible self.
 At Wake Forest and at many other places, the expectation is that you will self-advocate for yourselves and know exactly what you need. Is that a good expectation? Is that a good model? Is that equitable? I have thoughts... regardless, that is the current state of the world. Accordingly, you will have to advocate for what you need. If this process seems daunting, please talk to me! Regardless, I am happy to talk with you about this process and to share my own experiences.
 
 
-
-```{=html}
-<blockquote class="twitter-tweet" data-width="550" data-lang="en" data-dnt="true" data-theme="light"><p lang="en" dir="ltr">I’ve learned that self advocacy is a privilege. Often times the necessity of good communication skills, time, resources, and education are needed. These tools are not always inclusive to individuals with disabilities. This is why allyship is so vital for disability empowerment.</p>&mdash; R.Dopson, MPH (@Rasheeradiara) <a href="https://twitter.com/Rasheeradiara/status/1532760383500472326?ref_src=twsrc%5Etfw">June 3, 2022</a></blockquote>
-
-```
 
 
 As a student, you may not know what accommodations work best for you. Or you may find that your current accommodations don't work like they used to. 
@@ -626,22 +812,38 @@ This curve can only help your grade.
 
 The full table is provided below:
 
+\begin{table}
 
-Table: (\#tab:unnamed-chunk-5)Full Table
-
-|Letter | Cutoff|
-|:------|------:|
-|A      |   0.95|
-|A-     |   0.90|
-|B+     |   0.87|
-|B      |   0.84|
-|B-     |   0.80|
-|C+     |   0.77|
-|C      |   0.74|
-|C-     |   0.70|
-|D+     |   0.67|
-|D      |   0.64|
-|D-     |   0.60|
+\caption{(\#tab:unnamed-chunk-5)Full Table}
+\centering
+\begin{tabular}[t]{l|r}
+\hline
+Letter & Cutoff\\
+\hline
+A & 0.95\\
+\hline
+A- & 0.90\\
+\hline
+B+ & 0.87\\
+\hline
+B & 0.84\\
+\hline
+B- & 0.80\\
+\hline
+C+ & 0.77\\
+\hline
+C & 0.74\\
+\hline
+C- & 0.70\\
+\hline
+D+ & 0.67\\
+\hline
+D & 0.64\\
+\hline
+D- & 0.60\\
+\hline
+\end{tabular}
+\end{table}
 
 ### Curve Projections    {-}
 
@@ -692,10 +894,31 @@ There will be multiple engagement activities in this course. These activities wi
 ## Schedule {.unnumbered}
 
 
-```{=html}
-<div class="datatables html-widget html-fill-item" id="htmlwidget-1b151c7a8e68bf496dac" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-1b151c7a8e68bf496dac">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],["08/25","09/01","09/08","09/15","09/22","09/29","10/06","10/13","10/20","10/27","11/03","11/10","11/17","11/24","12/01","12/08"],["What are Research Methods?","Getting Ready to Do Statistical Analysis","Describing Data with R","Univariate Distributions","Bivariate Distributions","Probability Theory","Binomials and Other Sampling Distributions","Hypothesis Testing","T-Tests","F-Tests and ANOVA","Causal Inference","Experimental Designs","Ethics and Reproducibility","Special Topics","Putting it all together","Finals"],["Week 01, 08/25 - 08/29","Week 02, 09/01 - 09/05","Week 03, 09/08 - 09/12","Week 04, 09/15 - 09/19","Week 05, 09/22 - 09/26","Week 06, 09/29 - 10/03","Week 07, 10/06 - 10/10","Week 08, 10/13 - 10/17","Week 09, 10/20 - 10/24","Week 10, 10/27 - 10/31","Week 11, 11/03 - 11/07","Week 12, 11/10 - 11/14","Week 13, 11/17 - 11/21","Week 14, 11/24 - 11/28","Week 15, 12/01 - 12/05","Week 16, 12/08 - 12/12"],[null,null,null,null,null,"Exam",null,"Assignment",null,null,null,"Exam",null,null,"Assignment","Exam"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n      <th>milestones<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0},{"name":"module","targets":0},{"name":"start","targets":1},{"name":"topic","targets":2},{"name":"week","targets":3},{"name":"milestones","targets":4}],"order":[],"orderClasses":false},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":[],"jsHooks":[]}</script>
-```
+\begin{tabular}{rllll}
+\toprule
+module & start & topic & week & milestones\\
+\midrule
+1 & 08/25 & What are Research Methods? & Week 01, 08/25 - 08/29 & NA\\
+2 & 09/01 & Getting Ready to Do Statistical Analysis & Week 02, 09/01 - 09/05 & NA\\
+3 & 09/08 & Describing Data with R & Week 03, 09/08 - 09/12 & NA\\
+4 & 09/15 & Univariate Distributions & Week 04, 09/15 - 09/19 & NA\\
+5 & 09/22 & Bivariate Distributions & Week 05, 09/22 - 09/26 & NA\\
+\addlinespace
+6 & 09/29 & Probability Theory & Week 06, 09/29 - 10/03 & Exam\\
+7 & 10/06 & Binomials and Other Sampling Distributions & Week 07, 10/06 - 10/10 & NA\\
+8 & 10/13 & Hypothesis Testing & Week 08, 10/13 - 10/17 & Assignment\\
+9 & 10/20 & T-Tests & Week 09, 10/20 - 10/24 & NA\\
+10 & 10/27 & F-Tests and ANOVA & Week 10, 10/27 - 10/31 & NA\\
+\addlinespace
+11 & 11/03 & Causal Inference & Week 11, 11/03 - 11/07 & NA\\
+12 & 11/10 & Experimental Designs & Week 12, 11/10 - 11/14 & Exam\\
+13 & 11/17 & Ethics and Reproducibility & Week 13, 11/17 - 11/21 & NA\\
+14 & 11/24 & Special Topics & Week 14, 11/24 - 11/28 & NA\\
+15 & 12/01 & Putting it all together & Week 15, 12/01 - 12/05 & Assignment\\
+\addlinespace
+16 & 12/08 & Finals & Week 16, 12/08 - 12/12 & Exam\\
+\bottomrule
+\end{tabular}
 
 ```{=html}
 <!---
@@ -897,22 +1120,38 @@ This curve can only help your grade.
 
 The full table is provided below:
 
+\begin{table}
 
-Table: (\#tab:unnamed-chunk-7)Full Table
-
-|Letter | Cutoff|
-|:------|------:|
-|A      |   0.95|
-|A-     |   0.90|
-|B+     |   0.87|
-|B      |   0.84|
-|B-     |   0.80|
-|C+     |   0.77|
-|C      |   0.74|
-|C-     |   0.70|
-|D+     |   0.67|
-|D      |   0.64|
-|D-     |   0.60|
+\caption{(\#tab:unnamed-chunk-7)Full Table}
+\centering
+\begin{tabular}[t]{l|r}
+\hline
+Letter & Cutoff\\
+\hline
+A & 0.95\\
+\hline
+A- & 0.90\\
+\hline
+B+ & 0.87\\
+\hline
+B & 0.84\\
+\hline
+B- & 0.80\\
+\hline
+C+ & 0.77\\
+\hline
+C & 0.74\\
+\hline
+C- & 0.70\\
+\hline
+D+ & 0.67\\
+\hline
+D & 0.64\\
+\hline
+D- & 0.60\\
+\hline
+\end{tabular}
+\end{table}
 
 ### Curve Projections    {-}
 
@@ -933,10 +1172,31 @@ It is a projection. It is not a guarantee. These projected letter grades are not
 ## Schedule {-}
 
 
-```{=html}
-<div class="datatables html-widget html-fill-item" id="htmlwidget-e027180fd67df1654f32" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-e027180fd67df1654f32">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],["08/22","08/29","09/05","09/12","09/19","09/26","10/03","10/10","10/17","10/24","10/31","11/07","11/14","11/21","11/28","12/05"],["What is Personality","Personality Research Methods","Assessment, Evaluation, and Ethics","Trait Approach and Personality Judgment","Big Five","Personality over the Lifespan","Biological Approaches to Psychology","Behavior Genetics","Evolutionary Psychology","Cross-Cultural Psychology","Freud","Psychoanalysis After Freud","Personality Processes and Positive Psych","MiniModule on Personality, Big Data, and AI (Also, Thanksgiving Break!)","Personality and Health",null],["Week 01, 08/22 - 08/26","Week 02, 08/29 - 09/02","Week 03, 09/05 - 09/09","Week 04, 09/12 - 09/16","Week 05, 09/19 - 09/23","Week 06, 09/26 - 09/30","Week 07, 10/03 - 10/07","Week 08, 10/10 - 10/14","Week 09, 10/17 - 10/21","Week 10, 10/24 - 10/28","Week 11, 10/31 - 11/04","Week 12, 11/07 - 11/11","Week 13, 11/14 - 11/18","Week 14, 11/21 - 11/25","Week 15, 11/28 - 12/02","Week 16, 12/05 - 12/09"],[null,null,"Quiz",null,null,"Quiz","Assignment",null,null,"Quiz",null,"Assignment","Quiz",null,"Quiz","Quiz and Assignment"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n      <th>milestones<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0},{"name":"module","targets":0},{"name":"start","targets":1},{"name":"topic","targets":2},{"name":"week","targets":3},{"name":"milestones","targets":4}],"order":[],"orderClasses":false},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":[],"jsHooks":[]}</script>
-```
+\begin{tabular}{rllll}
+\toprule
+module & start & topic & week & milestones\\
+\midrule
+1 & 08/22 & What is Personality & Week 01, 08/22 - 08/26 & NA\\
+2 & 08/29 & Personality Research Methods & Week 02, 08/29 - 09/02 & NA\\
+3 & 09/05 & Assessment, Evaluation, and Ethics & Week 03, 09/05 - 09/09 & Quiz\\
+4 & 09/12 & Trait Approach and Personality Judgment & Week 04, 09/12 - 09/16 & NA\\
+5 & 09/19 & Big Five & Week 05, 09/19 - 09/23 & NA\\
+\addlinespace
+6 & 09/26 & Personality over the Lifespan & Week 06, 09/26 - 09/30 & Quiz\\
+7 & 10/03 & Biological Approaches to Psychology & Week 07, 10/03 - 10/07 & Assignment\\
+8 & 10/10 & Behavior Genetics & Week 08, 10/10 - 10/14 & NA\\
+9 & 10/17 & Evolutionary Psychology & Week 09, 10/17 - 10/21 & NA\\
+10 & 10/24 & Cross-Cultural Psychology & Week 10, 10/24 - 10/28 & Quiz\\
+\addlinespace
+11 & 10/31 & Freud & Week 11, 10/31 - 11/04 & NA\\
+12 & 11/07 & Psychoanalysis After Freud & Week 12, 11/07 - 11/11 & Assignment\\
+13 & 11/14 & Personality Processes and Positive Psych & Week 13, 11/14 - 11/18 & Quiz\\
+14 & 11/21 & MiniModule on Personality, Big Data, and AI (Also, Thanksgiving Break!) & Week 14, 11/21 - 11/25 & NA\\
+15 & 11/28 & Personality and Health & Week 15, 11/28 - 12/02 & Quiz\\
+\addlinespace
+16 & 12/05 & NA & Week 16, 12/05 - 12/09 & Quiz and Assignment\\
+\bottomrule
+\end{tabular}
 
 <!--chapter:end:0202_personality.Rmd-->
 
@@ -1110,10 +1370,20 @@ To contract for a "P" or Pass in this course, you agree to:
 Note that I'll be using your contracts to guide my tinkering.
 
 
-```{=html}
-<div class="datatables html-widget html-fill-item" id="htmlwidget-4daf05b94c99a797ae37" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-4daf05b94c99a797ae37">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7],["01/13","01/20","01/27","02/03","02/10","02/17","02/24"],["What is Data Science and Meet the Toolkit","Data and Visualization","Welcome to the Tidyverse","Data types and Data Transformations","Effective data visualization","Scientific Communication and confounding","Functions and Automation"],["Week 01, 01/13 - 01/17","Week 02, 01/20 - 01/24","Week 03, 01/27 - 01/31","Week 04, 02/03 - 02/07","Week 05, 02/10 - 02/14","Week 06, 02/17 - 02/21","Week 07, 02/24 - 02/28"],[null,"Contract",null,null,null,null,"Presentation"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n      <th>milestones<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0},{"name":"module","targets":0},{"name":"start","targets":1},{"name":"topic","targets":2},{"name":"week","targets":3},{"name":"milestones","targets":4}],"order":[],"orderClasses":false},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":[],"jsHooks":[]}</script>
-```
+\begin{tabular}{rllll}
+\toprule
+module & start & topic & week & milestones\\
+\midrule
+1 & 01/13 & What is Data Science and Meet the Toolkit & Week 01, 01/13 - 01/17 & NA\\
+2 & 01/20 & Data and Visualization & Week 02, 01/20 - 01/24 & Contract\\
+3 & 01/27 & Welcome to the Tidyverse & Week 03, 01/27 - 01/31 & NA\\
+4 & 02/03 & Data types and Data Transformations & Week 04, 02/03 - 02/07 & NA\\
+5 & 02/10 & Effective data visualization & Week 05, 02/10 - 02/14 & NA\\
+\addlinespace
+6 & 02/17 & Scientific Communication and confounding & Week 06, 02/17 - 02/21 & NA\\
+7 & 02/24 & Functions and Automation & Week 07, 02/24 - 02/28 & Presentation\\
+\bottomrule
+\end{tabular}
 
 <!--chapter:end:0203_applieddatascience.Rmd-->
 
@@ -1159,22 +1429,38 @@ This curve can only help your grade.
 
 The full table is provided below:
 
+\begin{table}
 
-Table: (\#tab:unnamed-chunk-7)Full Table
-
-|Letter | Cutoff|
-|:------|------:|
-|A      |   0.95|
-|A-     |   0.90|
-|B+     |   0.87|
-|B      |   0.84|
-|B-     |   0.80|
-|C+     |   0.77|
-|C      |   0.74|
-|C-     |   0.70|
-|D+     |   0.67|
-|D      |   0.64|
-|D-     |   0.60|
+\caption{(\#tab:unnamed-chunk-7)Full Table}
+\centering
+\begin{tabular}[t]{l|r}
+\hline
+Letter & Cutoff\\
+\hline
+A & 0.95\\
+\hline
+A- & 0.90\\
+\hline
+B+ & 0.87\\
+\hline
+B & 0.84\\
+\hline
+B- & 0.80\\
+\hline
+C+ & 0.77\\
+\hline
+C & 0.74\\
+\hline
+C- & 0.70\\
+\hline
+D+ & 0.67\\
+\hline
+D & 0.64\\
+\hline
+D- & 0.60\\
+\hline
+\end{tabular}
+\end{table}
 
 ### Curve Projections    {-}
 
@@ -1235,10 +1521,29 @@ There will be multiple engagement activities in this course. These activities wi
 ## Schedule {-}
 
 
-```{=html}
-<div class="datatables html-widget html-fill-item" id="htmlwidget-e811979c0093417c5adf" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-e811979c0093417c5adf">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15],["01/25","02/01","02/08","02/15","02/22","03/01","03/08","03/15","03/22","03/29","04/05","04/12","04/19","04/26","05/03"],["Foundations and Nature of Testing","History of Testing","Ethical and Social Considerations in Testing","Norms and the Meaning of Test Scores","Classical Test Theory","Reliability","Catch Up Week","Validity","Item Analysis","Factor Analysis","Item Response Theory","Practical Testing Things","Ability Testing","Personality Testing","Review"],["Week 01, 01/25 - 01/29","Week 02, 02/01 - 02/05","Week 03, 02/08 - 02/12","Week 04, 02/15 - 02/19","Week 05, 02/22 - 02/26","Week 06, 03/01 - 03/05","Week 07, 03/08 - 03/12","Week 08, 03/15 - 03/19","Week 09, 03/22 - 03/26","Week 10, 03/29 - 04/02","Week 11, 04/05 - 04/09","Week 12, 04/12 - 04/16","Week 13, 04/19 - 04/23","Week 14, 04/26 - 04/30","Week 15, 05/03 - 05/07"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0},{"name":"module","targets":0},{"name":"start","targets":1},{"name":"topic","targets":2},{"name":"week","targets":3}],"order":[],"orderClasses":false},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":[],"jsHooks":[]}</script>
-```
+\begin{tabular}{rlll}
+\toprule
+module & start & topic & week\\
+\midrule
+1 & 01/25 & Foundations and Nature of Testing & Week 01, 01/25 - 01/29\\
+2 & 02/01 & History of Testing & Week 02, 02/01 - 02/05\\
+3 & 02/08 & Ethical and Social Considerations in Testing & Week 03, 02/08 - 02/12\\
+4 & 02/15 & Norms and the Meaning of Test Scores & Week 04, 02/15 - 02/19\\
+5 & 02/22 & Classical Test Theory & Week 05, 02/22 - 02/26\\
+\addlinespace
+6 & 03/01 & Reliability & Week 06, 03/01 - 03/05\\
+7 & 03/08 & Catch Up Week & Week 07, 03/08 - 03/12\\
+8 & 03/15 & Validity & Week 08, 03/15 - 03/19\\
+9 & 03/22 & Item Analysis & Week 09, 03/22 - 03/26\\
+10 & 03/29 & Factor Analysis & Week 10, 03/29 - 04/02\\
+\addlinespace
+11 & 04/05 & Item Response Theory & Week 11, 04/05 - 04/09\\
+12 & 04/12 & Practical Testing Things & Week 12, 04/12 - 04/16\\
+13 & 04/19 & Ability Testing & Week 13, 04/19 - 04/23\\
+14 & 04/26 & Personality Testing & Week 14, 04/26 - 04/30\\
+15 & 05/03 & Review & Week 15, 05/03 - 05/07\\
+\bottomrule
+\end{tabular}
 
 <!--chapter:end:0204_testing.Rmd-->
 
@@ -1323,22 +1628,38 @@ Your letter grade for this course is determined by the percentage of total point
 A letter grade will be assigned on the basis of the following scale provided below:
 
 The full table is provided below:
+\begin{table}
 
-Table: (\#tab:unnamed-chunk-5)Full Table
-
-|Letter | Cutoff|
-|:------|------:|
-|A      |   0.95|
-|A-     |   0.90|
-|B+     |   0.87|
-|B      |   0.84|
-|B-     |   0.80|
-|C+     |   0.77|
-|C      |   0.74|
-|C-     |   0.70|
-|D+     |   0.67|
-|D      |   0.64|
-|D-     |   0.60|
+\caption{(\#tab:unnamed-chunk-5)Full Table}
+\centering
+\begin{tabular}[t]{l|r}
+\hline
+Letter & Cutoff\\
+\hline
+A & 0.95\\
+\hline
+A- & 0.90\\
+\hline
+B+ & 0.87\\
+\hline
+B & 0.84\\
+\hline
+B- & 0.80\\
+\hline
+C+ & 0.77\\
+\hline
+C & 0.74\\
+\hline
+C- & 0.70\\
+\hline
+D+ & 0.67\\
+\hline
+D & 0.64\\
+\hline
+D- & 0.60\\
+\hline
+\end{tabular}
+\end{table}
 
 I *may* shift these thresholds down *slightly* to provide a better fit to the actual point distribution. This shift can only help your grade.
 
@@ -1353,10 +1674,22 @@ I *may* shift these thresholds down *slightly* to provide a better fit to the ac
 ## Schedule {-}
 
 
-```{=html}
-<div class="datatables html-widget html-fill-item" id="htmlwidget-2413449ff9deaddf3897" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-2413449ff9deaddf3897">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9],["03/03","03/10","03/17","03/24","03/31","04/07","04/14","04/21","04/28"],["Introduction to Wikipedia Assignment","Break Week","Generative AI and Evaluating Wikipedia","Review Rules and Choose Topics","Copyedit, Finalize Topic, Start Drafting","Peer Review and Move to Wikipedia","Continue Improving Article","Polish and Final Article","Final Presentations"],["Week 01, 03/03 - 03/07","Week 02, 03/10 - 03/14","Week 03, 03/17 - 03/21","Week 04, 03/24 - 03/28","Week 05, 03/31 - 04/04","Week 06, 04/07 - 04/11","Week 07, 04/14 - 04/18","Week 08, 04/21 - 04/25","Week 09, 04/28 - 05/02"],[null,null,"Evaluate Wikipedia Exercise","Find Potential Articles","Bibliography &amp; Outline","Peer Reviews",null,"Final Article","Reflective Essay &amp; Presentation"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n      <th>milestones<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":9,"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0},{"name":"module","targets":0},{"name":"start","targets":1},{"name":"topic","targets":2},{"name":"week","targets":3},{"name":"milestones","targets":4}],"order":[],"orderClasses":false,"lengthMenu":[9,10,25,50,100]},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":[],"jsHooks":[]}</script>
-```
+\begin{tabular}{rllll}
+\toprule
+module & start & topic & week & milestones\\
+\midrule
+1 & 03/03 & Introduction to Wikipedia Assignment & Week 01, 03/03 - 03/07 & NA\\
+2 & 03/10 & Break Week & Week 02, 03/10 - 03/14 & NA\\
+3 & 03/17 & Generative AI and Evaluating Wikipedia & Week 03, 03/17 - 03/21 & Evaluate Wikipedia Exercise\\
+4 & 03/24 & Review Rules and Choose Topics & Week 04, 03/24 - 03/28 & Find Potential Articles\\
+5 & 03/31 & Copyedit, Finalize Topic, Start Drafting & Week 05, 03/31 - 04/04 & Bibliography \& Outline\\
+\addlinespace
+6 & 04/07 & Peer Review and Move to Wikipedia & Week 06, 04/07 - 04/11 & Peer Reviews\\
+7 & 04/14 & Continue Improving Article & Week 07, 04/14 - 04/18 & NA\\
+8 & 04/21 & Polish and Final Article & Week 08, 04/21 - 04/25 & Final Article\\
+9 & 04/28 & Final Presentations & Week 09, 04/28 - 05/02 & Reflective Essay \& Presentation\\
+\bottomrule
+\end{tabular}
 
 <!--chapter:end:0205_wikipedia.Rmd-->
 
@@ -1529,10 +1862,31 @@ To contract for a "P" or Pass in this course, you agree to:
 Note that I'll be using your contracts to guide my tinkering.
 
 
-```{=html}
-<div class="datatables html-widget html-fill-item" id="htmlwidget-4bee845c61be58cca23c" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-4bee845c61be58cca23c">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],["01/12","01/19","01/26","02/02","02/09","02/16","02/23","03/02","03/09","03/16","03/23","03/30","04/06","04/13","04/20","04/27"],["What is Data Science and Meet the Toolkit","Data and Visualization","Welcome to the Tidyverse","Data types and Data Transformations","Effective data visualization","Scientific Communication and confounding","Functions and Automation","Webscraping","Spring Break","Ethics","Tidy Models","Overfitting and Cross validation","Quantifying uncertainty","Rshiny","Machine Learning","Presentations"],["Week 01, 01/12 - 01/16","Week 02, 01/19 - 01/23","Week 03, 01/26 - 01/30","Week 04, 02/02 - 02/06","Week 05, 02/09 - 02/13","Week 06, 02/16 - 02/20","Week 07, 02/23 - 02/27","Week 08, 03/02 - 03/06","Week 09, 03/09 - 03/13","Week 10, 03/16 - 03/20","Week 11, 03/23 - 03/27","Week 12, 03/30 - 04/03","Week 13, 04/06 - 04/10","Week 14, 04/13 - 04/17","Week 15, 04/20 - 04/24","Week 16, 04/27 - 05/01"],[null,"Contract",null,null,null,null,null,null,null,null,null,null,null,null,null,"Presentation"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n      <th>milestones<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0},{"name":"module","targets":0},{"name":"start","targets":1},{"name":"topic","targets":2},{"name":"week","targets":3},{"name":"milestones","targets":4}],"order":[],"orderClasses":false},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":[],"jsHooks":[]}</script>
-```
+\begin{tabular}{rllll}
+\toprule
+module & start & topic & week & milestones\\
+\midrule
+1 & 01/12 & What is Data Science and Meet the Toolkit & Week 01, 01/12 - 01/16 & NA\\
+2 & 01/19 & Data and Visualization & Week 02, 01/19 - 01/23 & Contract\\
+3 & 01/26 & Welcome to the Tidyverse & Week 03, 01/26 - 01/30 & NA\\
+4 & 02/02 & Data types and Data Transformations & Week 04, 02/02 - 02/06 & NA\\
+5 & 02/09 & Effective data visualization & Week 05, 02/09 - 02/13 & NA\\
+\addlinespace
+6 & 02/16 & Scientific Communication and confounding & Week 06, 02/16 - 02/20 & NA\\
+7 & 02/23 & Functions and Automation & Week 07, 02/23 - 02/27 & NA\\
+8 & 03/02 & Webscraping & Week 08, 03/02 - 03/06 & NA\\
+9 & 03/09 & Spring Break & Week 09, 03/09 - 03/13 & NA\\
+10 & 03/16 & Ethics & Week 10, 03/16 - 03/20 & NA\\
+\addlinespace
+11 & 03/23 & Tidy Models & Week 11, 03/23 - 03/27 & NA\\
+12 & 03/30 & Overfitting and Cross validation & Week 12, 03/30 - 04/03 & NA\\
+13 & 04/06 & Quantifying uncertainty & Week 13, 04/06 - 04/10 & NA\\
+14 & 04/13 & Rshiny & Week 14, 04/13 - 04/17 & NA\\
+15 & 04/20 & Machine Learning & Week 15, 04/20 - 04/24 & NA\\
+\addlinespace
+16 & 04/27 & Presentations & Week 16, 04/27 - 05/01 & Presentation\\
+\bottomrule
+\end{tabular}
 
 <!--chapter:end:0206_datascience.Rmd-->
 
@@ -1570,14 +1924,7 @@ Remember, this is just an average. Some weeks you may have more work to do than 
 I've created a [video](https://youtu.be/dc3D2tbl8G0) highlighting how to be a successful asynchronous learner. 
 
 
-```{=html}
-<div class="vembedr" align="center">
-<div>
-<iframe src="https://www.youtube.com/embed/dc3D2tbl8G0" width="533" height="300" frameborder="0" allowfullscreen="" data-external="1"></iframe>
-</div>
-</div>
-```
-
+\includegraphics[width=30.76in]{img/learngood} 
 
 Much of this information comes from Northeastern University's [Tips for Taking Online Classes](https://www.northeastern.edu/graduate/blog/tips-for-taking-online-classes/)
 
@@ -1659,7 +2006,8 @@ I don't want to discourage you from asking questions. However, asking me is not 
 
 * Phone Call: ...
 
-<img src="img/why-this-millennial-didnt-answer-your-call.jpeg" alt="" width="50%" style="display: block; margin: auto;" />
+
+\begin{center}\includegraphics[width=0.5\linewidth]{img/why-this-millennial-didnt-answer-your-call} \end{center}
 
 Credit: [Kiki Schirr](https://kikischirr.medium.com/) at [Tech Doodles](https://medium.com/tech-doodles) on ["Why this millennial didn't answer your call"](https://medium.com/tech-doodles/why-this-millennial-didnt-answer-your-call-d5abccf06cfc)
 
@@ -1705,14 +2053,7 @@ No. You are capable of calculating a weighted average. You have all the informat
 The work...
 
 
-```{=html}
-<div class="vembedr" align="center">
-<div>
-<iframe src="https://www.youtube.com/embed/WVvKnq5XT-g" width="533" height="300" frameborder="0" allowfullscreen="" data-external="1"></iframe>
-</div>
-</div>
-```
-
+\includegraphics[width=18.14in]{img/worriedgrade} 
 
 
 ### Why is the <assignment/activity/quiz> locked?
@@ -1725,11 +2066,6 @@ My tests/quizzes and grading rubrics take a long time to make. While I'm happy t
 
 ### How do I ask professors for extensions?
 
-
-```{=html}
-<blockquote class="twitter-tweet" data-width="550" data-lang="en" data-dnt="true" data-theme="light"><p lang="en" dir="ltr">Until I became a professor, I didn&#39;t realize that students can (and do) regularly ask for extensions. <br><br>This means some students know how to use this strategy to support their learning, some don&#39;t.<br><br>Sharing info so everyone has access to the same tools. A thread. <a href="https://twitter.com/OpenAcademics?ref_src=twsrc%5Etfw">@OpenAcademics</a></p>&mdash; Betty S. Lai, PhD (@BettySLai) <a href="https://twitter.com/BettySLai/status/1455555111397117954?ref_src=twsrc%5Etfw">November 2, 2021</a></blockquote>
-
-```
 
 
 
@@ -1771,12 +2107,6 @@ If you're having trouble with Canvas, you should first search the [Canvas Guides
 - If you'd like to get materials for free, you can borrow the materials from someone who'se already taken the course.
 - **Obviously**, I can't recommend finding the materials online... 
 
-
-```{=html}
-<blockquote class="twitter-tweet" data-width="550" data-lang="en" data-dnt="true" data-theme="light"><p lang="en" dir="ltr">Once again, I DO NOT recommend students go to libgen (dot) rs and download books for their upcoming courses. I am NOT advocating for getting and sharing free pdfs of required texts. DON&#39;T DO IT.</p>&mdash; itsgalo 🗯 (@GaloAndStuff) <a href="https://twitter.com/GaloAndStuff/status/1424818560417902604?ref_src=twsrc%5Etfw">August 9, 2021</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-```
 
 
 ### Can...
@@ -2012,14 +2342,13 @@ While Chrome is the preferred browser for most Canvas interactions, Canvas suppo
 
 **Tech Support Cheat Sheet**
 
-![](https://imgs.xkcd.com/comics/tech_support_cheat_sheet.png)<!-- -->
+
+\includegraphics[width=10.17in]{img/tech_support_cheat_sheet} 
 
 <!--chapter:end:0304_support.Rmd-->
 
 # (PART\*) Back Matter {-}
 
-
-# References {-}
 
 
 <!--chapter:end:9999_references.Rmd-->

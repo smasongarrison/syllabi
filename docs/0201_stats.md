@@ -25,22 +25,38 @@ This curve can only help your grade.
 
 The full table is provided below:
 
+\begin{table}
 
-Table: (\#tab:unnamed-chunk-5)Full Table
-
-|Letter | Cutoff|
-|:------|------:|
-|A      |   0.95|
-|A-     |   0.90|
-|B+     |   0.87|
-|B      |   0.84|
-|B-     |   0.80|
-|C+     |   0.77|
-|C      |   0.74|
-|C-     |   0.70|
-|D+     |   0.67|
-|D      |   0.64|
-|D-     |   0.60|
+\caption{(\#tab:unnamed-chunk-5)Full Table}
+\centering
+\begin{tabular}[t]{l|r}
+\hline
+Letter & Cutoff\\
+\hline
+A & 0.95\\
+\hline
+A- & 0.90\\
+\hline
+B+ & 0.87\\
+\hline
+B & 0.84\\
+\hline
+B- & 0.80\\
+\hline
+C+ & 0.77\\
+\hline
+C & 0.74\\
+\hline
+C- & 0.70\\
+\hline
+D+ & 0.67\\
+\hline
+D & 0.64\\
+\hline
+D- & 0.60\\
+\hline
+\end{tabular}
+\end{table}
 
 ### Curve Projections    {-}
 
@@ -91,10 +107,31 @@ There will be multiple engagement activities in this course. These activities wi
 ## Schedule {.unnumbered}
 
 
-```{=html}
-<div class="datatables html-widget html-fill-item" id="htmlwidget-1b151c7a8e68bf496dac" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-1b151c7a8e68bf496dac">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],["08/25","09/01","09/08","09/15","09/22","09/29","10/06","10/13","10/20","10/27","11/03","11/10","11/17","11/24","12/01","12/08"],["What are Research Methods?","Getting Ready to Do Statistical Analysis","Describing Data with R","Univariate Distributions","Bivariate Distributions","Probability Theory","Binomials and Other Sampling Distributions","Hypothesis Testing","T-Tests","F-Tests and ANOVA","Causal Inference","Experimental Designs","Ethics and Reproducibility","Special Topics","Putting it all together","Finals"],["Week 01, 08/25 - 08/29","Week 02, 09/01 - 09/05","Week 03, 09/08 - 09/12","Week 04, 09/15 - 09/19","Week 05, 09/22 - 09/26","Week 06, 09/29 - 10/03","Week 07, 10/06 - 10/10","Week 08, 10/13 - 10/17","Week 09, 10/20 - 10/24","Week 10, 10/27 - 10/31","Week 11, 11/03 - 11/07","Week 12, 11/10 - 11/14","Week 13, 11/17 - 11/21","Week 14, 11/24 - 11/28","Week 15, 12/01 - 12/05","Week 16, 12/08 - 12/12"],[null,null,null,null,null,"Exam",null,"Assignment",null,null,null,"Exam",null,null,"Assignment","Exam"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n      <th>milestones<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0},{"name":"module","targets":0},{"name":"start","targets":1},{"name":"topic","targets":2},{"name":"week","targets":3},{"name":"milestones","targets":4}],"order":[],"orderClasses":false},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":[],"jsHooks":[]}</script>
-```
+\begin{tabular}{rllll}
+\toprule
+module & start & topic & week & milestones\\
+\midrule
+1 & 08/25 & What are Research Methods? & Week 01, 08/25 - 08/29 & NA\\
+2 & 09/01 & Getting Ready to Do Statistical Analysis & Week 02, 09/01 - 09/05 & NA\\
+3 & 09/08 & Describing Data with R & Week 03, 09/08 - 09/12 & NA\\
+4 & 09/15 & Univariate Distributions & Week 04, 09/15 - 09/19 & NA\\
+5 & 09/22 & Bivariate Distributions & Week 05, 09/22 - 09/26 & NA\\
+\addlinespace
+6 & 09/29 & Probability Theory & Week 06, 09/29 - 10/03 & Exam\\
+7 & 10/06 & Binomials and Other Sampling Distributions & Week 07, 10/06 - 10/10 & NA\\
+8 & 10/13 & Hypothesis Testing & Week 08, 10/13 - 10/17 & Assignment\\
+9 & 10/20 & T-Tests & Week 09, 10/20 - 10/24 & NA\\
+10 & 10/27 & F-Tests and ANOVA & Week 10, 10/27 - 10/31 & NA\\
+\addlinespace
+11 & 11/03 & Causal Inference & Week 11, 11/03 - 11/07 & NA\\
+12 & 11/10 & Experimental Designs & Week 12, 11/10 - 11/14 & Exam\\
+13 & 11/17 & Ethics and Reproducibility & Week 13, 11/17 - 11/21 & NA\\
+14 & 11/24 & Special Topics & Week 14, 11/24 - 11/28 & NA\\
+15 & 12/01 & Putting it all together & Week 15, 12/01 - 12/05 & Assignment\\
+\addlinespace
+16 & 12/08 & Finals & Week 16, 12/08 - 12/12 & Exam\\
+\bottomrule
+\end{tabular}
 
 ```{=html}
 <!---

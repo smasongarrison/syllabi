@@ -40,22 +40,38 @@ This curve can only help your grade.
 
 The full table is provided below:
 
+\begin{table}
 
-Table: (\#tab:unnamed-chunk-7)Full Table
-
-|Letter | Cutoff|
-|:------|------:|
-|A      |   0.95|
-|A-     |   0.90|
-|B+     |   0.87|
-|B      |   0.84|
-|B-     |   0.80|
-|C+     |   0.77|
-|C      |   0.74|
-|C-     |   0.70|
-|D+     |   0.67|
-|D      |   0.64|
-|D-     |   0.60|
+\caption{(\#tab:unnamed-chunk-7)Full Table}
+\centering
+\begin{tabular}[t]{l|r}
+\hline
+Letter & Cutoff\\
+\hline
+A & 0.95\\
+\hline
+A- & 0.90\\
+\hline
+B+ & 0.87\\
+\hline
+B & 0.84\\
+\hline
+B- & 0.80\\
+\hline
+C+ & 0.77\\
+\hline
+C & 0.74\\
+\hline
+C- & 0.70\\
+\hline
+D+ & 0.67\\
+\hline
+D & 0.64\\
+\hline
+D- & 0.60\\
+\hline
+\end{tabular}
+\end{table}
 
 ### Curve Projections    {-}
 
@@ -116,7 +132,26 @@ There will be multiple engagement activities in this course. These activities wi
 ## Schedule {-}
 
 
-```{=html}
-<div class="datatables html-widget html-fill-item" id="htmlwidget-e811979c0093417c5adf" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-e811979c0093417c5adf">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15],["01/25","02/01","02/08","02/15","02/22","03/01","03/08","03/15","03/22","03/29","04/05","04/12","04/19","04/26","05/03"],["Foundations and Nature of Testing","History of Testing","Ethical and Social Considerations in Testing","Norms and the Meaning of Test Scores","Classical Test Theory","Reliability","Catch Up Week","Validity","Item Analysis","Factor Analysis","Item Response Theory","Practical Testing Things","Ability Testing","Personality Testing","Review"],["Week 01, 01/25 - 01/29","Week 02, 02/01 - 02/05","Week 03, 02/08 - 02/12","Week 04, 02/15 - 02/19","Week 05, 02/22 - 02/26","Week 06, 03/01 - 03/05","Week 07, 03/08 - 03/12","Week 08, 03/15 - 03/19","Week 09, 03/22 - 03/26","Week 10, 03/29 - 04/02","Week 11, 04/05 - 04/09","Week 12, 04/12 - 04/16","Week 13, 04/19 - 04/23","Week 14, 04/26 - 04/30","Week 15, 05/03 - 05/07"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0},{"name":"module","targets":0},{"name":"start","targets":1},{"name":"topic","targets":2},{"name":"week","targets":3}],"order":[],"orderClasses":false},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":[],"jsHooks":[]}</script>
-```
+\begin{tabular}{rlll}
+\toprule
+module & start & topic & week\\
+\midrule
+1 & 01/25 & Foundations and Nature of Testing & Week 01, 01/25 - 01/29\\
+2 & 02/01 & History of Testing & Week 02, 02/01 - 02/05\\
+3 & 02/08 & Ethical and Social Considerations in Testing & Week 03, 02/08 - 02/12\\
+4 & 02/15 & Norms and the Meaning of Test Scores & Week 04, 02/15 - 02/19\\
+5 & 02/22 & Classical Test Theory & Week 05, 02/22 - 02/26\\
+\addlinespace
+6 & 03/01 & Reliability & Week 06, 03/01 - 03/05\\
+7 & 03/08 & Catch Up Week & Week 07, 03/08 - 03/12\\
+8 & 03/15 & Validity & Week 08, 03/15 - 03/19\\
+9 & 03/22 & Item Analysis & Week 09, 03/22 - 03/26\\
+10 & 03/29 & Factor Analysis & Week 10, 03/29 - 04/02\\
+\addlinespace
+11 & 04/05 & Item Response Theory & Week 11, 04/05 - 04/09\\
+12 & 04/12 & Practical Testing Things & Week 12, 04/12 - 04/16\\
+13 & 04/19 & Ability Testing & Week 13, 04/19 - 04/23\\
+14 & 04/26 & Personality Testing & Week 14, 04/26 - 04/30\\
+15 & 05/03 & Review & Week 15, 05/03 - 05/07\\
+\bottomrule
+\end{tabular}

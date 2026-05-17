@@ -79,22 +79,38 @@ Your letter grade for this course is determined by the percentage of total point
 A letter grade will be assigned on the basis of the following scale provided below:
 
 The full table is provided below:
+\begin{table}
 
-Table: (\#tab:unnamed-chunk-5)Full Table
-
-|Letter | Cutoff|
-|:------|------:|
-|A      |   0.95|
-|A-     |   0.90|
-|B+     |   0.87|
-|B      |   0.84|
-|B-     |   0.80|
-|C+     |   0.77|
-|C      |   0.74|
-|C-     |   0.70|
-|D+     |   0.67|
-|D      |   0.64|
-|D-     |   0.60|
+\caption{(\#tab:unnamed-chunk-5)Full Table}
+\centering
+\begin{tabular}[t]{l|r}
+\hline
+Letter & Cutoff\\
+\hline
+A & 0.95\\
+\hline
+A- & 0.90\\
+\hline
+B+ & 0.87\\
+\hline
+B & 0.84\\
+\hline
+B- & 0.80\\
+\hline
+C+ & 0.77\\
+\hline
+C & 0.74\\
+\hline
+C- & 0.70\\
+\hline
+D+ & 0.67\\
+\hline
+D & 0.64\\
+\hline
+D- & 0.60\\
+\hline
+\end{tabular}
+\end{table}
 
 I *may* shift these thresholds down *slightly* to provide a better fit to the actual point distribution. This shift can only help your grade.
 
@@ -109,7 +125,19 @@ I *may* shift these thresholds down *slightly* to provide a better fit to the ac
 ## Schedule {-}
 
 
-```{=html}
-<div class="datatables html-widget html-fill-item" id="htmlwidget-2413449ff9deaddf3897" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-2413449ff9deaddf3897">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9],["03/03","03/10","03/17","03/24","03/31","04/07","04/14","04/21","04/28"],["Introduction to Wikipedia Assignment","Break Week","Generative AI and Evaluating Wikipedia","Review Rules and Choose Topics","Copyedit, Finalize Topic, Start Drafting","Peer Review and Move to Wikipedia","Continue Improving Article","Polish and Final Article","Final Presentations"],["Week 01, 03/03 - 03/07","Week 02, 03/10 - 03/14","Week 03, 03/17 - 03/21","Week 04, 03/24 - 03/28","Week 05, 03/31 - 04/04","Week 06, 04/07 - 04/11","Week 07, 04/14 - 04/18","Week 08, 04/21 - 04/25","Week 09, 04/28 - 05/02"],[null,null,"Evaluate Wikipedia Exercise","Find Potential Articles","Bibliography &amp; Outline","Peer Reviews",null,"Final Article","Reflective Essay &amp; Presentation"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n      <th>milestones<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":9,"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0},{"name":"module","targets":0},{"name":"start","targets":1},{"name":"topic","targets":2},{"name":"week","targets":3},{"name":"milestones","targets":4}],"order":[],"orderClasses":false,"lengthMenu":[9,10,25,50,100]},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":[],"jsHooks":[]}</script>
-```
+\begin{tabular}{rllll}
+\toprule
+module & start & topic & week & milestones\\
+\midrule
+1 & 03/03 & Introduction to Wikipedia Assignment & Week 01, 03/03 - 03/07 & NA\\
+2 & 03/10 & Break Week & Week 02, 03/10 - 03/14 & NA\\
+3 & 03/17 & Generative AI and Evaluating Wikipedia & Week 03, 03/17 - 03/21 & Evaluate Wikipedia Exercise\\
+4 & 03/24 & Review Rules and Choose Topics & Week 04, 03/24 - 03/28 & Find Potential Articles\\
+5 & 03/31 & Copyedit, Finalize Topic, Start Drafting & Week 05, 03/31 - 04/04 & Bibliography \& Outline\\
+\addlinespace
+6 & 04/07 & Peer Review and Move to Wikipedia & Week 06, 04/07 - 04/11 & Peer Reviews\\
+7 & 04/14 & Continue Improving Article & Week 07, 04/14 - 04/18 & NA\\
+8 & 04/21 & Polish and Final Article & Week 08, 04/21 - 04/25 & Final Article\\
+9 & 04/28 & Final Presentations & Week 09, 04/28 - 05/02 & Reflective Essay \& Presentation\\
+\bottomrule
+\end{tabular}
