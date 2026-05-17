@@ -10,10 +10,10 @@ library(webshot)
 ```{r links, child="links.md"}
 ```
 
-Welcome! This section includes general information on the syllabus. The following sections include information specific to your class. (Now, before I forget, any matter not explicitly covered by the syllabus or institution-wide policy is left to my sole discretion as the instructor. See [policy overview](#policy-overview)
+Welcome! This section includes general information on the syllabus. These policies apply to all of my classes, but the specific requirements for each class are included in the course-specific sections below.
+(Now, before I forget, any matter not explicitly covered by the syllabus or institution-wide policy is left to my sole discretion as the instructor. See [policy overview](#policy-overview)
 
 Remember: This course is for you, not for me. 
-
 
 ```{r, echo=FALSE, cache = TRUE}
 if (knitr::is_latex_output()) {
@@ -37,7 +37,7 @@ if (knitr::is_latex_output()) {
 
 ## Materials
 
-If you chose to use alternative materials, such as an older edition of the book, it is your responsibility to ensure that those materials are equivalent.
+If you chose to use alternative materials, such as an older edition of the book, it is your responsibility to ensure that those materials are equivalent. 
 
 ### Required Texts
 

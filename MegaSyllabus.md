@@ -1,7 +1,7 @@
 --- 
 title: "Prof. Mason's Syllabi"
 author: S. Mason Garrison
-date: "2026-01-29"
+date: "2026-05-17"
 knit: "bookdown::render_book"
 site: bookdown::bookdown_site
 url: 'https\://github.com/smasongarrison/syllabi'
@@ -133,7 +133,7 @@ This version of the syllabus was built with:
 
 ```
 ##  setting  value
-##  version  R version 4.5.2 (2025-10-31 ucrt)
+##  version  R version 4.6.0 (2026-04-24 ucrt)
 ##  os       Windows 11 x64 (build 26220)
 ##  system   x86_64, mingw32
 ##  ui       RTerm
@@ -141,8 +141,8 @@ This version of the syllabus was built with:
 ##  collate  English_United States.utf8
 ##  ctype    English_United States.utf8
 ##  tz       America/New_York
-##  date     2026-01-29
-##  pandoc   3.6.3 @ C:/Program Files/RStudio/resources/app/bin/quarto/bin/tools/ (via rmarkdown)
+##  date     2026-05-17
+##  pandoc   3.8.3 @ C:/Program Files/RStudio/resources/app/bin/quarto/bin/tools/ (via rmarkdown)
 ##  quarto   NA @ C:\\PROGRA~1\\RStudio\\RESOUR~1\\app\\bin\\quarto\\bin\\quarto.exe
 ```
 
@@ -151,8 +151,8 @@ Along with these packages:
 
 
 ```{=html}
-<div class="datatables html-widget html-fill-item" id="htmlwidget-576efd04475130d0fdd1" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-576efd04475130d0fdd1">{"x":{"filter":"top","vertical":false,"filterHTML":"<tr>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n<\/tr>","data":[["askpass","assertthat","backports","base64enc","bigD","bit","bit64","bitops","blob","bookdown","brew","brio","broom","bslib","cachem","callr","cellranger","cli","clipr","commonmark","conflicted","cpp11","crayon","credentials","crosstalk","curl","data.table","DBI","dbplyr","desc","devtools","dichromat","diffobj","digest","downlit","dplyr","DT","dtplyr","ellipsis","evaluate","fansi","farver","fastmap","fontawesome","forcats","fs","gapminder","gargle","gender","genderdata","generics","geonames","gert","ggplot2","gh","gitcreds","glue","googledrive","googlesheets4","gridExtra","gt","gtable","haven","highr","hms","htmltools","htmlwidgets","httpuv","httr","httr2","ids","ini","isoband","jquerylib","jsonlite","juicyjuice","knitr","labeling","later","lazyeval","lifecycle","litedown","lubridate","magrittr","markdown","memoise","mime","miniUI","modelr","openssl","otel","pillar","pkgbuild","pkgconfig","pkgdown","pkgload","praise","prettyunits","processx","profvis","progress","promises","ps","purrr","R6","ragg","rappdirs","rcmdcheck","RColorBrewer","Rcpp","reactable","reactR","readr","readxl","rebird","rematch","rematch2","remotes","reprex","rjson","rlang","rmarkdown","roxygen2","rplos","rprojroot","rstudioapi","rversions","rvest","S7","sass","scales","selectr","sessioninfo","shiny","sourcetools","stringi","stringr","sys","systemfonts","testthat","textshaping","tibble","tidyr","tidyselect","tidyverse","timechange","tinytex","tzdb","urlchecker","usethis","utf8","uuid","V8","vctrs","viridis","viridisLite","vroom","waldo","whisker","withr","xfun","xml2","xopen","xtable","yaml","zip"],[null,null,null,null,null,null,null,null,null,"0.46",null,null,null,"0.9.0","1.1.0",null,null,"3.6.5",null,null,null,null,null,null,null,null,null,null,null,null,"2.4.6","2.0-0.1",null,"0.6.37",null,"1.1.4",null,null,"0.3.2","1.0.5",null,"2.1.2","1.2.0",null,"1.0.1","1.6.6",null,null,null,null,"0.1.4",null,null,"4.0.1",null,null,"1.8.0",null,null,null,null,"0.3.6",null,null,"1.1.4","0.5.8.1",null,null,null,null,null,null,null,"0.1.4","2.0.0",null,"1.51",null,null,null,"1.0.4",null,"1.9.4","2.0.4",null,"2.0.1",null,null,null,null,"0.2.0","1.11.1","1.4.8","2.0.3",null,"1.4.1",null,null,null,null,null,null,null,"1.2.0","2.6.1",null,null,null,"1.1-3",null,null,null,"2.1.6",null,null,null,null,"2.5.0",null,null,"1.1.6","2.30",null,null,null,"0.17.1",null,null,"0.2.1","0.4.10","1.4.0",null,"1.2.3",null,null,"1.8.7","1.6.0",null,null,null,null,"3.3.0","1.3.2","1.2.1","2.0.0","0.3.0",null,"0.5.0",null,"3.2.1",null,null,null,"0.6.5",null,null,null,null,null,"3.0.2","0.54",null,null,null,"2.3.10",null],["2024-10-04","2019-03-21","2024-05-23","2015-07-28","2025-04-03","2025-03-06","2025-01-16","2024-10-03","2023-03-17","2025-12-05","2023-12-16","2024-04-24","2025-12-04","2025-01-30","2024-05-16","2024-03-25","2016-07-27","2025-04-23","2022-02-22","2025-07-07","2023-02-01","2025-03-03","2024-06-20","2025-09-12","2025-08-26","2025-08-19","2025-12-24","2024-06-02","2025-09-10","2023-12-10","2025-10-03","2022-05-02","2025-04-21","2024-08-19","2025-11-14","2023-11-17","2025-09-02","2025-09-10","2021-04-29","2025-08-27","2025-11-19","2024-05-13","2024-05-15","2024-11-16","2025-09-25","2025-04-12","2025-06-12","2025-09-03","2021-10-13","2025-05-01","2025-05-09","2019-02-19","2025-11-16","2025-11-14","2025-05-26","2022-09-08","2024-09-30","2025-09-10","2025-09-03","2017-09-09","2025-12-16","2024-10-25","2025-05-30","2024-05-26","2025-10-17","2024-04-04","2023-12-06","2025-04-16","2023-08-15","2025-12-08","2017-05-31","2018-05-20","2025-12-07","2021-04-26","2025-03-27","2022-11-10","2025-12-20","2023-08-29","2025-08-27","2019-03-15","2023-11-07","2025-12-18","2024-12-08","2025-09-12","2025-03-23","2021-11-26","2025-03-17","2025-04-17","2023-03-22","2025-09-30","2025-08-29","2025-09-17","2025-05-26","2019-09-22","2025-11-06","2025-09-23","2015-08-11","2023-09-24","2025-02-21","2024-09-20","2023-12-06","2025-11-01","2025-04-12","2025-11-04","2025-02-15","2025-09-02","2021-01-31","2021-09-27","2022-04-03","2025-07-02","2025-12-01","2024-09-14","2025-11-14","2025-03-07","2021-09-20","2023-08-30","2020-05-01","2024-03-17","2024-07-06","2024-09-16","2025-04-11","2025-09-28","2025-09-03",null,"2025-08-26","2024-10-22","2025-10-09","2025-08-29","2025-11-14","2025-04-11","2025-04-24","2025-12-17","2025-02-05","2025-12-09","2023-02-01","2025-03-27","2025-11-04","2024-10-04","2025-10-01","2025-11-25","2025-10-10","2025-06-08","2025-12-19","2024-03-11","2023-02-22","2024-01-18","2025-11-19","2025-03-15","2021-11-30","2025-09-06","2025-06-08","2024-07-29","2025-10-10","2023-12-01","2024-01-29","2023-05-02","2025-11-28","2025-07-11","2022-12-05","2024-10-28","2025-10-30","2025-12-01","2024-04-25","2019-04-21","2024-07-26","2025-05-13"],["CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.2)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.2)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.1)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.1)","CRAN (R 4.5.1)","CRAN (R 4.5.1)","CRAN (R 4.5.2)","CRAN (R 4.5.0)","CRAN (R 4.5.1)","CRAN (R 4.5.0)","CRAN (R 4.5.1)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.2)","CRAN (R 4.5.1)","CRAN (R 4.5.1)","CRAN (R 4.5.1)","CRAN (R 4.5.0)","CRAN (R 4.5.1)","CRAN (R 4.5.2)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.1)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.1)","CRAN (R 4.5.0)","Github (lmullen/genderdata@df16017149a8adb9a75a2dcf734007cab12dd5da)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.2)","CRAN (R 4.5.2)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.1)","CRAN (R 4.5.1)","CRAN (R 4.5.0)","CRAN (R 4.5.2)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.1)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.2)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.2)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.2)","CRAN (R 4.5.0)","CRAN (R 4.5.1)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.2)","CRAN (R 4.5.0)","CRAN (R 4.5.1)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.1)","CRAN (R 4.5.1)","CRAN (R 4.5.1)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.2)","CRAN (R 4.5.1)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.1)","CRAN (R 4.5.0)","CRAN (R 4.5.1)","CRAN (R 4.5.0)","CRAN (R 4.5.1)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.1)","CRAN (R 4.5.2)","CRAN (R 4.5.0)","CRAN (R 4.5.2)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.2)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.1)","CRAN (R 4.5.1)",null,"CRAN (R 4.5.1)","CRAN (R 4.5.0)","CRAN (R 4.5.1)","CRAN (R 4.5.1)","CRAN (R 4.5.2)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.2)","CRAN (R 4.5.0)","CRAN (R 4.5.2)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.1)","CRAN (R 4.5.0)","CRAN (R 4.5.1)","CRAN (R 4.5.2)","CRAN (R 4.5.1)","CRAN (R 4.5.0)","CRAN (R 4.5.2)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.2)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.1)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.1)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.2)","CRAN (R 4.5.1)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.2)","CRAN (R 4.5.2)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)","CRAN (R 4.5.0)"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>package<\/th>\n      <th>loadedversion<\/th>\n      <th>date<\/th>\n      <th>source<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":166,"autoWidth":true,"bInfo":false,"paging":false,"columnDefs":[{"name":"package","targets":0},{"name":"loadedversion","targets":1},{"name":"date","targets":2},{"name":"source","targets":3}],"order":[],"orderClasses":false,"orderCellsTop":true,"lengthMenu":[10,25,50,100,166]}},"evals":[],"jsHooks":[]}</script>
+<div class="datatables html-widget html-fill-item" id="htmlwidget-6e934094365f72bc4a60" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-6e934094365f72bc4a60">{"x":{"filter":"top","vertical":false,"filterHTML":"<tr>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n  <td data-type=\"character\" style=\"vertical-align: top;\">\n    <div class=\"form-group has-feedback\" style=\"margin-bottom: auto;\">\n      <input type=\"search\" placeholder=\"All\" class=\"form-control\" style=\"width: 100%;\"/>\n      <span class=\"glyphicon glyphicon-remove-circle form-control-feedback\"><\/span>\n    <\/div>\n  <\/td>\n<\/tr>","data":[["askpass","assertthat","backports","base64enc","bigD","bit","bit64","bitops","blob","bookdown","brew","brio","broom","bslib","cachem","callr","cellranger","cli","clipr","commonmark","conflicted","cpp11","crayon","credentials","crosstalk","curl","data.table","DBI","dbplyr","desc","devtools","dichromat","diffobj","digest","downlit","dplyr","DT","dtplyr","ellipsis","evaluate","fansi","farver","fastmap","fontawesome","forcats","fs","gapminder","gargle","gender","genderdata","generics","geonames","gert","ggplot2","gh","gitcreds","glue","googledrive","googlesheets4","gridExtra","gt","gtable","haven","highr","hms","htmltools","htmlwidgets","httpuv","httr","httr2","ids","ini","isoband","jquerylib","jsonlite","juicyjuice","knitr","labeling","later","lazyeval","lifecycle","litedown","lubridate","magrittr","markdown","memoise","mime","miniUI","modelr","openssl","otel","pak","pillar","pkgbuild","pkgconfig","pkgdown","pkgload","praise","prettyunits","processx","profvis","progress","promises","ps","purrr","R6","ragg","rappdirs","rcmdcheck","RColorBrewer","Rcpp","reactable","reactR","readr","readxl","rebird","rematch","rematch2","remotes","reprex","rjson","rlang","rmarkdown","roxygen2","rplos","rprojroot","rstudioapi","rversions","rvest","S7","sass","scales","selectr","sessioninfo","shiny","sourcetools","stringi","stringr","sys","systemfonts","testthat","textshaping","tibble","tidyr","tidyselect","tidyverse","timechange","tinytex","tzdb","urlchecker","usethis","utf8","uuid","V8","vctrs","viridis","viridisLite","vroom","waldo","whisker","withr","xfun","xml2","xopen","xtable","yaml","zip"],[null,null,null,null,null,null,null,null,null,"0.46",null,null,null,"0.11.0","1.1.0",null,null,"3.6.6",null,null,null,null,null,null,null,null,null,null,null,null,"2.5.2","2.0-0.1",null,"0.6.39",null,"1.2.1",null,null,"0.3.3","1.0.5",null,"2.1.2","1.2.0",null,"1.0.1","2.1.0",null,null,null,null,"0.1.4",null,null,"4.0.3",null,null,"1.8.1",null,null,null,null,"0.3.6",null,null,"1.1.4","0.5.9",null,null,null,null,null,null,null,"0.1.4","2.0.0",null,"1.51",null,null,null,"1.0.5",null,"1.9.5","2.0.5",null,"2.0.1",null,null,null,null,"0.2.0",null,"1.11.1","1.4.8","2.0.3",null,"1.5.2",null,null,null,null,null,null,null,"1.2.2","2.6.1",null,null,null,"1.1-3",null,null,null,"2.2.0",null,null,null,null,null,null,null,"1.2.0","2.31",null,null,null,"0.18.0",null,null,"0.2.2","0.4.10","1.4.0",null,"1.2.3",null,null,"1.8.7","1.6.0",null,null,null,null,"3.3.1","1.3.2","1.2.1","2.0.0","0.4.0",null,"0.5.0",null,"3.2.1",null,null,null,"0.7.3",null,null,null,null,null,"3.0.2","0.57",null,null,null,"2.3.12",null],["2024-10-04","2019-03-21","2026-04-03","2026-02-02","2025-04-03","2025-03-06","2026-04-21","2024-10-03","2026-01-14","2025-12-05","2023-12-16","2024-04-24","2026-05-14","2026-05-16","2024-05-16","2024-03-25","2016-07-27","2026-04-09","2022-02-22","2025-07-07","2023-02-01","2026-05-06","2024-06-20","2025-09-12","2025-08-26","2026-04-22","2026-05-06","2026-02-25","2026-02-13","2023-12-10","2026-04-30","2022-05-02","2025-04-21","2025-11-19","2025-11-14","2026-04-03","2025-09-02","2026-02-11","2026-04-04","2025-08-27","2025-11-19","2024-05-13","2024-05-15","2024-11-16","2025-09-25","2026-04-18","2025-06-12","2026-01-29","2021-10-13","2026-05-08","2025-05-09","2019-02-19","2026-01-11","2026-04-22","2025-05-26","2022-09-08","2026-04-17","2025-09-10","2025-09-03","2017-09-09","2026-01-22","2024-10-25","2025-05-30","2026-03-06","2025-10-17","2025-12-04","2023-12-06","2026-03-18","2026-02-13","2025-12-08","2017-05-31","2018-05-20","2025-12-07","2021-04-26","2025-03-27","2022-11-10","2025-12-20","2023-08-29","2026-03-05","2026-04-04","2026-01-08","2025-12-18","2026-02-04","2026-04-04","2025-03-23","2021-11-26","2025-03-17","2025-04-17","2023-03-22","2026-05-14","2025-08-29","2026-04-27","2025-09-17","2025-05-26","2019-09-22","2025-11-06","2026-04-22","2015-08-11","2023-09-24","2026-04-22","2024-09-20","2023-12-06","2025-11-01","2026-04-20","2026-04-10","2025-02-15","2026-03-23","2026-01-17","2021-09-27","2022-04-03","2026-04-24","2025-12-01","2024-09-14","2026-02-19","2026-05-16","2021-09-20","2023-08-30","2020-05-01","2024-03-17","2024-07-06","2024-09-16","2026-04-06","2026-03-26","2026-05-01",null,"2025-08-26","2026-01-16","2025-10-09","2025-08-29","2026-04-22","2025-04-11","2025-04-24","2025-12-17","2025-02-05","2026-02-20","2026-03-28","2025-03-27","2025-11-04","2024-10-04","2026-03-05","2026-01-11","2026-03-06","2026-01-11","2025-12-19","2024-03-11","2023-02-22","2026-01-29","2026-03-28","2025-03-15","2021-11-30","2025-09-06","2025-06-08","2026-01-23","2026-04-21","2026-04-11","2024-01-29","2026-02-04","2026-03-31","2025-07-11","2022-12-05","2024-10-28","2026-03-20","2026-01-17","2024-04-25","2026-02-22","2025-12-10","2025-05-13"],["CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.5.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","Github (lmullen/genderdata@df16017149a8adb9a75a2dcf734007cab12dd5da)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)",null,"CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)","CRAN (R 4.6.0)"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>package<\/th>\n      <th>loadedversion<\/th>\n      <th>date<\/th>\n      <th>source<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":167,"autoWidth":true,"bInfo":false,"paging":false,"columnDefs":[{"name":"package","targets":0},{"name":"loadedversion","targets":1},{"name":"date","targets":2},{"name":"source","targets":3}],"order":[],"orderClasses":false,"orderCellsTop":true,"lengthMenu":[10,25,50,100,167]}},"evals":[],"jsHooks":[]}</script>
 ```
 
 The R session information when compiling this book is shown below:
@@ -165,7 +165,7 @@ sessionInfo()
 ```
 
 ```
-## R version 4.5.2 (2025-10-31 ucrt)
+## R version 4.6.0 (2026-04-24 ucrt)
 ## Platform: x86_64-w64-mingw32/x64
 ## Running under: Windows 11 x64 (build 26220)
 ## 
@@ -186,13 +186,13 @@ sessionInfo()
 ## [1] stats     graphics  grDevices utils     datasets  methods   base     
 ## 
 ## other attached packages:
-##  [1] lubridate_1.9.4 forcats_1.0.1   stringr_1.6.0   dplyr_1.1.4    
-##  [5] purrr_1.2.0     readr_2.1.6     tidyr_1.3.2     tibble_3.3.0   
-##  [9] ggplot2_4.0.1   tidyverse_2.0.0
+##  [1] lubridate_1.9.5 forcats_1.0.1   stringr_1.6.0   dplyr_1.2.1    
+##  [5] purrr_1.2.2     readr_2.2.0     tidyr_1.3.2     tibble_3.3.1   
+##  [9] ggplot2_4.0.3   tidyverse_2.0.0
 ## 
 ## loaded via a namespace (and not attached):
-## [1] tools_4.5.2       htmltools_0.5.8.1 bookdown_0.46     rmarkdown_2.30   
-## [5] shiny_1.12.1      knitr_1.51        miniUI_0.1.2
+## [1] bookdown_0.46   shiny_1.13.0    tools_4.6.0     miniUI_0.1.2   
+## [5] knitr_1.51      htmltools_0.5.9 rmarkdown_2.31
 ```
 
 
@@ -233,10 +233,10 @@ sessionInfo()
 [noba]: https://nobaproject.com/
 [ytplaylist]: https://ytplaylist-len.herokuapp.com/
 
-Welcome! This section includes general information on the syllabus. The following sections include information specific to your class. (Now, before I forget, any matter not explicitly covered by the syllabus or institution-wide policy is left to my sole discretion as the instructor. See [policy overview](#policy-overview)
+Welcome! This section includes general information on the syllabus. These policies apply to all of my classes, but the specific requirements for each class are included in the course-specific sections below.
+(Now, before I forget, any matter not explicitly covered by the syllabus or institution-wide policy is left to my sole discretion as the instructor. See [policy overview](#policy-overview)
 
 Remember: This course is for you, not for me. 
-
 
 
 ```{=html}
@@ -254,7 +254,7 @@ Credit:
 
 ## Materials
 
-If you chose to use alternative materials, such as an older edition of the book, it is your responsibility to ensure that those materials are equivalent.
+If you chose to use alternative materials, such as an older edition of the book, it is your responsibility to ensure that those materials are equivalent. 
 
 ### Required Texts
 
@@ -301,14 +301,18 @@ Github is a free IDE and hosting service for Git. As a Wake Forest student, you 
 In this section, I provide specific language for all of my course policies. These policies are in addition to the policies and procedures outlined in the university [bulletin](https://bulletin.wfu.edu). There are slight differences between the [undergraduate college](https://bulletin.wfu.edu/undergraduate/) and the [graduate school](https://bulletin.wfu.edu/graduate/). 
 
 
-
 ## Changes
 
-This syllabus is intended to provide the student with guidance on what may be covered during the semester and will be followed as closely as possible. The dates for tests and assignments will not change except for extraordinary events. I reserve the right to modify, supplement, and make changes as the course needs arise. I try to avoid making changes to the syllabus. However, if substantive changes occur, I will only make changes that are less burdensome and more advantageous to the students. (If I make a change that increases your burden, please talk to me so that we can find a solution.)
+This syllabus is intended to provide you (the student) with guidance on what may be covered during the semester and will be followed as closely as possible. The dates for tests and assignments will not change except for extraordinary events (e.g., Pandemics, Fertilizer Plant Fires, etc.)
+. I reserve the right to modify, supplement, and make changes as the course needs arise. I try to avoid making changes to the syllabus. However, if substantive changes occur, I will only make changes that are less burdensome and more advantageous to the students. (If I make a change that increases your burden, please talk to me so that we can find a solution.)
 
 ### Interpretation
 
-If any policies in this syllabus require interpretation, the instructor's determination is final. That determination will be consistent with the original intent of the policy. Clarifications and interpretations will be committed to the syllabus github repo to codify the document's intent.
+If any policies in this syllabus require interpretation, the instructor's determination is final. That determination will be consistent with the original intent of the policy. Clarifications and interpretations will be committed to the syllabus GitHub repo to codify the document's intent.
+
+## Grades
+
+Specific grading policies are detailed for each class. However, regardless of individual rubrics, all assignment submissions must demonstrate professional expertise and the responsible application of theory. Any submission that may undermine a patient's confidence in a student's preparation or professionalism will not receive a passing grade.
 
 <!--chapter:end:0101_policies.Rmd-->
 
@@ -472,7 +476,7 @@ As artificial intelligence becomes more prevalent in our daily lives, it is cruc
 However, students are encouraged towards using AI to assist in the research and writing process in ways which encourage the learning process, mitigate menial tasks, or accommodate disabilities. For example, I use AI to enhance my speech recognition software and [other assistive software that I have written](https://github.com/smasongarrison/AutoHotKey_Scripts). In that spirit, I think students may use AI to develop personalized learning and reading plans. I consider receiving AI assistance with grammar and spelling errors is akin to using Grammarly, a tool that helps users improve their writing skills.
 -->
 
-Please note that any unethical use of AI in my courses will be considered academic dishonesty and may result in disciplinary action. Students are responsible for ensuring that their use of AI is in compliance with the course policies on academic integrity. On a more pramatic note, AI writing tends to be pretty bad. I expect my students to write better than the typical AI slop. You can find more information about AI-based writing [here](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing).
+Please note that any unethical use of AI in my courses will be considered academic dishonesty and may result in disciplinary action. Students are responsible for ensuring that their use of AI is in compliance with the course policies on academic integrity. On a more pragmatic note, AI writing tends to be pretty bad. I expect my students to write better than the typical AI slop. You can find more information about AI-based writing [here](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing).
 
 
 ## Common Sense
@@ -689,8 +693,8 @@ There will be multiple engagement activities in this course. These activities wi
 
 
 ```{=html}
-<div class="datatables html-widget html-fill-item" id="htmlwidget-db637e38ffd81fba9316" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-db637e38ffd81fba9316">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],["08/25","09/01","09/08","09/15","09/22","09/29","10/06","10/13","10/20","10/27","11/03","11/10","11/17","11/24","12/01","12/08"],["What are Research Methods?","Getting Ready to Do Statistical Analysis","Describing Data with R","Univariate Distributions","Bivariate Distributions","Probability Theory","Binomials and Other Sampling Distributions","Hypothesis Testing","T-Tests","F-Tests and ANOVA","Causal Inference","Experimental Designs","Ethics and Reproducibility","Special Topics","Putting it all together","Finals"],["Week 01, 08/25 - 08/29","Week 02, 09/01 - 09/05","Week 03, 09/08 - 09/12","Week 04, 09/15 - 09/19","Week 05, 09/22 - 09/26","Week 06, 09/29 - 10/03","Week 07, 10/06 - 10/10","Week 08, 10/13 - 10/17","Week 09, 10/20 - 10/24","Week 10, 10/27 - 10/31","Week 11, 11/03 - 11/07","Week 12, 11/10 - 11/14","Week 13, 11/17 - 11/21","Week 14, 11/24 - 11/28","Week 15, 12/01 - 12/05","Week 16, 12/08 - 12/12"],[null,null,null,null,null,"Exam",null,"Assignment",null,null,null,"Exam",null,null,"Assignment","Exam"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n      <th>milestones<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0},{"name":"module","targets":0},{"name":"start","targets":1},{"name":"topic","targets":2},{"name":"week","targets":3},{"name":"milestones","targets":4}],"order":[],"orderClasses":false},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":[],"jsHooks":[]}</script>
+<div class="datatables html-widget html-fill-item" id="htmlwidget-1b151c7a8e68bf496dac" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-1b151c7a8e68bf496dac">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],["08/25","09/01","09/08","09/15","09/22","09/29","10/06","10/13","10/20","10/27","11/03","11/10","11/17","11/24","12/01","12/08"],["What are Research Methods?","Getting Ready to Do Statistical Analysis","Describing Data with R","Univariate Distributions","Bivariate Distributions","Probability Theory","Binomials and Other Sampling Distributions","Hypothesis Testing","T-Tests","F-Tests and ANOVA","Causal Inference","Experimental Designs","Ethics and Reproducibility","Special Topics","Putting it all together","Finals"],["Week 01, 08/25 - 08/29","Week 02, 09/01 - 09/05","Week 03, 09/08 - 09/12","Week 04, 09/15 - 09/19","Week 05, 09/22 - 09/26","Week 06, 09/29 - 10/03","Week 07, 10/06 - 10/10","Week 08, 10/13 - 10/17","Week 09, 10/20 - 10/24","Week 10, 10/27 - 10/31","Week 11, 11/03 - 11/07","Week 12, 11/10 - 11/14","Week 13, 11/17 - 11/21","Week 14, 11/24 - 11/28","Week 15, 12/01 - 12/05","Week 16, 12/08 - 12/12"],[null,null,null,null,null,"Exam",null,"Assignment",null,null,null,"Exam",null,null,"Assignment","Exam"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n      <th>milestones<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0},{"name":"module","targets":0},{"name":"start","targets":1},{"name":"topic","targets":2},{"name":"week","targets":3},{"name":"milestones","targets":4}],"order":[],"orderClasses":false},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":[],"jsHooks":[]}</script>
 ```
 
 ```{=html}
@@ -930,8 +934,8 @@ It is a projection. It is not a guarantee. These projected letter grades are not
 
 
 ```{=html}
-<div class="datatables html-widget html-fill-item" id="htmlwidget-f3a451c362d91bddd0a0" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-f3a451c362d91bddd0a0">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],["08/22","08/29","09/05","09/12","09/19","09/26","10/03","10/10","10/17","10/24","10/31","11/07","11/14","11/21","11/28","12/05"],["What is Personality","Personality Research Methods","Assessment, Evaluation, and Ethics","Trait Approach and Personality Judgment","Big Five","Personality over the Lifespan","Biological Approaches to Psychology","Behavior Genetics","Evolutionary Psychology","Cross-Cultural Psychology","Freud","Psychoanalysis After Freud","Personality Processes and Positive Psych","MiniModule on Personality, Big Data, and AI (Also, Thanksgiving Break!)","Personality and Health",null],["Week 01, 08/22 - 08/26","Week 02, 08/29 - 09/02","Week 03, 09/05 - 09/09","Week 04, 09/12 - 09/16","Week 05, 09/19 - 09/23","Week 06, 09/26 - 09/30","Week 07, 10/03 - 10/07","Week 08, 10/10 - 10/14","Week 09, 10/17 - 10/21","Week 10, 10/24 - 10/28","Week 11, 10/31 - 11/04","Week 12, 11/07 - 11/11","Week 13, 11/14 - 11/18","Week 14, 11/21 - 11/25","Week 15, 11/28 - 12/02","Week 16, 12/05 - 12/09"],[null,null,"Quiz",null,null,"Quiz","Assignment",null,null,"Quiz",null,"Assignment","Quiz",null,"Quiz","Quiz and Assignment"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n      <th>milestones<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0},{"name":"module","targets":0},{"name":"start","targets":1},{"name":"topic","targets":2},{"name":"week","targets":3},{"name":"milestones","targets":4}],"order":[],"orderClasses":false},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":[],"jsHooks":[]}</script>
+<div class="datatables html-widget html-fill-item" id="htmlwidget-e027180fd67df1654f32" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-e027180fd67df1654f32">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],["08/22","08/29","09/05","09/12","09/19","09/26","10/03","10/10","10/17","10/24","10/31","11/07","11/14","11/21","11/28","12/05"],["What is Personality","Personality Research Methods","Assessment, Evaluation, and Ethics","Trait Approach and Personality Judgment","Big Five","Personality over the Lifespan","Biological Approaches to Psychology","Behavior Genetics","Evolutionary Psychology","Cross-Cultural Psychology","Freud","Psychoanalysis After Freud","Personality Processes and Positive Psych","MiniModule on Personality, Big Data, and AI (Also, Thanksgiving Break!)","Personality and Health",null],["Week 01, 08/22 - 08/26","Week 02, 08/29 - 09/02","Week 03, 09/05 - 09/09","Week 04, 09/12 - 09/16","Week 05, 09/19 - 09/23","Week 06, 09/26 - 09/30","Week 07, 10/03 - 10/07","Week 08, 10/10 - 10/14","Week 09, 10/17 - 10/21","Week 10, 10/24 - 10/28","Week 11, 10/31 - 11/04","Week 12, 11/07 - 11/11","Week 13, 11/14 - 11/18","Week 14, 11/21 - 11/25","Week 15, 11/28 - 12/02","Week 16, 12/05 - 12/09"],[null,null,"Quiz",null,null,"Quiz","Assignment",null,null,"Quiz",null,"Assignment","Quiz",null,"Quiz","Quiz and Assignment"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n      <th>milestones<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0},{"name":"module","targets":0},{"name":"start","targets":1},{"name":"topic","targets":2},{"name":"week","targets":3},{"name":"milestones","targets":4}],"order":[],"orderClasses":false},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":[],"jsHooks":[]}</script>
 ```
 
 <!--chapter:end:0202_personality.Rmd-->
@@ -1021,38 +1025,53 @@ To fulfill any grade contract a student must do the following, which should none
 
 - Come to class prepared to discuss any assigned readings, videos, or other media. Participate actively in class activities and discussions, making observations and asking questions that help the class think together.
 
-- Meet with me synchronously — during office hours or another scheduled time — at least once around midterm—roughly between weeks 3 and 4 to ensure you are on-track to meet your contract requirements, discuss any questions or concerns you have about the course or your progress, and decide on any necessary contract amendments.
+- Work consistently throughout the semester. Consistent work means making regular, visible progress on contractual assignments according to the calendar in the approved contract, rather than completing most of the work at the end of the semester. For work submitted through GitHub or other version-controlled platforms, commit history may be used as one form of evidence of sustained progress. For other assignments, drafts, submissions, revision history, check-ins, and other records of work may be used as evidence.
+
+- Communicate with me in a timely way if you are unable to follow the calendar in your approved contract. Communication does not automatically amend the contract, but it allows us to discuss whether an adjustment is needed.
+
+- Meet with me synchronously during office hours or another scheduled time at least once around midterm, roughly between weeks 3 and 4, to ensure you are on track to meet your contract requirements, discuss any questions or concerns you have about the course or your progress, and decide on any necessary contract amendments.
 
 - Revise contractual assignments as necessary until both you and I consider them "Satisfactory."
 
-<!-- - Complete a final self-assessment demonstrating that your work has met the agreed requirements, submitting it to me by 5pm on the last day of class. -->
+- Complete a final grade reflection and contract self-assessment, submitting it to me by 5pm on the last day of class. This assignment is separate from the final portfolio.
 
+  - The contract summary must list and link to each deliverable, identify completion dates, explain which work fulfills which contract requirements, and provide evidence of consistent work across the semester.
+
+  - The grade reflection must explain the grade the student believes they earned based on the approved contract, the work completed, and the evidence provided in the summary. Because the highest available contract grade is an A-, students who believe they have earned an A must explain what work was exceptional enough to justify an upward adjustment beyond the contracted grade.
+
+  - The reflection must also discuss what the student learned throughout the semester, including how their understanding, skills, work habits, or goals developed through the course.
 
 The professor reserves the right to award a grade of D or F to anyone who fails to meet a contractual obligation in a systematic way. A "D" grade denotes some minimal fulfilling of the contract. An “F” is absence of enough satisfactory work, as contracted, to warrant passing of the course. Both a "D" and "F" denote a breakdown of the contractual relationship implied by signing any of the contracts described above.
 
 ### What About Exceptional (or Mediocre) Work?  {-}
-I also reserve the right to reward exceptional work throughout the semester using the full range of Wake Forest's grading scale. If you contract for a “B,” for instance, and submit particularly strong pieces to fulfill that contract, I may elect to raise your contracted grade to a “B+.”
+I also reserve the right to reward exceptional work throughout the semester using the full range of Wake Forest's grading scale. If you contract for a “A-,” for instance, and submit particularly strong pieces to fulfill that contract, I may elect to raise your contracted grade to a “A.”
 
-Likewise, if you consistently submit mediocre work in fulfillment of your contract, I reserve the right to adjust your grade one half-step down (e.g. from “A” to “A-“) or even, in extreme cases, a full step.
+Likewise, if you consistently submit mediocre work in fulfillment of your contract, I reserve the right to adjust your grade one half-step down (e.g. from “A-” to “B+“) or even, in extreme cases, a full step.
 
 ### Contract Adjustments  {-}
-Periodically during the semester I will ask you to evaluate your work thus far and compare it against what you agreed in your grade contract. In these moments you can also take the opportunity to request an adjustment to your contract in either direction. If you find that you will be unable to meet the obligations of your contract, you may request to move to the next lowest grade and its requirements. Contrariwise, if you find that you've been performing above the obligations of your contract, you may request to fulfill the requirements for the next higher grade. Important Note: In order to effectively evaluate your own progress, you must keep track of your work, including days missed, and so forth.
 
+Periodically during the semester I will ask you to evaluate your work thus far and compare it against what you agreed in your grade contract. In these moments you can also take the opportunity to request an adjustment to your contract in either direction. If you find that you will be unable to meet the obligations of your contract, including the calendar and consistent-work expectations, you may request to move to the next lowest grade and its requirements. Contrariwise, if you find that you've been performing above the obligations of your contract, you may request to fulfill the requirements for the next higher grade.
+
+Contract adjustments must be discussed while there is still time to make a meaningful change to the work plan. Communication about difficulty, delays, or workload is important, but it does not by itself change the terms of the contract. Any change to the contract must be discussed with me and approved.
+
+Important Note: In order to effectively evaluate your own progress, you must keep track of your work, including days missed, delayed assignments, revisions, and other evidence of progress toward the contract.
 
 
 ### Contract Grades  {-}
 
 
 
-### "A" Contract  {-}
+### "A-" Contract  {-}
 
-To contract for an "A" in this course, you agree to:
+To contract for an "A-" in this course, you agree to:
 
 - Earn "Satisfactory" on 7 self-paced lab assignments on a schedule you will specify in your contract.
 
 - Produce at least 6 "Satisfactory" portfolio pieces over the course of the semester.
 
-- Compile those portfolio pieces into a "Satisfactory" Unessay and present it during the last week of class
+- Compile those portfolio pieces into a "Satisfactory" Portfolio.
+
+- Submit a final contract summary and reflection in addition to the final portfolio. 
 
 - For your planning, this works out to be approximately, 1.86 per week.
 
@@ -1064,7 +1083,9 @@ To contract for a "B" in this course, you agree to:
 
 - Produce at least 5 "Satisfactory" portfolio pieces over the course of the semester.
 
-- Compile those portfolio pieces into a "Satisfactory" Unessay and present it during the last week of class
+- Compile those portfolio pieces into a "Satisfactory" Portfolio.
+
+- Submit a final contract summary and reflection in addition to the final portfolio. 
 
 - For your planning, this works out to be approximately, 1.57 per week.
 
@@ -1076,7 +1097,9 @@ To contract for a "P" or Pass in this course, you agree to:
 
 - Produce at least 4 "Satisfactory" portfolio pieces over the course of the semester.
 
-- Compile those portfolio pieces into a "Satisfactory" Unessay and present it during the last week of class
+- Compile those portfolio pieces into a "Satisfactory" Portfolio.
+
+- Submit a final contract summary and reflection in addition to the final portfolio. 
 
 - For your planning, this works out to be approximately, 1.29 per week.
 
@@ -1088,8 +1111,8 @@ Note that I'll be using your contracts to guide my tinkering.
 
 
 ```{=html}
-<div class="datatables html-widget html-fill-item" id="htmlwidget-d5cfbe092114e7b5602a" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-d5cfbe092114e7b5602a">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7],["01/13","01/20","01/27","02/03","02/10","02/17","02/24"],["What is Data Science and Meet the Toolkit","Data and Visualization","Welcome to the Tidyverse","Data types and Data Transformations","Effective data visualization","Scientific Communication and confounding","Functions and Automation"],["Week 01, 01/13 - 01/17","Week 02, 01/20 - 01/24","Week 03, 01/27 - 01/31","Week 04, 02/03 - 02/07","Week 05, 02/10 - 02/14","Week 06, 02/17 - 02/21","Week 07, 02/24 - 02/28"],[null,"Contract",null,null,null,null,"Presentation"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n      <th>milestones<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0},{"name":"module","targets":0},{"name":"start","targets":1},{"name":"topic","targets":2},{"name":"week","targets":3},{"name":"milestones","targets":4}],"order":[],"orderClasses":false},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":[],"jsHooks":[]}</script>
+<div class="datatables html-widget html-fill-item" id="htmlwidget-4daf05b94c99a797ae37" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-4daf05b94c99a797ae37">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7],["01/13","01/20","01/27","02/03","02/10","02/17","02/24"],["What is Data Science and Meet the Toolkit","Data and Visualization","Welcome to the Tidyverse","Data types and Data Transformations","Effective data visualization","Scientific Communication and confounding","Functions and Automation"],["Week 01, 01/13 - 01/17","Week 02, 01/20 - 01/24","Week 03, 01/27 - 01/31","Week 04, 02/03 - 02/07","Week 05, 02/10 - 02/14","Week 06, 02/17 - 02/21","Week 07, 02/24 - 02/28"],[null,"Contract",null,null,null,null,"Presentation"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n      <th>milestones<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0},{"name":"module","targets":0},{"name":"start","targets":1},{"name":"topic","targets":2},{"name":"week","targets":3},{"name":"milestones","targets":4}],"order":[],"orderClasses":false},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":[],"jsHooks":[]}</script>
 ```
 
 <!--chapter:end:0203_applieddatascience.Rmd-->
@@ -1213,8 +1236,8 @@ There will be multiple engagement activities in this course. These activities wi
 
 
 ```{=html}
-<div class="datatables html-widget html-fill-item" id="htmlwidget-f3f30ee05c4b798091f7" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-f3f30ee05c4b798091f7">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15],["01/25","02/01","02/08","02/15","02/22","03/01","03/08","03/15","03/22","03/29","04/05","04/12","04/19","04/26","05/03"],["Foundations and Nature of Testing","History of Testing","Ethical and Social Considerations in Testing","Norms and the Meaning of Test Scores","Classical Test Theory","Reliability","Catch Up Week","Validity","Item Analysis","Factor Analysis","Item Response Theory","Practical Testing Things","Ability Testing","Personality Testing","Review"],["Week 01, 01/25 - 01/29","Week 02, 02/01 - 02/05","Week 03, 02/08 - 02/12","Week 04, 02/15 - 02/19","Week 05, 02/22 - 02/26","Week 06, 03/01 - 03/05","Week 07, 03/08 - 03/12","Week 08, 03/15 - 03/19","Week 09, 03/22 - 03/26","Week 10, 03/29 - 04/02","Week 11, 04/05 - 04/09","Week 12, 04/12 - 04/16","Week 13, 04/19 - 04/23","Week 14, 04/26 - 04/30","Week 15, 05/03 - 05/07"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0},{"name":"module","targets":0},{"name":"start","targets":1},{"name":"topic","targets":2},{"name":"week","targets":3}],"order":[],"orderClasses":false},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":[],"jsHooks":[]}</script>
+<div class="datatables html-widget html-fill-item" id="htmlwidget-e811979c0093417c5adf" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-e811979c0093417c5adf">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15],["01/25","02/01","02/08","02/15","02/22","03/01","03/08","03/15","03/22","03/29","04/05","04/12","04/19","04/26","05/03"],["Foundations and Nature of Testing","History of Testing","Ethical and Social Considerations in Testing","Norms and the Meaning of Test Scores","Classical Test Theory","Reliability","Catch Up Week","Validity","Item Analysis","Factor Analysis","Item Response Theory","Practical Testing Things","Ability Testing","Personality Testing","Review"],["Week 01, 01/25 - 01/29","Week 02, 02/01 - 02/05","Week 03, 02/08 - 02/12","Week 04, 02/15 - 02/19","Week 05, 02/22 - 02/26","Week 06, 03/01 - 03/05","Week 07, 03/08 - 03/12","Week 08, 03/15 - 03/19","Week 09, 03/22 - 03/26","Week 10, 03/29 - 04/02","Week 11, 04/05 - 04/09","Week 12, 04/12 - 04/16","Week 13, 04/19 - 04/23","Week 14, 04/26 - 04/30","Week 15, 05/03 - 05/07"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0},{"name":"module","targets":0},{"name":"start","targets":1},{"name":"topic","targets":2},{"name":"week","targets":3}],"order":[],"orderClasses":false},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":[],"jsHooks":[]}</script>
 ```
 
 <!--chapter:end:0204_testing.Rmd-->
@@ -1331,8 +1354,8 @@ I *may* shift these thresholds down *slightly* to provide a better fit to the ac
 
 
 ```{=html}
-<div class="datatables html-widget html-fill-item" id="htmlwidget-1ec2c1adbf6d030ab35c" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-1ec2c1adbf6d030ab35c">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9],["03/03","03/10","03/17","03/24","03/31","04/07","04/14","04/21","04/28"],["Introduction to Wikipedia Assignment","Break Week","Generative AI and Evaluating Wikipedia","Review Rules and Choose Topics","Copyedit, Finalize Topic, Start Drafting","Peer Review and Move to Wikipedia","Continue Improving Article","Polish and Final Article","Final Presentations"],["Week 01, 03/03 - 03/07","Week 02, 03/10 - 03/14","Week 03, 03/17 - 03/21","Week 04, 03/24 - 03/28","Week 05, 03/31 - 04/04","Week 06, 04/07 - 04/11","Week 07, 04/14 - 04/18","Week 08, 04/21 - 04/25","Week 09, 04/28 - 05/02"],[null,null,"Evaluate Wikipedia Exercise","Find Potential Articles","Bibliography &amp; Outline","Peer Reviews",null,"Final Article","Reflective Essay &amp; Presentation"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n      <th>milestones<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":9,"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0},{"name":"module","targets":0},{"name":"start","targets":1},{"name":"topic","targets":2},{"name":"week","targets":3},{"name":"milestones","targets":4}],"order":[],"orderClasses":false,"lengthMenu":[9,10,25,50,100]},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":[],"jsHooks":[]}</script>
+<div class="datatables html-widget html-fill-item" id="htmlwidget-2413449ff9deaddf3897" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-2413449ff9deaddf3897">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9],["03/03","03/10","03/17","03/24","03/31","04/07","04/14","04/21","04/28"],["Introduction to Wikipedia Assignment","Break Week","Generative AI and Evaluating Wikipedia","Review Rules and Choose Topics","Copyedit, Finalize Topic, Start Drafting","Peer Review and Move to Wikipedia","Continue Improving Article","Polish and Final Article","Final Presentations"],["Week 01, 03/03 - 03/07","Week 02, 03/10 - 03/14","Week 03, 03/17 - 03/21","Week 04, 03/24 - 03/28","Week 05, 03/31 - 04/04","Week 06, 04/07 - 04/11","Week 07, 04/14 - 04/18","Week 08, 04/21 - 04/25","Week 09, 04/28 - 05/02"],[null,null,"Evaluate Wikipedia Exercise","Find Potential Articles","Bibliography &amp; Outline","Peer Reviews",null,"Final Article","Reflective Essay &amp; Presentation"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n      <th>milestones<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":9,"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0},{"name":"module","targets":0},{"name":"start","targets":1},{"name":"topic","targets":2},{"name":"week","targets":3},{"name":"milestones","targets":4}],"order":[],"orderClasses":false,"lengthMenu":[9,10,25,50,100]},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":[],"jsHooks":[]}</script>
 ```
 
 <!--chapter:end:0205_wikipedia.Rmd-->
@@ -1421,40 +1444,55 @@ To fulfill any grade contract a student must do the following, which should none
 
 - Come to class prepared to discuss any assigned readings, videos, or other media. Participate actively in class activities and discussions, making observations and asking questions that help the class think together.
 
-- Meet with me synchronously — during office hours or another scheduled time — at least once around midterm—roughly between weeks 5 and 8 to ensure you are on-track to meet your contract requirements, discuss any questions or concerns you have about the course or your progress, and decide on any necessary contract amendments.
+- Work consistently throughout the semester. Consistent work means making regular, visible progress on contractual assignments according to the calendar in the approved contract, rather than completing most of the work at the end of the semester. For work submitted through GitHub or other version-controlled platforms, commit history may be used as one form of evidence of sustained progress. For other assignments, drafts, submissions, revision history, check-ins, and other records of work may be used as evidence.
+
+- Communicate with me in a timely way if you are unable to follow the calendar in your approved contract. Communication does not automatically amend the contract, but it allows us to discuss whether an adjustment is needed.
+
+- Meet with me synchronously during office hours or another scheduled time at least once around midterm, roughly between weeks 5 and 8, to ensure you are on track to meet your contract requirements, discuss any questions or concerns you have about the course or your progress, and decide on any necessary contract amendments.
 
 - Revise contractual assignments as necessary until both you and I consider them "Satisfactory."
 
-<!-- - Complete a final self-assessment demonstrating that your work has met the agreed requirements, submitting it to me by 5pm on the last day of class. -->
+- Complete a final grade reflection and contract self-assessment, submitting it to me by 5pm on the last day of class. This assignment is separate from the final portfolio.
 
+  - The contract summary must list and link to each deliverable, identify completion dates, explain which work fulfills which contract requirements, and provide evidence of consistent work across the semester.
+
+  - The grade reflection must explain the grade the student believes they earned based on the approved contract, the work completed, and the evidence provided in the summary. Because the highest available contract grade is an A-, students who believe they have earned an A must explain what work was exceptional enough to justify an upward adjustment beyond the contracted grade.
+
+  - The reflection must also discuss what the student learned throughout the semester, including how their understanding, skills, work habits, or goals developed through the course.
 
 The professor reserves the right to award a grade of D or F to anyone who fails to meet a contractual obligation in a systematic way. A "D" grade denotes some minimal fulfilling of the contract. An “F” is absence of enough satisfactory work, as contracted, to warrant passing of the course. Both a "D" and "F" denote a breakdown of the contractual relationship implied by signing any of the contracts described above.
 
 ### What About Exceptional (or Mediocre) Work?  {-}
-I also reserve the right to reward exceptional work throughout the semester using the full range of Wake Forest's grading scale. If you contract for a “B,” for instance, and submit particularly strong pieces to fulfill that contract, I may elect to raise your contracted grade to a “B+.”
+I also reserve the right to reward exceptional work throughout the semester using the full range of Wake Forest's grading scale. If you contract for a “A-,” for instance, and submit particularly strong pieces to fulfill that contract, I may elect to raise your contracted grade to a “A.”
 
-Likewise, if you consistently submit mediocre work in fulfillment of your contract, I reserve the right to adjust your grade one half-step down (e.g. from “A” to “A-“) or even, in extreme cases, a full step.
+Likewise, if you consistently submit mediocre work in fulfillment of your contract, I reserve the right to adjust your grade one half-step down (e.g. from “A-” to “B+“) or even, in extreme cases, a full step.
 
 ### Contract Adjustments  {-}
-Periodically during the semester I will ask you to evaluate your work thus far and compare it against what you agreed in your grade contract. In these moments you can also take the opportunity to request an adjustment to your contract in either direction. If you find that you will be unable to meet the obligations of your contract, you may request to move to the next lowest grade and its requirements. Contrariwise, if you find that you've been performing above the obligations of your contract, you may request to fulfill the requirements for the next higher grade. Important Note: In order to effectively evaluate your own progress, you must keep track of your work, including days missed, and so forth.
 
+Periodically during the semester I will ask you to evaluate your work thus far and compare it against what you agreed in your grade contract. In these moments you can also take the opportunity to request an adjustment to your contract in either direction. If you find that you will be unable to meet the obligations of your contract, including the calendar and consistent-work expectations, you may request to move to the next lowest grade and its requirements. Contrariwise, if you find that you've been performing above the obligations of your contract, you may request to fulfill the requirements for the next higher grade.
+
+Contract adjustments must be discussed while there is still time to make a meaningful change to the work plan. Communication about difficulty, delays, or workload is important, but it does not by itself change the terms of the contract. Any change to the contract must be discussed with me and approved.
+
+Important Note: In order to effectively evaluate your own progress, you must keep track of your work, including days missed, delayed assignments, revisions, and other evidence of progress toward the contract.
 
 
 ### Contract Grades  {-}
 
 
 
-### "A" Contract  {-}
+### "A-" Contract  {-}
 
-To contract for an "A" in this course, you agree to:
+To contract for an "A-" in this course, you agree to:
 
 - Earn "Satisfactory" on 11 self-paced lab assignments on a schedule you will specify in your contract.
 
-- Produce at least 10 "Satisfactory" portfolio pieces over the course of the semester.
+- Produce at least 12 "Satisfactory" portfolio pieces over the course of the semester.
 
-- Compile those portfolio pieces into a "Satisfactory" Unessay and present it during the last week of class
+- Compile those portfolio pieces into a "Satisfactory" Portfolio.
 
-- For your planning, this works out to be approximately, 1.31 per week.
+- Submit a final contract summary and reflection in addition to the final portfolio. 
+
+- For your planning, this works out to be approximately, 1.44 per week.
 
 ### "B" Contract  {-}
 
@@ -1462,11 +1500,13 @@ To contract for a "B" in this course, you agree to:
 
 - Earn "Satisfactory" on 9 self-paced lab assignments on a schedule you will specify in your contract.
 
-- Produce at least 8 "Satisfactory" portfolio pieces over the course of the semester.
+- Produce at least 10 "Satisfactory" portfolio pieces over the course of the semester.
 
-- Compile those portfolio pieces into a "Satisfactory" Unessay and present it during the last week of class
+- Compile those portfolio pieces into a "Satisfactory" Portfolio.
 
-- For your planning, this works out to be approximately, 1.06 per week.
+- Submit a final contract summary and reflection in addition to the final portfolio. 
+
+- For your planning, this works out to be approximately, 1.19 per week.
 
 ### "P" Contract  {-}
 
@@ -1474,11 +1514,13 @@ To contract for a "P" or Pass in this course, you agree to:
 
 - Earn "Satisfactory" on 7 self-paced lab assignments on a schedule you will specify in your contract.
 
-- Produce at least 6 "Satisfactory" portfolio pieces over the course of the semester.
+- Produce at least 8 "Satisfactory" portfolio pieces over the course of the semester.
 
-- Compile those portfolio pieces into a "Satisfactory" Unessay and present it during the last week of class
+- Compile those portfolio pieces into a "Satisfactory" Portfolio.
 
-- For your planning, this works out to be approximately, 0.81 per week.
+- Submit a final contract summary and reflection in addition to the final portfolio. 
+
+- For your planning, this works out to be approximately, 0.94 per week.
 
 
 
@@ -1488,8 +1530,8 @@ Note that I'll be using your contracts to guide my tinkering.
 
 
 ```{=html}
-<div class="datatables html-widget html-fill-item" id="htmlwidget-36cb022154749941ec7e" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-36cb022154749941ec7e">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],["01/12","01/19","01/26","02/02","02/09","02/16","02/23","03/02","03/09","03/16","03/23","03/30","04/06","04/13","04/20","04/27"],["What is Data Science and Meet the Toolkit","Data and Visualization","Welcome to the Tidyverse","Data types and Data Transformations","Effective data visualization","Scientific Communication and confounding","Functions and Automation","Webscraping","Spring Break","Ethics","Tidy Models","Overfitting and Cross validation","Quantifying uncertainty","Rshiny","Machine Learning","Presentations"],["Week 01, 01/12 - 01/16","Week 02, 01/19 - 01/23","Week 03, 01/26 - 01/30","Week 04, 02/02 - 02/06","Week 05, 02/09 - 02/13","Week 06, 02/16 - 02/20","Week 07, 02/23 - 02/27","Week 08, 03/02 - 03/06","Week 09, 03/09 - 03/13","Week 10, 03/16 - 03/20","Week 11, 03/23 - 03/27","Week 12, 03/30 - 04/03","Week 13, 04/06 - 04/10","Week 14, 04/13 - 04/17","Week 15, 04/20 - 04/24","Week 16, 04/27 - 05/01"],[null,"Contract",null,null,null,null,null,null,null,null,null,null,null,null,null,"Presentation"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n      <th>milestones<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0},{"name":"module","targets":0},{"name":"start","targets":1},{"name":"topic","targets":2},{"name":"week","targets":3},{"name":"milestones","targets":4}],"order":[],"orderClasses":false},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":[],"jsHooks":[]}</script>
+<div class="datatables html-widget html-fill-item" id="htmlwidget-4bee845c61be58cca23c" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-4bee845c61be58cca23c">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],["01/12","01/19","01/26","02/02","02/09","02/16","02/23","03/02","03/09","03/16","03/23","03/30","04/06","04/13","04/20","04/27"],["What is Data Science and Meet the Toolkit","Data and Visualization","Welcome to the Tidyverse","Data types and Data Transformations","Effective data visualization","Scientific Communication and confounding","Functions and Automation","Webscraping","Spring Break","Ethics","Tidy Models","Overfitting and Cross validation","Quantifying uncertainty","Rshiny","Machine Learning","Presentations"],["Week 01, 01/12 - 01/16","Week 02, 01/19 - 01/23","Week 03, 01/26 - 01/30","Week 04, 02/02 - 02/06","Week 05, 02/09 - 02/13","Week 06, 02/16 - 02/20","Week 07, 02/23 - 02/27","Week 08, 03/02 - 03/06","Week 09, 03/09 - 03/13","Week 10, 03/16 - 03/20","Week 11, 03/23 - 03/27","Week 12, 03/30 - 04/03","Week 13, 04/06 - 04/10","Week 14, 04/13 - 04/17","Week 15, 04/20 - 04/24","Week 16, 04/27 - 05/01"],[null,"Contract",null,null,null,null,null,null,null,null,null,null,null,null,null,"Presentation"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n      <th>milestones<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0},{"name":"module","targets":0},{"name":"start","targets":1},{"name":"topic","targets":2},{"name":"week","targets":3},{"name":"milestones","targets":4}],"order":[],"orderClasses":false},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":[],"jsHooks":[]}</script>
 ```
 
 <!--chapter:end:0206_datascience.Rmd-->

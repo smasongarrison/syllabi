@@ -83,38 +83,53 @@ To fulfill any grade contract a student must do the following, which should none
 
 - Come to class prepared to discuss any assigned readings, videos, or other media. Participate actively in class activities and discussions, making observations and asking questions that help the class think together.
 
-- Meet with me synchronously — during office hours or another scheduled time — at least once around midterm—roughly between weeks 3 and 4 to ensure you are on-track to meet your contract requirements, discuss any questions or concerns you have about the course or your progress, and decide on any necessary contract amendments.
+- Work consistently throughout the semester. Consistent work means making regular, visible progress on contractual assignments according to the calendar in the approved contract, rather than completing most of the work at the end of the semester. For work submitted through GitHub or other version-controlled platforms, commit history may be used as one form of evidence of sustained progress. For other assignments, drafts, submissions, revision history, check-ins, and other records of work may be used as evidence.
+
+- Communicate with me in a timely way if you are unable to follow the calendar in your approved contract. Communication does not automatically amend the contract, but it allows us to discuss whether an adjustment is needed.
+
+- Meet with me synchronously during office hours or another scheduled time at least once around midterm, roughly between weeks 3 and 4, to ensure you are on track to meet your contract requirements, discuss any questions or concerns you have about the course or your progress, and decide on any necessary contract amendments.
 
 - Revise contractual assignments as necessary until both you and I consider them "Satisfactory."
 
-<!-- - Complete a final self-assessment demonstrating that your work has met the agreed requirements, submitting it to me by 5pm on the last day of class. -->
+- Complete a final grade reflection and contract self-assessment, submitting it to me by 5pm on the last day of class. This assignment is separate from the final portfolio.
 
+  - The contract summary must list and link to each deliverable, identify completion dates, explain which work fulfills which contract requirements, and provide evidence of consistent work across the semester.
+
+  - The grade reflection must explain the grade the student believes they earned based on the approved contract, the work completed, and the evidence provided in the summary. Because the highest available contract grade is an A-, students who believe they have earned an A must explain what work was exceptional enough to justify an upward adjustment beyond the contracted grade.
+
+  - The reflection must also discuss what the student learned throughout the semester, including how their understanding, skills, work habits, or goals developed through the course.
 
 The professor reserves the right to award a grade of D or F to anyone who fails to meet a contractual obligation in a systematic way. A "D" grade denotes some minimal fulfilling of the contract. An “F” is absence of enough satisfactory work, as contracted, to warrant passing of the course. Both a "D" and "F" denote a breakdown of the contractual relationship implied by signing any of the contracts described above.
 
 ### What About Exceptional (or Mediocre) Work?  {-}
-I also reserve the right to reward exceptional work throughout the semester using the full range of Wake Forest's grading scale. If you contract for a “B,” for instance, and submit particularly strong pieces to fulfill that contract, I may elect to raise your contracted grade to a “B+.”
+I also reserve the right to reward exceptional work throughout the semester using the full range of Wake Forest's grading scale. If you contract for a “A-,” for instance, and submit particularly strong pieces to fulfill that contract, I may elect to raise your contracted grade to a “A.”
 
-Likewise, if you consistently submit mediocre work in fulfillment of your contract, I reserve the right to adjust your grade one half-step down (e.g. from “A” to “A-“) or even, in extreme cases, a full step.
+Likewise, if you consistently submit mediocre work in fulfillment of your contract, I reserve the right to adjust your grade one half-step down (e.g. from “A-” to “B+“) or even, in extreme cases, a full step.
 
 ### Contract Adjustments  {-}
-Periodically during the semester I will ask you to evaluate your work thus far and compare it against what you agreed in your grade contract. In these moments you can also take the opportunity to request an adjustment to your contract in either direction. If you find that you will be unable to meet the obligations of your contract, you may request to move to the next lowest grade and its requirements. Contrariwise, if you find that you've been performing above the obligations of your contract, you may request to fulfill the requirements for the next higher grade. Important Note: In order to effectively evaluate your own progress, you must keep track of your work, including days missed, and so forth.
 
+Periodically during the semester I will ask you to evaluate your work thus far and compare it against what you agreed in your grade contract. In these moments you can also take the opportunity to request an adjustment to your contract in either direction. If you find that you will be unable to meet the obligations of your contract, including the calendar and consistent-work expectations, you may request to move to the next lowest grade and its requirements. Contrariwise, if you find that you've been performing above the obligations of your contract, you may request to fulfill the requirements for the next higher grade.
+
+Contract adjustments must be discussed while there is still time to make a meaningful change to the work plan. Communication about difficulty, delays, or workload is important, but it does not by itself change the terms of the contract. Any change to the contract must be discussed with me and approved.
+
+Important Note: In order to effectively evaluate your own progress, you must keep track of your work, including days missed, delayed assignments, revisions, and other evidence of progress toward the contract.
 
 
 ### Contract Grades  {-}
 
 
 
-### "A" Contract  {-}
+### "A-" Contract  {-}
 
-To contract for an "A" in this course, you agree to:
+To contract for an "A-" in this course, you agree to:
 
 - Earn "Satisfactory" on 7 self-paced lab assignments on a schedule you will specify in your contract.
 
 - Produce at least 6 "Satisfactory" portfolio pieces over the course of the semester.
 
-- Compile those portfolio pieces into a "Satisfactory" Unessay and present it during the last week of class
+- Compile those portfolio pieces into a "Satisfactory" Portfolio.
+
+- Submit a final contract summary and reflection in addition to the final portfolio. 
 
 - For your planning, this works out to be approximately, 1.86 per week.
 
@@ -126,7 +141,9 @@ To contract for a "B" in this course, you agree to:
 
 - Produce at least 5 "Satisfactory" portfolio pieces over the course of the semester.
 
-- Compile those portfolio pieces into a "Satisfactory" Unessay and present it during the last week of class
+- Compile those portfolio pieces into a "Satisfactory" Portfolio.
+
+- Submit a final contract summary and reflection in addition to the final portfolio. 
 
 - For your planning, this works out to be approximately, 1.57 per week.
 
@@ -138,7 +155,9 @@ To contract for a "P" or Pass in this course, you agree to:
 
 - Produce at least 4 "Satisfactory" portfolio pieces over the course of the semester.
 
-- Compile those portfolio pieces into a "Satisfactory" Unessay and present it during the last week of class
+- Compile those portfolio pieces into a "Satisfactory" Portfolio.
+
+- Submit a final contract summary and reflection in addition to the final portfolio. 
 
 - For your planning, this works out to be approximately, 1.29 per week.
 
@@ -150,6 +169,6 @@ Note that I'll be using your contracts to guide my tinkering.
 
 
 ```{=html}
-<div class="datatables html-widget html-fill-item" id="htmlwidget-d5cfbe092114e7b5602a" style="width:100%;height:auto;"></div>
-<script type="application/json" data-for="htmlwidget-d5cfbe092114e7b5602a">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7],["01/13","01/20","01/27","02/03","02/10","02/17","02/24"],["What is Data Science and Meet the Toolkit","Data and Visualization","Welcome to the Tidyverse","Data types and Data Transformations","Effective data visualization","Scientific Communication and confounding","Functions and Automation"],["Week 01, 01/13 - 01/17","Week 02, 01/20 - 01/24","Week 03, 01/27 - 01/31","Week 04, 02/03 - 02/07","Week 05, 02/10 - 02/14","Week 06, 02/17 - 02/21","Week 07, 02/24 - 02/28"],[null,"Contract",null,null,null,null,"Presentation"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n      <th>milestones<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0},{"name":"module","targets":0},{"name":"start","targets":1},{"name":"topic","targets":2},{"name":"week","targets":3},{"name":"milestones","targets":4}],"order":[],"orderClasses":false},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":[],"jsHooks":[]}</script>
+<div class="datatables html-widget html-fill-item" id="htmlwidget-4daf05b94c99a797ae37" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-4daf05b94c99a797ae37">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7],["01/13","01/20","01/27","02/03","02/10","02/17","02/24"],["What is Data Science and Meet the Toolkit","Data and Visualization","Welcome to the Tidyverse","Data types and Data Transformations","Effective data visualization","Scientific Communication and confounding","Functions and Automation"],["Week 01, 01/13 - 01/17","Week 02, 01/20 - 01/24","Week 03, 01/27 - 01/31","Week 04, 02/03 - 02/07","Week 05, 02/10 - 02/14","Week 06, 02/17 - 02/21","Week 07, 02/24 - 02/28"],[null,"Contract",null,null,null,null,"Presentation"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n      <th>milestones<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0},{"name":"module","targets":0},{"name":"start","targets":1},{"name":"topic","targets":2},{"name":"week","targets":3},{"name":"milestones","targets":4}],"order":[],"orderClasses":false},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":[],"jsHooks":[]}</script>
 ```

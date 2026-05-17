@@ -28,7 +28,7 @@ As artificial intelligence becomes more prevalent in our daily lives, it is cruc
 However, students are encouraged towards using AI to assist in the research and writing process in ways which encourage the learning process, mitigate menial tasks, or accommodate disabilities. For example, I use AI to enhance my speech recognition software and [other assistive software that I have written](https://github.com/smasongarrison/AutoHotKey_Scripts). In that spirit, I think students may use AI to develop personalized learning and reading plans. I consider receiving AI assistance with grammar and spelling errors is akin to using Grammarly, a tool that helps users improve their writing skills.
 -->
 
-Please note that any unethical use of AI in my courses will be considered academic dishonesty and may result in disciplinary action. Students are responsible for ensuring that their use of AI is in compliance with the course policies on academic integrity. On a more pramatic note, AI writing tends to be pretty bad. I expect my students to write better than the typical AI slop. You can find more information about AI-based writing [here](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing).
+Please note that any unethical use of AI in my courses will be considered academic dishonesty and may result in disciplinary action. Students are responsible for ensuring that their use of AI is in compliance with the course policies on academic integrity. On a more pragmatic note, AI writing tends to be pretty bad. I expect my students to write better than the typical AI slop. You can find more information about AI-based writing [here](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing).
 
 
 ## Common Sense
