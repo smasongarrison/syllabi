@@ -137,15 +137,20 @@ You will give a brief presentation about your Wikipedia editing project, highlig
 ## Schedule {-}
 
 ```{r message = FALSE, warning = FALSE, echo = FALSE}
-classschedule %>%
-  DT::datatable(
-    rownames = FALSE,
-    class = "cell-border stripe",
-    options = list(
-      pageLength = nrow(classschedule),
-      autoWidth = FALSE,
-      bInfo = FALSE,
-      paging = FALSE
+if (knitr::is_latex_output()) {
+  classschedule %>%
+    knitr::kable(booktabs = TRUE)
+} else {
+  classschedule %>%
+    DT::datatable(
+      rownames = FALSE,
+      class = "cell-border stripe",
+      options = list(
+        pageLength = nrow(classschedule),
+        autoWidth = FALSE,
+        bInfo = FALSE,
+        paging = FALSE
+      )
     )
-  )
+}
 ```

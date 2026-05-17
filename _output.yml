@@ -32,11 +32,8 @@ bookdown::pdf_book:
   latex_engine: pdflatex
   quote_footer: ["\\begin{flushright}", "\\end{flushright}"]
   split_bib: FALSE
-  template: tex/template_thesis_classic.tex
   toc_appendix: yes
   toc_depth: 1
   toc_unnumbered: no
-
-#  pandoc_args:  --top-level-division=chapter
-#  documentclass: book
-#  geometry: margin=1in
+  pandoc_args: --top-level-division=chapter
+  documentclass: book

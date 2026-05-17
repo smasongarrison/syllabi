@@ -13,7 +13,9 @@ I don't want to discourage you from asking questions. However, asking me is not 
 
 
 ```{r, echo=FALSE}
-try_include_tweet("https://twitter.com/AlisonLedg/status/1441181845706579969")
+if (!knitr::is_latex_output()) {
+  try_include_tweet("https://twitter.com/AlisonLedg/status/1441181845706579969")
+}
 ```
 
 ## FAQ Categories {-}
@@ -111,7 +113,9 @@ My tests/quizzes and grading rubrics take a long time to make. While I'm happy t
 ### How do I ask professors for extensions?
 
 ```{r, echo=FALSE}
-try_include_tweet("https://twitter.com/BettySLai/status/1455555111397117954")
+if (!knitr::is_latex_output()) {
+  try_include_tweet("https://twitter.com/BettySLai/status/1455555111397117954")
+}
 ```
 
 
@@ -154,8 +158,10 @@ If you're having trouble with Canvas, you should first search the [Canvas Guides
 - **Obviously**, I can't recommend finding the materials online... 
 
 ```{r, echo=FALSE}
-"https://twitter.com/GaloAndStuff/status/1424818560417902604" %>%
-  try_include_tweet(omit_script = FALSE)
+if (!knitr::is_latex_output()) {
+  "https://twitter.com/GaloAndStuff/status/1424818560417902604" %>%
+    try_include_tweet(omit_script = FALSE)
+}
 ```
 
 ### Can...
