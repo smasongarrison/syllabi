@@ -76,38 +76,22 @@ This curve can only help your grade.
 
 The full table is provided below:
 
-\begin{table}
 
-\caption{(\#tab:unnamed-chunk-7)Full Table}
-\centering
-\begin{tabular}[t]{l|r}
-\hline
-Letter & Cutoff\\
-\hline
-A & 0.95\\
-\hline
-A- & 0.90\\
-\hline
-B+ & 0.87\\
-\hline
-B & 0.84\\
-\hline
-B- & 0.80\\
-\hline
-C+ & 0.77\\
-\hline
-C & 0.74\\
-\hline
-C- & 0.70\\
-\hline
-D+ & 0.67\\
-\hline
-D & 0.64\\
-\hline
-D- & 0.60\\
-\hline
-\end{tabular}
-\end{table}
+Table: (\#tab:unnamed-chunk-7)Full Table
+
+|Letter | Cutoff|
+|:------|------:|
+|A      |   0.95|
+|A-     |   0.90|
+|B+     |   0.87|
+|B      |   0.84|
+|B-     |   0.80|
+|C+     |   0.77|
+|C      |   0.74|
+|C-     |   0.70|
+|D+     |   0.67|
+|D      |   0.64|
+|D-     |   0.60|
 
 ### Curve Projections    {-}
 
@@ -128,28 +112,7 @@ It is a projection. It is not a guarantee. These projected letter grades are not
 ## Schedule {-}
 
 
-\begin{longtable}{ccp{3in}ll}
-\toprule
-module & start & topic & week & milestones\\
-\midrule
-1 & 08/22 & What is Personality & Week 01, 08/22 - 08/26 & NA\\
-2 & 08/29 & Personality Research Methods & Week 02, 08/29 - 09/02 & NA\\
-3 & 09/05 & Assessment, Evaluation, and Ethics & Week 03, 09/05 - 09/09 & Quiz\\
-4 & 09/12 & Trait Approach and Personality Judgment & Week 04, 09/12 - 09/16 & NA\\
-5 & 09/19 & Big Five & Week 05, 09/19 - 09/23 & NA\\
-\addlinespace
-6 & 09/26 & Personality over the Lifespan & Week 06, 09/26 - 09/30 & Quiz\\
-7 & 10/03 & Biological Approaches to Psychology & Week 07, 10/03 - 10/07 & Assignment\\
-8 & 10/10 & Behavior Genetics & Week 08, 10/10 - 10/14 & NA\\
-9 & 10/17 & Evolutionary Psychology & Week 09, 10/17 - 10/21 & NA\\
-10 & 10/24 & Cross-Cultural Psychology & Week 10, 10/24 - 10/28 & Quiz\\
-\addlinespace
-11 & 10/31 & Freud & Week 11, 10/31 - 11/04 & NA\\
-12 & 11/07 & Psychoanalysis After Freud & Week 12, 11/07 - 11/11 & Assignment\\
-13 & 11/14 & Personality Processes and Positive Psych & Week 13, 11/14 - 11/18 & Quiz\\
-14 & 11/21 & MiniModule on Personality, Big Data, and AI (Also, Thanksgiving Break!) & Week 14, 11/21 - 11/25 & NA\\
-15 & 11/28 & Personality and Health & Week 15, 11/28 - 12/02 & Quiz\\
-\addlinespace
-16 & 12/05 & NA & Week 16, 12/05 - 12/09 & Quiz and Assignment\\
-\bottomrule
-\end{longtable}
+```{=html}
+<div class="datatables html-widget html-fill-item" id="htmlwidget-40a0d3b55e598e2ab0ad" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-40a0d3b55e598e2ab0ad">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],["08/22","08/29","09/05","09/12","09/19","09/26","10/03","10/10","10/17","10/24","10/31","11/07","11/14","11/21","11/28","12/05"],["What is Personality","Personality Research Methods","Assessment, Evaluation, and Ethics","Trait Approach and Personality Judgment","Big Five","Personality over the Lifespan","Biological Approaches to Psychology","Behavior Genetics","Evolutionary Psychology","Cross-Cultural Psychology","Freud","Psychoanalysis After Freud","Personality Processes and Positive Psych","MiniModule on Personality, Big Data, and AI (Also, Thanksgiving Break!)","Personality and Health",null],["Week 01, 08/22 - 08/26","Week 02, 08/29 - 09/02","Week 03, 09/05 - 09/09","Week 04, 09/12 - 09/16","Week 05, 09/19 - 09/23","Week 06, 09/26 - 09/30","Week 07, 10/03 - 10/07","Week 08, 10/10 - 10/14","Week 09, 10/17 - 10/21","Week 10, 10/24 - 10/28","Week 11, 10/31 - 11/04","Week 12, 11/07 - 11/11","Week 13, 11/14 - 11/18","Week 14, 11/21 - 11/25","Week 15, 11/28 - 12/02","Week 16, 12/05 - 12/09"],[null,null,"Quiz",null,null,"Quiz","Assignment",null,null,"Quiz",null,"Assignment","Quiz",null,"Quiz","Quiz and Assignment"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n      <th>milestones<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0},{"name":"module","targets":0},{"name":"start","targets":1},{"name":"topic","targets":2},{"name":"week","targets":3},{"name":"milestones","targets":4}],"order":[],"orderClasses":false},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":[],"jsHooks":[]}</script>
+```

@@ -132,5 +132,4 @@ While Chrome is the preferred browser for most Canvas interactions, Canvas suppo
 
 **Tech Support Cheat Sheet**
 
-
-\includegraphics[width=10.17in]{img/tech_support_cheat_sheet} 
+![](https://imgs.xkcd.com/comics/tech_support_cheat_sheet.png)<!-- -->

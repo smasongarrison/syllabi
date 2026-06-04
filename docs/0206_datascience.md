@@ -169,28 +169,7 @@ To contract for a "P" or Pass in this course, you agree to:
 Note that I'll be using your contracts to guide my tinkering.
 
 
-\begin{tabular}{rllll}
-\toprule
-module & start & topic & week & milestones\\
-\midrule
-1 & 01/12 & What is Data Science and Meet the Toolkit & Week 01, 01/12 - 01/16 & NA\\
-2 & 01/19 & Data and Visualization & Week 02, 01/19 - 01/23 & Contract\\
-3 & 01/26 & Welcome to the Tidyverse & Week 03, 01/26 - 01/30 & NA\\
-4 & 02/02 & Data types and Data Transformations & Week 04, 02/02 - 02/06 & NA\\
-5 & 02/09 & Effective data visualization & Week 05, 02/09 - 02/13 & NA\\
-\addlinespace
-6 & 02/16 & Scientific Communication and confounding & Week 06, 02/16 - 02/20 & NA\\
-7 & 02/23 & Functions and Automation & Week 07, 02/23 - 02/27 & NA\\
-8 & 03/02 & Webscraping & Week 08, 03/02 - 03/06 & NA\\
-9 & 03/09 & Spring Break & Week 09, 03/09 - 03/13 & NA\\
-10 & 03/16 & Ethics & Week 10, 03/16 - 03/20 & NA\\
-\addlinespace
-11 & 03/23 & Tidy Models & Week 11, 03/23 - 03/27 & NA\\
-12 & 03/30 & Overfitting and Cross validation & Week 12, 03/30 - 04/03 & NA\\
-13 & 04/06 & Quantifying uncertainty & Week 13, 04/06 - 04/10 & NA\\
-14 & 04/13 & Rshiny & Week 14, 04/13 - 04/17 & NA\\
-15 & 04/20 & Machine Learning & Week 15, 04/20 - 04/24 & NA\\
-\addlinespace
-16 & 04/27 & Presentations & Week 16, 04/27 - 05/01 & Presentation\\
-\bottomrule
-\end{tabular}
+```{=html}
+<div class="datatables html-widget html-fill-item" id="htmlwidget-3072c7dcf4769e727faf" style="width:100%;height:auto;"></div>
+<script type="application/json" data-for="htmlwidget-3072c7dcf4769e727faf">{"x":{"filter":"none","vertical":false,"data":[[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],["01/12","01/19","01/26","02/02","02/09","02/16","02/23","03/02","03/09","03/16","03/23","03/30","04/06","04/13","04/20","04/27"],["What is Data Science and Meet the Toolkit","Data and Visualization","Welcome to the Tidyverse","Data types and Data Transformations","Effective data visualization","Scientific Communication and confounding","Functions and Automation","Webscraping","Spring Break","Ethics","Tidy Models","Overfitting and Cross validation","Quantifying uncertainty","Rshiny","Machine Learning","Presentations"],["Week 01, 01/12 - 01/16","Week 02, 01/19 - 01/23","Week 03, 01/26 - 01/30","Week 04, 02/02 - 02/06","Week 05, 02/09 - 02/13","Week 06, 02/16 - 02/20","Week 07, 02/23 - 02/27","Week 08, 03/02 - 03/06","Week 09, 03/09 - 03/13","Week 10, 03/16 - 03/20","Week 11, 03/23 - 03/27","Week 12, 03/30 - 04/03","Week 13, 04/06 - 04/10","Week 14, 04/13 - 04/17","Week 15, 04/20 - 04/24","Week 16, 04/27 - 05/01"],[null,"Contract",null,null,null,null,null,null,null,null,null,null,null,null,null,"Presentation"]],"container":"<table class=\"cell-border stripe\">\n  <thead>\n    <tr>\n      <th>module<\/th>\n      <th>start<\/th>\n      <th>topic<\/th>\n      <th>week<\/th>\n      <th>milestones<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"autoWidth":false,"bInfo":false,"paging":false,"columnDefs":[{"className":"dt-right","targets":0},{"name":"module","targets":0},{"name":"start","targets":1},{"name":"topic","targets":2},{"name":"week","targets":3},{"name":"milestones","targets":4}],"order":[],"orderClasses":false},"selection":{"mode":"multiple","selected":null,"target":"row","selectable":null}},"evals":[],"jsHooks":[]}</script>
+```
