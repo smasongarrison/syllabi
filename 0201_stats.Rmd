@@ -109,6 +109,8 @@ This course is designed to help students develop the conceptual background and p
 
 Morling, (5th Edition) Research Methods in Psychology <https://seagull.wwnorton.com/researchpsych5>
 
+Hartnett, (1st Edition) Psychological Statistics for Everyone <https://seagull.wwnorton.com/statistics>
+
 ## Course Assignments {.unnumbered}
 
 ### Grading Policy {.unnumbered}
