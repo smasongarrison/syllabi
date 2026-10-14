@@ -10,4 +10,4 @@
 
 [albano-class]: https://www.thetaminusb.com/intro-measurement-r/
 [noba]: https://nobaproject.com/
-[ytplaylist]: https://ytplaylist-len.herokuapp.com/
+[ytplaylist]: https://playlistduration.com/
