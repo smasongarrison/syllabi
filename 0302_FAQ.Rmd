@@ -223,7 +223,7 @@ You can search the Canvas Guides or contact the Canvas Support Helpline by click
 Troubleshooting is an essential skill. Please try basic troubleshooting to fix your problem. If you still have trouble, post the problem to the discussion board and clearly describe what you have already tried.
 
 ### How long are the videos?
-You can check the length of the module playlist using this website: https://ytplaylist-len.herokuapp.com/. Each module has 1 week worth of lectures.
+You can check the length of the module playlist using this website: https://playlistduration.com/. Each module has 1 week worth of lectures.
 
 ### Why are there so many videos?
 I've sliced up the content into smaller chunks. If you want to watch the entire module in one sitting, you can use the youtube playlist.
